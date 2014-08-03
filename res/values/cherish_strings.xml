@@ -341,4 +341,8 @@
     <string name="private_dns_mode_twnic" translatable="false">TW.NIC (TW)</string>
     <string name="private_dns_mode_uncensoreddns" translatable="false">UncensoredDNS (DK)</string>
     <string name="private_dns_mode_provider_failure">Couldn\'t connect</string>
+
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
 </resources>
