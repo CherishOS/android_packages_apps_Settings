@@ -18,6 +18,8 @@ package com.android.settings.dashboard;
 
 import android.util.ArrayMap;
 
+import com.cherish.settings.CherishSettings;
+
 import com.android.settings.DisplaySettings;
 import com.android.settings.LegalSettings;
 import com.android.settings.accounts.AccountDashboardFragment;
@@ -116,6 +118,8 @@ public class DashboardFragmentRegistry {
                 CategoryKey.CATEGORY_MY_DEVICE_INFO);
         PARENT_TO_CATEGORY_KEY_MAP.put(BatterySaverSettings.class.getName(),
                 CategoryKey.CATEGORY_BATTERY_SAVER_SETTINGS);
+        PARENT_TO_CATEGORY_KEY_MAP.put(CherishSettings.class.getName(),
+                CategoryKey.CATEGORY_SYSTEM_DEVELOPMENT);
 
         CATEGORY_KEY_TO_PARENT_MAP = new ArrayMap<>(PARENT_TO_CATEGORY_KEY_MAP.size());
 
