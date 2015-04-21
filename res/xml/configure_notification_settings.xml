@@ -195,5 +195,12 @@
             android:persistent="false"
             android:title="@string/notification_polite_title"
             settings:controller="com.android.settings.notification.PoliteNotificationsPreferenceController" />
+
+        <!-- Heads up -->
+        <com.cherish.settings.preferences.GlobalSettingSwitchPreference
+            android:key="heads_up_notifications_enabled"
+            android:order="27"
+            android:title="@string/heads_up_notifications_enabled_title"
+            android:summary="@string/heads_up_notifications_enabled_summary" />
     </PreferenceCategory>
 </PreferenceScreen>
