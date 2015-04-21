@@ -172,6 +172,13 @@
             android:title="@string/notification_badging_title"
             settings:controller="com.android.settings.notification.BadgingNotificationPreferenceController"/>
 
+        <!-- Heads up -->
+        <com.cherish.settings.preferences.GlobalSettingSwitchPreference
+            android:key="heads_up_notifications_enabled"
+            android:order="24"
+            android:title="@string/heads_up_notifications_enabled_title"
+            android:summary="@string/heads_up_notifications_enabled_summary" />
+
         <!-- Notification light, on devices that support it -->
         <Preference
             android:key="notification_lights"
