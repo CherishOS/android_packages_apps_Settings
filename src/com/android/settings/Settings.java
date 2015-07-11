@@ -242,4 +242,6 @@ public class Settings extends SettingsActivity {
     public static class MediaControlsSettingsActivity extends SettingsActivity {}
 
     public static class OmniJawsSettingsActivity extends SettingsActivity { /* empty */ }
+
+    public static class VolumeStepsFragmentActivity extends SettingsActivity { /* empty */ }
 }

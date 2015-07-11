@@ -81,4 +81,6 @@
 
     <string name="weather_title">Weather</string>
 
+    <string name="volumesteps_title">Volume Steps</string>
+
 </resources>

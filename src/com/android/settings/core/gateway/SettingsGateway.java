@@ -162,6 +162,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.cherish.settings.CherishSettings;
 import com.cherish.settings.fragments.OmniJawsSettings;
+import com.cherish.settings.fragments.VolumeStepsFragment;
 
 public class SettingsGateway {
 
@@ -311,8 +312,9 @@ public class SettingsGateway {
             InteractAcrossProfilesSettings.class.getName(),
             InteractAcrossProfilesDetails.class.getName(),
             MediaControlsSettings.class.getName(),
-            CherishSettings.class.getName()
-            OmniJawsSettings.class.getName()
+            CherishSettings.class.getName(),
+            OmniJawsSettings.class.getName(),
+            VolumeStepsFragment.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -354,5 +356,6 @@ public class SettingsGateway {
             UserBackupSettingsActivity.class.getName(),
             Settings.CherishSettingsActivity.class.getName(),
             Settings.OmniJawsSettingsActivity.class.getName(),
+            Settings.VolumeStepsFragmentActivity.class.getName(),
     };
             }
