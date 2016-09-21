@@ -459,10 +459,6 @@
             android:title="@string/overlay_display_devices_title"
             android:entries="@array/overlay_display_devices_entries"
             android:entryValues="@array/overlay_display_devices_values" />
-
-        <com.android.settings.display.DensityPreference
-            android:key="density"
-            android:title="@string/developer_smallest_width" />
     </PreferenceCategory>
 
     <PreferenceCategory
