@@ -43,6 +43,12 @@
         android:entries="@array/lock_after_timeout_entries"
         android:entryValues="@array/lock_after_timeout_values" />
 
+    <!-- available in pin/password -->
+    <SwitchPreference
+        android:key="lockscreen_quick_unlock_control"
+        android:title="@string/unlock_quick_unlock_control_title"
+        android:summary="@string/unlock_quick_unlock_control_summary" />
+
     <!-- available in pin/pattern/password -->
     <SwitchPreference
         android:key="power_button_instantly_locks"
