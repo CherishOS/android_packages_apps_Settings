@@ -44,10 +44,15 @@ android_library {
         "SettingsLib-search-defaults",
     ],
 
-    srcs: ["src/**/*.java"],
-    resource_dirs: [
-        "res",
-        "res-pixel",
+    srcs: ["src/**/*.java",
+           "CherishSettings/src/**/*.java",
+    ],
+	
+	aaptflags: ["--extra-packages com.cherish.settings"],
+	
+    resource_dirs: ["res",
+                    "CherishSettings/res",
+                    "res-pixel",
     ],
 
     static_libs: [
@@ -88,6 +93,10 @@ android_library {
         "ims-common",
         "app-compat-annotations",
     ],
+
+    optimize: {
+        proguard_flags_files: ["proguard.flags"],
+    },
 }
 
 platform_compat_config {
