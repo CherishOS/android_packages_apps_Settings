@@ -53,4 +53,8 @@
     <!-- Quad9 DNS hostname -->
     <string name="private_dns_hostname_quad9" translatable="false">dns.quad9.net</string>
 
+    <!--Cherish Settings-->
+    <string name="cherish_settings_title">Cherish Settings</string>
+    <string name="cherish_settings_summary">Happiness is not available and it comes from your own actions</string>
+
 </resources>
