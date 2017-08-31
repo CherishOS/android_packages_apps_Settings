@@ -51,6 +51,8 @@ import com.android.settings.supervision.SupervisionDashboardFragment;
 import com.android.settings.system.SystemDashboardFragment;
 import com.android.settingslib.drawer.CategoryKey;
 
+import com.cherish.settings.CherishSettings;
+
 import java.util.Map;
 
 /**
@@ -135,6 +137,8 @@ public class DashboardFragmentRegistry {
                 CategoryKey.CATEGORY_MORE_SECURITY_PRIVACY_SETTINGS);
         PARENT_TO_CATEGORY_KEY_MAP.put(SupervisionDashboardFragment.class.getName(),
                 CategoryKey.CATEGORY_SUPERVISION);
+        PARENT_TO_CATEGORY_KEY_MAP.put(CherishSettings.class.getName(),
+                CategoryKey.CATEGORY_SYSTEM_DEVELOPMENT);
 
         CATEGORY_KEY_TO_PARENT_MAP = new ArrayMap<>(PARENT_TO_CATEGORY_KEY_MAP.size());
 
