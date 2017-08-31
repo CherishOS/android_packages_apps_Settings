@@ -45,6 +45,15 @@
         android:icon="@drawable/ic_homepage_apps"
         android:order="-100"
         android:fragment="com.android.settings.applications.AppAndNotificationDashboardFragment"/>
+		
+		
+	<Preference
+        android:key="top_level_cherish"
+        android:title="@string/cherish_settings_title"
+        android:summary="@string/cherish_settings_summary"
+        android:icon="@drawable/ic_homepage_cherish"
+        android:order="-95"
+        android:fragment="com.cherish.settings.CherishSettings"/>
 
     <Preference
         android:key="top_level_battery"
