@@ -4510,6 +4510,20 @@
                   android:exported="false"
                   android:theme="@style/SudThemeGlif.Light">
         </activity>
+		
+		<!-- CherishSettings -->
+        <activity android:name=".Settings$CherishSettingsActivity"
+            android:label="@string/cherish_settings_title"
+            android:icon="@drawable/ic_homepage_cherish"
+            android:parentActivityName="com.android.settings"
+            android:exported="true">
+            <intent-filter android:priority="69">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.cherish.settings.CherishSettings" />
+        </activity>
 
         <activity
             android:name="Settings$OneHandedSettingsActivity"

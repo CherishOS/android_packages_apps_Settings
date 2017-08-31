@@ -59,6 +59,15 @@
         android:title="@string/apps_dashboard_title"
         android:summary="@string/app_and_notification_dashboard_summary"
         settings:highlightableMenuKey="@string/menu_key_apps"/>
+		
+	<com.android.settings.widget.HomepagePreference
+        android:key="top_level_cherish"
+        android:title="@string/cherish_settings_title"
+        android:summary="@string/cherish_settings_summary"
+        android:icon="@drawable/ic_cherish"
+        android:order="-125"
+        android:fragment="com.cherish.settings.CherishSettings"
+		settings:highlightableMenuKey="@string/menu_key_cherish"/>
 
     <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.notification.ConfigureNotificationSettings"
