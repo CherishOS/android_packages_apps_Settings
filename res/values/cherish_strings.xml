@@ -113,4 +113,8 @@
     <string name="face_unlock_method_default">When the screen is turned on</string>
     <string name="face_unlock_method_swipe">When swiping on lock screen</string>
 
+    <!--Cherish Settings-->
+    <string name="cherish_settings_title">Cherish Settings</string>
+    <string name="cherish_settings_summary">Happiness is not available and it comes from your own actions</string>
+
 </resources>
