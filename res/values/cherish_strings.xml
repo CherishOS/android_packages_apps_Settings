@@ -127,4 +127,11 @@
     <string name="lock_pattern_size_6" translatable="false">6 \u00d7 6</string>
     <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
 
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">High touch sensitivity</string>
+    <string name="high_touch_sensitivity_summary">Increase touchscreen sensitivity so it can be used while wearing gloves</string>
+
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Touchscreen hovering</string>
+    <string name="touchscreen_hovering_summary">Allows you to hover the screen like a mouse in web browsers, remote desktops, etc</string>
 </resources>

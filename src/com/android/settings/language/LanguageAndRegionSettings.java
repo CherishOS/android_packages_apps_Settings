@@ -32,6 +32,8 @@ import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.search.SearchIndexable;
 
+import com.android.internal.cherish.hardware.LineageHardwareManager;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -43,6 +45,7 @@ public class LanguageAndRegionSettings extends DashboardFragment {
     private static final String KEY_TEXT_TO_SPEECH = "tts_settings_summary";
 
     private static final String TAG = "LanguageAndRegionSettings";
+    private static final String KEY_TOUCH_HOVERING = "feature_touch_hovering";
 
     @Override
     public int getMetricsCategory() {
@@ -124,6 +127,16 @@ public class LanguageAndRegionSettings extends DashboardFragment {
                         return true;
                     }
                     return false;
+                }
+
+                @Override
+                public List<String> getNonIndexableKeys(Context context) {
+                    List<String> keys = super.getNonIndexableKeys(context);
+                    LineageHardwareManager hardware = LineageHardwareManager.getInstance(context);
+                    if (!hardware.isSupported(LineageHardwareManager.FEATURE_TOUCH_HOVERING)) {
+                        keys.add(KEY_TOUCH_HOVERING);
+                    }
+                    return keys;
                 }
             };
 }
