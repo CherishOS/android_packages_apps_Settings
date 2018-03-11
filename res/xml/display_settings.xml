@@ -204,6 +204,13 @@
             android:title="@string/display_cutout_emulation"
             settings:keywords="@string/display_cutout_emulation_keywords" />
 
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="high_touch_sensitivity_enable"
+            android:title="@string/high_touch_sensitivity_title"
+            android:summary="@string/high_touch_sensitivity_summary"
+            android:defaultValue="false"
+            settings:controller="com.android.settings.cherish.touch.HighTouchSensitivitySettingsPreferenceController" />
+
         <ListPreference
             android:key="theme"
             android:title="@string/device_theme"
