@@ -306,4 +306,6 @@
     <string name="battery_temp">Nhiệt độ pin</string>
     <!-- Translucent lockscreen notifications background -->
     <string name="translucent_lockscreen_notifications_bg_title">Thông báo mờ nền</string>
+    <!-- Cherish Maintainer -->
+    <string name="maintainer">Người chủ trì</string>
 </resources>
