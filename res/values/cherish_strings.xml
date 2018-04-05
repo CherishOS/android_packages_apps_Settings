@@ -83,4 +83,7 @@
 
     <string name="volumesteps_title">Volume Steps</string>
 
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+
 </resources>
