@@ -3590,5 +3590,9 @@
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.cherish.settings.fragments.GamingMode" />
         </activity>
+
+        <!-- This is the longest AndroidManifest.xml ever. -->
+        <!-- Hide Apps from Recents (HAFR) -->
+        <activity android:name="com.cherish.settings.fragments.HAFRAppListActivity" />
     </application>
 </manifest>
