@@ -292,4 +292,9 @@
 	<string name="smart_charging_reset_stats_title">Đặt lại thống kê pin</string>
     <string name="smart_charging_reset_stats_summary">Đặt lại thống kê pin sau khi đạt mức sạc do người dùng xác định</string>
     <string name="smart_charging_footer">Sạc thông minh cho phép bạn đặt mức sạc tối đa để kéo dài tuổi thọ của pin</string>
+    <!-- Adb over Network -->
+    <string name="adb_over_network">ADB qua mạng</string>
+    <string name="adb_over_network_summary">Cho phép gỡ lỗi TCP / IP qua các giao diện mạng (mạng Wi-Fi, USB). Cài đặt này được đặt lại khi khởi động lại</string>
+    <string name="adb_over_network_warning">CẢNH BÁO: Khi ADB qua mạng được bật, điện thoại của bạn sẽ mở để xâm nhập vào tất cả các mạng được kết nối, bao gồm cả mạng dữ liệu GSM!\n\ nChỉ sử dụng tính năng này khi bạn được kết nối trên các mạng đáng tin cậy.\n\nBạn có thực sự muốn bật không chức năng?</string>
+    <string name="adb_over_network_warning_title">Cho phép ADB qua mạng?</string>
 </resources>
