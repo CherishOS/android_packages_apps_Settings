@@ -93,6 +93,10 @@
     <string name="back_options_dialog_title">Tùy chọn</string>
     <string name="back_height_message">Số lượng chiều cao màn hình được sử dụng làm vùng có thể chạm cho cử chỉ quay lại.</string>
 
-
+    <!-- Custom light color -->
+    <string name="custom_light_title">Đèn màu</string>
+    <string name="custom_light_on_time_title">Thời gian bật sáng trong khi xung led (ms)</string>
+    <string name="custom_light_off_time_title">Thời gian tắt đèn trong khi xung led (ms)"</string>
+    <string name="value_equals_default">mặc định</string>
 
 </resources>
