@@ -245,5 +245,9 @@
 	
 	<!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">Show an animated arrow for back gesture.</string>
+	
+	<!-- CherishOS version preference -->
+    <string name="cherish_version">"CherishOS version"</string>
+    <string name="build_date">"Build date"</string>
 
 </resources>
