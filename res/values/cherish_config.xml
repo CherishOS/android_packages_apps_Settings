@@ -3,5 +3,8 @@
 
     <!-- Whether to show or hide sensitive info (like IMEI and Phone Number) on About phone -->
     <bool name="configShowDeviceSensitiveInfo">false</bool>
+	
+	<!-- Density category -->
+    <string name="density_category">Density options</string>
 
 </resources>
