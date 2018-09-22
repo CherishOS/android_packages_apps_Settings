@@ -78,6 +78,6 @@ public class DisableAutomaticUpdatesPreferenceController extends
 
     @Override
     public boolean isAvailable() {
-        return SystemProperties.getBoolean("ro.build.ab_update", false);
+        return false;
     }
 }
