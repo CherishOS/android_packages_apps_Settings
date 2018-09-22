@@ -61,15 +61,18 @@
             android:fragment="com.android.settings.display.ToggleFontSizePreferenceFragment"
             android:key="font_size"
             android:title="@string/title_font_size"
-            settings:controller="com.android.settings.display.FontSizePreferenceController"
-            settings:keywords="@string/keywords_font_size" />
+            settings:controller="com.android.settings.display.FontSizePreferenceController"/>
 
         <com.android.settings.display.ScreenZoomPreference
             android:fragment="com.android.settings.display.ScreenZoomSettings"
             android:key="display_settings_screen_zoom"
             android:title="@string/screen_zoom_title"
-            settings:keywords="@string/keywords_display_size" />
+            settings:searchable="false"/>
 
+
+        <com.android.settings.display.DensityPreference
+            android:key="density"
+            android:title="@string/developer_smallest_width" />
     </PreferenceCategory>
 
     <PreferenceCategory
