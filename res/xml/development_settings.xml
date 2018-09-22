@@ -570,9 +570,9 @@
             android:summary="@string/summary_placeholder"
             android:title="@string/shade_display_awareness_title" />
 
-        <com.android.settings.display.DensityPreference
+        <!-- <com.android.settings.display.DensityPreference
             android:key="density"
-            android:title="@string/developer_smallest_width" />
+            android:title="@string/developer_smallest_width" /> -->
 
         <ListPreference
             android:key="display_cutout_emulation"
