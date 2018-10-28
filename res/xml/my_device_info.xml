@@ -57,7 +57,7 @@
         android:title="@string/my_device_info_account_preference_title"
         settings:controller="com.android.settings.deviceinfo.BrandedAccountPreferenceController" />
 
-    <!-- SELinux status information -->
+    <!-- SELinux status information here -->
     <Preference
         android:key="selinux_status"
         android:layout="@layout/cherish_preference_bottom_card"
@@ -218,5 +218,4 @@
         android:selectable="false"
         android:summary="@string/summary_placeholder"
         android:title="@string/status_up_time" />
-
 </PreferenceScreen>
