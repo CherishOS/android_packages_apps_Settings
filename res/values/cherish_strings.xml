@@ -35,8 +35,13 @@
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
 
+<<<<<<< HEAD:res/values/cherish_strings.xml
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Reset stats</string>
     <string name="battery_stats_message">Battery history stats are going to be reset</string>
+=======
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Battery temperature</string>
+>>>>>>> 3ddfbafb40... Settings: Battery stats: Display battery temperature:res/values/superior_strings.xml
 
 </resources>
