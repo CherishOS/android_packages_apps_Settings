@@ -374,7 +374,9 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
                 mStatsHelper.getStats(), elapsedRealtimeUs, false);
         updateHeaderPreference(batteryInfo);
         mBatteryTemp.setSummary(
-                com.android.internal.util.cherish.CherishUtils.batteryTemperature(getContext(), false));
+                com.android.internal.util.cherish.CherishUtils.mccCheck(getContext()) ?
+                com.android.internal.util.cherish.CherishUtils.batteryTemperature(getContext(), true) + "°F" :
+                com.android.internal.util.cherish.CherishUtils.batteryTemperature(getContext(), false) + "°C");
     }
 
     @VisibleForTesting
