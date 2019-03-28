@@ -382,4 +382,9 @@
     <string name="refresh_rate_title">Tần số quét của màn hình</string>
     <string name="refresh_rate_auto">Tự động</string>
     <string name="refresh_rate_60">60Hz (tiết kiệm pin)</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Sạc thông minh</string>
+    <string name="smart_charging_summary">Thiết lập sạc thông minh mức thấp nhất</string>
+    <string name="smart_charging_switch_title">Sử dụng sạc thông minh</string>
+    <string name="smart_charging_level_title">Mức độ kích hoạt</string>
 </resources>
