@@ -167,6 +167,7 @@ import com.android.settings.wifi.details.WifiNetworkDetailsFragment;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSettings2;
 import com.android.settings.wifi.tether.WifiTetherSettings;
+import com.android.settings.livedisplay.LiveDisplaySettings;
 
 import com.cherish.settings.CherishSettings;
 import ink.kscope.settings.wifi.tether.WifiTetherClientManager;
@@ -328,7 +329,8 @@ public class SettingsGateway {
             AlarmsAndRemindersDetails.class.getName(),
             MediaManagementAppsDetails.class.getName(),
             CherishSettings.class.getName(),
-            WifiTetherClientManager.class.getName()
+            WifiTetherClientManager.class.getName(),
+            LiveDisplaySettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
