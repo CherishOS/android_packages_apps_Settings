@@ -244,4 +244,7 @@ public class Settings extends SettingsActivity {
     public static class OmniJawsSettingsActivity extends SettingsActivity { /* empty */ }
 
     public static class VolumeStepsFragmentActivity extends SettingsActivity { /* empty */ }
+
+    // LiveDisplay
+    public static class LiveDisplaySettingsActivity extends SettingsActivity { /* empty */ }
 }

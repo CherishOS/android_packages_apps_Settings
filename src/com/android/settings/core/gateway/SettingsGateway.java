@@ -163,6 +163,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 import com.cherish.settings.CherishSettings;
 import com.cherish.settings.fragments.OmniJawsSettings;
 import com.cherish.settings.fragments.VolumeStepsFragment;
+import com.android.settings.livedisplay.LiveDisplaySettings;
 
 public class SettingsGateway {
 
@@ -314,7 +315,8 @@ public class SettingsGateway {
             MediaControlsSettings.class.getName(),
             CherishSettings.class.getName(),
             OmniJawsSettings.class.getName(),
-            VolumeStepsFragment.class.getName()
+            VolumeStepsFragment.class.getName(),
+            LiveDisplaySettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
