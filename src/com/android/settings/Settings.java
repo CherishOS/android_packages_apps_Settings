@@ -180,4 +180,7 @@ public class Settings extends SettingsActivity {
 
     // Cherish Settings
     public static class CherishSettingsActivity extends SettingsActivity {}
+	
+    // LiveDisplay
+    public static class LiveDisplaySettingsActivity extends SettingsActivity { /* empty */ }
 }
