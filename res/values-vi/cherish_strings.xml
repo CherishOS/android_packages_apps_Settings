@@ -386,5 +386,6 @@
     <string name="smart_charging_title">Sạc thông minh</string>
     <string name="smart_charging_summary">Thiết lập sạc thông minh mức thấp nhất</string>
     <string name="smart_charging_switch_title">Sử dụng sạc thông minh</string>
-    <string name="smart_charging_level_title">Mức độ kích hoạt</string>
+    <string name="smart_charging_level_title">Dừng mức độ kích hoạt</string>
+    <string name="smart_charging_resume_level_title">Bắt đầu mức độ kích hoạt</string>
 </resources>
