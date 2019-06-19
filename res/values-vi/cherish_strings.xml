@@ -287,6 +287,7 @@
     <string name="smart_charging_title">Sạc thông minh</string>
     <string name="smart_charging_summary">Đặt mức sạc tối đa</string>
     <string name="smart_charging_switch_title">Sử dụng sạc thông minh</string>
-    <string name="smart_charging_level_title">Mức độ kích hoạt</string>
+    <string name="smart_charging_level_title">Dừng mức kích hoạt</string>
+    <string name="smart_charging_resume_level_title">Bắt đầu cấp độ kích hoạt</string>
     <string name="smart_charging_footer">Sạc thông minh cho phép bạn đặt mức sạc tối đa để kéo dài tuổi thọ của pin</string>
 </resources>
