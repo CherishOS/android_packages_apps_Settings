@@ -218,6 +218,7 @@ import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSetting
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.cherish.settings.CherishSettings;
+import com.cherish.settings.fragments.SmartPixels;
 
 import con.android.settings.wifi.tether.WifiTetherClientManager;
 
@@ -427,7 +428,8 @@ public class SettingsGateway {
             ToggleScreenMagnificationPreferenceFragment.class.getName(),
             FlashNotificationsPreferenceFragment.class.getName(),
             CherishSettings.class.getName(),
-            WifiTetherClientManager.class.getName()
+            WifiTetherClientManager.class.getName(),
+            SmartPixels.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -475,5 +477,6 @@ public class SettingsGateway {
             Settings.MemtagPageActivity.class.getName(),
             Settings.NavigationModeSettingsActivity.class.getName(),
             Settings.CherishSettingsActivity.class.getName(),
+            Settings.SmartPixelsActivity.class.getName(),
     };
             }
