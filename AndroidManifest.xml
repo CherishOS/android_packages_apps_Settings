@@ -4617,5 +4617,18 @@
             </intent-filter>
         </activity>
         <!-- This is the longest AndroidManifest.xml ever. -->
+
+        <activity android:name=".Settings$SmartPixelsActivity"
+            android:label="@string/smart_pixels_title"
+            android:taskAffinity="com.android.settings"
+            android:exported="true"
+            android:parentActivityName="Settings">
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.SMART_PIXELS_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.cherish.settings.fragments.SmartPixels" />
+        </activity>
     </application>
 </manifest>
