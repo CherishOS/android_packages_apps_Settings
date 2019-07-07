@@ -165,6 +165,7 @@ import com.cherish.settings.fragments.OmniJawsSettings;
 import com.cherish.settings.fragments.VolumeStepsFragment;
 import com.android.settings.livedisplay.LiveDisplaySettings;
 import com.cherish.settings.fragments.GamingMode;
+import com.cherish.settings.fragments.SmartPixels;
 
 public class SettingsGateway {
 
@@ -319,6 +320,7 @@ public class SettingsGateway {
             VolumeStepsFragment.class.getName(),
             LiveDisplaySettings.class.getName(),
             GamingMode.class.getName(),
+            SmartPixels.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -362,5 +364,6 @@ public class SettingsGateway {
             Settings.OmniJawsSettingsActivity.class.getName(),
             Settings.VolumeStepsFragmentActivity.class.getName(),
             Settings.GamingModeActivity.class.getName(),
+            Settings.SmartPixelsActivity.class.getName(),
     };
 }
