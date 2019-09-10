@@ -74,6 +74,7 @@
 -dontwarn androidx.window.extensions.**
 
 # Custom rules
+
 -keep class com.google.** { *; }
 -keep class vendor.** { *; }
 -keep class com.android.wsuinterface.** { *; }
@@ -84,3 +85,5 @@
 -keep class **.R$* {
     <fields>;
 }
+
+-keep class com.google.android.settings.** { *; }
