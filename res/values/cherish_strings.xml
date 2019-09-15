@@ -480,5 +480,8 @@
 
     <!-- Custom Wi-Fi bar icons -->
     <string name="custom_wifi_bar_title">Wi-Fi</string>
+	
+	<!-- Themes customisation -->
+    <string name="theme_customization_systemui_title">System themes</string>
 
 </resources>
