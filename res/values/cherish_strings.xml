@@ -15,5 +15,8 @@
 
     <!-- Maintainer -->
     <string name="maintainer">Maintainer</string>
+	
+	<!-- Battery temperature -->
+    <string name="battery_temp">Battery temperature</string>
 
 </resources>
