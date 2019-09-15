@@ -136,5 +136,8 @@
     <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
     <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
     <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
+	
+	<!-- Battery temperature -->
+    <string name="battery_temp">Battery temperature</string>
 
 </resources>
