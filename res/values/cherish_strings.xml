@@ -364,4 +364,7 @@
     <string name="face_unlock_method_default">When the screen is turned on</string>
     <string name="face_unlock_method_swipe">When swiping on lock screen</string>
 
+    <!-- Battery temperature -->
+    <string name="battery_temp">Battery temperature</string>
+
 </resources>
