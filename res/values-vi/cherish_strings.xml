@@ -86,4 +86,11 @@
     <string name="selinux_status_disabled">Tắt</string>
     <string name="selinux_status_permissive">Cho phép</string>
     <string name="selinux_status_enforcing">Thực thi</string>
+	  
+    <!-- Back Gesture Height -->
+    <string name="back_height_low_label">Tất cả</string>
+    <string name="back_height_high_label">Dưới cùng</string>
+    <string name="back_options_dialog_title">Tùy chọn</string>
+    <string name="back_height_message">Số lượng chiều cao màn hình được sử dụng làm vùng có thể chạm cho cử chỉ quay lại.</string>
+
 </resources>
