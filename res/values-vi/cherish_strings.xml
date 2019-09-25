@@ -80,4 +80,10 @@
     <!--Cherish Settings-->
     <string name="cherish_settings_title">Thông Điệp Yêu Thương</string>
     <string name="cherish_settings_summary">Nơi nào tồn tại sự sống thì nơi đó có tình yêu!</string>
+
+	<!-- SELinux Status Info -->
+    <string name="selinux_status">Trạng thái SELinux</string>
+    <string name="selinux_status_disabled">Tắt</string>
+    <string name="selinux_status_permissive">Cho phép</string>
+    <string name="selinux_status_enforcing">Thực thi</string>
 </resources>
