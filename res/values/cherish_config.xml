@@ -6,5 +6,8 @@
 	
 	<!-- Density category -->
     <string name="density_category">Density options</string>
+	
+	<!-- Whether the given language capitalizes nouns -->
+    <bool name="language_capitalizes_nouns">false</bool>
 
 </resources>
