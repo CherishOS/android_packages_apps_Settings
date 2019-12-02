@@ -24,8 +24,9 @@
 <PreferenceScreen
     android:layout="@layout/cherish_logo"
     android:key="cherish_logo" />
-
-    <!-- Android version -->
+	
+	
+	<!-- Android version -->
     <Preference
         android:key="os_firmware_version"
         android:title="@string/firmware_version"
@@ -41,6 +42,15 @@
          android:summary="@string/summary_placeholder"
          settings:enableCopying="true"
          settings:controller="com.android.settings.deviceinfo.firmwareversion.CherishVersionPreferenceController"/>
+		 
+	<!-- Device Name -->
+    <Preference
+        android:key="about_device_name"
+        android:title="@string/about_device_name"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        android:selectable="false"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.AboutDeviceNamePreferenceController"/>
 
     <!-- Maintainer -->
     <Preference
