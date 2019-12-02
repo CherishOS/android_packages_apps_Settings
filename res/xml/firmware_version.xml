@@ -45,6 +45,15 @@
 		android:selectable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.BuildDatePreferenceController"/>
 
+    <!-- Device name -->
+    <Preference
+        android:key="about_device_name"
+        android:title="@string/about_device_name"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        android:selectable="false"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.AboutDeviceNamePreferenceController"/>
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"

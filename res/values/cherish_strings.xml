@@ -18,6 +18,7 @@
     <string name="keywords_cherish_version">Cherish version</string>
 
     <!-- About phone screen, build date -->
+    <string name="about_device_name">Device</string>
     <string name="build_date">Build date</string>
     <string name="build_date_default">2015-01-01-0000</string>
     <string name="keywords_build_date">build date, build info</string>
