@@ -84,10 +84,6 @@
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Saved Earbuds</string>
 
-    <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
-    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
-
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Adaptive playback</string>
     <string name="adaptive_playback_disabled_summary">Off</string>
@@ -329,6 +325,10 @@
          is unavailable, the preference selection will be disabled. [CHAR LIMIT=NONE] -->
     <string name="mobile_data_settings_summary_unavailable">No SIM card available</string>
 	
-	<string name="hide_notch_title">Hide notch</string>
+	<!-- Notch -->
+    <string name="notch_category_title">Notch options</string>
+    <string name="hide_notch_title">Hide notch</string>
     <string name="hide_notch_summary">Apps can not use the notch area</string>
+    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
 </resources>
