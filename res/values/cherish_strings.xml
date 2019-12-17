@@ -86,4 +86,8 @@
     <string name="refresh_rate_summary_90">90Hz / Refresh rate locked at 90Hz for all content. Increased battery usage</string>
     <string name="auto_refresh_rate">Auto</string>
 
+    <!--Cherish Settings-->
+    <string name="cherish_settings_title">Cherish Settings</string>
+    <string name="cherish_settings_summary">Where there exists life, there is love!</string>
+
 </resources>

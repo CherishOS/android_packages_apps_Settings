@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2007 The Android Open Source Project
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -77,4 +77,7 @@
     <string name="refresh_rate_summary_60">60Hz / Tốc độ làm mới bị khóa ở 60Hz cho tất cả nội dung</string>
     <string name="refresh_rate_summary_90">90Hz / Tốc độ làm mới bị khóa ở 90Hz cho tất cả nội dung.  Tăng mức sử dụng pin</string>
     <string name="auto_refresh_rate">Tự động</string>
+    <!--Cherish Settings-->
+    <string name="cherish_settings_title">Thông Điệp Yêu Thương</string>
+    <string name="cherish_settings_summary">Nơi nào tồn tại sự sống thì nơi đó có tình yêu!</string>
 </resources>
