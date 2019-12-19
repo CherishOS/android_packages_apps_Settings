@@ -230,6 +230,19 @@
           android:summary="%s"/>
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="extra_volume_features"
+        android:title="@string/extra_volume_features_title">
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="resume_audio_stream"
+            android:icon="@drawable/ic_resume_audio_stream"
+            android:title="@string/resume_audio_stream_title"
+            android:summary="@string/resume_audio_stream_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
     <com.android.settings.widget.WorkOnlyCategory
         android:key="sound_work_settings_section"
         android:title="@string/sound_work_settings"

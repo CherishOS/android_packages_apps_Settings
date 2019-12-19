@@ -310,5 +310,10 @@
     <string name="hide_notch_summary">Apps can not use the notch area</string>
     <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
     <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+	
+	<!-- volume cool stuff -->
+    <string name="extra_volume_features_title">Audio handling</string>
+    <string name="resume_audio_stream_title">Resume audio</string>
+    <string name="resume_audio_stream_summary">Automatically resume audio if it was paused due to user interaction over volume (bringing the volume bar to zero)</string>
 
 </resources>
