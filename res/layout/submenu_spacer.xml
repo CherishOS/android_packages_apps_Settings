@@ -15,7 +15,7 @@
      limitations under the License.
 -->
 
-<com.google.android.material.card.MaterialCardView
+<androidx.cardview.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/settings_submenu_spacer"
@@ -32,4 +32,4 @@
         android:layout_gravity="center"
         android:text="@string/settings_label" />
 
-</com.google.android.material.card.MaterialCardView>
+</androidx.cardview.widget.CardView>
