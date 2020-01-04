@@ -214,4 +214,8 @@
     <string name="storage_card_title">Storage</string>
     <string name="storage_card_info">Occupied</string>
     <string name="about_device_rom_title">CherishOS %s</string>
+
+    <!-- Gestures: Touchscreen gestures -->
+    <string name="touchscreen_gesture_settings_title">Touchscreen gestures</string>
+    <string name="touchscreen_gesture_settings_summary">Perform various touchscreen gestures for quick actions</string>
 </resources>
