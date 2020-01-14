@@ -101,6 +101,8 @@ public class DisplaySettings extends DashboardFragment {
 				"android.theme.customization.statusbar_height"));
 		 controllers.add(new OverlayCategoryPreferenceController(context,
 				"android.theme.customization.ui_radius"));
+        controllers.add(new OverlayCategoryPreferenceController(context,
+                "android.theme.customization.icon_pack.android"));
         return controllers;
     }
 
