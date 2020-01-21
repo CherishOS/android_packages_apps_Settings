@@ -33,6 +33,12 @@
             android:selectable="true"
             settings:textStart="@string/hide_label"
             settings:textEnd="@string/long_label"/>
+
+        <com.cherish.settings.preferences.SecureSettingSwitchPreference
+            android:key="show_back_arrow_gesture"
+            android:title="@string/back_gesture_arrow_message"
+            android:summary="@string/back_gesture_arrow_summary"
+            android:defaultValue="true" />
     </PreferenceCategory>
 
     <PreferenceCategory
