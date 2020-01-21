@@ -90,6 +90,12 @@
             android:title="@string/navbar_gesture_tweaks_pref_title"
             android:summary="@string/navbar_gesture_tweaks_pref_summary"
             android:fragment="com.android.settings.gestures.GestureTweaksSettings" />
+			
+		<com.cherish.settings.preferences.SecureSettingSwitchPreference
+            android:key="show_back_arrow_gesture"
+            android:title="@string/back_gesture_arrow_message"
+            android:summary="@string/back_gesture_arrow_summary"
+            android:defaultValue="true" />
 
         <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="fullscreen_gestures"
