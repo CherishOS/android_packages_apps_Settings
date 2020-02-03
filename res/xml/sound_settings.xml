@@ -131,16 +131,17 @@
         android:order="-132"
         settings:controller="com.android.settings.notification.IncreasingRingVolumePreferenceController" />
 
-    <!-- Also vibrate for calls -->
+    <!-- Haptics -->
     <Preference
-        android:fragment="com.android.settings.sound.VibrateForCallsPreferenceFragment"
-        android:key="vibrate_for_calls"
-        android:icon="@drawable/ic_calls_and_vibration"
-        android:layout="@layout/cherish_preference_top_card"
-        android:title="@string/vibrate_when_ringing_title"
+	    android:fragment="com.android.settings.notification.VibrationSettingsPreferenceFragment"
+        android:key="vibration_preferences_fragment"
+        android:title="@string/vibration_preferences"
+		android:layout="@layout/cherish_preference_top_card"
         android:order="-131"
-        settings:controller="com.android.settings.sound.VibrateForCallsPreferenceController"
-        settings:keywords="@string/keywords_vibrate_for_calls"/>
+        android:summary="@string/summary_vibration_preferences"
+        settings:allowDividerAbove="true"
+        settings:keywords="@string/keywords_vibration_preferences"
+        android:icon="@drawable/ic_calls_and_vibration"/>
 
     <!-- Interruptions -->
     <com.android.settingslib.RestrictedPreference
@@ -152,7 +153,6 @@
         android:order="-129"
         settings:useAdminDisabledSummary="true"
         settings:keywords="@string/keywords_sounds_and_notifications_interruptions"
-        settings:allowDividerAbove="true"
         settings:controller="com.android.settings.notification.zen.ZenModePreferenceController"/>
 
     <Preference
@@ -246,18 +246,10 @@
           android:title="@string/other_sound_category_preference_title"
           android:order="-114">
 
-        <!-- Vibrate on touch -->
-        <SwitchPreference
-          android:key="vibrate_on_touch"
-          android:layout="@layout/cherish_preference_top_card"
-          android:title="@string/vibrate_on_touch_title"
-          android:summary="@string/vibrate_on_touch_summary"
-          settings:keywords="@string/keywords_vibrate_on_touch"/>
-
         <!-- Dial pad tones -->
         <SwitchPreference
           android:key="dial_pad_tones"
-          android:layout="@layout/cherish_preference_middle_card"
+          android:layout="@layout/cherish_preference_top_card"
           android:title="@string/dial_pad_tones_title"/>
 
         <!-- Screen locking sounds -->
