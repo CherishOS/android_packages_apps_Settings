@@ -42,7 +42,7 @@ public class CherishVersionDetailPreferenceController extends BasePreferenceCont
     private static final int ACTIVITY_TRIGGER_COUNT = 3;
 
     private static final String KEY_CHERISH_VERSION_PROP = "ro.cherish.version";
-    private static final String KEY_EXUI_BUILDTYPE_PROP = "ro.cherish.build_type";
+    private static final String KEY_CHERISH_BUILDTYPE_PROP = "ro.cherish.build_type";
     private final UserManager mUserManager;
     private final long[] mHits = new long[ACTIVITY_TRIGGER_COUNT];
 
@@ -63,7 +63,7 @@ public class CherishVersionDetailPreferenceController extends BasePreferenceCont
     @Override
     public CharSequence getSummary() {
         return SystemProperties.get(KEY_CHERISH_VERSION_PROP,
-                mContext.getString(R.string.unknown)) + "-" + SystemProperties.get(KEY_CHERISH_BUILDTYPE_PROP, mContext.getString(R.string.unknown));a
+                mContext.getString(R.string.unknown)) + " | " + SystemProperties.get(KEY_CHERISH_BUILDTYPE_PROP, mContext.getString(R.string.unknown));
     }
 
     @Override
