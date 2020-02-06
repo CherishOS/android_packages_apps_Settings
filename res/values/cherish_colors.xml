@@ -12,7 +12,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <color name="homepage_cherish_background">#FF3366</color>
+    <color name="homepage_cherish_background">#FFC9CF</color>
 
     <!-- DashBoard Custom Colors -->
     <color name="cherish_dashboard_wireless">#B3E5FC</color>
