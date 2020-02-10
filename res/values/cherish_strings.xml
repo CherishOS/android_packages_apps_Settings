@@ -315,5 +315,10 @@
     <string name="extra_volume_features_title">Audio handling</string>
     <string name="resume_audio_stream_title">Resume audio</string>
     <string name="resume_audio_stream_summary">Automatically resume audio if it was paused due to user interaction over volume (bringing the volume bar to zero)</string>
+	
+	<!-- Expand immediately -->
+    <string name="extra_volume_ui_features_title">Volume interface extras</string>
+    <string name="expand_immediately_title">Enable expand button in volume panel</string>
+    <string name="expand_immediately_summary">Show an extra button in volume panel that will let you expand it to multirows directly, without having to interact with the half-hidden bar</string>
 
 </resources>

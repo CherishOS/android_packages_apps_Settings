@@ -231,6 +231,19 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="extra_volume_ui_features"
+        android:title="@string/extra_volume_ui_features_title">
+
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="expand_immediately"
+            android:icon="@drawable/ic_expand_immediately"
+            android:title="@string/expand_immediately_title"
+            android:summary="@string/expand_immediately_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="extra_volume_features"
         android:title="@string/extra_volume_features_title">
 
