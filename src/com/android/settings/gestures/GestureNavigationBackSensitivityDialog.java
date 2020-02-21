@@ -39,6 +39,7 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
     private boolean mArrowSwitchChecked;
     private boolean mGesturePillSwitchChecked;
     private boolean mBlockIMESwitchChecked;
+    private boolean mHapticSwitchChecked;
 
     private static final String TAG = "GestureNavigationBackSensitivityDialog";
     private static final String KEY_BACK_SENSITIVITY = "back_sensitivity";
@@ -102,6 +103,16 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
                 mBlockIMESwitchChecked = imeSwitch.isChecked() ? true : false;
             }
         });
+        final Switch hapticSwitch = view.findViewById(R.id.back_gesture_haptic);
+        mHapticSwitchChecked = Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.BACK_GESTURE_HAPTIC, 1) == 1;
+        hapticSwitch.setChecked(mHapticSwitchChecked);
+        hapticSwitch.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mHapticSwitchChecked = hapticSwitch.isChecked() ? true : false;
+            }
+        });
         return new AlertDialog.Builder(getContext())
                 .setTitle(R.string.back_options_dialog_title)
                 .setMessage(R.string.back_sensitivity_dialog_message)
@@ -123,6 +134,8 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
                             getOverlayManager(), SystemNavigationGestureSettings.getCurrentSystemNavigationMode(getActivity()));
                     Settings.System.putInt(getActivity().getContentResolver(),
                             Settings.System.BACK_GESTURE_BLOCK_IME, mBlockIMESwitchChecked ? 1 : 0);
+                    Settings.System.putInt(getContext().getContentResolver(),
+                            Settings.System.BACK_GESTURE_HAPTIC, mHapticSwitchChecked ? 1 : 0);
                 })
                 .create();
     }

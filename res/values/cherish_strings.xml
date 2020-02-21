@@ -420,4 +420,8 @@
 	<!-- SBC HD (Dual Channel) priority -->
     <string name="sbc_hd_priority_title">SBC HD audio</string>
     <string name="sbc_hd_priority_summary">Whether to use Dual Channel mode for SBC codec by default</string>
+	
+	<!-- Back gesture vibration -->
+    <string name="back_gesture_haptic_title">Haptic feedback</string>
+    <string name="back_gesture_haptic_message">Enable haptic feedback for back gesture</string>
 </resources>
