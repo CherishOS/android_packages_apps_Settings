@@ -284,15 +284,6 @@
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Đặt lại số liệu thống kê</string>
     <string name="battery_stats_message">Số liệu thống kê lịch sử pin sẽ được thiết lập lại</string>
-    <!-- Smart charging -->
-    <string name="smart_charging_title">Sạc thông minh</string>
-    <string name="smart_charging_summary">Đặt mức sạc tối đa</string>
-    <string name="smart_charging_switch_title">Sử dụng sạc thông minh</string>
-    <string name="smart_charging_level_title">Dừng mức kích hoạt</string>
-    <string name="smart_charging_resume_level_title">Bắt đầu cấp độ kích hoạt</string>
-    <string name="smart_charging_reset_stats_title">Đặt lại thống kê pin</string>
-    <string name="smart_charging_reset_stats_summary">Đặt lại thống kê pin sau khi đạt mức sạc do người dùng xác định</string>
-    <string name="smart_charging_footer">Sạc thông minh cho phép bạn đặt mức sạc tối đa để kéo dài tuổi thọ của pin</string>
     <!-- Adb over Network -->
     <string name="adb_over_network">ADB qua mạng</string>
     <string name="adb_over_network_summary">Cho phép gỡ lỗi TCP / IP qua các giao diện mạng (mạng Wi-Fi, USB). Cài đặt này được đặt lại khi khởi động lại</string>
