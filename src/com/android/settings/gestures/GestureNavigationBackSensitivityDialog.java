@@ -35,7 +35,6 @@ import com.android.settings.core.instrumentation.InstrumentedDialogFragment;
  * Dialog to set the back gesture's sensitivity in Gesture navigation mode.
  */
 public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFragment {
-
     private boolean mArrowSwitchChecked;
     private boolean mGesturePillSwitchChecked;
     private boolean mBlockIMESwitchChecked;
@@ -44,8 +43,9 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
     private static final String TAG = "GestureNavigationBackSensitivityDialog";
     private static final String KEY_BACK_SENSITIVITY = "back_sensitivity";
     private static final String KEY_BACK_HEIGHT = "back_height";
+	 private static final String KEY_HOME_HANDLE_SIZE = "home_handle_width";
 
-    public static void show(SystemNavigationGestureSettings parent, int sensitivity, int height) {
+    public static void show(SystemNavigationGestureSettings parent, int sensitivity, int height, int length) {
         if (!parent.isAdded()) {
             return;
         }
@@ -55,6 +55,7 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
         final Bundle bundle = new Bundle();
         bundle.putInt(KEY_BACK_SENSITIVITY, sensitivity);
         bundle.putInt(KEY_BACK_HEIGHT, height);
+        bundle.putInt(KEY_HOME_HANDLE_SIZE, length);
         dialog.setArguments(bundle);
         dialog.setTargetFragment(parent, 0);
         dialog.show(parent.getFragmentManager(), TAG);
@@ -73,6 +74,8 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
         seekBarSensitivity.setProgress(getArguments().getInt(KEY_BACK_SENSITIVITY));
         final SeekBar seekBarHeight = view.findViewById(R.id.back_height_seekbar);
         seekBarHeight.setProgress(getArguments().getInt(KEY_BACK_HEIGHT));
+        final SeekBar seekBarHandleSize = view.findViewById(R.id.home_handle_seekbar);
+        seekBarHandleSize.setProgress(getArguments().getInt(KEY_HOME_HANDLE_SIZE));
         final Switch arrowSwitch = view.findViewById(R.id.back_arrow_gesture_switch);
         mArrowSwitchChecked = Settings.Secure.getInt(getActivity().getContentResolver(),
                 Settings.Secure.SHOW_BACK_ARROW_GESTURE, 1) == 1;
@@ -121,7 +124,10 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
                     getArguments().putInt(KEY_BACK_SENSITIVITY, sensitivity);
                     int height = seekBarHeight.getProgress();
                     getArguments().putInt(KEY_BACK_HEIGHT, height);
+                    int length = seekBarHandleSize.getProgress();
+                    getArguments().putInt(KEY_HOME_HANDLE_SIZE, length);
                     SystemNavigationGestureSettings.setBackHeight(getActivity(), height);
+                    SystemNavigationGestureSettings.setHomeHandleSize(getActivity(), length);
                     SystemNavigationGestureSettings.setBackSensitivity(getActivity(),
                             getOverlayManager(), sensitivity);
                     Settings.Secure.putInt(getActivity().getContentResolver(),
