@@ -82,6 +82,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private static final String KEY_NAV_MENU_ARROW_KEYS = "navigation_bar_menu_arrow_keys";
     private static final String KEY_NAV_INVERSE = "navbar_inverse";
     private static final String KEY_NAV_GESTURES = "navbar_gestures";
+    private static final String KEY_NAV_COMPACT_LAYOUT = "navigation_bar_compact_layout";
     private static final String KEY_ADDITIONAL_BUTTONS = "additional_buttons";
     private static final String KEY_TORCH_LONG_PRESS_POWER = "torch_long_press_power_gesture";
     private static final String KEY_TORCH_LONG_PRESS_POWER_TIMEOUT = "torch_long_press_power_timeout";
@@ -127,6 +128,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private SwitchPreference mNavigationMenuArrowKeys;
     private SwitchPreference mNavigationInverse;
     private Preference mNavigationGestures;
+    private SwitchPreference mNavigationCompactLayout;
     private Preference mAdditionalButtonsPreference;
     private SwitchPreference mTorchLongPressPower;
     private ListPreference mTorchLongPressPowerTimeout;
@@ -217,6 +219,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         mNavigationMenuArrowKeys = (SwitchPreference) findPreference(KEY_NAV_MENU_ARROW_KEYS);
         mNavigationInverse.setOnPreferenceChangeListener(this);
         mNavigationGestures = (Preference) findPreference(KEY_NAV_GESTURES);
+        mNavigationCompactLayout = (SwitchPreference) findPreference(KEY_NAV_COMPACT_LAYOUT);
 
         Action defaultHomeLongPressAction = Action.fromIntSafe(res.getInteger(
                 com.android.internal.R.integer.config_longPressOnHomeBehaviorHwkeys));
@@ -285,6 +288,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
             mNavigationAppSwitchLongPressAction.setDependency(DISABLE_NAV_KEYS);
             mEdgeLongSwipeAction.setDependency(DISABLE_NAV_KEYS);
             mNavigationGestures.setDependency(DISABLE_NAV_KEYS);
+            mNavigationCompactLayout.setDependency(DISABLE_NAV_KEYS);
         } else {
             mNavbarCategory.removePreference(mDisableNavigationKeys);
             mDisableNavigationKeys = null;
@@ -555,6 +559,11 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
                 mNavigationAppSwitchLongPressAction = null;
                 removedCount++;
             }
+            if (mNavigationCompactLayout != null){
+                mNavbarCategory.removePreference(mNavigationCompactLayout);
+                mNavigationCompactLayout = null;
+                removedCount++;
+            }
         }
         if (mDisableNavigationKeys == null){
             removedCount++;
@@ -575,7 +584,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
                 mNavigationGestures.setSummary(SystemNavigationPreferenceController.getPrefSummary(getActivity()));
             }
         }
-        if (mNavbarCategory != null && removedCount > 7){
+        if (mNavbarCategory != null && removedCount > 8){
             getPreferenceScreen().removePreference(mNavbarCategory);
             mNavbarCategory = null;
         }
