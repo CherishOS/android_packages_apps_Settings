@@ -141,6 +141,9 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
                             Settings.System.BACK_GESTURE_BLOCK_IME, mBlockIMESwitchChecked ? 1 : 0);
                     Settings.System.putInt(getContext().getContentResolver(),
                             Settings.System.BACK_GESTURE_HAPTIC, mHapticSwitchChecked ? 1 : 0);
+                    SystemNavigationGestureSettings.setBackGestureOverlaysToUse(getActivity());
+                    SystemNavigationGestureSettings.setCurrentSystemNavigationMode(getActivity(),
+                            getOverlayManager(), SystemNavigationGestureSettings.getCurrentSystemNavigationMode(getActivity()));
                 })
                 .create();
     }
