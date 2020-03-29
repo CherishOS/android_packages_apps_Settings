@@ -248,6 +248,9 @@
 	
 	<!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">Show an animated arrow for back gesture.</string>
+    <string name="back_gesture_arrow_title">Back arrow animation</string>
+	<string name="back_block_ime_title">Block on IME</string>
+    <string name="back_block_ime_title_message">Block back gesture on virtual keyboard</string>
 	
 	<!-- CherishOS version preference -->
     <string name="cherish_version">"CherishOS version"</string>
