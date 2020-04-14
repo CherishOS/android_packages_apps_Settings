@@ -164,7 +164,7 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
             p.setExtraWidgetVisibility(EXTRA_WIDGET_VISIBILITY_SETTING);
             p.setExtraWidgetOnClickListener((v) -> GestureNavigationBackSensitivityDialog
                     .show(this, getBackSensitivity(getContext(), mOverlayManager),
-                    getBackHeight(getContext()), getHomeHandleSize(getContext()), getHomeHandleHeight(getContext())));
+                    getBackHeight(getContext()), getHomeHandleSize(getContext()), getHomeHandleHeight(getContext()), getImeSpace(getContext())));
         } else {
             p.setExtraWidgetVisibility(EXTRA_WIDGET_VISIBILITY_GONE);
         }
@@ -273,18 +273,26 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
     static void setHomeHandleSize(Context context, int length) {
         Settings.System.putInt(context.getContentResolver(),
                 Settings.System.NAVIGATION_HANDLE_WIDTH, length);
-        // if gesture nav is already set, force overlay reloading
-        if (getCurrentSystemNavigationMode(context) == KEY_SYSTEM_NAV_GESTURAL) {
-            final IOverlayManager overlayManager = IOverlayManager.Stub.asInterface(
-                    ServiceManager.getService(Context.OVERLAY_SERVICE));
-            int sensitivity = getBackSensitivity(context, overlayManager);
-            setNavBarInteractionMode(overlayManager, BACK_GESTURE_INSET_OVERLAYS[sensitivity], true);
-        }
+        updateNavigationBarOverlays(context);
     }
 
     static int getHomeHandleSize(Context context) {
         return Settings.System.getInt(context.getContentResolver(),
                 Settings.System.NAVIGATION_HANDLE_WIDTH, 1);
+    }
+	
+	static boolean getImeSpace(Context context) {
+        boolean imeSpace = Settings.System.getIntForUser(context.getContentResolver(),
+                Settings.System.NAVIGATION_BAR_IME_SPACE, 1,
+                USER_CURRENT) != 0;
+        return imeSpace;
+    }
+
+    static void setImeSpace(Context context, boolean imeSpace) {
+        Settings.System.putIntForUser(context.getContentResolver(),
+                Settings.System.NAVIGATION_BAR_IME_SPACE, imeSpace ? 1 : 0,
+                USER_CURRENT);
+        updateNavigationBarOverlays(context);
     }
 
     static void setHomeHandleHeight(Context context, int handleHeight) {
@@ -373,6 +381,16 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
     private boolean isNavBarMagnificationEnabled() {
         return Settings.Secure.getInt(getContext().getContentResolver(),
                 Settings.Secure.ACCESSIBILITY_DISPLAY_MAGNIFICATION_NAVBAR_ENABLED, 0) == 1;
+    }
+
+    public static void updateNavigationBarOverlays(Context context) {
+        // if gesture nav is already set, force overlay reloading
+        if (getCurrentSystemNavigationMode(context) == KEY_SYSTEM_NAV_GESTURAL) {
+            final IOverlayManager overlayManager = IOverlayManager.Stub.asInterface(
+                    ServiceManager.getService(context.OVERLAY_SERVICE));
+            int sensitivity = getBackSensitivity(context, overlayManager);
+            setNavBarInteractionMode(overlayManager, BACK_GESTURE_INSET_OVERLAYS[sensitivity], true);
+        }
     }
 
     public static final Indexable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
