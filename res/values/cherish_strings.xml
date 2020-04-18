@@ -354,4 +354,7 @@
 
     <string name="battery_temp">Battery temperature</string>
 
+    <!-- Translucent lockscreen notifications background -->
+    <string name="translucent_lockscreen_notifications_bg_title">Translucent notifications background</string>
+
 </resources>
