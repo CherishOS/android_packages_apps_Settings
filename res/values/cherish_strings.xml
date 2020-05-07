@@ -47,4 +47,7 @@
     <!-- CherishOS Build Date -->
     <string name="build_date">Build date</string>
 
+    <!-- Maintainer -->
+    <string name="maintainer">Maintainer</string>
+
 </resources>
