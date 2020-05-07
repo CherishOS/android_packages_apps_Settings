@@ -294,8 +294,6 @@
     <string name="battery_temp">Nhiệt độ pin</string>
     <!-- Translucent lockscreen notifications background -->
     <string name="translucent_lockscreen_notifications_bg_title">Thông báo mờ nền</string>
-    <!-- Cherish Maintainer -->
-    <string name="maintainer">Người chủ trì</string>
     <!-- Gestures: Touchscreen gestures -->
     <string name="touchscreen_gesture_settings_title">Cử chỉ chạm màn hình</string>
     <string name="touchscreen_gesture_settings_summary">Thực hiện các cử chỉ chạm màn hình khác nhau cho các hành động nhanh chóng</string>
@@ -382,4 +380,6 @@
      <string name="smart_charging_reset_stats_title">Đặt lại thống kê pin</string>
     <string name="smart_charging_reset_stats_summary">Đặt lại thống kê pin sau khi đạt đến mức sạc do người dùng xác định</string>
     <string name="smart_charging_footer">Sạc thông minh cho phép bạn đặt mức sạc tối đa để kéo dài tuổi thọ của pin</string>
+    <!-- Cherish maintainer -->
+    <string name="maintainer">Người chủ trì</string>
 </resources>
