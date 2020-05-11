@@ -36,4 +36,8 @@
          3 = right side
     -->
     <integer name="config_fingerprintSensorLocation">0</integer>
+
+    <!-- Battery Health -->
+    <string name="config_batCurCap"></string>
+    <string name="config_batDesCap"></string>
 </resources>
