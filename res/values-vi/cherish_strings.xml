@@ -308,4 +308,16 @@
     <string name="translucent_lockscreen_notifications_bg_title">Thông báo mờ nền</string>
     <!-- Cherish Maintainer -->
     <string name="maintainer">Người chủ trì</string>
+	<!-- Battery health -->
+    <string name="battery_health_title">Sức khỏe của pin</string>
+    <string name="battery_health_summary">Theo dõi tình trạng pin của thiết bị</string>
+    <string name="current_battery_capacity">Dung lượng pin hiện tại</string>
+    <string name="current_battery_capacity_summary">Dung lượng pin hiện tại được đo bằng hạt nhân</string>
+    <string name="designed_battery_capacity">Dung lượng pin được thiết kế</string>
+    <string name="designed_battery_capacity_summary">Dung lượng pin được thiết kế bởi nhà sản xuất</string>
+    <string name="battery_charge_cycles">Hoàn thành chu kỳ sạc</string>
+
+	<!-- Clipboard toast toggle -->
+    <string name="show_clipboard_toast">Hiển thị cảnh báo truy cập clipboard</string>
+    <string name="show_clipboard_toast_summary">Hiển thị bánh mì nướng khi một ứng dụng cố gắng truy cập vào bảng tạm</string>
 </resources>
