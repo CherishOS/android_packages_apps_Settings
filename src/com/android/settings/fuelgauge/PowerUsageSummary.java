@@ -103,10 +103,8 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     private static final String KEY_TIME_SINCE_LAST_FULL_CHARGE = "last_full_charge";
     private static final String KEY_BATTERY_SAVER_SUMMARY = "battery_saver_summary";
 
-    private static final String FILENAME_BATTERY_DESIGN_CAPACITY =
-            "/sys/class/power_supply/bms/charge_full_design";
-    private static final String FILENAME_BATTERY_CURRENT_CAPACITY =
-            "/sys/class/power_supply/bms/charge_full";
+    private String mBatDesCap;
+    private String mBatCurCap;
 
     @VisibleForTesting
     static final int BATTERY_INFO_LOADER = 1;
@@ -410,14 +408,17 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
             mNeedUpdateBatteryTip = true;
         }
 
+        mBatDesCap = getResources().getString(R.string.config_batDesCap);
+        mBatCurCap = getResources().getString(R.string.config_batCurCap);
+
         // reload BatteryInfo and updateUI
         restartBatteryInfoLoader();
         updateLastFullChargePreference();
         mScreenUsagePref.setSummary(StringUtil.formatElapsedTime(getContext(),
                 mBatteryUtils.calculateScreenUsageTime(mStatsHelper), false));
         mBatteryTempPref.setSubtitle(BatteryInfo.batteryTemp+" "+Character.toString ((char) 176) + "C");
-        mCurrentBatteryCapacity.setSubtitle(parseBatterymAhText(FILENAME_BATTERY_CURRENT_CAPACITY));
-        mDesignedBatteryCapacity.setSubtitle(parseBatterymAhText(FILENAME_BATTERY_DESIGN_CAPACITY));
+        mCurrentBatteryCapacity.setSubtitle(parseBatterymAhText(mBatCurCap));
+        mDesignedBatteryCapacity.setSubtitle(parseBatterymAhText(mBatDesCap));
         final long elapsedRealtimeUs = SystemClock.elapsedRealtime() * 1000;
         Intent batteryBroadcast = context.registerReceiver(null,
                 new IntentFilter(Intent.ACTION_BATTERY_CHANGED));
