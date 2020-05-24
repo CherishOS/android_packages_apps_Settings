@@ -276,4 +276,9 @@
     <string name="app_volume">App volume</string>
     <string name="app_volume_title">Per-app volume control</string>
     <string name="app_volume_summary">Show per-app volume button into volume dialog</string>
+
+    <!-- Navigation bar hint -->
+    <string name="navbar_category">Navigation bar</string>
+    <string name="hide_navbar_gesture_bar_title">Hide gesture bar</string>
+    <string name="hide_navbar_gesture_bar_summary">Hide the gesture bar at the bottom of the screen</string>
 </resources>
