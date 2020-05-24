@@ -80,6 +80,10 @@
     <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
 
     <string name="other_controls_title">Other controls</string>
+
+	<!-- Navigation bar hint -->
+    <string name="show_navbar_gesture_bar_title">Gesture indicator</string>
+    <string name="show_navbar_gesture_bar_summary">Show gesture indicator at the bottom of the screen</string>
 	
 	<!-- Doze on double tap -->
     <string name="double_tap_title">Double tap</string>
