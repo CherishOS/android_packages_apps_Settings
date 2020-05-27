@@ -260,5 +260,9 @@
 	<!-- Theme -->
     <string name="pitch_colors">Pitch black theme</string>
     <string name="pitch_colors_summary">Pitch black theme for Settings, SystemUI, etc</string>
+	
+	<!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Allow network access</string>
+    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
 
 </resources>
