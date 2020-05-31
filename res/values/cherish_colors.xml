@@ -13,4 +13,23 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <color name="homepage_cherish_background">#30FC6060</color>
+	
+	<!-- DashBoard cherish Colors -->
+     <color name="dashboard_cherish_privacy">#9EFCB8</color>
+     <color name="dashboard_cherish_network">#C4ECFF</color>
+     <color name="dashboard_cherish_devices">#99FF9D</color>
+     <color name="dashboard_cherish_apps">#FFCECE</color>
+     <color name="dashboard_cherish_info">#D79EEB</color>
+     <color name="dashboard_cherish_location">#ADBFFF</color>
+     <color name="dashboard_cherish_battery">#D0FF7C</color>
+     <color name="dashboard_cherish_display">#94DDFF</color>
+     <color name="dashboard_cherish_sound">#B0FAAF</color>
+     <color name="dashboard_cherish_storage">#FBB0E6</color>
+     <color name="dashboard_cherish_security">#F0B9B9</color>
+     <color name="dashboard_cherish_accounts">#B2E7FE</color>
+     <color name="dashboard_cherish_accessibility">#FFC077</color>
+     <color name="dashboard_cherish_about">#857F7F</color>
+     <color name="dashboard_cherish_google">#94DDFF</color>
+     <color name="dashboard_cherish_wellbeing">#FC9999</color>
+     <color name="dashboard_cherish_custom">#C5AFF9</color>  
 </resources> 
