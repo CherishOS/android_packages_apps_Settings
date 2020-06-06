@@ -343,6 +343,8 @@
     <string name="pattern_mm_mm_mm">mm-mm-mm</string>
     <string name="pattern_da_da_dzzz">da-da-dzzz</string>
     <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Custom</string>
+    <string name="custom_vibration_pattern_title">Custom pattern</string>
 	
 	<!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
