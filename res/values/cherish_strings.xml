@@ -423,7 +423,9 @@
     <string name="back_gesture_haptic_message">Enable haptic feedback for back gesture</string>
 	
 	<!-- Home handle sizing -->
-    <string name="home_handle_sizer_title">Length used for the gestural navigation bar handle.</string>
+    <string name="home_handle_sizer_title">Navigation bar handle length.</string>
     <string name="home_handle_low_label">Hidden</string>
     <string name="home_handle_high_label">Long</string>
+    <string name="home_handle_height_sizer_title">Navigation bar handle thickness.</string>
+    <string name="home_handle_thick_label">Thick</string>
 </resources>

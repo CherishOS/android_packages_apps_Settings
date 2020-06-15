@@ -43,8 +43,10 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
     private static final String KEY_BACK_SENSITIVITY = "back_sensitivity";
     private static final String KEY_BACK_HEIGHT = "back_height";
 	 private static final String KEY_HOME_HANDLE_SIZE = "home_handle_width";
+    private static final String KEY_HOME_HANDLE_HEIGHT = "home_handle_height";
 
-    public static void show(SystemNavigationGestureSettings parent, int sensitivity, int height, int length) {
+    public static void show(SystemNavigationGestureSettings parent, int sensitivity,
+            int height, int length, int handleHeight) {
         if (!parent.isAdded()) {
             return;
         }
@@ -55,6 +57,7 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
         bundle.putInt(KEY_BACK_SENSITIVITY, sensitivity);
         bundle.putInt(KEY_BACK_HEIGHT, height);
         bundle.putInt(KEY_HOME_HANDLE_SIZE, length);
+        bundle.putInt(KEY_HOME_HANDLE_HEIGHT, handleHeight);
         dialog.setArguments(bundle);
         dialog.setTargetFragment(parent, 0);
         dialog.show(parent.getFragmentManager(), TAG);
@@ -75,6 +78,8 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
         seekBarHeight.setProgress(getArguments().getInt(KEY_BACK_HEIGHT));
         final SeekBar seekBarHandleSize = view.findViewById(R.id.home_handle_seekbar);
         seekBarHandleSize.setProgress(getArguments().getInt(KEY_HOME_HANDLE_SIZE));
+		final SeekBar seekBarHandleHeight = view.findViewById(R.id.home_handle_height_seekbar);
+        seekBarHandleHeight.setProgress(getArguments().getInt(KEY_HOME_HANDLE_HEIGHT));
         final Switch arrowSwitch = view.findViewById(R.id.back_arrow_gesture_switch);
         mArrowSwitchChecked = Settings.Secure.getInt(getActivity().getContentResolver(),
                 Settings.Secure.SHOW_BACK_ARROW_GESTURE, 1) == 1;
@@ -115,8 +120,11 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
                     getArguments().putInt(KEY_BACK_HEIGHT, height);
                     int length = seekBarHandleSize.getProgress();
                     getArguments().putInt(KEY_HOME_HANDLE_SIZE, length);
+                    int handleHeight = seekBarHandleHeight.getProgress();
+                    getArguments().putInt(KEY_HOME_HANDLE_HEIGHT, handleHeight);
                     SystemNavigationGestureSettings.setBackHeight(getActivity(), height);
                     SystemNavigationGestureSettings.setHomeHandleSize(getActivity(), length);
+                    SystemNavigationGestureSettings.setHomeHandleHeight(getActivity(), handleHeight);
                     SystemNavigationGestureSettings.setBackSensitivity(getActivity(),
                             getOverlayManager(), sensitivity);
                     Settings.Secure.putInt(getActivity().getContentResolver(),

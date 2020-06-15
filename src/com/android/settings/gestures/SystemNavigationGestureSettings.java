@@ -164,7 +164,7 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
             p.setExtraWidgetVisibility(EXTRA_WIDGET_VISIBILITY_SETTING);
             p.setExtraWidgetOnClickListener((v) -> GestureNavigationBackSensitivityDialog
                     .show(this, getBackSensitivity(getContext(), mOverlayManager),
-                    getBackHeight(getContext()), getHomeHandleSize(getContext())));
+                    getBackHeight(getContext()), getHomeHandleSize(getContext()), getHomeHandleHeight(getContext())));
         } else {
             p.setExtraWidgetVisibility(EXTRA_WIDGET_VISIBILITY_GONE);
         }
@@ -278,6 +278,17 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
     static int getHomeHandleSize(Context context) {
         return Settings.System.getInt(context.getContentResolver(),
                 Settings.System.NAVIGATION_HANDLE_WIDTH, 1);
+    }
+
+    static void setHomeHandleHeight(Context context, int handleHeight) {
+        Settings.System.putInt(context.getContentResolver(),
+                Settings.System.NAVIGATION_HANDLE_HEIGHT, handleHeight);
+        updateNavigationBarOverlays(context);
+    }
+
+    static int getHomeHandleHeight(Context context) {
+        return Settings.System.getInt(context.getContentResolver(),
+                Settings.System.NAVIGATION_HANDLE_HEIGHT, 0);
     }
 
     @VisibleForTesting
