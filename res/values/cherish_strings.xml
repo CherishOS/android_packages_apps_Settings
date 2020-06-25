@@ -25,8 +25,9 @@
     <string name="cherish_version">Cherish version</string>
     <string name="cherish_version_default">Unknown</string>
 
-    <!-- Maintainer -->
+    <!-- Cherish maintainer -->
     <string name="maintainer">Maintainer</string>
+    <string name="cherish_maintainer">Unofficial Maintainer</string>
 
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Swipe to screenshot</string>
