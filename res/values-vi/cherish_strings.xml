@@ -382,4 +382,5 @@
     <string name="smart_charging_footer">Sạc thông minh cho phép bạn đặt mức sạc tối đa để kéo dài tuổi thọ của pin</string>
     <!-- Cherish maintainer -->
     <string name="maintainer">Người chủ trì</string>
+	<string name="cherish_maintainer">Người chủ trì không chính thức</string>
 </resources>
