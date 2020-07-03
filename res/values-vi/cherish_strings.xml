@@ -320,4 +320,6 @@
 	<!-- Clipboard toast toggle -->
     <string name="show_clipboard_toast">Hiển thị cảnh báo truy cập clipboard</string>
     <string name="show_clipboard_toast_summary">Hiển thị bánh mì nướng khi một ứng dụng cố gắng truy cập vào bảng tạm</string>
+	<!-- A2DP codec priority -->
+    <string name="a2dp_source_codec_priority_title">Bộ giải mã âm thanh Bluetooth (ưu tiên)</string>
 </resources>
