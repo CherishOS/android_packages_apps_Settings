@@ -20,6 +20,12 @@
     android:key="system_dashboard_screen"
     android:title="@string/header_category_system">
 
+    <!--Header -->
+    <Preference 
+        android:key="cherish_logo"
+        android:order="-500"
+        android:layout="@layout/system_animation" />
+
     <Preference
         android:key="language_input_settings"
         android:title="@string/language_settings"
