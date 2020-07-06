@@ -30,12 +30,12 @@
         settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController"/>
 
     <!-- Button Settings -->
-    <Preference
+    <!--<Preference
         android:key="button_settings"
         android:title="@string/button_pref_title"
         android:icon="@drawable/ic_button_settings"
         android:order="-249"
-        android:fragment="com.android.settings.custom.buttons.ButtonSettings"/>
+        android:fragment="com.android.settings.custom.buttons.ButtonSettings"/> -->
 
     <Preference
         android:key="reset_dashboard"
