@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020 CherishOS Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+         http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<vector android:height="24dp" android:viewportHeight="62.325"
+    android:viewportWidth="62.325" android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="?android:attr/colorControlNormal" android:pathData="M0,1.54h44.233v11.588h-44.233z"/>
+    <path android:fillColor="?android:attr/colorControlNormal" android:pathData="M0,16.905h44.233v7.422h-44.233z"/>
+    <path android:fillColor="?android:attr/colorControlNormal" android:pathData="M0,27.842h44.233v5.729h-44.233z"/>
+    <path android:fillColor="?android:attr/colorControlNormal" android:pathData="M0,37.348h44.233v4.688h-44.233z"/>
+    <path android:fillColor="?android:attr/colorControlNormal" android:pathData="M0,52.712h44.233v2.864h-44.233z"/>
+    <path android:fillColor="?android:attr/colorControlNormal" android:pathData="M0,58.637h44.233v2.148h-44.233z"/>
+    <path android:fillColor="?android:attr/colorControlNormal" android:pathData="M0,45.811h44.233v3.516h-44.233z"/>
+    <path android:fillColor="?android:attr/colorControlNormal" android:pathData="M52.604,1.54l0,4.101l-4.101,0l0,3.385l4.101,0l0,4.102l3.385,0l0,-4.102l4.102,0l0,-3.385l-4.102,0l0,-4.101z"/>
+    <path android:fillColor="?android:attr/colorControlNormal" android:pathData="M48.503,53.559h11.588v3.385h-11.588z"/>
+    <path android:fillColor="?android:attr/colorControlNormal" android:pathData="M54.297,23.33c-4.435,0 -8.028,3.595 -8.028,8.028c0,4.435 3.595,8.028 8.028,8.028s8.028,-3.595 8.028,-8.028C62.325,26.923 58.731,23.33 54.297,23.33zM54.297,36.782c-2.99,0 -5.424,-2.434 -5.424,-5.425c0,-0.429 0.062,-0.841 0.156,-1.242l2.494,2.494c0.582,0.581 1.347,0.872 2.11,0.872c0.765,0 1.531,-0.291 2.113,-0.873c1.162,-1.165 1.162,-3.059 -0.002,-4.223l-2.359,-2.36c0.298,-0.051 0.599,-0.092 0.911,-0.092c2.99,0 5.424,2.434 5.424,5.424C59.721,34.349 57.287,36.782 54.297,36.782zM50.541,25.023L50.541,25.023l-0.92,0.92l0.31,0.309l0.938,0.937l3.037,3.038c0.149,0.149 0.149,0.392 0.001,0.54c-0.15,0.15 -0.392,0.15 -0.541,0l-3.057,-3.056l-0.929,-0.928l-0.299,-0.298l-0.92,0.92l0,0L50.541,25.023z"/>
+</vector>

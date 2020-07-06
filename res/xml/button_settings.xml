@@ -10,29 +10,34 @@
 
         <PreferenceScreen
             android:key="power_menu"
+            android:icon="@drawable/ic_power"
             android:title="@string/power_menu_title"
             android:fragment="com.android.settings.custom.buttons.PowerMenuActions" />
 
         <SwitchPreference
             android:key="power_end_call"
+            android:icon="@drawable/ic_call_end"
             android:title="@string/power_end_call_title"
             android:summary="@string/power_end_call_summary"
             android:persistent="false"/>
 
         <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:key="lockscreen_disable_power_menu"
+            android:icon="@drawable/ic_lock_outline"
             android:title="@string/lockscreen_power_menu_disabled_title"
             android:summary="@string/lockscreen_power_menu_disabled_summary"
             android:defaultValue="false" />
 
         <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:key="torch_long_press_power_gesture"
+            android:icon="@drawable/ic_torch"
             android:title="@string/torch_long_press_power_gesture_title"
             android:summary="@string/torch_long_press_power_gesture_desc"
             android:defaultValue="false" />
 
         <com.android.settings.custom.preference.SystemSettingListPreference
             android:key="torch_long_press_power_timeout"
+            android:icon="@drawable/ic_torch"
             android:dialogTitle="@string/torch_long_press_power_timeout_title"
             android:title="@string/torch_long_press_power_timeout_title"
             android:summary="%s"
@@ -49,23 +54,27 @@
 
         <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:key="volume_wake_screen"
+            android:icon="@drawable/ic_sleep"
             android:title="@string/button_wake_title"
             android:defaultValue="false" />
 
         <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:key="volume_answer_call"
+            android:icon="@drawable/ic_call_end"
             android:title="@string/volume_answer_call_title"
             android:summary="@string/volume_answer_call_summary"
             android:defaultValue="false" />
 
         <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:key="volbtn_music_controls"
+            android:icon="@drawable/ic_music"
             android:title="@string/volbtn_music_controls_title"
             android:summary="@string/volbtn_music_controls_summary"
             android:defaultValue="true" />
 
         <ListPreference
             android:key="volume_key_cursor_control"
+            android:icon="@drawable/ic_vobutton"
             android:dialogTitle="@string/volbtn_cursor_control_title"
             android:title="@string/volbtn_cursor_control_title"
             android:entries="@array/volbtn_cursor_control_entries"
@@ -74,6 +83,7 @@
 
         <SwitchPreference
             android:key="swap_volume_buttons"
+            android:icon="@drawable/ic_vobutton"
             android:title="@string/swap_volume_buttons_title"
             android:summary="@string/swap_volume_buttons_summary" />
     </PreferenceCategory>
@@ -90,6 +100,7 @@
 
         <Preference
             android:key="navbar_gestures"
+            android:icon="@drawable/ic_settings_gestures"
             android:title="@string/system_navigation_title"
             android:fragment="com.android.settings.gestures.SystemNavigationGestureSettings" />
 
@@ -137,6 +148,7 @@
 			
 		<ListPreference
             android:key="navigation_bar_edge_long_swipe"
+            android:icon="@drawable/gesture_swipe_up"
             android:dialogTitle="@string/navigation_bar_edge_long_swipe_title"
             android:title="@string/navigation_bar_edge_long_swipe_title"
             android:entries="@array/hardware_keys_action_entries"
