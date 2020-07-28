@@ -26,4 +26,6 @@
     <color name="cherish_dashboard_accounts">#FCE4EC</color>
     <color name="cherish_dashboard_accessibility">#D1C4E9</color>
     <color name="cherish_dashboard_system">#FAFAFA</color>
+	
+	<color name="settings_icon_oneplus">@android:color/white</color>
 </resources>
