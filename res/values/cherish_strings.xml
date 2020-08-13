@@ -190,9 +190,6 @@
     <string name="back_options_dialog_title">Options</string>
     <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
 
-    <!-- NavigationBar Gestural Mode Tweaks -->
-    <string name="gesture_pill_message">Hide the navigation bar pill for seamless fullscreen gestures.</string>
-
     <!-- LiveDisplay -->
     <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
     <string name="live_display_mode">Display mode</string>

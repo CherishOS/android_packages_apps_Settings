@@ -36,7 +36,6 @@ import com.android.settings.core.instrumentation.InstrumentedDialogFragment;
  */
 public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFragment {
     private boolean mArrowSwitchChecked;
-    private boolean mGesturePillSwitchChecked;
     private boolean mBlockIMESwitchChecked;
     private boolean mHapticSwitchChecked;
 
@@ -86,16 +85,6 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
                 mArrowSwitchChecked = arrowSwitch.isChecked() ? true : false;
             }
         });
-        final Switch gesturePillSwitch = view.findViewById(R.id.gesture_pill_switch);
-        mGesturePillSwitchChecked = Settings.System.getInt(getActivity().getContentResolver(),
-                Settings.System.GESTURE_PILL_TOGGLE, 0) == 1;
-        gesturePillSwitch.setChecked(mGesturePillSwitchChecked);
-        gesturePillSwitch.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mGesturePillSwitchChecked = gesturePillSwitch.isChecked() ? true : false;
-            }
-        });
         final Switch imeSwitch = view.findViewById(R.id.back_block_ime);
         mBlockIMESwitchChecked = Settings.System.getInt(getActivity().getContentResolver(),
                 Settings.System.BACK_GESTURE_BLOCK_IME, 1) == 1;
@@ -133,17 +122,9 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
                     Settings.Secure.putInt(getActivity().getContentResolver(),
                             Settings.Secure.SHOW_BACK_ARROW_GESTURE, mArrowSwitchChecked ? 1 : 0);
                     Settings.System.putInt(getActivity().getContentResolver(),
-                            Settings.System.GESTURE_PILL_TOGGLE, mGesturePillSwitchChecked ? 1 : 0);
-                    SystemNavigationGestureSettings.setBackGestureOverlaysToUse(getActivity());
-                    SystemNavigationGestureSettings.setCurrentSystemNavigationMode(getActivity(),
-                            getOverlayManager(), SystemNavigationGestureSettings.getCurrentSystemNavigationMode(getActivity()));
-                    Settings.System.putInt(getActivity().getContentResolver(),
                             Settings.System.BACK_GESTURE_BLOCK_IME, mBlockIMESwitchChecked ? 1 : 0);
                     Settings.System.putInt(getContext().getContentResolver(),
                             Settings.System.BACK_GESTURE_HAPTIC, mHapticSwitchChecked ? 1 : 0);
-                    SystemNavigationGestureSettings.setBackGestureOverlaysToUse(getActivity());
-                    SystemNavigationGestureSettings.setCurrentSystemNavigationMode(getActivity(),
-                            getOverlayManager(), SystemNavigationGestureSettings.getCurrentSystemNavigationMode(getActivity()));
                 })
                 .create();
     }
