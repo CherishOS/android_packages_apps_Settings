@@ -16,15 +16,20 @@
 
 package com.android.settings.security;
 
+import android.hardware.fingerprint.FingerprintManager;
 import android.content.Context;
 import com.android.settings.core.BasePreferenceController;
+import com.android.settings.Utils;
 
 public class FodGesturePreferenceController extends BasePreferenceController {
 
     public static final String KEY = "fod_gesture";
+	
+	private FingerprintManager fpm;
 
     public FodGesturePreferenceController(Context context, String preferenceKey) {
         super(context, preferenceKey);
+        fpm = Utils.getFingerprintManagerOrNull(context);
     }
 
     public FodGesturePreferenceController(Context context) {
@@ -39,6 +44,9 @@ public class FodGesturePreferenceController extends BasePreferenceController {
         }
         if (!mContext.getResources().getBoolean(
             com.android.internal.R.bool.config_supportsInDisplayFingerprintGesture)){
+            return UNSUPPORTED_ON_DEVICE;
+        }
+        if (fpm != null && (!fpm.isHardwareDetected() || !fpm.hasEnrolledFingerprints())) {
             return UNSUPPORTED_ON_DEVICE;
         }
         return AVAILABLE;
