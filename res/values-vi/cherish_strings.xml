@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2007 The Android Open Source Project
+<!-- Copyright (C) 2020 CherishOS
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -160,8 +160,6 @@
     <string name="back_height_high_label">Dưới cùng</string>
     <string name="back_options_dialog_title">Tuỳ chọn</string>
     <string name="back_height_message">Số lượng chiều cao màn hình được sử dụng làm vùng có thể chạm cho cử chỉ quay lại.</string>
-    <!-- NavigationBar Gestural Mode Tweaks -->
-    <string name="gesture_pill_message">Ẩn thanh điều hướng cho các cử chỉ liền mạch toàn màn hình.</string>
     <!-- LiveDisplay -->
     <string name="live_display_summary">Tối ưu hóa màn hình dựa trên điều kiện môi trường và thời gian trong ngày để cải thiện khả năng đọc và giảm mỏi mắt</string>
     <string name="live_display_mode">Chế độ Hiển thị</string>
@@ -215,6 +213,9 @@
     <string name="adj_contrast_title">Độ tương phản</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">Hiển thị một mũi tên hoạt hình cho cử chỉ trở lại.</string>
+    <string name="back_gesture_arrow_title">Hiển thị mũi tên quay lại</string>
+    <string name="back_block_ime_title">Khóa trên IME</string>
+    <string name="back_block_ime_title_message">Khóa cử trỉ quay lại trên phím ảo</string>
     <!-- CherishOS version preference -->
     <string name="cherish_version">"Phiên bản CherishOS"</string>
     <string name="build_date">"Ngày dựng"</string>
@@ -278,6 +279,8 @@
     <string name="navigation_bar_compact_layout_title">Bố cục nhỏ gọn</string>
     <string name="navigation_bar_compact_layout_summary">Sử dụng bố cục nhỏ gọn trong thanh điều hướng</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Cho phép truy cập mạng</string>
+    <string name="data_usage_app_restrict_all_summary">Cho phép ứng dụng truy cập mạng</string>
     <string name="data_usage_app_restrict_data">Dữ liệu di động</string>
     <string name="data_usage_app_restrict_data_summary">Cho phép sử dụng dữ liệu di động</string>
     <string name="data_usage_app_restrict_vpn">Dữ liệu VPN</string>
@@ -308,7 +311,38 @@
     <string name="translucent_lockscreen_notifications_bg_title">Thông báo mờ nền</string>
     <!-- Cherish Maintainer -->
     <string name="maintainer">Người chủ trì</string>
-	<!-- Battery health -->
+    <!-- Gestures: Touchscreen gestures -->
+    <string name="touchscreen_gesture_settings_title">Cử chỉ chạm màn hình</string>
+    <string name="touchscreen_gesture_settings_summary">Thực hiện các cử chỉ chạm màn hình khác nhau cho các hành động nhanh chóng</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Độ nhạy cảm ứng cao</string>
+    <string name="high_touch_sensitivity_summary">Tăng độ nhạy màn hình cảm ứng để nó có thể được sử dụng trong khi đeo găng tay</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Cảm ứng không chạm</string>
+    <string name="touchscreen_hovering_summary">Cho phép bạn điều khiển cảm ứng mà không cần chạm vào màn hình, như chỏ truột trong trình duyệt, điều khiển máy tính từ xa, vv</string>
+    <!-- QS tile styles -->
+    <string name="qs_tile_style_title">Kiểu ô cài đặt nhanh</string>
+    <string name="qstile_default">Mặc định</string>
+    <string name="qstile_circle_trim">Vòng tròn có viền</string>
+    <string name="qstile_dual_tone_circle">Vòng tròn có viền hai tông màu</string>
+    <string name="qstile_squircle_trim">Hình vuông bo tròn có viền</string>
+    <string name="qstile_wavey">Sóng</string>
+    <string name="qstile_pokesign">Pokesign</string>
+    <string name="qstile_ninja">Ninja</string>
+    <string name="qstile_dottedcircle">Vòng chấm</string>
+    <string name="qstile_attemptmountain">Một nỗ lực của một ngọn núi</string>
+    <string name="qstile_squaremedo">Hình vuông chéo nhau</string>
+    <string name="qstile_inkdrop">Ink</string>
+    <string name="qstile_cookie">Cookie</string>
+    <string name="qstile_circleoutline">Circle Outline</string>
+    <string name="qstile_cosmos">Shishu Cosmos</string>
+    <string name="qstile_divided">Vòng tròn chấm</string>
+    <string name="qstile_neonlike">Đường Nét Neon</string>
+    <string name="qstile_oos">Oxygen</string>
+    <string name="qstile_triangles">Tam giác</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Tai nghe đã lưu</string>
+    <!-- Battery health -->
     <string name="battery_health_title">Sức khỏe của pin</string>
     <string name="battery_health_summary">Theo dõi tình trạng pin của thiết bị</string>
     <string name="current_battery_capacity">Dung lượng pin hiện tại</string>
@@ -316,13 +350,32 @@
     <string name="designed_battery_capacity">Dung lượng pin được thiết kế</string>
     <string name="designed_battery_capacity_summary">Dung lượng pin được thiết kế bởi nhà sản xuất</string>
     <string name="battery_charge_cycles">Hoàn thành chu kỳ sạc</string>
-
-	<!-- Clipboard toast toggle -->
+    <!-- Clipboard toast toggle -->
     <string name="show_clipboard_toast">Hiển thị cảnh báo truy cập clipboard</string>
     <string name="show_clipboard_toast_summary">Hiển thị bánh mì nướng khi một ứng dụng cố gắng truy cập vào bảng tạm</string>
-	<!-- A2DP codec priority -->
+    <!-- A2DP codec priority -->
     <string name="a2dp_source_codec_priority_title">Bộ giải mã âm thanh Bluetooth (ưu tiên)</string>
-	<!-- SBC HD (Dual Channel) priority -->
+    <!-- SBC HD (Dual Channel) priority -->
     <string name="sbc_hd_priority_title">Âm thanh SBC HD</string>
-    <string name="sbc_hd_priority_summary">Có nên sử dụng chế độ Dual Channel cho codec SBC theo mặc định</string>	
+    <string name="sbc_hd_priority_summary">Có nên sử dụng chế độ Dual Channel cho codec SBC theo mặc định</string>
+    <!-- Back gesture vibration -->
+    <string name="back_gesture_haptic_title">Phản hồi rung</string>
+    <string name="back_gesture_haptic_message">Bật phản hồi xúc giác cho cử chỉ</string>
+    <!-- Home handle sizing -->
+    <string name="home_handle_sizer_title">Chiều dài thanh điều hướng.</string>
+    <string name="home_handle_low_label">Ẩn</string>
+    <string name="home_handle_high_label">Dài</string>
+    <string name="home_handle_height_sizer_title">Độ dày thanh điều hướng.</string>
+    <string name="home_handle_thick_label">Dày</string>
+    <!-- IME button space -->
+    <string name="navigation_bar_ime_space_title">Cho phép hiển thị không gian phím IME và pill</string>
+    <string name="ambient_wake_gestures_title">Cử chỉ màn hình hiển thị xung quanh</string>
+    <string name="ambient_wake_gestures_summary">Hiển thị tính năng Hiển thị nhanh thay cho màn hình khoá bình thường khi sử dụng vuốt đánh thức</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Luôn bật khi sử dụng sạc</string>
+    <string name="doze_on_charge_summary">Hiển thị màn hình doze mọi lúc khi sạc</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Chạm 2 lần</string>
+    <string name="doze_double_tap_title">Chạm 2 lần để kiểm tra điện thoại</string>
+    <string name="doze_double_tap_summary">Thông báo xung bằng cách chạm hai lần</string>
 </resources>
