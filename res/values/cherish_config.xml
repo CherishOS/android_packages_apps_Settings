@@ -46,4 +46,9 @@
     <string name="config_batCurCap"></string>
     <string name="config_batDesCap"></string>
     <string name="config_batChargeCycle"></string>
+	
+	<!-- Whether device supports refresh rate switch
+         config_defaultPeakRefreshRate shouldn't be defined as 60 on frameworks/base
+    -->
+    <bool name="config_supportsRefreshRateSwitch">true</bool>
 </resources>
