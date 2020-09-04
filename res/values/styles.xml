@@ -795,4 +795,15 @@
            parent="@*android:style/TextAppearance.DeviceDefault.Subhead">
         <item name="android:fontFamily">@*android:string/config_headlineFontFamily</item>
     </style>
+
+    <style name="CardView.Dark">
+        <item name="cardBackgroundColor">@android:color/transparent</item>
+    </style>
+    <style name="CardView.Light">
+        <item name="cardBackgroundColor">@android:color/transparent</item>
+    </style>
+
+    <style name="CardView">
+        <item name="cardBackgroundColor">@android:color/transparent</item>
+    </style>
 </resources>
