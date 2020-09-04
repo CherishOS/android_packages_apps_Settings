@@ -23,6 +23,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
+import android.provider.Settings;
 import android.widget.ImageView;
 import android.widget.Toolbar;
 
