@@ -74,12 +74,6 @@
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Ngăn chặn tình cờ bật màn hình</string>
     <string name="proximity_wake_summary">Kiểm tra cảm biến tiệm cận trước khi mở màn hình</string>
-    <!-- Refresh rate -->
-    <string name="refresh_rate_title">Tần số quét của màn hình</string>
-    <string name="refresh_rate_summary_auto">Tự động / Tự động tăng tốc độ làm tươi từ 60 đến 90Hz cho một số nội dung</string>
-    <string name="refresh_rate_summary_60">60Hz / Tần số quét của màn hình cố định ở mức 60Hz cho mọi nội dung</string>
-    <string name="refresh_rate_summary_90">90Hz / Tần số quét của màn hình cố định ở mức 90Hz cho mọi nội dung. Tăng tần suất sử dụng pin</string>
-    <string name="auto_refresh_rate">Tự động</string>
     <!--Cherish Settings-->
     <string name="cherish_settings_title">Thông Điệp Yêu Thương</string>
     <string name="cherish_settings_summary">Ở đâu có sự sống, ở đó có tình yêu!</string>
@@ -378,4 +372,15 @@
     <string name="double_tap_title">Chạm 2 lần</string>
     <string name="doze_double_tap_title">Chạm 2 lần để kiểm tra điện thoại</string>
     <string name="doze_double_tap_summary">Thông báo xung bằng cách chạm hai lần</string>
+
+    <!-- Screen off fod -->
+    <string name="fod_gesture_title">Mở khóa bằng vân tay khi màn hình tắt</string>
+    <string name="fod_gesture_summary">Cho phép mở khóa thiết bị mà không cần phải đánh thức màn hình trước</string>
+    <!-- Minimal brightness -->
+    <string name="auto_brightness_min_title">Mức sáng tối thiểu</string>
+    <string name="auto_brightness_description_new">Độ sáng màn hình của bạn sẽ tự động điều chỉnh theo môi trường và hoạt động của bạn.\n\nBạn có thể điều chỉnh mức độ sáng tối thiểu sẽ được sử dụng.</string>
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Tần số quét của màn hình</string>
+    <string name="refresh_rate_auto">Tự động</string>
+    <string name="refresh_rate_60">60Hz (tiết kiệm pin)</string>
 </resources>
