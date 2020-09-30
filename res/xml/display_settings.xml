@@ -230,6 +230,17 @@
         android:key="theme_customization_category"
         android:title="@string/theme_customization_category"
         android:order="1200"> <!-- Incremented by 100 from last order (i.e. 1100) -->
+		
+		<Preference
+            android:key="clock_style"
+            android:title="@string/clock_style_title"
+			 android:icon="@drawable/ic_alarm"
+            android:summary="@string/clock_style_summary">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="com.android.wallpaper"
+                android:targetClass="com.android.customization.picker.LockClockPickerActivity" />
+        </Preference>
 
         <ListPreference
             android:key="android.theme.customization.font"
