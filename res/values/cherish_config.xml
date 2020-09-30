@@ -24,4 +24,8 @@
     <!-- Whether to show TouchGestures preference -->
     <bool name="config_supportsTouchGestures">false</bool>
 
+    <string-array name="config_ignored_backup_transports" translatable="false">
+        <item>com.android.localtransport/.LocalTransport</item>
+    </string-array>
+
 </resources>
