@@ -28,7 +28,7 @@
         android:id="@+id/main_content_scrollable_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="194dp"
+        android:layout_marginTop="248dp"
         app:layout_behavior="com.android.settings.widget.FloatingAppBarScrollingViewBehavior">
 
         <LinearLayout
@@ -37,12 +37,12 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <FrameLayout
+            <!--FrameLayout
                 android:id="@+id/contextual_cards_content"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/contextual_card_side_margin"
-                android:layout_marginEnd="@dimen/contextual_card_side_margin"/>
+                android:layout_marginEnd="@dimen/contextual_card_side_margin"/-->
 
             <FrameLayout
                 android:id="@+id/main_content"
@@ -57,7 +57,7 @@
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:touchscreenBlocksFocus="false"
-        android:keyboardNavigationCluster="false">
+        android:keyboardNavigationCluster="false"
         android:layout_height="wrap_content">
         <include layout="@layout/homepage_spacer"/>
     </com.google.android.material.appbar.AppBarLayout>

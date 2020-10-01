@@ -59,14 +59,14 @@ public class SettingsHomepageActivity extends FragmentActivity {
         FeatureFactory.getFactory(this).getSearchFeatureProvider()
                 .initSearchToolbar(this /* activity */, toolbar, SettingsEnums.SETTINGS_HOMEPAGE);
 
-        final ImageView avatarView = findViewById(R.id.account_avatar);
-        getLifecycle().addObserver(new AvatarViewMixin(this, avatarView));
+//        final ImageView avatarView = findViewById(R.id.account_avatar);
+//        getLifecycle().addObserver(new AvatarViewMixin(this, avatarView));
         getLifecycle().addObserver(new HideNonSystemOverlayMixin(this));
 
-        if (!getSystemService(ActivityManager.class).isLowRamDevice()) {
+//        if (!getSystemService(ActivityManager.class).isLowRamDevice()) {
             // Only allow contextual feature on high ram devices.
-            showFragment(new ContextualCardsFragment(), R.id.contextual_cards_content);
-        }
+//            showFragment(new ContextualCardsFragment(), R.id.contextual_cards_content);
+//        }
         showFragment(new TopLevelSettings(), R.id.main_content);
         ((FrameLayout) findViewById(R.id.main_content))
                 .getLayoutTransition().enableTransitionType(LayoutTransition.CHANGING);
@@ -95,7 +95,7 @@ public class SettingsHomepageActivity extends FragmentActivity {
 
     private boolean isHomepageSpacerEnabled() {
         return Settings.System.getInt(this.getContentResolver(),
-        Settings.System.SETTINGS_SPACER, 0) != 0;
+        Settings.System.SETTINGS_SPACER, 1) != 0;
     }
 
     private static void setMargins (View v, int l, int t, int r, int b) {
