@@ -2884,6 +2884,9 @@
     <string name="theme_customization_font_title">Headline / Body font</string>
     <!-- [CHAR_LIMIT=NONE] Display Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
     <string name="theme_customization_icon_shape_title">Icon shape</string>
+	<string name="theme_customization_statusbar_height_title">Statusbar height</string>
+    <string name="theme_customization_ui_radius_title">UI radius</string>
+    <string name="theme_customization_ui_radius_vol_title">UI radius volume</string>
 
     <!-- Sound & display settings screen, setting option name to change screen timeout -->
     <string name="screen_timeout">Screen timeout</string>

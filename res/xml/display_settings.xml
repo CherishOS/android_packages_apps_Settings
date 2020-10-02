@@ -178,6 +178,13 @@
         <ListPreference
             android:key="android.theme.customization.adaptive_icon_shape"
             android:title="@string/theme_customization_icon_shape_title"/>
+		<ListPreference
+	    android:key="android.theme.customization.statusbar_height"
+            android:title="@string/theme_customization_statusbar_height_title"/>
+
+		<ListPreference
+			 android:key="android.theme.customization.ui_radius"
+            android:title="@string/theme_customization_ui_radius_title"/>
     </PreferenceCategory>
 
 </PreferenceScreen>
