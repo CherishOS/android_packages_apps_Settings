@@ -294,4 +294,8 @@
     <string name="wellbeing_title">Google Wellbeing</string>
     <string name="usercard_summary">Current active user, tap for more information</string>
     <string name="connectivity_category_title">connectivity</string>
+
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
 </resources>
