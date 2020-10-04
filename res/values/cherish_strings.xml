@@ -66,4 +66,9 @@
     <!-- Advanced powermenu -->
     <string name="global_actions_title">Power menu</string>
 
+    <!-- Navbar length -->
+    <string name="navbar_length">Gesture bar length</string>
+    <string name="short_label">Short</string>
+    <string name="long_label">Long</string>
+
 </resources>
