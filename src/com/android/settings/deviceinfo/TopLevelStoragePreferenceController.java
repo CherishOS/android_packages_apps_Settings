@@ -30,6 +30,10 @@ import com.android.settingslib.utils.ThreadUtils;
 
 import java.text.NumberFormat;
 
+import android.text.Spannable;
+import android.text.SpannableStringBuilder;
+import android.text.style.ForegroundColorSpan;
+
 public class TopLevelStoragePreferenceController extends BasePreferenceController {
 
     private final StorageManager mStorageManager;
@@ -58,10 +62,14 @@ public class TopLevelStoragePreferenceController extends BasePreferenceControlle
                     mStorageManagerVolumeProvider);
             final double privateUsedBytes = info.totalBytes - info.freeBytes;
 
-            ThreadUtils.postOnMainThread(() -> {
-                preference.setSummary(mContext.getString(R.string.storage_summary,
+	    String str = mContext.getString(R.string.storage_summary,
                         percentageFormat.format(privateUsedBytes / info.totalBytes),
-                        Formatter.formatFileSize(mContext, info.freeBytes)));
+                        Formatter.formatFileSize(mContext, info.freeBytes));
+            Spannable spannable = new SpannableStringBuilder(str);
+            spannable.setSpan(new ForegroundColorSpan(mContext.getColor(R.color.colorAccentSettings)), 0, str.indexOf("%")+1, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+
+            ThreadUtils.postOnMainThread(() -> {
+                preference.setSummary(spannable);
             });
         });
     }

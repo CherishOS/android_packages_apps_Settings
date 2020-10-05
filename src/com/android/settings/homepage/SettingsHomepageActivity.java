@@ -94,7 +94,7 @@ public class SettingsHomepageActivity extends FragmentActivity {
     }
 
     private boolean isHomepageSpacerEnabled() {
-        return Settings.System.getInt(this.getContentResolver(),
+         return Settings.System.getInt(this.getContentResolver(),
         Settings.System.SETTINGS_SPACER, 1) != 0;
     }
 

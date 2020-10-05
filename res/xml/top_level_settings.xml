@@ -1,250 +1,188 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
   Copyright (C) 2018 The Android Open Source Project
-
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
   You may obtain a copy of the License at
-
        http://www.apache.org/licenses/LICENSE-2.0
-
   Unless required by applicable law or agreed to in writing, software
   distributed under the License is distributed on an "AS IS" BASIS,
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   See the License for the specific language governing permissions and
   limitations under the License.
   -->
-
 <PreferenceScreen
-    xmlns:android="http://schemas.android.com/apk/res/android"
-	android:key="top_level_settings"
-	xmlns:settings="http://schemas.android.com/apk/res-auto">
+	xmlns:settings="http://schemas.android.com/apk/res-auto"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	settings:title="Top Level"
+	android:key="top_level_settings">
 
-    <Preference
-		android:icon="@drawable/ic_homepage_network"
-		android:title="@string/network_dashboard_title"
-		android:key="top_level_network"
-		android:summary="@string/summary_placeholder"
-		android:order="-120"
-		android:fragment="com.android.settings.network.NetworkDashboardFragment"
-		settings:controller="com.android.settings.network.TopLevelNetworkEntryPreferenceController"/>
+        <!-- Pref of Wellbeing o:-4, 0-->
+        <!-- Pref of GMS o:1, 2-->
 
-	<Preference
-		android:icon="@drawable/ic_homepage_connected_device"
-		android:title="@string/connected_devices_dashboard_title"
-		android:key="top_level_connected_devices"
-		android:summary="@string/summary_placeholder"
-		android:order="-110"
-		android:fragment="com.android.settings.connecteddevice.ConnectedDeviceDashboardFragment"
-		settings:controller="com.android.settings.connecteddevice.TopLevelConnectedDevicesPreferenceController"/>
-
-	<Preference
-		android:icon="@drawable/ic_homepage_accounts"
-		android:title="@string/account_dashboard_title"
-		android:key="top_level_accounts"
-		android:summary="@string/summary_placeholder"
-		android:order="-105"
-		android:fragment="com.android.settings.accounts.AccountDashboardFragment"
-		settings:controller="com.android.settings.accounts.TopLevelAccountEntryPreferenceController"/>
-		
-		
-	<Preference
-        android:key="top_level_cherish"
-        android:title="@string/cherish_settings_title"
-        android:summary="@string/cherish_settings_summary"
-        android:icon="@drawable/ic_homepage_cherish"
-        android:order="-95"
-        android:fragment="com.cherish.settings.CherishSettings"/>
-
-    <Preference
-        android:key="top_level_battery"
-        android:title="@string/power_usage_summary_title"
-        android:summary="@string/summary_placeholder"
-        android:icon="@drawable/ic_homepage_battery"
-        android:fragment="com.android.settings.fuelgauge.PowerUsageSummary"
-        android:order="-90"
-        settings:controller="com.android.settings.fuelgauge.TopLevelBatteryPreferenceController"/>
-
-    <Preference
-        android:key="top_level_display"
-        android:title="@string/display_settings"
-        android:summary="@string/summary_placeholder"
-        android:icon="@drawable/ic_homepage_display"
-        android:order="-80"
-        android:fragment="com.android.settings.DisplaySettings"
-        settings:controller="com.android.settings.display.TopLevelDisplayPreferenceController"/>
-
-    <Preference
-        android:key="top_level_sound"
-        android:title="@string/sound_settings"
-        android:summary="@string/sound_dashboard_summary"
-        android:icon="@drawable/ic_homepage_sound"
-        android:order="-70"
-        android:fragment="com.android.settings.notification.SoundSettings"/>
-
-    <Preference
-        android:key="top_level_storage"
-        android:title="@string/storage_settings"
-        android:summary="@string/summary_placeholder"
-        android:icon="@drawable/ic_homepage_storage"
-        android:order="-60"
-        android:fragment="com.android.settings.deviceinfo.StorageSettings"
-        settings:controller="com.android.settings.deviceinfo.TopLevelStoragePreferenceController"/>
-
-    <Preference
-        android:key="top_level_privacy"
-        android:title="@string/privacy_dashboard_title"
-        android:summary="@string/privacy_dashboard_summary"
-        android:icon="@drawable/ic_homepage_privacy"
-        android:order="-55"
-        android:fragment="com.android.settings.privacy.PrivacyDashboardFragment"/>
-
-    <Preference
-        android:key="top_level_location"
-        android:title="@string/location_settings_title"
-        android:summary="@string/location_settings_loading_app_permission_stats"
-        android:icon="@drawable/ic_homepage_location"
-        android:order="-50"
-        android:fragment="com.android.settings.location.LocationSettings"
-        settings:controller="com.android.settings.location.TopLevelLocationPreferenceController"/>
-
-    <Preference
-        android:key="top_level_security"
-        android:title="@string/security_settings_title"
-        android:summary="@string/summary_placeholder"
-        android:icon="@drawable/ic_homepage_security"
-        android:order="-40"
-        android:fragment="com.android.settings.security.SecuritySettings"
-        settings:controller="com.android.settings.security.TopLevelSecurityEntryPreferenceController"/>
-
-    <Preference
-        android:key="top_level_accounts"
-        android:title="@string/account_dashboard_title"
-        android:summary="@string/summary_placeholder"
-        android:icon="@drawable/ic_homepage_accounts"
-        android:order="-30"
-        android:fragment="com.android.settings.accounts.AccountDashboardFragment"
-        settings:controller="com.android.settings.accounts.TopLevelAccountEntryPreferenceController"/>
-
-    <Preference
-        android:key="top_level_accessibility"
-        android:title="@string/accessibility_settings"
-        android:summary="@string/accessibility_settings_summary"
-        android:icon="@drawable/ic_homepage_accessibility"
-        android:order="-20"
-        android:fragment="com.android.settings.accessibility.AccessibilitySettings"
-        settings:controller="com.android.settings.accessibility.TopLevelAccessibilityPreferenceController"/>
-
-    <com.android.settings.TopLevelPreferenceDivider
-		android:order="-100" />
+        <!-- Preference
+                android:order="6"
+                android:layout="@layout/divider"/-->
 
 		<Preference
-			android:icon="@drawable/ic_homepage_battery"
-			android:title="@string/power_usage_summary_title"
-			android:key="top_level_battery"
-			android:summary="@string/summary_placeholder"
-			android:order="-90"
-			android:fragment="com.android.settings.fuelgauge.PowerUsageSummary"
-			settings:controller="com.android.settings.fuelgauge.TopLevelBatteryPreferenceController"/>
+		    android:layout="@layout/card_view_pref_top"
+		    android:icon="@drawable/ic_settings_new_network"
+		    android:title="@string/network_dashboard_title"
+		    android:key="top_level_network"
+		    android:summary="@string/summary_placeholder"
+		    android:order="10"
+		    android:fragment="com.android.settings.network.NetworkDashboardFragment"
+		    settings:controller="com.android.settings.network.TopLevelNetworkEntryPreferenceController"/>
 
 		<Preference
-			android:icon="@drawable/ic_homepage_display"
-			android:title="@string/display_settings"
-			android:key="top_level_display"
-			android:summary="@string/summary_placeholder"
-			android:order="-85"
-			android:fragment="com.android.settings.DisplaySettings"
-			settings:controller="com.android.settings.display.TopLevelDisplayPreferenceController"/>
+		    android:layout="@layout/card_view_pref_middle"
+		    android:icon="@drawable/ic_settings_new_devices"
+		    android:title="@string/connected_devices_dashboard_title"
+		    android:key="top_level_connected_devices"
+		    android:summary="@string/summary_placeholder"
+		    android:order="15"
+		    android:fragment="com.android.settings.connecteddevice.ConnectedDeviceDashboardFragment"
+		    settings:controller="com.android.settings.connecteddevice.TopLevelConnectedDevicesPreferenceController"/>
 
 		<Preference
-			android:icon="@drawable/ic_homepage_sound"
-			android:title="@string/sound_settings"
-			android:key="top_level_sound"
-			android:summary="@string/sound_dashboard_summary"
-			android:order="-80"
-			android:fragment="com.android.settings.notification.SoundSettings"/>
+		    android:layout="@layout/card_view_pref_bottom"
+		    android:icon="@drawable/ic_settings_new_accounts"
+		    android:title="@string/account_dashboard_title"
+		    android:key="top_level_accounts"
+		    android:summary="@string/summary_placeholder"
+		    android:order="20"
+		    android:fragment="com.android.settings.accounts.AccountDashboardFragment"
+		    settings:controller="com.android.settings.accounts.TopLevelAccountEntryPreferenceController"/>
+
+		<Preference android:layout="@layout/divider" android:order="25"/>
+
+	    <Preference
+	            android:layout="@layout/card_view_pref_top"
+	            android:icon="@drawable/ic_settings_new_battery"
+	            android:title="@string/power_usage_summary_title"
+	            android:key="top_level_battery"
+	            android:summary="@string/summary_placeholder"
+	            android:order="30"
+	            android:fragment="com.android.settings.fuelgauge.PowerUsageSummary"
+	            settings:controller="com.android.settings.fuelgauge.TopLevelBatteryPreferenceController"/>
+
+	    <Preference
+	            android:layout="@layout/card_view_pref_middle"
+	            android:icon="@drawable/ic_settings_new_display"
+	            android:title="@string/display_settings"
+	            android:key="top_level_display"
+	            android:summary="@string/summary_placeholder"
+	            android:order="35"
+	            android:fragment="com.android.settings.DisplaySettings"
+	            settings:controller="com.android.settings.display.TopLevelDisplayPreferenceController"/>
+
+	    <Preference
+	            android:layout="@layout/card_view_pref_middle"
+	            android:icon="@drawable/ic_settings_new_sound"
+	            android:title="@string/sound_settings"
+	            android:key="top_level_sound"
+	            android:summary="@string/sound_dashboard_summary"
+	            android:order="40"
+	            android:fragment="com.android.settings.notification.SoundSettings"/>
+
+	    <Preference
+	            android:layout="@layout/card_view_pref_bottom"
+	            android:icon="@drawable/ic_settings_new_apps"
+	            android:title="@string/app_and_notification_dashboard_title"
+	            android:key="top_level_apps_and_notifs"
+	            android:summary="@string/app_and_notification_dashboard_summary"
+	            android:order="45"
+	            android:fragment="com.android.settings.applications.AppAndNotificationDashboardFragment"/>
+
+	    <Preference android:layout="@layout/divider" android:order="50"/>
+
+	    <Preference
+	            android:layout="@layout/card_view_pref_top"
+	            android:icon="@drawable/ic_settings_new_storage"
+	            android:title="@string/storage_settings"
+	            android:key="top_level_storage"
+	            android:summary="@string/summary_placeholder"
+	            android:order="55"
+	            android:fragment="com.android.settings.deviceinfo.StorageSettings"
+	            settings:controller="com.android.settings.deviceinfo.TopLevelStoragePreferenceController"/>
+
+	    <Preference
+	            android:layout="@layout/card_view_pref_middle"
+	            android:key="top_level_cherish"
+	            android:title="@string/cherish_settings_title"
+	            android:summary="@string/cherish_settings_summary"
+	            android:icon="@drawable/ic_cherish"
+	            android:order="60"
+	            android:fragment="com.cherish.settings.CherishSettings"/>
+
+	    <Preference
+	            android:layout="@layout/card_view_pref_bottom"
+	            android:icon="@drawable/ic_settings_new_location"
+	            android:title="@string/location_settings_title"
+	            android:key="top_level_location"
+	            android:summary="@string/location_settings_loading_app_permission_stats"
+	            android:order="65"
+	            android:fragment="com.android.settings.location.LocationSettings"
+	            settings:controller="com.android.settings.location.TopLevelLocationPreferenceController"/>
+
+	    <Preference android:order="70" android:layout="@layout/divider"/>
+
+	    <Preference
+	            android:layout="@layout/card_view_pref_top"
+	            android:icon="@drawable/ic_settings_new_security"
+	            android:title="@string/security_settings_title"
+	            android:key="top_level_security"
+	            android:summary="@string/summary_placeholder"
+	            android:order="75"
+	            android:fragment="com.android.settings.security.SecuritySettings"
+	            settings:controller="com.android.settings.security.TopLevelSecurityEntryPreferenceController"/>
+
+	    <Preference
+	            android:layout="@layout/card_view_pref_middle"
+	            android:icon="@drawable/ic_settings_new_privacy"
+	            android:title="@string/privacy_dashboard_title"
+	            android:key="top_level_privacy"
+	            android:summary="@string/privacy_dashboard_summary"
+	            android:order="80"
+	            android:fragment="com.android.settings.privacy.PrivacyDashboardFragment"/>
+
+	    <Preference
+	            android:layout="@layout/card_view_pref_bottom"
+	            android:icon="@drawable/ic_settings_new_accessibility"
+	            android:title="@string/accessibility_settings"
+	            android:key="top_level_accessibility"
+	            android:summary="@string/accessibility_settings_summary"
+	            android:order="85"
+	            android:fragment="com.android.settings.accessibility.AccessibilitySettings"
+	            settings:controller="com.android.settings.accessibility.TopLevelAccessibilityPreferenceController"/>
+
+	    <Preference android:order="90" android:layout="@layout/divider"/>
 
 		<Preference
-			android:icon="@drawable/ic_homepage_apps"
-			android:title="@string/app_and_notification_dashboard_title"
-			android:key="top_level_apps_and_notifs"
-			android:summary="@string/app_and_notification_dashboard_summary"
-			android:order="-70"
-			android:fragment="com.android.settings.applications.AppAndNotificationDashboardFragment"/>
+		    android:layout="@layout/card_view_pref_top"
+		    android:icon="@drawable/ic_settings_new_system_dashboard"
+		    android:title="@string/header_category_system"
+		    android:key="top_level_system"
+		    android:summary="@string/system_dashboard_summary"
+		    android:order="95"
+		    android:fragment="com.android.settings.system.SystemDashboardFragment"/>
+
+		<Preference 
+		    android:layout="@layout/card_view_pref_bottom"
+		    android:icon="@drawable/ic_settings_new_about"
+		    android:title="@string/about_settings"
+		    android:key="top_level_about_device"
+		    android:summary="@string/summary_placeholder"
+		    android:order="110"
+		    android:fragment="com.android.settings.deviceinfo.aboutphone.MyDeviceInfoFragment"
+		    settings:controller="com.android.settings.deviceinfo.aboutphone.TopLevelAboutDevicePreferenceController"/>
 
 		<Preference
-			android:icon="@drawable/ic_homepage_storage"
-			android:title="@string/storage_settings"
-			android:key="top_level_storage"
-			android:summary="@string/summary_placeholder"
-			android:order="-65"
-			android:fragment="com.android.settings.deviceinfo.StorageSettings"
-			settings:controller="com.android.settings.deviceinfo.TopLevelStoragePreferenceController"/>
-
-		<Preference
-			android:icon="@drawable/ic_homepage_location"
-			android:title="@string/location_settings_title"
-			android:key="top_level_location"
-			android:summary="@string/location_settings_loading_app_permission_stats"
-			android:order="-55"
-			android:fragment="com.android.settings.location.LocationSettings"
-			settings:controller="com.android.settings.location.TopLevelLocationPreferenceController"/>
-
-	<com.android.settings.TopLevelPreferenceDivider
-		android:order="-60" />
-
-		<Preference
-			android:icon="@drawable/ic_homepage_security"
-			android:title="@string/security_settings_title"
-			android:key="top_level_security"
-			android:summary="@string/summary_placeholder"
-			android:order="-45"
-			android:fragment="com.android.settings.security.SecuritySettings"
-			settings:controller="com.android.settings.security.TopLevelSecurityEntryPreferenceController"/>
-
-		<Preference
-			android:icon="@drawable/ic_homepage_privacy"
-			android:title="@string/privacy_dashboard_title"
-			android:key="top_level_privacy"
-			android:summary="@string/privacy_dashboard_summary"
-			android:order="-40"
-			android:fragment="com.android.settings.privacy.PrivacyDashboardFragment"/>
-
-		<Preference
-			android:icon="@drawable/ic_homepage_accessibility"
-			android:title="@string/accessibility_settings"
-			android:key="top_level_accessibility"
-			android:summary="@string/accessibility_settings_summary"
-			android:order="-35"
-			android:fragment="com.android.settings.accessibility.AccessibilitySettings"
-			settings:controller="com.android.settings.accessibility.TopLevelAccessibilityPreferenceController"/>
-
-	<com.android.settings.TopLevelPreferenceDivider
-		android:order="-30" />
-
-	<Preference
-		android:icon="@drawable/ic_homepage_system_dashboard"
-		android:title="@string/header_category_system"
-		android:key="top_level_system"
-		android:summary="@string/system_dashboard_summary"
-		android:order="10"
-		android:fragment="com.android.settings.system.SystemDashboardFragment"/>
-
-	<Preference
-		android:icon="@drawable/ic_homepage_about"
-		android:title="@string/about_settings"
-		android:key="top_level_about_device"
-		android:summary="@string/summary_placeholder"
-		android:order="20"
-		android:fragment="com.android.settings.deviceinfo.aboutphone.MyDeviceInfoFragment"
-		settings:controller="com.android.settings.deviceinfo.aboutphone.TopLevelAboutDevicePreferenceController"/>
-
-	<Preference
-		android:icon="@drawable/ic_homepage_support"
-		android:title="@string/page_tab_title_support"
-		android:key="top_level_support"
-		android:summary="@string/support_summary"
-		android:order="100"
-		settings:controller="com.android.settings.support.SupportPreferenceController"/>
-
+		    android:layout="@layout/card_view_pref_middle"
+		    android:icon="@drawable/ic_settings_new_support"
+		    android:title="@string/page_tab_title_support"
+		    android:key="top_level_support"
+		    android:summary="@string/support_summary"
+		    android:order="100"
+		    settings:controller="com.android.settings.support.SupportPreferenceController"/>
 </PreferenceScreen>

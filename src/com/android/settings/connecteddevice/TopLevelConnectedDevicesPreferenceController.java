@@ -30,7 +30,7 @@ public class TopLevelConnectedDevicesPreferenceController extends BasePreference
 
     @Override
     public int getAvailabilityStatus() {
-        return mContext.getResources().getBoolean(R.bool.config_show_top_level_connected_devices)
+	return mContext.getResources().getBoolean(R.bool.config_show_top_level_connected_devices)
                 ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
     }
 

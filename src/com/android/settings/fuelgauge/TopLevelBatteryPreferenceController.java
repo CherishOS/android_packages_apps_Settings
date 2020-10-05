@@ -27,6 +27,10 @@ import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnStart;
 import com.android.settingslib.core.lifecycle.events.OnStop;
 
+import android.text.Spannable;
+import android.text.SpannableStringBuilder;
+import android.text.style.ForegroundColorSpan;
+
 public class TopLevelBatteryPreferenceController extends BasePreferenceController implements
         LifecycleObserver, OnStart, OnStop {
 
@@ -86,6 +90,9 @@ public class TopLevelBatteryPreferenceController extends BasePreferenceControlle
                     info.batteryPercentString,
                     info.remainingLabel);
         }
-        return label;
+
+	Spannable spannable = new SpannableStringBuilder(label);
+        spannable.setSpan(new ForegroundColorSpan(context.getColor(R.color.colorAccentSettings)), 0, label.toString().indexOf("%")+1, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+        return spannable;
     }
 }
