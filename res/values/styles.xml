@@ -482,11 +482,23 @@
     </style>
 
     <style name="SearchBarStyle">
-        <item name="android:layout_margin">@dimen/search_bar_margin</item>
+        <item name="android:layout_marginTop">@dimen/search_bar_vertical_margin</item>
+        <item name="android:layout_marginBottom">@dimen/search_bar_vertical_margin</item>
+        <item name="android:layout_marginStart">@dimen/search_bar_side_margin</item>
+        <item name="android:layout_marginEnd">@dimen/search_bar_side_margin</item>
         <item name="cardCornerRadius">@*android:dimen/config_dialogCornerRadius</item>
         <item name="enforceMaterialTheme">true</item>
-        <item name="cardElevation">3dp</item>
+        <item name="cardElevation">0dp</item>
         <item name="shapeAppearance">@null</item>
+        <item name="strokeColor">@color/search_bar_stroke_color</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+
+    <style name="SettingsTextStyle">
+        <item name="android:layout_marginTop">@dimen/settings_header_top_margin</item>
+        <item name="android:layout_marginBottom">@dimen/settings_header_bottom_margin</item>
+        <item name="android:layout_marginStart">@dimen/search_bar_side_margin</item>
+        <item name="android:layout_marginEnd">@dimen/search_bar_side_margin</item>
     </style>
 
     <style name="ConditionCardBorderlessButton"
