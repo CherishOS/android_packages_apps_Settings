@@ -4,4 +4,8 @@
     <declare-styleable name="Themes">
 	<attr name="waveViewStyle" format="reference"/>
     </declare-styleable>
+
+    <declare-styleable name="DeviceCardView">
+        <attr name="extra_title" format="string"/>
+    </declare-styleable>
 </resources>
