@@ -171,6 +171,10 @@
             android:key="pocket_judge"
             android:title="@string/proximity_wake_title"
             android:summary="@string/proximity_wake_summary" />
+			
+		<SwitchPreference
+            android:key="enable_blurs_on_windows"
+            android:title="@string/window_blurs"/>
 
         <SwitchPreference
             android:key="tap_to_wake"
