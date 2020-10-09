@@ -161,7 +161,6 @@ import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSetting
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.cherish.settings.CherishSettings;
-import com.cherish.settings.fragments.PowerSettings;
 
 public class SettingsGateway {
 
@@ -311,8 +310,7 @@ public class SettingsGateway {
             InteractAcrossProfilesSettings.class.getName(),
             InteractAcrossProfilesDetails.class.getName(),
             MediaControlsSettings.class.getName(),
-            CherishSettings.class.getName(),
-			 PowerSettings.class.getName()
+            CherishSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -353,6 +351,5 @@ public class SettingsGateway {
             Settings.ModuleLicensesActivity.class.getName(),
             UserBackupSettingsActivity.class.getName(),
             Settings.CherishSettingsActivity.class.getName(),
-            Settings.PowerSettingsActivity.class.getName(),
     };
             }

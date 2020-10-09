@@ -3419,18 +3419,6 @@
                 android:value="com.cherish.settings.CherishSettings" />
         </activity>
 
-        <!-- Global Actions -->
-        <activity android:name="Settings$PowerSettingsActivity"
-                  android:label="@string/global_actions_title"
-                  android:taskAffinity="com.android.settings" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.cherish.settings.fragments.PowerSettings" />
-        </activity>
-
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>

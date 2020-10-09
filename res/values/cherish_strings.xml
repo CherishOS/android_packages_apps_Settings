@@ -63,9 +63,6 @@
     <string name="unlock_quick_unlock_control_title">Quick unlock</string>
     <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
 
-    <!-- Advanced powermenu -->
-    <string name="global_actions_title">Power menu</string>
-
     <!-- Navbar length -->
     <string name="navbar_length">Gesture bar length</string>
     <string name="hidden_label">Hidden</string>
