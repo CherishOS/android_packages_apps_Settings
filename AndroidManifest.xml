@@ -3409,7 +3409,7 @@
         <!-- CherishSettings -->
         <activity android:name=".Settings$CherishSettingsActivity"
             android:label="@string/cherish_settings_title"
-            android:icon="@drawable/ic_love"
+            android:icon="@drawable/ic_cherish"
             android:parentActivityName="com.android.settings">
             <intent-filter android:priority="69">
                 <action android:name="android.intent.action.MAIN" />
