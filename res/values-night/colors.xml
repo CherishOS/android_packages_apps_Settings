@@ -43,4 +43,7 @@
     <color name="card_view_bg">#1B1B1B</color>
     <color name="black">#FAFAFA</color>
     <color name="off_black">#90FAFAFA</color>
+    <color name="about_card_view_bg">#1A808080</color>
+
+    <color name="white">#000</color>
 </resources>

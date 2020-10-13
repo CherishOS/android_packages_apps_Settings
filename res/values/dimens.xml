@@ -447,4 +447,14 @@
     <dimen name="card_view_start_margin">15dp</dimen>
     <dimen name="card_view_end_margin">15dp</dimen>
     <dimen name="card_height_settings">75dp</dimen>
+
+
+    <dimen name="about_card_view_start_margin">10dp</dimen>
+    <dimen name="about_card_view_end_margin">10dp</dimen>
+    <dimen name="card_view_bottom_margin">10dp</dimen>
+    <dimen name="corner_card_about">6dp</dimen>
+    <dimen name="icon_size">30dp</dimen>
+    <dimen name="icon_end_padding">15dp</dimen>
+    <dimen name="text_top_padding">2.5dp</dimen>
+    <dimen name="about_card_settings_height">70dp</dimen>
 </resources>

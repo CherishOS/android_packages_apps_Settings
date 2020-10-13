@@ -176,4 +176,6 @@
     <color name="card_view_bg">#EBEBEB</color>
     <color name="black">#171717</color>
     <color name="off_black">#90171717</color>
+    <color name="white">#fff</color>
+   <color name="about_card_view_bg">#1A8F8F8F</color>
 </resources>

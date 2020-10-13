@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.android.settings.wave.MultiWaveHeader
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:mwhCloseColor="@color/white"
+        app:mwhColorAlpha=".6"
+        app:mwhProgress=".9"
+        app:mwhStartColor="?android:attr/colorAccent"
+        app:mwhWaves="0,0,1.4,0.8,85" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Octavi OS"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For the new gen"
+            android:textColor="@color/off_black"
+            android:textStyle="italic" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
