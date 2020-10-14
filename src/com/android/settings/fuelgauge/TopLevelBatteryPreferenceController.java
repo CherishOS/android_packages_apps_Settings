@@ -92,7 +92,8 @@ public class TopLevelBatteryPreferenceController extends BasePreferenceControlle
         }
 
 	Spannable spannable = new SpannableStringBuilder(label);
-        spannable.setSpan(new ForegroundColorSpan(context.getColor(R.color.colorAccentSettings)), 0, label.toString().indexOf("%")+1, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+	if (label.toString().contains("%"))
+	        spannable.setSpan(new ForegroundColorSpan(context.getColor(R.color.colorAccentSettings)), 0, label.toString().indexOf("%")+1, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
         return spannable;
     }
 }

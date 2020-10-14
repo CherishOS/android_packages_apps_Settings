@@ -25,11 +25,14 @@
     app:cardBackgroundColor="?android:attr/colorPrimary"
     app:layout_scrollFlags="scroll|enterAlwaysCollapsed">
 
+
     <TextView 
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:textAppearance="@style/homepage_spacer_title_style"
-        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_gravity="top|left"
+	android:layout_marginStart="30dp"
+	android_layout_marginTop="30dp"
         android:text="@string/settings_label" />
 
 <com.google.android.material.card.MaterialCardView                                    

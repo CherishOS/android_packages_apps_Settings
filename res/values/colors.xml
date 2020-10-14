@@ -173,9 +173,24 @@
     <color name="cardview_dark_background">@android:color/transparent</color>
 
     <color name="colorAccentSettings">@*android:color/accent_device_default_light</color>
-    <color name="card_view_bg">#EBEBEB</color>
+    <color name="about_card_view_bg">#1A8F8F8F</color>
+    <color name="card_view_bg">@color/about_card_view_bg</color>
     <color name="black">#171717</color>
     <color name="off_black">#90171717</color>
     <color name="white">#fff</color>
-   <color name="about_card_view_bg">#1A8F8F8F</color>
+
+    <color name="settings_new_about">#8950cc</color>
+    <color name="settings_new_access">#2cbf85</color>
+    <color name="settings_new_accounts">#be38cc</color>
+    <color name="settings_new_apps">#903ccc</color>
+    <color name="settings_new_battery">#e57d44</color>
+    <color name="settings_new_devices">#41cc3c</color>
+    <color name="settings_new_display">#cc5a8c</color>
+    <color name="settings_new_location">#e5cc4c</color>
+    <color name="settings_new_octavi">#4bcccc</color>
+    <color name="settings_new_privacy">#cc4551</color>
+    <color name="settings_new_security">#cc6f99</color>
+    <color name="settings_new_sound">#a0cc3c</color>
+    <color name="settings_new_support">#318ecc</color>
+    <color name="settings_new_system">#e5c872</color>
 </resources>

@@ -40,10 +40,26 @@
     <color name="palette_list_color_purple">@color/palette_list_dark_mode_color_purple</color>
     <color name="gestures_setting_background_color">@android:color/black</color>
 
-    <color name="card_view_bg">#1B1B1B</color>
     <color name="black">#FAFAFA</color>
     <color name="off_black">#90FAFAFA</color>
     <color name="about_card_view_bg">#1A808080</color>
+    <color name="card_view_bg">#1B1B1B</color>
 
     <color name="white">#000</color>
+
+    <color name="settings_new_about">#AC64FF</color>
+    <color name="settings_new_access">#37EFA7</color>
+    <color name="settings_new_accounts">#EE47FF</color>
+    <color name="settings_new_apps">#B44CFF</color>
+    <color name="settings_new_battery">#FF8B4C</color>
+    <color name="settings_new_devices">#52FF4C</color>
+    <color name="settings_new_display">#FF71AF</color>
+    <color name="settings_new_location">#FFE355</color>
+    <color name="settings_new_octavi">#5EFFFF</color>
+    <color name="settings_new_privacy">#FF5766</color>
+    <color name="settings_new_security">#FF8BC0</color>
+    <color name="settings_new_sound">#C9FF4C</color>
+    <color name="settings_new_support">#3EB2FF</color>
+    <color name="settings_new_system">#ffdf7f</color>
 </resources>
+

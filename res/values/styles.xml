@@ -748,7 +748,6 @@
     <style name="homepage_spacer_title_style">
         <item name="android:textSize">48sp</item>
         <item name="android:textColor">?android:attr/textColorPrimary</item>
-        <item name="android:fontFamily">google-sans-regular</item>
     </style>
 
     <style name="CrossProfileConsentDialogDescription">

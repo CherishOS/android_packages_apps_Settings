@@ -66,7 +66,9 @@ public class TopLevelStoragePreferenceController extends BasePreferenceControlle
                         percentageFormat.format(privateUsedBytes / info.totalBytes),
                         Formatter.formatFileSize(mContext, info.freeBytes));
             Spannable spannable = new SpannableStringBuilder(str);
-            spannable.setSpan(new ForegroundColorSpan(mContext.getColor(R.color.colorAccentSettings)), 0, str.indexOf("%")+1, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+
+	    if (str.contains("%"))
+	            spannable.setSpan(new ForegroundColorSpan(mContext.getColor(R.color.colorAccentSettings)), 0, str.indexOf("%")+1, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
 
             ThreadUtils.postOnMainThread(() -> {
                 preference.setSummary(spannable);

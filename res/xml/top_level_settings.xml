@@ -186,6 +186,4 @@
 		    settings:controller="com.android.settings.support.SupportPreferenceController"/>
 
             <Preference android:order="-5" android:layout="@layout/divider"/>
-
-	<PreferenceCategory android:order="0" android:title="Others"/>
 </PreferenceScreen>

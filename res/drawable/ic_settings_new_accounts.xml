@@ -3,7 +3,7 @@
     android:height="24dp"
     android:autoMirrored="true"
     android:viewportWidth="24.0"
-    android:tint="#EE47FF"
+    android:tint="@color/settings_new_accounts"
     android:viewportHeight="24.0">
     <path
         android:fillColor="?android:attr/colorPrimary"
