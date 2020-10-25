@@ -93,6 +93,7 @@
 
     <com.android.settingslib.RestrictedPreference
         android:key="wallpaper"
+        android:icon="@drawable/ic_settings_themes"
         android:title="@string/wallpaper_settings_title"
         settings:keywords="@string/keywords_display_wallpaper"
         settings:useAdminDisabledSummary="true"
@@ -133,6 +134,7 @@
 
     <com.android.settings.display.DensityPreference
         android:key="density"
+        android:icon="@drawable/ic_screen_zoom"
         android:title="@string/developer_smallest_width" />
 
     <SwitchPreference
@@ -171,6 +173,7 @@
 
     <Preference
         android:key="display_cutout_force_fullscreen_settings"
+        android:icon="@drawable/ic_settings_full_screen_apps"
         android:title="@string/display_cutout_force_fullscreen_title"
         android:summary="@string/display_cutout_force_fullscreen_summary"
         android:fragment="com.android.settings.display.DisplayCutoutForceFullscreenSettings"
