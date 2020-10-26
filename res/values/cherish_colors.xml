@@ -12,5 +12,5 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <color name="homepage_cherish_background">#FFC9CF</color>
+    <color name="homepage_cherish_background">#30FC6060</color>
 </resources> 
