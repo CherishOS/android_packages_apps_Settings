@@ -233,6 +233,13 @@
     <PreferenceCategory
         android:key="extra_volume_ui_features"
         android:title="@string/extra_volume_ui_features_title">
+		
+		<com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="pause_audio_stream"
+            android:icon="@drawable/ic_pause_audio_stream"
+            android:title="@string/pause_audio_stream_title"
+            android:summary="@string/pause_audio_stream_summary"
+            android:defaultValue="false" />
 
         <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="expand_immediately"
