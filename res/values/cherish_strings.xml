@@ -30,5 +30,8 @@
 	 <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">Swipe to screenshot</string>
     <string name="swipe_to_screenshot_gesture_summary">Swipe three fingers to take screenshot</string>
+	
+	<!-- Refresh rate -->
+    <string name="refresh_rate_title">Screen refresh rate</string>
 
 </resources>
