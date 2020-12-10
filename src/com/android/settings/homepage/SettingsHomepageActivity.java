@@ -48,6 +48,8 @@ public class SettingsHomepageActivity extends FragmentActivity {
         root.setSystemUiVisibility(
                 View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION | View.SYSTEM_UI_FLAG_LAYOUT_STABLE);
 
+        setHomepageContainerPaddingTop();
+
         final Toolbar toolbar = findViewById(R.id.search_action_bar);
         FeatureFactory.getFactory(this).getSearchFeatureProvider()
                 .initSearchToolbar(this /* activity */, toolbar, SettingsEnums.SETTINGS_HOMEPAGE);
@@ -77,5 +79,20 @@ public class SettingsHomepageActivity extends FragmentActivity {
         }
         fragmentTransaction.commit();
     }
-    
+
+    @VisibleForTesting
+    void setHomepageContainerPaddingTop() {
+        final View view = this.findViewById(R.id.homepage_container);
+
+        final int searchBarHeight = getResources().getDimensionPixelSize(R.dimen.search_bar_height);
+        final int searchBarMargin = getResources().getDimensionPixelSize(R.dimen.search_bar_margin);
+
+        // The top padding is the height of action bar(48dp) + top/bottom margins(16dp)
+        final int paddingTop = searchBarHeight + searchBarMargin * 2;
+        view.setPadding(0 /* left */, paddingTop, 0 /* right */, 0 /* bottom */);
+
+        // Prevent inner RecyclerView gets focus and invokes scrolling.
+        view.setFocusableInTouchMode(true);
+        view.requestFocus();
+    }
 }

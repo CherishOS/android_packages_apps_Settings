@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2018 The Android Open Source Project
-     Copyright (C) 2020 ProjectFluid
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -34,59 +33,14 @@
             android:id="@+id/homepage_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:descendantFocusability="blocksDescendants">
+            android:orientation="vertical">
 
-            <com.google.android.material.appbar.AppBarLayout
-                android:id="@+id/top_container"
+            <FrameLayout
+                android:id="@+id/contextual_cards_content"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:elevation="0dp"
-                android:background="?android:attr/windowBackground">
-
-                <FrameLayout
-                    android:id="@+id/settings_text_frame"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    style="@style/SettingsTextStyle"
-                    android:gravity="center_horizontal"
-                    android:layout_gravity="center_horizontal">
-
-                    <ImageView
-                        android:id="@+id/account_avatar"
-                        android:paddingEnd="@dimen/search_bar_avatar_end_padding"
-                        android:paddingTop="@dimen/search_bar_avatar_top_bottom_padding"
-                        android:layout_width="@dimen/search_bar_avatar_width"
-                        android:layout_height="@dimen/search_bar_avatar_height"
-                        android:layout_gravity="end"
-                        android:contentDescription="@string/search_bar_account_avatar_content_description"/>
-
-                    <TextView
-                        android:id="@+id/settings_text"
-                        android:textSize="24sp"
-                        android:textColor="?android:attr/colorAccent"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:layout_gravity="center_horizontal"
-                        android:text="@string/dashboard_title"/>  
-                </FrameLayout>
-
-                <include layout="@layout/search_bar"/>
-
-                <FrameLayout
-                    android:id="@+id/contextual_cards_content"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="@dimen/contextual_card_margin"/>
-            </com.google.android.material.appbar.AppBarLayout>
-
-            <View
-                android:id="@+id/nav_view_divider"
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="?android:attr/windowBackground"
-                android:layout_below="@id/top_container"/>
+                android:layout_marginStart="@dimen/contextual_card_side_margin"
+                android:layout_marginEnd="@dimen/contextual_card_side_margin"/>
 
             <FrameLayout
                 android:id="@+id/main_content"
@@ -97,4 +51,12 @@
 
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:touchscreenBlocksFocus="false"
+        android:keyboardNavigationCluster="false">
+        <include layout="@layout/search_bar"/>
+    </com.google.android.material.appbar.AppBarLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
