@@ -31,7 +31,7 @@
 
     <!-- Cherish maintainer -->
     <string name="maintainer">Maintainer</string>
-    <string name="cherish_maintainer">Unofficial Maintainer</string>
+    <string name="cherish_maintainer" translatable="false">Unofficial Maintainer</string>
 
     <!--Cherish Settings-->
     <string name="cherish_settings_title">Cherish Settings</string>
