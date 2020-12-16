@@ -50,13 +50,9 @@ public class SettingsHomepageActivity extends FragmentActivity {
 
         setHomepageContainerPaddingTop();
 
-        final Toolbar toolbar = findViewById(R.id.search_action_bar);
+        final View view = findViewById(R.id.search_layout);
         FeatureFactory.getFactory(this).getSearchFeatureProvider()
-                .initSearchToolbar(this /* activity */, toolbar, SettingsEnums.SETTINGS_HOMEPAGE);
-
-        final ImageView avatarView = findViewById(R.id.account_avatar);
-        getLifecycle().addObserver(new AvatarViewMixin(this, avatarView));
-        getLifecycle().addObserver(new HideNonSystemOverlayMixin(this));
+                .initSearchLayout(this /* activity */, view, SettingsEnums.SETTINGS_HOMEPAGE);
 
         if (!getSystemService(ActivityManager.class).isLowRamDevice()) {
             // Only allow contextual feature on high ram devices.

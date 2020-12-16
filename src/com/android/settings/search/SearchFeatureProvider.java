@@ -104,5 +104,30 @@ public interface SearchFeatureProvider {
         });
     }
 
+    /**
+     * Initializes the search layout.
+     */
+    default void initSearchLayout(Activity activity, View view, int pageId) {
+        if (activity == null || view == null) {
+            return;
+        }
+
+        view.setOnClickListener(v -> {
+            final Context context = activity.getApplicationContext();
+            final Intent intent = buildSearchIntent(context, pageId);
+
+            if (activity.getPackageManager().queryIntentActivities(intent,
+                    PackageManager.MATCH_DEFAULT_ONLY).isEmpty()) {
+                return;
+            }
+
+            FeatureFactory.getFactory(context).getSlicesFeatureProvider()
+                    .indexSliceDataAsync(context);
+            FeatureFactory.getFactory(context).getMetricsFeatureProvider()
+                    .action(context, SettingsEnums.ACTION_SEARCH_RESULTS);
+            activity.startActivityForResult(intent, REQUEST_CODE);
+        });
+    }
+
     Intent buildSearchIntent(Context context, int pageId);
 }

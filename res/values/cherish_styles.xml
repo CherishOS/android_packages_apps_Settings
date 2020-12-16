@@ -8,4 +8,15 @@
     <declare-styleable name="DeviceCardView">
         <attr name="extra_title" format="string"/>
     </declare-styleable>
+	
+	<style name="TextAppearance.SearchBar.Cherish">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+
+    <style name="TextAppearance.SettingsHeader">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style>
 </resources>
