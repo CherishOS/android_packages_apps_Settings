@@ -32,5 +32,7 @@
     <color name="cherish_homepage_icon_system_dashboard_color">#989898</color>
     <color name="cherish_homepage_icon_theme_color">#f17979</color>
     <color name="cherish_homepage_icon_tools_color">#e99092</color>
+	 <color name="cherish_homepage_icon_google_color">#4285f4</color>
+    <color name="cherish_homepage_icon_wellbeing_color">#f06292</color>
     <color name="tl_preference_divider_bg">#f7f7f7</color>
 </resources> 
