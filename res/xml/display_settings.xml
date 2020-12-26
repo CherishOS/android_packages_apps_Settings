@@ -228,6 +228,10 @@
             android:key="android.theme.customization.icon_pack.android"
             android:icon="@drawable/ic_package"
             android:title="@string/theme_customization_sysui_icon_title"/>
+         <ListPreference
+	    android:key="android.theme.customization.brightness"
+            android:icon="@drawable/ic_brightness"
+            android:title="@string/theme_customization_brightness_title"/>
 
 		<ListPreference
 			 android:key="android.theme.customization.ui_radius"
