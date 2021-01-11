@@ -12,7 +12,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <color name="homepage_cherish_background">#30FC6060</color>
+    <color name="homepage_cherish_background">#f7f7f7</color>
 	
 	<!-- Settings Homepage Stupidity -->
     <color name="cherish_homepage_background">#f7f7f7</color>

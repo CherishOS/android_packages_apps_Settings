@@ -42,13 +42,25 @@
     <com.android.settings.ui.TopLevelPreferenceDivider
         android:key="top_level_divider_one"
         android:order="-145"/>
+		
+	<Preference
+        android:key="top_level_cherish"
+        android:title="@string/cherish_settings_title"
+        android:summary="@string/cherish_settings_summary"
+        android:icon="@drawable/ic_homepage_cherish"
+        android:order="-140"
+        android:fragment="com.cherish.settings.CherishSettings"/>
+		
+	<com.android.settings.ui.TopLevelPreferenceDivider
+        android:key="top_level_divider_one"
+        android:order="-135"/>
 
     <Preference
         android:key="top_level_display"
         android:title="@string/display_settings"
         android:summary="@string/summary_placeholder"
         android:icon="@drawable/ic_homepage_display"
-        android:order="-140"
+        android:order="-130"
         android:fragment="com.android.settings.DisplaySettings"
         settings:controller="com.android.settings.display.TopLevelDisplayPreferenceController"/>
 
@@ -57,7 +69,7 @@
         android:title="@string/sound_settings"
         android:summary="@string/sound_dashboard_summary"
         android:icon="@drawable/ic_homepage_sound"
-        android:order="-130"
+        android:order="-125"
         android:fragment="com.android.settings.notification.SoundSettings"/>
 
     <Preference
