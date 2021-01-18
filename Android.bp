@@ -93,6 +93,7 @@ android_library {
         "SettingsLibActivityEmbedding",
         "accountfeatureprovidergoogle",
         "SettingsLibMainSwitchPreference",
+        "vendor.lineage.fastcharge-V1.0-java",
     ],
 
     libs: [
