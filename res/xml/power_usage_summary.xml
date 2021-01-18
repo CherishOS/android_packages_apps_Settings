@@ -72,6 +72,12 @@
         android:fragment="com.android.settings.cherish.health.ChargingControlSettings"
         settings:controller="com.android.settings.cherish.health.ChargingControlPreferenceController" />
 
+    <SwitchPreference
+        android:key="fast_charging"
+        android:title="@string/fast_charging_title"
+        android:summary="@string/fast_charging_summary"
+        settings:controller="com.android.settings.fuelgauge.FastChargingPreferenceController"/>
+
     <Preference
         android:key="high_power_apps"
         android:title="@string/high_power_apps"
