@@ -34,4 +34,8 @@
     <string name="build_date_default">2015-01-01-0000</string>
     <string name="keywords_build_date">build date, build info</string>
 
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">Fast charging</string>
+    <string name="fast_charging_summary">Disable to reduce the heat produced by the device while charging or to extend the lifespan of the battery</string>
+
 </resources>

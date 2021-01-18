@@ -120,6 +120,7 @@ android_library {
         "settings_connectivity_flags_lib",
         "glide",
         "SettingsLibMainSwitchPreference",
+        "vendor.lineage.fastcharge-V1.0-java",
     ],
 
     plugins: [
