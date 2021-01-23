@@ -27,8 +27,10 @@ android_library {
         "SettingsLib-search-defaults",
     ],
 
-    srcs: ["src/**/*.java",
-           "CherishSettings/src/**/*.java",
+    srcs: [
+        "src/**/*.java", 
+        "src/**/*.kt",
+        "CherishSettings/src/**/*.java",
     ],
 
     aaptflags: ["--extra-packages com.cherish.settings"],
@@ -65,6 +67,8 @@ android_library {
         "android.hardware.dumpstate-V1.1-java",
 	     "airbnb-lottie",
         "faceunlock_framework",
+        "kotlinx-coroutines-android",
+        "kotlinx-coroutines-core",
     ],
 
     libs: [

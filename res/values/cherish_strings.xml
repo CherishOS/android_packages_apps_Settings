@@ -498,4 +498,7 @@
     <string name="data_usage_period">Data usage period</string>
     <string name="data_usage_daily">Daily</string>
     <string name="data_usage_monthly">Monthly</string>
+	
+	<string name="cherish_about_device_info">Legal &amp; Information</string>
+    <string name="cherish_about_device_private">Private Details</string>
 </resources>

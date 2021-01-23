@@ -6,8 +6,42 @@
     </declare-styleable>
 
     <declare-styleable name="DeviceCardView">
-        <attr name="extra_title" format="string"/>
+        <attr name="extra_title" format="string|reference"/>
     </declare-styleable>
+	
+	<style name="CherishPreferenceFullCard">
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:background">@drawable/cherish_pref_full</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <style name="CherishPreferenceTopCard">
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:background">@drawable/cherish_pref_top</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <style name="CherishPreferenceMiddleCard">
+        <item name="android:layout_marginTop">-2dp</item>
+        <item name="android:layout_marginBottom">-2dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:background">@drawable/cherish_pref_middle</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <style name="CherishPreferenceBottomCard">
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:background">@drawable/cherish_pref_bottom</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
 	
 	<style name="LockPatternSizeHeaderStyle" parent="android:style/TextAppearance.Material.Subhead">
         <item name="android:paddingTop">16dp</item>
