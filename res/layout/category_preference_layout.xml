@@ -41,6 +41,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:textAlignment="viewStart"
+            android:textColor="?android:colorAccent"
             style="@style/PreferenceCategoryTitleTextStyle"/>
 
         <TextView
