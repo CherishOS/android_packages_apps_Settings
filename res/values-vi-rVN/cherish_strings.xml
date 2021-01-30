@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2020 CherishOS
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- About phone screen, Cherish version -->
+    <string name="cherish_version">Phiên bản CherishOS</string>
+    <string name="cherish_version_default">Không xác định</string>
+    <string name="keywords_cherish_version">Phiên bản CherishOS</string>
+    <!-- About phone screen, build date -->
+    <string name="about_device_name">Thiết bị</string>
+    <string name="build_date">Ngày dựng</string>
+    <string name="build_date_default">2015-01-01-0000</string>
+    <string name="keywords_build_date">ngày xây dựng, thông tin bản dựng</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">Trạng thái SELinux</string>
+    <string name="selinux_status_disabled">Tắt</string>
+    <string name="selinux_status_permissive">Cho phép</string>
+    <string name="selinux_status_enforcing">Thực thi</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Đặt lại số liệu thống kê</string>
+    <string name="battery_stats_message">Số liệu thống kê lịch sử pin sẽ được thiết lập lại</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Nhiệt độ pin</string>
+    <!--Cherish Settings-->
+    <string name="cherish_settings_title">Thông Điệp Yêu Thương</string>
+    <string name="cherish_settings_summary">Ở đâu có sự sống, ở đó có tình yêu!</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">Màu sắc đèn</string>
+    <string name="custom_light_on_time_title">Thời gian sáng đèn khi nhấp nháy (ms)</string>
+    <string name="custom_light_off_time_title">Thời gian tắt đèn khi nhấp nháy (ms)\"</string>
+    <string name="value_equals_default">mặc định</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_nos_title">Âm thanh sạc</string>
+    <string name="charging_vibro_title">Rung khi sạc</string>
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Âm thanh chụp màn hình</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Mở khóa nhanh</string>
+    <string name="unlock_quick_unlock_control_summary">Mở khóa tự động khi nhập đúng mật khẩu/PIN</string>
+    <!-- Navbar length -->
+    <string name="navbar_length">Độ dài thanh cử chỉ</string>
+    <string name="hidden_label">Ẩn</string>
+    <string name="long_label">Dài</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Cài đặt xoay</string>
+    <string name="display_rotation_summary">Chọn góc xoay</string>
+    <string name="display_rotation_disabled">Tắt</string>
+    <string name="display_rotation_unit">độ</string>
+    <string name="display_rotation_category_title">Chế độ xoay</string>
+    <string name="display_rotation_0_title">0 độ</string>
+    <string name="display_rotation_90_title">90 độ</string>
+    <string name="display_rotation_180_title">180 độ</string>
+    <string name="display_rotation_270_title">270 độ</string>
+    <string name="volumesteps_title">Các mức âm lượng</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Tai nghe đã lưu</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Ứng dụng toàn màn hình</string>
+    <string name="display_cutout_force_fullscreen_summary">Bỏ qua phần tai thỏ cho các ứng dụng được chọn</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Phát lại thích ứng</string>
+    <string name="adaptive_playback_disabled_summary">Tắt</string>
+    <string name="adaptive_playback_timeout_title">Sử dụng thời gian chờ của</string>
+    <string name="adaptive_playback_timeout_none">Không có thời gian chờ</string>
+    <string name="adaptive_playback_timeout_none_summary">Bật (không có thời gian chờ)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 giây</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Bật (30 giây)</string>
+    <string name="adaptive_playback_timeout_1_min">1 phút</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Bật (1 phút)</string>
+    <string name="adaptive_playback_timeout_2_min">2 phút</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Bật (2 phút)</string>
+    <string name="adaptive_playback_timeout_5_min">5 phút</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Bật (5 phút)</string>
+    <string name="adaptive_playback_timeout_10_min">10 phút</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Bật (10 phút)</string>
+    <string name="adaptive_playback_explainer">Phát nhạc thích ứng tự động dừng phát đa phương tiện khi tắt âm lượng và tự động phát đa phương tiện khi âm lượng được khôi phục lại theo thời gian đặt trước.</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Cho phép máy khách sử dụng VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Cho phép hotspot các máy khách sử dụng các kết nối VPN của thiết bị\u2019 này để kết nối ngược dòng</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Sạc thông minh</string>
+    <string name="smart_charging_summary">Thiết lập sạc thông minh mức thấp nhất</string>
+    <string name="smart_charging_switch_title">Sử dụng sạc thông minh</string>
+    <string name="smart_charging_level_title">Dừng mức độ kích hoạt</string>
+    <string name="smart_charging_resume_level_title">Bắt đầu mức độ kích hoạt</string>
+    <string name="smart_charging_reset_stats_title">Đặt lại thống kê pin</string>
+    <string name="smart_charging_reset_stats_summary">Đặt lại thống kê pin sau khi đạt đến mức sạc do người dùng xác định</string>
+    <string name="smart_charging_footer">Sạc thông minh cho phép bạn đặt mức sạc tối đa để kéo dài tuổi thọ của pin</string>
+    <!-- Cherish maintainer -->
+    <string name="maintainer">Người chủ trì</string>
+    <!-- Screen off fod -->
+    <string name="fod_gesture_title">Mở khóa bằng vân tay khi màn hình tắt</string>
+    <string name="fod_gesture_summary">Cho phép mở khóa thiết bị mà không cần phải đánh thức màn hình trước</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Tối ưu hóa màn hình dựa trên điều kiện môi trường và thời gian trong ngày để cải thiện khả năng đọc và giảm mỏi mắt</string>
+    <string name="live_display_mode">Chế độ Hiển thị</string>
+    <string name="live_display_color_temperature_title">Độ đậm màu</string>
+    <string name="live_display_color_temperature_summary">Ngày: <xliff:g id="day_temperature">%1$d </xliff:g> K đêm: <xliff:g id="night_temperature">%2$d </xliff:g> K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="độ">%1$d </xliff:g> K</string>
+    <string name="live_display_day">Ngày</string>
+    <string name="live_display_night">Đêm</string>
+    <string name="live_display_outdoor_mode_title">Tự động điều chỉnh khi ra ngoài trời</string>
+    <string name="live_display_outdoor_mode_summary">Tự động tăng độ sáng và độ bão hòa dưới ánh sáng mặt trời</string>
+    <string name="live_display_low_power_title">Giảm tiêu thụ pin</string>
+    <string name="live_display_low_power_summary">Điều chỉnh hiển thị cho tiêu thụ điện năng thấp nhất mà không làm giảm chất lượng</string>
+    <string name="live_display_enhance_color_title">Tăng cường màu sắc</string>
+    <string name="live_display_enhance_color_summary">Cải thiện độ rung màu sắc của màu da, cảnh quan và hình ảnh khác</string>
+    <string name="live_display_color_profile_title">Cấu hình màu</string>
+    <string name="live_display_color_profile_standard_title">Tiêu chuẩn</string>
+    <string name="live_display_color_profile_standard_summary">Màu sắc chính xác và màu trắng sáng</string>
+    <string name="live_display_color_profile_natural_title">Tự nhiên</string>
+    <string name="live_display_color_profile_natural_summary">Màu sắc thực tế và tông màu da</string>
+    <string name="live_display_color_profile_dynamic_title">Động</string>
+    <string name="live_display_color_profile_dynamic_summary">Màu sắc được tăng cường và màu trắng sáng</string>
+    <string name="live_display_color_profile_cinema_title">Rạp phim</string>
+    <string name="live_display_color_profile_cinema_summary">Tái tạo màu sắc hoàn hảo cho video</string>
+    <string name="live_display_color_profile_astronomy_title">Thiên văn học</string>
+    <string name="live_display_color_profile_astronomy_summary">Đỏ sâu để duy trì tầm nhìn ban đêm</string>
+    <string name="live_display_color_profile_photography_title">Nhiếp ảnh</string>
+    <string name="live_display_color_profile_photography_summary">Tái tạo màu sắc hoàn hảo cho hình ảnh</string>
+    <string name="live_display_color_profile_basic_title">Cơ bản</string>
+    <string name="live_display_color_profile_basic_summary">Dùng hiển thị không hiệu chỉnh</string>
+    <string name="live_display_color_profile_adaptive_title">Thích ứng</string>
+    <string name="live_display_color_profile_adaptive_summary">Màu sắc thích ứng với điều kiện môi trường xung quanh</string>
+    <string name="live_display_color_profile_reading_title">Đọc</string>
+    <string name="live_display_color_profile_reading_summary">Các màu ấm hơn cho mỏi mắt ít hơn</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Màu sắc chính xác cho không gian màu sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Màu sắc chính xác cho khoảng cách màu DCI-P3</string>
+    <string name="live_display_reading_mode_title">Chế độ đọc sách</string>
+    <string name="live_display_reading_mode_summary">Chế độ màu xám để đọc sách lâu dài</string>
+    <string name="color_calibration_title">Hiệu chỉnh màu sắc</string>
+    <string name="color_calibration_summary">Cân bằng màu sắc</string>
+    <string name="color_red_title">Đỏ</string>
+    <string name="color_green_title">Xanh</string>
+    <string name="color_blue_title">Xanh da trời</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Hiệu chỉnh hình ảnh</string>
+    <string name="picture_adjustment_summary">Hiệu chỉnh tông màu, bão hòa, cường độ và độ tương phản</string>
+    <string name="adj_hue_title">Màu sắc</string>
+    <string name="adj_saturation_title">Độ bão hòa</string>
+    <string name="adj_intensity_title">Cường độ</string>
+    <string name="adj_contrast_title">Độ tương phản</string>
+    <!-- Pocket mode -->
+    <string name="proximity_wake_title">Ngăn chặn tình cờ bật màn hình</string>
+    <string name="proximity_wake_summary">Kiểm tra cảm biến tiệm cận trước khi mở màn hình</string>
+    <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">Thay đổi nhà cung cấp để sao lưu</string>
+    <string name="backup_transport_title">Chọn nhà cung cấp để sao lưu</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Luôn bật khi sử dụng sạc</string>
+    <string name="doze_on_charge_summary">Hiển thị màn hình doze mọi lúc khi sạc</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Cho phép truy cập mạng</string>
+    <string name="data_usage_app_restrict_all_summary">Cho phép ứng dụng truy cập mạng</string>
+    <string name="data_usage_app_restrict_mobile">Dữ liệu di động</string>
+    <string name="data_usage_app_restrict_mobile_summary">Cho phép sử dụng dữ liệu di động</string>
+    <string name="data_usage_app_restrict_vpn">Dữ liệu VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Cho phép sử dụng dữ liệu VPN</string>
+    <string name="data_usage_app_restrict_wifi">Dữ liệu Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Cho phép sử dụng dữ liệu Wi\u2011Fi</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Chạm 2 lần</string>
+    <string name="doze_double_tap_title">Chạm 2 lần để kiểm tra điện thoại</string>
+    <string name="doze_double_tap_summary">Thông báo xung bằng cách chạm hai lần</string>
+    <!-- About phone cards -->
+    <string name="storage_card_title">Bộ nhớ</string>
+    <string name="storage_card_info">Chiếm đóng</string>
+    <string name="about_device_rom_title">CherishOS %s</string>
+    <!-- Gestures: Touchscreen gestures -->
+    <string name="touchscreen_gesture_settings_title">Cử chỉ chạm màn hình</string>
+    <string name="touchscreen_gesture_settings_summary">Thực hiện các cử chỉ chạm màn hình khác nhau cho các hành động nhanh chóng</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Chạm để hiện thông tin</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Liên kết âm lượng nhạc chuông &amp; thông báo</string>
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">Tắt</string>
+    <string name="greatest_tick_label">Một nửa màn hình</string>
+    <string name="gesture_back_deadzone_label">Vùng chết</string>
+    <string name="back_sensitivity_dialog_message_cust">\nSử dụng thanh tìm kiếm thứ nhất và thứ hai để định cấu hình độ nhạy của thao tác vuốt ngược, thanh tìm kiếm cuối cùng để đặt vùng chết trên đầu màn hình nơi không thể kích hoạt thao tác vuốt, để tránh xung đột với cử chỉ trong ứng dụng.</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Không có thao tác</string>
+    <string name="action_search">Trợ lý</string>
+    <string name="action_voice_search">Tìm kiếm giọng nói</string>
+    <string name="action_launch_camera">Máy ảnh</string>
+    <string name="action_flashlight">Đèn pin</string>
+    <string name="action_volume_panel">Bảng điều chỉnh âm lượng</string>
+    <string name="action_screen_off">Màn hình tắt</string>
+    <string name="action_screenshot">Ảnh chụp màn hình</string>
+    <string name="action_app_action">Ứng dụng</string>
+    <string name="active_edge_ss_app_select_title">Chọn ứng dụng bóp ngắn</string>
+    <string name="active_edge_ls_app_select_title">Chọn ứng dụng bóp dài</string>
+    <string name="active_edge_app_select_summary">Chọn một ứng dụng để khởi động với hành động ép</string>
+    <string name="action_qs_panel">Bảng cài đặt nhanh</string>
+    <string name="action_notifications">Thông báo</string>
+    <string name="action_clear_notifications">Xóa thông báo</string>
+    <string name="action_ringer_modes">Chế độ đổ chuông</string>
+    <string name="kill_app">Xoá ứng dụng khác</string>
+    <string name="skip_song">Bỏ qua bài hát</string>
+    <string name="prev_song">Bài hát trước đó</string>
+    <string name="show_powermenu">Hiển thị Menu nguồn</string>
+    <string name="partial_screenshot">Chụp một phần màn hình</string>
+    <string name="hush_mute">Chặn thông báo</string>
+    <!-- Long back swipe options -->
+    <string name="navbar_gesture_tweaks_pref_title">Cử chỉ nâng cao</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Tùy chỉnh cử chỉ và thiết lập hành động tùy chỉnh</string>
+    <string name="navbar_gesture_tweaks_cat_title">Nâng cao</string>
+    <string name="long_back_swipe_timeout_title">Thời gian chờ hành động vuốt dài</string>
+    <string name="left_swipe_actions_title">Thao tác vuốt dài sang trái</string>
+    <string name="left_swipe_app_action_title">Chọn ứng dụng vuốt dài bên trái</string>
+    <string name="right_swipe_actions_title">Hành động vuốt dài sang phải</string>
+    <string name="right_swipe_app_action_title">Chọn ứng dụng vuốt dài bên phải</string>
+    <string name="left_vertical_swipe_actions_title">Thao tác vuốt dọc phải</string>
+    <string name="left_vertical_swipe_app_action_title">Chọn ứng dụng vuốt bên trái</string>
+    <string name="right_vertical_swipe_actions_title">Thao tác vuốt dọc phải</string>
+    <string name="right_vertical_swipe_app_action_title">Chọn ứng dụng vuốt bên phải</string>
+    <string name="gesture_nav_tweaks_footer_info">Để chọn một hoạt động của ứng dụng cụ thể cho một hành động, nhấn giữ một ứng dụng bất kì trong bộ chọn ứng dụng.\n\nNếu trình khởi chạy đang được hiển thị, hãy vuốt lên từ khu vực phía dưới màn hình để thực hiện hành động.</string>
+    <string name="back_swipe_extended_title">Hành động vuốt mở rộng</string>
+    <string name="back_swipe_extended_summary">Kích hoạt hành động khi vuốt rộng hơn (hơn một nửa kích thước màn hình) hoặc vuốt L (đủ dài theo chiều dọc)</string>
+    <!-- Fingerprint swipe left and right -->
+    <string name="fp_swipe_to_dismiss_notifications_title">Vuốt cảm biến vân tay sang trái hoặc phải để loại bỏ thông báo</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Để loại bỏ thông báo của bạn, hãy vuốt sang trái hoặc phải trên bộ cảm biến dấu vân tay ở mặt sau của điện thoại.</string>
+    <!-- Ambient Wake gestures -->
+    <string name="ambient_wake_gestures_title">Cử chỉ màn hình hiển thị xung quanh</string>
+    <string name="ambient_wake_gestures_summary">Hiển thị tính năng Hiển thị nhanh thay cho màn hình khoá bình thường khi sử dụng vuốt đánh thức</string>
+    <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">Bỏ qua bản nhạc</string>
+    <string name="volume_skiptrack_title">Âm lượng rocker bỏ qua bài hát</string>
+    <string name="volume_skiptrack_summary">Nhấn và giữ nút chỉnh âm lượng để bỏ qua các bản nhạc khi phát nhạc, thậm chí từ xa trên tv hoặc PC với ví dụ: Spotify (ứng dụng phải chạy trên điện thoại và hiển thị thông báo).</string>
+    <string name="pulse_on_new_tracks_title">Thẻ âm nhạc trên Màn hình sáng</string>
+    <string name="pulse_on_new_tracks_summary">Hiển thị Ambient Display khi một bản nhạc mới được phát. Nhấn đúp vào thông tin theo dõi để bỏ qua bài hát tiếp theo.</string>
+    <string name="pulse_on_new_tracks_soli_summary">Hiển thị màn hình luôn bật khi một bản nhạc mới được phát</string>
+    <!-- Ambient music ticker location -->
+    <string name="ambient_music_location">Hiện thẻ âm nhạc trên màn hình xem nhanh</string>
+    <string name="ambient_music_disabled">Tắt</string>
+    <string name="ambient_music_bottom">Ở dưới cùng (mặc định)</string>
+    <string name="ambient_music_center">Căn giữa (dưới đồng hồ)</string>
+    <!-- Changelog -->
+    <string name="changelog_title">Nhật ký thay đổi</string>
+    <string name="changelog_summary">Từ lần cập nhật cuối</string>
+    <string name="changelog_error">Không thể tải nhật ký thay đổi</string>
+</resources>
