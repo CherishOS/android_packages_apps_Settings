@@ -57,14 +57,13 @@
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Cài đặt xoay</string>
     <string name="display_rotation_summary">Chọn góc xoay</string>
-    <string name="display_rotation_disabled">Tự động xoay bị tắt</string>
+    <string name="display_rotation_disabled">Tắt</string>
     <string name="display_rotation_unit">độ</string>
     <string name="display_rotation_category_title">Chế độ xoay</string>
     <string name="display_rotation_0_title">0 độ</string>
     <string name="display_rotation_90_title">90 độ</string>
     <string name="display_rotation_180_title">180 độ</string>
     <string name="display_rotation_270_title">270 độ</string>
-    <string name="weather_title">Thời tiết</string>
     <string name="volumesteps_title">Các mức âm lượng</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Tai nghe đã lưu</string>
@@ -182,4 +181,77 @@
     <string name="storage_card_title">Bộ nhớ</string>
     <string name="storage_card_info">Chiếm đóng</string>
     <string name="about_device_rom_title">CherishOS %s</string>
+    <!-- Gestures: Touchscreen gestures -->
+    <string name="touchscreen_gesture_settings_title">Cử chỉ chạm màn hình</string>
+    <string name="touchscreen_gesture_settings_summary">Thực hiện các cử chỉ chạm màn hình khác nhau cho các hành động nhanh chóng</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Chạm để hiện thông tin</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Liên kết âm lượng nhạc chuông &amp; thông báo</string>
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">Tắt</string>
+    <string name="greatest_tick_label">Một nửa màn hình</string>
+    <string name="gesture_back_deadzone_label">Vùng chết</string>
+    <string name="back_sensitivity_dialog_message_cust">\nSử dụng thanh tìm kiếm thứ nhất và thứ hai để định cấu hình độ nhạy của thao tác vuốt ngược, thanh tìm kiếm cuối cùng để đặt vùng chết trên đầu màn hình nơi không thể kích hoạt thao tác vuốt, để tránh xung đột với cử chỉ trong ứng dụng.</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Không có thao tác</string>
+    <string name="action_search">Trợ lý</string>
+    <string name="action_voice_search">Tìm kiếm giọng nói</string>
+    <string name="action_launch_camera">Máy ảnh</string>
+    <string name="action_flashlight">Đèn pin</string>
+    <string name="action_volume_panel">Bảng điều chỉnh âm lượng</string>
+    <string name="action_screen_off">Màn hình tắt</string>
+    <string name="action_screenshot">Ảnh chụp màn hình</string>
+    <string name="action_app_action">Ứng dụng</string>
+    <string name="active_edge_ss_app_select_title">Chọn ứng dụng bóp ngắn</string>
+    <string name="active_edge_ls_app_select_title">Chọn ứng dụng bóp dài</string>
+    <string name="active_edge_app_select_summary">Chọn một ứng dụng để khởi động với hành động ép</string>
+    <string name="action_qs_panel">Bảng cài đặt nhanh</string>
+    <string name="action_notifications">Thông báo</string>
+    <string name="action_clear_notifications">Xóa thông báo</string>
+    <string name="action_ringer_modes">Chế độ đổ chuông</string>
+    <string name="kill_app">Xoá ứng dụng khác</string>
+    <string name="skip_song">Bỏ qua bài hát</string>
+    <string name="prev_song">Bài hát trước đó</string>
+    <string name="show_powermenu">Hiển thị Menu nguồn</string>
+    <string name="partial_screenshot">Chụp một phần màn hình</string>
+    <string name="hush_mute">Chặn thông báo</string>
+    <!-- Long back swipe options -->
+    <string name="navbar_gesture_tweaks_pref_title">Cử chỉ nâng cao</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Tùy chỉnh cử chỉ và thiết lập hành động tùy chỉnh</string>
+    <string name="navbar_gesture_tweaks_cat_title">Nâng cao</string>
+    <string name="long_back_swipe_timeout_title">Thời gian chờ hành động vuốt dài</string>
+    <string name="left_swipe_actions_title">Thao tác vuốt dài sang trái</string>
+    <string name="left_swipe_app_action_title">Chọn ứng dụng vuốt dài bên trái</string>
+    <string name="right_swipe_actions_title">Hành động vuốt dài sang phải</string>
+    <string name="right_swipe_app_action_title">Chọn ứng dụng vuốt dài bên phải</string>
+    <string name="left_vertical_swipe_actions_title">Thao tác vuốt dọc phải</string>
+    <string name="left_vertical_swipe_app_action_title">Chọn ứng dụng vuốt bên trái</string>
+    <string name="right_vertical_swipe_actions_title">Thao tác vuốt dọc phải</string>
+    <string name="right_vertical_swipe_app_action_title">Chọn ứng dụng vuốt bên phải</string>
+    <string name="gesture_nav_tweaks_footer_info">Để chọn một hoạt động của ứng dụng cụ thể cho một hành động, nhấn giữ một ứng dụng bất kì trong bộ chọn ứng dụng.\n\nNếu trình khởi chạy đang được hiển thị, hãy vuốt lên từ khu vực phía dưới màn hình để thực hiện hành động.</string>
+    <string name="back_swipe_extended_title">Hành động vuốt mở rộng</string>
+    <string name="back_swipe_extended_summary">Kích hoạt hành động khi vuốt rộng hơn (hơn một nửa kích thước màn hình) hoặc vuốt L (đủ dài theo chiều dọc)</string>
+    <!-- Fingerprint swipe left and right -->
+    <string name="fp_swipe_to_dismiss_notifications_title">Vuốt cảm biến vân tay sang trái hoặc phải để loại bỏ thông báo</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Để loại bỏ thông báo của bạn, hãy vuốt sang trái hoặc phải trên bộ cảm biến dấu vân tay ở mặt sau của điện thoại.</string>
+    <!-- Ambient Wake gestures -->
+    <string name="ambient_wake_gestures_title">Cử chỉ màn hình hiển thị xung quanh</string>
+    <string name="ambient_wake_gestures_summary">Hiển thị tính năng Hiển thị nhanh thay cho màn hình khoá bình thường khi sử dụng vuốt đánh thức</string>
+    <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">Bỏ qua bản nhạc</string>
+    <string name="volume_skiptrack_title">Âm lượng rocker bỏ qua bài hát</string>
+    <string name="volume_skiptrack_summary">Nhấn và giữ nút chỉnh âm lượng để bỏ qua các bản nhạc khi phát nhạc, thậm chí từ xa trên tv hoặc PC với ví dụ: Spotify (ứng dụng phải chạy trên điện thoại và hiển thị thông báo).</string>
+    <string name="pulse_on_new_tracks_title">Thẻ âm nhạc trên Màn hình sáng</string>
+    <string name="pulse_on_new_tracks_summary">Hiển thị Ambient Display khi một bản nhạc mới được phát. Nhấn đúp vào thông tin theo dõi để bỏ qua bài hát tiếp theo.</string>
+    <string name="pulse_on_new_tracks_soli_summary">Hiển thị màn hình luôn bật khi một bản nhạc mới được phát</string>
+    <!-- Ambient music ticker location -->
+    <string name="ambient_music_location">Hiện thẻ âm nhạc trên màn hình xem nhanh</string>
+    <string name="ambient_music_disabled">Tắt</string>
+    <string name="ambient_music_bottom">Ở dưới cùng (mặc định)</string>
+    <string name="ambient_music_center">Căn giữa (dưới đồng hồ)</string>
+    <!-- Changelog -->
+    <string name="changelog_title">Nhật ký thay đổi</string>
+    <string name="changelog_summary">Từ lần cập nhật cuối</string>
+    <string name="changelog_error">Không thể tải nhật ký thay đổi</string>
 </resources>
