@@ -20,47 +20,13 @@
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
-
-<!-- Cherish OS logo -->
+	
+	
+	<!-- Cherish info -->
     <com.android.settingslib.widget.LayoutPreference
-        android:key="cherish_logo"
-        android:layout="@layout/cherish_logo"
-        android:selectable="false"/>
-		
-    <!-- Cherish version -->
-    <Preference
-        android:key="cherish_version"
-        android:title="@string/cherish_version"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-		android:selectable="false"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.CherishVersionPreferenceController"/>
-		
-	<!-- Cherish maintainer -->
-    <Preference
-        android:key="maintainer"
-        android:title="@string/maintainer"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.CherishMaintainerPreferenceController"/>
-
-    <!-- Build date -->
-    <Preference
-        android:key="build_date"
-        android:title="@string/build_date"
-        android:summary="@string/build_date_default"
-        settings:enableCopying="true"
-		android:selectable="false"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.BuildDatePreferenceController"/>
-
-    <!-- Device name -->
-    <Preference
-        android:key="about_device_name"
-        android:title="@string/about_device_name"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        android:selectable="false"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.AboutDeviceNamePreferenceController"/>
+        android:key="cherish_info"
+        android:layout="@layout/cherish_info"
+        android:selectable="false" />
 
     <!-- Android version -->
     <Preference
@@ -102,6 +68,15 @@
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.KernelVersionPreferenceController"/>
+		
+    <!-- Build date -->
+    <Preference
+        android:key="build_date"
+        android:title="@string/build_date"
+        android:summary="@string/build_date_default"
+        settings:enableCopying="true"
+		android:selectable="false"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.BuildDatePreferenceController"/>
 
     <!-- Build -->
     <Preference
@@ -120,5 +95,4 @@
         settings:enableCopying="false"
         android:selectable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SelinuxStatusPreferenceController"/>
-
 </PreferenceScreen>
