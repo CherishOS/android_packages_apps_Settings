@@ -263,4 +263,10 @@
     <!-- Clipboard toast toggle -->
     <string name="show_clipboard_toast">Hiển thị cảnh báo truy cập khay nhớ tạm</string>
     <string name="show_clipboard_toast_summary">Hiển thị cảnh báo khi một ứng dụng cố gắng truy cập khay nhớ tạm</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Phản hồi rung</string>
+    <string name="back_gesture_haptic_summary">Kích hoạt hiệu ứng đánh dấu haptic trên cử chỉ quay lại</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Hiển thị một mũi tên chuyển động cho cử chỉ quay lại</string>
+    <string name="back_gesture_arrow_summary">Hiển thị hoạt ảnh mũi tên cho cử chỉ trở lại.</string>
 </resources>

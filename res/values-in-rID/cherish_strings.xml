@@ -264,4 +264,10 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <!-- Clipboard toast toggle -->
     <string name="show_clipboard_toast">Show clipboard access alerts</string>
     <string name="show_clipboard_toast_summary">Display a toast when an app tries to access the clipboard</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Haptic feedback</string>
+    <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Back gesture animation</string>
+    <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture.</string>
 </resources>

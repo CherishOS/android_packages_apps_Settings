@@ -78,13 +78,13 @@
     <string name="adaptive_playback_timeout_none_summary">Ativado (sem limite de tempo)</string>
     <string name="adaptive_playback_timeout_30_secs">30 segundos</string>
     <string name="adaptive_playback_timeout_30_secs_summary">Ativado (30 segundos)</string>
-    <string name="adaptive_playback_timeout_1_min">1 minute</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuto</string>
     <string name="adaptive_playback_timeout_1_min_summary">Ativado (1 minuto)</string>
-    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutos</string>
     <string name="adaptive_playback_timeout_2_min_summary">Ativado (2 minutos)</string>
-    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutos</string>
     <string name="adaptive_playback_timeout_5_min_summary">Ativado (5 minutos)</string>
-    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutos</string>
     <string name="adaptive_playback_timeout_10_min_summary">Ativado (10 minutos)</string>
     <string name="adaptive_playback_explainer">A reprodução adaptável pausa automaticamente a mídia quando o volume é silenciado e será retomado automaticamente quando o volume for restaurado dentro do tempo definido.</string>
     <!-- Hotspot extras -->
@@ -263,4 +263,10 @@
     <!-- Clipboard toast toggle -->
     <string name="show_clipboard_toast">Show clipboard access alerts</string>
     <string name="show_clipboard_toast_summary">Display a toast when an app tries to access the clipboard</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Haptic feedback</string>
+    <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Back gesture animation</string>
+    <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture.</string>
 </resources>

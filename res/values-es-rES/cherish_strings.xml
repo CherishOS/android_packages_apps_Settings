@@ -22,7 +22,7 @@
     <string name="keywords_build_date">fecha de compilación, información de compilación</string>
     <!-- SELinux Status -->
     <string name="selinux_status">Estado de SELinux</string>
-    <string name="selinux_status_disabled">Discapacitado</string>
+    <string name="selinux_status_disabled">Desabilitado</string>
     <string name="selinux_status_permissive">Permisivo</string>
     <string name="selinux_status_enforcing">Obligatorio (Enforcing)</string>
     <!-- App details: open play store link if app is user installed -->
@@ -57,7 +57,7 @@
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Rotación</string>
     <string name="display_rotation_summary">Elegir ángulo de rotación</string>
-    <string name="display_rotation_disabled">Discapacitado</string>
+    <string name="display_rotation_disabled">Desabilitado</string>
     <string name="display_rotation_unit">degrees</string>
     <string name="display_rotation_category_title">Modos de rotación</string>
     <string name="display_rotation_0_title">0 grados</string>
@@ -247,7 +247,7 @@
     <string name="pulse_on_new_tracks_soli_summary">Show Ambient Display when a new music track is played</string>
     <!-- Ambient music ticker location -->
     <string name="ambient_music_location">Show ambient music ticker</string>
-    <string name="ambient_music_disabled">Discapacitado</string>
+    <string name="ambient_music_disabled">Desabilitado</string>
     <string name="ambient_music_bottom">At the bottom (default)</string>
     <string name="ambient_music_center">Centered (under the cLock)</string>
     <!-- Changelog -->
@@ -263,4 +263,10 @@
     <!-- Clipboard toast toggle -->
     <string name="show_clipboard_toast">Show clipboard access alerts</string>
     <string name="show_clipboard_toast_summary">Display a toast when an app tries to access the clipboard</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Haptic feedback</string>
+    <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Back gesture animation</string>
+    <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture.</string>
 </resources>
