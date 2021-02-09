@@ -35,7 +35,7 @@
     <!-- Battery temp -->
     <string name="battery_temp_title">Температура батареи</string>
     <!--Cherish Settings-->
-    <string name="cherish_settings_title">Настройки CherishOS</string>
+    <string name="cherish_settings_title">Любимые настройки </string>
     <string name="cherish_settings_summary">Счастье недостижимо, оно исходит от своих действий</string>
     <!-- Custom light color -->
     <string name="custom_light_title">Цвет индикатора уведомлений</string>
@@ -52,7 +52,7 @@
     <string name="unlock_quick_unlock_control_summary">Автоматически разблокировать при вводе правильного PIN-кода/пароля</string>
     <!-- Navbar length -->
     <string name="navbar_length">Длина полосы жестов</string>
-    <string name="hidden_label">Скрывать</string>
+    <string name="hidden_label">Не показывать значок батареи</string>
     <string name="long_label">Длинный</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Поворот экрана</string>
@@ -67,9 +67,6 @@
     <string name="volumesteps_title">Уровни громкости</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Сохраненные наушники</string>
-    <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Полноэкранные приложения</string>
-    <string name="display_cutout_force_fullscreen_summary">Приложения принудительно игнорируют вырез (бровь-челку)</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Адаптивное воспроизведение</string>
     <string name="adaptive_playback_disabled_summary">Выключено</string>
@@ -269,4 +266,15 @@
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">Back gesture animation</string>
     <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture.</string>
+    <!-- Min refresh rate -->
+    <string name="min_refresh_rate_title">Minimum refresh rate</string>
+    <!-- Mobile network setting screen, summary of Mobile data switch preference when the network
+         is unavailable, the preference selection will be disabled. [CHAR LIMIT=NONE] -->
+    <string name="mobile_data_settings_summary_unavailable">No SIM card available</string>
+    <!-- Notch -->
+    <string name="notch_category_title">Notch options</string>
+    <string name="hide_notch_title">Hide notch</string>
+    <string name="hide_notch_summary">Apps can not use the notch area</string>
+    <string name="display_cutout_force_fullscreen_title">Полноэкранные приложения</string>
+    <string name="display_cutout_force_fullscreen_summary">Приложения принудительно игнорируют вырез (бровь-челку)</string>
 </resources>
