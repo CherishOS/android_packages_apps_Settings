@@ -12,174 +12,171 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, Cherish version -->
-    <string name="cherish_version">Versión de Cherish</string>
-    <string name="cherish_version_default">Desconocido</string>
-    <string name="keywords_cherish_version">Versión de Cherish</string>
+    <string name="cherish_version">Cherish version</string>
+    <string name="cherish_version_default">Unknown</string>
+    <string name="keywords_cherish_version">Cherish version</string>
     <!-- About phone screen, build date -->
-    <string name="about_device_name">Dispositivo</string>
-    <string name="build_date">Fecha de compilación</string>
+    <string name="about_device_name">Device</string>
+    <string name="build_date">Build date</string>
     <string name="build_date_default">2015-01-01-0000</string>
-    <string name="keywords_build_date">fecha de compilación, información de compilación</string>
+    <string name="keywords_build_date">build date, build info</string>
     <!-- SELinux Status -->
-    <string name="selinux_status">Estado de SELinux</string>
+    <string name="selinux_status">SELinux status</string>
     <string name="selinux_status_disabled">Desabilitado</string>
-    <string name="selinux_status_permissive">Permisivo</string>
-    <string name="selinux_status_enforcing">Obligatorio (Enforcing)</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reiniciar estadísticas</string>
-    <string name="battery_stats_message">Estadísticas de la batería van a reiniciarse</string>
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Temperatura de la batería</string>
+    <string name="battery_temp_title">Battery temperature</string>
     <!--Cherish Settings-->
     <string name="cherish_settings_title">Cherish Settings</string>
-    <string name="cherish_settings_summary">La felicidad no está disponible y viene de tus propias acciones</string>
+    <string name="cherish_settings_summary">Happiness is not available and it comes from your own actions</string>
     <!-- Custom light color -->
-    <string name="custom_light_title">Color del Led</string>
-    <string name="custom_light_on_time_title">Duración del parpadeo del led encendido (ms)</string>
-    <string name="custom_light_off_time_title">Duración del parpadeo del led apagado (ms)\"</string>
-    <string name="value_equals_default">por_defecto</string>
+    <string name="custom_light_title">Light color</string>
+    <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
+    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
+    <string name="value_equals_default">def</string>
     <!-- Charging vibration -->
-    <string name="charging_sounds_nos_title">Sonidos de carga de batería</string>
-    <string name="charging_vibro_title">Vibración al cargar</string>
+    <string name="charging_sounds_nos_title">Charging sound</string>
+    <string name="charging_vibro_title">Charging vibration</string>
     <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">Sonido de captura de pantalla</string>
+    <string name="screenshot_sound_title">Screenshot sound</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Desbloqueo rápido</string>
-    <string name="unlock_quick_unlock_control_summary">Desbloquear automáticamente cuando se introduce el PIN o contraseña</string>
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
     <!-- Navbar length -->
-    <string name="navbar_length">Tamaño de la barra de gestos</string>
+    <string name="navbar_length">Gesture bar length</string>
     <string name="hidden_label">Oculto</string>
-    <string name="long_label">Largo</string>
+    <string name="long_label">Long</string>
     <!-- Display : Rotation -->
-    <string name="display_rotation_title">Rotación</string>
-    <string name="display_rotation_summary">Elegir ángulo de rotación</string>
+    <string name="display_rotation_title">Rotation</string>
+    <string name="display_rotation_summary">Select rotation angles</string>
     <string name="display_rotation_disabled">Desabilitado</string>
     <string name="display_rotation_unit">degrees</string>
-    <string name="display_rotation_category_title">Modos de rotación</string>
-    <string name="display_rotation_0_title">0 grados</string>
-    <string name="display_rotation_90_title">90 grados</string>
-    <string name="display_rotation_180_title">180 grados</string>
-    <string name="display_rotation_270_title">270 grados</string>
-    <string name="volumesteps_title">Intervalos en volumen</string>
+    <string name="display_rotation_category_title">Rotation modes</string>
+    <string name="display_rotation_0_title">0 degrees</string>
+    <string name="display_rotation_90_title">90 degrees</string>
+    <string name="display_rotation_180_title">180 degrees</string>
+    <string name="display_rotation_270_title">270 degrees</string>
+    <string name="volumesteps_title">Volume Steps</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Auriculares guardados</string>
-    <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Aplicaciones en pantalla completa</string>
-    <string name="display_cutout_force_fullscreen_summary">Forzar aplicaciones a ignorar el espacio del notch</string>
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
     <!-- Adaptive Playback -->
-    <string name="adaptive_playback_screen_title">Reproducción adaptativa</string>
-    <string name="adaptive_playback_disabled_summary">Apagada</string>
-    <string name="adaptive_playback_timeout_title">Usar un tiempo de espera de</string>
-    <string name="adaptive_playback_timeout_none">Sin tiempo de espera</string>
-    <string name="adaptive_playback_timeout_none_summary">Encendido (sin tiempo de espera)</string>
-    <string name="adaptive_playback_timeout_30_secs">30 segundos</string>
-    <string name="adaptive_playback_timeout_30_secs_summary">Activado (30 segundos)</string>
+    <string name="adaptive_playback_screen_title">Adaptive playback</string>
+    <string name="adaptive_playback_disabled_summary">Desactivado</string>
+    <string name="adaptive_playback_timeout_title">Use a timeout of</string>
+    <string name="adaptive_playback_timeout_none">No timeout</string>
+    <string name="adaptive_playback_timeout_none_summary">On (no timeout)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
     <string name="adaptive_playback_timeout_1_min">1 minuto</string>
-    <string name="adaptive_playback_timeout_1_min_summary">Activado (1 minuto)</string>
+    <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
     <string name="adaptive_playback_timeout_2_min">2 minutos</string>
-    <string name="adaptive_playback_timeout_2_min_summary">Activado (2 minutos)</string>
+    <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
     <string name="adaptive_playback_timeout_5_min">5 minutos</string>
-    <string name="adaptive_playback_timeout_5_min_summary">Activado (5 minutos)</string>
+    <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
     <string name="adaptive_playback_timeout_10_min">10 minutos</string>
-    <string name="adaptive_playback_timeout_10_min_summary">Activado (10 minutos)</string>
-    <string name="adaptive_playback_explainer">La reproducción adaptativa detiene automáticamente los medios cuando el volumen está silenciado y se reanudará automáticamente cuando el volumen se restablezca dentro del tiempo establecido.</string>
+    <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
+    <string name="adaptive_playback_explainer">Adaptive playback automatically pauses media when the volume is muted and will resume automatically when volume is restored within the set time.</string>
     <!-- Hotspot extras -->
-    <string name="tethering_allow_vpn_upstreams_title">Permitir a los clientes usar VPNs</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Permitir a los clientes de hotspot usar las conexiones VPN de este dispositivo\u2019 como conectividad de subida</string>
+    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
     <!-- Smart charging -->
-    <string name="smart_charging_title">Carga inteligente</string>
-    <string name="smart_charging_summary">Establecer nivel máximo de carga</string>
-    <string name="smart_charging_switch_title">Usar Carga inteligente</string>
-    <string name="smart_charging_level_title">Detener al nivel</string>
-    <string name="smart_charging_resume_level_title">Iniciar al nivel</string>
-    <string name="smart_charging_reset_stats_title">Restaurar estadísticas de la batería</string>
-    <string name="smart_charging_reset_stats_summary">Restablecer estadísticas de batería después de alcanzar el nivel de carga definido por el usuario</string>
-    <string name="smart_charging_footer">Carga inteligente le permite establecer el nivel máximo de carga para ampliar la duración de su batería</string>
+    <string name="smart_charging_title">Smart Charging</string>
+    <string name="smart_charging_summary">Set maximum charging level</string>
+    <string name="smart_charging_switch_title">Use Smart charging</string>
+    <string name="smart_charging_level_title">Stop trigger level</string>
+    <string name="smart_charging_resume_level_title">Start trigger level</string>
+    <string name="smart_charging_reset_stats_title">Reset battery statistics</string>
+    <string name="smart_charging_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
+    <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery</string>
     <!-- Cherish maintainer -->
-    <string name="maintainer">Mantenedor</string>
+    <string name="maintainer">Maintainer</string>
     <!-- Screen off fod -->
-    <string name="fod_gesture_title">Huella dactilar con la pantalla apagada</string>
-    <string name="fod_gesture_summary">Permitir desbloquear el dispositivo sin tener que despertar primero la pantalla</string>
+    <string name="fod_gesture_title">Screen off fingerprint</string>
+    <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
     <!-- LiveDisplay -->
-    <string name="live_display_summary">Optimizar su pantalla basada en la hora del día y las condiciones ambientales para mejorar la lectura y reducir la fatiga visual</string>
-    <string name="live_display_mode">Modo de pantalla</string>
-    <string name="live_display_color_temperature_title">Temperatura del color</string>
-    <string name="live_display_color_temperature_summary">Dia: <xliff:g id="day_temperature">%1$d</xliff:g>K  Noche: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
+    <string name="live_display_mode">Display mode</string>
+    <string name="live_display_color_temperature_title">Color temperature</string>
+    <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
     <string name="live_display_day">Día</string>
     <string name="live_display_night">Noche</string>
-    <string name="live_display_outdoor_mode_title">Modo exterior automático</string>
-    <string name="live_display_outdoor_mode_summary">Aumentar automáticamente el brillo y la saturación bajo la luz del sol</string>
-    <string name="live_display_low_power_title">Reducir el consumo de energía</string>
-    <string name="live_display_low_power_summary">Ajustar la pantalla al mínimo consumo de energía sin degradación</string>
-    <string name="live_display_enhance_color_title">Mejorar colores</string>
-    <string name="live_display_enhance_color_summary">Mejorar la vividez del color de tonos de piel, paisajes y otras imágenes</string>
-    <string name="live_display_color_profile_title">Perfil de color</string>
-    <string name="live_display_color_profile_standard_title">Estándar</string>
-    <string name="live_display_color_profile_standard_summary">Colores precisos y blancos brillantes</string>
+    <string name="live_display_outdoor_mode_title">Automatic outdoor mode</string>
+    <string name="live_display_outdoor_mode_summary">Increase brightness and saturation automatically under bright sunlight</string>
+    <string name="live_display_low_power_title">Reduce power consumption</string>
+    <string name="live_display_low_power_summary">Adjust display for lowest power consumption without degradation</string>
+    <string name="live_display_enhance_color_title">Enhance colors</string>
+    <string name="live_display_enhance_color_summary">Improve color vibrance of flesh tones, scenery, and other images</string>
+    <string name="live_display_color_profile_title">Color profile</string>
+    <string name="live_display_color_profile_standard_title">Standard</string>
+    <string name="live_display_color_profile_standard_summary">Accurate colors and bright whites</string>
     <string name="live_display_color_profile_natural_title">Natural</string>
-    <string name="live_display_color_profile_natural_summary">Colores realistas y tonos de cálidos</string>
+    <string name="live_display_color_profile_natural_summary">Realistic colors and flesh tones</string>
     <string name="live_display_color_profile_dynamic_title">Dinámica</string>
-    <string name="live_display_color_profile_dynamic_summary">Colores mejorados y blancos brillantes</string>
-    <string name="live_display_color_profile_cinema_title">Cine</string>
-    <string name="live_display_color_profile_cinema_summary">Reproducción perfecta del color para el vídeo</string>
-    <string name="live_display_color_profile_astronomy_title">Astronomía</string>
-    <string name="live_display_color_profile_astronomy_summary">Rojo profundo para preservar la visión nocturna</string>
-    <string name="live_display_color_profile_photography_title">Fotografía</string>
-    <string name="live_display_color_profile_photography_summary">Reproducción de color perfecta para fotos</string>
-    <string name="live_display_color_profile_basic_title">Básico</string>
-    <string name="live_display_color_profile_basic_summary">Usar pantalla sin calibrar</string>
-    <string name="live_display_color_profile_adaptive_title">Adaptativo</string>
-    <string name="live_display_color_profile_adaptive_summary">Los colores se adaptan a las condiciones ambientales</string>
-    <string name="live_display_color_profile_reading_title">Lectura</string>
-    <string name="live_display_color_profile_reading_summary">Colores cálidos para reducir la fatiga visual</string>
+    <string name="live_display_color_profile_dynamic_summary">Enhanced colors and bright whites</string>
+    <string name="live_display_color_profile_cinema_title">Cinema</string>
+    <string name="live_display_color_profile_cinema_summary">Perfect color reproduction for video</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomy</string>
+    <string name="live_display_color_profile_astronomy_summary">Deep red for preserving night vision</string>
+    <string name="live_display_color_profile_photography_title">Photography</string>
+    <string name="live_display_color_profile_photography_summary">Perfect color reproduction for photos</string>
+    <string name="live_display_color_profile_basic_title">Basic</string>
+    <string name="live_display_color_profile_basic_summary">Use the display uncalibrated</string>
+    <string name="live_display_color_profile_adaptive_title">Adaptive</string>
+    <string name="live_display_color_profile_adaptive_summary">Colors adapt to ambient conditions</string>
+    <string name="live_display_color_profile_reading_title">Reading</string>
+    <string name="live_display_color_profile_reading_summary">Warmer colors for less eye strain</string>
     <string name="live_display_color_profile_srgb_title">sRGB</string>
-    <string name="live_display_color_profile_srgb_summary">Colores precisos para el espacio de color sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Colors accurate to the sRGB color space</string>
     <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
-    <string name="live_display_color_profile_dci_p3_summary">Colores fieles al espacio de color DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Colors accurate to the DCI-P3 color space</string>
     <string name="live_display_reading_mode_title">Modo de lectura</string>
-    <string name="live_display_reading_mode_summary">Modo escala de grises para lectura prolongada</string>
-    <string name="color_calibration_title">Calibración de color</string>
-    <string name="color_calibration_summary">Calibrar colores de pantalla</string>
+    <string name="live_display_reading_mode_summary">Grayscale mode for long-term reading</string>
+    <string name="color_calibration_title">Color calibration</string>
+    <string name="color_calibration_summary">Calibrate on-screen colors</string>
     <string name="color_red_title">Rojo</string>
     <string name="color_green_title">Verde</string>
-    <string name="color_blue_title">Azul</string>
+    <string name="color_blue_title">Blue</string>
     <!-- LiveDisplay : Picture Adjustment -->
-    <string name="picture_adjustment_title">Ajuste de imagen</string>
-    <string name="picture_adjustment_summary">Ajustar tono, saturación, intensidad y contraste</string>
+    <string name="picture_adjustment_title">Picture adjustment</string>
+    <string name="picture_adjustment_summary">Adjust hue, saturation, intensity, and contrast</string>
     <string name="adj_hue_title">Hue</string>
-    <string name="adj_saturation_title">Saturación</string>
-    <string name="adj_intensity_title">Intensidad</string>
-    <string name="adj_contrast_title">Contraste</string>
+    <string name="adj_saturation_title">Saturation</string>
+    <string name="adj_intensity_title">Intensity</string>
+    <string name="adj_contrast_title">Contrast</string>
     <!-- Pocket mode -->
-    <string name="proximity_wake_title">Prevenir encendido accidental</string>
-    <string name="proximity_wake_summary">Comprobar el sensor de proximidad antes de encender la pantalla</string>
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
     <!-- Backup Transport selection settings menu and activity title -->
-    <string name="backup_transport_setting_label">Cambiar proveedor de la copia de seguridad</string>
-    <string name="backup_transport_title">Seleccionar proveedor de la copia de seguridad</string>
+    <string name="backup_transport_setting_label">Change backup provider</string>
+    <string name="backup_transport_title">Select backup provider</string>
     <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Siempre encendido al cargar</string>
-    <string name="doze_on_charge_summary">Mantener pantalla ambiente encendida al cargar</string>
+    <string name="doze_on_charge_title">Always on when charging</string>
+    <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Permitir acceso a la red</string>
-    <string name="data_usage_app_restrict_all_summary">Habilitar uso de red</string>
-    <string name="data_usage_app_restrict_mobile">Datos Móviles</string>
-    <string name="data_usage_app_restrict_mobile_summary">Habilitar el uso de datos móviles</string>
-    <string name="data_usage_app_restrict_vpn">Datos VPN</string>
-    <string name="data_usage_app_restrict_vpn_summary">Habilitar uso de datos VPN</string>
-    <string name="data_usage_app_restrict_wifi">Datos Wi\u2011Fi</string>
-    <string name="data_usage_app_restrict_wifi_summary">Habilitar el uso de datos Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_all">Allow network access</string>
+    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
+    <string name="data_usage_app_restrict_mobile">Mobile data</string>
+    <string name="data_usage_app_restrict_mobile_summary">Enable usage of mobile data</string>
+    <string name="data_usage_app_restrict_vpn">VPN data</string>
+    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
     <!-- Doze on double tap -->
-    <string name="double_tap_title">Doble toque</string>
-    <string name="doze_double_tap_title">Doble toque para comprobar el teléfono</string>
-    <string name="doze_double_tap_summary">Notificaciones de pulso por doble toque</string>
+    <string name="double_tap_title">Double tap</string>
+    <string name="doze_double_tap_title">Double tap to check phone</string>
+    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
     <!-- About phone cards -->
-    <string name="storage_card_title">Almacenamiento</string>
-    <string name="storage_card_info">Ocupado</string>
+    <string name="storage_card_title">Storage</string>
+    <string name="storage_card_info">Occupied</string>
     <string name="about_device_rom_title">CherishOS %s</string>
     <!-- Gestures: Touchscreen gestures -->
     <string name="touchscreen_gesture_settings_title">Touchscreen gestures</string>
@@ -189,7 +186,7 @@
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
     <!-- Back Gestures -->
-    <string name="smallest_tick_label">Apagada</string>
+    <string name="smallest_tick_label">Desactivado</string>
     <string name="greatest_tick_label">Half screen</string>
     <string name="gesture_back_deadzone_label">Dead zone</string>
     <string name="back_sensitivity_dialog_message_cust">Use the first and second seekbar to configure back swipe sensitivity, the last seekbar to set a dead area on top of the screen where the swipe cannot be triggered, to avoid conflicts with in-app gestures.</string>
@@ -269,4 +266,15 @@
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">Back gesture animation</string>
     <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture.</string>
+    <!-- Min refresh rate -->
+    <string name="min_refresh_rate_title">Minimum refresh rate</string>
+    <!-- Mobile network setting screen, summary of Mobile data switch preference when the network
+         is unavailable, the preference selection will be disabled. [CHAR LIMIT=NONE] -->
+    <string name="mobile_data_settings_summary_unavailable">No SIM card available</string>
+    <!-- Notch -->
+    <string name="notch_category_title">Notch options</string>
+    <string name="hide_notch_title">Hide notch</string>
+    <string name="hide_notch_summary">Apps can not use the notch area</string>
+    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
 </resources>
