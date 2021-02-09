@@ -67,9 +67,6 @@
     <string name="volumesteps_title">Các mức âm lượng</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Tai nghe đã lưu</string>
-    <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Ứng dụng toàn màn hình</string>
-    <string name="display_cutout_force_fullscreen_summary">Bỏ qua phần tai thỏ cho các ứng dụng được chọn</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Phát lại thích ứng</string>
     <string name="adaptive_playback_disabled_summary">Tắt</string>
@@ -269,4 +266,15 @@
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">Hiển thị một mũi tên chuyển động cho cử chỉ quay lại</string>
     <string name="back_gesture_arrow_summary">Hiển thị hoạt ảnh mũi tên cho cử chỉ trở lại.</string>
+    <!-- Min refresh rate -->
+    <string name="min_refresh_rate_title">Tốc độ làm mới tối thiểu</string>
+    <!-- Mobile network setting screen, summary of Mobile data switch preference when the network
+         is unavailable, the preference selection will be disabled. [CHAR LIMIT=NONE] -->
+    <string name="mobile_data_settings_summary_unavailable">Hiện thị không có SIM</string>
+    <!-- Notch -->
+    <string name="notch_category_title">Tùy chọn phần tai thỏ màn hình</string>
+    <string name="hide_notch_title">Ẩn tai thỏ</string>
+    <string name="hide_notch_summary">Ứng dụng không thể sử dụng vùng tai thỏ</string>
+    <string name="display_cutout_force_fullscreen_title">Ứng dụng toàn màn hình</string>
+    <string name="display_cutout_force_fullscreen_summary">Bỏ qua phần tai thỏ cho các ứng dụng được chọn</string>
 </resources>
