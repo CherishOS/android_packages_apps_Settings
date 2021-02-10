@@ -69,7 +69,7 @@
     <string name="connected_tws_device_saved_title">Saved Earbuds</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Adaptive playback</string>
-    <string name="adaptive_playback_disabled_summary">Off</string>
+    <string name="adaptive_playback_disabled_summary">Désactivé</string>
     <string name="adaptive_playback_timeout_title">Use a timeout of</string>
     <string name="adaptive_playback_timeout_none">No timeout</string>
     <string name="adaptive_playback_timeout_none_summary">On (no timeout)</string>
@@ -107,8 +107,8 @@
     <string name="live_display_color_temperature_title">Color temperature</string>
     <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
-    <string name="live_display_day">Day</string>
-    <string name="live_display_night">Night</string>
+    <string name="live_display_day">Jour</string>
+    <string name="live_display_night">Nuit</string>
     <string name="live_display_outdoor_mode_title">Automatic outdoor mode</string>
     <string name="live_display_outdoor_mode_summary">Increase brightness and saturation automatically under bright sunlight</string>
     <string name="live_display_low_power_title">Reduce power consumption</string>
@@ -186,7 +186,7 @@
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
     <!-- Back Gestures -->
-    <string name="smallest_tick_label">Off</string>
+    <string name="smallest_tick_label">Désactivé</string>
     <string name="greatest_tick_label">Half screen</string>
     <string name="gesture_back_deadzone_label">Dead zone</string>
     <string name="back_sensitivity_dialog_message_cust">Use the first and second seekbar to configure back swipe sensitivity, the last seekbar to set a dead area on top of the screen where the swipe cannot be triggered, to avoid conflicts with in-app gestures.</string>
@@ -195,10 +195,10 @@
     <string name="action_search">Assistant</string>
     <string name="action_voice_search">Voice search</string>
     <string name="action_launch_camera">Camera</string>
-    <string name="action_flashlight">Flashlight</string>
+    <string name="action_flashlight">Lampe torche</string>
     <string name="action_volume_panel">Volume panel</string>
     <string name="action_screen_off">Screen off</string>
-    <string name="action_screenshot">Screenshot</string>
+    <string name="action_screenshot">Capture d\'écran</string>
     <string name="action_app_action">Application</string>
     <string name="active_edge_ss_app_select_title">Select short squeeze app</string>
     <string name="active_edge_ls_app_select_title">Select long squeeze app</string>
