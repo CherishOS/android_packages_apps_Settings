@@ -67,23 +67,6 @@
     <string name="volumesteps_title">Các mức âm lượng</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Tai nghe đã lưu</string>
-    <!-- Adaptive Playback -->
-    <string name="adaptive_playback_screen_title">Phát lại thích ứng</string>
-    <string name="adaptive_playback_disabled_summary">Tắt</string>
-    <string name="adaptive_playback_timeout_title">Sử dụng thời gian chờ của</string>
-    <string name="adaptive_playback_timeout_none">Không có thời gian chờ</string>
-    <string name="adaptive_playback_timeout_none_summary">Bật (không có thời gian chờ)</string>
-    <string name="adaptive_playback_timeout_30_secs">30 giây</string>
-    <string name="adaptive_playback_timeout_30_secs_summary">Bật (30 giây)</string>
-    <string name="adaptive_playback_timeout_1_min">1 phút</string>
-    <string name="adaptive_playback_timeout_1_min_summary">Bật (1 phút)</string>
-    <string name="adaptive_playback_timeout_2_min">2 phút</string>
-    <string name="adaptive_playback_timeout_2_min_summary">Bật (2 phút)</string>
-    <string name="adaptive_playback_timeout_5_min">5 phút</string>
-    <string name="adaptive_playback_timeout_5_min_summary">Bật (5 phút)</string>
-    <string name="adaptive_playback_timeout_10_min">10 phút</string>
-    <string name="adaptive_playback_timeout_10_min_summary">Bật (10 phút)</string>
-    <string name="adaptive_playback_explainer">Phát nhạc thích ứng tự động dừng phát đa phương tiện khi tắt âm lượng và tự động phát đa phương tiện khi âm lượng được khôi phục lại theo thời gian đặt trước.</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Cho phép máy khách sử dụng VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Cho phép hotspot các máy khách sử dụng các kết nối VPN của thiết bị\u2019 này để kết nối ngược dòng</string>
@@ -183,8 +166,6 @@
     <string name="touchscreen_gesture_settings_summary">Thực hiện các cử chỉ chạm màn hình khác nhau cho các hành động nhanh chóng</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Chạm để hiện thông tin</string>
-    <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Liên kết âm lượng nhạc chuông &amp; thông báo</string>
     <!-- Back Gestures -->
     <string name="smallest_tick_label">Tắt</string>
     <string name="greatest_tick_label">Một nửa màn hình</string>
@@ -277,4 +258,14 @@
     <string name="hide_notch_summary">Ứng dụng không thể sử dụng vùng tai thỏ</string>
     <string name="display_cutout_force_fullscreen_title">Ứng dụng toàn màn hình</string>
     <string name="display_cutout_force_fullscreen_summary">Bỏ qua phần tai thỏ cho các ứng dụng được chọn</string>
+    <!-- volume cool stuff -->
+    <string name="extra_volume_features_title">Audio handling</string>
+    <string name="resume_audio_stream_title">Resume audio</string>
+    <string name="resume_audio_stream_summary">Automatically resume audio if it was paused due to user interaction over volume (bringing the volume bar to zero)</string>
+    <string name="pause_audio_stream_title">Pause media</string>
+    <string name="pause_audio_stream_summary">Automatically pause media playing if media volume has been muted</string>
+    <!-- Expand immediately -->
+    <string name="extra_volume_ui_features_title">Volume interface extras</string>
+    <string name="expand_immediately_title">Enable expand button in volume panel</string>
+    <string name="expand_immediately_summary">Show an extra button in volume panel that will let you expand it to multirows directly, without having to interact with the half-hidden bar</string>
 </resources>
