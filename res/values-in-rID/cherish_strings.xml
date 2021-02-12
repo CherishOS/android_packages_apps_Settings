@@ -67,23 +67,6 @@
     <string name="volumesteps_title">Tingkat Volume</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Earbud yang tersimpan</string>
-    <!-- Adaptive Playback -->
-    <string name="adaptive_playback_screen_title">Pemutaran Adaptif</string>
-    <string name="adaptive_playback_disabled_summary">Mati</string>
-    <string name="adaptive_playback_timeout_title">Gunakan batas waktu</string>
-    <string name="adaptive_playback_timeout_none">Tanpa batas waktu</string>
-    <string name="adaptive_playback_timeout_none_summary">Aktif (tidak ada batas waktu)</string>
-    <string name="adaptive_playback_timeout_30_secs">30 detik</string>
-    <string name="adaptive_playback_timeout_30_secs_summary">Hidup (30 detik)</string>
-    <string name="adaptive_playback_timeout_1_min">1 menit</string>
-    <string name="adaptive_playback_timeout_1_min_summary">Hidup (1 menit)</string>
-    <string name="adaptive_playback_timeout_2_min">2 menit</string>
-    <string name="adaptive_playback_timeout_2_min_summary">Hidup (2 menit)</string>
-    <string name="adaptive_playback_timeout_5_min">5 menit</string>
-    <string name="adaptive_playback_timeout_5_min_summary">Hidup (5 menit)</string>
-    <string name="adaptive_playback_timeout_10_min">10 menit</string>
-    <string name="adaptive_playback_timeout_10_min_summary">Hidup (10 menit)</string>
-    <string name="adaptive_playback_explainer">Pemutaran Adaptif secara otomatis menjeda media saat volume dimatikan dan akan dilanjutkan secara otomatis saat volume dipulihkan dalam waktu yang ditentukan.</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Izinkan klien untuk menggunakan VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Izinkan klien hotspot untuk menggunakan koneksi VPN\u2019s perangkat ini untuk konektivitas hulu</string>
@@ -184,8 +167,6 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="touchscreen_gesture_settings_summary">Lakukan berbagai gerakan layar sentuh untuk tindakan cepat</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Sentuh untuk melihat info</string>
-    <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Gabungkan volume nada dering &amp; volume notifikasi</string>
     <!-- Back Gestures -->
     <string name="smallest_tick_label">Mati</string>
     <string name="greatest_tick_label">Setengah layar</string>
@@ -268,14 +249,24 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="back_gesture_arrow_message">Back gesture animation</string>
     <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture.</string>
     <!-- Min refresh rate -->
-    <string name="min_refresh_rate_title">Minimum refresh rate</string>
+    <string name="min_refresh_rate_title">Kecepatan refresh minimum</string>
     <!-- Mobile network setting screen, summary of Mobile data switch preference when the network
          is unavailable, the preference selection will be disabled. [CHAR LIMIT=NONE] -->
-    <string name="mobile_data_settings_summary_unavailable">No SIM card available</string>
+    <string name="mobile_data_settings_summary_unavailable">Tidak tersedia kartu SIM</string>
     <!-- Notch -->
-    <string name="notch_category_title">Notch options</string>
-    <string name="hide_notch_title">Hide notch</string>
-    <string name="hide_notch_summary">Apps can not use the notch area</string>
+    <string name="notch_category_title">Opsi notch</string>
+    <string name="hide_notch_title">Sembunyikan notch</string>
+    <string name="hide_notch_summary">Aplikasi tidak dapat menggunakan area notch</string>
     <string name="display_cutout_force_fullscreen_title">Aplikasi layar penuh</string>
     <string name="display_cutout_force_fullscreen_summary">Paksa aplikasi untuk mengabaikan ruang takik</string>
+    <!-- volume cool stuff -->
+    <string name="extra_volume_features_title">Penanganan audio</string>
+    <string name="resume_audio_stream_title">Lanjutkan audio</string>
+    <string name="resume_audio_stream_summary">Lanjutkan audio secara otomatis jika dijeda karena interaksi pengguna atas volume (membawa bilah volume ke nol)</string>
+    <string name="pause_audio_stream_title">Jeda media</string>
+    <string name="pause_audio_stream_summary">Otomatis jeda saat memutar media jika volume media dibisukan</string>
+    <!-- Expand immediately -->
+    <string name="extra_volume_ui_features_title">Tambahan antarmuka volume</string>
+    <string name="expand_immediately_title">Aktifkan tombol memperluas di panel volume</string>
+    <string name="expand_immediately_summary">Tampilkan tombol tambahan di panel volume yang akan memungkinkan memperluasnya ke multi-baris secara langsung, tanpa harus berinteraksi dengan bilah setengah tersembunyi</string>
 </resources>
