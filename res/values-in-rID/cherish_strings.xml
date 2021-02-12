@@ -249,24 +249,24 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="back_gesture_arrow_message">Back gesture animation</string>
     <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture.</string>
     <!-- Min refresh rate -->
-    <string name="min_refresh_rate_title">Minimum refresh rate</string>
+    <string name="min_refresh_rate_title">Kecepatan refresh minimum</string>
     <!-- Mobile network setting screen, summary of Mobile data switch preference when the network
          is unavailable, the preference selection will be disabled. [CHAR LIMIT=NONE] -->
-    <string name="mobile_data_settings_summary_unavailable">No SIM card available</string>
+    <string name="mobile_data_settings_summary_unavailable">Tidak tersedia kartu SIM</string>
     <!-- Notch -->
-    <string name="notch_category_title">Notch options</string>
-    <string name="hide_notch_title">Hide notch</string>
-    <string name="hide_notch_summary">Apps can not use the notch area</string>
+    <string name="notch_category_title">Opsi notch</string>
+    <string name="hide_notch_title">Sembunyikan notch</string>
+    <string name="hide_notch_summary">Aplikasi tidak dapat menggunakan area notch</string>
     <string name="display_cutout_force_fullscreen_title">Aplikasi layar penuh</string>
     <string name="display_cutout_force_fullscreen_summary">Paksa aplikasi untuk mengabaikan ruang takik</string>
     <!-- volume cool stuff -->
-    <string name="extra_volume_features_title">Audio handling</string>
-    <string name="resume_audio_stream_title">Resume audio</string>
-    <string name="resume_audio_stream_summary">Automatically resume audio if it was paused due to user interaction over volume (bringing the volume bar to zero)</string>
-    <string name="pause_audio_stream_title">Pause media</string>
-    <string name="pause_audio_stream_summary">Automatically pause media playing if media volume has been muted</string>
+    <string name="extra_volume_features_title">Penanganan audio</string>
+    <string name="resume_audio_stream_title">Lanjutkan audio</string>
+    <string name="resume_audio_stream_summary">Lanjutkan audio secara otomatis jika dijeda karena interaksi pengguna atas volume (membawa bilah volume ke nol)</string>
+    <string name="pause_audio_stream_title">Jeda media</string>
+    <string name="pause_audio_stream_summary">Otomatis jeda saat memutar media jika volume media dibisukan</string>
     <!-- Expand immediately -->
-    <string name="extra_volume_ui_features_title">Volume interface extras</string>
-    <string name="expand_immediately_title">Enable expand button in volume panel</string>
-    <string name="expand_immediately_summary">Show an extra button in volume panel that will let you expand it to multirows directly, without having to interact with the half-hidden bar</string>
+    <string name="extra_volume_ui_features_title">Tambahan antarmuka volume</string>
+    <string name="expand_immediately_title">Aktifkan tombol memperluas di panel volume</string>
+    <string name="expand_immediately_summary">Tampilkan tombol tambahan di panel volume yang akan memungkinkan memperluasnya ke multi-baris secara langsung, tanpa harus berinteraksi dengan bilah setengah tersembunyi</string>
 </resources>
