@@ -259,13 +259,13 @@
     <string name="display_cutout_force_fullscreen_title">Ứng dụng toàn màn hình</string>
     <string name="display_cutout_force_fullscreen_summary">Bỏ qua phần tai thỏ cho các ứng dụng được chọn</string>
     <!-- volume cool stuff -->
-    <string name="extra_volume_features_title">Audio handling</string>
-    <string name="resume_audio_stream_title">Resume audio</string>
-    <string name="resume_audio_stream_summary">Automatically resume audio if it was paused due to user interaction over volume (bringing the volume bar to zero)</string>
-    <string name="pause_audio_stream_title">Pause media</string>
-    <string name="pause_audio_stream_summary">Automatically pause media playing if media volume has been muted</string>
+    <string name="extra_volume_features_title">Xử lý âm thanh</string>
+    <string name="resume_audio_stream_title">Tiếp tục âm thanh</string>
+    <string name="resume_audio_stream_summary">Tự động tiếp tục âm thanh nếu nó bị tạm dừng do người dùng tương tác qua âm lượng (đưa thanh âm lượng về không)</string>
+    <string name="pause_audio_stream_title">Tạm dừng phương tiện</string>
+    <string name="pause_audio_stream_summary">Tự động tạm dừng phát phương tiện nếu âm lượng phương tiện đã bị tắt</string>
     <!-- Expand immediately -->
-    <string name="extra_volume_ui_features_title">Volume interface extras</string>
-    <string name="expand_immediately_title">Enable expand button in volume panel</string>
-    <string name="expand_immediately_summary">Show an extra button in volume panel that will let you expand it to multirows directly, without having to interact with the half-hidden bar</string>
+    <string name="extra_volume_ui_features_title">Các tính năng bổ sung của giao diện âm lượng</string>
+    <string name="expand_immediately_title">Bật nút mở rộng trong bảng âm lượng</string>
+    <string name="expand_immediately_summary">Hiển thị một nút bổ sung trong bảng điều khiển âm lượng cho phép bạn mở rộng trực tiếp thành nhiều phím mà không cần phải tương tác với thanh nửa ẩn</string>
 </resources>
