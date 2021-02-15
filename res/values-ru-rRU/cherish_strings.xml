@@ -52,7 +52,7 @@
     <string name="unlock_quick_unlock_control_summary">Автоматически разблокировать при вводе правильного PIN-кода/пароля</string>
     <!-- Navbar length -->
     <string name="navbar_length">Длина полосы жестов</string>
-    <string name="hidden_label">Не показывать значок батареи</string>
+    <string name="hidden_label">Скрывать</string>
     <string name="long_label">Длинный</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Поворот экрана</string>
