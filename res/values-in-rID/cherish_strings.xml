@@ -64,6 +64,7 @@
     <string name="display_rotation_90_title">90 derajat</string>
     <string name="display_rotation_180_title">180 derajat</string>
     <string name="display_rotation_270_title">270 derajat</string>
+    <string name="weather_title">Weather</string>
     <string name="volumesteps_title">Tingkat Volume</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Earbud yang tersimpan</string>
