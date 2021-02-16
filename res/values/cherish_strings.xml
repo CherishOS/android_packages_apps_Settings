@@ -79,6 +79,8 @@
     <string name="display_rotation_180_title">180 degrees</string>
     <string name="display_rotation_270_title">270 degrees</string>
 
+    <string name="weather_title">Weather</string>
+
     <string name="volumesteps_title">Volume Steps</string>
 
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
