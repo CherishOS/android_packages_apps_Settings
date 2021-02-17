@@ -157,21 +157,21 @@
     <!-- Doze on double tap -->
     <string name="double_tap_title">双击</string>
     <string name="doze_double_tap_title">点按两次即可查看手机</string>
-    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
+    <string name="doze_double_tap_summary">双击快速显示通知</string>
     <!-- About phone cards -->
     <string name="storage_card_title">储存</string>
     <string name="storage_card_info">被占用</string>
     <string name="about_device_rom_title">CherishOS %s</string>
     <!-- Gestures: Touchscreen gestures -->
     <string name="touchscreen_gesture_settings_title">触摸屏手势</string>
-    <string name="touchscreen_gesture_settings_summary">Perform various touchscreen gestures for quick actions</string>
+    <string name="touchscreen_gesture_settings_summary">使用各种屏幕手势进行快捷操作</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">点按即可显示信息</string>
     <!-- Back Gestures -->
     <string name="smallest_tick_label">关闭</string>
     <string name="greatest_tick_label">半屏</string>
     <string name="gesture_back_deadzone_label">禁止区域</string>
-    <string name="back_sensitivity_dialog_message_cust">Use the first and second seekbar to configure back swipe sensitivity, the last seekbar to set a dead area on top of the screen where the swipe cannot be triggered, to avoid conflicts with in-app gestures.</string>
+    <string name="back_sensitivity_dialog_message_cust">使用第一个和第二个滑块来配置返回滑动手势的灵敏度。使用最后一个滑块配置屏幕上半部分禁止触发滑动手势的区域，以避免与应用内手势发生冲突。</string>
     <!-- Custom actions -->
     <string name="action_nothing">无动作</string>
     <string name="action_search">Assistant</string>
@@ -208,57 +208,57 @@
     <string name="left_vertical_swipe_app_action_title">选择在底部左侧上划启动的应用</string>
     <string name="right_vertical_swipe_actions_title">底部右侧上划动作</string>
     <string name="right_vertical_swipe_app_action_title">选择在底部右侧上划启动的应用</string>
-    <string name="gesture_nav_tweaks_footer_info">To choose a specific app activity for the action, long press on any app in the apps picker.\n\nIf launcher is showing, do the swipe at the very bottom area of the screen to trigger the action.</string>
-    <string name="back_swipe_extended_title">Extended swipe action</string>
-    <string name="back_swipe_extended_summary">Trigger action on wider swipe (more than half of display size), or a L swipe (vertically longer enough)</string>
+    <string name="gesture_nav_tweaks_footer_info">在应用选择器中长按应用，为该手势动作指定一个应用 活动。\n\n在启动器使用期间，在屏幕底部区域滑动以激活手势动作。</string>
+    <string name="back_swipe_extended_title">额外滑动手势</string>
+    <string name="back_swipe_extended_summary">长划 (超过一半屏幕) 或 做 L 形划动 (垂直距离足够长) 以激活动作</string>
     <!-- Fingerprint swipe left and right -->
-    <string name="fp_swipe_to_dismiss_notifications_title">Swipe fingerprint left or right to dismiss notifications</string>
-    <string name="fp_swipe_to_dismiss_notifications_summary">To dismiss your notifications, swipe left or right on the fingerprint sensor on the back of your phone.</string>
+    <string name="fp_swipe_to_dismiss_notifications_title">左右滑动指纹传感器以清除通知</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">要清除通知，请在手机背面的指纹传感器上左右滑动。</string>
     <!-- Ambient Wake gestures -->
-    <string name="ambient_wake_gestures_title">Ambient wake gestures</string>
-    <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal lockscreen on wake gestures</string>
+    <string name="ambient_wake_gestures_title">息屏显示唤醒手势</string>
+    <string name="ambient_wake_gestures_summary">唤醒手势将显示息屏显示，而不是平常的锁屏</string>
     <!-- Volume rocker gestures -->
-    <string name="volume_skiptrack_screen_title">Skip music tracks</string>
-    <string name="volume_skiptrack_title">Volume rocker skip tracks</string>
-    <string name="volume_skiptrack_summary">Long press the volume rocker to skip tracks when playing music, even remotely on tv or PC with e.g. Spotify (app must run on the phone and show the notification).</string>
-    <string name="pulse_on_new_tracks_title">Ambient music ticker</string>
-    <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played. Double tap on track info to skip to next track.</string>
-    <string name="pulse_on_new_tracks_soli_summary">Show Ambient Display when a new music track is played</string>
+    <string name="volume_skiptrack_screen_title">跳过音乐曲目</string>
+    <string name="volume_skiptrack_title">音量键切换曲目</string>
+    <string name="volume_skiptrack_summary">播放音乐时，长按音量键跳过曲目，甚至在远程连接设备 TV 或 PC 上使用 ，例如 Spotify (应用程序必须在手机上运行并显示通知) 。</string>
+    <string name="pulse_on_new_tracks_title">息屏音乐信息</string>
+    <string name="pulse_on_new_tracks_summary">播放新音乐时在息屏显示上显示歌曲信息。双击曲目信息跳至下一曲目。</string>
+    <string name="pulse_on_new_tracks_soli_summary">播放新音乐时在息屏显示上显示歌曲信息。</string>
     <!-- Ambient music ticker location -->
-    <string name="ambient_music_location">Show ambient music ticker</string>
+    <string name="ambient_music_location">显示息屏音乐信息</string>
     <string name="ambient_music_disabled">已禁用</string>
-    <string name="ambient_music_bottom">At the bottom (default)</string>
-    <string name="ambient_music_center">Centered (under the cLock)</string>
+    <string name="ambient_music_bottom">在底部 (默认)</string>
+    <string name="ambient_music_center">居中 (在锁定下)</string>
     <!-- Changelog -->
     <string name="changelog_title">更新日志</string>
-    <string name="changelog_summary">Since the last update</string>
-    <string name="changelog_error">Unable to load changelog</string>
+    <string name="changelog_summary">自上次更新后</string>
+    <string name="changelog_error">无法读取更新记录</string>
     <!-- Lock screen pattern size -->
-    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
+    <string name="lock_settings_picker_pattern_size_message">选择图案大小</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+    <string name="lockpattern_settings_enable_error_path_title">图案错误时显示路径</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+    <string name="lockpattern_settings_enable_dots_title">显示图案圆点</string>
     <!-- Clipboard toast toggle -->
-    <string name="show_clipboard_toast">Show clipboard access alerts</string>
-    <string name="show_clipboard_toast_summary">Display a toast when an app tries to access the clipboard</string>
+    <string name="show_clipboard_toast">显示读取剪切板警告</string>
+    <string name="show_clipboard_toast_summary">当应用程序试图读取剪贴板时显示一条 Toast</string>
     <!-- Misc gesture settings -->
-    <string name="back_gesture_haptic_title">Haptic feedback</string>
-    <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
+    <string name="back_gesture_haptic_title">振动反馈</string>
+    <string name="back_gesture_haptic_summary">启用返回手势的振动效果</string>
     <!-- Back gesture animation -->
-    <string name="back_gesture_arrow_message">Back gesture animation</string>
-    <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture.</string>
+    <string name="back_gesture_arrow_message">返回手势动画</string>
+    <string name="back_gesture_arrow_summary">使用返回手势时显示一个小箭头动画</string>
     <!-- Min refresh rate -->
-    <string name="min_refresh_rate_title">Minimum refresh rate</string>
+    <string name="min_refresh_rate_title">最低刷新率</string>
     <!-- Mobile network setting screen, summary of Mobile data switch preference when the network
          is unavailable, the preference selection will be disabled. [CHAR LIMIT=NONE] -->
-    <string name="mobile_data_settings_summary_unavailable">No SIM card available</string>
+    <string name="mobile_data_settings_summary_unavailable">无 SIM 卡</string>
     <!-- Notch -->
-    <string name="notch_category_title">Notch options</string>
-    <string name="hide_notch_title">Hide notch</string>
-    <string name="hide_notch_summary">Apps can not use the notch area</string>
-    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
-    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    <string name="notch_category_title">刘海选项</string>
+    <string name="hide_notch_title">隐藏刘海</string>
+    <string name="hide_notch_summary">应用无法使用刘海区域</string>
+    <string name="display_cutout_force_fullscreen_title">强制全屏的应用程序</string>
+    <string name="display_cutout_force_fullscreen_summary">强制应用忽略刘海区域</string>
     <!-- volume cool stuff -->
     <string name="extra_volume_features_title">音频处理</string>
     <string name="resume_audio_stream_title">继续播放音频</string>
