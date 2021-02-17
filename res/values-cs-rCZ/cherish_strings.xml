@@ -12,129 +12,129 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, Cherish version -->
-    <string name="cherish_version">Cherish version</string>
-    <string name="cherish_version_default">Unknown</string>
-    <string name="keywords_cherish_version">Cherish version</string>
+    <string name="cherish_version">Verze Cherish</string>
+    <string name="cherish_version_default">Neznámé</string>
+    <string name="keywords_cherish_version">Verze Cherish</string>
     <!-- About phone screen, build date -->
-    <string name="about_device_name">Device</string>
-    <string name="build_date">Build date</string>
+    <string name="about_device_name">Zařízení</string>
+    <string name="build_date">Datum sestavení</string>
     <string name="build_date_default">2015-01-01-0000</string>
-    <string name="keywords_build_date">build date, build info</string>
+    <string name="keywords_build_date">datum sestavení, info o sestavení</string>
     <!-- SELinux Status -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status">Stav zabezpečení SELinux</string>
+    <string name="selinux_status_disabled">Vypnuto</string>
+    <string name="selinux_status_permissive">Mírný</string>
+    <string name="selinux_status_enforcing">Vynucený</string>
     <!-- App details: open play store link if app is user installed -->
-    <string name="app_play_store">Google Play</string>
+    <string name="app_play_store">Obchod Play</string>
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="battery_stats_reset">Vymazat statistiky</string>
+    <string name="battery_stats_message">Chystáte se obnovit historii statistiky baterie</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_title">Teplota baterie</string>
     <!--Cherish Settings-->
     <string name="cherish_settings_title">Cherish Settings</string>
-    <string name="cherish_settings_summary">Happiness is not available and it comes from your own actions</string>
+    <string name="cherish_settings_summary">Štěstí není k dispozici a pochází z vašich vlastních akcí</string>
     <!-- Custom light color -->
-    <string name="custom_light_title">Light color</string>
-    <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
-    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
-    <string name="value_equals_default">def</string>
+    <string name="custom_light_title">Barva světla</string>
+    <string name="custom_light_on_time_title">Doba zapnutí světla během pulsování LED (ms)</string>
+    <string name="custom_light_off_time_title">Doba vypnutí světla během pulsování LED (ms)</string>
+    <string name="value_equals_default">předvolba</string>
     <!-- Charging vibration -->
-    <string name="charging_sounds_nos_title">Charging sound</string>
-    <string name="charging_vibro_title">Charging vibration</string>
+    <string name="charging_sounds_nos_title">Zvuk při nabíjení</string>
+    <string name="charging_vibro_title">Vibrace při nabíjení</string>
     <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">Screenshot sound</string>
+    <string name="screenshot_sound_title">Zvuk snímku obrazovky</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <string name="unlock_quick_unlock_control_title">Rychlé odemknutí</string>
+    <string name="unlock_quick_unlock_control_summary">Odemknout zařízení automaticky po zadání správného PINu/hesla</string>
     <!-- Navbar length -->
-    <string name="navbar_length">Gesture bar length</string>
-    <string name="hidden_label">Hidden</string>
-    <string name="long_label">Long</string>
+    <string name="navbar_length">Délka panelu gesta</string>
+    <string name="hidden_label">Skryté</string>
+    <string name="long_label">Dlouhé</string>
     <!-- Display : Rotation -->
-    <string name="display_rotation_title">Rotation</string>
-    <string name="display_rotation_summary">Select rotation angles</string>
-    <string name="display_rotation_disabled">Disabled</string>
-    <string name="display_rotation_unit">degrees</string>
-    <string name="display_rotation_category_title">Rotation modes</string>
-    <string name="display_rotation_0_title">0 degrees</string>
-    <string name="display_rotation_90_title">90 degrees</string>
-    <string name="display_rotation_180_title">180 degrees</string>
-    <string name="display_rotation_270_title">270 degrees</string>
+    <string name="display_rotation_title">Otáčení</string>
+    <string name="display_rotation_summary">Vyberte úhly otáčení</string>
+    <string name="display_rotation_disabled">Vypnuto</string>
+    <string name="display_rotation_unit">stupňů</string>
+    <string name="display_rotation_category_title">Režimy otáčení</string>
+    <string name="display_rotation_0_title">0 stupňů</string>
+    <string name="display_rotation_90_title">90 stupňů</string>
+    <string name="display_rotation_180_title">180 stupňů</string>
+    <string name="display_rotation_270_title">270 stupňů</string>
     <string name="weather_title">Weather</string>
-    <string name="volumesteps_title">Volume Steps</string>
+    <string name="volumesteps_title">Kroky hlasitosti</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <string name="connected_tws_device_saved_title">Uložená sluchátka</string>
     <!-- Hotspot extras -->
-    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <string name="tethering_allow_vpn_upstreams_title">Umožnit klientům používat VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Povolit klientům hotspotu používat připojení VPN tohoto zařízení\u2019 pro odchozí připojení</string>
     <!-- Smart charging -->
-    <string name="smart_charging_title">Smart Charging</string>
-    <string name="smart_charging_summary">Set maximum charging level</string>
-    <string name="smart_charging_switch_title">Use Smart charging</string>
-    <string name="smart_charging_level_title">Stop trigger level</string>
-    <string name="smart_charging_resume_level_title">Start trigger level</string>
-    <string name="smart_charging_reset_stats_title">Reset battery statistics</string>
-    <string name="smart_charging_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
-    <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery</string>
+    <string name="smart_charging_title">Chytré nabíjení</string>
+    <string name="smart_charging_summary">Nastavit maximální úroveň nabíjení</string>
+    <string name="smart_charging_switch_title">Použít Chytré nabíjení</string>
+    <string name="smart_charging_level_title">Úroveň ukončení nabíjení</string>
+    <string name="smart_charging_resume_level_title">Úroveň spuštění nabíjení</string>
+    <string name="smart_charging_reset_stats_title">Obnovit statistiky baterie</string>
+    <string name="smart_charging_reset_stats_summary">Obnoví statistiky baterie po dosažení úrovně nabití definované uživatelem</string>
+    <string name="smart_charging_footer">Chytré nabíjení vám umožní nastavit maximální úroveň nabití pro prodloužení životnosti baterie</string>
     <!-- Cherish maintainer -->
-    <string name="maintainer">Maintainer</string>
+    <string name="maintainer">Správce</string>
     <!-- Screen off fod -->
-    <string name="fod_gesture_title">Screen off fingerprint</string>
-    <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
+    <string name="fod_gesture_title">Otisky prstů při vypnuté obrazovce</string>
+    <string name="fod_gesture_summary">Umožňuje odemknutí zařízení, aniž by bylo nutné nejprve obrazovku probudit</string>
     <!-- LiveDisplay -->
-    <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
-    <string name="live_display_mode">Display mode</string>
-    <string name="live_display_color_temperature_title">Color temperature</string>
-    <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_summary">Optimalizovat obrazovku podle denní doby a okolních podmínek pro lepší čitelnost a snížení namáhání očí</string>
+    <string name="live_display_mode">Režim zobrazení</string>
+    <string name="live_display_color_temperature_title">Teplota barev</string>
+    <string name="live_display_color_temperature_summary">Den: <xliff:g id="day_temperature">%1$d</xliff:g>K  Noc: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
     <string name="live_display_day">Day</string>
     <string name="live_display_night">Night</string>
-    <string name="live_display_outdoor_mode_title">Automatic outdoor mode</string>
-    <string name="live_display_outdoor_mode_summary">Increase brightness and saturation automatically under bright sunlight</string>
-    <string name="live_display_low_power_title">Reduce power consumption</string>
-    <string name="live_display_low_power_summary">Adjust display for lowest power consumption without degradation</string>
-    <string name="live_display_enhance_color_title">Enhance colors</string>
-    <string name="live_display_enhance_color_summary">Improve color vibrance of flesh tones, scenery, and other images</string>
-    <string name="live_display_color_profile_title">Color profile</string>
-    <string name="live_display_color_profile_standard_title">Standard</string>
-    <string name="live_display_color_profile_standard_summary">Accurate colors and bright whites</string>
-    <string name="live_display_color_profile_natural_title">Natural</string>
-    <string name="live_display_color_profile_natural_summary">Realistic colors and flesh tones</string>
-    <string name="live_display_color_profile_dynamic_title">Dynamic</string>
-    <string name="live_display_color_profile_dynamic_summary">Enhanced colors and bright whites</string>
-    <string name="live_display_color_profile_cinema_title">Cinema</string>
-    <string name="live_display_color_profile_cinema_summary">Perfect color reproduction for video</string>
-    <string name="live_display_color_profile_astronomy_title">Astronomy</string>
-    <string name="live_display_color_profile_astronomy_summary">Deep red for preserving night vision</string>
-    <string name="live_display_color_profile_photography_title">Photography</string>
-    <string name="live_display_color_profile_photography_summary">Perfect color reproduction for photos</string>
-    <string name="live_display_color_profile_basic_title">Basic</string>
-    <string name="live_display_color_profile_basic_summary">Use the display uncalibrated</string>
-    <string name="live_display_color_profile_adaptive_title">Adaptive</string>
-    <string name="live_display_color_profile_adaptive_summary">Colors adapt to ambient conditions</string>
-    <string name="live_display_color_profile_reading_title">Reading</string>
-    <string name="live_display_color_profile_reading_summary">Warmer colors for less eye strain</string>
+    <string name="live_display_outdoor_mode_title">Automatický venkovní režim</string>
+    <string name="live_display_outdoor_mode_summary">Automaticky zvýšit jas a sytost za jasného slunečního světla</string>
+    <string name="live_display_low_power_title">Snížit spotřebu energie</string>
+    <string name="live_display_low_power_summary">Upravit zobrazení pro nejnižší spotřebu energie bez zhoršení čitelnosti</string>
+    <string name="live_display_enhance_color_title">Vylepšit barvy</string>
+    <string name="live_display_enhance_color_summary">Zlepšit živost barev pleťových odstínů, scenérie a dalších obrázků</string>
+    <string name="live_display_color_profile_title">Barevný profil</string>
+    <string name="live_display_color_profile_standard_title">Standartní</string>
+    <string name="live_display_color_profile_standard_summary">Přesné barvy a jasná bílá</string>
+    <string name="live_display_color_profile_natural_title">Přirozený</string>
+    <string name="live_display_color_profile_natural_summary">Reálné barvy a tělové tóny</string>
+    <string name="live_display_color_profile_dynamic_title">Dynamický</string>
+    <string name="live_display_color_profile_dynamic_summary">Vylepšené barvy a jasná bílá</string>
+    <string name="live_display_color_profile_cinema_title">Kino</string>
+    <string name="live_display_color_profile_cinema_summary">Perfektní zobrazení barev pro video</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomie</string>
+    <string name="live_display_color_profile_astronomy_summary">Hluboká červená pro zachování vidění v noci</string>
+    <string name="live_display_color_profile_photography_title">Fotografování</string>
+    <string name="live_display_color_profile_photography_summary">Perfektní zobrazení barev pro fotografie</string>
+    <string name="live_display_color_profile_basic_title">Základní</string>
+    <string name="live_display_color_profile_basic_summary">Použít nezkalibrovaný displej</string>
+    <string name="live_display_color_profile_adaptive_title">Adaptivní</string>
+    <string name="live_display_color_profile_adaptive_summary">Přizpůsobit barvy okolním podmínkám</string>
+    <string name="live_display_color_profile_reading_title">Čtení</string>
+    <string name="live_display_color_profile_reading_summary">Teplejší barvy pro menší namáhání očí</string>
     <string name="live_display_color_profile_srgb_title">sRGB</string>
-    <string name="live_display_color_profile_srgb_summary">Colors accurate to the sRGB color space</string>
+    <string name="live_display_color_profile_srgb_summary">Barvy s přesností na barevný prostor sRGB</string>
     <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
-    <string name="live_display_color_profile_dci_p3_summary">Colors accurate to the DCI-P3 color space</string>
+    <string name="live_display_color_profile_dci_p3_summary">Barvy s přesností na barevný prostor DCI-P3</string>
     <string name="live_display_reading_mode_title">Reading mode</string>
-    <string name="live_display_reading_mode_summary">Grayscale mode for long-term reading</string>
-    <string name="color_calibration_title">Color calibration</string>
-    <string name="color_calibration_summary">Calibrate on-screen colors</string>
-    <string name="color_red_title">Red</string>
-    <string name="color_green_title">Green</string>
-    <string name="color_blue_title">Blue</string>
+    <string name="live_display_reading_mode_summary">Režim stupňů šedi pro dlouhodobé čtení</string>
+    <string name="color_calibration_title">Kalibrace barev</string>
+    <string name="color_calibration_summary">Kalibrace barev na displeji</string>
+    <string name="color_red_title">Červená</string>
+    <string name="color_green_title">Zelená</string>
+    <string name="color_blue_title">Modrá</string>
     <!-- LiveDisplay : Picture Adjustment -->
-    <string name="picture_adjustment_title">Picture adjustment</string>
-    <string name="picture_adjustment_summary">Adjust hue, saturation, intensity, and contrast</string>
-    <string name="adj_hue_title">Hue</string>
-    <string name="adj_saturation_title">Saturation</string>
-    <string name="adj_intensity_title">Intensity</string>
+    <string name="picture_adjustment_title">Přizpůsobení obrazu</string>
+    <string name="picture_adjustment_summary">Přizpůsobit odstín, sytost, intenzitu a kontrast</string>
+    <string name="adj_hue_title">Odstín</string>
+    <string name="adj_saturation_title">Sytost</string>
+    <string name="adj_intensity_title">Intenzita</string>
     <string name="adj_contrast_title">Contrast</string>
     <!-- Pocket mode -->
     <string name="proximity_wake_title">Prevent accidental wake-up</string>
@@ -226,7 +226,7 @@
     <string name="pulse_on_new_tracks_soli_summary">Show Ambient Display when a new music track is played</string>
     <!-- Ambient music ticker location -->
     <string name="ambient_music_location">Show ambient music ticker</string>
-    <string name="ambient_music_disabled">Disabled</string>
+    <string name="ambient_music_disabled">Vypnuto</string>
     <string name="ambient_music_bottom">At the bottom (default)</string>
     <string name="ambient_music_center">Centered (under the cLock)</string>
     <!-- Changelog -->
