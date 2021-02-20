@@ -319,7 +319,7 @@
             android:icon="@drawable/ic_expand_immediately"
             android:title="@string/expand_immediately_title"
             android:summary="@string/expand_immediately_summary"
-            android:defaultValue="false" />
+            android:defaultValue="true" />
 
     </PreferenceCategory>
 
