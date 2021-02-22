@@ -250,23 +250,10 @@
             android:key="android.theme.customization.adaptive_icon_shape"
             android:icon="@drawable/ic_shape"
             android:title="@string/theme_customization_icon_shape_title"/>
-		<ListPreference
-	    android:key="android.theme.customization.statusbar_height"
-            android:icon="@drawable/ic_size"
-            android:title="@string/theme_customization_statusbar_height_title"/>
         <ListPreference
             android:key="android.theme.customization.icon_pack.android"
             android:icon="@drawable/ic_package"
             android:title="@string/theme_customization_sysui_icon_title"/>
-         <ListPreference
-	    android:key="android.theme.customization.brightness"
-            android:icon="@drawable/ic_brightness"
-            android:title="@string/theme_customization_brightness_title"/>
-
-		<ListPreference
-			 android:key="android.theme.customization.ui_radius"
-            android:icon="@drawable/ic_ui"
-            android:title="@string/theme_customization_ui_radius_title"/>
     </PreferenceCategory>
 
 </PreferenceScreen>
