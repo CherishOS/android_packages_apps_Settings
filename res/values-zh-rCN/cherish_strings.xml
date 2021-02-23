@@ -20,11 +20,6 @@
     <string name="build_date">构建日期</string>
     <string name="build_date_default">2015-01-01-0000</string>
     <string name="keywords_build_date">构建日期，构建信息</string>
-    <!-- SELinux Status -->
-    <string name="selinux_status">SELinux 状态</string>
-    <string name="selinux_status_disabled">已禁用</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Manage applications, package string displayed in app snippet -->
@@ -64,7 +59,6 @@
     <string name="display_rotation_90_title">90°</string>
     <string name="display_rotation_180_title">180°</string>
     <string name="display_rotation_270_title">270°</string>
-    <string name="weather_title">Weather</string>
     <string name="volumesteps_title">音量级别</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">已保存的耳机</string>
@@ -291,4 +285,7 @@
     <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
     <string name="increasing_ring_min_volume_title">Start volume</string>
     <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+    <!-- Clock style -->
+    <string name="clock_style_title">Clock style</string>
+    <string name="clock_style_summary">Customize lockscreen clock</string>
 </resources>
