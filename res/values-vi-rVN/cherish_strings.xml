@@ -287,5 +287,5 @@
     <string name="increasing_ring_ramp_up_time_title">Khoảng thời gian tăng dần âm lượng</string>
     <!-- Clock style -->
     <string name="clock_style_title">Kiểu đồng hồ</string>
-    <string name="clock_style_summary">Customize lockscreen clock</string>
+    <string name="clock_style_summary">Tùy chỉnh đồng hồ trên màn hình khóa</string>
 </resources>
