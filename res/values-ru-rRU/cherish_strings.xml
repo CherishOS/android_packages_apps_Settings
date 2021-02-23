@@ -243,49 +243,49 @@
     <string name="back_gesture_arrow_message">Back gesture animation</string>
     <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture.</string>
     <!-- Min refresh rate -->
-    <string name="min_refresh_rate_title">Minimum refresh rate</string>
+    <string name="min_refresh_rate_title">Минимальная частота обновления</string>
     <!-- Mobile network setting screen, summary of Mobile data switch preference when the network
          is unavailable, the preference selection will be disabled. [CHAR LIMIT=NONE] -->
-    <string name="mobile_data_settings_summary_unavailable">No SIM card available</string>
+    <string name="mobile_data_settings_summary_unavailable">SIM-карта недоступна</string>
     <!-- Notch -->
-    <string name="notch_category_title">Notch options</string>
-    <string name="hide_notch_title">Hide notch</string>
-    <string name="hide_notch_summary">Apps can not use the notch area</string>
+    <string name="notch_category_title">Настройки выреза</string>
+    <string name="hide_notch_title">Скрыть вырез</string>
+    <string name="hide_notch_summary">Приложения не могут использовать область выреза</string>
     <string name="display_cutout_force_fullscreen_title">Полноэкранные приложения</string>
     <string name="display_cutout_force_fullscreen_summary">Приложения принудительно игнорируют вырез (бровь-челку)</string>
     <!-- volume cool stuff -->
-    <string name="extra_volume_features_title">Audio handling</string>
-    <string name="resume_audio_stream_title">Resume audio</string>
-    <string name="resume_audio_stream_summary">Automatically resume audio if it was paused due to user interaction over volume (bringing the volume bar to zero)</string>
-    <string name="pause_audio_stream_title">Pause media</string>
-    <string name="pause_audio_stream_summary">Automatically pause media playing if media volume has been muted</string>
+    <string name="extra_volume_features_title">Панель управления звуком</string>
+    <string name="resume_audio_stream_title">Возобновить аудио</string>
+    <string name="resume_audio_stream_summary">Автоматически возобновлять звук, если он был приостановлен из-за взаимодействия пользователя с устройством (с уменьшением шкалы громкости до нуля)</string>
+    <string name="pause_audio_stream_title">Приостановить медиа</string>
+    <string name="pause_audio_stream_summary">Автоматически приостанавливать воспроизведение мультимедиа при выключении медиа звука</string>
     <!-- Expand immediately -->
-    <string name="extra_volume_ui_features_title">Volume interface extras</string>
-    <string name="expand_immediately_title">Enable expand button in volume panel</string>
-    <string name="expand_immediately_summary">Show an extra button in volume panel that will let you expand it to multirows directly, without having to interact with the half-hidden bar</string>
+    <string name="extra_volume_ui_features_title">Дополнительные возможности интерфейса громкости</string>
+    <string name="expand_immediately_title">Включить кнопку раскрытия в панели громкости</string>
+    <string name="expand_immediately_summary">Показать дополнительную кнопку в панели громкости, которая позволит вам расширить ее без необходимости взаимодействовать с полускрытой панелью</string>
     <!-- Back gesture height -->
-    <string name="back_height_low_label">Full</string>
+    <string name="back_height_low_label">Полный</string>
     <string name="back_height_high_label">Низ</string>
-    <string name="back_options_dialog_title">Options</string>
-    <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
+    <string name="back_options_dialog_title">Параметры</string>
+    <string name="back_height_message">Высота экрана используемая для работы жеста назад.</string>
     <!-- Navbar radius -->
-    <string name="navbar_radius">Gesture bar Radius</string>
-    <string name="small_label">1 dp</string>
-    <string name="big_label">4 dp</string>
+    <string name="navbar_radius">Радиус панели жестов</string>
+    <string name="small_label">1 дп</string>
+    <string name="big_label">4 дп</string>
     <!-- Vibration patterns -->
-    <string name="vibration_pattern_title">Ringtone vibration pattern</string>
-    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
-    <string name="pattern_dzzz_da">dzzz-da</string>
-    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
-    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
-    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
-    <string name="pattern_custom">Custom</string>
-    <string name="custom_vibration_pattern_title">Custom pattern</string>
+    <string name="vibration_pattern_title">Тип вибрации при звонке</string>
+    <string name="pattern_dzzz_dzzz">дззз-дззз</string>
+    <string name="pattern_dzzz_da">дззз-да</string>
+    <string name="pattern_mm_mm_mm">мм-мм-мм</string>
+    <string name="pattern_da_da_dzzz">да-да-дззз</string>
+    <string name="pattern_da_dzzz_da">да-дззз-да</string>
+    <string name="pattern_custom">Пользовательский</string>
+    <string name="custom_vibration_pattern_title">Пользовательский шаблон</string>
     <!-- Increasing ring tone volume -->
-    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
-    <string name="increasing_ring_min_volume_title">Start volume</string>
-    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+    <string name="increasing_ring_volume_option_title">Возрастающая громкость звонка</string>
+    <string name="increasing_ring_min_volume_title">Начальная громкость</string>
+    <string name="increasing_ring_ramp_up_time_title">Время нарастания</string>
     <!-- Clock style -->
     <string name="clock_style_title">Стиль часов</string>
-    <string name="clock_style_summary">Customize lockscreen clock</string>
+    <string name="clock_style_summary">Настроить часы на экране блокировки</string>
 </resources>
