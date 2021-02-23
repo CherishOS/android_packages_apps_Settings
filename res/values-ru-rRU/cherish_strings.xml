@@ -20,11 +20,6 @@
     <string name="build_date">Дата сборки</string>
     <string name="build_date_default">2015-01-01-0000</string>
     <string name="keywords_build_date">дата сборки, информация о сборке</string>
-    <!-- SELinux Status -->
-    <string name="selinux_status">Режим SELinux</string>
-    <string name="selinux_status_disabled">Выключен</string>
-    <string name="selinux_status_permissive">Permissive (разрешающий)</string>
-    <string name="selinux_status_enforcing">Enforcing (принудительный)</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Manage applications, package string displayed in app snippet -->
@@ -35,7 +30,7 @@
     <!-- Battery temp -->
     <string name="battery_temp_title">Температура батареи</string>
     <!--Cherish Settings-->
-    <string name="cherish_settings_title">Любимые настройки </string>
+    <string name="cherish_settings_title">Настройки CherishOS</string>
     <string name="cherish_settings_summary">Счастье недостижимо, оно исходит от своих действий</string>
     <!-- Custom light color -->
     <string name="custom_light_title">Цвет индикатора уведомлений</string>
@@ -64,7 +59,6 @@
     <string name="display_rotation_90_title">90 градусов</string>
     <string name="display_rotation_180_title">180 градусов</string>
     <string name="display_rotation_270_title">270 градусов</string>
-    <string name="weather_title">Weather</string>
     <string name="volumesteps_title">Уровни громкости</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Сохраненные наушники</string>
@@ -291,4 +285,7 @@
     <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
     <string name="increasing_ring_min_volume_title">Start volume</string>
     <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+    <!-- Clock style -->
+    <string name="clock_style_title">Стиль часов</string>
+    <string name="clock_style_summary">Customize lockscreen clock</string>
 </resources>
