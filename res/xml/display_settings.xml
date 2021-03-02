@@ -254,6 +254,10 @@
             android:key="android.theme.customization.icon_pack.android"
             android:icon="@drawable/ic_package"
             android:title="@string/theme_customization_sysui_icon_title"/>
+		<ListPreference
+	    android:key="android.theme.customization.statusbar_height"
+            android:icon="@drawable/ic_size"
+            android:title="@string/theme_customization_statusbar_height_title"/>
     </PreferenceCategory>
 
 </PreferenceScreen>
