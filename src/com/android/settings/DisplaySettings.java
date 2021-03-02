@@ -40,17 +40,13 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.search.SearchIndexable;
-import androidx.preference.PreferenceScreen;
-import androidx.preference.Preference;
 
-import android.text.TextUtils;
 import java.util.ArrayList;
 import java.util.List;
 
 @SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class DisplaySettings extends DashboardFragment {
     private static final String TAG = "DisplaySettings";
-    private static final String KEY_HIDE_NOTCH = "display_cutout_hidden";
 
     private static final String KEY_SCREEN_TIMEOUT = "screen_timeout";
 
@@ -72,11 +68,6 @@ public class DisplaySettings extends DashboardFragment {
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-        final PreferenceScreen screen = getPreferenceScreen();
-        final String displayCutout = getResources().getString(com.android.internal.R.string.config_mainBuiltInDisplayCutout);
-            if(TextUtils.isEmpty(displayCutout)) {
-                  screen.removePreference(findPreference(KEY_HIDE_NOTCH));
-            }
     }
 
     @Override

@@ -195,21 +195,13 @@
         android:title="@string/enable_blurs_on_windows_title"
         android:summary="@string/enable_blurs_on_windows_summary" />
 
-    <com.cherish.settings.preferences.SystemSettingSwitchPreference
-        android:key="display_cutout_hidden"
-        android:title="@string/hide_notch_title"
-        android:summary="@string/hide_notch_summary"
-        android:disableDependentsState="true"
-        android:defaultValue="false" />
-
     <Preference
         android:key="display_cutout_force_fullscreen_settings"
         android:icon="@drawable/ic_settings_full_screen_apps"
         android:title="@string/display_cutout_force_fullscreen_title"
         android:summary="@string/display_cutout_force_fullscreen_summary"
         android:fragment="com.android.settings.display.DisplayCutoutForceFullscreenSettings"
-        settings:controller="com.android.settings.display.DisplayCutoutForceFullscreenPreferenceController"
-        android:dependency="display_cutout_hidden" />
+        settings:controller="com.android.settings.display.DisplayCutoutForceFullscreenPreferenceController" />
 
     <ListPreference
         android:key="theme"

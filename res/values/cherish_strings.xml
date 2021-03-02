@@ -302,9 +302,6 @@
          is unavailable, the preference selection will be disabled. [CHAR LIMIT=NONE] -->
     <string name="mobile_data_settings_summary_unavailable">No SIM card available</string>
 	
-	<string name="hide_notch_title">Hide notch</string>
-    <string name="hide_notch_summary">Apps can not use the notch area</string>
-
 	<!-- volume cool stuff -->
     <string name="extra_volume_features_title">Audio handling</string>
     <string name="resume_audio_stream_title">Resume audio</string>
@@ -348,5 +345,4 @@
     <string name="clock_style_summary">Customize lockscreen clock</string>
 	
 	<string name="theme_customization_statusbar_height_title">Statusbar height</string>
-
 </resources>
