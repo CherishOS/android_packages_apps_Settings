@@ -195,26 +195,21 @@
         android:title="@string/enable_blurs_on_windows_title"
         android:summary="@string/enable_blurs_on_windows_summary" />
 
-    <PreferenceCategory
-        android:key="notch_category"
-        android:title="@string/notch_category_title" 
-        android:order="1100" >
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="display_cutout_hidden"
+        android:title="@string/hide_notch_title"
+        android:summary="@string/hide_notch_summary"
+        android:disableDependentsState="true"
+        android:defaultValue="false" />
 
-        <com.cherish.settings.preferences.SystemSettingSwitchPreference
-            android:key="display_cutout_hidden"
-            android:title="@string/hide_notch_title"
-            android:summary="@string/hide_notch_summary"
-            android:disableDependentsState="true"
-            android:defaultValue="false" />
-
-        <Preference
-            android:key="display_cutout_force_fullscreen_settings"
-            android:title="@string/display_cutout_force_fullscreen_title"
-            android:summary="@string/display_cutout_force_fullscreen_summary"
-            android:fragment="com.android.settings.display.DisplayCutoutForceFullscreenSettings"
-            settings:controller="com.android.settings.display.DisplayCutoutForceFullscreenPreferenceController"
-            android:dependency="display_cutout_hidden" />
-    </PreferenceCategory>
+    <Preference
+        android:key="display_cutout_force_fullscreen_settings"
+        android:icon="@drawable/ic_settings_full_screen_apps"
+        android:title="@string/display_cutout_force_fullscreen_title"
+        android:summary="@string/display_cutout_force_fullscreen_summary"
+        android:fragment="com.android.settings.display.DisplayCutoutForceFullscreenSettings"
+        settings:controller="com.android.settings.display.DisplayCutoutForceFullscreenPreferenceController"
+        android:dependency="display_cutout_hidden" />
 
     <ListPreference
         android:key="theme"
