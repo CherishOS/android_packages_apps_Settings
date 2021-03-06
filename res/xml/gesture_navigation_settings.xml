@@ -92,15 +92,6 @@
         android:selectable="true"
         settings:textStart="@string/small_label"
         settings:textEnd="@string/big_label"/>
-		
-	<com.android.settings.widget.LabeledSeekBarPreference
-        android:key="gesture_navbar_radius"
-        android:title="@string/navbar_radius"
-        android:max="3"
-        android:defaultValue="1"
-        android:selectable="true"
-        settings:textStart="@string/small_label"
-        settings:textEnd="@string/big_label"/>
 
     <com.cherish.settings.preferences.SystemSettingSwitchPreference
         android:key="back_gesture_haptic"
