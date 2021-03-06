@@ -16,4 +16,7 @@
 -->
 <resources>
     <color name="cherish_pref_emergency_color">#B2CC0000</color>
+	
+	<!-- ProgressCard -->
+    <color name="progress_card_progress_color">#14000000</color>
 </resources>

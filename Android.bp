@@ -69,6 +69,7 @@ android_library {
         "faceunlock_framework",
         "kotlinx-coroutines-android",
         "kotlinx-coroutines-core",
+        "androidx.dynamicanimation_dynamicanimation",
     ],
 
     libs: [
