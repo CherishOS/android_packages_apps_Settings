@@ -52,6 +52,13 @@
         android:key="smart_charging_key"
         android:title="@string/smart_charging_title"
         android:summary="@string/smart_charging_summary" />
+		
+	<Preference
+        android:fragment="com.android.settings.fuelgauge.smartcutoff.SmartCutoffSettings"
+        android:key="smart_cutoff_key"
+        android:title="@string/smart_cutoff_title"
+        android:summary="@string/smart_cutoff_summary"
+        settings:allowDividerAbove="true" />
 
     <com.android.settings.fuelgauge.PowerGaugePreference
         android:key="last_full_charge"

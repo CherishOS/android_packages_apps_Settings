@@ -450,5 +450,12 @@
     <string name="bluetooth_timeout_summary_2hours">2 hours</string>
     <string name="bluetooth_timeout_summary_4hours">4 hours</string>
     <string name="bluetooth_timeout_summary_8hours">8 hours</string>
+	
+	<!-- Smart cutoff -->
+    <string name="smart_cutoff_title">Smart Cutoff</string>
+    <string name="smart_cutoff_summary">Set maximum Temperature</string>
+    <string name="smart_cutoff_switch_title">Use Smart cutoff</string>
+    <string name="smart_cutoff_level_title">Stop trigger level</string>
+    <string name="smart_cutoff_resume_level_title">Start trigger level</string>
 
 </resources>
