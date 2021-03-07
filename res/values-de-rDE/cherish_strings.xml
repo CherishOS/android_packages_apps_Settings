@@ -59,9 +59,13 @@
     <string name="display_rotation_90_title">90 degrees</string>
     <string name="display_rotation_180_title">180 degrees</string>
     <string name="display_rotation_270_title">270 degrees</string>
+    <string name="weather_title">Weather</string>
     <string name="volumesteps_title">Volume Steps</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
@@ -247,12 +251,6 @@
     <!-- Mobile network setting screen, summary of Mobile data switch preference when the network
          is unavailable, the preference selection will be disabled. [CHAR LIMIT=NONE] -->
     <string name="mobile_data_settings_summary_unavailable">No SIM card available</string>
-    <!-- Notch -->
-    <string name="notch_category_title">Notch options</string>
-    <string name="hide_notch_title">Hide notch</string>
-    <string name="hide_notch_summary">Apps can not use the notch area</string>
-    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
-    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
     <!-- volume cool stuff -->
     <string name="extra_volume_features_title">Audiobehandlung</string>
     <string name="resume_audio_stream_title">Resume audio</string>
@@ -288,4 +286,5 @@
     <!-- Clock style -->
     <string name="clock_style_title">Clock style</string>
     <string name="clock_style_summary">Customize lockscreen clock</string>
+    <string name="theme_customization_statusbar_height_title">Statusbar height</string>
 </resources>
