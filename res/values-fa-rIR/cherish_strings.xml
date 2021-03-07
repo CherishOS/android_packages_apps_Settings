@@ -30,7 +30,7 @@
     <!-- Battery temp -->
     <string name="battery_temp_title">Battery temperature</string>
     <!--Cherish Settings-->
-    <string name="cherish_settings_title">Setări Cherish</string>
+    <string name="cherish_settings_title">Cherish Settings</string>
     <string name="cherish_settings_summary">Happiness is not available and it comes from your own actions</string>
     <!-- Custom light color -->
     <string name="custom_light_title">Light color</string>
@@ -47,19 +47,19 @@
     <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
     <!-- Navbar length -->
     <string name="navbar_length">Gesture bar length</string>
-    <string name="hidden_label">Ascuns</string>
+    <string name="hidden_label">Hidden</string>
     <string name="long_label">Long</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Rotation</string>
     <string name="display_rotation_summary">Select rotation angles</string>
-    <string name="display_rotation_disabled">Dezactivat</string>
+    <string name="display_rotation_disabled">Disabled</string>
     <string name="display_rotation_unit">degrees</string>
     <string name="display_rotation_category_title">Rotation modes</string>
     <string name="display_rotation_0_title">0 degrees</string>
     <string name="display_rotation_90_title">90 degrees</string>
     <string name="display_rotation_180_title">180 degrees</string>
     <string name="display_rotation_270_title">270 degrees</string>
-    <string name="weather_title">Weather</string>
+    <string name="weather_title">آب و هوا</string>
     <string name="volumesteps_title">Volume Steps</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Saved Earbuds</string>
@@ -79,7 +79,7 @@
     <string name="smart_charging_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
     <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery</string>
     <!-- Cherish maintainer -->
-    <string name="maintainer">Administratori dispozitiv</string>
+    <string name="maintainer">Maintainer</string>
     <!-- Screen off fod -->
     <string name="fod_gesture_title">Screen off fingerprint</string>
     <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
@@ -89,8 +89,8 @@
     <string name="live_display_color_temperature_title">Color temperature</string>
     <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
-    <string name="live_display_day">Day</string>
-    <string name="live_display_night">Night</string>
+    <string name="live_display_day">روز</string>
+    <string name="live_display_night">شب</string>
     <string name="live_display_outdoor_mode_title">Automatic outdoor mode</string>
     <string name="live_display_outdoor_mode_summary">Increase brightness and saturation automatically under bright sunlight</string>
     <string name="live_display_low_power_title">Reduce power consumption</string>
@@ -120,7 +120,7 @@
     <string name="live_display_color_profile_srgb_summary">Colors accurate to the sRGB color space</string>
     <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
     <string name="live_display_color_profile_dci_p3_summary">Colors accurate to the DCI-P3 color space</string>
-    <string name="live_display_reading_mode_title">Reading mode</string>
+    <string name="live_display_reading_mode_title">حالت مطالعه</string>
     <string name="live_display_reading_mode_summary">Grayscale mode for long-term reading</string>
     <string name="color_calibration_title">Color calibration</string>
     <string name="color_calibration_summary">Calibrate on-screen colors</string>
@@ -166,7 +166,7 @@
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tap to show info</string>
     <!-- Back Gestures -->
-    <string name="smallest_tick_label">Off</string>
+    <string name="smallest_tick_label">خاموش</string>
     <string name="greatest_tick_label">Half screen</string>
     <string name="gesture_back_deadzone_label">Dead zone</string>
     <string name="back_sensitivity_dialog_message_cust">Use the first and second seekbar to configure back swipe sensitivity, the last seekbar to set a dead area on top of the screen where the swipe cannot be triggered, to avoid conflicts with in-app gestures.</string>
@@ -175,16 +175,16 @@
     <string name="action_search">Assistant</string>
     <string name="action_voice_search">Voice search</string>
     <string name="action_launch_camera">Camera</string>
-    <string name="action_flashlight">Flashlight</string>
+    <string name="action_flashlight">چراغ‌قوه</string>
     <string name="action_volume_panel">Volume panel</string>
     <string name="action_screen_off">Screen off</string>
-    <string name="action_screenshot">Screenshot</string>
+    <string name="action_screenshot">عکس گرفتن از صفحه</string>
     <string name="action_app_action">Application</string>
     <string name="active_edge_ss_app_select_title">Select short squeeze app</string>
     <string name="active_edge_ls_app_select_title">Select long squeeze app</string>
     <string name="active_edge_app_select_summary">Select an app to launch with the squeeze action</string>
     <string name="action_qs_panel">QS panel</string>
-    <string name="action_notifications">Notificări</string>
+    <string name="action_notifications">Notifications</string>
     <string name="action_clear_notifications">Clear notifications</string>
     <string name="action_ringer_modes">Ringer modes</string>
     <string name="kill_app">Kill foreground app</string>
@@ -224,11 +224,11 @@
     <string name="pulse_on_new_tracks_soli_summary">Show Ambient Display when a new music track is played</string>
     <!-- Ambient music ticker location -->
     <string name="ambient_music_location">Show ambient music ticker</string>
-    <string name="ambient_music_disabled">Dezactivat</string>
+    <string name="ambient_music_disabled">Disabled</string>
     <string name="ambient_music_bottom">At the bottom (default)</string>
     <string name="ambient_music_center">Centered (under the cLock)</string>
     <!-- Changelog -->
-    <string name="changelog_title">Istoric modificări</string>
+    <string name="changelog_title">Changelog</string>
     <string name="changelog_summary">Since the last update</string>
     <string name="changelog_error">Unable to load changelog</string>
     <!-- Lock screen pattern size -->
