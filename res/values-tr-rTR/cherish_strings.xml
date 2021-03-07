@@ -59,9 +59,13 @@
     <string name="display_rotation_90_title">90 derece</string>
     <string name="display_rotation_180_title">180 derece</string>
     <string name="display_rotation_270_title">270 derece</string>
+    <string name="weather_title">Hava Durumu</string>
     <string name="volumesteps_title">Ses seviyeleri</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Kaydedilmiş Kulaklıklar</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Tam ekran uygulamalar</string>
+    <string name="display_cutout_force_fullscreen_summary">Uygulamaları çentik alanını yoksaymaya zorla</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">İstemcilerin VPN kullanmasına izin ver</string>
     <string name="tethering_allow_vpn_upstreams_summary">Hotspot kullanıcılarının bağlantıları sırasında bu cihazın\u2019s VPN bağlantısını kullanmasına izin ver</string>
@@ -247,12 +251,6 @@
     <!-- Mobile network setting screen, summary of Mobile data switch preference when the network
          is unavailable, the preference selection will be disabled. [CHAR LIMIT=NONE] -->
     <string name="mobile_data_settings_summary_unavailable">Mevcut SIM kart yok</string>
-    <!-- Notch -->
-    <string name="notch_category_title">Çentik seçenekleri</string>
-    <string name="hide_notch_title">Çentiği gizle</string>
-    <string name="hide_notch_summary">Uygulamalar çentik alanını kullanamaz</string>
-    <string name="display_cutout_force_fullscreen_title">Tam ekran uygulamalar</string>
-    <string name="display_cutout_force_fullscreen_summary">Uygulamaları çentik alanını yoksaymaya zorla</string>
     <!-- volume cool stuff -->
     <string name="extra_volume_features_title">Ses yönetimi</string>
     <string name="resume_audio_stream_title">Sesi devam ettir</string>
@@ -288,4 +286,5 @@
     <!-- Clock style -->
     <string name="clock_style_title">Saat stili</string>
     <string name="clock_style_summary">Kilit ekranı saatini özelleştirin</string>
+    <string name="theme_customization_statusbar_height_title">Statusbar height</string>
 </resources>
