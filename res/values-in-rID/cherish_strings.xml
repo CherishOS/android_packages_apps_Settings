@@ -59,9 +59,13 @@
     <string name="display_rotation_90_title">90 derajat</string>
     <string name="display_rotation_180_title">180 derajat</string>
     <string name="display_rotation_270_title">270 derajat</string>
+    <string name="weather_title">Cuaca</string>
     <string name="volumesteps_title">Tingkat Volume</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Earbud yang tersimpan</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Aplikasi layar penuh</string>
+    <string name="display_cutout_force_fullscreen_summary">Paksa aplikasi untuk mengabaikan ruang takik</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Izinkan klien untuk menggunakan VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Izinkan klien hotspot untuk menggunakan koneksi VPN\u2019s perangkat ini untuk konektivitas hulu</string>
@@ -248,12 +252,6 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <!-- Mobile network setting screen, summary of Mobile data switch preference when the network
          is unavailable, the preference selection will be disabled. [CHAR LIMIT=NONE] -->
     <string name="mobile_data_settings_summary_unavailable">Tidak tersedia kartu SIM</string>
-    <!-- Notch -->
-    <string name="notch_category_title">Opsi notch</string>
-    <string name="hide_notch_title">Sembunyikan notch</string>
-    <string name="hide_notch_summary">Aplikasi tidak dapat menggunakan area notch</string>
-    <string name="display_cutout_force_fullscreen_title">Aplikasi layar penuh</string>
-    <string name="display_cutout_force_fullscreen_summary">Paksa aplikasi untuk mengabaikan ruang takik</string>
     <!-- volume cool stuff -->
     <string name="extra_volume_features_title">Penanganan audio</string>
     <string name="resume_audio_stream_title">Lanjutkan audio</string>
@@ -289,4 +287,5 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <!-- Clock style -->
     <string name="clock_style_title">Gaya Jam</string>
     <string name="clock_style_summary">Sesuaikan jam layar kunci</string>
+    <string name="theme_customization_statusbar_height_title">Statusbar height</string>
 </resources>

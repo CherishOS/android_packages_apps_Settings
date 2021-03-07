@@ -59,9 +59,13 @@
     <string name="display_rotation_90_title">90 graus</string>
     <string name="display_rotation_180_title">180 graus</string>
     <string name="display_rotation_270_title">270 graus</string>
+    <string name="weather_title">Clima</string>
     <string name="volumesteps_title">Níveis de volume</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Fones de ouvido salvos</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Aplicativos em tela cheia</string>
+    <string name="display_cutout_force_fullscreen_summary">Forçar aplicativos a ignorar o espaço do notch</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Permitir que clientes usem VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permitir que os clientes utilizem a conexão deste dispositivo\u2019s para se conectar a VPN</string>
@@ -247,12 +251,6 @@
     <!-- Mobile network setting screen, summary of Mobile data switch preference when the network
          is unavailable, the preference selection will be disabled. [CHAR LIMIT=NONE] -->
     <string name="mobile_data_settings_summary_unavailable">Nenhum cartão SIM disponível</string>
-    <!-- Notch -->
-    <string name="notch_category_title">Opções do notch</string>
-    <string name="hide_notch_title">Ocultar notch</string>
-    <string name="hide_notch_summary">Apps não podem usar a área do notch</string>
-    <string name="display_cutout_force_fullscreen_title">Aplicativos em tela cheia</string>
-    <string name="display_cutout_force_fullscreen_summary">Forçar aplicativos a ignorar o espaço do notch</string>
     <!-- volume cool stuff -->
     <string name="extra_volume_features_title">Manipulação de áudio</string>
     <string name="resume_audio_stream_title">Continuar o Teste</string>
@@ -288,4 +286,5 @@
     <!-- Clock style -->
     <string name="clock_style_title">Estilo do relógio</string>
     <string name="clock_style_summary">Personalizar o relógio da tela de bloqueio</string>
+    <string name="theme_customization_statusbar_height_title">Statusbar height</string>
 </resources>
