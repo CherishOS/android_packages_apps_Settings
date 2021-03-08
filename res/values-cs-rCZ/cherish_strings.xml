@@ -284,7 +284,7 @@
     <string name="increasing_ring_min_volume_title">Počáteční hlasitost</string>
     <string name="increasing_ring_ramp_up_time_title">Doba zesilování</string>
     <!-- Clock style -->
-    <string name="clock_style_title">Clock style</string>
+    <string name="clock_style_title">Umístění hodin</string>
     <string name="clock_style_summary">Přizpůsobení hodin zamykací obrazovky</string>
-    <string name="theme_customization_statusbar_height_title">Statusbar height</string>
+    <string name="theme_customization_statusbar_height_title">Výška stavového řádku</string>
 </resources>
