@@ -202,7 +202,7 @@
     <string name="left_swipe_app_action_title">Chọn ứng dụng vuốt dài bên trái</string>
     <string name="right_swipe_actions_title">Hành động vuốt dài sang phải</string>
     <string name="right_swipe_app_action_title">Chọn ứng dụng vuốt dài bên phải</string>
-    <string name="left_vertical_swipe_actions_title">Thao tác vuốt dọc phải</string>
+    <string name="left_vertical_swipe_actions_title">Thao tác vuốt dọc trái</string>
     <string name="left_vertical_swipe_app_action_title">Chọn ứng dụng vuốt bên trái</string>
     <string name="right_vertical_swipe_actions_title">Thao tác vuốt dọc phải</string>
     <string name="right_vertical_swipe_app_action_title">Chọn ứng dụng vuốt bên phải</string>
