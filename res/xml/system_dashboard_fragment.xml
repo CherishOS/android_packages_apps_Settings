@@ -25,6 +25,14 @@
         android:key="cherish_logo"
         android:order="-500"
         android:layout="@layout/system_animation" />
+		
+	<Preference
+        android:key="accessibility_settings"
+        android:title="@string/accessibility_settings"
+        android:icon="@drawable/ic_settings_accessibility"
+        android:order="-270"
+        android:fragment="com.android.settings.accessibility.AccessibilitySettings"
+        settings:controller="com.android.settings.accessibility.AccessibilityPreferenceController"/>
 
     <Preference
         android:key="language_input_settings"
