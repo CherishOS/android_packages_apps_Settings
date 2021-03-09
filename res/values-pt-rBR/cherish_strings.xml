@@ -287,4 +287,8 @@
     <string name="clock_style_title">Estilo do relógio</string>
     <string name="clock_style_summary">Personalizar o relógio da tela de bloqueio</string>
     <string name="theme_customization_statusbar_height_title">Altura da barra de status</string>
+    <string name="default_accent_color">Dodger Blue (default)</string>
+    <string name="default_icon_shape">Circle (default)</string>
+    <string name="default_font">OnePlus Slate (default)</string>
+    <string name="default_icon_pack">AOSP + Oxygen (default)</string>
 </resources>
