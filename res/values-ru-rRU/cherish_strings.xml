@@ -287,4 +287,8 @@
     <string name="clock_style_title">Стиль часов</string>
     <string name="clock_style_summary">Настроить часы на экране блокировки</string>
     <string name="theme_customization_statusbar_height_title">Statusbar height</string>
+    <string name="default_accent_color">Dodger Blue (default)</string>
+    <string name="default_icon_shape">Circle (default)</string>
+    <string name="default_font">OnePlus Slate (default)</string>
+    <string name="default_icon_pack">AOSP + Oxygen (default)</string>
 </resources>
