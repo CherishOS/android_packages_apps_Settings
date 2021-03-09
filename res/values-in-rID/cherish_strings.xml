@@ -288,4 +288,8 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="clock_style_title">Gaya Jam</string>
     <string name="clock_style_summary">Sesuaikan jam layar kunci</string>
     <string name="theme_customization_statusbar_height_title">Tinggi bilah status</string>
+    <string name="default_accent_color">Dodger Blue (default)</string>
+    <string name="default_icon_shape">Circle (default)</string>
+    <string name="default_font">OnePlus Slate (default)</string>
+    <string name="default_icon_pack">AOSP + Oxygen (default)</string>
 </resources>
