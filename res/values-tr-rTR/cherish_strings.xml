@@ -287,8 +287,8 @@
     <string name="clock_style_title">Saat stili</string>
     <string name="clock_style_summary">Kilit ekranı saatini özelleştirin</string>
     <string name="theme_customization_statusbar_height_title">Durum çubuğu yüksekliği</string>
-    <string name="default_accent_color">Dodger Blue (default)</string>
-    <string name="default_icon_shape">Circle (default)</string>
-    <string name="default_font">OnePlus Slate (default)</string>
-    <string name="default_icon_pack">AOSP + Oxygen (default)</string>
+    <string name="default_accent_color">Dodger Blue (varsayılan)</string>
+    <string name="default_icon_shape">Daire (varsayılan)</string>
+    <string name="default_font">OnePlus Slate (varsayılan)</string>
+    <string name="default_icon_pack">AOSP + Oxygen (varsayılan)</string>
 </resources>
