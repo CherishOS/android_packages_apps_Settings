@@ -287,4 +287,8 @@
     <string name="clock_style_title">Kiểu đồng hồ</string>
     <string name="clock_style_summary">Tùy chỉnh đồng hồ trên màn hình khóa</string>
     <string name="theme_customization_statusbar_height_title">Statusbar height</string>
+    <string name="default_accent_color">Dodger Blue (default)</string>
+    <string name="default_icon_shape">Circle (default)</string>
+    <string name="default_font">OnePlus Slate (default)</string>
+    <string name="default_icon_pack">AOSP + Oxygen (default)</string>
 </resources>
