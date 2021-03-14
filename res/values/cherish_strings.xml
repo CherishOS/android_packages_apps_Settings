@@ -351,4 +351,10 @@
     <string name="default_icon_shape">Circle (default)</string>
     <string name="default_font">OnePlus Slate (default)</string>
     <string name="default_icon_pack">AOSP + Oxygen (default)</string>
+
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
 </resources>
