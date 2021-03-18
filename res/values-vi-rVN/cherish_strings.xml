@@ -287,4 +287,31 @@
     <string name="clock_style_title">Kiểu đồng hồ</string>
     <string name="clock_style_summary">Tùy chỉnh đồng hồ trên màn hình khóa</string>
     <string name="theme_customization_statusbar_height_title">Statusbar height</string>
+    <string name="default_accent_color">Dodger Blue (default)</string>
+    <string name="default_icon_shape">Circle (default)</string>
+    <string name="default_font">OnePlus Slate (default)</string>
+    <string name="default_icon_pack">AOSP + Oxygen (default)</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Tắt</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">DC Dimming</string>
+    <string name="dc_dimming_info">Reduces eye strain in low light conditions but may result in reduced image quality and poor color production.</string>
+    <string name="dc_dimming_auto_mode_title">Schedule</string>
+    <string name="dc_dimming_mode_brightness">Turn on when brightness is below the threshold</string>
+    <string name="dc_dimming_mode_full">Dependent on time and brightness</string>
+    <string name="dc_dimming_brightness_title">Brightness threshold</string>
+    <string name="dc_dimming_brightness_disabled">Tắt</string>
+    <string name="dc_dimming_restore_auto_mode">Restore auto mode</string>
+    <string name="dc_dimming_brightness_info">Only activate DC Dimming when the average brightness is below the threshold</string>
+    <string name="dc_dimming_off_auto_mode_auto">Will turn on automatically</string>
+    <string name="dc_dimming_on_auto_mode_auto">Will turn off automatically</string>
+    <string name="keywords_display_dc_dimming">dc dimming, flicker, eye, strain</string>
+    <!-- Cherish versioning -->
+    <string name="cherish_version_title">Version</string>
+    <string name="cherish_version_code_title">Codename</string>
+    <string name="cherish_release_type_title">Release type</string>
+    <string name="cherish_maintainer_title">Người chủ trì</string>
 </resources>
