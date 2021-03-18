@@ -286,5 +286,32 @@
     <!-- Clock style -->
     <string name="clock_style_title">Kiểu đồng hồ</string>
     <string name="clock_style_summary">Tùy chỉnh đồng hồ trên màn hình khóa</string>
-    <string name="theme_customization_statusbar_height_title">Statusbar height</string>
+    <string name="theme_customization_statusbar_height_title">Chiều cao thanh trạng thái</string>
+    <string name="default_accent_color">Pixel Xanh biển (Mặc định)</string>
+    <string name="default_icon_shape">Vòng tròn (mặc định)</string>
+    <string name="default_font">OnePlus Slate (mặc định)</string>
+    <string name="default_icon_pack">AOSP + Oxygen (mặt định)</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">Trạng thái SELinux</string>
+    <string name="selinux_status_disabled">Tắt</string>
+    <string name="selinux_status_permissive">Cho phép</string>
+    <string name="selinux_status_enforcing">Thực thi</string>
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">Chỉnh độ sáng phù hợp màn hình</string>
+    <string name="dc_dimming_info">Giảm mỏi mắt trong điều kiện ánh sáng yếu nhưng có thể làm giảm chất lượng hình ảnh và tạo ra màu sắc kém.</string>
+    <string name="dc_dimming_auto_mode_title">Lịch trình</string>
+    <string name="dc_dimming_mode_brightness">Bật khi độ sáng dưới ngưỡng</string>
+    <string name="dc_dimming_mode_full">Tuỳ theo thời gian và độ sáng</string>
+    <string name="dc_dimming_brightness_title">Ngưỡng độ sáng</string>
+    <string name="dc_dimming_brightness_disabled">Tắt</string>
+    <string name="dc_dimming_restore_auto_mode">Phục hồi chế độ tự động</string>
+    <string name="dc_dimming_brightness_info">Chỉ kích hoạt giảm độ sáng khi độ sáng trung bình xuống dưới ngưỡng</string>
+    <string name="dc_dimming_off_auto_mode_auto">Sẽ tự động bật</string>
+    <string name="dc_dimming_on_auto_mode_auto">Sẽ tự động tắt</string>
+    <string name="keywords_display_dc_dimming">dc dimming, độ sáng, giảm độ sáng, giam do sang, do sang</string>
+    <!-- Cherish versioning -->
+    <string name="cherish_version_title">Phiên bản</string>
+    <string name="cherish_version_code_title">Tên mã</string>
+    <string name="cherish_release_type_title">Loại phiên bản</string>
+    <string name="cherish_maintainer_title">Người chủ trì</string>
 </resources>
