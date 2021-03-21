@@ -59,10 +59,10 @@
     <string name="display_rotation_90_title">90 derece</string>
     <string name="display_rotation_180_title">180 derece</string>
     <string name="display_rotation_270_title">270 derece</string>
-    <string name="weather_title">Hava Durumu</string>
+    <string name="weather_title">Hava durumu</string>
     <string name="volumesteps_title">Ses seviyeleri</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Kaydedilmiş Kulaklıklar</string>
+    <string name="connected_tws_device_saved_title">Kayıtlı kulaklıklar</string>
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Tam ekran uygulamalar</string>
     <string name="display_cutout_force_fullscreen_summary">Uygulamaları çentik alanını yoksaymaya zorla</string>
@@ -70,7 +70,7 @@
     <string name="tethering_allow_vpn_upstreams_title">İstemcilerin VPN kullanmasına izin ver</string>
     <string name="tethering_allow_vpn_upstreams_summary">Hotspot kullanıcılarının bağlantıları sırasında bu cihazın\u2019s VPN bağlantısını kullanmasına izin ver</string>
     <!-- Smart charging -->
-    <string name="smart_charging_title">Akıllı Şarj</string>
+    <string name="smart_charging_title">Akıllı şarj</string>
     <string name="smart_charging_summary">Maksimum şarj seviyesini ayarlayın</string>
     <string name="smart_charging_switch_title">Akıllı şarj özelliğini kullan</string>
     <string name="smart_charging_level_title">Durdurma tetikleyici seviyesi</string>
@@ -79,13 +79,13 @@
     <string name="smart_charging_reset_stats_summary">Kullanıcının tanımladığı şarj değerine ulaşınca pil istatistiklerini sıfırla</string>
     <string name="smart_charging_footer">Akıllı şarj, pilinizin ömrünü uzatmak için maksimum şarj seviyesini ayarlamanızı sağlar</string>
     <!-- Cherish maintainer -->
-    <string name="maintainer">Cihaz Sorumlusu</string>
+    <string name="maintainer">Cihaz sorumlusu</string>
     <!-- Screen off fod -->
     <string name="fod_gesture_title">Kapalı ekran parmak izi</string>
     <string name="fod_gesture_summary">Önce ekranı uyandırmak zorunda kalmadan cihazın kilidini açmaya izin verir</string>
     <!-- LiveDisplay -->
     <string name="live_display_summary">Okunabilirliği artırmak ve göz yorgunluğunu azaltmak için ekranınızı günün zamanına ve ortam koşullarına göre optimize edin</string>
-    <string name="live_display_mode">Ekran Modu</string>
+    <string name="live_display_mode">Görüntü modu</string>
     <string name="live_display_color_temperature_title">Renk sıcaklığı</string>
     <string name="live_display_color_temperature_summary">Gün: <xliff:g id="day_temperature">%1$d</xliff:g>K  Gece: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
@@ -135,7 +135,7 @@
     <string name="adj_intensity_title">Yoğunluk</string>
     <string name="adj_contrast_title">Kontrast</string>
     <!-- Pocket mode -->
-    <string name="proximity_wake_title">Yanlış uyandırmaları önle</string>
+    <string name="proximity_wake_title">Yanlışlıkla uyandırmayı önle</string>
     <string name="proximity_wake_summary">Ekranı uyandırmadan önce yakınlık sensörünü kontrol et</string>
     <!-- Backup Transport selection settings menu and activity title -->
     <string name="backup_transport_setting_label">Yedekleme sağlayıcısını değiştir</string>
@@ -168,30 +168,30 @@
     <!-- Back Gestures -->
     <string name="smallest_tick_label">Kapalı</string>
     <string name="greatest_tick_label">Yarım ekran</string>
-    <string name="gesture_back_deadzone_label">Ölü Bölge</string>
+    <string name="gesture_back_deadzone_label">Ölü alan</string>
     <string name="back_sensitivity_dialog_message_cust">Geri kaydırma hassasiyetini yapılandırmak için ilk arama çubuğunu, uygulama içi hareketlerle çakışmaları önlemek üzere ekranın kaydırmanın tetiklenebileceği alanını ayarlamak için ikinci arama çubuğunu kullanın.</string>
     <!-- Custom actions -->
     <string name="action_nothing">Eylem yok</string>
     <string name="action_search">Asistan</string>
     <string name="action_voice_search">Sesli arama</string>
     <string name="action_launch_camera">Kamera</string>
-    <string name="action_flashlight">El Feneri</string>
+    <string name="action_flashlight">El feneri</string>
     <string name="action_volume_panel">Ses paneli</string>
     <string name="action_screen_off">Ekran kapalı</string>
-    <string name="action_screenshot">Ekran Görüntüsü</string>
+    <string name="action_screenshot">Ekran görüntüsü</string>
     <string name="action_app_action">Uygulama</string>
-    <string name="active_edge_ss_app_select_title">Kısa sıkma uygulamasını seçin</string>
-    <string name="active_edge_ls_app_select_title">Uzun sıkma uygulamasını seçin</string>
-    <string name="active_edge_app_select_summary">Sıkma eylemiyle başlatılacak bir uygulama seçin</string>
+    <string name="active_edge_ss_app_select_title">Kısa sıkıştırma uygulaması seçin</string>
+    <string name="active_edge_ls_app_select_title">Uzun sıkıştırma uygulamasını seçin</string>
+    <string name="active_edge_app_select_summary">Sıkıştırma eylemiyle başlatılacak bir uygulama seçin</string>
     <string name="action_qs_panel">Hızlı ayarlar paneli</string>
     <string name="action_notifications">Bildirimler</string>
     <string name="action_clear_notifications">Bildirimleri temizle</string>
-    <string name="action_ringer_modes">Zil modları</string>
+    <string name="action_ringer_modes">Zil sesi modları</string>
     <string name="kill_app">Ön plan uygulamasını sonlandır</string>
     <string name="skip_song">Şarkıyı atla</string>
     <string name="prev_song">Önceki şarkı</string>
     <string name="show_powermenu">Güç menüsünü göster</string>
-    <string name="partial_screenshot">Kısmi Ekran Görüntüsü</string>
+    <string name="partial_screenshot">Kısmi ekran görüntüsü</string>
     <string name="hush_mute">Bildirimleri sessize al</string>
     <!-- Long back swipe options -->
     <string name="navbar_gesture_tweaks_pref_title">Gelişmiş hareketler</string>
@@ -228,7 +228,7 @@
     <string name="ambient_music_bottom">Altta (varsayılan)</string>
     <string name="ambient_music_center">Ortalanmış (saatin altında)</string>
     <!-- Changelog -->
-    <string name="changelog_title">Güncelleme Notları</string>
+    <string name="changelog_title">Değişiklikler</string>
     <string name="changelog_summary">Son güncellemeden beri</string>
     <string name="changelog_error">Güncelleme notları yüklenemedi</string>
     <!-- Lock screen pattern size -->
@@ -255,7 +255,7 @@
     <string name="extra_volume_features_title">Ses yönetimi</string>
     <string name="resume_audio_stream_title">Sesi devam ettir</string>
     <string name="resume_audio_stream_summary">Kullanıcı daha önce sesi (tamamen) kıstığı için çalan medya durduysa, otomatik olarak devam ettir</string>
-    <string name="pause_audio_stream_title">Medyayı Duraklat</string>
+    <string name="pause_audio_stream_title">Medyayı duraklat</string>
     <string name="pause_audio_stream_summary">Medya ses seviyesi susturulduğunda çalan medyayı durdur</string>
     <!-- Expand immediately -->
     <string name="extra_volume_ui_features_title">Ses arayüzü ekstraları</string>
@@ -313,24 +313,24 @@
     <string name="cherish_version_title">Versiyon</string>
     <string name="cherish_version_code_title">Kod Adı</string>
     <string name="cherish_release_type_title">Sürüm türü</string>
-    <string name="cherish_maintainer_title">Cihaz Sorumlusu</string>
+    <string name="cherish_maintainer_title">Cihaz sorumlusu</string>
     <!-- App Lock -->
-    <string name="applock_title">App locker</string>
-    <string name="applock_locked">Locked</string>
-    <string name="applock_unlocked">Unlocked</string>
-    <string name="applock_locked_apps">Locked apps</string>
-    <string name="applock_unlocked_apps">Unlocked apps</string>
-    <string name="applock_show_only_on_wake">Authenticate only once</string>
-    <string name="applock_show_only_on_wake_on_summary">Once authenticated, an app stays unlocked until the screen turns off</string>
-    <string name="applock_show_only_on_wake_off_summary">Once authenticated, an app stays unlocked for 15 seconds after exiting</string>
-    <string name="applock_notification_info">You can show/hide the notification content on a per-app basis by clicking on the notification icon shown on each locked apps\' preference</string>
-    <string name="applock_show_notif">Showing notification content</string>
-    <string name="applock_hide_notif">Hiding notification content</string>
-    <string name="applock_setup">Setup app locker</string>
-    <string name="applock_overlay_summary">This feature is not available because this app is locked</string>
+    <string name="applock_title">Uygulama kilitleyici</string>
+    <string name="applock_locked">Kilitli</string>
+    <string name="applock_unlocked">Kilitli değil</string>
+    <string name="applock_locked_apps">Kilitli uygulamalar</string>
+    <string name="applock_unlocked_apps">Kilitli olmayan uygulamalar</string>
+    <string name="applock_show_only_on_wake">Yalnızca bir kez kimlik doğrulama</string>
+    <string name="applock_show_only_on_wake_on_summary">Kimlik doğrulaması yapıldıktan sonra, ekran kapanana kadar uygulamanın kilidi açık kalır</string>
+    <string name="applock_show_only_on_wake_off_summary">Kimlik doğrulaması yapıldıktan sonra, uygulamadan çıktıktan sonra 15 saniye boyunca kilidi açık kalır</string>
+    <string name="applock_notification_info">Kilitli her uygulamanın tercihinde gösterilen bildirim simgesine tıklayarak bildirim içeriğini uygulama bazında gösterebilir/gizleyebilirsiniz</string>
+    <string name="applock_show_notif">Bildirim içeriği gösteriliyor</string>
+    <string name="applock_hide_notif">Bildirim içeriği gizleniyor</string>
+    <string name="applock_setup">Uygulama kilitleyiciyi ayarlayın</string>
+    <string name="applock_overlay_summary">Bu uygulama kilitli olduğu için bu özellik kullanılamıyor</string>
     <plurals name="applock_summary">
-        <item quantity="one">1 app locked</item>
-        <item quantity="other">%d apps locked</item>
+        <item quantity="one">1 uygulama kilitli</item>
+        <item quantity="other">%d uygulama kilitli</item>
     </plurals>
-    <string name="keywords_applock_settings">applock, applocker, app lock, app locker</string>
+    <string name="keywords_applock_settings">uygulama kilidi, uygulama kilidi, uygulama kilidi, uygulama kilidi</string>
 </resources>
