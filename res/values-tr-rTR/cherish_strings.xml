@@ -310,8 +310,8 @@
     <string name="dc_dimming_on_auto_mode_auto">Otomatik olarak kapanacak</string>
     <string name="keywords_display_dc_dimming">dc karartma, titreme, göz, zorlanma</string>
     <!-- Cherish versioning -->
-    <string name="cherish_version_title">Versiyon</string>
-    <string name="cherish_version_code_title">Kod Adı</string>
+    <string name="cherish_version_title">Sürüm</string>
+    <string name="cherish_version_code_title">Kod adı</string>
     <string name="cherish_release_type_title">Sürüm türü</string>
     <string name="cherish_maintainer_title">Cihaz sorumlusu</string>
     <!-- App Lock -->
