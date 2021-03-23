@@ -287,31 +287,50 @@
     <string name="clock_style_title">Estilo do relógio</string>
     <string name="clock_style_summary">Personalizar o relógio da tela de bloqueio</string>
     <string name="theme_customization_statusbar_height_title">Altura da barra de status</string>
-    <string name="default_accent_color">Dodger Blue (default)</string>
-    <string name="default_icon_shape">Circle (default)</string>
-    <string name="default_font">OnePlus Slate (default)</string>
-    <string name="default_icon_pack">AOSP + Oxygen (default)</string>
+    <string name="default_accent_color">Azul Esquiva (padrão)</string>
+    <string name="default_icon_shape">Círculo (pré-definido)</string>
+    <string name="default_font">OnePlus Slate (Padrão)</string>
+    <string name="default_icon_pack">AOSP + Oxygen (padrão)</string>
     <!-- SELinux Status -->
-    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status">Status do SELinux</string>
     <string name="selinux_status_disabled">Desabilitado</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status_permissive">Permissivo</string>
+    <string name="selinux_status_enforcing">Forçando</string>
     <!-- DC Dimming -->
-    <string name="dc_dimming_title">DC Dimming</string>
-    <string name="dc_dimming_info">Reduces eye strain in low light conditions but may result in reduced image quality and poor color production.</string>
-    <string name="dc_dimming_auto_mode_title">Schedule</string>
-    <string name="dc_dimming_mode_brightness">Turn on when brightness is below the threshold</string>
-    <string name="dc_dimming_mode_full">Dependent on time and brightness</string>
-    <string name="dc_dimming_brightness_title">Brightness threshold</string>
+    <string name="dc_dimming_title">Escurecimento DC</string>
+    <string name="dc_dimming_info">Reduz a fadiga ocular em condições de pouca luz, mas pode resultar em qualidade de imagem reduzida e produção de cor ruim.</string>
+    <string name="dc_dimming_auto_mode_title">Programação</string>
+    <string name="dc_dimming_mode_brightness">Ligue quando o brilho estiver abaixo do limite</string>
+    <string name="dc_dimming_mode_full">Depende de tempo e brilho</string>
+    <string name="dc_dimming_brightness_title">Limite de brilho</string>
     <string name="dc_dimming_brightness_disabled">Desabilitado</string>
-    <string name="dc_dimming_restore_auto_mode">Restore auto mode</string>
-    <string name="dc_dimming_brightness_info">Only activate DC Dimming when the average brightness is below the threshold</string>
-    <string name="dc_dimming_off_auto_mode_auto">Will turn on automatically</string>
-    <string name="dc_dimming_on_auto_mode_auto">Will turn off automatically</string>
-    <string name="keywords_display_dc_dimming">dc dimming, flicker, eye, strain</string>
+    <string name="dc_dimming_restore_auto_mode">Restaurar modo automático</string>
+    <string name="dc_dimming_brightness_info">Ative o escurecimento DC apenas quando o brilho médio estiver abaixo do limite</string>
+    <string name="dc_dimming_off_auto_mode_auto">Nunca ativar automaticamente</string>
+    <string name="dc_dimming_on_auto_mode_auto">Nunca ativar automaticamente</string>
+    <string name="keywords_display_dc_dimming">escurecimento Dc, cintilação, olho, tensão</string>
     <!-- Cherish versioning -->
-    <string name="cherish_version_title">Version</string>
-    <string name="cherish_version_code_title">Codename</string>
-    <string name="cherish_release_type_title">Release type</string>
+    <string name="cherish_version_title">Versão</string>
+    <string name="cherish_version_code_title">Codinome</string>
+    <string name="cherish_release_type_title">Tipo de lançamento</string>
     <string name="cherish_maintainer_title">Mantedor</string>
+    <!-- App Lock -->
+    <string name="applock_title">Bloqueador de aplicativos</string>
+    <string name="applock_locked">Bloqueado</string>
+    <string name="applock_unlocked">Desbloqueado</string>
+    <string name="applock_locked_apps">Aplicativos bloqueados</string>
+    <string name="applock_unlocked_apps">Aplicativos desbloqueados</string>
+    <string name="applock_show_only_on_wake">Autenticar apenas uma vez</string>
+    <string name="applock_show_only_on_wake_on_summary">Uma vez autenticado, um aplicativo permanece desbloqueado até que a tela seja desligada</string>
+    <string name="applock_show_only_on_wake_off_summary">Uma vez autenticado, um aplicativo permanece desbloqueado por 15 segundos após a saída</string>
+    <string name="applock_notification_info">Você pode mostrar/ocultar o conteúdo da notificação por aplicativo, clicando no ícone de notificação mostrado na preferência de cada aplicativo bloqueado</string>
+    <string name="applock_show_notif">Mostrando conteúdo de notificação</string>
+    <string name="applock_hide_notif">Ocultar o conteúdo das notificações</string>
+    <string name="applock_setup">Configurar o bloqueador de aplicativos</string>
+    <string name="applock_overlay_summary">Esse recurso não está disponível porque este aplicativo está bloqueado</string>
+    <plurals name="applock_summary">
+        <item quantity="one">1 aplicativo bloqueado</item>
+        <item quantity="other">%d aplicativos bloqueados</item>
+    </plurals>
+    <string name="keywords_applock_settings">applock, applocker, bloqueio de apps, bloqueador de apps</string>
 </resources>
