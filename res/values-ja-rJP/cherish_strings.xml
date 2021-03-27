@@ -332,4 +332,7 @@
         <item quantity="other">%d個のアプリがロックされました</item>
     </plurals>
     <string name="keywords_applock_settings">アプリロック、アプリブロッカー、アプリ ロック、アプリ ロッカー</string>
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Rooted debugging</string>
+    <string name="adb_enable_summary_root">Allow running Android debugging as root</string>
 </resources>
