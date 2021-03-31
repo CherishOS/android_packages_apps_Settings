@@ -333,6 +333,6 @@
     </plurals>
     <string name="keywords_applock_settings">アプリロック、アプリブロッカー、アプリ ロック、アプリ ロッカー</string>
     <!-- Android debugging as root -->
-    <string name="adb_enable_root">Rooted debugging</string>
-    <string name="adb_enable_summary_root">Allow running Android debugging as root</string>
+    <string name="adb_enable_root">ルート状態のデバッグ</string>
+    <string name="adb_enable_summary_root">ルート状態でも Android デバッグを許可する</string>
 </resources>
