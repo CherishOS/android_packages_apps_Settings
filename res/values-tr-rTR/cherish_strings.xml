@@ -59,7 +59,7 @@
     <string name="display_rotation_90_title">90 derece</string>
     <string name="display_rotation_180_title">180 derece</string>
     <string name="display_rotation_270_title">270 derece</string>
-    <string name="weather_title">Hava durumu</string>
+    <string name="weather_title">Hava Durumu</string>
     <string name="volumesteps_title">Ses seviyeleri</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Kayıtlı kulaklıklar</string>
@@ -70,7 +70,7 @@
     <string name="tethering_allow_vpn_upstreams_title">İstemcilerin VPN kullanmasına izin ver</string>
     <string name="tethering_allow_vpn_upstreams_summary">Hotspot kullanıcılarının bağlantıları sırasında bu cihazın\u2019s VPN bağlantısını kullanmasına izin ver</string>
     <!-- Smart charging -->
-    <string name="smart_charging_title">Akıllı şarj</string>
+    <string name="smart_charging_title">Akıllı Şarj</string>
     <string name="smart_charging_summary">Maksimum şarj seviyesini ayarlayın</string>
     <string name="smart_charging_switch_title">Akıllı şarj özelliğini kullan</string>
     <string name="smart_charging_level_title">Durdurma tetikleyici seviyesi</string>
@@ -79,7 +79,7 @@
     <string name="smart_charging_reset_stats_summary">Kullanıcının tanımladığı şarj değerine ulaşınca pil istatistiklerini sıfırla</string>
     <string name="smart_charging_footer">Akıllı şarj, pilinizin ömrünü uzatmak için maksimum şarj seviyesini ayarlamanızı sağlar</string>
     <!-- Cherish maintainer -->
-    <string name="maintainer">Cihaz sorumlusu</string>
+    <string name="maintainer">Cihaz Sorumlusu</string>
     <!-- Screen off fod -->
     <string name="fod_gesture_title">Kapalı ekran parmak izi</string>
     <string name="fod_gesture_summary">Önce ekranı uyandırmak zorunda kalmadan cihazın kilidini açmaya izin verir</string>
@@ -230,7 +230,7 @@
     <!-- Changelog -->
     <string name="changelog_title">Değişiklikler</string>
     <string name="changelog_summary">Son güncellemeden beri</string>
-    <string name="changelog_error">Güncelleme notları yüklenemedi</string>
+    <string name="changelog_error">Değişiklik günlüğü yüklenemedi</string>
     <!-- Lock screen pattern size -->
     <string name="lock_settings_picker_pattern_size_message">Bir desen boyutu seçin</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
@@ -313,7 +313,7 @@
     <string name="cherish_version_title">Sürüm</string>
     <string name="cherish_version_code_title">Kod adı</string>
     <string name="cherish_release_type_title">Sürüm türü</string>
-    <string name="cherish_maintainer_title">Cihaz sorumlusu</string>
+    <string name="cherish_maintainer_title">Cihaz Sorumlusu</string>
     <!-- App Lock -->
     <string name="applock_title">Uygulama kilitleyici</string>
     <string name="applock_locked">Kilitli</string>
