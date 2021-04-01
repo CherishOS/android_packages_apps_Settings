@@ -333,4 +333,7 @@
         <item quantity="other">%d aplicativos bloqueados</item>
     </plurals>
     <string name="keywords_applock_settings">applock, applocker, bloqueio de apps, bloqueador de apps</string>
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Rooted debugging</string>
+    <string name="adb_enable_summary_root">Allow running Android debugging as root</string>
 </resources>

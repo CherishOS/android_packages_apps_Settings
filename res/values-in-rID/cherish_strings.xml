@@ -333,4 +333,7 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
         <item quantity="other">%d aplikasi terkunci</item>
     </plurals>
     <string name="keywords_applock_settings">kunci aplikasi, pengunci aplikasi, loker aplikasi</string>
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Debugging Root</string>
+    <string name="adb_enable_summary_root">Izinkan menjalankan debugging Android sebagai root</string>
 </resources>
