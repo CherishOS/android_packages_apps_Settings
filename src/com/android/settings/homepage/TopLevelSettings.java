@@ -31,6 +31,7 @@ import com.android.settings.R;
 import com.android.settings.core.SubSettingLauncher;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settings.support.SupportPreferenceController;
 import com.android.settingslib.core.instrumentation.Instrumentable;
 import com.android.settingslib.search.SearchIndexable;
 
@@ -49,7 +50,7 @@ public class TopLevelSettings extends DashboardFragment implements
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.top_level_settings_cherish;
+        return R.xml.top_level_settings;
     }
 
     @Override
@@ -65,6 +66,7 @@ public class TopLevelSettings extends DashboardFragment implements
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
+        use(SupportPreferenceController.class).setActivity(getActivity());
     }
 
     @Override
@@ -98,7 +100,7 @@ public class TopLevelSettings extends DashboardFragment implements
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.top_level_settings_cherish) {
+            new BaseSearchIndexProvider(R.xml.top_level_settings) {
 
                 @Override
                 protected boolean isPageSearchEnabled(Context context) {

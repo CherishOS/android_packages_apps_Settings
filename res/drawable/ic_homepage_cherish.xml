@@ -16,7 +16,7 @@
 
     <item>
         <com.android.settingslib.widget.AdaptiveIconShapeDrawable
-                android:color="@color/cherish_homepage_icon_background"
+                android:color="@color/homepage_cherish_background"
                 android:width="@dimen/dashboard_tile_image_size"
                 android:height="@dimen/dashboard_tile_image_size" />
     </item>

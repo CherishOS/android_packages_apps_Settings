@@ -21,16 +21,16 @@ import android.content.Context;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-public class AccessibilityPreferenceController extends BasePreferenceController {
+public class TopLevelAccessibilityPreferenceController extends BasePreferenceController {
 
-    public AccessibilityPreferenceController(Context context,
+    public TopLevelAccessibilityPreferenceController(Context context,
             String preferenceKey) {
         super(context, preferenceKey);
     }
 
     @Override
     public int getAvailabilityStatus() {
-        return mContext.getResources().getBoolean(R.bool.config_show_accessibility)
+        return mContext.getResources().getBoolean(R.bool.config_show_top_level_accessibility)
                 ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
     }
 }
