@@ -287,7 +287,7 @@
     <string name="clock_style_title">Kiểu đồng hồ</string>
     <string name="clock_style_summary">Tùy chỉnh đồng hồ trên màn hình khóa</string>
     <string name="theme_customization_statusbar_height_title">Chiều cao thanh trạng thái</string>
-    <string name="default_accent_color">Pixel Xanh biển (Mặc định)</string>
+    <string name="default_accent_color">Dodger Xanh biển (Mặc định)</string>
     <string name="default_icon_shape">Vòng tròn (mặc định)</string>
     <string name="default_font">OnePlus Slate (mặc định)</string>
     <string name="default_icon_pack">AOSP + Oxygen (mặt định)</string>
@@ -300,39 +300,90 @@
     <string name="dc_dimming_title">Chỉnh độ sáng phù hợp màn hình</string>
     <string name="dc_dimming_info">Giảm mỏi mắt trong điều kiện ánh sáng yếu nhưng có thể làm giảm chất lượng hình ảnh và tạo ra màu sắc kém.</string>
     <string name="dc_dimming_auto_mode_title">Lịch trình</string>
-    <string name="dc_dimming_mode_brightness">Bật khi độ sáng dưới ngưỡng</string>
-    <string name="dc_dimming_mode_full">Tuỳ theo thời gian và độ sáng</string>
-    <string name="dc_dimming_brightness_title">Ngưỡng độ sáng</string>
+    <string name="dc_dimming_mode_brightness">Turn on when brightness is below the threshold</string>
+    <string name="dc_dimming_mode_full">Dependent on time and brightness</string>
+    <string name="dc_dimming_brightness_title">Brightness threshold</string>
     <string name="dc_dimming_brightness_disabled">Tắt</string>
-    <string name="dc_dimming_restore_auto_mode">Phục hồi chế độ tự động</string>
-    <string name="dc_dimming_brightness_info">Chỉ kích hoạt giảm độ sáng khi độ sáng trung bình xuống dưới ngưỡng</string>
-    <string name="dc_dimming_off_auto_mode_auto">Sẽ tự động bật</string>
-    <string name="dc_dimming_on_auto_mode_auto">Sẽ tự động tắt</string>
-    <string name="keywords_display_dc_dimming">dc dimming, độ sáng, giảm độ sáng, giam do sang, do sang</string>
+    <string name="dc_dimming_restore_auto_mode">Restore auto mode</string>
+    <string name="dc_dimming_brightness_info">Only activate DC Dimming when the average brightness is below the threshold</string>
+    <string name="dc_dimming_off_auto_mode_auto">Will turn on automatically</string>
+    <string name="dc_dimming_on_auto_mode_auto">Will turn off automatically</string>
+    <string name="keywords_display_dc_dimming">dc dimming, flicker, eye, strain</string>
     <!-- Cherish versioning -->
-    <string name="cherish_version_title">Phiên bản</string>
-    <string name="cherish_version_code_title">Tên mã</string>
-    <string name="cherish_release_type_title">Loại phiên bản</string>
+    <string name="cherish_version_title">Version</string>
+    <string name="cherish_version_code_title">Codename</string>
+    <string name="cherish_release_type_title">Release type</string>
     <string name="cherish_maintainer_title">Người chủ trì</string>
     <!-- App Lock -->
-    <string name="applock_title">Khóa ứng dụng</string>
-    <string name="applock_locked">Đã khóa</string>
-    <string name="applock_unlocked">Mở khóa</string>
-    <string name="applock_locked_apps">Đã khóa ứng dụng</string>
-    <string name="applock_unlocked_apps">Mở khóa ứng dụng</string>
-    <string name="applock_show_only_on_wake">Chỉ xác thực một lần</string>
-    <string name="applock_show_only_on_wake_on_summary">Sau khi xác thực, ứng dụng vẫn mở khóa cho đến khi màn hình tắt</string>
-    <string name="applock_show_only_on_wake_off_summary">Sau khi được xác thực, ứng dụng vẫn mở khóa trong 15 giây sau khi thoát</string>
-    <string name="applock_notification_info">Bạn có thể hiện/ẩn nội dung thông báo từng ứng dụng bằng cách chạm vào biểu tượng thông báo hiện trên từng tuỳ chọn của ứng dụng được khoá</string>
-    <string name="applock_show_notif">Hiển thị nội dung thông báo</string>
-    <string name="applock_hide_notif">Ẩn nội dung thông báo</string>
-    <string name="applock_setup">Cài đặt khóa ứng dụng</string>
-    <string name="applock_overlay_summary">Tính năng này không khả dụng vì ứng dụng này đã bị khóa</string>
+    <string name="applock_title">App locker</string>
+    <string name="applock_locked">Locked</string>
+    <string name="applock_unlocked">Unlocked</string>
+    <string name="applock_locked_apps">Locked apps</string>
+    <string name="applock_unlocked_apps">Unlocked apps</string>
+    <string name="applock_lock_after_title">Lock app after</string>
+    <string name="applock_lock_after_instantly">Instantly</string>
+    <string name="applock_lock_after_15_seconds">15 Seconds</string>
+    <string name="applock_lock_after_screen_off">Màn hình tắt</string>
+    <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
+    <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
+    <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
+    <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
+    <string name="applock_notification_info">You can show/hide the notification content on a per-app basis by clicking on the notification icon shown on each locked apps\' preference</string>
+    <string name="applock_show_notif">Showing notification content</string>
+    <string name="applock_hide_notif">Hiding notification content</string>
+    <string name="applock_setup">Setup app locker</string>
+    <string name="applock_overlay_summary">This feature is not available because this app is locked</string>
     <plurals name="applock_summary">
-        <item quantity="other">%d ứng dụng đã khóa</item>
+        <item quantity="other">%d apps locked</item>
     </plurals>
     <string name="keywords_applock_settings">applock, applocker, app lock, app locker</string>
-    <!-- Android debugging as root -->
-    <string name="adb_enable_root">Gỡ lỗi với quyền root</string>
-    <string name="adb_enable_summary_root">Cho phép chạy gỡ lỗi Android với quyền root</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Screen lock, fingerprint, face unlock</string>
+    <string name="face_redo_confirm_btn">Redo</string>
+    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
+    <!-- global cleartext penalties -->
+    <string name="cleartext_network_policy_title">Restrict cleartext network traffic</string>
+    <string name="cleartext_network_policy_summary">Blocks all non-TLS network traffic. Requires Private DNS configuration. Note: Without explicit exemptions, Tor and most VPNs won\'t work</string>
+    <!--  screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Turn off Wi-Fi automatically</string>
+    <!--  screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
+    <string name="wifi_timeout_summary2">Tắt</string>
+    <string name="wifi_timeout_summary_never">Không bao giờ</string>
+    <string name="wifi_timeout_summary_15secs">15 seconds</string>
+    <string name="wifi_timeout_summary_30secs">30 seconds</string>
+    <string name="wifi_timeout_summary_1min">1 phút</string>
+    <string name="wifi_timeout_summary_2mins">2 phút</string>
+    <string name="wifi_timeout_summary_5mins">5 phút</string>
+    <string name="wifi_timeout_summary_10mins">10 phút</string>
+    <string name="wifi_timeout_summary_30mins">30 phút</string>
+    <string name="wifi_timeout_summary_1hour">1 hour</string>
+    <string name="wifi_timeout_summary_2hours">2 hours</string>
+    <string name="wifi_timeout_summary_4hours">4 hours</string>
+    <string name="wifi_timeout_summary_8hours">8 hours</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Bluetooth timeout</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
+    <string name="bluetooth_timeout_summary2">Do not automatically turn off Bluetooth</string>
+    <string name="bluetooth_timeout_summary_never">Không bao giờ</string>
+    <string name="bluetooth_timeout_summary_15secs">15 seconds</string>
+    <string name="bluetooth_timeout_summary_30secs">30 seconds</string>
+    <string name="bluetooth_timeout_summary_1min">1 phút</string>
+    <string name="bluetooth_timeout_summary_2mins">2 phút</string>
+    <string name="bluetooth_timeout_summary_5mins">5 phút</string>
+    <string name="bluetooth_timeout_summary_10mins">10 phút</string>
+    <string name="bluetooth_timeout_summary_30mins">30 phút</string>
+    <string name="bluetooth_timeout_summary_1hour">1 hour</string>
+    <string name="bluetooth_timeout_summary_2hours">2 hours</string>
+    <string name="bluetooth_timeout_summary_4hours">4 hours</string>
+    <string name="bluetooth_timeout_summary_8hours">8 hours</string>
+    <!-- Smart cutoff -->
+    <string name="smart_cutoff_title">Smart Cutoff</string>
+    <string name="smart_cutoff_summary">Set maximum Temperature</string>
+    <string name="smart_cutoff_switch_title">Use Smart cutoff</string>
+    <string name="smart_cutoff_level_title">Dừng mức độ kích hoạt</string>
+    <string name="smart_cutoff_resume_level_title">Bắt đầu mức độ kích hoạt</string>
 </resources>
