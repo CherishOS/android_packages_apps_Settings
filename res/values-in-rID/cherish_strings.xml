@@ -246,7 +246,7 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">Back gesture animation</string>
-    <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture.</string>
+    <string name="back_gesture_arrow_summary">Tampilkan animasi panah untuk gestur kembali.</string>
     <!-- Min refresh rate -->
     <string name="min_refresh_rate_title">Kecepatan refresh minimum</string>
     <!-- Mobile network setting screen, summary of Mobile data switch preference when the network
@@ -287,53 +287,104 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <!-- Clock style -->
     <string name="clock_style_title">Gaya Jam</string>
     <string name="clock_style_summary">Sesuaikan jam layar kunci</string>
-    <string name="theme_customization_statusbar_height_title">Tinggi bilah status</string>
-    <string name="default_accent_color">Dodger Blue (bawaan)</string>
-    <string name="default_icon_shape">Lingkaran (bawaan)</string>
-    <string name="default_font">OnePlus Slate (bawaan)</string>
-    <string name="default_icon_pack">AOSP + Oxygen (bawaan)</string>
+    <string name="theme_customization_statusbar_height_title">Statusbar height</string>
+    <string name="default_accent_color">Dodger Blue (default)</string>
+    <string name="default_icon_shape">Circle (default)</string>
+    <string name="default_font">OnePlus Slate (default)</string>
+    <string name="default_icon_pack">AOSP + Oxygen (default)</string>
     <!-- SELinux Status -->
-    <string name="selinux_status">Status SELinux</string>
+    <string name="selinux_status">SELinux status</string>
     <string name="selinux_status_disabled">Dinonaktifkan</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
     <!-- DC Dimming -->
-    <string name="dc_dimming_title">Peredupan DC</string>
-    <string name="dc_dimming_info">Mengurangi ketegangan mata dalam kondisi cahaya redup tetapi dapat menyebabkan kualitas gambar berkurang dan produksi warna buruk.</string>
-    <string name="dc_dimming_auto_mode_title">Jadwal</string>
-    <string name="dc_dimming_mode_brightness">Nyalakan saat kecerahan di bawah ambang batas</string>
-    <string name="dc_dimming_mode_full">Bergantung pada waktu dan kecerahan</string>
-    <string name="dc_dimming_brightness_title">Ambang kecerahan</string>
+    <string name="dc_dimming_title">DC Dimming</string>
+    <string name="dc_dimming_info">Reduces eye strain in low light conditions but may result in reduced image quality and poor color production.</string>
+    <string name="dc_dimming_auto_mode_title">Schedule</string>
+    <string name="dc_dimming_mode_brightness">Turn on when brightness is below the threshold</string>
+    <string name="dc_dimming_mode_full">Dependent on time and brightness</string>
+    <string name="dc_dimming_brightness_title">Brightness threshold</string>
     <string name="dc_dimming_brightness_disabled">Dinonaktifkan</string>
-    <string name="dc_dimming_restore_auto_mode">Pulihkan mode otomatis</string>
-    <string name="dc_dimming_brightness_info">Aktifkan Peredupan DC hanya jika kecerahan rata-rata di bawah ambang batas</string>
-    <string name="dc_dimming_off_auto_mode_auto">Akan aktif secara otomatis</string>
-    <string name="dc_dimming_on_auto_mode_auto">Akan mati secara otomatis</string>
-    <string name="keywords_display_dc_dimming">peredupan dc, kedipan, mata, regangan</string>
+    <string name="dc_dimming_restore_auto_mode">Restore auto mode</string>
+    <string name="dc_dimming_brightness_info">Only activate DC Dimming when the average brightness is below the threshold</string>
+    <string name="dc_dimming_off_auto_mode_auto">Will turn on automatically</string>
+    <string name="dc_dimming_on_auto_mode_auto">Will turn off automatically</string>
+    <string name="keywords_display_dc_dimming">dc dimming, flicker, eye, strain</string>
     <!-- Cherish versioning -->
-    <string name="cherish_version_title">Versi</string>
-    <string name="cherish_version_code_title">Nama Kode</string>
-    <string name="cherish_release_type_title">Jenis rilis</string>
+    <string name="cherish_version_title">Version</string>
+    <string name="cherish_version_code_title">Codename</string>
+    <string name="cherish_release_type_title">Release type</string>
     <string name="cherish_maintainer_title">Pengelola</string>
     <!-- App Lock -->
-    <string name="applock_title">Pengunci Aplikasi</string>
-    <string name="applock_locked">Terkunci</string>
-    <string name="applock_unlocked">Tidak terkunci</string>
-    <string name="applock_locked_apps">Aplikasi terkunci</string>
-    <string name="applock_unlocked_apps">Aplikasi tidak terkunci</string>
-    <string name="applock_show_only_on_wake">Lakukan autentikasi hanya sekali</string>
-    <string name="applock_show_only_on_wake_on_summary">Setelah diautentikasi, aplikasi tetap tidak terkunci hingga layarnya mati</string>
-    <string name="applock_show_only_on_wake_off_summary">Setelah diautentikasi, aplikasi tetap tidak terkunci selama 15 detik setelah keluar</string>
-    <string name="applock_notification_info">Anda dapat menampilkan/menyembunyikan konten notifikasi per aplikasi dengan mengklik ikon notifikasi yang ditampilkan di preferensi setiap aplikasi yang terkunci</string>
-    <string name="applock_show_notif">Menampilkan konten notifikasi</string>
-    <string name="applock_hide_notif">Menyembunyikan konten notifikasi</string>
-    <string name="applock_setup">Siapkan pengunci aplikasi</string>
-    <string name="applock_overlay_summary">Fitur ini tidak tersedia karena aplikasi ini terkunci</string>
+    <string name="applock_title">App locker</string>
+    <string name="applock_locked">Locked</string>
+    <string name="applock_unlocked">Unlocked</string>
+    <string name="applock_locked_apps">Locked apps</string>
+    <string name="applock_unlocked_apps">Unlocked apps</string>
+    <string name="applock_lock_after_title">Lock app after</string>
+    <string name="applock_lock_after_instantly">Instantly</string>
+    <string name="applock_lock_after_15_seconds">15 Seconds</string>
+    <string name="applock_lock_after_screen_off">Layar mati</string>
+    <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
+    <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
+    <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
+    <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
+    <string name="applock_notification_info">You can show/hide the notification content on a per-app basis by clicking on the notification icon shown on each locked apps\' preference</string>
+    <string name="applock_show_notif">Showing notification content</string>
+    <string name="applock_hide_notif">Hiding notification content</string>
+    <string name="applock_setup">Setup app locker</string>
+    <string name="applock_overlay_summary">This feature is not available because this app is locked</string>
     <plurals name="applock_summary">
-        <item quantity="other">%d aplikasi terkunci</item>
+        <item quantity="other">%d apps locked</item>
     </plurals>
-    <string name="keywords_applock_settings">kunci aplikasi, pengunci aplikasi, loker aplikasi</string>
-    <!-- Android debugging as root -->
-    <string name="adb_enable_root">Debugging Root</string>
-    <string name="adb_enable_summary_root">Izinkan menjalankan debugging Android sebagai root</string>
+    <string name="keywords_applock_settings">applock, applocker, app lock, app locker</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Screen lock, fingerprint, face unlock</string>
+    <string name="face_redo_confirm_btn">Redo</string>
+    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
+    <!-- global cleartext penalties -->
+    <string name="cleartext_network_policy_title">Restrict cleartext network traffic</string>
+    <string name="cleartext_network_policy_summary">Blocks all non-TLS network traffic. Requires Private DNS configuration. Note: Without explicit exemptions, Tor and most VPNs won\'t work</string>
+    <!--  screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Turn off Wi-Fi automatically</string>
+    <!--  screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
+    <string name="wifi_timeout_summary2">Dinonaktifkan</string>
+    <string name="wifi_timeout_summary_never">Jangan pernah</string>
+    <string name="wifi_timeout_summary_15secs">15 seconds</string>
+    <string name="wifi_timeout_summary_30secs">30 seconds</string>
+    <string name="wifi_timeout_summary_1min">1 menit</string>
+    <string name="wifi_timeout_summary_2mins">2 menit</string>
+    <string name="wifi_timeout_summary_5mins">5 menit</string>
+    <string name="wifi_timeout_summary_10mins">10 menit</string>
+    <string name="wifi_timeout_summary_30mins">30 menit</string>
+    <string name="wifi_timeout_summary_1hour">1 hour</string>
+    <string name="wifi_timeout_summary_2hours">2 hours</string>
+    <string name="wifi_timeout_summary_4hours">4 hours</string>
+    <string name="wifi_timeout_summary_8hours">8 hours</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Bluetooth timeout</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
+    <string name="bluetooth_timeout_summary2">Do not automatically turn off Bluetooth</string>
+    <string name="bluetooth_timeout_summary_never">Jangan pernah</string>
+    <string name="bluetooth_timeout_summary_15secs">15 seconds</string>
+    <string name="bluetooth_timeout_summary_30secs">30 seconds</string>
+    <string name="bluetooth_timeout_summary_1min">1 menit</string>
+    <string name="bluetooth_timeout_summary_2mins">2 menit</string>
+    <string name="bluetooth_timeout_summary_5mins">5 menit</string>
+    <string name="bluetooth_timeout_summary_10mins">10 menit</string>
+    <string name="bluetooth_timeout_summary_30mins">30 menit</string>
+    <string name="bluetooth_timeout_summary_1hour">1 hour</string>
+    <string name="bluetooth_timeout_summary_2hours">2 hours</string>
+    <string name="bluetooth_timeout_summary_4hours">4 hours</string>
+    <string name="bluetooth_timeout_summary_8hours">8 hours</string>
+    <!-- Smart cutoff -->
+    <string name="smart_cutoff_title">Smart Cutoff</string>
+    <string name="smart_cutoff_summary">Set maximum Temperature</string>
+    <string name="smart_cutoff_switch_title">Use Smart cutoff</string>
+    <string name="smart_cutoff_level_title">Hentikan tingkat pemicu</string>
+    <string name="smart_cutoff_resume_level_title">Mulai tingkat pemicu</string>
 </resources>
