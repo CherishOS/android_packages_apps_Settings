@@ -13,7 +13,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen, Cherish version -->
     <string name="cherish_version">Cherish sürümü</string>
-    <string name="cherish_version_default">Bilinmeyen</string>
+    <string name="cherish_version_default">Bilinmiyor</string>
     <string name="keywords_cherish_version">Cherish sürümü</string>
     <!-- About phone screen, build date -->
     <string name="about_device_name">Cihaz</string>
@@ -59,7 +59,7 @@
     <string name="display_rotation_90_title">90 derece</string>
     <string name="display_rotation_180_title">180 derece</string>
     <string name="display_rotation_270_title">270 derece</string>
-    <string name="weather_title">Hava Durumu</string>
+    <string name="weather_title">Hava durumu</string>
     <string name="volumesteps_title">Ses seviyeleri</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Kayıtlı kulaklıklar</string>
@@ -70,7 +70,7 @@
     <string name="tethering_allow_vpn_upstreams_title">İstemcilerin VPN kullanmasına izin ver</string>
     <string name="tethering_allow_vpn_upstreams_summary">Hotspot kullanıcılarının bağlantıları sırasında bu cihazın\u2019s VPN bağlantısını kullanmasına izin ver</string>
     <!-- Smart charging -->
-    <string name="smart_charging_title">Akıllı Şarj</string>
+    <string name="smart_charging_title">Akıllı şarj</string>
     <string name="smart_charging_summary">Maksimum şarj seviyesini ayarlayın</string>
     <string name="smart_charging_switch_title">Akıllı şarj özelliğini kullan</string>
     <string name="smart_charging_level_title">Durdurma tetikleyici seviyesi</string>
@@ -79,7 +79,7 @@
     <string name="smart_charging_reset_stats_summary">Kullanıcının tanımladığı şarj değerine ulaşınca pil istatistiklerini sıfırla</string>
     <string name="smart_charging_footer">Akıllı şarj, pilinizin ömrünü uzatmak için maksimum şarj seviyesini ayarlamanızı sağlar</string>
     <!-- Cherish maintainer -->
-    <string name="maintainer">Cihaz Sorumlusu</string>
+    <string name="maintainer">Cihaz sorumlusu</string>
     <!-- Screen off fod -->
     <string name="fod_gesture_title">Kapalı ekran parmak izi</string>
     <string name="fod_gesture_summary">Önce ekranı uyandırmak zorunda kalmadan cihazın kilidini açmaya izin verir</string>
@@ -286,54 +286,105 @@
     <!-- Clock style -->
     <string name="clock_style_title">Saat stili</string>
     <string name="clock_style_summary">Kilit ekranı saatini özelleştirin</string>
-    <string name="theme_customization_statusbar_height_title">Durum çubuğu yüksekliği</string>
-    <string name="default_accent_color">Dodger Blue (varsayılan)</string>
-    <string name="default_icon_shape">Daire (varsayılan)</string>
-    <string name="default_font">OnePlus Slate (varsayılan)</string>
-    <string name="default_icon_pack">AOSP + Oxygen (varsayılan)</string>
+    <string name="theme_customization_statusbar_height_title">Statusbar height</string>
+    <string name="default_accent_color">Dodger Blue (default)</string>
+    <string name="default_icon_shape">Circle (default)</string>
+    <string name="default_font">OnePlus Slate (default)</string>
+    <string name="default_icon_pack">AOSP + Oxygen (default)</string>
     <!-- SELinux Status -->
-    <string name="selinux_status">SELinux durumu</string>
+    <string name="selinux_status">SELinux status</string>
     <string name="selinux_status_disabled">Devre dışı</string>
-    <string name="selinux_status_permissive">Permissive (Serbest)</string>
-    <string name="selinux_status_enforcing">Enforcing (Zorunlu)</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
     <!-- DC Dimming -->
-    <string name="dc_dimming_title">DC Karartma</string>
-    <string name="dc_dimming_info">Düşük ışık koşullarında göz yorgunluğunu azaltır ancak görüntü kalitesinin düşmesine ve renk üretiminin düşmesine neden olabilir.</string>
-    <string name="dc_dimming_auto_mode_title">Zamanla</string>
-    <string name="dc_dimming_mode_brightness">Parlaklık eşiğin altına düştüğünde aç</string>
-    <string name="dc_dimming_mode_full">Zamana ve parlaklığa bağlı</string>
-    <string name="dc_dimming_brightness_title">Parlaklık eşiği</string>
+    <string name="dc_dimming_title">DC Dimming</string>
+    <string name="dc_dimming_info">Reduces eye strain in low light conditions but may result in reduced image quality and poor color production.</string>
+    <string name="dc_dimming_auto_mode_title">Schedule</string>
+    <string name="dc_dimming_mode_brightness">Turn on when brightness is below the threshold</string>
+    <string name="dc_dimming_mode_full">Dependent on time and brightness</string>
+    <string name="dc_dimming_brightness_title">Brightness threshold</string>
     <string name="dc_dimming_brightness_disabled">Devre dışı</string>
-    <string name="dc_dimming_restore_auto_mode">Otomatik modu geri yükle</string>
-    <string name="dc_dimming_brightness_info">DC Karartmayı yalnızca ortalama parlaklık eşiğin altında olduğunda etkinleştirir</string>
-    <string name="dc_dimming_off_auto_mode_auto">Otomatik olarak açılacak</string>
-    <string name="dc_dimming_on_auto_mode_auto">Otomatik olarak kapanacak</string>
-    <string name="keywords_display_dc_dimming">dc karartma, titreme, göz, zorlanma</string>
+    <string name="dc_dimming_restore_auto_mode">Restore auto mode</string>
+    <string name="dc_dimming_brightness_info">Only activate DC Dimming when the average brightness is below the threshold</string>
+    <string name="dc_dimming_off_auto_mode_auto">Will turn on automatically</string>
+    <string name="dc_dimming_on_auto_mode_auto">Will turn off automatically</string>
+    <string name="keywords_display_dc_dimming">dc dimming, flicker, eye, strain</string>
     <!-- Cherish versioning -->
-    <string name="cherish_version_title">Sürüm</string>
-    <string name="cherish_version_code_title">Kod adı</string>
-    <string name="cherish_release_type_title">Sürüm türü</string>
-    <string name="cherish_maintainer_title">Cihaz Sorumlusu</string>
+    <string name="cherish_version_title">Version</string>
+    <string name="cherish_version_code_title">Codename</string>
+    <string name="cherish_release_type_title">Release type</string>
+    <string name="cherish_maintainer_title">Cihaz sorumlusu</string>
     <!-- App Lock -->
-    <string name="applock_title">Uygulama kilitleyici</string>
-    <string name="applock_locked">Kilitli</string>
-    <string name="applock_unlocked">Kilitli değil</string>
-    <string name="applock_locked_apps">Kilitli uygulamalar</string>
-    <string name="applock_unlocked_apps">Kilitli olmayan uygulamalar</string>
-    <string name="applock_show_only_on_wake">Yalnızca bir kez kimlik doğrulama</string>
-    <string name="applock_show_only_on_wake_on_summary">Kimlik doğrulaması yapıldıktan sonra, ekran kapanana kadar uygulamanın kilidi açık kalır</string>
-    <string name="applock_show_only_on_wake_off_summary">Kimlik doğrulaması yapıldıktan sonra, uygulamadan çıktıktan sonra 15 saniye boyunca kilidi açık kalır</string>
-    <string name="applock_notification_info">Kilitli her uygulamanın tercihinde gösterilen bildirim simgesine tıklayarak bildirim içeriğini uygulama bazında gösterebilir/gizleyebilirsiniz</string>
-    <string name="applock_show_notif">Bildirim içeriği gösteriliyor</string>
-    <string name="applock_hide_notif">Bildirim içeriği gizleniyor</string>
-    <string name="applock_setup">Uygulama kilitleyiciyi ayarlayın</string>
-    <string name="applock_overlay_summary">Bu uygulama kilitli olduğu için bu özellik kullanılamıyor</string>
+    <string name="applock_title">App locker</string>
+    <string name="applock_locked">Locked</string>
+    <string name="applock_unlocked">Unlocked</string>
+    <string name="applock_locked_apps">Locked apps</string>
+    <string name="applock_unlocked_apps">Unlocked apps</string>
+    <string name="applock_lock_after_title">Lock app after</string>
+    <string name="applock_lock_after_instantly">Instantly</string>
+    <string name="applock_lock_after_15_seconds">15 Seconds</string>
+    <string name="applock_lock_after_screen_off">Ekran kapalı</string>
+    <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
+    <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
+    <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
+    <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
+    <string name="applock_notification_info">You can show/hide the notification content on a per-app basis by clicking on the notification icon shown on each locked apps\' preference</string>
+    <string name="applock_show_notif">Showing notification content</string>
+    <string name="applock_hide_notif">Hiding notification content</string>
+    <string name="applock_setup">Setup app locker</string>
+    <string name="applock_overlay_summary">This feature is not available because this app is locked</string>
     <plurals name="applock_summary">
-        <item quantity="one">1 uygulama kilitli</item>
-        <item quantity="other">%d uygulama kilitli</item>
+        <item quantity="one">1 app locked</item>
+        <item quantity="other">%d apps locked</item>
     </plurals>
-    <string name="keywords_applock_settings">uygulama kilidi, uygulama kilidi, uygulama kilidi, uygulama kilidi</string>
-    <!-- Android debugging as root -->
-    <string name="adb_enable_root">Rootlu hata ayıklama</string>
-    <string name="adb_enable_summary_root">Android hata ayıklamanın rootlu olarak çalışmasına izin verin</string>
+    <string name="keywords_applock_settings">applock, applocker, app lock, app locker</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Screen lock, fingerprint, face unlock</string>
+    <string name="face_redo_confirm_btn">Redo</string>
+    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
+    <!-- global cleartext penalties -->
+    <string name="cleartext_network_policy_title">Restrict cleartext network traffic</string>
+    <string name="cleartext_network_policy_summary">Blocks all non-TLS network traffic. Requires Private DNS configuration. Note: Without explicit exemptions, Tor and most VPNs won\'t work</string>
+    <!--  screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Turn off Wi-Fi automatically</string>
+    <!--  screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
+    <string name="wifi_timeout_summary2">Devre dışı</string>
+    <string name="wifi_timeout_summary_never">Hiçbir zaman</string>
+    <string name="wifi_timeout_summary_15secs">15 seconds</string>
+    <string name="wifi_timeout_summary_30secs">30 seconds</string>
+    <string name="wifi_timeout_summary_1min">1 dakika</string>
+    <string name="wifi_timeout_summary_2mins">2 dakika</string>
+    <string name="wifi_timeout_summary_5mins">5 dakika</string>
+    <string name="wifi_timeout_summary_10mins">10 dakika</string>
+    <string name="wifi_timeout_summary_30mins">30 dakika</string>
+    <string name="wifi_timeout_summary_1hour">1 hour</string>
+    <string name="wifi_timeout_summary_2hours">2 hours</string>
+    <string name="wifi_timeout_summary_4hours">4 hours</string>
+    <string name="wifi_timeout_summary_8hours">8 hours</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Bluetooth timeout</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
+    <string name="bluetooth_timeout_summary2">Do not automatically turn off Bluetooth</string>
+    <string name="bluetooth_timeout_summary_never">Hiçbir zaman</string>
+    <string name="bluetooth_timeout_summary_15secs">15 seconds</string>
+    <string name="bluetooth_timeout_summary_30secs">30 seconds</string>
+    <string name="bluetooth_timeout_summary_1min">1 dakika</string>
+    <string name="bluetooth_timeout_summary_2mins">2 dakika</string>
+    <string name="bluetooth_timeout_summary_5mins">5 dakika</string>
+    <string name="bluetooth_timeout_summary_10mins">10 dakika</string>
+    <string name="bluetooth_timeout_summary_30mins">30 dakika</string>
+    <string name="bluetooth_timeout_summary_1hour">1 hour</string>
+    <string name="bluetooth_timeout_summary_2hours">2 hours</string>
+    <string name="bluetooth_timeout_summary_4hours">4 hours</string>
+    <string name="bluetooth_timeout_summary_8hours">8 hours</string>
+    <!-- Smart cutoff -->
+    <string name="smart_cutoff_title">Smart Cutoff</string>
+    <string name="smart_cutoff_summary">Set maximum Temperature</string>
+    <string name="smart_cutoff_switch_title">Use Smart cutoff</string>
+    <string name="smart_cutoff_level_title">Durdurma tetikleyici seviyesi</string>
+    <string name="smart_cutoff_resume_level_title">Başlatma tetikleyici seviyesi</string>
 </resources>
