@@ -300,56 +300,56 @@
     <string name="dc_dimming_title">Chỉnh độ sáng phù hợp màn hình</string>
     <string name="dc_dimming_info">Giảm mỏi mắt trong điều kiện ánh sáng yếu nhưng có thể làm giảm chất lượng hình ảnh và tạo ra màu sắc kém.</string>
     <string name="dc_dimming_auto_mode_title">Lịch trình</string>
-    <string name="dc_dimming_mode_brightness">Turn on when brightness is below the threshold</string>
-    <string name="dc_dimming_mode_full">Dependent on time and brightness</string>
-    <string name="dc_dimming_brightness_title">Brightness threshold</string>
+    <string name="dc_dimming_mode_brightness">Bật khi độ sáng xuống dưới ngưỡng</string>
+    <string name="dc_dimming_mode_full">Tuỳ theo thời gian và độ sáng</string>
+    <string name="dc_dimming_brightness_title">Ngưỡng độ sáng</string>
     <string name="dc_dimming_brightness_disabled">Tắt</string>
-    <string name="dc_dimming_restore_auto_mode">Restore auto mode</string>
-    <string name="dc_dimming_brightness_info">Only activate DC Dimming when the average brightness is below the threshold</string>
-    <string name="dc_dimming_off_auto_mode_auto">Will turn on automatically</string>
-    <string name="dc_dimming_on_auto_mode_auto">Will turn off automatically</string>
-    <string name="keywords_display_dc_dimming">dc dimming, flicker, eye, strain</string>
+    <string name="dc_dimming_restore_auto_mode">Phục hồi chế độ tự động</string>
+    <string name="dc_dimming_brightness_info">Chỉ kích hoạt giảm độ sáng khi độ sáng trung bình xuống dưới ngưỡng</string>
+    <string name="dc_dimming_off_auto_mode_auto">Sẽ tự động bật</string>
+    <string name="dc_dimming_on_auto_mode_auto">Sẽ tự động tắt</string>
+    <string name="keywords_display_dc_dimming">dc dimming, độ sáng, giảm độ sáng, giam do sang, do sang</string>
     <!-- Cherish versioning -->
-    <string name="cherish_version_title">Version</string>
-    <string name="cherish_version_code_title">Codename</string>
-    <string name="cherish_release_type_title">Release type</string>
+    <string name="cherish_version_title">Phiên bản</string>
+    <string name="cherish_version_code_title">Tên mã</string>
+    <string name="cherish_release_type_title">Loại phiên bản</string>
     <string name="cherish_maintainer_title">Người chủ trì</string>
     <!-- App Lock -->
-    <string name="applock_title">App locker</string>
-    <string name="applock_locked">Locked</string>
-    <string name="applock_unlocked">Unlocked</string>
-    <string name="applock_locked_apps">Locked apps</string>
-    <string name="applock_unlocked_apps">Unlocked apps</string>
-    <string name="applock_lock_after_title">Lock app after</string>
-    <string name="applock_lock_after_instantly">Instantly</string>
-    <string name="applock_lock_after_15_seconds">15 Seconds</string>
+    <string name="applock_title">Khóa ứng dụng</string>
+    <string name="applock_locked">Đã khóa</string>
+    <string name="applock_unlocked">Đã mở khóa</string>
+    <string name="applock_locked_apps">Đã khóa ứng dụng</string>
+    <string name="applock_unlocked_apps">Đã mở khóa ứng dụng</string>
+    <string name="applock_lock_after_title">Khóa ứng dụng sau</string>
+    <string name="applock_lock_after_instantly">Ngay lập tức</string>
+    <string name="applock_lock_after_15_seconds">15 Giây</string>
     <string name="applock_lock_after_screen_off">Màn hình tắt</string>
-    <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
-    <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
-    <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
-    <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
-    <string name="applock_notification_info">You can show/hide the notification content on a per-app basis by clicking on the notification icon shown on each locked apps\' preference</string>
-    <string name="applock_show_notif">Showing notification content</string>
-    <string name="applock_hide_notif">Hiding notification content</string>
-    <string name="applock_setup">Setup app locker</string>
-    <string name="applock_overlay_summary">This feature is not available because this app is locked</string>
+    <string name="applock_lock_after_summary">Ứng dụng sẽ tự khóa sau khi được lựa chọn</string>
+    <string name="applock_lock_after_instantly_summary">Ứng dụng sẽ tự khóa ngay lập tức khi đóng</string>
+    <string name="applock_lock_after_15_seconds_summary">Ứng dụng sẽ tự khóa sau 15 giây đóng</string>
+    <string name="applock_lock_after_screen_off_summary">Ứng dụng sẽ tự khóa sau khi màn hình tắt</string>
+    <string name="applock_notification_info">Bạn có thể hiện/ẩn nội dung thông báo từng ứng dụng bằng cách chạm vào biểu tượng thông báo hiện trên từng tuỳ chọn của ứng dụng được khoá</string>
+    <string name="applock_show_notif">Hiển thị nội dung thông báo</string>
+    <string name="applock_hide_notif">Ẩn nội dung thông báo</string>
+    <string name="applock_setup">Cài đặt khóa ứng dụng</string>
+    <string name="applock_overlay_summary">Tính năng này không khả dụng vì ứng dụng này đã bị khóa</string>
     <plurals name="applock_summary">
-        <item quantity="other">%d apps locked</item>
+        <item quantity="other">%d ứng dụng đã khóa</item>
     </plurals>
-    <string name="keywords_applock_settings">applock, applocker, app lock, app locker</string>
+    <string name="keywords_applock_settings">ứng dụng khóa, ứng dụng người khóa, ứng dụng khóa, ứng dụng người khóa</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
-    <string name="security_dashboard_summary_face_and_fingerprint">Screen lock, fingerprint, face unlock</string>
-    <string name="face_redo_confirm_btn">Redo</string>
-    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Xóa quét khuôn mặt hiện có và tạo quét khuôn mặt mới</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Quét lại khuôn mặt</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Khóa màn hình, vân tay, mở khóa bằng khuôn mặt</string>
+    <string name="face_redo_confirm_btn">Làm lại</string>
+    <string name="face_redo_warning_msg">Bạn có muốn xóa quét khuôn mặt hiện có và tạo quét khuôn mặt mới không?</string>
     <!-- global cleartext penalties -->
-    <string name="cleartext_network_policy_title">Restrict cleartext network traffic</string>
-    <string name="cleartext_network_policy_summary">Blocks all non-TLS network traffic. Requires Private DNS configuration. Note: Without explicit exemptions, Tor and most VPNs won\'t work</string>
+    <string name="cleartext_network_policy_title">Hạn chế xóa văn bản tốc bộ mạng</string>
+    <string name="cleartext_network_policy_summary">Chặn tất cả không bảo mật tầng vận tải lưu thông mạng. Lời khuyên cấu hình DNS bảo mật. Chú ý ngoài sự rõ ràng miễn trừ, Tor và hầu hết các VPN sẽ không hoạt động</string>
     <!--  screen, setting option name to change wifi timeout -->
-    <string name="wifi_timeout">Turn off Wi-Fi automatically</string>
+    <string name="wifi_timeout">Tự động tắt Wi-Fi</string>
     <!--  screen, setting option summary to change wifi timeout -->
-    <string name="wifi_timeout_summary">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
+    <string name="wifi_timeout_summary">Wi-Fi sẽ tắt sau <xliff:g id="timeout_description">%1$s</xliff:g> nếu không có kết nối mạng</string>
     <string name="wifi_timeout_summary2">Tắt</string>
     <string name="wifi_timeout_summary_never">Không bao giờ</string>
     <string name="wifi_timeout_summary_15secs">15 seconds</string>
