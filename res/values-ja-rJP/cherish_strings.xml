@@ -286,104 +286,104 @@
     <!-- Clock style -->
     <string name="clock_style_title">時計のスタイル</string>
     <string name="clock_style_summary">ロック画面の時計を編集する</string>
-    <string name="theme_customization_statusbar_height_title">Statusbar height</string>
-    <string name="default_accent_color">Dodger Blue (default)</string>
-    <string name="default_icon_shape">Circle (default)</string>
-    <string name="default_font">OnePlus Slate (default)</string>
-    <string name="default_icon_pack">AOSP + Oxygen (default)</string>
+    <string name="theme_customization_statusbar_height_title">ステータスバーの高さ</string>
+    <string name="default_accent_color">ドジャーブルー (既定)</string>
+    <string name="default_icon_shape">円 (既定)</string>
+    <string name="default_font">OnePlus スレート (既定)</string>
+    <string name="default_icon_pack">AOSP + Oxygen (既定)</string>
     <!-- SELinux Status -->
-    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status">SELinux ステータス</string>
     <string name="selinux_status_disabled">無効</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
     <!-- DC Dimming -->
-    <string name="dc_dimming_title">DC Dimming</string>
-    <string name="dc_dimming_info">Reduces eye strain in low light conditions but may result in reduced image quality and poor color production.</string>
-    <string name="dc_dimming_auto_mode_title">Schedule</string>
-    <string name="dc_dimming_mode_brightness">Turn on when brightness is below the threshold</string>
-    <string name="dc_dimming_mode_full">Dependent on time and brightness</string>
-    <string name="dc_dimming_brightness_title">Brightness threshold</string>
+    <string name="dc_dimming_title">DC 調光</string>
+    <string name="dc_dimming_info">暗い環境での眼への疲労を軽減させます。しかし、画像の画質や色の再現度が低下する可能性があります。</string>
+    <string name="dc_dimming_auto_mode_title">スケジュール</string>
+    <string name="dc_dimming_mode_brightness">輝度がしきい値以下になると有効になります</string>
+    <string name="dc_dimming_mode_full">時刻と明るさに依存</string>
+    <string name="dc_dimming_brightness_title">明るさのしきい値</string>
     <string name="dc_dimming_brightness_disabled">無効</string>
-    <string name="dc_dimming_restore_auto_mode">Restore auto mode</string>
-    <string name="dc_dimming_brightness_info">Only activate DC Dimming when the average brightness is below the threshold</string>
-    <string name="dc_dimming_off_auto_mode_auto">Will turn on automatically</string>
-    <string name="dc_dimming_on_auto_mode_auto">Will turn off automatically</string>
-    <string name="keywords_display_dc_dimming">dc dimming, flicker, eye, strain</string>
+    <string name="dc_dimming_restore_auto_mode">自動モードに戻す</string>
+    <string name="dc_dimming_brightness_info">平均の明るさがしきい値を下回ったときにのみ DC 調光を有効にします</string>
+    <string name="dc_dimming_off_auto_mode_auto">自動で有効化</string>
+    <string name="dc_dimming_on_auto_mode_auto">自動で無効化</string>
+    <string name="keywords_display_dc_dimming">DC 調光、フリッカー、目、疲労</string>
     <!-- Cherish versioning -->
-    <string name="cherish_version_title">Version</string>
-    <string name="cherish_version_code_title">Codename</string>
-    <string name="cherish_release_type_title">Release type</string>
+    <string name="cherish_version_title">バージョン</string>
+    <string name="cherish_version_code_title">コードネーム</string>
+    <string name="cherish_release_type_title">リリースの種類</string>
     <string name="cherish_maintainer_title">メンテナー</string>
     <!-- App Lock -->
-    <string name="applock_title">App locker</string>
-    <string name="applock_locked">Locked</string>
-    <string name="applock_unlocked">Unlocked</string>
-    <string name="applock_locked_apps">Locked apps</string>
-    <string name="applock_unlocked_apps">Unlocked apps</string>
-    <string name="applock_lock_after_title">Lock app after</string>
-    <string name="applock_lock_after_instantly">Instantly</string>
-    <string name="applock_lock_after_15_seconds">15 Seconds</string>
+    <string name="applock_title">アプリロッカー</string>
+    <string name="applock_locked">ロック済み</string>
+    <string name="applock_unlocked">ロック解除済み</string>
+    <string name="applock_locked_apps">ロックしたアプリ</string>
+    <string name="applock_unlocked_apps">未ロックのアプリ</string>
+    <string name="applock_lock_after_title">以下の後にアプリをロック</string>
+    <string name="applock_lock_after_instantly">すぐに</string>
+    <string name="applock_lock_after_15_seconds">10秒</string>
     <string name="applock_lock_after_screen_off">画面を消灯</string>
-    <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
-    <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
-    <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
-    <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
-    <string name="applock_notification_info">You can show/hide the notification content on a per-app basis by clicking on the notification icon shown on each locked apps\' preference</string>
-    <string name="applock_show_notif">Showing notification content</string>
-    <string name="applock_hide_notif">Hiding notification content</string>
-    <string name="applock_setup">Setup app locker</string>
-    <string name="applock_overlay_summary">This feature is not available because this app is locked</string>
+    <string name="applock_lock_after_summary">選択した制限時間後にアプリはロックされます</string>
+    <string name="applock_lock_after_instantly_summary">アプリを閉じるとすぐにロックされます</string>
+    <string name="applock_lock_after_15_seconds_summary">アプリは終了から15秒後にロックされます</string>
+    <string name="applock_lock_after_screen_off_summary">アプリは画面消灯時にロックされます</string>
+    <string name="applock_notification_info">それぞれのロック済みのアプリの設定に表示される通知アイコンをクリックすることで、アプリごとの通知の内容の表示/非表示を切り替えることができます。</string>
+    <string name="applock_show_notif">通知の内容を表示中です</string>
+    <string name="applock_hide_notif">通知の内容を非表示中です</string>
+    <string name="applock_setup">アプリのロックを設定</string>
+    <string name="applock_overlay_summary">このアプリはロックされているためこの機能は利用できません</string>
     <plurals name="applock_summary">
-        <item quantity="other">%d apps locked</item>
+        <item quantity="other">%d個のアプリがロックされました</item>
     </plurals>
-    <string name="keywords_applock_settings">applock, applocker, app lock, app locker</string>
+    <string name="keywords_applock_settings">アプリロック、アプリブロッカー、アプリ ロック、アプリ ロッカー</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
-    <string name="security_dashboard_summary_face_and_fingerprint">Screen lock, fingerprint, face unlock</string>
-    <string name="face_redo_confirm_btn">Redo</string>
-    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">既存の顔スキャンを削除して新しいスキャンを作成する</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">顔スキャンを再実行</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">画面ロック、指紋、顔認証でロック解除</string>
+    <string name="face_redo_confirm_btn">やり直し</string>
+    <string name="face_redo_warning_msg">既存の顔スキャンを削除して新しいスキャンを作成しますか?</string>
     <!-- global cleartext penalties -->
-    <string name="cleartext_network_policy_title">Restrict cleartext network traffic</string>
-    <string name="cleartext_network_policy_summary">Blocks all non-TLS network traffic. Requires Private DNS configuration. Note: Without explicit exemptions, Tor and most VPNs won\'t work</string>
+    <string name="cleartext_network_policy_title">未暗号化のネットワーク通信を制限</string>
+    <string name="cleartext_network_policy_summary">TLS 以外の全ての通信をブロックします。プライベート DNS 設定が必要です。注意: 除外を明示化しないと Tor やほとんどの VPN は動作しません。</string>
     <!--  screen, setting option name to change wifi timeout -->
-    <string name="wifi_timeout">Turn off Wi-Fi automatically</string>
+    <string name="wifi_timeout">Wi-Fi を自動的にオフにする</string>
     <!--  screen, setting option summary to change wifi timeout -->
-    <string name="wifi_timeout_summary">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
+    <string name="wifi_timeout_summary">ネットワークに接続していない場合は<xliff:g id="timeout_description">%1$s</xliff:g>後に Wi-Fi はオフになります</string>
     <string name="wifi_timeout_summary2">無効</string>
     <string name="wifi_timeout_summary_never">なし</string>
-    <string name="wifi_timeout_summary_15secs">15 seconds</string>
-    <string name="wifi_timeout_summary_30secs">30 seconds</string>
+    <string name="wifi_timeout_summary_15secs">10秒</string>
+    <string name="wifi_timeout_summary_30secs">30秒</string>
     <string name="wifi_timeout_summary_1min">1分</string>
     <string name="wifi_timeout_summary_2mins">2分</string>
     <string name="wifi_timeout_summary_5mins">5分</string>
     <string name="wifi_timeout_summary_10mins">10分</string>
     <string name="wifi_timeout_summary_30mins">30分</string>
-    <string name="wifi_timeout_summary_1hour">1 hour</string>
-    <string name="wifi_timeout_summary_2hours">2 hours</string>
-    <string name="wifi_timeout_summary_4hours">4 hours</string>
-    <string name="wifi_timeout_summary_8hours">8 hours</string>
+    <string name="wifi_timeout_summary_1hour">1時間</string>
+    <string name="wifi_timeout_summary_2hours">2時間</string>
+    <string name="wifi_timeout_summary_4hours">4時間</string>
+    <string name="wifi_timeout_summary_8hours">8時間</string>
     <!-- Connected devices screen, setting option name to change bluetooth timeout -->
-    <string name="bluetooth_timeout">Bluetooth timeout</string>
+    <string name="bluetooth_timeout">Bluetooth の制限時間</string>
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
-    <string name="bluetooth_timeout_summary">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
-    <string name="bluetooth_timeout_summary2">Do not automatically turn off Bluetooth</string>
+    <string name="bluetooth_timeout_summary">端末が接続されていない場合は<xliff:g id="timeout_description">%1$s</xliff:g>後に Bluetooth は オフになります</string>
+    <string name="bluetooth_timeout_summary2">自動的に Bluetooth をオフにしない</string>
     <string name="bluetooth_timeout_summary_never">なし</string>
-    <string name="bluetooth_timeout_summary_15secs">15 seconds</string>
-    <string name="bluetooth_timeout_summary_30secs">30 seconds</string>
+    <string name="bluetooth_timeout_summary_15secs">10秒</string>
+    <string name="bluetooth_timeout_summary_30secs">30秒</string>
     <string name="bluetooth_timeout_summary_1min">1分</string>
     <string name="bluetooth_timeout_summary_2mins">2分</string>
     <string name="bluetooth_timeout_summary_5mins">5分</string>
     <string name="bluetooth_timeout_summary_10mins">10分</string>
     <string name="bluetooth_timeout_summary_30mins">30分</string>
-    <string name="bluetooth_timeout_summary_1hour">1 hour</string>
-    <string name="bluetooth_timeout_summary_2hours">2 hours</string>
-    <string name="bluetooth_timeout_summary_4hours">4 hours</string>
-    <string name="bluetooth_timeout_summary_8hours">8 hours</string>
+    <string name="bluetooth_timeout_summary_1hour">1時間</string>
+    <string name="bluetooth_timeout_summary_2hours">2時間</string>
+    <string name="bluetooth_timeout_summary_4hours">4時間</string>
+    <string name="bluetooth_timeout_summary_8hours">8時間</string>
     <!-- Smart cutoff -->
-    <string name="smart_cutoff_title">Smart Cutoff</string>
-    <string name="smart_cutoff_summary">Set maximum Temperature</string>
-    <string name="smart_cutoff_switch_title">Use Smart cutoff</string>
+    <string name="smart_cutoff_title">スマートカットオフ</string>
+    <string name="smart_cutoff_summary">最高温度を設定する</string>
+    <string name="smart_cutoff_switch_title">スマートカットオフを使用</string>
     <string name="smart_cutoff_level_title">充電停止レベル</string>
     <string name="smart_cutoff_resume_level_title">充電開始レベル</string>
 </resources>
