@@ -286,107 +286,107 @@
     <!-- Clock style -->
     <string name="clock_style_title">Стиль часов</string>
     <string name="clock_style_summary">Настроить часы на экране блокировки</string>
-    <string name="theme_customization_statusbar_height_title">Statusbar height</string>
-    <string name="default_accent_color">Dodger Blue (default)</string>
-    <string name="default_icon_shape">Circle (default)</string>
-    <string name="default_font">OnePlus Slate (default)</string>
-    <string name="default_icon_pack">AOSP + Oxygen (default)</string>
+    <string name="theme_customization_statusbar_height_title">Высота строки состояния</string>
+    <string name="default_accent_color">Голубой удгер (по умолчанию)</string>
+    <string name="default_icon_shape">Круг (по умолчанию)</string>
+    <string name="default_font">OnePlus Slate (по умолчанию)</string>
+    <string name="default_icon_pack">AOSP + Oxygen (по умолчанию)</string>
     <!-- SELinux Status -->
-    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status">Статус SELinux</string>
     <string name="selinux_status_disabled">Выключен</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status_permissive">Разрешающий</string>
+    <string name="selinux_status_enforcing">Принудительный</string>
     <!-- DC Dimming -->
-    <string name="dc_dimming_title">DC Dimming</string>
-    <string name="dc_dimming_info">Reduces eye strain in low light conditions but may result in reduced image quality and poor color production.</string>
-    <string name="dc_dimming_auto_mode_title">Schedule</string>
-    <string name="dc_dimming_mode_brightness">Turn on when brightness is below the threshold</string>
-    <string name="dc_dimming_mode_full">Dependent on time and brightness</string>
-    <string name="dc_dimming_brightness_title">Brightness threshold</string>
+    <string name="dc_dimming_title">Уменьшение мерцания</string>
+    <string name="dc_dimming_info">Снижает нагрузку на глаза в условиях низкой освещенности, но может привести к снижению качества изображения и плохой цветопередаче.</string>
+    <string name="dc_dimming_auto_mode_title">График</string>
+    <string name="dc_dimming_mode_brightness">Включите, когда яркость ниже порога</string>
+    <string name="dc_dimming_mode_full">Зависит от времени и яркости</string>
+    <string name="dc_dimming_brightness_title">Порог яркости</string>
     <string name="dc_dimming_brightness_disabled">Выключен</string>
-    <string name="dc_dimming_restore_auto_mode">Restore auto mode</string>
-    <string name="dc_dimming_brightness_info">Only activate DC Dimming when the average brightness is below the threshold</string>
-    <string name="dc_dimming_off_auto_mode_auto">Will turn on automatically</string>
-    <string name="dc_dimming_on_auto_mode_auto">Will turn off automatically</string>
-    <string name="keywords_display_dc_dimming">dc dimming, flicker, eye, strain</string>
+    <string name="dc_dimming_restore_auto_mode">Восстановить автоматический режим</string>
+    <string name="dc_dimming_brightness_info">Активируйте Уменьшение мерцания только тогда, когда средняя яркость ниже порогового значения.</string>
+    <string name="dc_dimming_off_auto_mode_auto">Включается автоматически</string>
+    <string name="dc_dimming_on_auto_mode_auto">Выключится автоматически</string>
+    <string name="keywords_display_dc_dimming">уменьшение мерцания, мерцание, глаз, напряжение</string>
     <!-- Cherish versioning -->
-    <string name="cherish_version_title">Version</string>
-    <string name="cherish_version_code_title">Codename</string>
-    <string name="cherish_release_type_title">Release type</string>
+    <string name="cherish_version_title">Версия</string>
+    <string name="cherish_version_code_title">Кодовое название</string>
+    <string name="cherish_release_type_title">Тип выпуска</string>
     <string name="cherish_maintainer_title">Сопровождающий</string>
     <!-- App Lock -->
-    <string name="applock_title">App locker</string>
-    <string name="applock_locked">Locked</string>
-    <string name="applock_unlocked">Unlocked</string>
-    <string name="applock_locked_apps">Locked apps</string>
-    <string name="applock_unlocked_apps">Unlocked apps</string>
-    <string name="applock_lock_after_title">Lock app after</string>
-    <string name="applock_lock_after_instantly">Instantly</string>
-    <string name="applock_lock_after_15_seconds">15 Seconds</string>
+    <string name="applock_title">Блокировщик приложений</string>
+    <string name="applock_locked">Заблокировано</string>
+    <string name="applock_unlocked">Не заблокировано</string>
+    <string name="applock_locked_apps">Заблокированные приложения</string>
+    <string name="applock_unlocked_apps">Не заблокированные приложения</string>
+    <string name="applock_lock_after_title">Блокировка приложения после</string>
+    <string name="applock_lock_after_instantly">Немедленно</string>
+    <string name="applock_lock_after_15_seconds">15 секунд</string>
     <string name="applock_lock_after_screen_off">Screen off</string>
-    <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
-    <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
-    <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
-    <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
-    <string name="applock_notification_info">You can show/hide the notification content on a per-app basis by clicking on the notification icon shown on each locked apps\' preference</string>
-    <string name="applock_show_notif">Showing notification content</string>
-    <string name="applock_hide_notif">Hiding notification content</string>
-    <string name="applock_setup">Setup app locker</string>
-    <string name="applock_overlay_summary">This feature is not available because this app is locked</string>
+    <string name="applock_lock_after_summary">Приложение будет заблокировано после выбранного тайм-аута</string>
+    <string name="applock_lock_after_instantly_summary">Приложение будет заблокировано сразу после закрытия</string>
+    <string name="applock_lock_after_15_seconds_summary">Приложение будет заблокировано через 15 секунд после закрытия</string>
+    <string name="applock_lock_after_screen_off_summary">Приложение будет заблокировано при выключении экрана</string>
+    <string name="applock_notification_info">Вы можете показать/скрыть содержимое уведомлений для каждого приложения, нажав на значок уведомления, отображаемый в настройках каждого заблокированного приложения</string>
+    <string name="applock_show_notif">Показывать содержимое уведомлений</string>
+    <string name="applock_hide_notif">Скрывать содержимое уведомлений</string>
+    <string name="applock_setup">Установить блокировку приложений</string>
+    <string name="applock_overlay_summary">Эта функция недоступна, так как приложение заблокировано</string>
     <plurals name="applock_summary">
-        <item quantity="one">1 app locked</item>
-        <item quantity="few">%d apps locked</item>
-        <item quantity="many">%d apps locked</item>
-        <item quantity="other">%d apps locked</item>
+        <item quantity="one">1 приложение заблокировано</item>
+        <item quantity="few">Несколько приложений заблокировано </item>
+        <item quantity="many">Много приложений заблокировано</item>
+        <item quantity="other">%d приложений заблокировано</item>
     </plurals>
-    <string name="keywords_applock_settings">applock, applocker, app lock, app locker</string>
+    <string name="keywords_applock_settings">блокировка, блокировщик приложений, блокировка приложения, блокировка приложений</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
-    <string name="security_dashboard_summary_face_and_fingerprint">Screen lock, fingerprint, face unlock</string>
-    <string name="face_redo_confirm_btn">Redo</string>
-    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Удалить использующийся снимок лица и создать новый</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Повторное сканирование лица</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Блокировка экрана, отпечаток пальца, разблокировка по лицу</string>
+    <string name="face_redo_confirm_btn">Повторить</string>
+    <string name="face_redo_warning_msg">Удалить использующийся снимок лица и создать новый?</string>
     <!-- global cleartext penalties -->
-    <string name="cleartext_network_policy_title">Restrict cleartext network traffic</string>
-    <string name="cleartext_network_policy_summary">Blocks all non-TLS network traffic. Requires Private DNS configuration. Note: Without explicit exemptions, Tor and most VPNs won\'t work</string>
+    <string name="cleartext_network_policy_title">Ограничить сетевой трафик четким текстом</string>
+    <string name="cleartext_network_policy_summary">Блокирует весь сетевой трафик не TLS. Требуется личная настройка DNS. Примечание: без явных исключений Tor и большинство VPN не будут работать</string>
     <!--  screen, setting option name to change wifi timeout -->
-    <string name="wifi_timeout">Turn off Wi-Fi automatically</string>
+    <string name="wifi_timeout">Выключать Wi-Fi автоматически</string>
     <!--  screen, setting option summary to change wifi timeout -->
-    <string name="wifi_timeout_summary">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
+    <string name="wifi_timeout_summary">Wi-Fi будет выключен через <xliff:g id="timeout_description">%1$s</xliff:g> если нет подключения к сети</string>
     <string name="wifi_timeout_summary2">Выключен</string>
     <string name="wifi_timeout_summary_never">Никогда</string>
-    <string name="wifi_timeout_summary_15secs">15 seconds</string>
-    <string name="wifi_timeout_summary_30secs">30 seconds</string>
+    <string name="wifi_timeout_summary_15secs">15 секунд</string>
+    <string name="wifi_timeout_summary_30secs">30 секунд</string>
     <string name="wifi_timeout_summary_1min">1 минута</string>
     <string name="wifi_timeout_summary_2mins">2 минуты</string>
     <string name="wifi_timeout_summary_5mins">5 минут</string>
     <string name="wifi_timeout_summary_10mins">10 минут</string>
     <string name="wifi_timeout_summary_30mins">30 минут</string>
-    <string name="wifi_timeout_summary_1hour">1 hour</string>
-    <string name="wifi_timeout_summary_2hours">2 hours</string>
-    <string name="wifi_timeout_summary_4hours">4 hours</string>
-    <string name="wifi_timeout_summary_8hours">8 hours</string>
+    <string name="wifi_timeout_summary_1hour">1 час</string>
+    <string name="wifi_timeout_summary_2hours">2 часа</string>
+    <string name="wifi_timeout_summary_4hours">4 часа</string>
+    <string name="wifi_timeout_summary_8hours">8 часов</string>
     <!-- Connected devices screen, setting option name to change bluetooth timeout -->
-    <string name="bluetooth_timeout">Bluetooth timeout</string>
+    <string name="bluetooth_timeout">Тайм-аут Bluetooth</string>
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
-    <string name="bluetooth_timeout_summary">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
-    <string name="bluetooth_timeout_summary2">Do not automatically turn off Bluetooth</string>
+    <string name="bluetooth_timeout_summary">Bluetooth будет выключен через <xliff:g id="timeout_description">%1$s</xliff:g> если нет подключённых устройств</string>
+    <string name="bluetooth_timeout_summary2">Не выключать Bluetooth автоматически</string>
     <string name="bluetooth_timeout_summary_never">Никогда</string>
-    <string name="bluetooth_timeout_summary_15secs">15 seconds</string>
-    <string name="bluetooth_timeout_summary_30secs">30 seconds</string>
+    <string name="bluetooth_timeout_summary_15secs">15 секунд</string>
+    <string name="bluetooth_timeout_summary_30secs">30 секунд</string>
     <string name="bluetooth_timeout_summary_1min">1 минута</string>
     <string name="bluetooth_timeout_summary_2mins">2 минуты</string>
     <string name="bluetooth_timeout_summary_5mins">5 минут</string>
     <string name="bluetooth_timeout_summary_10mins">10 минут</string>
     <string name="bluetooth_timeout_summary_30mins">30 минут</string>
-    <string name="bluetooth_timeout_summary_1hour">1 hour</string>
-    <string name="bluetooth_timeout_summary_2hours">2 hours</string>
-    <string name="bluetooth_timeout_summary_4hours">4 hours</string>
-    <string name="bluetooth_timeout_summary_8hours">8 hours</string>
+    <string name="bluetooth_timeout_summary_1hour">1 час</string>
+    <string name="bluetooth_timeout_summary_2hours">2 часа</string>
+    <string name="bluetooth_timeout_summary_4hours">4 часа</string>
+    <string name="bluetooth_timeout_summary_8hours">8 часов</string>
     <!-- Smart cutoff -->
-    <string name="smart_cutoff_title">Smart Cutoff</string>
-    <string name="smart_cutoff_summary">Set maximum Temperature</string>
-    <string name="smart_cutoff_switch_title">Use Smart cutoff</string>
+    <string name="smart_cutoff_title">Умное отключение</string>
+    <string name="smart_cutoff_summary">Установить максимальную температуру</string>
+    <string name="smart_cutoff_switch_title">Использовать умное отключение</string>
     <string name="smart_cutoff_level_title">Уровень окончания заряда</string>
     <string name="smart_cutoff_resume_level_title">Уровень начала заряда</string>
 </resources>

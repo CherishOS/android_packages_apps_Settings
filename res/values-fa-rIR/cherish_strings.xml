@@ -191,7 +191,7 @@
     <string name="skip_song">Skip song</string>
     <string name="prev_song">Previous song</string>
     <string name="show_powermenu">Show Power menu</string>
-    <string name="partial_screenshot">Partial screenshot</string>
+    <string name="partial_screenshot">Частичный снимок экрана</string>
     <string name="hush_mute">Silence notifications</string>
     <!-- Long back swipe options -->
     <string name="navbar_gesture_tweaks_pref_title">Advanced gestures</string>

@@ -315,75 +315,75 @@
     <string name="cherish_release_type_title">Release type</string>
     <string name="cherish_maintainer_title">メンテナー</string>
     <!-- App Lock -->
-    <string name="applock_title">App locker</string>
-    <string name="applock_locked">Locked</string>
-    <string name="applock_unlocked">Unlocked</string>
-    <string name="applock_locked_apps">Locked apps</string>
-    <string name="applock_unlocked_apps">Unlocked apps</string>
-    <string name="applock_lock_after_title">Lock app after</string>
-    <string name="applock_lock_after_instantly">Instantly</string>
-    <string name="applock_lock_after_15_seconds">15 Seconds</string>
+    <string name="applock_title">アプリロッカー</string>
+    <string name="applock_locked">ロック済み</string>
+    <string name="applock_unlocked">ロック解除済み</string>
+    <string name="applock_locked_apps">ロックしたアプリ</string>
+    <string name="applock_unlocked_apps">未ロックのアプリ</string>
+    <string name="applock_lock_after_title">以下の後にアプリをロック</string>
+    <string name="applock_lock_after_instantly">すぐに</string>
+    <string name="applock_lock_after_15_seconds">10秒</string>
     <string name="applock_lock_after_screen_off">画面を消灯</string>
-    <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
-    <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
-    <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
-    <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
-    <string name="applock_notification_info">You can show/hide the notification content on a per-app basis by clicking on the notification icon shown on each locked apps\' preference</string>
-    <string name="applock_show_notif">Showing notification content</string>
-    <string name="applock_hide_notif">Hiding notification content</string>
-    <string name="applock_setup">Setup app locker</string>
-    <string name="applock_overlay_summary">This feature is not available because this app is locked</string>
+    <string name="applock_lock_after_summary">選択した制限時間後にアプリはロックされます</string>
+    <string name="applock_lock_after_instantly_summary">アプリを閉じるとすぐにロックされます</string>
+    <string name="applock_lock_after_15_seconds_summary">アプリは終了から15秒後にロックされます</string>
+    <string name="applock_lock_after_screen_off_summary">アプリは画面消灯時にロックされます</string>
+    <string name="applock_notification_info">それぞれのロック済みのアプリの設定に表示される通知アイコンをクリックすることで、アプリごとの通知の内容の表示/非表示を切り替えることができます。</string>
+    <string name="applock_show_notif">通知の内容を表示中です</string>
+    <string name="applock_hide_notif">通知の内容を非表示中です</string>
+    <string name="applock_setup">アプリのロックを設定</string>
+    <string name="applock_overlay_summary">このアプリはロックされているためこの機能は利用できません</string>
     <plurals name="applock_summary">
         <item quantity="other">%d apps locked</item>
     </plurals>
-    <string name="keywords_applock_settings">applock, applocker, app lock, app locker</string>
+    <string name="keywords_applock_settings">アプリロック、アプリブロッカー、アプリ ロック、アプリ ロッカー</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
-    <string name="security_dashboard_summary_face_and_fingerprint">Screen lock, fingerprint, face unlock</string>
-    <string name="face_redo_confirm_btn">Redo</string>
-    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">既存の顔スキャンを削除して新しいスキャンを作成する</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">顔スキャンを再実行</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">画面ロック、指紋、顔認証でロック解除</string>
+    <string name="face_redo_confirm_btn">やり直し</string>
+    <string name="face_redo_warning_msg">既存の顔スキャンを削除して新しいスキャンを作成しますか?</string>
     <!-- global cleartext penalties -->
-    <string name="cleartext_network_policy_title">Restrict cleartext network traffic</string>
-    <string name="cleartext_network_policy_summary">Blocks all non-TLS network traffic. Requires Private DNS configuration. Note: Without explicit exemptions, Tor and most VPNs won\'t work</string>
+    <string name="cleartext_network_policy_title">未暗号化のネットワーク通信を制限</string>
+    <string name="cleartext_network_policy_summary">TLS 以外の全ての通信をブロックします。プライベート DNS 設定が必要です。注意: 除外を明示化しないと Tor やほとんどの VPN は動作しません。</string>
     <!--  screen, setting option name to change wifi timeout -->
-    <string name="wifi_timeout">Turn off Wi-Fi automatically</string>
+    <string name="wifi_timeout">Wi-Fi を自動的にオフにする</string>
     <!--  screen, setting option summary to change wifi timeout -->
-    <string name="wifi_timeout_summary">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
+    <string name="wifi_timeout_summary">ネットワークに接続していない場合は<xliff:g id="timeout_description">%1$s</xliff:g>後に Wi-Fi はオフになります</string>
     <string name="wifi_timeout_summary2">無効</string>
     <string name="wifi_timeout_summary_never">なし</string>
-    <string name="wifi_timeout_summary_15secs">15 seconds</string>
-    <string name="wifi_timeout_summary_30secs">30 seconds</string>
+    <string name="wifi_timeout_summary_15secs">10秒</string>
+    <string name="wifi_timeout_summary_30secs">30秒</string>
     <string name="wifi_timeout_summary_1min">1分</string>
     <string name="wifi_timeout_summary_2mins">2分</string>
     <string name="wifi_timeout_summary_5mins">5分</string>
     <string name="wifi_timeout_summary_10mins">10分</string>
     <string name="wifi_timeout_summary_30mins">30分</string>
-    <string name="wifi_timeout_summary_1hour">1 hour</string>
-    <string name="wifi_timeout_summary_2hours">2 hours</string>
-    <string name="wifi_timeout_summary_4hours">4 hours</string>
-    <string name="wifi_timeout_summary_8hours">8 hours</string>
+    <string name="wifi_timeout_summary_1hour">1時間</string>
+    <string name="wifi_timeout_summary_2hours">2時間</string>
+    <string name="wifi_timeout_summary_4hours">4時間</string>
+    <string name="wifi_timeout_summary_8hours">8時間</string>
     <!-- Connected devices screen, setting option name to change bluetooth timeout -->
-    <string name="bluetooth_timeout">Bluetooth timeout</string>
+    <string name="bluetooth_timeout">Bluetooth の制限時間</string>
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
-    <string name="bluetooth_timeout_summary">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
-    <string name="bluetooth_timeout_summary2">Do not automatically turn off Bluetooth</string>
+    <string name="bluetooth_timeout_summary">端末が接続されていない場合は<xliff:g id="timeout_description">%1$s</xliff:g>後に Bluetooth は オフになります</string>
+    <string name="bluetooth_timeout_summary2">自動的に Bluetooth をオフにしない</string>
     <string name="bluetooth_timeout_summary_never">なし</string>
-    <string name="bluetooth_timeout_summary_15secs">15 seconds</string>
-    <string name="bluetooth_timeout_summary_30secs">30 seconds</string>
+    <string name="bluetooth_timeout_summary_15secs">10秒</string>
+    <string name="bluetooth_timeout_summary_30secs">30秒</string>
     <string name="bluetooth_timeout_summary_1min">1分</string>
     <string name="bluetooth_timeout_summary_2mins">2分</string>
     <string name="bluetooth_timeout_summary_5mins">5分</string>
     <string name="bluetooth_timeout_summary_10mins">10分</string>
     <string name="bluetooth_timeout_summary_30mins">30分</string>
-    <string name="bluetooth_timeout_summary_1hour">1 hour</string>
-    <string name="bluetooth_timeout_summary_2hours">2 hours</string>
-    <string name="bluetooth_timeout_summary_4hours">4 hours</string>
-    <string name="bluetooth_timeout_summary_8hours">8 hours</string>
+    <string name="bluetooth_timeout_summary_1hour">1時間</string>
+    <string name="bluetooth_timeout_summary_2hours">2時間</string>
+    <string name="bluetooth_timeout_summary_4hours">4時間</string>
+    <string name="bluetooth_timeout_summary_8hours">8時間</string>
     <!-- Smart cutoff -->
-    <string name="smart_cutoff_title">Smart Cutoff</string>
-    <string name="smart_cutoff_summary">Set maximum Temperature</string>
-    <string name="smart_cutoff_switch_title">Use Smart cutoff</string>
+    <string name="smart_cutoff_title">スマートカットオフ</string>
+    <string name="smart_cutoff_summary">最高温度を設定する</string>
+    <string name="smart_cutoff_switch_title">スマートカットオフを使用</string>
     <string name="smart_cutoff_level_title">充電停止レベル</string>
     <string name="smart_cutoff_resume_level_title">充電開始レベル</string>
 </resources>
