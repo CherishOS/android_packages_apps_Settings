@@ -286,33 +286,33 @@
     <!-- Clock style -->
     <string name="clock_style_title">時計のスタイル</string>
     <string name="clock_style_summary">ロック画面の時計を編集する</string>
-    <string name="theme_customization_statusbar_height_title">ステータスバーの高さ</string>
-    <string name="default_accent_color">ドジャーブルー (既定)</string>
-    <string name="default_icon_shape">円 (既定)</string>
-    <string name="default_font">OnePlus スレート (既定)</string>
-    <string name="default_icon_pack">AOSP + Oxygen (既定)</string>
+    <string name="theme_customization_statusbar_height_title">Statusbar height</string>
+    <string name="default_accent_color">Dodger Blue (default)</string>
+    <string name="default_icon_shape">Circle (default)</string>
+    <string name="default_font">OnePlus Slate (default)</string>
+    <string name="default_icon_pack">AOSP + Oxygen (default)</string>
     <!-- SELinux Status -->
-    <string name="selinux_status">SELinux ステータス</string>
+    <string name="selinux_status">SELinux status</string>
     <string name="selinux_status_disabled">無効</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
     <!-- DC Dimming -->
-    <string name="dc_dimming_title">DC 調光</string>
-    <string name="dc_dimming_info">暗い環境での眼への疲労を軽減させます。しかし、画像の画質や色の再現度が低下する可能性があります。</string>
-    <string name="dc_dimming_auto_mode_title">スケジュール</string>
-    <string name="dc_dimming_mode_brightness">輝度がしきい値以下になると有効になります</string>
-    <string name="dc_dimming_mode_full">時刻と明るさに依存</string>
-    <string name="dc_dimming_brightness_title">明るさのしきい値</string>
+    <string name="dc_dimming_title">DC Dimming</string>
+    <string name="dc_dimming_info">Reduces eye strain in low light conditions but may result in reduced image quality and poor color production.</string>
+    <string name="dc_dimming_auto_mode_title">Schedule</string>
+    <string name="dc_dimming_mode_brightness">Turn on when brightness is below the threshold</string>
+    <string name="dc_dimming_mode_full">Dependent on time and brightness</string>
+    <string name="dc_dimming_brightness_title">Brightness threshold</string>
     <string name="dc_dimming_brightness_disabled">無効</string>
-    <string name="dc_dimming_restore_auto_mode">自動モードに戻す</string>
-    <string name="dc_dimming_brightness_info">平均の明るさがしきい値を下回ったときにのみ DC 調光を有効にします</string>
-    <string name="dc_dimming_off_auto_mode_auto">自動で有効化</string>
-    <string name="dc_dimming_on_auto_mode_auto">自動で無効化</string>
-    <string name="keywords_display_dc_dimming">DC 調光、フリッカー、目、疲労</string>
+    <string name="dc_dimming_restore_auto_mode">Restore auto mode</string>
+    <string name="dc_dimming_brightness_info">Only activate DC Dimming when the average brightness is below the threshold</string>
+    <string name="dc_dimming_off_auto_mode_auto">Will turn on automatically</string>
+    <string name="dc_dimming_on_auto_mode_auto">Will turn off automatically</string>
+    <string name="keywords_display_dc_dimming">dc dimming, flicker, eye, strain</string>
     <!-- Cherish versioning -->
-    <string name="cherish_version_title">バージョン</string>
-    <string name="cherish_version_code_title">コードネーム</string>
-    <string name="cherish_release_type_title">リリースの種類</string>
+    <string name="cherish_version_title">Version</string>
+    <string name="cherish_version_code_title">Codename</string>
+    <string name="cherish_release_type_title">Release type</string>
     <string name="cherish_maintainer_title">メンテナー</string>
     <!-- App Lock -->
     <string name="applock_title">アプリロッカー</string>
@@ -334,7 +334,7 @@
     <string name="applock_setup">アプリのロックを設定</string>
     <string name="applock_overlay_summary">このアプリはロックされているためこの機能は利用できません</string>
     <plurals name="applock_summary">
-        <item quantity="other">%d個のアプリがロックされました</item>
+        <item quantity="other">%d apps locked</item>
     </plurals>
     <string name="keywords_applock_settings">アプリロック、アプリブロッカー、アプリ ロック、アプリ ロッカー</string>
     <!-- Face Unlock -->
