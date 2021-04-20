@@ -26,4 +26,9 @@
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
 
+    <!-- Settings intelligence suggestions class -->
+    <string name="config_settingsintelligence_suggestions_class" translatable="false">
+        com.android.settings.intelligence.suggestions.SuggestionService
+    </string>
+
 </resources>
