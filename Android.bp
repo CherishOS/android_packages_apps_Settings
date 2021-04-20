@@ -116,6 +116,7 @@ android_library {
         "SystemUIUnfoldLib",
         "SettingsLibMainSwitchPreference",
         "vendor.lineage.trust-V1.0-java",
+        "androidx.dynamicanimation_dynamicanimation",
     ],
 
     plugins: ["androidx.room_room-compiler-plugin"],
