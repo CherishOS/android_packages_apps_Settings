@@ -105,6 +105,10 @@ public class DisplaySettings extends DashboardFragment {
                 "android.theme.customization.icon_pack.android"));
 		controllers.add(new OverlayCategoryPreferenceController(context,
 				"android.theme.customization.statusbar_height"));
+		controllers.add(new OverlayCategoryPreferenceController(context,
+                "android.theme.customization.signal_icon"));
+        controllers.add(new OverlayCategoryPreferenceController(context,
+                "android.theme.customization.wifi_icon"));
         return controllers;
     }
 
