@@ -93,6 +93,8 @@
     <string name="live_display_night">Ночь</string>
     <string name="live_display_outdoor_mode_title">Автоматический режим \"На улице\"</string>
     <string name="live_display_outdoor_mode_summary">Увеличить яркость и насыщенность автоматически при ярком солнечном свете</string>
+    <string name="live_display_anti_flicker_title">Anti flicker</string>
+    <string name="live_display_anti_flicker_summary">Prevent extensive flickering and reduce eye strain in low light conditions. It might degrade color accuracy and affect the way some items are displayed.</string>
     <string name="live_display_low_power_title">Уменьшить потребление энергии</string>
     <string name="live_display_low_power_summary">Подстраивать экран для снижения энергопотребления без ухудшения качества</string>
     <string name="live_display_enhance_color_title">Улучшенные цвета</string>
@@ -237,9 +239,10 @@
     <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
     <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
-    <!-- Clipboard toast toggle -->
-    <string name="show_clipboard_toast">Show clipboard access alerts</string>
-    <string name="show_clipboard_toast_summary">Display a toast when an app tries to access the clipboard</string>
+    <!-- Clipboard toast info -->
+    <string name="clipboard_toast_info_title">Clipboard access alerts</string>
+    <string name="clipboard_toast_info_show_important">Show only important alerts</string>
+    <string name="clipboard_toast_info_show_all">Show all access alerts</string>
     <!-- Misc gesture settings -->
     <string name="back_gesture_haptic_title">Haptic feedback</string>
     <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
@@ -320,9 +323,9 @@
     <string name="applock_unlocked">Не заблокировано</string>
     <string name="applock_locked_apps">Заблокированные приложения</string>
     <string name="applock_unlocked_apps">Не заблокированные приложения</string>
-    <string name="applock_lock_after_title">Блокировка приложения после</string>
-    <string name="applock_lock_after_instantly">Немедленно</string>
-    <string name="applock_lock_after_15_seconds">15 секунд</string>
+    <string name="applock_lock_after_title">Блокировка приложения после выхода из него</string>
+    <string name="applock_lock_after_instantly">Сразу же</string>
+    <string name="applock_lock_after_15_seconds">Через 15 секунд</string>
     <string name="applock_lock_after_screen_off">Screen off</string>
     <string name="applock_lock_after_summary">Приложение будет заблокировано после выбранного тайм-аута</string>
     <string name="applock_lock_after_instantly_summary">Приложение будет заблокировано сразу после закрытия</string>
@@ -389,4 +392,15 @@
     <string name="smart_cutoff_switch_title">Использовать умное отключение</string>
     <string name="smart_cutoff_level_title">Уровень окончания заряда</string>
     <string name="smart_cutoff_resume_level_title">Уровень начала заряда</string>
+    <!-- Running services -->
+    <string name="background_processes_settings_title">Background processes</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <!-- Power Button Fingerprint -->
+    <string name="fingerprint_power_button_press_title">Press to unlock</string>
+    <string name="fingerprint_power_button_press_off_summary">Touch power button to unlock with fingerprint when screen is off</string>
+    <string name="fingerprint_power_button_press_on_summary">Press power button firmly to unlock with fingerprint when screen is off</string>
+    <!-- SBC HD (Dual Channel) priority -->
+    <string name="sbc_hd_priority_title">SBC HD audio</string>
+    <string name="sbc_hd_priority_summary">Whether to use Dual Channel mode for SBC codec by default</string>
 </resources>
