@@ -93,6 +93,8 @@
     <string name="live_display_night">Ніч</string>
     <string name="live_display_outdoor_mode_title">Автоматичний режим «На вулиці»</string>
     <string name="live_display_outdoor_mode_summary">Збільшити яскравість та насиченість автоматично при яскравому сонячному світлі</string>
+    <string name="live_display_anti_flicker_title">Anti flicker</string>
+    <string name="live_display_anti_flicker_summary">Prevent extensive flickering and reduce eye strain in low light conditions. It might degrade color accuracy and affect the way some items are displayed.</string>
     <string name="live_display_low_power_title">Знизити енергоспоживання</string>
     <string name="live_display_low_power_summary">Налаштування дисплея для найнижчого енергоспоживання без псування зображення</string>
     <string name="live_display_enhance_color_title">Покращити кольори</string>
@@ -176,21 +178,21 @@
     <string name="action_voice_search">Голосовий пошук</string>
     <string name="action_launch_camera">Камера</string>
     <string name="action_flashlight">Ліхтарик</string>
-    <string name="action_volume_panel">Volume panel</string>
-    <string name="action_screen_off">Screen off</string>
+    <string name="action_volume_panel">Панель гучності</string>
+    <string name="action_screen_off">Екран вимкнено</string>
     <string name="action_screenshot">Знімок екрана</string>
-    <string name="action_app_action">Application</string>
-    <string name="active_edge_ss_app_select_title">Select short squeeze app</string>
-    <string name="active_edge_ls_app_select_title">Select long squeeze app</string>
-    <string name="active_edge_app_select_summary">Select an app to launch with the squeeze action</string>
-    <string name="action_qs_panel">QS panel</string>
+    <string name="action_app_action">Програма</string>
+    <string name="active_edge_ss_app_select_title">Виберіть коротке натискання програми</string>
+    <string name="active_edge_ls_app_select_title">Вибрати довге натискання для додатку</string>
+    <string name="active_edge_app_select_summary">Виберіть додаток, який потрібно запустити за допомогою натискання</string>
+    <string name="action_qs_panel">Панель швидких налаштувань</string>
     <string name="action_notifications">Сповіщення</string>
-    <string name="action_clear_notifications">Clear notifications</string>
-    <string name="action_ringer_modes">Ringer modes</string>
-    <string name="kill_app">Kill foreground app</string>
-    <string name="skip_song">Skip song</string>
-    <string name="prev_song">Previous song</string>
-    <string name="show_powermenu">Show Power menu</string>
+    <string name="action_clear_notifications">Очистити сповіщення</string>
+    <string name="action_ringer_modes">Режими дзвінка</string>
+    <string name="kill_app">Закрити програму</string>
+    <string name="skip_song">Пропустити пісню</string>
+    <string name="prev_song">Попередня пісня</string>
+    <string name="show_powermenu">Показувати меню живлення</string>
     <string name="partial_screenshot">Знімок частини екрану</string>
     <string name="hush_mute">Silence notifications</string>
     <!-- Long back swipe options -->
@@ -237,9 +239,10 @@
     <string name="lockpattern_settings_enable_error_path_title">Показувати неправильний код</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
     <string name="lockpattern_settings_enable_dots_title">Показувати опорні точки візерунку</string>
-    <!-- Clipboard toast toggle -->
-    <string name="show_clipboard_toast">Сповіщення про доступ до буфера обміну</string>
-    <string name="show_clipboard_toast_summary">Відображати спливаюче повідомлення, коли додаток намагається отримати доступ до буфера обміну</string>
+    <!-- Clipboard toast info -->
+    <string name="clipboard_toast_info_title">Clipboard access alerts</string>
+    <string name="clipboard_toast_info_show_important">Show only important alerts</string>
+    <string name="clipboard_toast_info_show_all">Show all access alerts</string>
     <!-- Misc gesture settings -->
     <string name="back_gesture_haptic_title">Вібро-відгук</string>
     <string name="back_gesture_haptic_summary">Увімкнути тактильний ефект від жесту назад</string>
@@ -323,7 +326,7 @@
     <string name="applock_lock_after_title">Lock app after</string>
     <string name="applock_lock_after_instantly">Instantly</string>
     <string name="applock_lock_after_15_seconds">15 Seconds</string>
-    <string name="applock_lock_after_screen_off">Screen off</string>
+    <string name="applock_lock_after_screen_off">Екран вимкнено</string>
     <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
     <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
     <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
@@ -389,4 +392,15 @@
     <string name="smart_cutoff_switch_title">Використовувати розумний розріз</string>
     <string name="smart_cutoff_level_title">Рівень зупинки заряджання</string>
     <string name="smart_cutoff_resume_level_title">Рівень початку заряджання</string>
+    <!-- Running services -->
+    <string name="background_processes_settings_title">Background processes</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <!-- Power Button Fingerprint -->
+    <string name="fingerprint_power_button_press_title">Press to unlock</string>
+    <string name="fingerprint_power_button_press_off_summary">Touch power button to unlock with fingerprint when screen is off</string>
+    <string name="fingerprint_power_button_press_on_summary">Press power button firmly to unlock with fingerprint when screen is off</string>
+    <!-- SBC HD (Dual Channel) priority -->
+    <string name="sbc_hd_priority_title">SBC HD audio</string>
+    <string name="sbc_hd_priority_summary">Whether to use Dual Channel mode for SBC codec by default</string>
 </resources>
