@@ -93,6 +93,8 @@
     <string name="live_display_night">Đêm</string>
     <string name="live_display_outdoor_mode_title">Tự động điều chỉnh khi ra ngoài trời</string>
     <string name="live_display_outdoor_mode_summary">Tự động tăng độ sáng và độ bão hòa dưới ánh sáng mặt trời</string>
+    <string name="live_display_anti_flicker_title">Anti flicker</string>
+    <string name="live_display_anti_flicker_summary">Prevent extensive flickering and reduce eye strain in low light conditions. It might degrade color accuracy and affect the way some items are displayed.</string>
     <string name="live_display_low_power_title">Giảm tiêu thụ pin</string>
     <string name="live_display_low_power_summary">Điều chỉnh hiển thị cho tiêu thụ điện năng thấp nhất mà không làm giảm chất lượng</string>
     <string name="live_display_enhance_color_title">Tăng cường màu sắc</string>
@@ -237,9 +239,10 @@
     <string name="lockpattern_settings_enable_error_path_title">Hiển thị lỗi mẫu</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
     <string name="lockpattern_settings_enable_dots_title">Hiển thị các chấm mẫu</string>
-    <!-- Clipboard toast toggle -->
-    <string name="show_clipboard_toast">Hiển thị cảnh báo truy cập khay nhớ tạm</string>
-    <string name="show_clipboard_toast_summary">Hiển thị cảnh báo khi một ứng dụng cố gắng truy cập khay nhớ tạm</string>
+    <!-- Clipboard toast info -->
+    <string name="clipboard_toast_info_title">Clipboard access alerts</string>
+    <string name="clipboard_toast_info_show_important">Show only important alerts</string>
+    <string name="clipboard_toast_info_show_all">Show all access alerts</string>
     <!-- Misc gesture settings -->
     <string name="back_gesture_haptic_title">Phản hồi rung</string>
     <string name="back_gesture_haptic_summary">Kích hoạt hiệu ứng đánh dấu haptic trên cử chỉ quay lại</string>
@@ -386,4 +389,15 @@
     <string name="smart_cutoff_switch_title">Dùng Cắt thông minh</string>
     <string name="smart_cutoff_level_title">Dừng mức độ kích hoạt</string>
     <string name="smart_cutoff_resume_level_title">Bắt đầu mức độ kích hoạt</string>
+    <!-- Running services -->
+    <string name="background_processes_settings_title">Background processes</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <!-- Power Button Fingerprint -->
+    <string name="fingerprint_power_button_press_title">Press to unlock</string>
+    <string name="fingerprint_power_button_press_off_summary">Touch power button to unlock with fingerprint when screen is off</string>
+    <string name="fingerprint_power_button_press_on_summary">Press power button firmly to unlock with fingerprint when screen is off</string>
+    <!-- SBC HD (Dual Channel) priority -->
+    <string name="sbc_hd_priority_title">SBC HD audio</string>
+    <string name="sbc_hd_priority_summary">Whether to use Dual Channel mode for SBC codec by default</string>
 </resources>
