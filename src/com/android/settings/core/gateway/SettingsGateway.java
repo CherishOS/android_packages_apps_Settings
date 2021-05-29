@@ -166,7 +166,6 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 import com.cherish.settings.CherishSettings;
 import com.cherish.settings.fragments.OmniJawsSettings;
 import com.cherish.settings.fragments.VolumeStepsFragment;
-import com.android.settings.livedisplay.LiveDisplaySettings;
 import com.cherish.settings.fragments.GamingMode;
 
 public class SettingsGateway {
@@ -322,7 +321,6 @@ public class SettingsGateway {
             CherishSettings.class.getName(),
             OmniJawsSettings.class.getName(),
             VolumeStepsFragment.class.getName(),
-            LiveDisplaySettings.class.getName(),
             GamingMode.class.getName(),
             RunningServices.class.getName()
     };

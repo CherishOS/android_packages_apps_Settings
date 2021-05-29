@@ -247,9 +247,6 @@ public class Settings extends SettingsActivity {
 
     public static class VolumeStepsFragmentActivity extends SettingsActivity { /* empty */ }
 
-    // LiveDisplay
-    public static class LiveDisplaySettingsActivity extends SettingsActivity { /* empty */ }
-
     // Gaming mode
     public static class GamingModeActivity extends SettingsActivity {}
 
