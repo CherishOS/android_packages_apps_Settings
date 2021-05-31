@@ -95,7 +95,7 @@
     <com.android.settings.notification.VolumeSeekBarPreference
         android:key="alarm_volume"
         android:icon="@drawable/ic_audio_alarm"
-        android:layout="@layout/cherish_preference_middle_card_progress"
+        android:layout="@layout/cherish_preference_bottom_card_progress"
         android:title="@string/alarm_volume_option_title"
         android:order="-140"
         settings:controller="com.android.settings.notification.AlarmVolumePreferenceController"/>
@@ -185,7 +185,7 @@
         <!-- Custom ringtone vibration pattern 3 -->
         <com.cherish.settings.preferences.CustomSeekBarPreference
             android:key="custom_vibration_pattern3"
-			android:layout="@layout/cherish_preference_bottom_card"
+			android:layout="@layout/cherish_preference_middle_card"
             android:order="-121"
             android:max="1000"
             settings:min="0"
@@ -200,6 +200,7 @@
         android:key="zen_mode"
         android:icon="@drawable/ic_do_not_disturb2"
         android:title="@string/zen_mode_settings_title"
+		android:layout="@layout/cherish_preference_middle_card"
         android:fragment="com.android.settings.notification.zen.ZenModeSettings"
         android:order="-129"
         settings:useAdminDisabledSummary="true"
@@ -297,7 +298,7 @@
         <!-- Dial pad tones -->
         <SwitchPreference
           android:key="dial_pad_tones"
-          android:layout="@layout/cherish_preference_top_card"
+          android:layout="@layout/cherish_preference_middle_card"
           android:title="@string/dial_pad_tones_title"/>
 
         <!-- Screen locking sounds -->
@@ -346,6 +347,7 @@
         <!-- Screenshot sounds -->
         <SwitchPreference
           android:key="screenshot_sounds"
+		  android:layout="@layout/cherish_preference_middle_card"
           android:title="@string/screenshot_sound_title" />
 
         <!-- Emergency tone -->
@@ -394,7 +396,7 @@
 
         <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="resume_audio_stream"
-			android:layout="@layout/cherish_preference_middle_card"
+			android:layout="@layout/cherish_preference_full_alone_card"
             android:icon="@drawable/ic_resume_audio_stream"
             android:title="@string/resume_audio_stream_title"
             android:summary="@string/resume_audio_stream_summary"

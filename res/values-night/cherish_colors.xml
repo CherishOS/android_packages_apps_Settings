@@ -15,5 +15,5 @@
      limitations under the License.
 -->
 <resources>
-    <color name="dot_pref_emergency_color">#B2CC0000</color>
+    <color name="cherish_pref_emergency_color">#B2CC0000</color>
 </resources>
