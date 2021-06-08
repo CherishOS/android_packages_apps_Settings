@@ -93,6 +93,8 @@
     <string name="live_display_night">Đêm</string>
     <string name="live_display_outdoor_mode_title">Tự động điều chỉnh khi ra ngoài trời</string>
     <string name="live_display_outdoor_mode_summary">Tự động tăng độ sáng và độ bão hòa dưới ánh sáng mặt trời</string>
+    <string name="live_display_anti_flicker_title">Anti flicker</string>
+    <string name="live_display_anti_flicker_summary">Prevent extensive flickering and reduce eye strain in low light conditions. It might degrade color accuracy and affect the way some items are displayed.</string>
     <string name="live_display_low_power_title">Giảm tiêu thụ pin</string>
     <string name="live_display_low_power_summary">Điều chỉnh hiển thị cho tiêu thụ điện năng thấp nhất mà không làm giảm chất lượng</string>
     <string name="live_display_enhance_color_title">Tăng cường màu sắc</string>
@@ -237,17 +239,16 @@
     <string name="lockpattern_settings_enable_error_path_title">Hiển thị lỗi mẫu</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
     <string name="lockpattern_settings_enable_dots_title">Hiển thị các chấm mẫu</string>
-    <!-- Clipboard toast toggle -->
-    <string name="show_clipboard_toast">Hiển thị cảnh báo truy cập khay nhớ tạm</string>
-    <string name="show_clipboard_toast_summary">Hiển thị cảnh báo khi một ứng dụng cố gắng truy cập khay nhớ tạm</string>
+    <!-- Clipboard toast info -->
+    <string name="clipboard_toast_info_title">Clipboard access alerts</string>
+    <string name="clipboard_toast_info_show_important">Show only important alerts</string>
+    <string name="clipboard_toast_info_show_all">Show all access alerts</string>
     <!-- Misc gesture settings -->
     <string name="back_gesture_haptic_title">Phản hồi rung</string>
     <string name="back_gesture_haptic_summary">Kích hoạt hiệu ứng đánh dấu haptic trên cử chỉ quay lại</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">Hiển thị một mũi tên chuyển động cho cử chỉ quay lại</string>
     <string name="back_gesture_arrow_summary">Hiển thị hoạt ảnh mũi tên cho cử chỉ trở lại.</string>
-    <!-- Min refresh rate -->
-    <string name="min_refresh_rate_title">Tốc độ làm mới tối thiểu</string>
     <!-- Mobile network setting screen, summary of Mobile data switch preference when the network
          is unavailable, the preference selection will be disabled. [CHAR LIMIT=NONE] -->
     <string name="mobile_data_settings_summary_unavailable">Hiện thị không có SIM</string>
@@ -386,4 +387,36 @@
     <string name="smart_cutoff_switch_title">Dùng Cắt thông minh</string>
     <string name="smart_cutoff_level_title">Dừng mức độ kích hoạt</string>
     <string name="smart_cutoff_resume_level_title">Bắt đầu mức độ kích hoạt</string>
+    <!-- Running services -->
+    <string name="background_processes_settings_title">Background processes</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <!-- Power Button Fingerprint -->
+    <string name="fingerprint_power_button_press_title">Press to unlock</string>
+    <string name="fingerprint_power_button_press_off_summary">Touch power button to unlock with fingerprint when screen is off</string>
+    <string name="fingerprint_power_button_press_on_summary">Press power button firmly to unlock with fingerprint when screen is off</string>
+    <!-- SBC HD (Dual Channel) priority -->
+    <string name="sbc_hd_priority_title">SBC HD audio</string>
+    <string name="sbc_hd_priority_summary">Whether to use Dual Channel mode for SBC codec by default</string>
+    <!-- Custom Signal bar icons -->
+    <string name="custom_signal_bar_title">Signal</string>
+    <!-- Custom Wi-Fi bar icons -->
+    <string name="custom_wifi_bar_title">Wi-Fi</string>
+    <!-- Themes customisation -->
+    <string name="theme_customization_systemui_title">System themes</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Tốc độ làm mới tối thiểu</string>
+    <string name="max_refresh_rate_title">Maximum refresh rate</string>
+    <string name="battery_saver_refresh_rate_title">Reduce refresh rate</string>
+    <string name="battery_saver_refresh_rate_summary">Use 60 Hz screen refresh rate to save power when Battery Saver is on</string>
+    <!-- FontEngine -->
+    <string name="font_picker_title">Font</string>
+    <string name="disable_fonts_installed_title">Font picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the font picker.</string>
+    <string name="font_picker_progress">Applying new font\u2026</string>
+    <!-- Data usage -->
+    <string name="data_usage_period">Data usage period</string>
+    <string name="data_usage_daily">Daily</string>
+    <string name="data_usage_monthly">Monthly</string>
+    <string name="cherish_about_device_info">Legal &amp; Information</string>
+    <string name="cherish_about_device_private">Private Details</string>
 </resources>
