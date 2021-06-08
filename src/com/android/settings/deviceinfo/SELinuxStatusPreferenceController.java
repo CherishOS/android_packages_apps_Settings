@@ -17,48 +17,36 @@ package com.android.settings.deviceinfo;
 
 import android.content.Context;
 import android.os.SELinux;
-import android.os.SystemProperties;
-import androidx.preference.Preference;
-import androidx.preference.PreferenceScreen;
-import android.text.TextUtils;
 
 import com.android.settings.R;
-import com.android.settings.core.PreferenceControllerMixin;
-import com.android.settingslib.core.AbstractPreferenceController;
+import com.android.settings.core.BasePreferenceController;
 
-public class SELinuxStatusPreferenceController extends AbstractPreferenceController implements
-        PreferenceControllerMixin {
+public class SelinuxStatusPreferenceController extends BasePreferenceController {
 
-    private static final String KEY_SELINUX_STATUS = "selinux_status";
+    private static final String TAG = "SelinuxStatusCtrl";
 
-    public SELinuxStatusPreferenceController(Context context) {
-        super(context);
+    private String mStatus;
+
+    public SelinuxStatusPreferenceController(Context context, String key) {
+        super(context, key);
     }
 
     @Override
-    public boolean isAvailable() {
-        return true;
+    public int getAvailabilityStatus() {
+        return mContext.getResources().getBoolean(R.bool.config_show_selinux_status)
+                ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
     }
 
     @Override
-    public String getPreferenceKey() {
-        return KEY_SELINUX_STATUS;
-    }
-
-    @Override
-    public void displayPreference(PreferenceScreen screen) {
-        super.displayPreference(screen);
-        final Preference pref = screen.findPreference(KEY_SELINUX_STATUS);
-        if (pref == null) {
-            return;
+    public CharSequence getSummary() {
+        int stringId = R.string.selinux_status_disabled;
+        if (SELinux.isSELinuxEnabled()) {
+            stringId = SELinux.isSELinuxEnforced()
+                    ? R.string.selinux_status_permissive
+                    : R.string.selinux_status_enforcing;
         }
-        if (!SELinux.isSELinuxEnabled()) {
-            String status = mContext.getResources().getString(R.string.selinux_status_disabled);
-            pref.setSummary(status);
-        } else if (!SELinux.isSELinuxEnforced()) {
-            String status = mContext.getResources().getString(R.string.selinux_status_permissive);
-            pref.setSummary(status);
-        }
+        return mContext.getString(stringId);
     }
 }
+
 

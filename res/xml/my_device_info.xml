@@ -57,13 +57,16 @@
         android:title="@string/my_device_info_account_preference_title"
         settings:controller="com.android.settings.deviceinfo.BrandedAccountPreferenceController" />
 
-    <!-- SELinux status information here -->
+    <!-- SELinux -->
     <Preference
         android:key="selinux_status"
-        android:layout="@layout/cherish_preference_bottom_card"
+		android:layout="@layout/cherish_preference_bottom_card"
         android:order="5"
-        android:summary="@string/selinux_status_enforcing"
-        android:title="@string/selinux_status" />
+        android:title="@string/selinux_status"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="false"
+        android:selectable="false"
+        settings:controller="com.android.settings.deviceinfo.SelinuxStatusPreferenceController"/>
 
     <PreferenceCategory
         android:layout="@layout/cherish_preference_category"
