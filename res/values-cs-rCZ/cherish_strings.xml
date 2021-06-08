@@ -93,6 +93,8 @@
     <string name="live_display_night">Noc</string>
     <string name="live_display_outdoor_mode_title">Automatický venkovní režim</string>
     <string name="live_display_outdoor_mode_summary">Automaticky zvýšit jas a sytost za jasného slunečního světla</string>
+    <string name="live_display_anti_flicker_title">Anti flicker</string>
+    <string name="live_display_anti_flicker_summary">Prevent extensive flickering and reduce eye strain in low light conditions. It might degrade color accuracy and affect the way some items are displayed.</string>
     <string name="live_display_low_power_title">Snížit spotřebu energie</string>
     <string name="live_display_low_power_summary">Upravit zobrazení pro nejnižší spotřebu energie bez zhoršení čitelnosti</string>
     <string name="live_display_enhance_color_title">Vylepšit barvy</string>
@@ -237,17 +239,16 @@
     <string name="lockpattern_settings_enable_error_path_title">Zobrazit cestu chybného gesta</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
     <string name="lockpattern_settings_enable_dots_title">Zobrazit body gesta</string>
-    <!-- Clipboard toast toggle -->
-    <string name="show_clipboard_toast">Zobrazit oznámení na přístup ke schránce</string>
-    <string name="show_clipboard_toast_summary">Zobrazí informační text při pokusu aplikace o přístup ke schránce</string>
+    <!-- Clipboard toast info -->
+    <string name="clipboard_toast_info_title">Clipboard access alerts</string>
+    <string name="clipboard_toast_info_show_important">Show only important alerts</string>
+    <string name="clipboard_toast_info_show_all">Show all access alerts</string>
     <!-- Misc gesture settings -->
     <string name="back_gesture_haptic_title">Hmatová odezva</string>
     <string name="back_gesture_haptic_summary">Povolit efekt krátkého zavibrování při použití gesta „Zpět“</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">Animace gesta „Zpět“</string>
     <string name="back_gesture_arrow_summary">Zobrazit animovanou šipku gesta „Zpět“.</string>
-    <!-- Min refresh rate -->
-    <string name="min_refresh_rate_title">Minimální obnovovací frekvence</string>
     <!-- Mobile network setting screen, summary of Mobile data switch preference when the network
          is unavailable, the preference selection will be disabled. [CHAR LIMIT=NONE] -->
     <string name="mobile_data_settings_summary_unavailable">Není k dispozici žádná SIM karta</string>
@@ -286,107 +287,139 @@
     <!-- Clock style -->
     <string name="clock_style_title">Umístění hodin</string>
     <string name="clock_style_summary">Přizpůsobení hodin zamykací obrazovky</string>
-    <string name="theme_customization_statusbar_height_title">Statusbar height</string>
-    <string name="default_accent_color">Dodger Blue (default)</string>
-    <string name="default_icon_shape">Circle (default)</string>
-    <string name="default_font">OnePlus Slate (default)</string>
-    <string name="default_icon_pack">AOSP + Oxygen (default)</string>
+    <string name="theme_customization_statusbar_height_title">Výška stavového řádku</string>
+    <string name="default_accent_color">Dodger modrá (výchozí)</string>
+    <string name="default_icon_shape">Kruh (výchozí)</string>
+    <string name="default_font">OnePlus Slate (výchozí)</string>
+    <string name="default_icon_pack">AOSP + kyslík (výchozí)</string>
     <!-- SELinux Status -->
-    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status">Stav zabezpečení SELinux</string>
     <string name="selinux_status_disabled">Vypnuto</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status_permissive">Mírný</string>
+    <string name="selinux_status_enforcing">Vynucený</string>
     <!-- DC Dimming -->
-    <string name="dc_dimming_title">DC Dimming</string>
-    <string name="dc_dimming_info">Reduces eye strain in low light conditions but may result in reduced image quality and poor color production.</string>
-    <string name="dc_dimming_auto_mode_title">Schedule</string>
-    <string name="dc_dimming_mode_brightness">Turn on when brightness is below the threshold</string>
-    <string name="dc_dimming_mode_full">Dependent on time and brightness</string>
-    <string name="dc_dimming_brightness_title">Brightness threshold</string>
+    <string name="dc_dimming_title">DC ztlumení</string>
+    <string name="dc_dimming_info">Snižuje namáhání očí za špatných světelných podmínek, ale může mít za následek sníženou kvalitu obrazu a špatné podání barev.</string>
+    <string name="dc_dimming_auto_mode_title">Plán</string>
+    <string name="dc_dimming_mode_brightness">Zapnout, když je jas pod prahovou hodnotou</string>
+    <string name="dc_dimming_mode_full">Závisí na čase a jasu</string>
+    <string name="dc_dimming_brightness_title">Prahová hodnota jasu</string>
     <string name="dc_dimming_brightness_disabled">Vypnuto</string>
-    <string name="dc_dimming_restore_auto_mode">Restore auto mode</string>
-    <string name="dc_dimming_brightness_info">Only activate DC Dimming when the average brightness is below the threshold</string>
-    <string name="dc_dimming_off_auto_mode_auto">Will turn on automatically</string>
-    <string name="dc_dimming_on_auto_mode_auto">Will turn off automatically</string>
-    <string name="keywords_display_dc_dimming">dc dimming, flicker, eye, strain</string>
+    <string name="dc_dimming_restore_auto_mode">Obnovit automatický režim</string>
+    <string name="dc_dimming_brightness_info">Aktivovat DC ztlumení pouze ve chvíli, kdy je průměrný jas pod prahovou hodnotou</string>
+    <string name="dc_dimming_off_auto_mode_auto">Zapne se automaticky</string>
+    <string name="dc_dimming_on_auto_mode_auto">Vypne se automaticky</string>
+    <string name="keywords_display_dc_dimming">dc ztlumení, blikání, oko, námaha</string>
     <!-- Cherish versioning -->
-    <string name="cherish_version_title">Version</string>
-    <string name="cherish_version_code_title">Codename</string>
-    <string name="cherish_release_type_title">Release type</string>
+    <string name="cherish_version_title">Verze</string>
+    <string name="cherish_version_code_title">Kódové označení</string>
+    <string name="cherish_release_type_title">Typ vydání</string>
     <string name="cherish_maintainer_title">Správce</string>
     <!-- App Lock -->
-    <string name="applock_title">App locker</string>
-    <string name="applock_locked">Locked</string>
-    <string name="applock_unlocked">Unlocked</string>
-    <string name="applock_locked_apps">Locked apps</string>
-    <string name="applock_unlocked_apps">Unlocked apps</string>
-    <string name="applock_lock_after_title">Lock app after</string>
-    <string name="applock_lock_after_instantly">Instantly</string>
-    <string name="applock_lock_after_15_seconds">15 Seconds</string>
+    <string name="applock_title">Zámek aplikací</string>
+    <string name="applock_locked">Zamčeno</string>
+    <string name="applock_unlocked">Odemčeno</string>
+    <string name="applock_locked_apps">Uzamčené aplikace</string>
+    <string name="applock_unlocked_apps">Odemčené aplikace</string>
+    <string name="applock_lock_after_title">Zamknout aplikaci po</string>
+    <string name="applock_lock_after_instantly">Okamžitě</string>
+    <string name="applock_lock_after_15_seconds">15 sekund</string>
     <string name="applock_lock_after_screen_off">Vypnutá obrazovka</string>
-    <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
-    <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
-    <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
-    <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
-    <string name="applock_notification_info">You can show/hide the notification content on a per-app basis by clicking on the notification icon shown on each locked apps\' preference</string>
-    <string name="applock_show_notif">Showing notification content</string>
-    <string name="applock_hide_notif">Hiding notification content</string>
-    <string name="applock_setup">Setup app locker</string>
-    <string name="applock_overlay_summary">This feature is not available because this app is locked</string>
+    <string name="applock_lock_after_summary">Po zvoleném časovém limitu bude aplikace uzamčena</string>
+    <string name="applock_lock_after_instantly_summary">Po zavření bude aplikace okamžitě uzamčena</string>
+    <string name="applock_lock_after_15_seconds_summary">15 sekund po ukončení bude aplikace uzamčena</string>
+    <string name="applock_lock_after_screen_off_summary">Po vypnutí obrazovky bude aplikace uzamčena</string>
+    <string name="applock_notification_info">Obsah oznámení můžete zobrazit nebo skrýt pro jednotlivé aplikace kliknutím na ikonu oznámení zobrazenou v předvolbách každé zamčené aplikace</string>
+    <string name="applock_show_notif">Zobrazit obsah oznámení</string>
+    <string name="applock_hide_notif">Skrytí obsahu oznámení</string>
+    <string name="applock_setup">Nastavit zámek aplikací</string>
+    <string name="applock_overlay_summary">Tato funkce není k dispozici, protože tato aplikace je uzamčena</string>
     <plurals name="applock_summary">
-        <item quantity="one">1 app locked</item>
-        <item quantity="few">%d apps locked</item>
-        <item quantity="many">%d apps locked</item>
-        <item quantity="other">%d apps locked</item>
+        <item quantity="one">1 aplikace uzamčena</item>
+        <item quantity="few">%d aplikací uzamčeno</item>
+        <item quantity="many">%d aplikací uzamčeno</item>
+        <item quantity="other">%d aplikací uzamčeno</item>
     </plurals>
-    <string name="keywords_applock_settings">applock, applocker, app lock, app locker</string>
+    <string name="keywords_applock_settings">uzamknout aplikaci, uzamykání aplikace, uzamčení aplikace, zámek aplikací</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
-    <string name="security_dashboard_summary_face_and_fingerprint">Screen lock, fingerprint, face unlock</string>
-    <string name="face_redo_confirm_btn">Redo</string>
-    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Odstranit stávající sken obličeje a vytvořit nový</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Znovu naskenovat obličej</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Zámek obrazovky, otisk prstu, odemknutí obličejem</string>
+    <string name="face_redo_confirm_btn">Znovu</string>
+    <string name="face_redo_warning_msg">Chcete odstranit existující obličej a naskenovat nový?</string>
     <!-- global cleartext penalties -->
-    <string name="cleartext_network_policy_title">Restrict cleartext network traffic</string>
-    <string name="cleartext_network_policy_summary">Blocks all non-TLS network traffic. Requires Private DNS configuration. Note: Without explicit exemptions, Tor and most VPNs won\'t work</string>
+    <string name="cleartext_network_policy_title">Omezit nešifrovaný síťový provoz</string>
+    <string name="cleartext_network_policy_summary">Blokuje veškerý provoz sítě kromě TLS. Vyžaduje konfiguraci soukromého DNS. Poznámka: Bez výslovných výjimek nebudou Tor a většina VPN fungovat</string>
     <!--  screen, setting option name to change wifi timeout -->
-    <string name="wifi_timeout">Turn off Wi-Fi automatically</string>
+    <string name="wifi_timeout">Automaticky vypnout Wi-Fi</string>
     <!--  screen, setting option summary to change wifi timeout -->
-    <string name="wifi_timeout_summary">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
+    <string name="wifi_timeout_summary">Wi-Fi se vypne za <xliff:g id="timeout_description">%1$s</xliff:g>, pokud není připojena žádná síť</string>
     <string name="wifi_timeout_summary2">Vypnuto</string>
     <string name="wifi_timeout_summary_never">Nikdy</string>
-    <string name="wifi_timeout_summary_15secs">15 seconds</string>
-    <string name="wifi_timeout_summary_30secs">30 seconds</string>
+    <string name="wifi_timeout_summary_15secs">15 sekund</string>
+    <string name="wifi_timeout_summary_30secs">30 sekund</string>
     <string name="wifi_timeout_summary_1min">1 minuta</string>
     <string name="wifi_timeout_summary_2mins">2 minuty</string>
     <string name="wifi_timeout_summary_5mins">5 minut</string>
     <string name="wifi_timeout_summary_10mins">10 minut</string>
-    <string name="wifi_timeout_summary_30mins">30 minutes</string>
-    <string name="wifi_timeout_summary_1hour">1 hour</string>
-    <string name="wifi_timeout_summary_2hours">2 hours</string>
-    <string name="wifi_timeout_summary_4hours">4 hours</string>
-    <string name="wifi_timeout_summary_8hours">8 hours</string>
+    <string name="wifi_timeout_summary_30mins">30 minut</string>
+    <string name="wifi_timeout_summary_1hour">1 hodina</string>
+    <string name="wifi_timeout_summary_2hours">2 hodiny</string>
+    <string name="wifi_timeout_summary_4hours">4 hodiny</string>
+    <string name="wifi_timeout_summary_8hours">8 hodin</string>
     <!-- Connected devices screen, setting option name to change bluetooth timeout -->
-    <string name="bluetooth_timeout">Bluetooth timeout</string>
+    <string name="bluetooth_timeout">Časový limit Bluetooth</string>
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
-    <string name="bluetooth_timeout_summary">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
-    <string name="bluetooth_timeout_summary2">Do not automatically turn off Bluetooth</string>
+    <string name="bluetooth_timeout_summary">Pokud nejsou připojena žádná zařízení, Bluetooth se vypne za <xliff:g id="timeout_description">%1$s</xliff:g></string>
+    <string name="bluetooth_timeout_summary2">Automaticky nevypínat Bluetooth</string>
     <string name="bluetooth_timeout_summary_never">Nikdy</string>
-    <string name="bluetooth_timeout_summary_15secs">15 seconds</string>
-    <string name="bluetooth_timeout_summary_30secs">30 seconds</string>
+    <string name="bluetooth_timeout_summary_15secs">15 sekund</string>
+    <string name="bluetooth_timeout_summary_30secs">30 sekund</string>
     <string name="bluetooth_timeout_summary_1min">1 minuta</string>
     <string name="bluetooth_timeout_summary_2mins">2 minuty</string>
     <string name="bluetooth_timeout_summary_5mins">5 minut</string>
     <string name="bluetooth_timeout_summary_10mins">10 minut</string>
-    <string name="bluetooth_timeout_summary_30mins">30 minutes</string>
-    <string name="bluetooth_timeout_summary_1hour">1 hour</string>
-    <string name="bluetooth_timeout_summary_2hours">2 hours</string>
-    <string name="bluetooth_timeout_summary_4hours">4 hours</string>
-    <string name="bluetooth_timeout_summary_8hours">8 hours</string>
+    <string name="bluetooth_timeout_summary_30mins">30 minut</string>
+    <string name="bluetooth_timeout_summary_1hour">1 hodina</string>
+    <string name="bluetooth_timeout_summary_2hours">2 hodiny</string>
+    <string name="bluetooth_timeout_summary_4hours">4 hodiny</string>
+    <string name="bluetooth_timeout_summary_8hours">8 hodin</string>
     <!-- Smart cutoff -->
-    <string name="smart_cutoff_title">Smart Cutoff</string>
-    <string name="smart_cutoff_summary">Set maximum Temperature</string>
-    <string name="smart_cutoff_switch_title">Use Smart cutoff</string>
+    <string name="smart_cutoff_title">Chytré přerušení</string>
+    <string name="smart_cutoff_summary">Nastavit maximální teplotu</string>
+    <string name="smart_cutoff_switch_title">Použít chytré přerušení</string>
     <string name="smart_cutoff_level_title">Úroveň ukončení nabíjení</string>
     <string name="smart_cutoff_resume_level_title">Úroveň spuštění nabíjení</string>
+    <!-- Running services -->
+    <string name="background_processes_settings_title">Background processes</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <!-- Power Button Fingerprint -->
+    <string name="fingerprint_power_button_press_title">Press to unlock</string>
+    <string name="fingerprint_power_button_press_off_summary">Touch power button to unlock with fingerprint when screen is off</string>
+    <string name="fingerprint_power_button_press_on_summary">Press power button firmly to unlock with fingerprint when screen is off</string>
+    <!-- SBC HD (Dual Channel) priority -->
+    <string name="sbc_hd_priority_title">SBC HD audio</string>
+    <string name="sbc_hd_priority_summary">Whether to use Dual Channel mode for SBC codec by default</string>
+    <!-- Custom Signal bar icons -->
+    <string name="custom_signal_bar_title">Signal</string>
+    <!-- Custom Wi-Fi bar icons -->
+    <string name="custom_wifi_bar_title">Wi-Fi</string>
+    <!-- Themes customisation -->
+    <string name="theme_customization_systemui_title">System themes</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Minimální obnovovací frekvence</string>
+    <string name="max_refresh_rate_title">Maximum refresh rate</string>
+    <string name="battery_saver_refresh_rate_title">Reduce refresh rate</string>
+    <string name="battery_saver_refresh_rate_summary">Use 60 Hz screen refresh rate to save power when Battery Saver is on</string>
+    <!-- FontEngine -->
+    <string name="font_picker_title">Font</string>
+    <string name="disable_fonts_installed_title">Font picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the font picker.</string>
+    <string name="font_picker_progress">Applying new font\u2026</string>
+    <!-- Data usage -->
+    <string name="data_usage_period">Data usage period</string>
+    <string name="data_usage_daily">Daily</string>
+    <string name="data_usage_monthly">Monthly</string>
+    <string name="cherish_about_device_info">Legal &amp; Information</string>
+    <string name="cherish_about_device_private">Private Details</string>
 </resources>
