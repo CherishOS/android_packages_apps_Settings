@@ -353,17 +353,9 @@
         <!-- Emergency tone -->
         <DropDownPreference
           android:key="emergency_tone"
-          android:layout="@layout/cherish_preference_middle_card"
+          android:layout="@layout/cherish_preference_bottom_card"
           android:title="@string/emergency_tone_title"
           android:summary="%s"/>
-
-        <!-- Vibrate on touch -->
-        <SwitchPreference
-          android:key="vibrate_on_touch"
-          android:layout="@layout/cherish_preference_bottom_card"
-          android:title="@string/vibrate_on_touch_title"
-          android:summary="@string/vibrate_on_touch_summary"
-          settings:keywords="@string/keywords_vibrate_on_touch"/>
     </PreferenceCategory>
 
     <PreferenceCategory
