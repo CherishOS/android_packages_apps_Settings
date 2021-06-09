@@ -61,4 +61,3 @@ public class SELinuxStatusPreferenceController extends AbstractPreferenceControl
         }
     }
 }
-
