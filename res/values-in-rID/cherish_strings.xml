@@ -94,8 +94,8 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_night">Malam</string>
     <string name="live_display_outdoor_mode_title">Mode luar ruangan otomatis</string>
     <string name="live_display_outdoor_mode_summary">Meningkatkan kecerahan dan saturasi secara otomatis saat di bawah sinar matahari</string>
-    <string name="live_display_anti_flicker_title">Anti flicker</string>
-    <string name="live_display_anti_flicker_summary">Prevent extensive flickering and reduce eye strain in low light conditions. It might degrade color accuracy and affect the way some items are displayed.</string>
+    <string name="live_display_anti_flicker_title">Anti kerlip</string>
+    <string name="live_display_anti_flicker_summary">Mencegah kerlipan berlebih dan mengurangi ketegangan mata di kondisi cahaya redup. Hal ini dapat menurunkan akurasi warna dan mempengaruhi cara beberapa item saat ditampilkan.</string>
     <string name="live_display_low_power_title">Kurangi konsumsi daya</string>
     <string name="live_display_low_power_summary">Menyesuaikan tampilan untuk konsumsi daya terendah tanpa degradasi</string>
     <string name="live_display_enhance_color_title">Tingkatkan warna</string>
@@ -241,9 +241,9 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
     <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
     <!-- Clipboard toast info -->
-    <string name="clipboard_toast_info_title">Clipboard access alerts</string>
-    <string name="clipboard_toast_info_show_important">Show only important alerts</string>
-    <string name="clipboard_toast_info_show_all">Show all access alerts</string>
+    <string name="clipboard_toast_info_title">Peringatan akses clipboard</string>
+    <string name="clipboard_toast_info_show_important">Tampilkan hanya peringatan penting</string>
+    <string name="clipboard_toast_info_show_all">Tampilkan semua peringatan akses</string>
     <!-- Misc gesture settings -->
     <string name="back_gesture_haptic_title">Haptic feedback</string>
     <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
@@ -389,35 +389,35 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="smart_cutoff_level_title">Hentikan tingkat pemicu</string>
     <string name="smart_cutoff_resume_level_title">Mulai tingkat pemicu</string>
     <!-- Running services -->
-    <string name="background_processes_settings_title">Background processes</string>
+    <string name="background_processes_settings_title">Proses latar belakang</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <string name="volume_link_notification_title">Gabungkan volume nada dering &amp; volume notifikasi</string>
     <!-- Power Button Fingerprint -->
-    <string name="fingerprint_power_button_press_title">Press to unlock</string>
-    <string name="fingerprint_power_button_press_off_summary">Touch power button to unlock with fingerprint when screen is off</string>
-    <string name="fingerprint_power_button_press_on_summary">Press power button firmly to unlock with fingerprint when screen is off</string>
+    <string name="fingerprint_power_button_press_title">Tekan untuk membuka</string>
+    <string name="fingerprint_power_button_press_off_summary">Sentuh tombol daya untuk membuka kunci dengan sidik jari saat layar mati</string>
+    <string name="fingerprint_power_button_press_on_summary">Tekan tombol daya dengan kuat untuk membuka kunci dengan sidik jari saat layar mati</string>
     <!-- SBC HD (Dual Channel) priority -->
-    <string name="sbc_hd_priority_title">SBC HD audio</string>
-    <string name="sbc_hd_priority_summary">Whether to use Dual Channel mode for SBC codec by default</string>
+    <string name="sbc_hd_priority_title">Audio SBC HD</string>
+    <string name="sbc_hd_priority_summary">Apakah akan menggunakan mode Dual Channel untuk SBC codec secara default</string>
     <!-- Custom Signal bar icons -->
-    <string name="custom_signal_bar_title">Signal</string>
+    <string name="custom_signal_bar_title">Sinyal</string>
     <!-- Custom Wi-Fi bar icons -->
     <string name="custom_wifi_bar_title">Wi-Fi</string>
     <!-- Themes customisation -->
-    <string name="theme_customization_systemui_title">System themes</string>
+    <string name="theme_customization_systemui_title">Tema Sistem</string>
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">Kecepatan refresh minimum</string>
-    <string name="max_refresh_rate_title">Maximum refresh rate</string>
-    <string name="battery_saver_refresh_rate_title">Reduce refresh rate</string>
-    <string name="battery_saver_refresh_rate_summary">Use 60 Hz screen refresh rate to save power when Battery Saver is on</string>
+    <string name="max_refresh_rate_title">Kecepatan refresh maksimal</string>
+    <string name="battery_saver_refresh_rate_title">Kurangi kecepatan refresh</string>
+    <string name="battery_saver_refresh_rate_summary">Gunakan kecepatan refresh layar 60 Hz untuk menghemat daya saat Penghemat Baterai aktif</string>
     <!-- FontEngine -->
     <string name="font_picker_title">Font</string>
-    <string name="disable_fonts_installed_title">Font picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the font picker.</string>
-    <string name="font_picker_progress">Applying new font\u2026</string>
+    <string name="disable_fonts_installed_title">Pemilih font tidak tersedia untuk menghindari konflik dengan Substratum. Copot pemasangannya jika Anda ingin menggunakan pemilih font.</string>
+    <string name="font_picker_progress">Menerapkan font baru\u2026</string>
     <!-- Data usage -->
-    <string name="data_usage_period">Data usage period</string>
-    <string name="data_usage_daily">Daily</string>
-    <string name="data_usage_monthly">Monthly</string>
-    <string name="cherish_about_device_info">Legal &amp; Information</string>
-    <string name="cherish_about_device_private">Private Details</string>
+    <string name="data_usage_period">Periode penggunaan data</string>
+    <string name="data_usage_daily">Harian</string>
+    <string name="data_usage_monthly">Bulanan</string>
+    <string name="cherish_about_device_info">Informasi &amp; Legal</string>
+    <string name="cherish_about_device_private">Detail Pribadi</string>
 </resources>
