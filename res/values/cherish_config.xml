@@ -4,4 +4,7 @@
 	<!-- Density category -->
     <string name="density_category">Density options</string>
 
+    <!-- Whether to show peak refresh rate in display settings -->
+    <bool name="config_show_peak_refresh_rate_switch">false</bool>
+
 </resources>
