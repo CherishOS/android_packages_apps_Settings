@@ -23,12 +23,14 @@ import static com.android.settings.spa.app.appinfo.AppInfoSettingsProvider.start
 import android.app.Activity;
 import android.app.settings.SettingsEnums;
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.graphics.drawable.Drawable;
 import android.net.NetworkTemplate;
 import android.os.Bundle;
 import android.os.UserHandle;
+import android.os.UserManager;
 import android.util.ArraySet;
 import android.util.IconDrawableFactory;
 import android.util.Log;
@@ -73,11 +75,16 @@ public class AppDataUsage extends DataUsageBaseFragment implements OnPreferenceC
     static final String ARG_NETWORK_CYCLES = "network_cycles";
     static final String ARG_SELECTED_CYCLE = "selected_cycle";
 
+    private static final String DATURA_PACKAGE_NAME = "org.calyxos.datura";
+    private static final String DATURA_MAIN_ACTIVITY = DATURA_PACKAGE_NAME + ".main.MainActivity";
+
     private static final String KEY_RESTRICT_BACKGROUND = "restrict_background";
     private static final String KEY_UNRESTRICTED_DATA = "unrestricted_data_saver";
+    private static final String KEY_DATURA_FIREWALL = "datura_firewall";
 
     private PackageManager mPackageManager;
     private final ArraySet<String> mPackages = new ArraySet<>();
+    private Preference mDaturaFirewall;
     private RestrictedSwitchPreference mRestrictBackground;
 
     private Drawable mIcon;
@@ -89,6 +96,8 @@ public class AppDataUsage extends DataUsageBaseFragment implements OnPreferenceC
     @VisibleForTesting
     NetworkTemplate mTemplate;
     private AppItem mAppItem;
+    private Intent mDaturaFirewallIntent;
+    private UserHandle mParentUserHandle;
     private RestrictedSwitchPreference mUnrestrictedData;
     private DataSaverBackend mDataSaverBackend;
     private Context mContext;
@@ -131,6 +140,15 @@ public class AppDataUsage extends DataUsageBaseFragment implements OnPreferenceC
                 addUid(mAppItem.uids.keyAt(i));
             }
         }
+
+        mDaturaFirewall = findPreference(KEY_DATURA_FIREWALL);
+
+        mParentUserHandle = getUserOrProfileParent(mContext,
+                UserHandle.getUserHandleForUid(mAppItem.key));
+        mDaturaFirewallIntent = new Intent(Intent.ACTION_MAIN)
+                .setPackage(DATURA_PACKAGE_NAME)
+                .setClassName(DATURA_PACKAGE_NAME, DATURA_MAIN_ACTIVITY)
+                .putExtra(Intent.EXTRA_UID, mAppItem.key);
 
         final List<Integer> uidList = getAppUidList(mAppItem.uids);
         initCycle(uidList);
@@ -220,6 +238,32 @@ public class AppDataUsage extends DataUsageBaseFragment implements OnPreferenceC
             return true;
         }
         return false;
+    }
+
+    @Override
+    public boolean onPreferenceTreeClick(Preference preference) {
+        if (preference == mDaturaFirewall) {
+            getActivity().startActivityAsUser(mDaturaFirewallIntent, mParentUserHandle);
+            return true;
+        }
+
+        if (preference instanceof IntroPreference) {
+            String pkg = !mPackages.isEmpty() ? mPackages.valueAt(0) : null;
+            if (mAppItem.key > 0 && pkg != null) {
+                try {
+                    int uid = mPackageManager.getPackageUidAsUser(pkg,
+                            UserHandle.getUserId(mAppItem.key));
+                    startAppInfoSettings(pkg, uid, this, 0 /* request */,
+                            FeatureFactory.getFeatureFactory().getMetricsFeatureProvider()
+                                    .getMetricsCategory(this));
+                } catch (PackageManager.NameNotFoundException e) {
+                    Log.w(TAG, "Skipping UID because cannot find package " + pkg);
+                }
+            }
+            return true;
+        }
+
+        return super.onPreferenceTreeClick(preference);
     }
 
     @Override
@@ -327,25 +371,6 @@ public class AppDataUsage extends DataUsageBaseFragment implements OnPreferenceC
     }
 
     @Override
-    public boolean onPreferenceTreeClick(Preference preference) {
-        if (!(preference instanceof IntroPreference)) return false;
-
-        String pkg = !mPackages.isEmpty() ? mPackages.valueAt(0) : null;
-        if (mAppItem.key > 0 && pkg != null) {
-            try {
-                int uid = mPackageManager.getPackageUidAsUser(pkg,
-                        UserHandle.getUserId(mAppItem.key));
-                startAppInfoSettings(pkg, uid, this, 0 /* request */,
-                        FeatureFactory.getFeatureFactory().getMetricsFeatureProvider()
-                                .getMetricsCategory(this));
-            } catch (PackageManager.NameNotFoundException e) {
-                Log.w(TAG, "Skipping UID because cannot find package " + pkg);
-            }
-        }
-        return true;
-    }
-
-    @Override
     public int getMetricsCategory() {
         return SettingsEnums.APP_DATA_USAGE;
     }
@@ -366,6 +391,18 @@ public class AppDataUsage extends DataUsageBaseFragment implements OnPreferenceC
     public void onDenylistStatusChanged(int uid, boolean isDenylisted) {
         if (mAppItem.uids.get(uid, false)) {
             updatePrefs(isDenylisted, getUnrestrictData());
+        }
+    }
+
+    /** Return the parent user if this is a profile; otherwise, return the user. */
+    private static UserHandle getUserOrProfileParent(Context context, UserHandle userHandle) {
+        final UserManager um = (UserManager) context.getSystemService(Context.USER_SERVICE);
+        try {
+            final UserHandle parentUserHandle = um.getProfileParent(userHandle);
+            return parentUserHandle != null ? parentUserHandle : userHandle;
+        } catch (Exception e) {
+            Log.w(TAG, "Error retrieving parent user of " + userHandle);
+            return userHandle;
         }
     }
 }
