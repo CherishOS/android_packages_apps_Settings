@@ -66,6 +66,7 @@ android_library {
         "android.hardware.dumpstate-V1.0-java",
         "android.hardware.dumpstate-V1.1-java",
 	     "airbnb-lottie",
+        "glide",
         "faceunlock_framework",
         "kotlinx-coroutines-android",
         "kotlinx-coroutines-core",
@@ -109,4 +110,9 @@ android_app {
 android_library_import {
     name: "contextualcards",
     aars: ["libs/contextualcards.aar"],
+}
+
+android_library_import {
+    name: "glide",
+    aars: ["libs/glide-4.9.0.aar"],
 }
