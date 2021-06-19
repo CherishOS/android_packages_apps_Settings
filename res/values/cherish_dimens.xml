@@ -4,4 +4,7 @@
     <dimen name="storage_card_min_height">@dimen/storage_card_min_width</dimen>
 	 <dimen name="custom_settings_bar_height">144dp</dimen>
 	 <dimen name="cherish_pref_radius">16dp</dimen>
+	 
+	 <!-- Fingerprint -->
+    <dimen name="fingerprint_find_sensor_padding_top">16dp</dimen>
 </resources> 
