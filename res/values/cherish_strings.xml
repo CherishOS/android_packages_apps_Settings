@@ -561,4 +561,7 @@
     <string name="wifi_tether_client_list_title">Client List</string>
     <string name="wifi_tether_client_list_summary">Manage clients connected to hotspot</string>
 
+    <!-- Edge Music Gestures -->
+    <string name="edge_music_title">Edge Music Gesture</string>
+    <string name="edge_music_summary">Enable music control on dead edge area (set edge deadzone to anything other than off)</string>
 </resources>

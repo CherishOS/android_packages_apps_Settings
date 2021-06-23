@@ -104,5 +104,12 @@
         android:title="@string/back_gesture_arrow_message"
         android:summary="@string/back_gesture_arrow_summary"
         android:defaultValue="true" />
+
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="edge_music_control"
+        android:title="@string/edge_music_title"
+        android:summary="@string/edge_music_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
 
