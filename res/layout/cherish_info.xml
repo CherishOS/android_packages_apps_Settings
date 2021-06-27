@@ -59,15 +59,15 @@
             style="@style/TextAppearance.CherishInfoSummary" />
 
         <TextView
-            android:id="@+id/version_code_title"
+            android:id="@+id/device_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp"
-            android:text="@string/cherish_version_code_title"
+            android:text="@string/cherish_device_title"
             style="@style/TextAppearance.CherishInfoTitle" />
 
         <TextView
-            android:id="@+id/version_code_message"
+            android:id="@+id/device_message"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="14dp"

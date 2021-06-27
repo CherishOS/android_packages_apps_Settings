@@ -17,6 +17,7 @@
 package com.android.settings.deviceinfo.firmwareversion;
 
 import android.content.Context;
+import android.os.Build;
 import android.os.SystemProperties;
 import android.widget.TextView;
 
@@ -34,9 +35,35 @@ public class CherishInfoPreferenceController extends AbstractPreferenceControlle
     private static final String PROP_CHERISH_VERSION_CODE = "ro.cherish.codename";
     private static final String PROP_CHERISH_RELEASETYPE = "ro.cherish.build_type";
     private static final String PROP_CHERISH_MAINTAINER = "ro.cherish.maintainer";
+	 private static final String PROP_CHERISH_DEVICE = "ro.cherish.device";
 
     public CherishInfoPreferenceController(Context context) {
         super(context);
+    }
+	
+	private String getDeviceName() {
+        String device = SystemProperties.get(PROP_CHERISH_DEVICE, "");
+        if (device.equals("")) {
+            device = Build.MANUFACTURER + " " + Build.MODEL;
+        }
+        return device;
+    }
+
+    private String getCherishVersion() {
+        final String version = SystemProperties.get(PROP_CHERISH_VERSION,
+                this.mContext.getString(R.string.device_info_default));
+        final String versionCode = SystemProperties.get(PROP_CHERISH_VERSION_CODE,
+                this.mContext.getString(R.string.device_info_default));
+
+        return version + " | " + versionCode;
+    }
+
+    private String getCherishReleaseType() {
+        final String releaseType = SystemProperties.get(PROP_CHERISH_RELEASETYPE,
+                this.mContext.getString(R.string.device_info_default));
+
+        return releaseType.substring(0, 1).toUpperCase() +
+                 releaseType.substring(1).toLowerCase();
     }
 
     @Override
@@ -44,19 +71,16 @@ public class CherishInfoPreferenceController extends AbstractPreferenceControlle
         super.displayPreference(screen);
         final LayoutPreference cherishInfoPreference = screen.findPreference(KEY_CHERISH_INFO);
         final TextView version = (TextView) cherishInfoPreference.findViewById(R.id.version_message);
-        final TextView versionCode = (TextView) cherishInfoPreference.findViewById(R.id.version_code_message);
+        final TextView device = (TextView) cherishInfoPreference.findViewById(R.id.device_message);
         final TextView releaseType = (TextView) cherishInfoPreference.findViewById(R.id.release_type_message);
         final TextView maintainer = (TextView) cherishInfoPreference.findViewById(R.id.maintainer_message);
-        final String cherishVersion = SystemProperties.get(PROP_CHERISH_VERSION,
-                this.mContext.getString(R.string.device_info_default));
-        final String cherishVersionCode = SystemProperties.get(PROP_CHERISH_VERSION_CODE,
-                this.mContext.getString(R.string.device_info_default));
-        final String cherishReleaseType = SystemProperties.get(PROP_CHERISH_RELEASETYPE,
-                this.mContext.getString(R.string.device_info_default));
+        final String cherishVersion = getCherishVersion();
+        final String cherishDevice = getDeviceName();
+        final String cherishReleaseType = getCherishReleaseType();
         final String cherishMaintainer = SystemProperties.get(PROP_CHERISH_MAINTAINER,
                 this.mContext.getString(R.string.device_info_default));
         version.setText(cherishVersion);
-        versionCode.setText(cherishVersionCode);
+        device.setText(cherishDevice);
         releaseType.setText(cherishReleaseType);
         maintainer.setText(cherishMaintainer);
     }
