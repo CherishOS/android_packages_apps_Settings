@@ -80,9 +80,6 @@
     <string name="smart_charging_footer">智能充电允许您设置最大充电电量，以延长电池的使用寿命</string>
     <!-- Cherish maintainer -->
     <string name="maintainer">维护者</string>
-    <!-- Screen off fod -->
-    <string name="fod_gesture_title">熄屏指纹</string>
-    <string name="fod_gesture_summary">无需唤醒屏幕即可解锁设备</string>
     <!-- LiveDisplay -->
     <string name="live_display_summary">基于时间和环境条件来优化您的屏幕以改善可读性和减少眼睛疲劳</string>
     <string name="live_display_mode">显示模式</string>
@@ -229,10 +226,6 @@
     <string name="ambient_music_disabled">已禁用</string>
     <string name="ambient_music_bottom">在底部 (默认)</string>
     <string name="ambient_music_center">居中 (在锁定下)</string>
-    <!-- Changelog -->
-    <string name="changelog_title">更新日志</string>
-    <string name="changelog_summary">自上次更新后</string>
-    <string name="changelog_error">无法读取更新记录</string>
     <!-- Lock screen pattern size -->
     <string name="lock_settings_picker_pattern_size_message">选择图案大小</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
@@ -312,7 +305,7 @@
     <string name="keywords_display_dc_dimming">dc dimming, flicker, eye, strain</string>
     <!-- Cherish versioning -->
     <string name="cherish_version_title">Version</string>
-    <string name="cherish_version_code_title">Codename</string>
+    <string name="cherish_device_title">设备</string>
     <string name="cherish_release_type_title">Release type</string>
     <string name="cherish_maintainer_title">维护者</string>
     <!-- App Lock -->
@@ -395,9 +388,6 @@
     <string name="fingerprint_power_button_press_title">Press to unlock</string>
     <string name="fingerprint_power_button_press_off_summary">Touch power button to unlock with fingerprint when screen is off</string>
     <string name="fingerprint_power_button_press_on_summary">Press power button firmly to unlock with fingerprint when screen is off</string>
-    <!-- SBC HD (Dual Channel) priority -->
-    <string name="sbc_hd_priority_title">SBC HD audio</string>
-    <string name="sbc_hd_priority_summary">Whether to use Dual Channel mode for SBC codec by default</string>
     <!-- Custom Signal bar icons -->
     <string name="custom_signal_bar_title">Signal</string>
     <!-- Custom Wi-Fi bar icons -->
@@ -419,4 +409,34 @@
     <string name="data_usage_monthly">Monthly</string>
     <string name="cherish_about_device_info">Legal &amp; Information</string>
     <string name="cherish_about_device_private">Private Details</string>
+    <!-- One shot automatic Brightness -->
+    <string name="auto_brightness_one_shot_title">Only apply when screen is turned on</string>
+    <string name="auto_brightness_one_shot_summary">Adjustment will occur one time</string>
+    <!-- Face Unlock -->
+    <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
+    <string name="face_unlock_method_default">When the screen is turned on</string>
+    <string name="face_unlock_method_swipe">When swiping on lock screen</string>
+    <!-- Fingerprint location message - default -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Locate the fingerprint sensor on the left side of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Locate the fingerprint sensor on the right side of your phone.</string>
+    <!-- Fingerprint location message - generic -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Locate the fingerprint sensor on the left side of your device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Locate the fingerprint sensor on the right side of your device.</string>
+    <!-- Fingerprint location message - tablet -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
+    <!-- Screen off fod -->
+    <string name="fod_gesture_title">熄屏指纹</string>
+    <string name="fod_gesture_summary">无需唤醒屏幕即可解锁设备</string>
+    <!-- Battery health -->
+    <string name="battery_health_title">Battery health</string>
+    <string name="battery_health_summary">Monitor the battery health of your device</string>
+    <string name="current_battery_capacity">Current battery capacity</string>
+    <string name="current_battery_capacity_summary">The current battery capacity measured by the kernel</string>
+    <string name="designed_battery_capacity">Designed battery capacity</string>
+    <string name="designed_battery_capacity_summary">The battery capacity designed by the manufacturer</string>
+    <string name="battery_charge_cycles">Charge Cycles Completed</string>
 </resources>
