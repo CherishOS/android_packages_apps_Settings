@@ -80,9 +80,6 @@
     <string name="smart_charging_footer">O \"Carregamento Inteligente\" permite que você defina o nível máximo de carregamento para estender a duração da sua bateria</string>
     <!-- Cherish maintainer -->
     <string name="maintainer">Mantedor</string>
-    <!-- Screen off fod -->
-    <string name="fod_gesture_title">Desbloquear com impressão digital quando a tela estiver desligada</string>
-    <string name="fod_gesture_summary">Permite desbloquear o dispositivo sem ter que ligar a tela primeiro</string>
     <!-- LiveDisplay -->
     <string name="live_display_summary">Otimiza sua tela com base na hora do dia e nas condições do ambiente para melhorar a legibilidade e reduzir o cansaço visual</string>
     <string name="live_display_mode">Modo de exibição</string>
@@ -229,10 +226,6 @@
     <string name="ambient_music_disabled">Desabilitado</string>
     <string name="ambient_music_bottom">No final (padrão)</string>
     <string name="ambient_music_center">Centrado (sob o relógio)</string>
-    <!-- Changelog -->
-    <string name="changelog_title">Histórico de atualizações</string>
-    <string name="changelog_summary">Desde a última atualização</string>
-    <string name="changelog_error">Não foi possível carregar o registro de alterações</string>
     <!-- Lock screen pattern size -->
     <string name="lock_settings_picker_pattern_size_message">Escolha um tamanho padrão</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
@@ -287,105 +280,105 @@
     <!-- Clock style -->
     <string name="clock_style_title">Estilo do relógio</string>
     <string name="clock_style_summary">Personalizar o relógio da tela de bloqueio</string>
-    <string name="theme_customization_statusbar_height_title">Statusbar height</string>
-    <string name="default_accent_color">Dodger Blue (default)</string>
-    <string name="default_icon_shape">Circle (default)</string>
-    <string name="default_font">OnePlus Slate (default)</string>
-    <string name="default_icon_pack">AOSP + Oxygen (default)</string>
+    <string name="theme_customization_statusbar_height_title">Altura da barra de status</string>
+    <string name="default_accent_color">Azul Esquiva (padrão)</string>
+    <string name="default_icon_shape">Círculo (pré-definido)</string>
+    <string name="default_font">OnePlus Slate (Padrão)</string>
+    <string name="default_icon_pack">AOSP + Oxygen (padrão)</string>
     <!-- SELinux Status -->
-    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status">Status do SELinux</string>
     <string name="selinux_status_disabled">Desabilitado</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status_permissive">Permissivo</string>
+    <string name="selinux_status_enforcing">Forçando</string>
     <!-- DC Dimming -->
-    <string name="dc_dimming_title">DC Dimming</string>
-    <string name="dc_dimming_info">Reduces eye strain in low light conditions but may result in reduced image quality and poor color production.</string>
-    <string name="dc_dimming_auto_mode_title">Schedule</string>
-    <string name="dc_dimming_mode_brightness">Turn on when brightness is below the threshold</string>
-    <string name="dc_dimming_mode_full">Dependent on time and brightness</string>
-    <string name="dc_dimming_brightness_title">Brightness threshold</string>
+    <string name="dc_dimming_title">Escurecimento DC</string>
+    <string name="dc_dimming_info">Reduz a fadiga ocular em condições de pouca luz, mas pode resultar em qualidade de imagem reduzida e produção de cor ruim.</string>
+    <string name="dc_dimming_auto_mode_title">Programação</string>
+    <string name="dc_dimming_mode_brightness">Ligue quando o brilho estiver abaixo do limite</string>
+    <string name="dc_dimming_mode_full">Depende de tempo e brilho</string>
+    <string name="dc_dimming_brightness_title">Limite de brilho</string>
     <string name="dc_dimming_brightness_disabled">Desabilitado</string>
-    <string name="dc_dimming_restore_auto_mode">Restore auto mode</string>
-    <string name="dc_dimming_brightness_info">Only activate DC Dimming when the average brightness is below the threshold</string>
-    <string name="dc_dimming_off_auto_mode_auto">Will turn on automatically</string>
-    <string name="dc_dimming_on_auto_mode_auto">Will turn off automatically</string>
-    <string name="keywords_display_dc_dimming">dc dimming, flicker, eye, strain</string>
+    <string name="dc_dimming_restore_auto_mode">Restaurar modo automático</string>
+    <string name="dc_dimming_brightness_info">Ative o escurecimento DC apenas quando o brilho médio estiver abaixo do limite</string>
+    <string name="dc_dimming_off_auto_mode_auto">Nunca ativar automaticamente</string>
+    <string name="dc_dimming_on_auto_mode_auto">Nunca ativar automaticamente</string>
+    <string name="keywords_display_dc_dimming">escurecimento Dc, cintilação, olho, tensão</string>
     <!-- Cherish versioning -->
-    <string name="cherish_version_title">Version</string>
-    <string name="cherish_version_code_title">Codename</string>
-    <string name="cherish_release_type_title">Release type</string>
+    <string name="cherish_version_title">Versão</string>
+    <string name="cherish_device_title">Dispositivo</string>
+    <string name="cherish_release_type_title">Tipo de lançamento</string>
     <string name="cherish_maintainer_title">Mantedor</string>
     <!-- App Lock -->
-    <string name="applock_title">App locker</string>
-    <string name="applock_locked">Locked</string>
-    <string name="applock_unlocked">Unlocked</string>
-    <string name="applock_locked_apps">Locked apps</string>
-    <string name="applock_unlocked_apps">Unlocked apps</string>
-    <string name="applock_lock_after_title">Lock app after</string>
-    <string name="applock_lock_after_instantly">Instantly</string>
-    <string name="applock_lock_after_15_seconds">15 Seconds</string>
+    <string name="applock_title">Bloqueador de aplicativos</string>
+    <string name="applock_locked">Bloqueado</string>
+    <string name="applock_unlocked">Desbloqueado</string>
+    <string name="applock_locked_apps">Aplicativos bloqueados</string>
+    <string name="applock_unlocked_apps">Aplicativos desbloqueados</string>
+    <string name="applock_lock_after_title">Bloquear aplicativo após</string>
+    <string name="applock_lock_after_instantly">Instantaneamente</string>
+    <string name="applock_lock_after_15_seconds">15 Segundos</string>
     <string name="applock_lock_after_screen_off">Desligar tela</string>
-    <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
-    <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
-    <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
-    <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
+    <string name="applock_lock_after_summary">O aplicativo será bloqueado após tempo selecionado</string>
+    <string name="applock_lock_after_instantly_summary">O aplicativo será bloqueado instantaneamente quando fechado</string>
+    <string name="applock_lock_after_15_seconds_summary">O aplicativo será bloqueado 15 segundos após fechado</string>
+    <string name="applock_lock_after_screen_off_summary">O aplicativo será bloqueado quando a tela for desligada</string>
     <string name="applock_notification_info">You can show/hide the notification content on a per-app basis by clicking on the notification icon shown on each locked apps\' preference</string>
-    <string name="applock_show_notif">Showing notification content</string>
-    <string name="applock_hide_notif">Hiding notification content</string>
-    <string name="applock_setup">Setup app locker</string>
-    <string name="applock_overlay_summary">This feature is not available because this app is locked</string>
+    <string name="applock_show_notif">Mostrando conteúdo de notificação</string>
+    <string name="applock_hide_notif">Ocultar o conteúdo das notificações</string>
+    <string name="applock_setup">Configurar o bloqueador de aplicativos</string>
+    <string name="applock_overlay_summary">Esse recurso não está disponível porque este aplicativo está bloqueado</string>
     <plurals name="applock_summary">
-        <item quantity="one">1 app locked</item>
-        <item quantity="other">%d apps locked</item>
+        <item quantity="one">1 aplicativo bloqueado</item>
+        <item quantity="other">%d aplicativos bloqueados</item>
     </plurals>
-    <string name="keywords_applock_settings">applock, applocker, app lock, app locker</string>
+    <string name="keywords_applock_settings">applock, applocker, bloqueio de apps, bloqueador de apps</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
-    <string name="security_dashboard_summary_face_and_fingerprint">Screen lock, fingerprint, face unlock</string>
-    <string name="face_redo_confirm_btn">Redo</string>
-    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Fazer um novo escaneamento facial e remover o existente</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Refazer escaneamento facial</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Bloqueio da tela, impressão digital, desbloqueio facial</string>
+    <string name="face_redo_confirm_btn">Refazer</string>
+    <string name="face_redo_warning_msg">Deseja remover o escaneamento facial existente e criar um novo?</string>
     <!-- global cleartext penalties -->
-    <string name="cleartext_network_policy_title">Restrict cleartext network traffic</string>
-    <string name="cleartext_network_policy_summary">Blocks all non-TLS network traffic. Requires Private DNS configuration. Note: Without explicit exemptions, Tor and most VPNs won\'t work</string>
+    <string name="cleartext_network_policy_title">Restringir tráfego de rede não encriptado</string>
+    <string name="cleartext_network_policy_summary">Bloqueia todo o tráfego de rede não-TLS. Requer configuração de DNS privado. Nota: Sem isenções explícitas, o Tor e a maioria das VPNs não funcionarão</string>
     <!--  screen, setting option name to change wifi timeout -->
-    <string name="wifi_timeout">Turn off Wi-Fi automatically</string>
+    <string name="wifi_timeout">Desligar Wi-Fi automaticamente</string>
     <!--  screen, setting option summary to change wifi timeout -->
-    <string name="wifi_timeout_summary">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
+    <string name="wifi_timeout_summary">O Wi-Fi será desativado após <xliff:g id="timeout_description">%1$s</xliff:g> se nenhuma rede estiver conectada</string>
     <string name="wifi_timeout_summary2">Desabilitado</string>
     <string name="wifi_timeout_summary_never">Nunca</string>
-    <string name="wifi_timeout_summary_15secs">15 seconds</string>
-    <string name="wifi_timeout_summary_30secs">30 seconds</string>
+    <string name="wifi_timeout_summary_15secs">15 segundos</string>
+    <string name="wifi_timeout_summary_30secs">30 segundos</string>
     <string name="wifi_timeout_summary_1min">1 minuto</string>
     <string name="wifi_timeout_summary_2mins">2 minutos</string>
     <string name="wifi_timeout_summary_5mins">5 minutos</string>
     <string name="wifi_timeout_summary_10mins">10 minutos</string>
     <string name="wifi_timeout_summary_30mins">30 minutos</string>
-    <string name="wifi_timeout_summary_1hour">1 hour</string>
-    <string name="wifi_timeout_summary_2hours">2 hours</string>
-    <string name="wifi_timeout_summary_4hours">4 hours</string>
-    <string name="wifi_timeout_summary_8hours">8 hours</string>
+    <string name="wifi_timeout_summary_1hour">1 hora</string>
+    <string name="wifi_timeout_summary_2hours">2 horas</string>
+    <string name="wifi_timeout_summary_4hours">4 horas</string>
+    <string name="wifi_timeout_summary_8hours">8 horas</string>
     <!-- Connected devices screen, setting option name to change bluetooth timeout -->
-    <string name="bluetooth_timeout">Bluetooth timeout</string>
+    <string name="bluetooth_timeout">Tempo limite do Bluetooth</string>
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
-    <string name="bluetooth_timeout_summary">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
-    <string name="bluetooth_timeout_summary2">Do not automatically turn off Bluetooth</string>
+    <string name="bluetooth_timeout_summary">O Wi-Fi será desativado após <xliff:g id="timeout_description">%1$s</xliff:g> se nenhuma rede estiver conectada</string>
+    <string name="bluetooth_timeout_summary2">Não desativar o Bluetooth automaticamente</string>
     <string name="bluetooth_timeout_summary_never">Nunca</string>
-    <string name="bluetooth_timeout_summary_15secs">15 seconds</string>
-    <string name="bluetooth_timeout_summary_30secs">30 seconds</string>
+    <string name="bluetooth_timeout_summary_15secs">15 segundos</string>
+    <string name="bluetooth_timeout_summary_30secs">30 segundos</string>
     <string name="bluetooth_timeout_summary_1min">1 minuto</string>
     <string name="bluetooth_timeout_summary_2mins">2 minutos</string>
     <string name="bluetooth_timeout_summary_5mins">5 minutos</string>
     <string name="bluetooth_timeout_summary_10mins">10 minutos</string>
     <string name="bluetooth_timeout_summary_30mins">30 minutos</string>
-    <string name="bluetooth_timeout_summary_1hour">1 hour</string>
-    <string name="bluetooth_timeout_summary_2hours">2 hours</string>
-    <string name="bluetooth_timeout_summary_4hours">4 hours</string>
-    <string name="bluetooth_timeout_summary_8hours">8 hours</string>
+    <string name="bluetooth_timeout_summary_1hour">1 hora</string>
+    <string name="bluetooth_timeout_summary_2hours">2 horas</string>
+    <string name="bluetooth_timeout_summary_4hours">4 horas</string>
+    <string name="bluetooth_timeout_summary_8hours">8 horas</string>
     <!-- Smart cutoff -->
-    <string name="smart_cutoff_title">Smart Cutoff</string>
-    <string name="smart_cutoff_summary">Set maximum Temperature</string>
-    <string name="smart_cutoff_switch_title">Use Smart cutoff</string>
+    <string name="smart_cutoff_title">Corte Inteligente</string>
+    <string name="smart_cutoff_summary">Temperatura máxima</string>
+    <string name="smart_cutoff_switch_title">Usar corte inteligente</string>
     <string name="smart_cutoff_level_title">Nível para interromper o carregamento</string>
     <string name="smart_cutoff_resume_level_title">Nível para começar o carregamento</string>
     <!-- Running services -->
@@ -396,9 +389,6 @@
     <string name="fingerprint_power_button_press_title">Pressione para desbloquear</string>
     <string name="fingerprint_power_button_press_off_summary">Toque no botão liga/desliga para desbloquear com impressão digital quando a tela estiver desligada</string>
     <string name="fingerprint_power_button_press_on_summary">Pressione o botão liga/desliga para desbloquear com impressão digital quando a tela estiver desligada</string>
-    <!-- SBC HD (Dual Channel) priority -->
-    <string name="sbc_hd_priority_title">Áudio SBC HD</string>
-    <string name="sbc_hd_priority_summary">Se deseja usar o modo Dual Channel para o codec SBC como padrão</string>
     <!-- Custom Signal bar icons -->
     <string name="custom_signal_bar_title">Sinal</string>
     <!-- Custom Wi-Fi bar icons -->
@@ -420,4 +410,34 @@
     <string name="data_usage_monthly">Mensal</string>
     <string name="cherish_about_device_info">Informações Legais</string>
     <string name="cherish_about_device_private">Detalhes privados</string>
+    <!-- One shot automatic Brightness -->
+    <string name="auto_brightness_one_shot_title">Only apply when screen is turned on</string>
+    <string name="auto_brightness_one_shot_summary">Adjustment will occur one time</string>
+    <!-- Face Unlock -->
+    <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
+    <string name="face_unlock_method_default">When the screen is turned on</string>
+    <string name="face_unlock_method_swipe">When swiping on lock screen</string>
+    <!-- Fingerprint location message - default -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Locate the fingerprint sensor on the left side of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Locate the fingerprint sensor on the right side of your phone.</string>
+    <!-- Fingerprint location message - generic -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Locate the fingerprint sensor on the left side of your device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Locate the fingerprint sensor on the right side of your device.</string>
+    <!-- Fingerprint location message - tablet -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
+    <!-- Screen off fod -->
+    <string name="fod_gesture_title">Desbloquear com impressão digital quando a tela estiver desligada</string>
+    <string name="fod_gesture_summary">Permite desbloquear o dispositivo sem ter que ligar a tela primeiro</string>
+    <!-- Battery health -->
+    <string name="battery_health_title">Battery health</string>
+    <string name="battery_health_summary">Monitor the battery health of your device</string>
+    <string name="current_battery_capacity">Current battery capacity</string>
+    <string name="current_battery_capacity_summary">The current battery capacity measured by the kernel</string>
+    <string name="designed_battery_capacity">Designed battery capacity</string>
+    <string name="designed_battery_capacity_summary">The battery capacity designed by the manufacturer</string>
+    <string name="battery_charge_cycles">Charge Cycles Completed</string>
 </resources>

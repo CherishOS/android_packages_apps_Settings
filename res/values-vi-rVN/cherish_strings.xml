@@ -80,9 +80,6 @@
     <string name="smart_charging_footer">Sạc thông minh cho phép bạn đặt mức sạc tối đa để kéo dài tuổi thọ của pin</string>
     <!-- Cherish maintainer -->
     <string name="maintainer">Người chủ trì</string>
-    <!-- Screen off fod -->
-    <string name="fod_gesture_title">Mở khóa bằng vân tay khi màn hình tắt</string>
-    <string name="fod_gesture_summary">Cho phép mở khóa thiết bị mà không cần phải đánh thức màn hình trước</string>
     <!-- LiveDisplay -->
     <string name="live_display_summary">Tối ưu hóa màn hình dựa trên điều kiện môi trường và thời gian trong ngày để cải thiện khả năng đọc và giảm mỏi mắt</string>
     <string name="live_display_mode">Chế độ Hiển thị</string>
@@ -229,10 +226,6 @@
     <string name="ambient_music_disabled">Tắt</string>
     <string name="ambient_music_bottom">Ở dưới cùng (mặc định)</string>
     <string name="ambient_music_center">Căn giữa (dưới đồng hồ)</string>
-    <!-- Changelog -->
-    <string name="changelog_title">Nhật ký thay đổi</string>
-    <string name="changelog_summary">Từ lần cập nhật cuối</string>
-    <string name="changelog_error">Không thể tải nhật ký thay đổi</string>
     <!-- Lock screen pattern size -->
     <string name="lock_settings_picker_pattern_size_message">Chọn kích thước mẫu</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
@@ -312,7 +305,7 @@
     <string name="keywords_display_dc_dimming">dc dimming, độ sáng, giảm độ sáng, giam do sang, do sang</string>
     <!-- Cherish versioning -->
     <string name="cherish_version_title">Phiên bản</string>
-    <string name="cherish_version_code_title">Tên mã</string>
+    <string name="cherish_device_title">Thiết bị</string>
     <string name="cherish_release_type_title">Loại phiên bản</string>
     <string name="cherish_maintainer_title">Người chủ trì</string>
     <!-- App Lock -->
@@ -395,13 +388,10 @@
     <string name="fingerprint_power_button_press_title">Nhấn để mở khoá</string>
     <string name="fingerprint_power_button_press_off_summary">Chạm vào nút nguồn để mở khóa bằng vân tay khi màn hình tắt</string>
     <string name="fingerprint_power_button_press_on_summary">Nhấn nút nguồn để mở khóa bằng vân tay khi màn hình tắt</string>
-    <!-- SBC HD (Dual Channel) priority -->
-    <string name="sbc_hd_priority_title">Âm thanh SBC HD</string>
-    <string name="sbc_hd_priority_summary">Có nên sử dụng chế độ Dual Channel cho codec SBC theo mặc định</string>
     <!-- Custom Signal bar icons -->
     <string name="custom_signal_bar_title">Tín hiệu</string>
     <!-- Custom Wi-Fi bar icons -->
-    <string name="custom_wifi_bar_title">Wifi</string>
+    <string name="custom_wifi_bar_title">Wi-Fi</string>
     <!-- Themes customisation -->
     <string name="theme_customization_systemui_title">Chủ đề hệ thống</string>
     <!-- Refresh rate -->
@@ -419,4 +409,34 @@
     <string name="data_usage_monthly">Hàng tháng</string>
     <string name="cherish_about_device_info">Pháp lý &amp; thông tin</string>
     <string name="cherish_about_device_private">Quyền riêng tư</string>
+    <!-- One shot automatic Brightness -->
+    <string name="auto_brightness_one_shot_title">Ứng dụng sẽ tự khóa sau khi màn hình tắt</string>
+    <string name="auto_brightness_one_shot_summary">Điều chỉnh sẽ xảy ra một lần</string>
+    <!-- Face Unlock -->
+    <string name="face_unlock_method_title">Cho phép mở khóa bằng khuôn mặt trên màn hình khóa</string>
+    <string name="face_unlock_method_default">Khi màn hình được bật</string>
+    <string name="face_unlock_method_swipe">Khi vuốt trên màn hình khóa</string>
+    <!-- Fingerprint location message - default -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Xác định vị trí cảm biến vân tay ở mặt trước điện thoại của bạn.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Xác định vị trí cảm biến vân tay ở bên trái điện thoại của bạn.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Xác định vị trí cảm biến vân tay ở bên phải điện thoại của bạn.</string>
+    <!-- Fingerprint location message - generic -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Vị trí cảm biến vân tay ở mặt trước thiết bị của bạn.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Vị trí cảm biến vân tay ở bên trái của thiết bị.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Vị trí cảm biến vân tay ở bên cạnh phải thiết bị của bạn.</string>
+    <!-- Fingerprint location message - tablet -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Vị trí cảm biến vân tay trên mặt trước điện thoại của bạn.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Vị trí cảm biến vân tay trên cạnh trái điện thoại của bạn.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Vị trí cảm biến vân tay trên cạnh phải điện thoại của bạn.</string>
+    <!-- Screen off fod -->
+    <string name="fod_gesture_title">Mở khóa bằng vân tay khi màn hình tắt</string>
+    <string name="fod_gesture_summary">Cho phép mở khóa thiết bị mà không cần phải đánh thức màn hình trước</string>
+    <!-- Battery health -->
+    <string name="battery_health_title">Tình trạng pin</string>
+    <string name="battery_health_summary">Theo dõi tình trạng pin của thiết bị</string>
+    <string name="current_battery_capacity">Dung lượng pin hiện tại</string>
+    <string name="current_battery_capacity_summary">Dung lượng pin hiện tại được đo bằng hạt nhân</string>
+    <string name="designed_battery_capacity">Dung lượng pin được thiết kế</string>
+    <string name="designed_battery_capacity_summary">Dung lượng pin tiêu chuẩn từ nhà sản xuất</string>
+    <string name="battery_charge_cycles">Chu kỳ sạc đầy pin</string>
 </resources>
