@@ -51,7 +51,7 @@
     <!-- Account name -->
     <Preference
         android:key="branded_account"
-        android:layout="@layout/cherish_preference_middle_card"
+        android:layout="@layout/cherish_preference_bottom_card"
         android:order="4"
         android:summary="@string/summary_placeholder"
         android:title="@string/my_device_info_account_preference_title"
