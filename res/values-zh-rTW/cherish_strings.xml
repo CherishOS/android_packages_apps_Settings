@@ -59,7 +59,7 @@
     <string name="display_rotation_90_title">90 degrees</string>
     <string name="display_rotation_180_title">180 degrees</string>
     <string name="display_rotation_270_title">270 degrees</string>
-    <string name="weather_title">Weather</string>
+    <string name="weather_title">天氣</string>
     <string name="volumesteps_title">Volume Steps</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Saved Earbuds</string>
@@ -90,8 +90,8 @@
     <string name="live_display_night">夜間</string>
     <string name="live_display_outdoor_mode_title">Automatic outdoor mode</string>
     <string name="live_display_outdoor_mode_summary">Increase brightness and saturation automatically under bright sunlight</string>
-    <string name="live_display_anti_flicker_title">Anti flicker</string>
-    <string name="live_display_anti_flicker_summary">Prevent extensive flickering and reduce eye strain in low light conditions. It might degrade color accuracy and affect the way some items are displayed.</string>
+    <string name="live_display_anti_flicker_title">防閃爍</string>
+    <string name="live_display_anti_flicker_summary">在缺乏光線下，防止大量閃爍並減少眼睛疲勞。 這可能會降低色彩準確性，並影響某些項目的顯示方式。</string>
     <string name="live_display_low_power_title">Reduce power consumption</string>
     <string name="live_display_low_power_summary">Adjust display for lowest power consumption without degradation</string>
     <string name="live_display_enhance_color_title">Enhance colors</string>
@@ -233,9 +233,9 @@
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
     <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
     <!-- Clipboard toast info -->
-    <string name="clipboard_toast_info_title">Clipboard access alerts</string>
-    <string name="clipboard_toast_info_show_important">Show only important alerts</string>
-    <string name="clipboard_toast_info_show_all">Show all access alerts</string>
+    <string name="clipboard_toast_info_title">存取剪貼簿警告</string>
+    <string name="clipboard_toast_info_show_important">只顯示重要的警示</string>
+    <string name="clipboard_toast_info_show_all">顯示所有存取警示</string>
     <!-- Misc gesture settings -->
     <string name="back_gesture_haptic_title">Haptic feedback</string>
     <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
@@ -322,7 +322,7 @@
     <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
     <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
     <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
-    <string name="applock_notification_info">You can show/hide the notification content on a per-app basis by clicking on the notification icon shown on each locked apps\' preference</string>
+    <string name="applock_notification_info">你可以透過點擊每個鎖定的應用程式的偏好設定上顯示的通知按鈕，來顯示/隱藏應用程式的通知內容</string>
     <string name="applock_show_notif">Showing notification content</string>
     <string name="applock_hide_notif">Hiding notification content</string>
     <string name="applock_setup">Setup app locker</string>
@@ -345,13 +345,13 @@
     <!--  screen, setting option summary to change wifi timeout -->
     <string name="wifi_timeout_summary">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
     <string name="wifi_timeout_summary2">Disabled</string>
-    <string name="wifi_timeout_summary_never">Never</string>
+    <string name="wifi_timeout_summary_never">永遠不要</string>
     <string name="wifi_timeout_summary_15secs">15 seconds</string>
     <string name="wifi_timeout_summary_30secs">30 seconds</string>
-    <string name="wifi_timeout_summary_1min">1 minute</string>
-    <string name="wifi_timeout_summary_2mins">2 minutes</string>
-    <string name="wifi_timeout_summary_5mins">5 minutes</string>
-    <string name="wifi_timeout_summary_10mins">10 minutes</string>
+    <string name="wifi_timeout_summary_1min">1 分鐘</string>
+    <string name="wifi_timeout_summary_2mins">2 分鐘</string>
+    <string name="wifi_timeout_summary_5mins">5 分鐘</string>
+    <string name="wifi_timeout_summary_10mins">10 分鐘</string>
     <string name="wifi_timeout_summary_30mins">30 minutes</string>
     <string name="wifi_timeout_summary_1hour">1 hour</string>
     <string name="wifi_timeout_summary_2hours">2 hours</string>
@@ -362,13 +362,13 @@
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
     <string name="bluetooth_timeout_summary">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
     <string name="bluetooth_timeout_summary2">Do not automatically turn off Bluetooth</string>
-    <string name="bluetooth_timeout_summary_never">Never</string>
+    <string name="bluetooth_timeout_summary_never">永遠不要</string>
     <string name="bluetooth_timeout_summary_15secs">15 seconds</string>
     <string name="bluetooth_timeout_summary_30secs">30 seconds</string>
-    <string name="bluetooth_timeout_summary_1min">1 minute</string>
-    <string name="bluetooth_timeout_summary_2mins">2 minutes</string>
-    <string name="bluetooth_timeout_summary_5mins">5 minutes</string>
-    <string name="bluetooth_timeout_summary_10mins">10 minutes</string>
+    <string name="bluetooth_timeout_summary_1min">1 分鐘</string>
+    <string name="bluetooth_timeout_summary_2mins">2 分鐘</string>
+    <string name="bluetooth_timeout_summary_5mins">5 分鐘</string>
+    <string name="bluetooth_timeout_summary_10mins">10 分鐘</string>
     <string name="bluetooth_timeout_summary_30mins">30 minutes</string>
     <string name="bluetooth_timeout_summary_1hour">1 hour</string>
     <string name="bluetooth_timeout_summary_2hours">2 hours</string>
@@ -381,67 +381,67 @@
     <string name="smart_cutoff_level_title">Stop trigger level</string>
     <string name="smart_cutoff_resume_level_title">Start trigger level</string>
     <!-- Running services -->
-    <string name="background_processes_settings_title">Background processes</string>
+    <string name="background_processes_settings_title">背景處理程序</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <string name="volume_link_notification_title">連結鈴聲 &amp; 通知音量</string>
     <!-- Power Button Fingerprint -->
-    <string name="fingerprint_power_button_press_title">Press to unlock</string>
-    <string name="fingerprint_power_button_press_off_summary">Touch power button to unlock with fingerprint when screen is off</string>
-    <string name="fingerprint_power_button_press_on_summary">Press power button firmly to unlock with fingerprint when screen is off</string>
+    <string name="fingerprint_power_button_press_title">按下電源鍵以解鎖</string>
+    <string name="fingerprint_power_button_press_off_summary">螢幕關閉時按下電源鍵以指紋解鎖</string>
+    <string name="fingerprint_power_button_press_on_summary">螢幕關閉時長按電源鍵以指紋解鎖</string>
     <!-- Custom Signal bar icons -->
-    <string name="custom_signal_bar_title">Signal</string>
+    <string name="custom_signal_bar_title">訊號</string>
     <!-- Custom Wi-Fi bar icons -->
     <string name="custom_wifi_bar_title">Wi-Fi</string>
     <!-- Themes customisation -->
-    <string name="theme_customization_systemui_title">System themes</string>
+    <string name="theme_customization_systemui_title">系統主題</string>
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">Minimum refresh rate</string>
-    <string name="max_refresh_rate_title">Maximum refresh rate</string>
-    <string name="battery_saver_refresh_rate_title">Reduce refresh rate</string>
-    <string name="battery_saver_refresh_rate_summary">Use 60 Hz screen refresh rate to save power when Battery Saver is on</string>
+    <string name="max_refresh_rate_title">最高螢幕更新率</string>
+    <string name="battery_saver_refresh_rate_title">降低螢幕更新率</string>
+    <string name="battery_saver_refresh_rate_summary">在省電模式開啟時使用 60 Hz 螢幕更新率以減少電量消耗</string>
     <!-- FontEngine -->
-    <string name="font_picker_title">Font</string>
-    <string name="disable_fonts_installed_title">Font picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the font picker.</string>
-    <string name="font_picker_progress">Applying new font\u2026</string>
+    <string name="font_picker_title">字型</string>
+    <string name="disable_fonts_installed_title">為了避免與 Substratum 衝突，字型管理器已經停用。如果想要使用字型管理器，請解除安裝 Substratum。</string>
+    <string name="font_picker_progress">正在套用新的字型\u2026</string>
     <!-- Data usage -->
-    <string name="data_usage_period">Data usage period</string>
-    <string name="data_usage_daily">Daily</string>
-    <string name="data_usage_monthly">Monthly</string>
-    <string name="cherish_about_device_info">Legal &amp; Information</string>
-    <string name="cherish_about_device_private">Private Details</string>
+    <string name="data_usage_period">行動數據用量週期</string>
+    <string name="data_usage_daily">每日</string>
+    <string name="data_usage_monthly">每月</string>
+    <string name="cherish_about_device_info">法律 &amp; 資訊</string>
+    <string name="cherish_about_device_private">隱私資訊</string>
     <!-- One shot automatic Brightness -->
-    <string name="auto_brightness_one_shot_title">Only apply when screen is turned on</string>
-    <string name="auto_brightness_one_shot_summary">Adjustment will occur one time</string>
+    <string name="auto_brightness_one_shot_title">只有在螢幕開啟時應用</string>
+    <string name="auto_brightness_one_shot_summary">調整將只發生一次</string>
     <!-- Face Unlock -->
-    <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
-    <string name="face_unlock_method_default">When the screen is turned on</string>
-    <string name="face_unlock_method_swipe">When swiping on lock screen</string>
+    <string name="face_unlock_method_title">允許在鎖定畫面使用臉部辨識解鎖</string>
+    <string name="face_unlock_method_default">當螢幕開啟時</string>
+    <string name="face_unlock_method_swipe">在鎖定畫面滑動時</string>
     <!-- Fingerprint location message - default -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Locate the fingerprint sensor on the left side of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Locate the fingerprint sensor on the right side of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">指紋感應器位於手機正面。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">指紋感應器位於手機左側。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">指紋感應器位於手機右側。</string>
     <!-- Fingerprint location message - generic -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Locate the fingerprint sensor on the left side of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Locate the fingerprint sensor on the right side of your device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">指紋感應器位於裝置正面。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">指紋感應器位於裝置左側。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">指紋感應器位於裝置右側。</string>
     <!-- Fingerprint location message - tablet -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">指紋感應器位於平板正面。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">指紋感應器位於平板左側。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">指紋感應器位於平板右側。</string>
     <!-- Screen off fod -->
-    <string name="fod_gesture_title">Screen off fingerprint</string>
+    <string name="fod_gesture_title">允許螢幕關閉時以指紋解鎖</string>
     <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
     <!-- Battery health -->
-    <string name="battery_health_title">Battery health</string>
-    <string name="battery_health_summary">Monitor the battery health of your device</string>
-    <string name="current_battery_capacity">Current battery capacity</string>
-    <string name="current_battery_capacity_summary">The current battery capacity measured by the kernel</string>
-    <string name="designed_battery_capacity">Designed battery capacity</string>
-    <string name="designed_battery_capacity_summary">The battery capacity designed by the manufacturer</string>
-    <string name="battery_charge_cycles">Charge Cycles Completed</string>
+    <string name="battery_health_title">電池健康度</string>
+    <string name="battery_health_summary">監控你的電池健康度</string>
+    <string name="current_battery_capacity">目前電池容量</string>
+    <string name="current_battery_capacity_summary">系統核心測量的目前電池容量</string>
+    <string name="designed_battery_capacity">原電池容量</string>
+    <string name="designed_battery_capacity_summary">手機製造商設計的電池容量</string>
+    <string name="battery_charge_cycles">充電週期循環次數</string>
     <!-- Settings categories -->
-    <string name="connectivity_title">Connectivity</string>
-    <string name="personalize_title">Personalize</string>
-    <string name="security_title">Security</string>
-    <string name="others_title">Others</string>
+    <string name="connectivity_title">連線</string>
+    <string name="personalize_title">個人化</string>
+    <string name="security_title">安全性</string>
+    <string name="others_title">其他選項</string>
 </resources>
