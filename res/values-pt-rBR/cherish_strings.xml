@@ -441,8 +441,8 @@
     <string name="designed_battery_capacity_summary">A capacidade da bateria projetada pelo fabricante</string>
     <string name="battery_charge_cycles">Ciclos de carregamento concluídos</string>
     <!-- Settings categories -->
-    <string name="connectivity_title">Connectivity</string>
-    <string name="personalize_title">Personalize</string>
-    <string name="security_title">Security</string>
-    <string name="others_title">Others</string>
+    <string name="connectivity_title">Conectividade</string>
+    <string name="personalize_title">Personalizar</string>
+    <string name="security_title">Segurança</string>
+    <string name="others_title">Outros</string>
 </resources>

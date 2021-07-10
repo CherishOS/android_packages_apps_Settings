@@ -401,7 +401,7 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="battery_saver_refresh_rate_title">Kurangi kecepatan refresh</string>
     <string name="battery_saver_refresh_rate_summary">Gunakan kecepatan refresh layar 60 Hz untuk menghemat daya saat Penghemat Baterai aktif</string>
     <!-- FontEngine -->
-    <string name="font_picker_title">Font</string>
+    <string name="font_picker_title">Jenis huruf</string>
     <string name="disable_fonts_installed_title">Pemilih font tidak tersedia untuk menghindari konflik dengan Substratum. Copot pemasangannya jika Anda ingin menggunakan pemilih font.</string>
     <string name="font_picker_progress">Menerapkan font baru\u2026</string>
     <!-- Data usage -->
@@ -420,29 +420,29 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <!-- Fingerprint location message - default -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Temukan sensor sidik jari di bagian depan ponsel Anda.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Temukan sensor sidik jari di sisi kiri telepon Anda.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Locate the fingerprint sensor on the right side of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Temukan sensor sidik jari di sisi kanan ponsel Anda.</string>
     <!-- Fingerprint location message - generic -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Locate the fingerprint sensor on the left side of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Locate the fingerprint sensor on the right side of your device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Temukan sensor sidik jari di bagian depan perangkat Anda.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Temukan sensor sidik jari di sisi kiri perangkat Anda.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Temukan lokasi sensor sidik jari di sisi kanan perangkat Anda.</string>
     <!-- Fingerprint location message - tablet -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Temukan sensor sidik jari di bagian depan tablet Anda.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Temukan sensor sidik jari di sisi kiri tablet Anda.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Temukan sensor sidik jari di sisi kanan tablet Anda.</string>
     <!-- Screen off fod -->
     <string name="fod_gesture_title">Sidik jari saat layar mati</string>
     <string name="fod_gesture_summary">Izinkan membuka kunci tanpa harus mengaktifkan layar terlebih dahulu</string>
     <!-- Battery health -->
-    <string name="battery_health_title">Battery health</string>
-    <string name="battery_health_summary">Monitor the battery health of your device</string>
-    <string name="current_battery_capacity">Current battery capacity</string>
-    <string name="current_battery_capacity_summary">The current battery capacity measured by the kernel</string>
-    <string name="designed_battery_capacity">Designed battery capacity</string>
-    <string name="designed_battery_capacity_summary">The battery capacity designed by the manufacturer</string>
-    <string name="battery_charge_cycles">Charge Cycles Completed</string>
+    <string name="battery_health_title">Kesehatan Baterai</string>
+    <string name="battery_health_summary">Pantau kesehatan baterai perangkat Anda</string>
+    <string name="current_battery_capacity">Kapasitas baterai saat ini</string>
+    <string name="current_battery_capacity_summary">Kapasitas baterai saat ini diukur oleh kernel</string>
+    <string name="designed_battery_capacity">Kapasitas baterai yang dirancang</string>
+    <string name="designed_battery_capacity_summary">Kapasitas baterai dirancang oleh pabrikan</string>
+    <string name="battery_charge_cycles">Siklus Mengisi Selesai</string>
     <!-- Settings categories -->
-    <string name="connectivity_title">Connectivity</string>
-    <string name="personalize_title">Personalize</string>
-    <string name="security_title">Security</string>
-    <string name="others_title">Others</string>
+    <string name="connectivity_title">Konektivitas</string>
+    <string name="personalize_title">Personalisasi</string>
+    <string name="security_title">Keamanan</string>
+    <string name="others_title">Lain-lain</string>
 </resources>
