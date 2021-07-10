@@ -441,8 +441,8 @@
     <string name="designed_battery_capacity_summary">Üretici tarafından tasarlanan pil kapasitesi</string>
     <string name="battery_charge_cycles">Şarj döngüleri tamamlandı</string>
     <!-- Settings categories -->
-    <string name="connectivity_title">Connectivity</string>
-    <string name="personalize_title">Personalize</string>
-    <string name="security_title">Security</string>
-    <string name="others_title">Others</string>
+    <string name="connectivity_title">Bağlantılar</string>
+    <string name="personalize_title">Kişiselleştir</string>
+    <string name="security_title">Güvenlik</string>
+    <string name="others_title">Diğer</string>
 </resources>
