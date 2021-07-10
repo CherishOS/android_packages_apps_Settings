@@ -51,11 +51,19 @@
     <!-- Account name -->
     <Preference
         android:key="branded_account"
-        android:layout="@layout/cherish_preference_bottom_card"
+        android:layout="@layout/cherish_preference_middle_card"
         android:order="4"
         android:summary="@string/summary_placeholder"
         android:title="@string/my_device_info_account_preference_title"
         settings:controller="com.android.settings.deviceinfo.BrandedAccountPreferenceController" />
+		
+	<!-- SELinux status information -->
+    <Preference
+        android:key="selinux_status"
+        android:layout="@layout/cherish_preference_bottom_card"
+        android:order="5"
+        android:summary="@string/selinux_status_enforcing"
+        android:title="@string/selinux_status" />
 
     <PreferenceCategory
         android:layout="@layout/cherish_preference_category"
