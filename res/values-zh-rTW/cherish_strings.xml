@@ -278,7 +278,7 @@
     <string name="increasing_ring_min_volume_title">起始音量</string>
     <string name="increasing_ring_ramp_up_time_title">漸強時間</string>
     <!-- Clock style -->
-    <string name="clock_style_title">Clock style</string>
+    <string name="clock_style_title">時鐘樣式</string>
     <string name="clock_style_summary">自訂鎖定畫面時鐘</string>
     <string name="theme_customization_statusbar_height_title">Statusbar height</string>
     <string name="default_accent_color">Dodger Blue (default)</string>
