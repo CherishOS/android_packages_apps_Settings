@@ -33,7 +33,7 @@ android_library {
         "CherishSettings/src/**/*.java",
     ],
 
-    aaptflags: ["--extra-packages com.cherish.settings"],
+    aaptflags: ["--extra-packages com.cherish.settings", "--extra-packages com.factor.bouncy"],
 
     resource_dirs: ["res",
                     "CherishSettings/res"
@@ -76,6 +76,7 @@ android_library {
         "kotlinx-coroutines-android",
         "kotlinx-coroutines-core",
         "androidx.dynamicanimation_dynamicanimation",
+        "bouncy",
     ],
 
     libs: [
@@ -120,4 +121,10 @@ android_library_import {
 android_library_import {
     name: "glide",
     aars: ["libs/glide-4.9.0.aar"],
+}
+
+android_library_import {
+    name: "bouncy",
+    aars: ["libs/bouncy-release.aar"],
+    sdk_version: "current",
 }
