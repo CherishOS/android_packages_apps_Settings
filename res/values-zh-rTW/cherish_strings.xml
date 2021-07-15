@@ -26,242 +26,242 @@
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">重置統計資訊</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="battery_stats_message">電池統計數據即將重設</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_title">電池溫度</string>
     <!--Cherish Settings-->
-    <string name="cherish_settings_title">Cherish Settings</string>
-    <string name="cherish_settings_summary">Happiness is not available and it comes from your own actions</string>
+    <string name="cherish_settings_title">Cherish 設定</string>
+    <string name="cherish_settings_summary">快樂來自您自己的行動</string>
     <!-- Custom light color -->
-    <string name="custom_light_title">Light color</string>
-    <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
-    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
-    <string name="value_equals_default">def</string>
+    <string name="custom_light_title">指示燈顏色</string>
+    <string name="custom_light_on_time_title">在 LED 閃爍時燈號開啟時間 (毫秒)</string>
+    <string name="custom_light_off_time_title">在 LED 閃爍時燈號的關閉時間 (毫秒)</string>
+    <string name="value_equals_default">預設</string>
     <!-- Charging vibration -->
-    <string name="charging_sounds_nos_title">Charging sound</string>
-    <string name="charging_vibro_title">Charging vibration</string>
+    <string name="charging_sounds_nos_title">充電音效</string>
+    <string name="charging_vibro_title">充電震動</string>
     <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">Screenshot sound</string>
+    <string name="screenshot_sound_title">螢幕截圖音效</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <string name="unlock_quick_unlock_control_title">快速解鎖</string>
+    <string name="unlock_quick_unlock_control_summary">當正確輸入PIN碼/密碼時自動解鎖</string>
     <!-- Navbar length -->
-    <string name="navbar_length">Gesture bar length</string>
-    <string name="hidden_label">Hidden</string>
-    <string name="long_label">Long</string>
+    <string name="navbar_length">手勢列長度</string>
+    <string name="hidden_label">隱藏</string>
+    <string name="long_label">長</string>
     <!-- Display : Rotation -->
-    <string name="display_rotation_title">Rotation</string>
-    <string name="display_rotation_summary">Select rotation angles</string>
-    <string name="display_rotation_disabled">Disabled</string>
-    <string name="display_rotation_unit">degrees</string>
-    <string name="display_rotation_category_title">Rotation modes</string>
-    <string name="display_rotation_0_title">0 degrees</string>
-    <string name="display_rotation_90_title">90 degrees</string>
-    <string name="display_rotation_180_title">180 degrees</string>
-    <string name="display_rotation_270_title">270 degrees</string>
+    <string name="display_rotation_title">旋轉</string>
+    <string name="display_rotation_summary">選擇旋轉角度</string>
+    <string name="display_rotation_disabled">已停用</string>
+    <string name="display_rotation_unit">旋轉角度</string>
+    <string name="display_rotation_category_title">旋轉模式</string>
+    <string name="display_rotation_0_title">0°</string>
+    <string name="display_rotation_90_title">90°</string>
+    <string name="display_rotation_180_title">180°</string>
+    <string name="display_rotation_270_title">270°</string>
     <string name="weather_title">天氣</string>
-    <string name="volumesteps_title">Volume Steps</string>
+    <string name="volumesteps_title">音量級別</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <string name="connected_tws_device_saved_title">已儲存的耳機</string>
     <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
-    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    <string name="display_cutout_force_fullscreen_title">全螢幕應用程式</string>
+    <string name="display_cutout_force_fullscreen_summary">強制應用程式忽略螢幕瀏海</string>
     <!-- Hotspot extras -->
-    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <string name="tethering_allow_vpn_upstreams_title">允許客戶端使用 VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">允許熱點客戶端使用此設備\u2019的 VPN 連接到上遊</string>
     <!-- Smart charging -->
-    <string name="smart_charging_title">Smart Charging</string>
-    <string name="smart_charging_summary">Set maximum charging level</string>
-    <string name="smart_charging_switch_title">Use Smart charging</string>
-    <string name="smart_charging_level_title">Stop trigger level</string>
-    <string name="smart_charging_resume_level_title">Start trigger level</string>
-    <string name="smart_charging_reset_stats_title">Reset battery statistics</string>
-    <string name="smart_charging_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
-    <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery</string>
+    <string name="smart_charging_title">智慧充電</string>
+    <string name="smart_charging_summary">設定最大充電百分比</string>
+    <string name="smart_charging_switch_title">使用智慧充電</string>
+    <string name="smart_charging_level_title">停止充電百分比</string>
+    <string name="smart_charging_resume_level_title">開始(繼續)充電百分比</string>
+    <string name="smart_charging_reset_stats_title">重設電池統計資料</string>
+    <string name="smart_charging_reset_stats_summary">在達到使用者設定的電量百分比後，重設電池統計數據</string>
+    <string name="smart_charging_footer">智慧充電允許您設定最大充電值，延長電池壽命</string>
     <!-- Cherish maintainer -->
-    <string name="maintainer">Maintainer</string>
+    <string name="maintainer">維護人員</string>
     <!-- LiveDisplay -->
-    <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
-    <string name="live_display_mode">Display mode</string>
-    <string name="live_display_color_temperature_title">Color temperature</string>
-    <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_summary">根據日夜和環境條件調整您的螢幕色溫，即可改善可讀性和減少眼睛疲勞</string>
+    <string name="live_display_mode">顯示模式</string>
+    <string name="live_display_color_temperature_title">色溫</string>
+    <string name="live_display_color_temperature_summary">白天：<xliff:g id="day_temperature">%1$d</xliff:g>K 夜晚：<xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
     <string name="live_display_day">日間</string>
     <string name="live_display_night">夜間</string>
-    <string name="live_display_outdoor_mode_title">Automatic outdoor mode</string>
-    <string name="live_display_outdoor_mode_summary">Increase brightness and saturation automatically under bright sunlight</string>
+    <string name="live_display_outdoor_mode_title">自動戶外模式</string>
+    <string name="live_display_outdoor_mode_summary">自動在陽光下提高亮度和飽和度</string>
     <string name="live_display_anti_flicker_title">防閃爍</string>
     <string name="live_display_anti_flicker_summary">在缺乏光線下，防止大量閃爍並減少眼睛疲勞。 這可能會降低色彩準確性，並影響某些項目的顯示方式。</string>
-    <string name="live_display_low_power_title">Reduce power consumption</string>
-    <string name="live_display_low_power_summary">Adjust display for lowest power consumption without degradation</string>
-    <string name="live_display_enhance_color_title">Enhance colors</string>
-    <string name="live_display_enhance_color_summary">Improve color vibrance of flesh tones, scenery, and other images</string>
-    <string name="live_display_color_profile_title">Color profile</string>
-    <string name="live_display_color_profile_standard_title">Standard</string>
-    <string name="live_display_color_profile_standard_summary">Accurate colors and bright whites</string>
-    <string name="live_display_color_profile_natural_title">Natural</string>
-    <string name="live_display_color_profile_natural_summary">Realistic colors and flesh tones</string>
-    <string name="live_display_color_profile_dynamic_title">Dynamic</string>
-    <string name="live_display_color_profile_dynamic_summary">Enhanced colors and bright whites</string>
-    <string name="live_display_color_profile_cinema_title">Cinema</string>
-    <string name="live_display_color_profile_cinema_summary">Perfect color reproduction for video</string>
-    <string name="live_display_color_profile_astronomy_title">Astronomy</string>
-    <string name="live_display_color_profile_astronomy_summary">Deep red for preserving night vision</string>
-    <string name="live_display_color_profile_photography_title">Photography</string>
-    <string name="live_display_color_profile_photography_summary">Perfect color reproduction for photos</string>
-    <string name="live_display_color_profile_basic_title">Basic</string>
-    <string name="live_display_color_profile_basic_summary">Use the display uncalibrated</string>
-    <string name="live_display_color_profile_adaptive_title">Adaptive</string>
-    <string name="live_display_color_profile_adaptive_summary">Colors adapt to ambient conditions</string>
-    <string name="live_display_color_profile_reading_title">Reading</string>
-    <string name="live_display_color_profile_reading_summary">Warmer colors for less eye strain</string>
+    <string name="live_display_low_power_title">降低耗電量</string>
+    <string name="live_display_low_power_summary">在不降低亮度的情況下調整顯示以降低耗電量</string>
+    <string name="live_display_enhance_color_title">增強色彩</string>
+    <string name="live_display_enhance_color_summary">為風景和其他圖片增強色彩</string>
+    <string name="live_display_color_profile_title">色彩設定檔</string>
+    <string name="live_display_color_profile_standard_title">標準</string>
+    <string name="live_display_color_profile_standard_summary">準確的色彩和明亮的白色</string>
+    <string name="live_display_color_profile_natural_title">自然</string>
+    <string name="live_display_color_profile_natural_summary">現實的色彩和自然的膚色</string>
+    <string name="live_display_color_profile_dynamic_title">動態</string>
+    <string name="live_display_color_profile_dynamic_summary">增強的色彩和明亮的白色</string>
+    <string name="live_display_color_profile_cinema_title">電影院</string>
+    <string name="live_display_color_profile_cinema_summary">完美重現影片色彩</string>
+    <string name="live_display_color_profile_astronomy_title">天文</string>
+    <string name="live_display_color_profile_astronomy_summary">深紅色以保護夜間視力</string>
+    <string name="live_display_color_profile_photography_title">攝影</string>
+    <string name="live_display_color_profile_photography_summary">完美重現相片色彩</string>
+    <string name="live_display_color_profile_basic_title">基本</string>
+    <string name="live_display_color_profile_basic_summary">使用未校正的顯示</string>
+    <string name="live_display_color_profile_adaptive_title">自動調整</string>
+    <string name="live_display_color_profile_adaptive_summary">依照環境條件自動調節顏色</string>
+    <string name="live_display_color_profile_reading_title">閱讀</string>
+    <string name="live_display_color_profile_reading_summary">溫暖的色彩減少眼睛疲勞</string>
     <string name="live_display_color_profile_srgb_title">sRGB</string>
-    <string name="live_display_color_profile_srgb_summary">Colors accurate to the sRGB color space</string>
-    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
-    <string name="live_display_color_profile_dci_p3_summary">Colors accurate to the DCI-P3 color space</string>
+    <string name="live_display_color_profile_srgb_summary">顏色校準到 sRGB 色域</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3 廣色域標準</string>
+    <string name="live_display_color_profile_dci_p3_summary">顏色校準到 DCI-P3 色域</string>
     <string name="live_display_reading_mode_title">閱讀模式</string>
-    <string name="live_display_reading_mode_summary">Grayscale mode for long-term reading</string>
-    <string name="color_calibration_title">Color calibration</string>
-    <string name="color_calibration_summary">Calibrate on-screen colors</string>
-    <string name="color_red_title">Red</string>
-    <string name="color_green_title">Green</string>
-    <string name="color_blue_title">Blue</string>
+    <string name="live_display_reading_mode_summary">用於長期閱讀的灰階模式</string>
+    <string name="color_calibration_title">顏色校正</string>
+    <string name="color_calibration_summary">校正螢幕上的顏色</string>
+    <string name="color_red_title">紅色</string>
+    <string name="color_green_title">綠色</string>
+    <string name="color_blue_title">藍色</string>
     <!-- LiveDisplay : Picture Adjustment -->
-    <string name="picture_adjustment_title">Picture adjustment</string>
-    <string name="picture_adjustment_summary">Adjust hue, saturation, intensity, and contrast</string>
-    <string name="adj_hue_title">Hue</string>
-    <string name="adj_saturation_title">Saturation</string>
-    <string name="adj_intensity_title">Intensity</string>
-    <string name="adj_contrast_title">Contrast</string>
+    <string name="picture_adjustment_title">調整圖片</string>
+    <string name="picture_adjustment_summary">調整色相、飽和度、強度和對比度</string>
+    <string name="adj_hue_title">色相</string>
+    <string name="adj_saturation_title">飽和度</string>
+    <string name="adj_intensity_title">強度</string>
+    <string name="adj_contrast_title">對比度</string>
     <!-- Pocket mode -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">防止意外喚醒</string>
+    <string name="proximity_wake_summary">在喚醒螢幕之前檢查距離傳感器</string>
     <!-- Backup Transport selection settings menu and activity title -->
-    <string name="backup_transport_setting_label">Change backup provider</string>
-    <string name="backup_transport_title">Select backup provider</string>
+    <string name="backup_transport_setting_label">變更備份服務提供者</string>
+    <string name="backup_transport_title">選擇備份服務提供者</string>
     <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Always on when charging</string>
-    <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
+    <string name="doze_on_charge_title">在充電時開啟 AOD</string>
+    <string name="doze_on_charge_summary">充電時一直處於 Doze 介面</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Allow network access</string>
-    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
-    <string name="data_usage_app_restrict_mobile">Mobile data</string>
-    <string name="data_usage_app_restrict_mobile_summary">Enable usage of mobile data</string>
-    <string name="data_usage_app_restrict_vpn">VPN data</string>
-    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_all">允許網路存取</string>
+    <string name="data_usage_app_restrict_all_summary">啟用網路用量</string>
+    <string name="data_usage_app_restrict_mobile">行動網路</string>
+    <string name="data_usage_app_restrict_mobile_summary">啟用行動網路流量統計</string>
+    <string name="data_usage_app_restrict_vpn">VPN 數據</string>
+    <string name="data_usage_app_restrict_vpn_summary">啟用 VPN 流量統計</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi 數據</string>
+    <string name="data_usage_app_restrict_wifi_summary">啟用 Wi\u2011Fi 流量統計</string>
     <!-- Doze on double tap -->
-    <string name="double_tap_title">Double tap</string>
-    <string name="doze_double_tap_title">Double tap to check phone</string>
-    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
+    <string name="double_tap_title">雙擊</string>
+    <string name="doze_double_tap_title">輕觸兩下來察看手機</string>
+    <string name="doze_double_tap_summary">輕觸兩下查看 AOD 顯示通知</string>
     <!-- About phone cards -->
-    <string name="storage_card_title">Storage</string>
-    <string name="storage_card_info">Occupied</string>
+    <string name="storage_card_title">儲存空間</string>
+    <string name="storage_card_info">已使用</string>
     <string name="about_device_rom_title">CherishOS %s</string>
     <!-- Gestures: Touchscreen gestures -->
-    <string name="touchscreen_gesture_settings_title">Touchscreen gestures</string>
-    <string name="touchscreen_gesture_settings_summary">Perform various touchscreen gestures for quick actions</string>
+    <string name="touchscreen_gesture_settings_title">觸控螢幕手勢</string>
+    <string name="touchscreen_gesture_settings_summary">執行各種觸控螢幕手勢以進行快速動作</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
-    <string name="device_info_protected_single_press">Tap to show info</string>
+    <string name="device_info_protected_single_press">點擊顯示詳細資料</string>
     <!-- Back Gestures -->
     <string name="smallest_tick_label">關閉</string>
-    <string name="greatest_tick_label">Half screen</string>
-    <string name="gesture_back_deadzone_label">Dead zone</string>
-    <string name="back_sensitivity_dialog_message_cust">Use the first and second seekbar to configure back swipe sensitivity, the last seekbar to set a dead area on top of the screen where the swipe cannot be triggered, to avoid conflicts with in-app gestures.</string>
+    <string name="greatest_tick_label">半螢幕</string>
+    <string name="gesture_back_deadzone_label">禁止區域</string>
+    <string name="back_sensitivity_dialog_message_cust">使用第一個和第二個滑動列設定返回手勢的靈敏度。使用最後一個滑動列設定螢幕上半部無法觸發滑動手勢的禁止區域，以避免與應用程式內手勢發生衝突。</string>
     <!-- Custom actions -->
-    <string name="action_nothing">No action</string>
-    <string name="action_search">Assistant</string>
-    <string name="action_voice_search">Voice search</string>
-    <string name="action_launch_camera">Camera</string>
+    <string name="action_nothing">沒有動作</string>
+    <string name="action_search">助理</string>
+    <string name="action_voice_search">語音搜尋</string>
+    <string name="action_launch_camera">相機</string>
     <string name="action_flashlight">手電筒</string>
-    <string name="action_volume_panel">Volume panel</string>
-    <string name="action_screen_off">Screen off</string>
+    <string name="action_volume_panel">音量面板</string>
+    <string name="action_screen_off">關閉螢幕</string>
     <string name="action_screenshot">螢幕截圖</string>
-    <string name="action_app_action">Application</string>
-    <string name="active_edge_ss_app_select_title">Select short squeeze app</string>
-    <string name="active_edge_ls_app_select_title">Select long squeeze app</string>
-    <string name="active_edge_app_select_summary">Select an app to launch with the squeeze action</string>
-    <string name="action_qs_panel">QS panel</string>
-    <string name="action_notifications">Notifications</string>
-    <string name="action_clear_notifications">Clear notifications</string>
-    <string name="action_ringer_modes">Ringer modes</string>
-    <string name="kill_app">Kill foreground app</string>
-    <string name="skip_song">Skip song</string>
-    <string name="prev_song">Previous song</string>
-    <string name="show_powermenu">Show Power menu</string>
+    <string name="action_app_action">應用程式</string>
+    <string name="active_edge_ss_app_select_title">選擇短按應用程式</string>
+    <string name="active_edge_ls_app_select_title">選擇長按應用程式</string>
+    <string name="active_edge_app_select_summary">選擇按壓時啟動的應用程式</string>
+    <string name="action_qs_panel">快速設定面板</string>
+    <string name="action_notifications">通知</string>
+    <string name="action_clear_notifications">清除通知</string>
+    <string name="action_ringer_modes">鈴聲模式</string>
+    <string name="kill_app">關閉前景應用程式</string>
+    <string name="skip_song">跳過歌曲</string>
+    <string name="prev_song">上一首歌曲</string>
+    <string name="show_powermenu">顯示電源選單</string>
     <string name="partial_screenshot">局部螢幕截圖</string>
-    <string name="hush_mute">Silence notifications</string>
+    <string name="hush_mute">靜音通知</string>
     <!-- Long back swipe options -->
-    <string name="navbar_gesture_tweaks_pref_title">Advanced gestures</string>
-    <string name="navbar_gesture_tweaks_pref_summary">Customize gestures and set custom actions</string>
-    <string name="navbar_gesture_tweaks_cat_title">Advanced</string>
-    <string name="long_back_swipe_timeout_title">Long swipe action timeout</string>
-    <string name="left_swipe_actions_title">Long left swipe action</string>
-    <string name="left_swipe_app_action_title">Select long left swipe app</string>
-    <string name="right_swipe_actions_title">Long right swipe action</string>
-    <string name="right_swipe_app_action_title">Select long right swipe app</string>
-    <string name="left_vertical_swipe_actions_title">Vertical left swipe action</string>
-    <string name="left_vertical_swipe_app_action_title">Select vertical left swipe app</string>
-    <string name="right_vertical_swipe_actions_title">Vertical right swipe action</string>
-    <string name="right_vertical_swipe_app_action_title">Select vertical right swipe app</string>
-    <string name="gesture_nav_tweaks_footer_info">To choose a specific app activity for the action, long press on any app in the apps picker.\n\nIf launcher is showing, do the swipe at the very bottom area of the screen to trigger the action.</string>
-    <string name="back_swipe_extended_title">Extended swipe action</string>
-    <string name="back_swipe_extended_summary">Trigger action on wider swipe (more than half of display size), or a L swipe (vertically longer enough)</string>
+    <string name="navbar_gesture_tweaks_pref_title">進階手勢</string>
+    <string name="navbar_gesture_tweaks_pref_summary">自訂手勢與動作</string>
+    <string name="navbar_gesture_tweaks_cat_title">進階選項</string>
+    <string name="long_back_swipe_timeout_title">長滑逾時</string>
+    <string name="left_swipe_actions_title">向左長滑觸發動作</string>
+    <string name="left_swipe_app_action_title">選擇向左長滑啟動應用程式</string>
+    <string name="right_swipe_actions_title">向右長滑觸發動作</string>
+    <string name="right_swipe_app_action_title">選擇向右長滑啟動應用程式</string>
+    <string name="left_vertical_swipe_actions_title">左側垂直滑動觸發動作</string>
+    <string name="left_vertical_swipe_app_action_title">選擇左側垂直滑動啟動應用程式</string>
+    <string name="right_vertical_swipe_actions_title">右側垂直滑動觸發動作</string>
+    <string name="right_vertical_swipe_app_action_title">選擇右側垂直滑動啟動應用程式</string>
+    <string name="gesture_nav_tweaks_footer_info">在應用選擇器中長按應用程式，可以設定手勢動作來指定一個應用活動。 \n\n在啟動器使用期間，在螢幕底部區域滑動以啟用手勢動作。</string>
+    <string name="back_swipe_extended_title">額外滑動手勢</string>
+    <string name="back_swipe_extended_summary">較長的滑動距離 (超過螢幕的一半) 或做 L 形滑動 (垂直距離需夠長) 可以觸發手勢</string>
     <!-- Fingerprint swipe left and right -->
-    <string name="fp_swipe_to_dismiss_notifications_title">Swipe fingerprint left or right to dismiss notifications</string>
-    <string name="fp_swipe_to_dismiss_notifications_summary">To dismiss your notifications, swipe left or right on the fingerprint sensor on the back of your phone.</string>
+    <string name="fp_swipe_to_dismiss_notifications_title">向左或向右滑動指紋感應器以清除通知</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">要清除通知，請在手機背面的指紋感應器上向左或向右滑動。</string>
     <!-- Ambient Wake gestures -->
-    <string name="ambient_wake_gestures_title">Ambient wake gestures</string>
-    <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal lockscreen on wake gestures</string>
+    <string name="ambient_wake_gestures_title">環境顯示手勢</string>
+    <string name="ambient_wake_gestures_summary">喚醒手勢後顯示環境顯示，而不是平常的鎖定畫面</string>
     <!-- Volume rocker gestures -->
-    <string name="volume_skiptrack_screen_title">Skip music tracks</string>
-    <string name="volume_skiptrack_title">Volume rocker skip tracks</string>
-    <string name="volume_skiptrack_summary">Long press the volume rocker to skip tracks when playing music, even remotely on tv or PC with e.g. Spotify (app must run on the phone and show the notification).</string>
-    <string name="pulse_on_new_tracks_title">Ambient music ticker</string>
-    <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played. Double tap on track info to skip to next track.</string>
-    <string name="pulse_on_new_tracks_soli_summary">Show Ambient Display when a new music track is played</string>
+    <string name="volume_skiptrack_screen_title">略過音樂曲目</string>
+    <string name="volume_skiptrack_title">音量鍵略過曲目</string>
+    <string name="volume_skiptrack_summary">長按音量鍵可在播放音樂時略過曲目，甚至可以在電視或PC上遠端略過曲目，例如：Spotify (播放軟體必須在手機上執行且顯示通知)</string>
+    <string name="pulse_on_new_tracks_title">環境音樂通知</string>
+    <string name="pulse_on_new_tracks_summary">當播放新音樂時顯示環境通知。在通知上雙擊可跳到下一曲。</string>
+    <string name="pulse_on_new_tracks_soli_summary">當播放新音樂時顯示環境通知</string>
     <!-- Ambient music ticker location -->
-    <string name="ambient_music_location">Show ambient music ticker</string>
-    <string name="ambient_music_disabled">Disabled</string>
-    <string name="ambient_music_bottom">At the bottom (default)</string>
-    <string name="ambient_music_center">Centered (under the cLock)</string>
+    <string name="ambient_music_location">環境音樂通知</string>
+    <string name="ambient_music_disabled">已停用</string>
+    <string name="ambient_music_bottom">在底部 (預設)</string>
+    <string name="ambient_music_center">置中 (時鐘下方)</string>
     <!-- Lock screen pattern size -->
-    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
+    <string name="lock_settings_picker_pattern_size_message">選擇解鎖圖形大小</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+    <string name="lockpattern_settings_enable_error_path_title">顯示解鎖圖形錯誤</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+    <string name="lockpattern_settings_enable_dots_title">顯示解鎖圖形點</string>
     <!-- Clipboard toast info -->
     <string name="clipboard_toast_info_title">存取剪貼簿警告</string>
     <string name="clipboard_toast_info_show_important">只顯示重要的警示</string>
     <string name="clipboard_toast_info_show_all">顯示所有存取警示</string>
     <!-- Misc gesture settings -->
-    <string name="back_gesture_haptic_title">Haptic feedback</string>
-    <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
+    <string name="back_gesture_haptic_title">觸覺反饋</string>
+    <string name="back_gesture_haptic_summary">啟用返回手勢的觸覺反饋</string>
     <!-- Back gesture animation -->
-    <string name="back_gesture_arrow_message">Back gesture animation</string>
-    <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture.</string>
+    <string name="back_gesture_arrow_message">返回手勢動畫</string>
+    <string name="back_gesture_arrow_summary">使用返回手勢時顯示一個箭頭動畫</string>
     <!-- Mobile network setting screen, summary of Mobile data switch preference when the network
          is unavailable, the preference selection will be disabled. [CHAR LIMIT=NONE] -->
-    <string name="mobile_data_settings_summary_unavailable">No SIM card available</string>
+    <string name="mobile_data_settings_summary_unavailable">沒有可用的 SIM 卡</string>
     <!-- volume cool stuff -->
-    <string name="extra_volume_features_title">Audio handling</string>
-    <string name="resume_audio_stream_title">Resume audio</string>
-    <string name="resume_audio_stream_summary">Automatically resume audio if it was paused due to user interaction over volume (bringing the volume bar to zero)</string>
-    <string name="pause_audio_stream_title">Pause media</string>
-    <string name="pause_audio_stream_summary">Automatically pause media playing if media volume has been muted</string>
+    <string name="extra_volume_features_title">音訊控制</string>
+    <string name="resume_audio_stream_title">繼續播放音訊</string>
+    <string name="resume_audio_stream_summary">自動繼續播放因使用者操作(將音量調為0)而暫停的音訊</string>
+    <string name="pause_audio_stream_title">暫停</string>
+    <string name="pause_audio_stream_summary">調為靜音後自動暫停播放媒體</string>
     <!-- Expand immediately -->
-    <string name="extra_volume_ui_features_title">Volume interface extras</string>
-    <string name="expand_immediately_title">Enable expand button in volume panel</string>
-    <string name="expand_immediately_summary">Show an extra button in volume panel that will let you expand it to multirows directly, without having to interact with the half-hidden bar</string>
+    <string name="extra_volume_ui_features_title">音量調整面板的額外功能</string>
+    <string name="expand_immediately_title">在音量面板中啟用擴展按鈕</string>
+    <string name="expand_immediately_summary">在音量面板中顯示一個額外的按鈕，按下後會擴展出其他音量設定，而不需使用半隱藏的橫條</string>
     <!-- Back gesture height -->
-    <string name="back_height_low_label">Full</string>
-    <string name="back_height_high_label">Bottom</string>
-    <string name="back_options_dialog_title">Options</string>
-    <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
+    <string name="back_height_low_label">全螢幕</string>
+    <string name="back_height_high_label">底部</string>
+    <string name="back_options_dialog_title">選項</string>
+    <string name="back_height_message">可觸發返回手勢的螢幕高度範圍</string>
     <!-- Navbar radius -->
-    <string name="navbar_radius">Gesture bar Radius</string>
+    <string name="navbar_radius">手勢列半徑</string>
     <string name="small_label">1 dp</string>
     <string name="big_label">4 dp</string>
     <!-- Vibration patterns -->
@@ -278,108 +278,108 @@
     <string name="increasing_ring_min_volume_title">起始音量</string>
     <string name="increasing_ring_ramp_up_time_title">漸強時間</string>
     <!-- Clock style -->
-    <string name="clock_style_title">Clock style</string>
+    <string name="clock_style_title">時鐘樣式</string>
     <string name="clock_style_summary">自訂鎖定畫面時鐘</string>
-    <string name="theme_customization_statusbar_height_title">Statusbar height</string>
-    <string name="default_accent_color">Dodger Blue (default)</string>
-    <string name="default_icon_shape">Circle (default)</string>
-    <string name="default_font">OnePlus Slate (default)</string>
-    <string name="default_icon_pack">AOSP + Oxygen (default)</string>
+    <string name="theme_customization_statusbar_height_title">狀態列高度</string>
+    <string name="default_accent_color">道奇藍 (預設)</string>
+    <string name="default_icon_shape">圓圈 (預設)</string>
+    <string name="default_font">OnePlus Slate (預設)</string>
+    <string name="default_icon_pack">AOSP + Oxygen (預設)</string>
     <!-- SELinux Status -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status">SELinux 狀態</string>
+    <string name="selinux_status_disabled">已停用</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
     <!-- DC Dimming -->
-    <string name="dc_dimming_title">DC Dimming</string>
-    <string name="dc_dimming_info">Reduces eye strain in low light conditions but may result in reduced image quality and poor color production.</string>
-    <string name="dc_dimming_auto_mode_title">Schedule</string>
-    <string name="dc_dimming_mode_brightness">Turn on when brightness is below the threshold</string>
-    <string name="dc_dimming_mode_full">Dependent on time and brightness</string>
-    <string name="dc_dimming_brightness_title">Brightness threshold</string>
-    <string name="dc_dimming_brightness_disabled">Disabled</string>
-    <string name="dc_dimming_restore_auto_mode">Restore auto mode</string>
-    <string name="dc_dimming_brightness_info">Only activate DC Dimming when the average brightness is below the threshold</string>
-    <string name="dc_dimming_off_auto_mode_auto">Will turn on automatically</string>
-    <string name="dc_dimming_on_auto_mode_auto">Will turn off automatically</string>
-    <string name="keywords_display_dc_dimming">dc dimming, flicker, eye, strain</string>
+    <string name="dc_dimming_title">DC 調光</string>
+    <string name="dc_dimming_info">在昏暗的環境下減緩眼睛疲勞，但可能造成影像或色彩品質降低。</string>
+    <string name="dc_dimming_auto_mode_title">排程</string>
+    <string name="dc_dimming_mode_brightness">當亮度低於臨界值時開啟</string>
+    <string name="dc_dimming_mode_full">根據時間和亮度</string>
+    <string name="dc_dimming_brightness_title">亮度臨界值</string>
+    <string name="dc_dimming_brightness_disabled">已停用</string>
+    <string name="dc_dimming_restore_auto_mode">還原成自動模式</string>
+    <string name="dc_dimming_brightness_info">只有在平均亮度小於臨界值時啟動 DC 調光</string>
+    <string name="dc_dimming_off_auto_mode_auto">將會自動開啟</string>
+    <string name="dc_dimming_on_auto_mode_auto">將會自動關閉</string>
+    <string name="keywords_display_dc_dimming">DC 調光，閃爍，眼睛，疲勞</string>
     <!-- Cherish versioning -->
-    <string name="cherish_version_title">Version</string>
+    <string name="cherish_version_title">版本</string>
     <string name="cherish_device_title">裝置</string>
-    <string name="cherish_release_type_title">Release type</string>
-    <string name="cherish_maintainer_title">Maintainer</string>
+    <string name="cherish_release_type_title">發佈類型</string>
+    <string name="cherish_maintainer_title">維護人員</string>
     <!-- App Lock -->
-    <string name="applock_title">App locker</string>
-    <string name="applock_locked">Locked</string>
-    <string name="applock_unlocked">Unlocked</string>
-    <string name="applock_locked_apps">Locked apps</string>
-    <string name="applock_unlocked_apps">Unlocked apps</string>
-    <string name="applock_lock_after_title">Lock app after</string>
-    <string name="applock_lock_after_instantly">Instantly</string>
-    <string name="applock_lock_after_15_seconds">15 Seconds</string>
-    <string name="applock_lock_after_screen_off">Screen off</string>
-    <string name="applock_lock_after_summary">App will be locked after selected timeout</string>
-    <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
-    <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
-    <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
-    <string name="applock_notification_info">你可以透過點擊每個鎖定的應用程式的偏好設定上顯示的通知按鈕，來顯示/隱藏應用程式的通知內容</string>
-    <string name="applock_show_notif">Showing notification content</string>
-    <string name="applock_hide_notif">Hiding notification content</string>
-    <string name="applock_setup">Setup app locker</string>
-    <string name="applock_overlay_summary">This feature is not available because this app is locked</string>
+    <string name="applock_title">應用程式鎖</string>
+    <string name="applock_locked">已鎖定</string>
+    <string name="applock_unlocked">未鎖定</string>
+    <string name="applock_locked_apps">已鎖定的應用程式</string>
+    <string name="applock_unlocked_apps">未鎖定的應用程式</string>
+    <string name="applock_lock_after_title">在多久後鎖定應用程式</string>
+    <string name="applock_lock_after_instantly">立即</string>
+    <string name="applock_lock_after_15_seconds">15 秒</string>
+    <string name="applock_lock_after_screen_off">關閉螢幕</string>
+    <string name="applock_lock_after_summary">應用程式將在選擇的時間後鎖定</string>
+    <string name="applock_lock_after_instantly_summary">應用程式會在關閉後立刻鎖定</string>
+    <string name="applock_lock_after_15_seconds_summary">應用程式關閉15秒後鎖定</string>
+    <string name="applock_lock_after_screen_off_summary">應用程式將在螢幕關閉後鎖定</string>
+    <string name="applock_notification_info">藉由點擊被鎖定應用程式旁的通知圖示，您可以顯示/隱藏該應用程式通知內容</string>
+    <string name="applock_show_notif">顯示通知內容</string>
+    <string name="applock_hide_notif">隱藏通知內容</string>
+    <string name="applock_setup">設定應用程式鎖</string>
+    <string name="applock_overlay_summary">這項功能無法使用，因為此應用程式已被鎖定</string>
     <plurals name="applock_summary">
-        <item quantity="other">%d apps locked</item>
+        <item quantity="other">%d 個應用程式已被鎖定</item>
     </plurals>
-    <string name="keywords_applock_settings">applock, applocker, app lock, app locker</string>
+    <string name="keywords_applock_settings">應用程式鎖定，應用程式鎖定，應用程式鎖定，應用程式鎖定</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
-    <string name="security_dashboard_summary_face_and_fingerprint">Screen lock, fingerprint, face unlock</string>
-    <string name="face_redo_confirm_btn">Redo</string>
-    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">移除現有的臉部掃描資料，並建立新的資料</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">重新執行臉部掃描</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">螢幕鎖定，指紋，臉部辨識解鎖</string>
+    <string name="face_redo_confirm_btn">重做</string>
+    <string name="face_redo_warning_msg">您要移除現有的臉部掃描資料，並建立新的資料嗎?</string>
     <!-- global cleartext penalties -->
-    <string name="cleartext_network_policy_title">Restrict cleartext network traffic</string>
-    <string name="cleartext_network_policy_summary">Blocks all non-TLS network traffic. Requires Private DNS configuration. Note: Without explicit exemptions, Tor and most VPNs won\'t work</string>
+    <string name="cleartext_network_policy_title">限制明文網路流量</string>
+    <string name="cleartext_network_policy_summary">阻止所有非 TLS 網絡流量。需要私有 DNS 設定。注意：沒有明確的例外規範，Tor 和大多數 VPN 將無法運作</string>
     <!--  screen, setting option name to change wifi timeout -->
-    <string name="wifi_timeout">Turn off Wi-Fi automatically</string>
+    <string name="wifi_timeout">自動關閉 Wi-Fi</string>
     <!--  screen, setting option summary to change wifi timeout -->
-    <string name="wifi_timeout_summary">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
-    <string name="wifi_timeout_summary2">Disabled</string>
+    <string name="wifi_timeout_summary">如果沒有連接網路，則在 <xliff:g id="timeout_description">%1$s</xliff:g> 後關閉 Wi-Fi</string>
+    <string name="wifi_timeout_summary2">已停用</string>
     <string name="wifi_timeout_summary_never">永遠不要</string>
-    <string name="wifi_timeout_summary_15secs">15 seconds</string>
-    <string name="wifi_timeout_summary_30secs">30 seconds</string>
+    <string name="wifi_timeout_summary_15secs">15 秒</string>
+    <string name="wifi_timeout_summary_30secs">30 秒</string>
     <string name="wifi_timeout_summary_1min">1 分鐘</string>
     <string name="wifi_timeout_summary_2mins">2 分鐘</string>
     <string name="wifi_timeout_summary_5mins">5 分鐘</string>
     <string name="wifi_timeout_summary_10mins">10 分鐘</string>
-    <string name="wifi_timeout_summary_30mins">30 minutes</string>
-    <string name="wifi_timeout_summary_1hour">1 hour</string>
-    <string name="wifi_timeout_summary_2hours">2 hours</string>
-    <string name="wifi_timeout_summary_4hours">4 hours</string>
-    <string name="wifi_timeout_summary_8hours">8 hours</string>
+    <string name="wifi_timeout_summary_30mins">30 分鐘</string>
+    <string name="wifi_timeout_summary_1hour">1 小時</string>
+    <string name="wifi_timeout_summary_2hours">2 小時</string>
+    <string name="wifi_timeout_summary_4hours">4 小時</string>
+    <string name="wifi_timeout_summary_8hours">8 小時</string>
     <!-- Connected devices screen, setting option name to change bluetooth timeout -->
-    <string name="bluetooth_timeout">Bluetooth timeout</string>
+    <string name="bluetooth_timeout">藍牙連接逾時</string>
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
-    <string name="bluetooth_timeout_summary">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
-    <string name="bluetooth_timeout_summary2">Do not automatically turn off Bluetooth</string>
+    <string name="bluetooth_timeout_summary">如果沒有連接到任何裝置，藍牙將在<xliff:g id="timeout_description">%1$s</xliff:g>後自動關閉</string>
+    <string name="bluetooth_timeout_summary2">不要自動關閉藍牙</string>
     <string name="bluetooth_timeout_summary_never">永遠不要</string>
-    <string name="bluetooth_timeout_summary_15secs">15 seconds</string>
-    <string name="bluetooth_timeout_summary_30secs">30 seconds</string>
+    <string name="bluetooth_timeout_summary_15secs">15 秒</string>
+    <string name="bluetooth_timeout_summary_30secs">30 秒</string>
     <string name="bluetooth_timeout_summary_1min">1 分鐘</string>
     <string name="bluetooth_timeout_summary_2mins">2 分鐘</string>
     <string name="bluetooth_timeout_summary_5mins">5 分鐘</string>
     <string name="bluetooth_timeout_summary_10mins">10 分鐘</string>
-    <string name="bluetooth_timeout_summary_30mins">30 minutes</string>
-    <string name="bluetooth_timeout_summary_1hour">1 hour</string>
-    <string name="bluetooth_timeout_summary_2hours">2 hours</string>
-    <string name="bluetooth_timeout_summary_4hours">4 hours</string>
-    <string name="bluetooth_timeout_summary_8hours">8 hours</string>
+    <string name="bluetooth_timeout_summary_30mins">30 分鐘</string>
+    <string name="bluetooth_timeout_summary_1hour">1 小時</string>
+    <string name="bluetooth_timeout_summary_2hours">2 小時</string>
+    <string name="bluetooth_timeout_summary_4hours">4 小時</string>
+    <string name="bluetooth_timeout_summary_8hours">8 小時</string>
     <!-- Smart cutoff -->
-    <string name="smart_cutoff_title">Smart Cutoff</string>
-    <string name="smart_cutoff_summary">Set maximum Temperature</string>
-    <string name="smart_cutoff_switch_title">Use Smart cutoff</string>
-    <string name="smart_cutoff_level_title">Stop trigger level</string>
-    <string name="smart_cutoff_resume_level_title">Start trigger level</string>
+    <string name="smart_cutoff_title">智慧斷路</string>
+    <string name="smart_cutoff_summary">設定最高溫度</string>
+    <string name="smart_cutoff_switch_title">使用智慧斷路</string>
+    <string name="smart_cutoff_level_title">停止充電百分比</string>
+    <string name="smart_cutoff_resume_level_title">開始(繼續)充電百分比</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">背景處理程序</string>
     <!-- Volume link notification -->
@@ -395,7 +395,7 @@
     <!-- Themes customisation -->
     <string name="theme_customization_systemui_title">系統主題</string>
     <!-- Refresh rate -->
-    <string name="min_refresh_rate_title">Minimum refresh rate</string>
+    <string name="min_refresh_rate_title">最低螢幕刷新率</string>
     <string name="max_refresh_rate_title">最高螢幕更新率</string>
     <string name="battery_saver_refresh_rate_title">降低螢幕更新率</string>
     <string name="battery_saver_refresh_rate_summary">在省電模式開啟時使用 60 Hz 螢幕更新率以減少電量消耗</string>
@@ -430,7 +430,7 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">指紋感應器位於平板右側。</string>
     <!-- Screen off fod -->
     <string name="fod_gesture_title">允許螢幕關閉時以指紋解鎖</string>
-    <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
+    <string name="fod_gesture_summary">無需先喚醒螢幕即可解鎖裝置</string>
     <!-- Battery health -->
     <string name="battery_health_title">電池健康度</string>
     <string name="battery_health_summary">監控你的電池健康度</string>
