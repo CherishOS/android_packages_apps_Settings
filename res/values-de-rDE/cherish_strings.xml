@@ -90,8 +90,8 @@
     <string name="live_display_night">Nacht</string>
     <string name="live_display_outdoor_mode_title">Automatic outdoor mode</string>
     <string name="live_display_outdoor_mode_summary">Increase brightness and saturation automatically under bright sunlight</string>
-    <string name="live_display_anti_flicker_title">Anti flicker</string>
-    <string name="live_display_anti_flicker_summary">Prevent extensive flickering and reduce eye strain in low light conditions. It might degrade color accuracy and affect the way some items are displayed.</string>
+    <string name="live_display_anti_flicker_title">Anti-Flimmer</string>
+    <string name="live_display_anti_flicker_summary">Verhindern Sie starkes Flackern und reduzieren Sie die Belastung der Augen bei schlechten Lichtverhältnissen. Es kann die Farbgenauigkeit verschlechtern und die Art und Weise, wie einige Elemente angezeigt werden, beeinträchtigen.</string>
     <string name="live_display_low_power_title">Reduce power consumption</string>
     <string name="live_display_low_power_summary">Adjust display for lowest power consumption without degradation</string>
     <string name="live_display_enhance_color_title">Enhance colors</string>
@@ -233,9 +233,9 @@
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
     <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
     <!-- Clipboard toast info -->
-    <string name="clipboard_toast_info_title">Clipboard access alerts</string>
-    <string name="clipboard_toast_info_show_important">Show only important alerts</string>
-    <string name="clipboard_toast_info_show_all">Show all access alerts</string>
+    <string name="clipboard_toast_info_title">Zugriffswarnungen für Zwischenablage anzeigen</string>
+    <string name="clipboard_toast_info_show_important">Nur wichtige Benachrichtigungen anzeigen</string>
+    <string name="clipboard_toast_info_show_all">Alle Zugriffswarnungen anzeigen</string>
     <!-- Misc gesture settings -->
     <string name="back_gesture_haptic_title">Haptic feedback</string>
     <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
@@ -322,7 +322,7 @@
     <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
     <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
     <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
-    <string name="applock_notification_info">You can show/hide the notification content on a per-app basis by clicking on the notification icon shown on each locked apps\' preference</string>
+    <string name="applock_notification_info">Die Sichtbarkeit des Benachrichtigungsinhalts kann geändert werden, wenn Sie neben dem Schlosssymbol klicken.</string>
     <string name="applock_show_notif">Showing notification content</string>
     <string name="applock_hide_notif">Hiding notification content</string>
     <string name="applock_setup">Setup app locker</string>
@@ -382,67 +382,67 @@
     <string name="smart_cutoff_level_title">Stop trigger level</string>
     <string name="smart_cutoff_resume_level_title">Start trigger level</string>
     <!-- Running services -->
-    <string name="background_processes_settings_title">Background processes</string>
+    <string name="background_processes_settings_title">Hintergrundprozesse</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <string name="volume_link_notification_title">Gleiche Lautstärke für Klingelton und Benachrichtigungen</string>
     <!-- Power Button Fingerprint -->
-    <string name="fingerprint_power_button_press_title">Press to unlock</string>
-    <string name="fingerprint_power_button_press_off_summary">Touch power button to unlock with fingerprint when screen is off</string>
-    <string name="fingerprint_power_button_press_on_summary">Press power button firmly to unlock with fingerprint when screen is off</string>
+    <string name="fingerprint_power_button_press_title">Zum Entsperren drücken</string>
+    <string name="fingerprint_power_button_press_off_summary">Power-Taste berühren, um mit Fingerabdruck zu entsperren, wenn der Bildschirm ausgeschaltet ist</string>
+    <string name="fingerprint_power_button_press_on_summary">Drücken Sie die Ein/Aus-Taste, um den Fingerabdruck mit ausgeschaltetem Bildschirm zu entsperren</string>
     <!-- Custom Signal bar icons -->
-    <string name="custom_signal_bar_title">Signal</string>
+    <string name="custom_signal_bar_title">Empfang</string>
     <!-- Custom Wi-Fi bar icons -->
-    <string name="custom_wifi_bar_title">Wi-Fi</string>
+    <string name="custom_wifi_bar_title">WLAN</string>
     <!-- Themes customisation -->
-    <string name="theme_customization_systemui_title">System themes</string>
+    <string name="theme_customization_systemui_title">System Design</string>
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">Minimum refresh rate</string>
-    <string name="max_refresh_rate_title">Maximum refresh rate</string>
-    <string name="battery_saver_refresh_rate_title">Reduce refresh rate</string>
-    <string name="battery_saver_refresh_rate_summary">Use 60 Hz screen refresh rate to save power when Battery Saver is on</string>
+    <string name="max_refresh_rate_title">Maximale Bildwiederholrate</string>
+    <string name="battery_saver_refresh_rate_title">Reduziere Bildwiederholrate</string>
+    <string name="battery_saver_refresh_rate_summary">60 Hz Bildwiederholrate verwenden, um Energie zu sparen, wenn der Energiesparmodus aktiviert ist</string>
     <!-- FontEngine -->
-    <string name="font_picker_title">Font</string>
-    <string name="disable_fonts_installed_title">Font picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the font picker.</string>
-    <string name="font_picker_progress">Applying new font\u2026</string>
+    <string name="font_picker_title">Schriftart</string>
+    <string name="disable_fonts_installed_title">Die Auswahl von Schriftarten ist nicht verfügbar, um Konflikte mit Substratum zu vermeiden. Deinstallieren Sie es, wenn Sie den Schriftarten-Manager verwenden möchten.</string>
+    <string name="font_picker_progress">Neue Schriftart anwenden\u2026</string>
     <!-- Data usage -->
-    <string name="data_usage_period">Data usage period</string>
-    <string name="data_usage_daily">Daily</string>
-    <string name="data_usage_monthly">Monthly</string>
-    <string name="cherish_about_device_info">Legal &amp; Information</string>
-    <string name="cherish_about_device_private">Private Details</string>
+    <string name="data_usage_period">Datennutzungszeitraum</string>
+    <string name="data_usage_daily">Täglich</string>
+    <string name="data_usage_monthly">Monatlich</string>
+    <string name="cherish_about_device_info">Rechtliche Informationen</string>
+    <string name="cherish_about_device_private">Persönliche Details</string>
     <!-- One shot automatic Brightness -->
-    <string name="auto_brightness_one_shot_title">Only apply when screen is turned on</string>
-    <string name="auto_brightness_one_shot_summary">Adjustment will occur one time</string>
+    <string name="auto_brightness_one_shot_title">Nur bei eingeschaltetem Bildschirm anwenden</string>
+    <string name="auto_brightness_one_shot_summary">Anpassung erfolgt einmalig</string>
     <!-- Face Unlock -->
-    <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
-    <string name="face_unlock_method_default">When the screen is turned on</string>
-    <string name="face_unlock_method_swipe">When swiping on lock screen</string>
+    <string name="face_unlock_method_title">Gesichtsentsperrung auf Sperrbildschirm zulassen</string>
+    <string name="face_unlock_method_default">Wenn der Bildschirm aktiviert ist</string>
+    <string name="face_unlock_method_swipe">Beim Wischen auf dem Sperrbildschirm</string>
     <!-- Fingerprint location message - default -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Locate the fingerprint sensor on the left side of your phone.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Locate the fingerprint sensor on the right side of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Finden Sie den Fingerabdrucksensor auf der Vorderseite des Telefons.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Finden Sie den Fingerabdrucksensor auf der linken Seite des Telefons.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Finden Sie den Fingerabdrucksensor auf der rechten Seite deines Telefons.</string>
     <!-- Fingerprint location message - generic -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Locate the fingerprint sensor on the left side of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Locate the fingerprint sensor on the right side of your device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Suchen Sie den Fingerprintsensor an der Vorderseite des Telefons.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Nutzen Sie den Fingerabdrucksensor auf der linken Seite des Gerätes.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Suchen Sie den Fingerabdrucksensor auf der rechten Seite Ihres Geräts.</string>
     <!-- Fingerprint location message - tablet -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Finden Sie den Fingerabdrucksensor auf der Vorderseite des Tablets.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Suchen Sie den Fingerabdrucksensor auf der linken Seite Ihres Tablets.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Suchen Sie den Fingerabdrucksensor auf der rechten Seite des Tablets.</string>
     <!-- Screen off fod -->
-    <string name="fod_gesture_title">Screen off fingerprint</string>
+    <string name="fod_gesture_title">Mit Fingerabdruck entsperren wenn der Bildschirm ausgeschaltet ist</string>
     <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
     <!-- Battery health -->
-    <string name="battery_health_title">Battery health</string>
-    <string name="battery_health_summary">Monitor the battery health of your device</string>
-    <string name="current_battery_capacity">Current battery capacity</string>
-    <string name="current_battery_capacity_summary">The current battery capacity measured by the kernel</string>
-    <string name="designed_battery_capacity">Designed battery capacity</string>
-    <string name="designed_battery_capacity_summary">The battery capacity designed by the manufacturer</string>
-    <string name="battery_charge_cycles">Charge Cycles Completed</string>
+    <string name="battery_health_title">Batteriezustand</string>
+    <string name="battery_health_summary">Akkuzustand des Gerätes</string>
+    <string name="current_battery_capacity">Batteriekapazität</string>
+    <string name="current_battery_capacity_summary">Die vom Kernel gemessene aktuelle Batteriekapazität</string>
+    <string name="designed_battery_capacity">Maximal mögliche Akkukapazität</string>
+    <string name="designed_battery_capacity_summary">Die vom Hersteller angegebene Batteriekapazität</string>
+    <string name="battery_charge_cycles">Abgeschlossene Ladezyklen</string>
     <!-- Settings categories -->
-    <string name="connectivity_title">Connectivity</string>
-    <string name="personalize_title">Personalize</string>
-    <string name="security_title">Security</string>
-    <string name="others_title">Others</string>
+    <string name="connectivity_title">Verbindung</string>
+    <string name="personalize_title">Personalisieren</string>
+    <string name="security_title">Sicherheit</string>
+    <string name="others_title">Sonstiges</string>
 </resources>
