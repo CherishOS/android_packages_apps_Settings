@@ -132,18 +132,6 @@ public class DisplaySettings extends DashboardFragment {
         controllers.add(new EmulateDisplayCutoutPreferenceController(context));
         controllers.add(new BrightnessLevelPreferenceController(context, lifecycle));
         controllers.add(mFontPickerPreference = new FontPickerPreferenceController(context, lifecycle));
-        controllers.add(new OverlayCategoryPreferenceController(context,
-                "android.theme.customization.font"));
-        controllers.add(new OverlayCategoryPreferenceController(context,
-                "android.theme.customization.adaptive_icon_shape"));
-        controllers.add(new OverlayCategoryPreferenceController(context,
-                "android.theme.customization.icon_pack.android"));
-		controllers.add(new OverlayCategoryPreferenceController(context,
-				"android.theme.customization.statusbar_height"));
-		controllers.add(new OverlayCategoryPreferenceController(context,
-                "android.theme.customization.signal_icon"));
-        controllers.add(new OverlayCategoryPreferenceController(context,
-                "android.theme.customization.wifi_icon"));
         return controllers;
     }
 

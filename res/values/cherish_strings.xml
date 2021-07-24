@@ -319,11 +319,6 @@
     <string name="increasing_ring_min_volume_title">Start volume</string>
     <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
 	
-	<!-- Clock style -->
-    <string name="clock_style_title">Clock style</string>
-    <string name="clock_style_summary">Customize lockscreen clock</string>
-	
-	<string name="theme_customization_statusbar_height_title">Statusbar height</string>
 	<string name="default_accent_color">Dodger Blue (default)</string>
     <string name="default_icon_shape">Circle (default)</string>
     <string name="default_font">OnePlus Slate (default)</string>
@@ -446,12 +441,6 @@
     <string name="fingerprint_power_button_press_title">Press to unlock</string>
     <string name="fingerprint_power_button_press_off_summary">Touch power button to unlock with fingerprint when screen is off</string>
     <string name="fingerprint_power_button_press_on_summary">Press power button firmly to unlock with fingerprint when screen is off</string>
-
-	<!-- Custom Signal bar icons -->
-    <string name="custom_signal_bar_title">Signal</string>
-
-    <!-- Custom Wi-Fi bar icons -->
-    <string name="custom_wifi_bar_title">Wi-Fi</string>
 	
 	<!-- Themes customisation -->
     <string name="theme_customization_systemui_title">System themes</string>
