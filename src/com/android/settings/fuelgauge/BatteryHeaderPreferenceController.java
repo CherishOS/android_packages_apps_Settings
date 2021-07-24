@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020 The dotOS Project
+ * Copyright (C) 2017 The Android Open Source Project
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -14,6 +14,7 @@
  *
  *
  */
+
 package com.android.settings.fuelgauge;
 
 import android.app.Activity;
@@ -24,10 +25,6 @@ import android.icu.text.NumberFormat;
 import android.os.BatteryManager;
 import android.os.PowerManager;
 import android.text.TextUtils;
-import android.text.method.LinkMovementMethod;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.annotation.VisibleForTesting;
@@ -37,10 +34,7 @@ import androidx.preference.PreferenceScreen;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 import com.android.settings.core.PreferenceControllerMixin;
-import com.android.settings.overlay.FeatureFactory;
-import com.android.settings.utils.AnnotationSpan;
 import com.android.settings.widget.EntityHeaderController;
-import com.android.settingslib.HelpUtils;
 import com.android.settingslib.Utils;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.core.lifecycle.LifecycleObserver;
@@ -48,25 +42,30 @@ import com.android.settingslib.core.lifecycle.events.OnStart;
 import com.android.settingslib.widget.LayoutPreference;
 
 /**
- * Controller that update the battery header view for dot BatteryMeterView
+ * Controller that update the battery header view
  */
 public class BatteryHeaderPreferenceController extends BasePreferenceController
-        implements PreferenceControllerMixin, LifecycleObserver, OnStart,
-        BatteryPreferenceController {
-    @VisibleForTesting
-    TextView mSummary1;
+        implements PreferenceControllerMixin, LifecycleObserver, OnStart {
     @VisibleForTesting
     static final String KEY_BATTERY_HEADER = "battery_header";
-    private static final String ANNOTATION_URL = "url";
+
+    @VisibleForTesting
+    BatteryMeterView mBatteryMeterView;
+    @VisibleForTesting
+    TextView mBatteryPercentText;
+    @VisibleForTesting
+    TextView mSummary1;
 
     private Activity mActivity;
     private PreferenceFragmentCompat mHost;
     private Lifecycle mLifecycle;
+    private final PowerManager mPowerManager;
 
     private LayoutPreference mBatteryLayoutPref;
 
     public BatteryHeaderPreferenceController(Context context, String key) {
         super(context, key);
+        mPowerManager = context.getSystemService(PowerManager.class);
     }
 
     public void setActivity(Activity activity) {
@@ -85,6 +84,12 @@ public class BatteryHeaderPreferenceController extends BasePreferenceController
     public void displayPreference(PreferenceScreen screen) {
         super.displayPreference(screen);
         mBatteryLayoutPref = screen.findPreference(getPreferenceKey());
+        mBatteryMeterView = mBatteryLayoutPref
+                .findViewById(R.id.battery_header_icon);
+        mBatteryPercentText = mBatteryLayoutPref.findViewById(R.id.battery_percent);
+        mSummary1 = mBatteryLayoutPref.findViewById(R.id.summary1);
+
+        quickUpdateHeaderPreference();
     }
 
     @Override
@@ -99,20 +104,36 @@ public class BatteryHeaderPreferenceController extends BasePreferenceController
                 .setRecyclerView(mHost.getListView(), mLifecycle)
                 .styleActionBar(mActivity);
     }
-    private CharSequence generateLabel(BatteryInfo info) {
-        if (BatteryUtils.isBatteryDefenderOn(info)) {
-            return null;
-        } else if (info.remainingLabel == null) {
-            return info.statusLabel;
+
+    public void updateHeaderPreference(BatteryInfo info) {
+        mBatteryPercentText.setText(formatBatteryPercentageText(info.batteryLevel));
+        if (info.remainingLabel == null) {
+            mSummary1.setText(info.statusLabel);
         } else {
-            return info.remainingLabel;
+            mSummary1.setText(info.remainingLabel);
         }
+
+        mBatteryMeterView.setBatteryLevel(info.batteryLevel);
+        mBatteryMeterView.setCharging(!info.discharging);
+        mBatteryMeterView.setPowerSave(mPowerManager.isPowerSaveMode());
     }
 
-    /**
-     * Callback which receives text for the summary line.
-     */
-    public void updateBatteryStatus(String label, BatteryInfo info) {
-        mSummary1.setText(label != null ? label : generateLabel(info));
+    public void quickUpdateHeaderPreference() {
+        Intent batteryBroadcast = mContext.registerReceiver(null,
+                new IntentFilter(Intent.ACTION_BATTERY_CHANGED));
+        final int batteryLevel = Utils.getBatteryLevel(batteryBroadcast);
+        final boolean discharging =
+                batteryBroadcast.getIntExtra(BatteryManager.EXTRA_PLUGGED, -1) == 0;
+
+        // Set battery level and charging status
+        mBatteryMeterView.setBatteryLevel(batteryLevel);
+        mBatteryMeterView.setCharging(!discharging);
+        mBatteryMeterView.setPowerSave(mPowerManager.isPowerSaveMode());
+        mBatteryPercentText.setText(formatBatteryPercentageText(batteryLevel));
+    }
+
+    private CharSequence formatBatteryPercentageText(int batteryLevel) {
+        return TextUtils.expandTemplate(mContext.getText(R.string.battery_header_title_alternate),
+                NumberFormat.getIntegerInstance().format(batteryLevel));
     }
 }
