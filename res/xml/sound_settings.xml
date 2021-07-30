@@ -177,63 +177,11 @@
 
     <Preference
         android:key="gesture_prevent_ringing_sound"
-        android:layout="@layout/cherish_preference_middle_card"
+        android:layout="@layout/cherish_preference_bottom_card"
         android:title="@string/gesture_prevent_ringing_sound_title"
         android:order="-126"
         android:fragment="com.android.settings.gestures.PreventRingingGestureSettings"
         settings:controller="com.android.settings.gestures.PreventRingingParentPreferenceController"/>
-
-    <!-- Ringtone vibration pattern -->
-    <ListPreference
-        android:key="vibration_pattern"
-        android:layout="@layout/cherish_preference_bottom_card"
-        android:title="@string/vibration_pattern_title"
-        android:order="-124"
-        android:entries="@array/vibration_pattern_entries"
-        android:entryValues="@array/vibration_pattern_values"/>
-
-    <!-- Custom ringtone vibration pattern category -->
-    <PreferenceCategory
-        android:key="custom_vibration_pattern"
-        android:layout="@layout/cherish_preference_category"
-        android:title="@string/custom_vibration_pattern_title"
-        android:order="-123"
-        android:visibility="gone">
-
-        <!-- Custom ringtone vibration pattern 1 -->
-        <com.cherish.settings.preferences.CustomSeekBarPreference
-            android:key="custom_vibration_pattern1"
-            android:layout="@layout/cherish_preference_top_card"
-            android:order="-122"
-            android:max="1000"
-            settings:min="0"
-            settings:interval="100"
-            settings:units="ms"
-            android:dependency="vibrate_for_calls"/>
-
-        <!-- Custom ringtone vibration pattern 2 -->
-        <com.cherish.settings.preferences.CustomSeekBarPreference
-            android:key="custom_vibration_pattern2"
-            android:layout="@layout/cherish_preference_middle_card"
-            android:order="-121"
-            android:max="1000"
-            settings:min="0"
-            settings:interval="100"
-            settings:units="ms"
-            android:dependency="vibrate_for_calls"/>
-
-        <!-- Custom ringtone vibration pattern 3 -->
-        <com.cherish.settings.preferences.CustomSeekBarPreference
-            android:key="custom_vibration_pattern3"
-            android:layout="@layout/cherish_preference_middle_card"
-            android:order="-120"
-            android:max="1000"
-            settings:min="0"
-            settings:interval="100"
-            settings:units="ms"
-            android:dependency="vibrate_for_calls"/>
-
-    </PreferenceCategory>
 
     <!-- Dialer and notification sounds -->
     <PreferenceCategory
