@@ -66,6 +66,8 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">全螢幕應用程式</string>
     <string name="display_cutout_force_fullscreen_summary">強制應用程式忽略螢幕瀏海</string>
+    <string name="display_cutout_force_fullscreen_restart_app">Please restart the application to apply the changes</string>
+    <string name="cutout_force_fullscreen_no_apps">No apps</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">允許客戶端使用 VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">允許熱點客戶端使用此設備\u2019的 VPN 連接到上遊</string>
@@ -145,8 +147,8 @@
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_all">允許網路存取</string>
     <string name="data_usage_app_restrict_all_summary">啟用網路用量</string>
-    <string name="data_usage_app_restrict_mobile">行動網路</string>
-    <string name="data_usage_app_restrict_mobile_summary">啟用行動網路流量統計</string>
+    <string name="data_usage_app_restrict_mobile">行動數據</string>
+    <string name="data_usage_app_restrict_mobile_summary">啟用行動數據流量統計</string>
     <string name="data_usage_app_restrict_vpn">VPN 數據</string>
     <string name="data_usage_app_restrict_vpn_summary">啟用 VPN 流量統計</string>
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi 數據</string>
