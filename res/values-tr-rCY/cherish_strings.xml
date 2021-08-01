@@ -26,12 +26,12 @@
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">İstatistikleri sıfırla</string>
-    <string name="battery_stats_message">Pil kullanım geçmişi istatistikleri sıfırlanacak</string>
+    <string name="battery_stats_message">Pil kullanımı istatistikleri sıfırlanacak</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">Pil sıcaklığı</string>
     <!--Cherish Settings-->
     <string name="cherish_settings_title">Cherish Ayarları</string>
-    <string name="cherish_settings_summary">Mutluluk mevcut değildir ve kendi eylemlerinizden gelir</string>
+    <string name="cherish_settings_summary">Mutluluk kendi eylemlerinizden gelir, Cherish ile mutlu ol</string>
     <!-- Custom light color -->
     <string name="custom_light_title">Işık rengi</string>
     <string name="custom_light_on_time_title">Işık açıkken yanıp sönme hızı (ms)</string>
@@ -43,7 +43,7 @@
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Ekran görüntüsü sesi</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Kilidi hızlıca aç</string>
+    <string name="unlock_quick_unlock_control_title">Hızlı kilit açma</string>
     <string name="unlock_quick_unlock_control_summary">Doğru PIN/Şifre girildiğinde otomatik olarak kilidi aç</string>
     <!-- Navbar length -->
     <string name="navbar_length">Hareket çubuğu uzunluğu</string>
@@ -60,12 +60,14 @@
     <string name="display_rotation_180_title">180 derece</string>
     <string name="display_rotation_270_title">270 derece</string>
     <string name="weather_title">Hava durumu</string>
-    <string name="volumesteps_title">Ses seviyeleri</string>
+    <string name="volumesteps_title">Ses Seviyeleri</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Kayıtlı kulaklıklar</string>
+    <string name="connected_tws_device_saved_title">Kayıtlı Kulaklıklar</string>
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Tam ekran uygulamalar</string>
     <string name="display_cutout_force_fullscreen_summary">Uygulamaları çentik alanını yoksaymaya zorla</string>
+    <string name="display_cutout_force_fullscreen_restart_app">Please restart the application to apply the changes</string>
+    <string name="cutout_force_fullscreen_no_apps">No apps</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">İstemcilerin VPN kullanmasına izin ver</string>
     <string name="tethering_allow_vpn_upstreams_summary">Hotspot kullanıcılarının bağlantıları sırasında bu cihazın\u2019s VPN bağlantısını kullanmasına izin ver</string>
@@ -88,11 +90,11 @@
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
     <string name="live_display_day">Gün</string>
     <string name="live_display_night">Gece</string>
-    <string name="live_display_outdoor_mode_title">Otomatik dış mekan modu</string>
+    <string name="live_display_outdoor_mode_title">Otomatik dışarı modu</string>
     <string name="live_display_outdoor_mode_summary">Parlak güneş ışığı altında parlaklığı ve doygunluğu otomatik olarak arttırır</string>
     <string name="live_display_anti_flicker_title">Titreme önleme</string>
     <string name="live_display_anti_flicker_summary">Düşük ışık koşullarında aşırı titremeyi önleyin ve göz yorgunluğunu azaltın. Bu ayar renk doğruluğunu düşürebilir ve bazı öğelerin görüntülenme şeklini etkileyebilir.</string>
-    <string name="live_display_low_power_title">Güç tüketimini azaltma</string>
+    <string name="live_display_low_power_title">Güç tüketimini azalt</string>
     <string name="live_display_low_power_summary">Bozulma olmadan en düşük güç tüketimi için ekranı ayarla</string>
     <string name="live_display_enhance_color_title">Renkleri geliştir</string>
     <string name="live_display_enhance_color_summary">Ten tonları, sahne ve diğer görüntülerin renk titreşimini geliştirir</string>
@@ -104,11 +106,11 @@
     <string name="live_display_color_profile_dynamic_title">Dinamik</string>
     <string name="live_display_color_profile_dynamic_summary">Gelişmiş renkler ve parlak beyazlar</string>
     <string name="live_display_color_profile_cinema_title">Sinema</string>
-    <string name="live_display_color_profile_cinema_summary">Videolar için mükemmel renk üretimi</string>
+    <string name="live_display_color_profile_cinema_summary">Videolar için mükemmel renk uyarlaması</string>
     <string name="live_display_color_profile_astronomy_title">Astronomi</string>
     <string name="live_display_color_profile_astronomy_summary">Gece görüşünü korumak için yoğun kırmızı</string>
     <string name="live_display_color_profile_photography_title">Fotoğrafçılık</string>
-    <string name="live_display_color_profile_photography_summary">Fotoğraflar için mükemmel renk üretimi</string>
+    <string name="live_display_color_profile_photography_summary">Fotoğraflar için mükemmel renk uyarlaması</string>
     <string name="live_display_color_profile_basic_title">Temel</string>
     <string name="live_display_color_profile_basic_summary">Ekranı kalibre edilmemiş şekilde kullan</string>
     <string name="live_display_color_profile_adaptive_title">Uyarlanabilir</string>
@@ -431,7 +433,7 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Tabletinizin sağ tarafında bulunan parmak izi sensörünü bulun.</string>
     <!-- Screen off fod -->
     <string name="fod_gesture_title">Kapalı ekran parmak izi</string>
-    <string name="fod_gesture_summary">Önce ekranı uyandırmak zorunda kalmadan cihazın kilidini açmaya izin verir</string>
+    <string name="fod_gesture_summary">Ekranı uyandırmak zorunda kalmadan cihazın kilidini açmaya izin verir</string>
     <!-- Battery health -->
     <string name="battery_health_title">Pil sağlığı</string>
     <string name="battery_health_summary">Cihazınızın pil sağlığını izleyin</string>
@@ -441,8 +443,8 @@
     <string name="designed_battery_capacity_summary">Üretici tarafından tasarlanan pil kapasitesi</string>
     <string name="battery_charge_cycles">Şarj döngüleri tamamlandı</string>
     <!-- Settings categories -->
-    <string name="connectivity_title">Connectivity</string>
-    <string name="personalize_title">Personalize</string>
-    <string name="security_title">Security</string>
-    <string name="others_title">Others</string>
+    <string name="connectivity_title">Bağlantılar</string>
+    <string name="personalize_title">Kişiselleştir</string>
+    <string name="security_title">Güvenlik</string>
+    <string name="others_title">Diğer</string>
 </resources>
