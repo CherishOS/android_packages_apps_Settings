@@ -32,4 +32,9 @@
     <string name="cherish_settings_title">Cherish Settings</string>
     <string name="cherish_settings_summary">Happiness is not available and it comes from your own actions</string>
 
+    <!-- Menu option for not validating the EAP server -->
+    <string name="wifi_do_not_validate_eap_server">Do not validate</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">No certificate specified. Your connection will not be private.</string>
+
 </resources>
