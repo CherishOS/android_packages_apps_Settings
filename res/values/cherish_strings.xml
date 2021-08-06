@@ -255,4 +255,7 @@
     <string name="custom_timeout_summary_2hours">2 hours</string>
     <string name="custom_timeout_summary_4hours">4 hours</string>
     <string name="custom_timeout_summary_8hours">8 hours</string>
+
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">No certificate specified. Your connection will not be private.</string>
 </resources>
