@@ -59,6 +59,11 @@
         android:defaultValue="false"
         android:title="@string/adaptive_charging_title" />
 
+    <Preference
+        android:key="sleep_mode"
+        android:title="@string/sleep_mode_title"
+        android:fragment="com.cherish.settings.fragments.SleepMode" />
+
     <com.android.settings.fuelgauge.PowerGaugePreference
         android:key="last_full_charge"
         android:icon="@drawable/ic_last_full_charge"
