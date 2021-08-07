@@ -272,4 +272,18 @@
           <item>7</item>
           <item>8</item>
     </string-array>
+
+    <!-- Adaptive charging -->
+    <string-array name="adaptive_charging_mode_entries">
+        <item>@string/adaptive_charging_mode_level</item>
+        <item>@string/adaptive_charging_mode_temperature</item>
+        <item>@string/adaptive_charging_mode_both</item>
+    </string-array>
+
+    <string-array name="adaptive_charging_mode_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
 </resources>
