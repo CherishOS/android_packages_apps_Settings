@@ -536,4 +536,9 @@
 	
 	<!-- Battery saver -->
     <string name="battery_saver_is_enabled">Battery saver is enabled</string>
+	
+	<!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+
 </resources>
