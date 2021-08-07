@@ -64,6 +64,13 @@
         android:title="@string/sleep_mode_title"
         android:fragment="com.cherish.settings.fragments.SleepMode" />
 
+    <Preference
+        android:key="sensor_block_settings"
+        android:title="@string/sensor_block_title"
+        android:summary="@string/sensor_block_summary"
+        android:fragment="com.cherish.settings.fragments.SensorBlockSettings"/>
+
+
     <com.android.settings.fuelgauge.PowerGaugePreference
         android:key="last_full_charge"
         android:icon="@drawable/ic_last_full_charge"
