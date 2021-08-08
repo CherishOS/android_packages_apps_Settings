@@ -225,12 +225,6 @@
         android:title="@string/proximity_wake_title"
         android:summary="@string/proximity_wake_summary" />
 
-    <ListPreference
-        android:key="display_cutout_emulation"
-		android:layout="@layout/cherish_preference_middle_card"
-        android:title="@string/display_cutout_emulation"
-        settings:keywords="@string/display_cutout_emulation_keywords" />
-
     <SwitchPreference
         android:key="enable_blurs_on_windows"
         android:icon="@drawable/ic_blur"
