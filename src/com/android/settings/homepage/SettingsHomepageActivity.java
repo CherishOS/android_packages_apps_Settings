@@ -66,7 +66,7 @@ public class SettingsHomepageActivity extends FragmentActivity {
         Context context = getApplicationContext();
 
         final boolean useNewSearchBar = Settings.System.getIntForUser(context.getContentResolver(),
-                Settings.System.USE_NEW_SEARCHBAR, 0, UserHandle.USER_CURRENT) != 0;
+                Settings.System.USE_NEW_SEARCHBAR, 1, UserHandle.USER_CURRENT) != 0;
 
         setContentView(useNewSearchBar  ? R.layout.settings_homepage_container_a12
                                         : R.layout.settings_homepage_container);
