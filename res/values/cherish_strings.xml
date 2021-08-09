@@ -59,7 +59,7 @@
 
     <!-- Navbar length -->
     <string name="navbar_length">Gesture bar length</string>
-    <string name="short_label">Short</string>
+    <string name="hidden_label">Hidden</string>
     <string name="long_label">Long</string>
 
     <!-- Display : Rotation -->
@@ -190,6 +190,12 @@
 
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tap to show info</string>
+
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">Off</string>
+    <string name="greatest_tick_label">Half screen</string>
+    <string name="gesture_back_deadzone_label">Dead zone</string>
+    <string name="back_sensitivity_dialog_message_cust">Use the first and second seekbar to configure back swipe sensitivity, the last seekbar to set a dead area on top of the screen where the swipe cannot be triggered, to avoid conflicts with in-app gestures.</string>
 
     <!-- Custom actions -->
     <string name="action_nothing">No action</string>
@@ -517,9 +523,6 @@
     <string name="color_mode_balance_blue">Blue strength</string>
     <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
 	
-	<!-- Immersive Navigation -->
-    <string name="immersive_navigation_title">Immersive navigation</string>
-	
 	<!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_all">Allow network access</string>
     <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
@@ -561,5 +564,4 @@
     <string name="sensor_block_app_picker_title">Block sensors for these apps</string>
     <string name="add_sensor_block_package_title">Add apps for Sensor block</string>
     <string name="add_sensor_block_package_summary">Significant motion, accelerometer, linear acceleration sensors will be blocked for these apps</string>
-
 </resources>
