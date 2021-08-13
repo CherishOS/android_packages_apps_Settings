@@ -24,6 +24,19 @@
     settings:keywords="@string/keywords_gesture_navigation_settings">
 
     <PreferenceCategory
+        android:key="other_controls_category"
+        android:title="@string/other_controls_title">
+
+        <com.android.settings.widget.LabeledSeekBarPreference
+            android:key="gesture_navbar_length_preference"
+            android:title="@string/gesture_navbar_length_title"
+            android:max="2"
+            android:selectable="true"
+            settings:textStart="@string/short_label"
+            settings:textEnd="@string/long_label"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="assistant_gesture_category"
         android:persistent="false"
         android:title="@string/assistant_gesture_category_title">
