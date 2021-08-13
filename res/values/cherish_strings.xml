@@ -281,4 +281,9 @@
     <string name="navbar_category">Navigation bar</string>
     <string name="hide_navbar_gesture_bar_title">Hide gesture bar</string>
     <string name="hide_navbar_gesture_bar_summary">Hide the gesture bar at the bottom of the screen</string>
+
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">Pill length</string>
+    <string name="short_label">Short</string>
+    <string name="long_label">Long</string>
 </resources>
