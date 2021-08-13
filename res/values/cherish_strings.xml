@@ -124,4 +124,12 @@
     <string name="wellbeing_title">Google Wellbeing</string>
     <string name="usercard_summary">Current active user, tap for more information</string>
     <string name="connectivity_category_title">connectivity</string>
+
+	<!-- Fullscreen gestures -->
+    <string name="other_controls_title">Other controls</string>
+
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">Pill length</string>
+    <string name="short_label">Short</string>
+    <string name="long_label">Long</string>
 </resources>
