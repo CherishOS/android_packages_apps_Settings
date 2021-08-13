@@ -93,5 +93,10 @@
     <string name="unit_seconds">Second(s)</string>
     <string name="volume_dialog_timeout_title">Volume panel timeout</string>
     <string name="volume_dialog_timeout_summary">The time it takes for volume panel to fade</string>
+	
+	<!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">Pill length</string>
+    <string name="short_label">Short</string>
+    <string name="long_label">Long</string>
 
 </resources>
