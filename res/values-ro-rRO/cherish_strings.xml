@@ -71,15 +71,18 @@
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
-    <!-- Smart charging -->
-    <string name="smart_charging_title">Smart Charging</string>
-    <string name="smart_charging_summary">Set maximum charging level</string>
-    <string name="smart_charging_switch_title">Use Smart charging</string>
-    <string name="smart_charging_level_title">Stop trigger level</string>
-    <string name="smart_charging_resume_level_title">Start trigger level</string>
-    <string name="smart_charging_reset_stats_title">Reset battery statistics</string>
-    <string name="smart_charging_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
-    <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery</string>
+    <!-- Adaptive charging -->
+    <string name="adaptive_charging_title">Adaptive Charging</string>
+    <string name="adaptive_charging_summary">On / Conditionally restricting charging</string>
+    <string name="adaptive_charging_mode_title">Restriction mode</string>
+    <string name="adaptive_charging_mode_level">Battery percentage</string>
+    <string name="adaptive_charging_mode_temperature">Battery temperature</string>
+    <string name="adaptive_charging_mode_both">Battery percentage or temperature</string>
+    <string name="adaptive_charging_cutoff_title">Stop charging at</string>
+    <string name="adaptive_charging_resume_title">Resume charging at</string>
+    <string name="adaptive_charging_reset_stats_title">Reset battery stats</string>
+    <string name="adaptive_charging_reset_stats_summary">Reset statistics after reaching user defined charging level</string>
+    <string name="adaptive_charging_description">Adaptive charging helps extend the lifespan of your battery by restricting charging under certain conditions.</string>
     <!-- Cherish maintainer -->
     <string name="maintainer">Administratori dispozitiv</string>
     <!-- LiveDisplay -->
@@ -144,15 +147,6 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Always on when charging</string>
     <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
-    <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Allow network access</string>
-    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
-    <string name="data_usage_app_restrict_mobile">Mobile data</string>
-    <string name="data_usage_app_restrict_mobile_summary">Enable usage of mobile data</string>
-    <string name="data_usage_app_restrict_vpn">VPN data</string>
-    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Double tap</string>
     <string name="doze_double_tap_title">Double tap to check phone</string>
@@ -194,6 +188,7 @@
     <string name="show_powermenu">Show Power menu</string>
     <string name="partial_screenshot">Partial screenshot</string>
     <string name="hush_mute">Silence notifications</string>
+    <string name="recent_app_toggle">Switch recent app</string>
     <!-- Long back swipe options -->
     <string name="navbar_gesture_tweaks_pref_title">Advanced gestures</string>
     <string name="navbar_gesture_tweaks_pref_summary">Customize gestures and set custom actions</string>
@@ -279,10 +274,6 @@
     <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
     <string name="increasing_ring_min_volume_title">Start volume</string>
     <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
-    <!-- Clock style -->
-    <string name="clock_style_title">Clock style</string>
-    <string name="clock_style_summary">Customize lockscreen clock</string>
-    <string name="theme_customization_statusbar_height_title">Statusbar height</string>
     <string name="default_accent_color">Dodger Blue (default)</string>
     <string name="default_icon_shape">Circle (default)</string>
     <string name="default_font">OnePlus Slate (default)</string>
@@ -324,7 +315,7 @@
     <string name="applock_lock_after_instantly_summary">App will be locked instantly when closed</string>
     <string name="applock_lock_after_15_seconds_summary">App will be locked 15 seconds after closing</string>
     <string name="applock_lock_after_screen_off_summary">App will be locked when screen is turned off</string>
-    <string name="applock_notification_info">You can show/hide the notification content on a per-app basis by clicking on the notification icon shown on each locked apps\' preference</string>
+    <string name="applock_notification_info">The visibility of notification content can be changed if you click beside lock icon.</string>
     <string name="applock_show_notif">Showing notification content</string>
     <string name="applock_hide_notif">Hiding notification content</string>
     <string name="applock_setup">Setup app locker</string>
@@ -392,10 +383,6 @@
     <string name="fingerprint_power_button_press_title">Press to unlock</string>
     <string name="fingerprint_power_button_press_off_summary">Touch power button to unlock with fingerprint when screen is off</string>
     <string name="fingerprint_power_button_press_on_summary">Press power button firmly to unlock with fingerprint when screen is off</string>
-    <!-- Custom Signal bar icons -->
-    <string name="custom_signal_bar_title">Signal</string>
-    <!-- Custom Wi-Fi bar icons -->
-    <string name="custom_wifi_bar_title">Wi-Fi</string>
     <!-- Themes customisation -->
     <string name="theme_customization_systemui_title">System themes</string>
     <!-- Refresh rate -->
@@ -433,7 +420,7 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
     <!-- Screen off fod -->
-    <string name="fod_gesture_title">Screen off fingerprint</string>
+    <string name="fod_gesture_title">Unlock with fingerprint when the screen is off</string>
     <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
     <!-- Battery health -->
     <string name="battery_health_title">Battery health</string>
@@ -448,4 +435,45 @@
     <string name="personalize_title">Personalize</string>
     <string name="security_title">Security</string>
     <string name="others_title">Others</string>
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_red">Red strength</string>
+    <string name="color_mode_balance_green">Green strength</string>
+    <string name="color_mode_balance_blue">Blue strength</string>
+    <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Allow network access</string>
+    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
+    <string name="data_usage_app_restrict_mobile">Mobile data</string>
+    <string name="data_usage_app_restrict_mobile_summary">Enable usage of mobile data</string>
+    <string name="data_usage_app_restrict_vpn">VPN data</string>
+    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <!-- Legacy WFD settings -->
+    <string name="legacy_wfd_video_mode_title">Video mode</string>
+    <string name="legacy_wfd_video_mode_720p_30fps">720p 30fps</string>
+    <string name="legacy_wfd_video_mode_720p_60fps">720p 60fps</string>
+    <string name="legacy_wfd_video_mode_1080p_30fps">1080p 30fps</string>
+    <string name="legacy_wfd_video_mode_1080p_60fps">1080p 60fps</string>
+    <!-- Battery saver -->
+    <string name="battery_saver_is_enabled">Battery saver is enabled</string>
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Aggressive Battery</string>
+    <string name="aggressive_battery_summary">More strict battery savings</string>
+    <string name="aggressive_battery_warning_text">These are power saving features. They may interfere with services intended to run at idle, like navigation apps. You can whitelist these apps from being affected in the app battery settings.</string>
+    <string name="aggressive_idle_title">Aggressive Idle</string>
+    <string name="aggressive_idle_summary">Enter device idle more frequently and wake up less</string>
+    <string name="aggressive_standby_title">Aggressive Standby</string>
+    <string name="aggressive_standby_summary">Restrict apps from running the background</string>
+    <string name="aggressive_battery_saver_title">Auto-enable on battery saver</string>
+    <string name="aggressive_battery_saver_summary">Enable Aggressive Battery automatically when using battery saver</string>
+    <!-- Sensor block per-package -->
+    <string name="sensor_block_title">Sensor block per-package</string>
+    <string name="sensor_block_summary">Block access to certain sensors for some apps to save battery</string>
+    <string name="sensor_block_app_picker_title">Block sensors for these apps</string>
+    <string name="add_sensor_block_package_title">Add apps for Sensor block</string>
+    <string name="add_sensor_block_package_summary">Significant motion, accelerometer, linear acceleration sensors will be blocked for these apps</string>
 </resources>

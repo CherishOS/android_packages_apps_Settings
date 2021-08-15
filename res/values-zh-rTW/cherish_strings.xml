@@ -71,15 +71,18 @@
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">允許客戶端使用 VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">允許熱點客戶端使用此設備\u2019的 VPN 連接到上遊</string>
-    <!-- Smart charging -->
-    <string name="smart_charging_title">智慧充電</string>
-    <string name="smart_charging_summary">設定最大充電百分比</string>
-    <string name="smart_charging_switch_title">使用智慧充電</string>
-    <string name="smart_charging_level_title">停止充電百分比</string>
-    <string name="smart_charging_resume_level_title">開始(繼續)充電百分比</string>
-    <string name="smart_charging_reset_stats_title">重設電池統計資料</string>
-    <string name="smart_charging_reset_stats_summary">在達到使用者設定的電量百分比後，重設電池統計數據</string>
-    <string name="smart_charging_footer">智慧充電允許您設定最大充電值，延長電池壽命</string>
+    <!-- Adaptive charging -->
+    <string name="adaptive_charging_title">Adaptive Charging</string>
+    <string name="adaptive_charging_summary">On / Conditionally restricting charging</string>
+    <string name="adaptive_charging_mode_title">Restriction mode</string>
+    <string name="adaptive_charging_mode_level">Battery percentage</string>
+    <string name="adaptive_charging_mode_temperature">電池溫度</string>
+    <string name="adaptive_charging_mode_both">Battery percentage or temperature</string>
+    <string name="adaptive_charging_cutoff_title">Stop charging at</string>
+    <string name="adaptive_charging_resume_title">Resume charging at</string>
+    <string name="adaptive_charging_reset_stats_title">Reset battery stats</string>
+    <string name="adaptive_charging_reset_stats_summary">Reset statistics after reaching user defined charging level</string>
+    <string name="adaptive_charging_description">Adaptive charging helps extend the lifespan of your battery by restricting charging under certain conditions.</string>
     <!-- Cherish maintainer -->
     <string name="maintainer">維護人員</string>
     <!-- LiveDisplay -->
@@ -92,8 +95,8 @@
     <string name="live_display_night">夜間</string>
     <string name="live_display_outdoor_mode_title">自動戶外模式</string>
     <string name="live_display_outdoor_mode_summary">自動在陽光下提高亮度和飽和度</string>
-    <string name="live_display_anti_flicker_title">防閃爍</string>
-    <string name="live_display_anti_flicker_summary">在缺乏光線下，防止大量閃爍並減少眼睛疲勞。 這可能會降低色彩準確性，並影響某些項目的顯示方式。</string>
+    <string name="live_display_anti_flicker_title">Anti flicker</string>
+    <string name="live_display_anti_flicker_summary">Prevent extensive flickering and reduce eye strain in low light conditions. It might degrade color accuracy and affect the way some items are displayed.</string>
     <string name="live_display_low_power_title">降低耗電量</string>
     <string name="live_display_low_power_summary">在不降低亮度的情況下調整顯示以降低耗電量</string>
     <string name="live_display_enhance_color_title">增強色彩</string>
@@ -144,15 +147,6 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">在充電時開啟 AOD</string>
     <string name="doze_on_charge_summary">充電時一直處於 Doze 介面</string>
-    <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">允許網路存取</string>
-    <string name="data_usage_app_restrict_all_summary">啟用網路用量</string>
-    <string name="data_usage_app_restrict_mobile">行動數據</string>
-    <string name="data_usage_app_restrict_mobile_summary">啟用行動數據流量統計</string>
-    <string name="data_usage_app_restrict_vpn">VPN 數據</string>
-    <string name="data_usage_app_restrict_vpn_summary">啟用 VPN 流量統計</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi 數據</string>
-    <string name="data_usage_app_restrict_wifi_summary">啟用 Wi\u2011Fi 流量統計</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">雙擊</string>
     <string name="doze_double_tap_title">輕觸兩下來察看手機</string>
@@ -194,6 +188,7 @@
     <string name="show_powermenu">顯示電源選單</string>
     <string name="partial_screenshot">局部螢幕截圖</string>
     <string name="hush_mute">靜音通知</string>
+    <string name="recent_app_toggle">Switch recent app</string>
     <!-- Long back swipe options -->
     <string name="navbar_gesture_tweaks_pref_title">進階手勢</string>
     <string name="navbar_gesture_tweaks_pref_summary">自訂手勢與動作</string>
@@ -235,9 +230,9 @@
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
     <string name="lockpattern_settings_enable_dots_title">顯示解鎖圖形點</string>
     <!-- Clipboard toast info -->
-    <string name="clipboard_toast_info_title">存取剪貼簿警告</string>
-    <string name="clipboard_toast_info_show_important">只顯示重要的警示</string>
-    <string name="clipboard_toast_info_show_all">顯示所有存取警示</string>
+    <string name="clipboard_toast_info_title">Clipboard access alerts</string>
+    <string name="clipboard_toast_info_show_important">Show only important alerts</string>
+    <string name="clipboard_toast_info_show_all">Show all access alerts</string>
     <!-- Misc gesture settings -->
     <string name="back_gesture_haptic_title">觸覺反饋</string>
     <string name="back_gesture_haptic_summary">啟用返回手勢的觸覺反饋</string>
@@ -279,10 +274,6 @@
     <string name="increasing_ring_volume_option_title">遞增鈴聲音量</string>
     <string name="increasing_ring_min_volume_title">起始音量</string>
     <string name="increasing_ring_ramp_up_time_title">漸強時間</string>
-    <!-- Clock style -->
-    <string name="clock_style_title">時鐘樣式</string>
-    <string name="clock_style_summary">自訂鎖定畫面時鐘</string>
-    <string name="theme_customization_statusbar_height_title">狀態列高度</string>
     <string name="default_accent_color">道奇藍 (預設)</string>
     <string name="default_icon_shape">圓圈 (預設)</string>
     <string name="default_font">OnePlus Slate (預設)</string>
@@ -324,7 +315,7 @@
     <string name="applock_lock_after_instantly_summary">應用程式會在關閉後立刻鎖定</string>
     <string name="applock_lock_after_15_seconds_summary">應用程式關閉15秒後鎖定</string>
     <string name="applock_lock_after_screen_off_summary">應用程式將在螢幕關閉後鎖定</string>
-    <string name="applock_notification_info">藉由點擊被鎖定應用程式旁的通知圖示，您可以顯示/隱藏該應用程式通知內容</string>
+    <string name="applock_notification_info">The visibility of notification content can be changed if you click beside lock icon.</string>
     <string name="applock_show_notif">顯示通知內容</string>
     <string name="applock_hide_notif">隱藏通知內容</string>
     <string name="applock_setup">設定應用程式鎖</string>
@@ -383,67 +374,104 @@
     <string name="smart_cutoff_level_title">停止充電百分比</string>
     <string name="smart_cutoff_resume_level_title">開始(繼續)充電百分比</string>
     <!-- Running services -->
-    <string name="background_processes_settings_title">背景處理程序</string>
+    <string name="background_processes_settings_title">Background processes</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">連結鈴聲 &amp; 通知音量</string>
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
     <!-- Power Button Fingerprint -->
-    <string name="fingerprint_power_button_press_title">按下電源鍵以解鎖</string>
-    <string name="fingerprint_power_button_press_off_summary">螢幕關閉時按下電源鍵以指紋解鎖</string>
-    <string name="fingerprint_power_button_press_on_summary">螢幕關閉時長按電源鍵以指紋解鎖</string>
-    <!-- Custom Signal bar icons -->
-    <string name="custom_signal_bar_title">訊號</string>
-    <!-- Custom Wi-Fi bar icons -->
-    <string name="custom_wifi_bar_title">Wi-Fi</string>
+    <string name="fingerprint_power_button_press_title">Press to unlock</string>
+    <string name="fingerprint_power_button_press_off_summary">Touch power button to unlock with fingerprint when screen is off</string>
+    <string name="fingerprint_power_button_press_on_summary">Press power button firmly to unlock with fingerprint when screen is off</string>
     <!-- Themes customisation -->
-    <string name="theme_customization_systemui_title">系統主題</string>
+    <string name="theme_customization_systemui_title">System themes</string>
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">最低螢幕刷新率</string>
-    <string name="max_refresh_rate_title">最高螢幕更新率</string>
-    <string name="battery_saver_refresh_rate_title">降低螢幕更新率</string>
-    <string name="battery_saver_refresh_rate_summary">在省電模式開啟時使用 60 Hz 螢幕更新率以減少電量消耗</string>
+    <string name="max_refresh_rate_title">Maximum refresh rate</string>
+    <string name="battery_saver_refresh_rate_title">Reduce refresh rate</string>
+    <string name="battery_saver_refresh_rate_summary">Use 60 Hz screen refresh rate to save power when Battery Saver is on</string>
     <!-- FontEngine -->
-    <string name="font_picker_title">字型</string>
-    <string name="disable_fonts_installed_title">為了避免與 Substratum 衝突，字型管理器已經停用。如果想要使用字型管理器，請解除安裝 Substratum。</string>
-    <string name="font_picker_progress">正在套用新的字型\u2026</string>
+    <string name="font_picker_title">Font</string>
+    <string name="disable_fonts_installed_title">Font picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the font picker.</string>
+    <string name="font_picker_progress">Applying new font\u2026</string>
     <!-- Data usage -->
-    <string name="data_usage_period">行動數據用量週期</string>
-    <string name="data_usage_daily">每日</string>
-    <string name="data_usage_monthly">每月</string>
-    <string name="cherish_about_device_info">法律 &amp; 資訊</string>
-    <string name="cherish_about_device_private">隱私資訊</string>
+    <string name="data_usage_period">Data usage period</string>
+    <string name="data_usage_daily">Daily</string>
+    <string name="data_usage_monthly">Monthly</string>
+    <string name="cherish_about_device_info">Legal &amp; Information</string>
+    <string name="cherish_about_device_private">Private Details</string>
     <!-- One shot automatic Brightness -->
-    <string name="auto_brightness_one_shot_title">只有在螢幕開啟時應用</string>
-    <string name="auto_brightness_one_shot_summary">調整將只發生一次</string>
+    <string name="auto_brightness_one_shot_title">Only apply when screen is turned on</string>
+    <string name="auto_brightness_one_shot_summary">Adjustment will occur one time</string>
     <!-- Face Unlock -->
-    <string name="face_unlock_method_title">允許在鎖定畫面使用臉部辨識解鎖</string>
-    <string name="face_unlock_method_default">當螢幕開啟時</string>
-    <string name="face_unlock_method_swipe">在鎖定畫面滑動時</string>
+    <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
+    <string name="face_unlock_method_default">When the screen is turned on</string>
+    <string name="face_unlock_method_swipe">When swiping on lock screen</string>
     <!-- Fingerprint location message - default -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">指紋感應器位於手機正面。</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">指紋感應器位於手機左側。</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">指紋感應器位於手機右側。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Locate the fingerprint sensor on the left side of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Locate the fingerprint sensor on the right side of your phone.</string>
     <!-- Fingerprint location message - generic -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">指紋感應器位於裝置正面。</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">指紋感應器位於裝置左側。</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">指紋感應器位於裝置右側。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Locate the fingerprint sensor on the left side of your device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Locate the fingerprint sensor on the right side of your device.</string>
     <!-- Fingerprint location message - tablet -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">指紋感應器位於平板正面。</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">指紋感應器位於平板左側。</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">指紋感應器位於平板右側。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
     <!-- Screen off fod -->
-    <string name="fod_gesture_title">允許螢幕關閉時以指紋解鎖</string>
+    <string name="fod_gesture_title">Unlock with fingerprint when the screen is off</string>
     <string name="fod_gesture_summary">無需先喚醒螢幕即可解鎖裝置</string>
     <!-- Battery health -->
-    <string name="battery_health_title">電池健康度</string>
-    <string name="battery_health_summary">監控你的電池健康度</string>
-    <string name="current_battery_capacity">目前電池容量</string>
-    <string name="current_battery_capacity_summary">系統核心測量的目前電池容量</string>
-    <string name="designed_battery_capacity">原電池容量</string>
-    <string name="designed_battery_capacity_summary">手機製造商設計的電池容量</string>
-    <string name="battery_charge_cycles">充電週期循環次數</string>
+    <string name="battery_health_title">Battery health</string>
+    <string name="battery_health_summary">Monitor the battery health of your device</string>
+    <string name="current_battery_capacity">Current battery capacity</string>
+    <string name="current_battery_capacity_summary">The current battery capacity measured by the kernel</string>
+    <string name="designed_battery_capacity">Designed battery capacity</string>
+    <string name="designed_battery_capacity_summary">The battery capacity designed by the manufacturer</string>
+    <string name="battery_charge_cycles">Charge Cycles Completed</string>
     <!-- Settings categories -->
-    <string name="connectivity_title">連接</string>
-    <string name="personalize_title">個人化</string>
-    <string name="security_title">安全性</string>
-    <string name="others_title">其他選項</string>
+    <string name="connectivity_title">Connectivity</string>
+    <string name="personalize_title">Personalize</string>
+    <string name="security_title">Security</string>
+    <string name="others_title">Others</string>
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_red">Red strength</string>
+    <string name="color_mode_balance_green">Green strength</string>
+    <string name="color_mode_balance_blue">Blue strength</string>
+    <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">允許網路存取</string>
+    <string name="data_usage_app_restrict_all_summary">啟用網路用量</string>
+    <string name="data_usage_app_restrict_mobile">行動數據</string>
+    <string name="data_usage_app_restrict_mobile_summary">啟用行動數據流量統計</string>
+    <string name="data_usage_app_restrict_vpn">VPN 數據</string>
+    <string name="data_usage_app_restrict_vpn_summary">啟用 VPN 流量統計</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi 數據</string>
+    <string name="data_usage_app_restrict_wifi_summary">啟用 Wi\u2011Fi 流量統計</string>
+    <!-- Legacy WFD settings -->
+    <string name="legacy_wfd_video_mode_title">Video mode</string>
+    <string name="legacy_wfd_video_mode_720p_30fps">720p 30fps</string>
+    <string name="legacy_wfd_video_mode_720p_60fps">720p 60fps</string>
+    <string name="legacy_wfd_video_mode_1080p_30fps">1080p 30fps</string>
+    <string name="legacy_wfd_video_mode_1080p_60fps">1080p 60fps</string>
+    <!-- Battery saver -->
+    <string name="battery_saver_is_enabled">Battery saver is enabled</string>
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Aggressive Battery</string>
+    <string name="aggressive_battery_summary">More strict battery savings</string>
+    <string name="aggressive_battery_warning_text">These are power saving features. They may interfere with services intended to run at idle, like navigation apps. You can whitelist these apps from being affected in the app battery settings.</string>
+    <string name="aggressive_idle_title">Aggressive Idle</string>
+    <string name="aggressive_idle_summary">Enter device idle more frequently and wake up less</string>
+    <string name="aggressive_standby_title">Aggressive Standby</string>
+    <string name="aggressive_standby_summary">Restrict apps from running the background</string>
+    <string name="aggressive_battery_saver_title">自動啟用省電模式</string>
+    <string name="aggressive_battery_saver_summary">Enable Aggressive Battery automatically when using battery saver</string>
+    <!-- Sensor block per-package -->
+    <string name="sensor_block_title">Sensor block per-package</string>
+    <string name="sensor_block_summary">Block access to certain sensors for some apps to save battery</string>
+    <string name="sensor_block_app_picker_title">Block sensors for these apps</string>
+    <string name="add_sensor_block_package_title">Add apps for Sensor block</string>
+    <string name="add_sensor_block_package_summary">Significant motion, accelerometer, linear acceleration sensors will be blocked for these apps</string>
 </resources>
