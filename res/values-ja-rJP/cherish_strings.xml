@@ -77,7 +77,7 @@
     <string name="adaptive_charging_mode_title">制限モード</string>
     <string name="adaptive_charging_mode_level">バッテリー残量</string>
     <string name="adaptive_charging_mode_temperature">バッテリー温度</string>
-    <string name="adaptive_charging_mode_both">バッテリーの残量または温度</string>
+    <string name="adaptive_charging_mode_both">バッテリーの残量または温度で充電を制御する</string>
     <string name="adaptive_charging_cutoff_title">充電停止</string>
     <string name="adaptive_charging_resume_title">充電再開</string>
     <string name="adaptive_charging_reset_stats_title">バッテリーの統計情報をリセット</string>
@@ -309,7 +309,7 @@
     <string name="applock_unlocked_apps">未ロックのアプリ</string>
     <string name="applock_lock_after_title">以下の後にアプリをロック</string>
     <string name="applock_lock_after_instantly">すぐに</string>
-    <string name="applock_lock_after_15_seconds">10秒</string>
+    <string name="applock_lock_after_15_seconds">15秒</string>
     <string name="applock_lock_after_screen_off">画面を消灯</string>
     <string name="applock_lock_after_summary">選択した制限時間後にアプリはロックされます</string>
     <string name="applock_lock_after_instantly_summary">アプリを閉じるとすぐにロックされます</string>
@@ -339,7 +339,7 @@
     <string name="wifi_timeout_summary">ネットワークに接続していない場合は<xliff:g id="timeout_description">%1$s</xliff:g>後に Wi-Fi はオフになります</string>
     <string name="wifi_timeout_summary2">無効</string>
     <string name="wifi_timeout_summary_never">なし</string>
-    <string name="wifi_timeout_summary_15secs">10秒</string>
+    <string name="wifi_timeout_summary_15secs">15秒</string>
     <string name="wifi_timeout_summary_30secs">30秒</string>
     <string name="wifi_timeout_summary_1min">1分</string>
     <string name="wifi_timeout_summary_2mins">2分</string>
@@ -356,7 +356,7 @@
     <string name="bluetooth_timeout_summary">端末が接続されていない場合は<xliff:g id="timeout_description">%1$s</xliff:g>後に Bluetooth はオフになります</string>
     <string name="bluetooth_timeout_summary2">自動的に Bluetooth をオフにしない</string>
     <string name="bluetooth_timeout_summary_never">なし</string>
-    <string name="bluetooth_timeout_summary_15secs">10秒</string>
+    <string name="bluetooth_timeout_summary_15secs">15秒</string>
     <string name="bluetooth_timeout_summary_30secs">30秒</string>
     <string name="bluetooth_timeout_summary_1min">1分</string>
     <string name="bluetooth_timeout_summary_2mins">2分</string>
