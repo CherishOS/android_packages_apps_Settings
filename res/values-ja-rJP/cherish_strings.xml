@@ -77,7 +77,7 @@
     <string name="adaptive_charging_mode_title">制限モード</string>
     <string name="adaptive_charging_mode_level">バッテリー残量</string>
     <string name="adaptive_charging_mode_temperature">バッテリー温度</string>
-    <string name="adaptive_charging_mode_both">バッテリーの残量または温度で充電を制御する</string>
+    <string name="adaptive_charging_mode_both">両方</string>
     <string name="adaptive_charging_cutoff_title">充電停止</string>
     <string name="adaptive_charging_resume_title">充電再開</string>
     <string name="adaptive_charging_reset_stats_title">バッテリーの統計情報をリセット</string>
@@ -191,7 +191,7 @@
     <string name="recent_app_toggle">直前のアプリの切り替え</string>
     <!-- Long back swipe options -->
     <string name="navbar_gesture_tweaks_pref_title">高度なジェスチャー</string>
-    <string name="navbar_gesture_tweaks_pref_summary">ジェスチャー編集とカスタムアクション設定</string>
+    <string name="navbar_gesture_tweaks_pref_summary">ジェスチャーを編集してカスタムアクションを設定する</string>
     <string name="navbar_gesture_tweaks_cat_title">高度な設定</string>
     <string name="long_back_swipe_timeout_title">長いスワイプアクションの制限時間</string>
     <string name="left_swipe_actions_title">長い左スワイプアクション</string>
@@ -250,7 +250,7 @@
     <string name="pause_audio_stream_summary">メディア音量がゼロになっらた自動的にメディア再生を一時停止する</string>
     <!-- Expand immediately -->
     <string name="extra_volume_ui_features_title">追加の音量インターフェース</string>
-    <string name="expand_immediately_title">音量パネル内の拡張ボタンを有効化</string>
+    <string name="expand_immediately_title">拡張ボタンを有効化</string>
     <string name="expand_immediately_summary">一部が隠されたバーの操作なしで、音量パネル内に複数の音量バーを直接展開して操作できる追加のボタンを表示する。</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">フル</string>
@@ -318,7 +318,7 @@
     <string name="applock_notification_info">ロックアイコンの横をクリックした場合に通知の内容の表示を変更できます。</string>
     <string name="applock_show_notif">通知の内容を表示中です</string>
     <string name="applock_hide_notif">通知の内容を非表示中です</string>
-    <string name="applock_setup">アプリのロックを設定</string>
+    <string name="applock_setup">アプリのロックを設定する</string>
     <string name="applock_overlay_summary">このアプリはロックされているためこの機能は利用できません</string>
     <plurals name="applock_summary">
         <item quantity="other">%d個のアプリがロックされました</item>
@@ -427,7 +427,7 @@
     <string name="current_battery_capacity_summary">カーネルによって測定された現在のバッテリー容量</string>
     <string name="designed_battery_capacity">設計バッテリー容量</string>
     <string name="designed_battery_capacity_summary">メーカーによって設計されたバッテリー容量</string>
-    <string name="battery_charge_cycles">充電サイクルが完了しました</string>
+    <string name="battery_charge_cycles">充電サイクル完了数</string>
     <!-- Settings categories -->
     <string name="connectivity_title">接続</string>
     <string name="personalize_title">個人設定</string>
