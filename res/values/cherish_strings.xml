@@ -268,4 +268,9 @@
 	<!-- Volume Media Output Toggle -->
     <string name="volume_media_output_toggle_title">Show media controller on volume panel</string>
     <string name="volume_media_output_toggle_summary">Show media controller if there is an active stream</string>
+	
+	<!-- Battery health -->
+    <string name="current_battery_capacity">Current battery capacity</string>
+    <string name="designed_battery_capacity">Designed battery capacity</string>
+    <string name="battery_charge_cycles">Charge cycles completed</string>
 </resources>
