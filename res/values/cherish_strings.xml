@@ -218,8 +218,8 @@
     <string name="recent_app_toggle">Switch recent app</string>
 
     <!-- Long back swipe options -->
-    <string name="navbar_gesture_tweaks_pref_title">Advanced gestures</string>
-    <string name="navbar_gesture_tweaks_pref_summary">Customize gestures and set custom actions</string>
+    <string name="navbar_gesture_tweaks_pref_title">Swipe actions</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Set custom actions for gestures</string>
     <string name="navbar_gesture_tweaks_cat_title">Advanced</string>
     <string name="long_back_swipe_timeout_title">Long swipe action timeout</string>
     <string name="left_swipe_actions_title">Long left swipe action</string>
@@ -565,4 +565,8 @@
 
     <!-- Adguard DNS -->
     <string name="private_dns_mode_adguard" translatable="false">AdGuard DNS</string>
+
+    <!-- IME button space -->
+    <string name="navigation_bar_ime_space_title">IME button space</string>
+    <string name="navigation_bar_ime_space_summary">Show IME button space below keyboard</string>
 </resources>
