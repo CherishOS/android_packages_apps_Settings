@@ -66,20 +66,23 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Aplikasi layar penuh</string>
     <string name="display_cutout_force_fullscreen_summary">Paksa aplikasi untuk mengabaikan ruang takik</string>
-    <string name="display_cutout_force_fullscreen_restart_app">Please restart the application to apply the changes</string>
-    <string name="cutout_force_fullscreen_no_apps">No apps</string>
+    <string name="display_cutout_force_fullscreen_restart_app">Harap mulai ulang aplikasi untuk menerapkan perubahan</string>
+    <string name="cutout_force_fullscreen_no_apps">Tidak ada aplikasi</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Izinkan klien untuk menggunakan VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Izinkan klien hotspot untuk menggunakan koneksi VPN\u2019s perangkat ini untuk konektivitas hulu</string>
-    <!-- Smart charging -->
-    <string name="smart_charging_title">Pengisian Pintar</string>
-    <string name="smart_charging_summary">Tentukan batas maksimal pengisian</string>
-    <string name="smart_charging_switch_title">Gunakan Pengisian Pintar</string>
-    <string name="smart_charging_level_title">Hentikan tingkat pemicu</string>
-    <string name="smart_charging_resume_level_title">Mulai tingkat pemicu</string>
-    <string name="smart_charging_reset_stats_title">Atur ulang statistik baterai</string>
-    <string name="smart_charging_reset_stats_summary">Atur ulang statistik baterai setelah mencapai batas pengisian</string>
-    <string name="smart_charging_footer">Pengisian Pintar memungkinkan Anda mengatur tingkat pengisian maksimum untuk memperpanjang umur baterai Anda</string>
+    <!-- Adaptive charging -->
+    <string name="adaptive_charging_title">Pengisian Adaptif</string>
+    <string name="adaptive_charging_summary">Aktif / Membatasi pengisian daya secara bersyarat</string>
+    <string name="adaptive_charging_mode_title">Mode Pembatasan</string>
+    <string name="adaptive_charging_mode_level">Persentase Baterai</string>
+    <string name="adaptive_charging_mode_temperature">Suhu Baterai</string>
+    <string name="adaptive_charging_mode_both">Persentase baterai atau suhu</string>
+    <string name="adaptive_charging_cutoff_title">Hentikan pengisian daya di</string>
+    <string name="adaptive_charging_resume_title">Lanjutkan pengisian daya di</string>
+    <string name="adaptive_charging_reset_stats_title">Setel ulang statistik baterai</string>
+    <string name="adaptive_charging_reset_stats_summary">Setel ulang statistik baterai setelah mencapai tingkat pengisian yang ditentukan pengguna</string>
+    <string name="adaptive_charging_description">Pengisian Daya Adaptif membantu memperpanjang masa pakai baterai Anda dengan membatasi pengisian dalam kondisi tertentu.</string>
     <!-- Cherish maintainer -->
     <string name="maintainer">Pengelola</string>
     <!-- LiveDisplay -->
@@ -145,19 +148,6 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Tetap menyala saat mengisi daya</string>
     <string name="doze_on_charge_summary">Tampilkan layar tidur sepanjang waktu saat mengisi daya</string>
-    <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Izinkan akses jaringan</string>
-    <string name="data_usage_app_restrict_all_summary">Aktifkan penggunaan jaringan</string>
-    <string name="data_usage_app_restrict_mobile">Data Seluler</string>
-    <string name="data_usage_app_restrict_mobile_summary">Aktifkan penggunaan data seluler</string>
-    <string name="data_usage_app_restrict_vpn">Data VPN</string>
-    <string name="data_usage_app_restrict_vpn_summary">Aktifkan penggunaan data VPN</string>
-    <string name="data_usage_app_restrict_wifi">Data Wi\u2011Fi</string>
-    <string name="data_usage_app_restrict_wifi_summary">Aktifkan penggunaan data Wi\u2011Fi</string>
-    <!-- Doze on double tap -->
-    <string name="double_tap_title">Ketuk dua kali</string>
-    <string name="doze_double_tap_title">Ketuk dua kali untuk memeriksa telepon</string>
-    <string name="doze_double_tap_summary">Tampilkan pemberitahuan dengan ketukan ganda</string>
     <!-- About phone cards -->
     <string name="storage_card_title">Penyimpanan</string>
     <string name="storage_card_info">Menempati</string>
@@ -195,6 +185,7 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="show_powermenu">Tampilkan Menu Daya</string>
     <string name="partial_screenshot">Tangkapan Layar Sebagian</string>
     <string name="hush_mute">Pemberitahuan senyap</string>
+    <string name="recent_app_toggle">Beralih aplikasi baru-baru ini</string>
     <!-- Long back swipe options -->
     <string name="navbar_gesture_tweaks_pref_title">Gestur tingkat lanjut</string>
     <string name="navbar_gesture_tweaks_pref_summary">Kustomisasi gerakan dan atur tindakan khusus</string>
@@ -236,7 +227,7 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
     <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
     <!-- Clipboard toast info -->
-    <string name="clipboard_toast_info_title">Peringatan akses clipboard</string>
+    <string name="clipboard_toast_info_title">Peringatan akses papan klip</string>
     <string name="clipboard_toast_info_show_important">Tampilkan hanya peringatan penting</string>
     <string name="clipboard_toast_info_show_all">Tampilkan semua peringatan akses</string>
     <!-- Misc gesture settings -->
@@ -280,10 +271,6 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="increasing_ring_volume_option_title">Meningkatkan volume dering</string>
     <string name="increasing_ring_min_volume_title">Volume awal</string>
     <string name="increasing_ring_ramp_up_time_title">Waktu penguatan</string>
-    <!-- Clock style -->
-    <string name="clock_style_title">Gaya Jam</string>
-    <string name="clock_style_summary">Sesuaikan jam layar kunci</string>
-    <string name="theme_customization_statusbar_height_title">Tinggi bilah status</string>
     <string name="default_accent_color">Dodger Blue (bawaan)</string>
     <string name="default_icon_shape">Lingkaran (bawaan)</string>
     <string name="default_font">OnePlus Slate (bawaan)</string>
@@ -325,7 +312,7 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="applock_lock_after_instantly_summary">Aplikasi akan langsung dikunci saat ditutup</string>
     <string name="applock_lock_after_15_seconds_summary">Aplikasi akan dikunci 15 detik setelah ditutup</string>
     <string name="applock_lock_after_screen_off_summary">Aplikasi akan dikunci saat layar dimatikan</string>
-    <string name="applock_notification_info">Anda dapat menampilkan/menyembunyikan konten notifikasi per aplikasi dengan mengklik ikon notifikasi yang ditampilkan di preferensi setiap aplikasi yang terkunci</string>
+    <string name="applock_notification_info">Anda dapat menampilkan/menyembunyikan konten notifikasi per aplikasi dengan mengklik ikon notifikasi yang ditampilkan di preferensi setiap aplikasi yang terkunci.</string>
     <string name="applock_show_notif">Menampilkan konten notifikasi</string>
     <string name="applock_hide_notif">Menyembunyikan konten notifikasi</string>
     <string name="applock_setup">Siapkan pengunci aplikasi</string>
@@ -340,9 +327,6 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="security_dashboard_summary_face_and_fingerprint">Kunci layar, sidik jari, buka kunci dengan wajah</string>
     <string name="face_redo_confirm_btn">Ulangi</string>
     <string name="face_redo_warning_msg">Apakah Anda ingin menghapus pemindaian wajah yang sudah ada dan membuat pemindaian baru?</string>
-    <!-- global cleartext penalties -->
-    <string name="cleartext_network_policy_title">Batasi teks bersih lalu lintas jaringan</string>
-    <string name="cleartext_network_policy_summary">Memblokir semua lalu lintas jaringan non-TLS. Memerlukan konfigurasi DNS Pribadi. Catatan: Tanpa pengecualian eksplisit, Tor dan sebagian besar VPN tidak akan berfungsi</string>
     <!--  screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">Matikan Wi-Fi secara otomatis</string>
     <!--  screen, setting option summary to change wifi timeout -->
@@ -391,10 +375,6 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="fingerprint_power_button_press_title">Tekan untuk membuka</string>
     <string name="fingerprint_power_button_press_off_summary">Sentuh tombol daya untuk membuka kunci dengan sidik jari saat layar mati</string>
     <string name="fingerprint_power_button_press_on_summary">Tekan tombol daya dengan kuat untuk membuka kunci dengan sidik jari saat layar mati</string>
-    <!-- Custom Signal bar icons -->
-    <string name="custom_signal_bar_title">Sinyal</string>
-    <!-- Custom Wi-Fi bar icons -->
-    <string name="custom_wifi_bar_title">Wi-Fi</string>
     <!-- Themes customisation -->
     <string name="theme_customization_systemui_title">Tema Sistem</string>
     <!-- Refresh rate -->
@@ -403,7 +383,7 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="battery_saver_refresh_rate_title">Kurangi kecepatan refresh</string>
     <string name="battery_saver_refresh_rate_summary">Gunakan kecepatan refresh layar 60 Hz untuk menghemat daya saat Penghemat Baterai aktif</string>
     <!-- FontEngine -->
-    <string name="font_picker_title">Jenis huruf</string>
+    <string name="font_picker_title">Jenis font</string>
     <string name="disable_fonts_installed_title">Pemilih font tidak tersedia untuk menghindari konflik dengan Substratum. Copot pemasangannya jika Anda ingin menggunakan pemilih font.</string>
     <string name="font_picker_progress">Menerapkan font baru\u2026</string>
     <!-- Data usage -->
@@ -432,7 +412,7 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Temukan sensor sidik jari di sisi kiri tablet Anda.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Temukan sensor sidik jari di sisi kanan tablet Anda.</string>
     <!-- Screen off fod -->
-    <string name="fod_gesture_title">Sidik jari saat layar mati</string>
+    <string name="fod_gesture_title">Buka kunci dengan sidik jari saat layar mati</string>
     <string name="fod_gesture_summary">Izinkan membuka kunci tanpa harus mengaktifkan layar terlebih dahulu</string>
     <!-- Battery health -->
     <string name="battery_health_title">Kesehatan Baterai</string>
@@ -447,4 +427,48 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="personalize_title">Personalisasi</string>
     <string name="security_title">Keamanan</string>
     <string name="others_title">Lain-lain</string>
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_red">Kekuatan merah</string>
+    <string name="color_mode_balance_green">Kekuatan hijau</string>
+    <string name="color_mode_balance_blue">Kekuatan biru</string>
+    <string name="keywords_color_balance">warna, keseimbangan warna, koreksi warna, merah, hijau, biru, LiveDisplay</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Izinkan akses jaringan</string>
+    <string name="data_usage_app_restrict_all_summary">Aktifkan penggunaan jaringan</string>
+    <string name="data_usage_app_restrict_mobile">Data Seluler</string>
+    <string name="data_usage_app_restrict_mobile_summary">Aktifkan penggunaan data seluler</string>
+    <string name="data_usage_app_restrict_vpn">Data VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Aktifkan penggunaan data VPN</string>
+    <string name="data_usage_app_restrict_wifi">Data Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Aktifkan penggunaan data Wi\u2011Fi</string>
+    <!-- Legacy WFD settings -->
+    <string name="legacy_wfd_video_mode_title">Mode Video</string>
+    <string name="legacy_wfd_video_mode_720p_30fps">720p 30fps</string>
+    <string name="legacy_wfd_video_mode_720p_60fps">720p 60fps</string>
+    <string name="legacy_wfd_video_mode_1080p_30fps">1080p 30fps</string>
+    <string name="legacy_wfd_video_mode_1080p_60fps">1080p 60fps</string>
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">Tata letak acak</string>
+    <string name="unlock_scramble_pin_layout_summary">Acak tata letak PIN saat membuka perangkat</string>
+    <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Baterai Agresif</string>
+    <string name="aggressive_battery_summary">Penghematan baterai yang lebih ketat</string>
+    <string name="aggressive_battery_warning_text">Ini adalah fitur penghemat daya. Fitur ini dapat mengganggu layanan yang berjalan di saat senggang, seperti aplikasi navigasi. Anda bisa sertakan aplikasi tersebut ke daftar putih agar tidak terdampak oleh fitur ini pada pengaturan baterai aplikasi.</string>
+    <string name="aggressive_idle_title">Agresif saat Diam</string>
+    <string name="aggressive_idle_summary">Perangkat lebih sering diam dan bangun lebih sedikit</string>
+    <string name="aggressive_standby_title">Agresif saat Siaga</string>
+    <string name="aggressive_standby_summary">Cegah aplikasi berjalan di latar belakang</string>
+    <string name="aggressive_battery_saver_title">Aktifkan otomatis pada penghemat baterai</string>
+    <string name="aggressive_battery_saver_summary">Nyalakan Baterai Agresif otomatis saat menggunakan penghemat baterai</string>
+    <!-- Sensor block per-package -->
+    <string name="sensor_block_title">Blokir sensor per-paket</string>
+    <string name="sensor_block_summary">Blokir akses ke sensor tertentu untuk beberapa aplikasi untuk menghemat baterai</string>
+    <string name="sensor_block_app_picker_title">Blokir sensor untuk aplikasi ini</string>
+    <string name="add_sensor_block_package_title">Tambahkan aplikasi untuk blokir sensor</string>
+    <string name="add_sensor_block_package_summary">Gerakan signifikan, akselerometer, sensor percepatan linier akan diblokir untuk aplikasi ini</string>
+    <string name="wifi_tether_client_list_title">Client List</string>
+    <string name="wifi_tether_client_list_summary">Manage clients connected to hotspot</string>
+    <!-- Edge Music Gestures -->
+    <string name="edge_music_title">Edge Music Gesture</string>
+    <string name="edge_music_summary">Enable music control on dead edge area (set edge deadzone to anything other than off)</string>
 </resources>
