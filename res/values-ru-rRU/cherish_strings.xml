@@ -66,20 +66,23 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Полноэкранные приложения</string>
     <string name="display_cutout_force_fullscreen_summary">Приложения принудительно игнорируют вырез (бровь-челку)</string>
-    <string name="display_cutout_force_fullscreen_restart_app">Please restart the application to apply the changes</string>
-    <string name="cutout_force_fullscreen_no_apps">No apps</string>
+    <string name="display_cutout_force_fullscreen_restart_app">Пожалуйста перезапустите приложение для применения изменений</string>
+    <string name="cutout_force_fullscreen_no_apps">Нет приложений</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Разрешить клиентам использовать VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Разрешить клиентам точки доступа использовать VPN-соединения этого устройства для подключения к сети</string>
-    <!-- Smart charging -->
-    <string name="smart_charging_title">Умная зарядка</string>
-    <string name="smart_charging_summary">Установить максимальный уровень заряда</string>
-    <string name="smart_charging_switch_title">Использовать Умную зарядку</string>
-    <string name="smart_charging_level_title">Уровень окончания заряда</string>
-    <string name="smart_charging_resume_level_title">Уровень начала заряда</string>
-    <string name="smart_charging_reset_stats_title">Сбросить статистику батареи</string>
-    <string name="smart_charging_reset_stats_summary">Сбрасывать статистику батареи после достижения заданного уровня заряда</string>
-    <string name="smart_charging_footer">Умная зарядка позволяет установить максимальный уровень заряда для продления срока службы батареи</string>
+    <!-- Adaptive charging -->
+    <string name="adaptive_charging_title">Адаптивная Зарядка</string>
+    <string name="adaptive_charging_summary">Вкл / Условное ограничение зарядки</string>
+    <string name="adaptive_charging_mode_title">Режим ограничения</string>
+    <string name="adaptive_charging_mode_level">Процент заряда батареи</string>
+    <string name="adaptive_charging_mode_temperature">Температура батареи</string>
+    <string name="adaptive_charging_mode_both">Процент заряда батареи или температура</string>
+    <string name="adaptive_charging_cutoff_title">Остановить зарядку при</string>
+    <string name="adaptive_charging_resume_title">Возобновить зарядку на</string>
+    <string name="adaptive_charging_reset_stats_title">Сбросить статистику батареи</string>
+    <string name="adaptive_charging_reset_stats_summary">Сбросить статистику батареи после достижения определенного уровня зарядки</string>
+    <string name="adaptive_charging_description">Адаптивная зарядка помогает продлить срок службы вашей батареи, ограничивая зарядку при определенных условиях.</string>
     <!-- Cherish maintainer -->
     <string name="maintainer">Сопровождающий</string>
     <!-- LiveDisplay -->
@@ -92,7 +95,7 @@
     <string name="live_display_night">Ночь</string>
     <string name="live_display_outdoor_mode_title">Автоматический режим \"На улице\"</string>
     <string name="live_display_outdoor_mode_summary">Увеличить яркость и насыщенность автоматически при ярком солнечном свете</string>
-    <string name="live_display_anti_flicker_title">Live-Display Защита от мерцания</string>
+    <string name="live_display_anti_flicker_title">Фильтр мерцания</string>
     <string name="live_display_anti_flicker_summary">Предотвращать чрезмерное мерцание и уменьшать нагрузку на глаза в условиях низкого освещения. Может понизить точность цвета и повлиять на отображение некоторых элементов.</string>
     <string name="live_display_low_power_title">Уменьшить потребление энергии</string>
     <string name="live_display_low_power_summary">Подстраивать экран для снижения энергопотребления без ухудшения качества</string>
@@ -144,19 +147,6 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Режим Always on при зарядке</string>
     <string name="doze_on_charge_summary">Показывать Doze-экран во время зарядки</string>
-    <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Разрешить доступ к сети</string>
-    <string name="data_usage_app_restrict_all_summary">Включить использование сети</string>
-    <string name="data_usage_app_restrict_mobile">Мобильные данные</string>
-    <string name="data_usage_app_restrict_mobile_summary">Включить использование мобильных данных</string>
-    <string name="data_usage_app_restrict_vpn">VPN данные</string>
-    <string name="data_usage_app_restrict_vpn_summary">Включить использование данных VPN</string>
-    <string name="data_usage_app_restrict_wifi">Данные Wi-Fi</string>
-    <string name="data_usage_app_restrict_wifi_summary">Включить использование данных Wi-Fi</string>
-    <!-- Doze on double tap -->
-    <string name="double_tap_title">Двойное нажатие</string>
-    <string name="doze_double_tap_title">Дважды нажать, чтобы проверить уведомления</string>
-    <string name="doze_double_tap_summary">Дважды нажать, чтобы включить пульсирующие уведомления</string>
     <!-- About phone cards -->
     <string name="storage_card_title">Хранилище</string>
     <string name="storage_card_info">Занято</string>
@@ -194,6 +184,7 @@
     <string name="show_powermenu">Show Power menu</string>
     <string name="partial_screenshot">Снимок экрана выбранной области</string>
     <string name="hush_mute">Silence notifications</string>
+    <string name="recent_app_toggle">Переключить недавнее приложение</string>
     <!-- Long back swipe options -->
     <string name="navbar_gesture_tweaks_pref_title">Advanced gestures</string>
     <string name="navbar_gesture_tweaks_pref_summary">Customize gestures and set custom actions</string>
@@ -235,7 +226,7 @@
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
     <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
     <!-- Clipboard toast info -->
-    <string name="clipboard_toast_info_title">Оповещения о доступе к буферу обмена</string>
+    <string name="clipboard_toast_info_title">Предупреждения о доступе к буферу обмена</string>
     <string name="clipboard_toast_info_show_important">Показывать только важные оповещения</string>
     <string name="clipboard_toast_info_show_all">Показывать все оповещения о доступе</string>
     <!-- Misc gesture settings -->
@@ -279,10 +270,6 @@
     <string name="increasing_ring_volume_option_title">Возрастающая громкость звонка</string>
     <string name="increasing_ring_min_volume_title">Начальная громкость</string>
     <string name="increasing_ring_ramp_up_time_title">Время нарастания</string>
-    <!-- Clock style -->
-    <string name="clock_style_title">Стиль часов</string>
-    <string name="clock_style_summary">Настроить часы на экране блокировки</string>
-    <string name="theme_customization_statusbar_height_title">Высота строки состояния</string>
     <string name="default_accent_color">Голубой удгер (по умолчанию)</string>
     <string name="default_icon_shape">Круг (по умолчанию)</string>
     <string name="default_font">OnePlus Slate (по умолчанию)</string>
@@ -324,7 +311,7 @@
     <string name="applock_lock_after_instantly_summary">Приложение будет заблокировано сразу после закрытия</string>
     <string name="applock_lock_after_15_seconds_summary">Приложение будет заблокировано через 15 секунд после закрытия</string>
     <string name="applock_lock_after_screen_off_summary">Приложение будет заблокировано при выключении экрана</string>
-    <string name="applock_notification_info">Вы можете показать/скрыть содержимое уведомлений для каждого приложения, нажав на значок уведомления, отображаемый в настройках каждого заблокированного приложения</string>
+    <string name="applock_notification_info">Видимость содержимого уведомления может быть изменена, если вы нажимаете рядом с значком блокировки.</string>
     <string name="applock_show_notif">Показывать содержимое уведомлений</string>
     <string name="applock_hide_notif">Скрывать содержимое уведомлений</string>
     <string name="applock_setup">Установить блокировку приложений</string>
@@ -342,9 +329,6 @@
     <string name="security_dashboard_summary_face_and_fingerprint">Блокировка экрана, отпечаток пальца, разблокировка по лицу</string>
     <string name="face_redo_confirm_btn">Повторить</string>
     <string name="face_redo_warning_msg">Удалить использующийся снимок лица и создать новый?</string>
-    <!-- global cleartext penalties -->
-    <string name="cleartext_network_policy_title">Ограничить сетевой трафик четким текстом</string>
-    <string name="cleartext_network_policy_summary">Блокирует весь сетевой трафик не TLS. Требуется личная настройка DNS. Примечание: без явных исключений Tor и большинство VPN не будут работать</string>
     <!--  screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">Выключать Wi-Fi автоматически</string>
     <!--  screen, setting option summary to change wifi timeout -->
@@ -393,17 +377,13 @@
     <string name="fingerprint_power_button_press_title">Нажмите для разблокировки</string>
     <string name="fingerprint_power_button_press_off_summary">Коснитесь кнопки питания, чтобы разблокировать с помощью отпечатка пальца, когда экран выключен</string>
     <string name="fingerprint_power_button_press_on_summary">Нажмите кнопку питания, чтобы разблокировать с помощью отпечатка пальца, когда экран выключен</string>
-    <!-- Custom Signal bar icons -->
-    <string name="custom_signal_bar_title">Сигнал</string>
-    <!-- Custom Wi-Fi bar icons -->
-    <string name="custom_wifi_bar_title">Wi-Fi</string>
     <!-- Themes customisation -->
     <string name="theme_customization_systemui_title">Системные темы</string>
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">Минимальная частота обновления</string>
-    <string name="max_refresh_rate_title">Максимальная частота обновления экрана</string>
-    <string name="battery_saver_refresh_rate_title">Уменьшить частоту обновления экрана</string>
-    <string name="battery_saver_refresh_rate_summary">Использовать частоту обновления экрана 60 Гц для экономии энергии, когда включена экономия заряда</string>
+    <string name="max_refresh_rate_title">Максимальная частота обновления</string>
+    <string name="battery_saver_refresh_rate_title">Уменьшить частоту обновления</string>
+    <string name="battery_saver_refresh_rate_summary">Использовать частоту обновления экрана 60 Гц для экономии энергии при включенном режиме экономии заряда батареи</string>
     <!-- FontEngine -->
     <string name="font_picker_title">Шрифт</string>
     <string name="disable_fonts_installed_title">Управление шрифтом недоступно, чтобы предотвратить конфликты с Substratum. Удалите его, если хотите и дальше использовать системное управление шрифтом.</string>
@@ -418,12 +398,12 @@
     <string name="auto_brightness_one_shot_title">Применять только при включенном экране</string>
     <string name="auto_brightness_one_shot_summary">Корректировка будет произведена один раз</string>
     <!-- Face Unlock -->
-    <string name="face_unlock_method_title">Разрешить разблокировку \"Распознавание лица\" на экране блокировки</string>
+    <string name="face_unlock_method_title">Разрешить разблокировку лицом на экране блокировки</string>
     <string name="face_unlock_method_default">Когда экран включен</string>
     <string name="face_unlock_method_swipe">При проведении пальцем по экрану блокировки</string>
     <!-- Fingerprint location message - default -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Найдите сканер отпечатков пальцев на вашем телефоне</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Сканер отпечатков пальцев расположен в левой части телефона.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Найдите сканер отпечатков пальцев на задней поверхности телефона.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Найдите сканер отпечатков пальцев с левой стороны вашего телефона.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Найдите сканер отпечатков пальцев с правой стороны вашего телефона.</string>
     <!-- Fingerprint location message - generic -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Найдите датчик отпечатков пальцев на лицевой стороне устройства.</string>
@@ -431,22 +411,66 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Найдите сканер отпечатков пальцев с правой стороны вашего устройства.</string>
     <!-- Fingerprint location message - tablet -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Найдите сканер отпечатков пальцев на лицевой поверхности вашего планшета.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Найдите датчик отпечатков пальцев на левой грани вашего планшета.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Найдите сканер отпечатков пальцев в левой части вашего планшета.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Найдите датчик отпечатков пальцев на правой грани вашего планшета.</string>
     <!-- Screen off fod -->
-    <string name="fod_gesture_title">Выключение экрана отпечатком пальца</string>
+    <string name="fod_gesture_title">Разблокировка с помощью отпечатка пальца при выключенном экране</string>
     <string name="fod_gesture_summary">Позволяет разблокировать устройство без включения экрана</string>
     <!-- Battery health -->
     <string name="battery_health_title">Состояние батареи</string>
     <string name="battery_health_summary">Отслеживать состояние батареи вашего устройства</string>
-    <string name="current_battery_capacity">Текущая ёмкость батареи</string>
+    <string name="current_battery_capacity">Текущая емкость батареи</string>
     <string name="current_battery_capacity_summary">Текущая ёмкость батареи, измеренная ядром</string>
     <string name="designed_battery_capacity">Заявленная ёмкость батареи</string>
     <string name="designed_battery_capacity_summary">Емкость батареи, указанная производителем</string>
-    <string name="battery_charge_cycles">Завершённые циклы зарядки</string>
+    <string name="battery_charge_cycles">Завершенные циклы зарядки</string>
     <!-- Settings categories -->
-    <string name="connectivity_title">Соединение</string>
+    <string name="connectivity_title">Подключение</string>
     <string name="personalize_title">Личные</string>
     <string name="security_title">Безопасность</string>
     <string name="others_title">Прочее</string>
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_red">Уровень красного</string>
+    <string name="color_mode_balance_green">Уровень зеленого</string>
+    <string name="color_mode_balance_blue">Уровень синего</string>
+    <string name="keywords_color_balance">цвет, цветовой баланс, цветовая коррекция, красный, зеленый, синий, LiveDisplay</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Разрешить доступ к сети</string>
+    <string name="data_usage_app_restrict_all_summary">Включить использование сети</string>
+    <string name="data_usage_app_restrict_mobile">Мобильные данные</string>
+    <string name="data_usage_app_restrict_mobile_summary">Включить использование мобильных данных</string>
+    <string name="data_usage_app_restrict_vpn">VPN данные</string>
+    <string name="data_usage_app_restrict_vpn_summary">Включить использование данных VPN</string>
+    <string name="data_usage_app_restrict_wifi">Данные Wi-Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Включить использование данных Wi-Fi</string>
+    <!-- Legacy WFD settings -->
+    <string name="legacy_wfd_video_mode_title">Режим Видео</string>
+    <string name="legacy_wfd_video_mode_720p_30fps">720p 30fps</string>
+    <string name="legacy_wfd_video_mode_720p_60fps">720p 60fps</string>
+    <string name="legacy_wfd_video_mode_1080p_30fps">1080p 30fps</string>
+    <string name="legacy_wfd_video_mode_1080p_60fps">1080p 60fps</string>
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">Перемешать разметку</string>
+    <string name="unlock_scramble_pin_layout_summary">Перемешать разметку PIN-кода при разблокировке устройства</string>
+    <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Агрессивное энергосбережение</string>
+    <string name="aggressive_battery_summary">Более строгая экономия батареи</string>
+    <string name="aggressive_battery_warning_text">Это функции энергосбережения. Они могут мешать работе служб, предназначенных для работы в режиме ожидания, например, навигационных приложений. В настройках батареи приложений можно внести эти приложения в белый список.</string>
+    <string name="aggressive_idle_title">Агрессивный простой</string>
+    <string name="aggressive_idle_summary">Входить в режим простоя чаще и реже пробуждать устройство</string>
+    <string name="aggressive_standby_title">Агрессивный режим ожидания</string>
+    <string name="aggressive_standby_summary">Ограничить работу приложений в фоновом режиме</string>
+    <string name="aggressive_battery_saver_title">Включать автоматически в режиме экономии заряда</string>
+    <string name="aggressive_battery_saver_summary">Автоматически включать агрессивное энергосбережение в режиме экономии батареи</string>
+    <!-- Sensor block per-package -->
+    <string name="sensor_block_title">Блокировка датчиков попакетно</string>
+    <string name="sensor_block_summary">Запретить доступ к датчикам для некоторых приложений для экономии энергии</string>
+    <string name="sensor_block_app_picker_title">Блокировать датчики для этих приложений</string>
+    <string name="add_sensor_block_package_title">Добавить приложения для блокировки датчиков</string>
+    <string name="add_sensor_block_package_summary">Значительное движение, акселерометр, датчики линейного ускорения будут заблокированы для этих приложений</string>
+    <string name="wifi_tether_client_list_title">Client List</string>
+    <string name="wifi_tether_client_list_summary">Manage clients connected to hotspot</string>
+    <!-- Edge Music Gestures -->
+    <string name="edge_music_title">Edge Music Gesture</string>
+    <string name="edge_music_summary">Enable music control on dead edge area (set edge deadzone to anything other than off)</string>
 </resources>
