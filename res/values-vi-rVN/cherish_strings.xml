@@ -71,15 +71,18 @@
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Cho phép máy khách sử dụng VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Cho phép hotspot các máy khách sử dụng các kết nối VPN của thiết bị\u2019 này để kết nối ngược dòng</string>
-    <!-- Smart charging -->
-    <string name="smart_charging_title">Sạc thông minh</string>
-    <string name="smart_charging_summary">Thiết lập sạc thông minh mức thấp nhất</string>
-    <string name="smart_charging_switch_title">Sử dụng sạc thông minh</string>
-    <string name="smart_charging_level_title">Dừng mức độ kích hoạt</string>
-    <string name="smart_charging_resume_level_title">Bắt đầu mức độ kích hoạt</string>
-    <string name="smart_charging_reset_stats_title">Đặt lại thống kê pin</string>
-    <string name="smart_charging_reset_stats_summary">Đặt lại thống kê pin sau khi đạt đến mức sạc do người dùng xác định</string>
-    <string name="smart_charging_footer">Sạc thông minh cho phép bạn đặt mức sạc tối đa để kéo dài tuổi thọ của pin</string>
+    <!-- Adaptive charging -->
+    <string name="adaptive_charging_title">Sạc thích ứng</string>
+    <string name="adaptive_charging_summary">Bật / Hạn chế sạc có điều kiện</string>
+    <string name="adaptive_charging_mode_title">Chế độ hạn chế</string>
+    <string name="adaptive_charging_mode_level">Phần trăm pin</string>
+    <string name="adaptive_charging_mode_temperature">Nhiệt độ pin</string>
+    <string name="adaptive_charging_mode_both">Phần trăm hoặc nhiệt độ pin</string>
+    <string name="adaptive_charging_cutoff_title">Ngừng sạc ở</string>
+    <string name="adaptive_charging_resume_title">Tiếp tục sạc ở</string>
+    <string name="adaptive_charging_reset_stats_title">Đặt lại thống kê pin</string>
+    <string name="adaptive_charging_reset_stats_summary">Đặt lại thống kê sau khi đạt đến mức sạc do người dùng xác định</string>
+    <string name="adaptive_charging_description">Sạc thích ứng giúp kéo dài tuổi thọ của pin bằng cách hạn chế sạc trong một số điều kiện nhất định.</string>
     <!-- Cherish maintainer -->
     <string name="maintainer">Người chủ trì</string>
     <!-- LiveDisplay -->
@@ -144,19 +147,6 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Luôn bật khi sử dụng sạc</string>
     <string name="doze_on_charge_summary">Hiển thị màn hình doze mọi lúc khi sạc</string>
-    <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Cho phép truy cập mạng</string>
-    <string name="data_usage_app_restrict_all_summary">Cho phép ứng dụng truy cập mạng</string>
-    <string name="data_usage_app_restrict_mobile">Dữ liệu di động</string>
-    <string name="data_usage_app_restrict_mobile_summary">Cho phép sử dụng dữ liệu di động</string>
-    <string name="data_usage_app_restrict_vpn">Dữ liệu VPN</string>
-    <string name="data_usage_app_restrict_vpn_summary">Cho phép sử dụng dữ liệu VPN</string>
-    <string name="data_usage_app_restrict_wifi">Dữ liệu Wi\u2011Fi</string>
-    <string name="data_usage_app_restrict_wifi_summary">Cho phép sử dụng dữ liệu Wi\u2011Fi</string>
-    <!-- Doze on double tap -->
-    <string name="double_tap_title">Chạm 2 lần</string>
-    <string name="doze_double_tap_title">Chạm 2 lần để kiểm tra điện thoại</string>
-    <string name="doze_double_tap_summary">Thông báo xung bằng cách chạm hai lần</string>
     <!-- About phone cards -->
     <string name="storage_card_title">Bộ nhớ</string>
     <string name="storage_card_info">Chiếm đóng</string>
@@ -194,6 +184,7 @@
     <string name="show_powermenu">Hiển thị Menu nguồn</string>
     <string name="partial_screenshot">Chụp một phần màn hình</string>
     <string name="hush_mute">Chặn thông báo</string>
+    <string name="recent_app_toggle">Chuyển ứng dụng gần đây</string>
     <!-- Long back swipe options -->
     <string name="navbar_gesture_tweaks_pref_title">Cử chỉ nâng cao</string>
     <string name="navbar_gesture_tweaks_pref_summary">Tùy chỉnh cử chỉ và thiết lập hành động tùy chỉnh</string>
@@ -279,10 +270,6 @@
     <string name="increasing_ring_volume_option_title">Tăng âm lượng chuông</string>
     <string name="increasing_ring_min_volume_title">Âm lượng khởi động</string>
     <string name="increasing_ring_ramp_up_time_title">Khoảng thời gian tăng dần âm lượng</string>
-    <!-- Clock style -->
-    <string name="clock_style_title">Kiểu đồng hồ</string>
-    <string name="clock_style_summary">Tùy chỉnh đồng hồ trên màn hình khóa</string>
-    <string name="theme_customization_statusbar_height_title">Chiều cao thanh trạng thái</string>
     <string name="default_accent_color">Dodger Xanh biển (Mặc định)</string>
     <string name="default_icon_shape">Vòng tròn (mặc định)</string>
     <string name="default_font">OnePlus Slate (mặc định)</string>
@@ -339,9 +326,6 @@
     <string name="security_dashboard_summary_face_and_fingerprint">Khóa màn hình, vân tay, mở khóa bằng khuôn mặt</string>
     <string name="face_redo_confirm_btn">Làm lại</string>
     <string name="face_redo_warning_msg">Bạn có muốn xóa quét khuôn mặt hiện có và tạo quét khuôn mặt mới không?</string>
-    <!-- global cleartext penalties -->
-    <string name="cleartext_network_policy_title">Hạn chế xóa văn bản tốc bộ mạng</string>
-    <string name="cleartext_network_policy_summary">Chặn tất cả không bảo mật tầng vận tải lưu thông mạng. Lời khuyên cấu hình DNS bảo mật. Chú ý ngoài sự rõ ràng miễn trừ, Tor và hầu hết các VPN sẽ không hoạt động</string>
     <!--  screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">Tự động tắt Wi-Fi</string>
     <!--  screen, setting option summary to change wifi timeout -->
@@ -390,10 +374,6 @@
     <string name="fingerprint_power_button_press_title">Nhấn để mở khoá</string>
     <string name="fingerprint_power_button_press_off_summary">Chạm vào nút nguồn để mở khóa bằng vân tay khi màn hình tắt</string>
     <string name="fingerprint_power_button_press_on_summary">Nhấn nút nguồn để mở khóa bằng vân tay khi màn hình tắt</string>
-    <!-- Custom Signal bar icons -->
-    <string name="custom_signal_bar_title">Tín hiệu</string>
-    <!-- Custom Wi-Fi bar icons -->
-    <string name="custom_wifi_bar_title">Wi-Fi</string>
     <!-- Themes customisation -->
     <string name="theme_customization_systemui_title">Chủ đề hệ thống</string>
     <!-- Refresh rate -->
@@ -446,4 +426,48 @@
     <string name="personalize_title">Cá nhân hoá</string>
     <string name="security_title">Bảo mật</string>
     <string name="others_title">Khác</string>
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_red">Đỏ rực</string>
+    <string name="color_mode_balance_green">Xanh lá đậm</string>
+    <string name="color_mode_balance_blue">Xanh đậm</string>
+    <string name="keywords_color_balance">màu, cân bằng màu, chỉnh màu, đỏ, lục, lam, LiveDisplay</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Cho phép truy cập mạng</string>
+    <string name="data_usage_app_restrict_all_summary">Cho phép ứng dụng truy cập mạng</string>
+    <string name="data_usage_app_restrict_mobile">Dữ liệu di động</string>
+    <string name="data_usage_app_restrict_mobile_summary">Cho phép sử dụng dữ liệu di động</string>
+    <string name="data_usage_app_restrict_vpn">Dữ liệu VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Cho phép sử dụng dữ liệu VPN</string>
+    <string name="data_usage_app_restrict_wifi">Dữ liệu Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Cho phép sử dụng dữ liệu Wi\u2011Fi</string>
+    <!-- Legacy WFD settings -->
+    <string name="legacy_wfd_video_mode_title">Chế độ quay</string>
+    <string name="legacy_wfd_video_mode_720p_30fps">720p 30fps</string>
+    <string name="legacy_wfd_video_mode_720p_60fps">720p 60fps</string>
+    <string name="legacy_wfd_video_mode_1080p_30fps">1080p 30fps</string>
+    <string name="legacy_wfd_video_mode_1080p_60fps">1080p 60fps</string>
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">Bố trí ngẫu nhiên</string>
+    <string name="unlock_scramble_pin_layout_summary">Bố trí mã PIN ngẫu nhiên khi mở khóa thiết bị</string>
+    <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Chế độ tiết kiệm pin tích cực</string>
+    <string name="aggressive_battery_summary">Tiết kiệm pin nghiêm ngặt hơn</string>
+    <string name="aggressive_battery_warning_text">Đây là các tính năng tiết kiệm pin. Chúng có thể ảnh hưởng đến các dịch vụ nhằm chạy ở chế độ nhàn rỗi, như các ứng dụng điều hướng. Bạn có thể danh sách trắng các ứng dụng này để tránh bị ảnh hưởng trong cài đặt pin của ứng dụng.</string>
+    <string name="aggressive_idle_title">Chặn quyết liệt</string>
+    <string name="aggressive_idle_summary">Kích hoạt tăng tần số nhàn rỗi và tự bật màn hình ít hơn</string>
+    <string name="aggressive_standby_title">Chế độ nghỉ tích cực</string>
+    <string name="aggressive_standby_summary">Hạn chế ứng dụng chạy nền</string>
+    <string name="aggressive_battery_saver_title">Tự động bật tiết kiệm pin</string>
+    <string name="aggressive_battery_saver_summary">Tự động bật Pin tích cực khi sử dụng trình tiết kiệm pin</string>
+    <!-- Sensor block per-package -->
+    <string name="sensor_block_title">Cảm biến chặn mỗt gói</string>
+    <string name="sensor_block_summary">Chặn quyền truy cập vào một số cảm biến cho một số ứng dụng để tiết kiệm pin</string>
+    <string name="sensor_block_app_picker_title">Chặn cảm biến cho các ứng dụng này</string>
+    <string name="add_sensor_block_package_title">Thêm ứng dụng cho khối cảm biến</string>
+    <string name="add_sensor_block_package_summary">Các cảm biến chuyển động, gia tốc kế, cảm biến gia tốc tuyến tính quan trọng sẽ bị chặn đối với các ứng dụng này</string>
+    <string name="wifi_tether_client_list_title">Client List</string>
+    <string name="wifi_tether_client_list_summary">Manage clients connected to hotspot</string>
+    <!-- Edge Music Gestures -->
+    <string name="edge_music_title">Edge Music Gesture</string>
+    <string name="edge_music_summary">Enable music control on dead edge area (set edge deadzone to anything other than off)</string>
 </resources>
