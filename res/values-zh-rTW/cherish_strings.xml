@@ -66,20 +66,23 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">全螢幕應用程式</string>
     <string name="display_cutout_force_fullscreen_summary">強制應用程式忽略螢幕瀏海</string>
-    <string name="display_cutout_force_fullscreen_restart_app">Please restart the application to apply the changes</string>
-    <string name="cutout_force_fullscreen_no_apps">No apps</string>
+    <string name="display_cutout_force_fullscreen_restart_app">請重新啓動程式來套用變更</string>
+    <string name="cutout_force_fullscreen_no_apps">沒有應用程式</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">允許客戶端使用 VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">允許熱點客戶端使用此設備\u2019的 VPN 連接到上遊</string>
-    <!-- Smart charging -->
-    <string name="smart_charging_title">智慧充電</string>
-    <string name="smart_charging_summary">設定最大充電百分比</string>
-    <string name="smart_charging_switch_title">使用智慧充電</string>
-    <string name="smart_charging_level_title">停止充電百分比</string>
-    <string name="smart_charging_resume_level_title">開始(繼續)充電百分比</string>
-    <string name="smart_charging_reset_stats_title">重設電池統計資料</string>
-    <string name="smart_charging_reset_stats_summary">在達到使用者設定的電量百分比後，重設電池統計數據</string>
-    <string name="smart_charging_footer">智慧充電允許您設定最大充電值，延長電池壽命</string>
+    <!-- Adaptive charging -->
+    <string name="adaptive_charging_title">自動調節充電電量</string>
+    <string name="adaptive_charging_summary">打開/有條件限制充電</string>
+    <string name="adaptive_charging_mode_title">限制模式</string>
+    <string name="adaptive_charging_mode_level">電量百分比</string>
+    <string name="adaptive_charging_mode_temperature">電池溫度</string>
+    <string name="adaptive_charging_mode_both">電池百分比或溫度</string>
+    <string name="adaptive_charging_cutoff_title">停止充電在</string>
+    <string name="adaptive_charging_resume_title">恢復充電在</string>
+    <string name="adaptive_charging_reset_stats_title">重置電池統計數據</string>
+    <string name="adaptive_charging_reset_stats_summary">在達到使用者設定的電量百分比後，重設電池統計數據</string>
+    <string name="adaptive_charging_description">自動調節充電電量透過在某些條件下限制充電有助於延長電池壽命。</string>
     <!-- Cherish maintainer -->
     <string name="maintainer">維護人員</string>
     <!-- LiveDisplay -->
@@ -144,19 +147,6 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">在充電時開啟 AOD</string>
     <string name="doze_on_charge_summary">充電時一直處於 Doze 介面</string>
-    <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">允許網路存取</string>
-    <string name="data_usage_app_restrict_all_summary">啟用網路用量</string>
-    <string name="data_usage_app_restrict_mobile">行動數據</string>
-    <string name="data_usage_app_restrict_mobile_summary">啟用行動數據流量統計</string>
-    <string name="data_usage_app_restrict_vpn">VPN 數據</string>
-    <string name="data_usage_app_restrict_vpn_summary">啟用 VPN 流量統計</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi 數據</string>
-    <string name="data_usage_app_restrict_wifi_summary">啟用 Wi\u2011Fi 流量統計</string>
-    <!-- Doze on double tap -->
-    <string name="double_tap_title">雙擊</string>
-    <string name="doze_double_tap_title">輕觸兩下來察看手機</string>
-    <string name="doze_double_tap_summary">輕觸兩下查看 AOD 顯示通知</string>
     <!-- About phone cards -->
     <string name="storage_card_title">儲存空間</string>
     <string name="storage_card_info">已使用</string>
@@ -194,6 +184,7 @@
     <string name="show_powermenu">顯示電源選單</string>
     <string name="partial_screenshot">局部螢幕截圖</string>
     <string name="hush_mute">靜音通知</string>
+    <string name="recent_app_toggle">切換應用程式</string>
     <!-- Long back swipe options -->
     <string name="navbar_gesture_tweaks_pref_title">進階手勢</string>
     <string name="navbar_gesture_tweaks_pref_summary">自訂手勢與動作</string>
@@ -279,10 +270,6 @@
     <string name="increasing_ring_volume_option_title">遞增鈴聲音量</string>
     <string name="increasing_ring_min_volume_title">起始音量</string>
     <string name="increasing_ring_ramp_up_time_title">漸強時間</string>
-    <!-- Clock style -->
-    <string name="clock_style_title">時鐘樣式</string>
-    <string name="clock_style_summary">自訂鎖定畫面時鐘</string>
-    <string name="theme_customization_statusbar_height_title">狀態列高度</string>
     <string name="default_accent_color">道奇藍 (預設)</string>
     <string name="default_icon_shape">圓圈 (預設)</string>
     <string name="default_font">OnePlus Slate (預設)</string>
@@ -339,9 +326,6 @@
     <string name="security_dashboard_summary_face_and_fingerprint">螢幕鎖定，指紋，臉部辨識解鎖</string>
     <string name="face_redo_confirm_btn">重做</string>
     <string name="face_redo_warning_msg">您要移除現有的臉部掃描資料，並建立新的資料嗎?</string>
-    <!-- global cleartext penalties -->
-    <string name="cleartext_network_policy_title">限制明文網路流量</string>
-    <string name="cleartext_network_policy_summary">阻止所有非 TLS 網絡流量。需要私有 DNS 設定。注意：沒有明確的例外規範，Tor 和大多數 VPN 將無法運作</string>
     <!--  screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">自動關閉 Wi-Fi</string>
     <!--  screen, setting option summary to change wifi timeout -->
@@ -390,10 +374,6 @@
     <string name="fingerprint_power_button_press_title">按下電源鍵以解鎖</string>
     <string name="fingerprint_power_button_press_off_summary">螢幕關閉時按下電源鍵以指紋解鎖</string>
     <string name="fingerprint_power_button_press_on_summary">螢幕關閉時長按電源鍵以指紋解鎖</string>
-    <!-- Custom Signal bar icons -->
-    <string name="custom_signal_bar_title">訊號</string>
-    <!-- Custom Wi-Fi bar icons -->
-    <string name="custom_wifi_bar_title">Wi-Fi</string>
     <!-- Themes customisation -->
     <string name="theme_customization_systemui_title">系統主題</string>
     <!-- Refresh rate -->
@@ -413,7 +393,7 @@
     <string name="cherish_about_device_private">隱私資訊</string>
     <!-- One shot automatic Brightness -->
     <string name="auto_brightness_one_shot_title">只有在螢幕開啟時應用</string>
-    <string name="auto_brightness_one_shot_summary">調整將只發生一次</string>
+    <string name="auto_brightness_one_shot_summary">調整將發生一次</string>
     <!-- Face Unlock -->
     <string name="face_unlock_method_title">允許在鎖定畫面使用臉部辨識解鎖</string>
     <string name="face_unlock_method_default">當螢幕開啟時</string>
@@ -438,12 +418,56 @@
     <string name="battery_health_summary">監控你的電池健康度</string>
     <string name="current_battery_capacity">目前電池容量</string>
     <string name="current_battery_capacity_summary">系統核心測量的目前電池容量</string>
-    <string name="designed_battery_capacity">原電池容量</string>
+    <string name="designed_battery_capacity">設計的電池容量</string>
     <string name="designed_battery_capacity_summary">手機製造商設計的電池容量</string>
     <string name="battery_charge_cycles">充電週期循環次數</string>
     <!-- Settings categories -->
     <string name="connectivity_title">連接</string>
     <string name="personalize_title">個人化</string>
     <string name="security_title">安全性</string>
-    <string name="others_title">其他選項</string>
+    <string name="others_title">其他</string>
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_red">紅色強度</string>
+    <string name="color_mode_balance_green">綠色強度</string>
+    <string name="color_mode_balance_blue">藍色強度</string>
+    <string name="keywords_color_balance">顏色、顏色平衡、顏色校正、紅色、綠色、藍色、LiveDisplay</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">允許網路存取</string>
+    <string name="data_usage_app_restrict_all_summary">啟用網路用量</string>
+    <string name="data_usage_app_restrict_mobile">行動數據</string>
+    <string name="data_usage_app_restrict_mobile_summary">啟用行動數據流量統計</string>
+    <string name="data_usage_app_restrict_vpn">VPN 數據</string>
+    <string name="data_usage_app_restrict_vpn_summary">啟用 VPN 流量統計</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi 數據</string>
+    <string name="data_usage_app_restrict_wifi_summary">啟用 Wi\u2011Fi 流量統計</string>
+    <!-- Legacy WFD settings -->
+    <string name="legacy_wfd_video_mode_title">影片模式</string>
+    <string name="legacy_wfd_video_mode_720p_30fps">720p 30fps</string>
+    <string name="legacy_wfd_video_mode_720p_60fps">720p 60fps</string>
+    <string name="legacy_wfd_video_mode_1080p_30fps">1080p 30fps</string>
+    <string name="legacy_wfd_video_mode_1080p_60fps">1080p 60fps</string>
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">亂序佈局</string>
+    <string name="unlock_scramble_pin_layout_summary">解鎖裝置時使用亂序 PIN 碼佈局</string>
+    <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">極限省電</string>
+    <string name="aggressive_battery_summary">更嚴格的電池節能</string>
+    <string name="aggressive_battery_warning_text">這些是省電功能。 它們可能會干擾需要在背景執行的服務，例如導航應用程式。 您可以將這些應用程式列入白名單，使其不受應用程式電池設定的影響。</string>
+    <string name="aggressive_idle_title">極限的閒置模式</string>
+    <string name="aggressive_idle_summary">更常進入閒置模式並且較少喚醒</string>
+    <string name="aggressive_standby_title">極限的待機模式</string>
+    <string name="aggressive_standby_summary">限制應用程式在背景中執行</string>
+    <string name="aggressive_battery_saver_title">自動啟用省電模式</string>
+    <string name="aggressive_battery_saver_summary">使用省電模式時自動開啟極限省電</string>
+    <!-- Sensor block per-package -->
+    <string name="sensor_block_title">阻止個別套件存取感測器</string>
+    <string name="sensor_block_summary">阻止應用程式存取某些感測器以節省電量</string>
+    <string name="sensor_block_app_picker_title">阻止這些應用程式存取感測器</string>
+    <string name="add_sensor_block_package_title">加入應用程式以阻止它們存取感測器</string>
+    <string name="add_sensor_block_package_summary">這些應用程式將無法使用動作感應器、加速度感應器以及線性加速感應器</string>
+    <string name="wifi_tether_client_list_title">Client List</string>
+    <string name="wifi_tether_client_list_summary">Manage clients connected to hotspot</string>
+    <!-- Edge Music Gestures -->
+    <string name="edge_music_title">Edge Music Gesture</string>
+    <string name="edge_music_summary">Enable music control on dead edge area (set edge deadzone to anything other than off)</string>
 </resources>
