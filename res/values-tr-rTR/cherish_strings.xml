@@ -17,9 +17,9 @@
     <string name="keywords_cherish_version">Cherish sürümü</string>
     <!-- About phone screen, build date -->
     <string name="about_device_name">Cihaz</string>
-    <string name="build_date">Yapı tarihi</string>
+    <string name="build_date">Sürüm tarihi</string>
     <string name="build_date_default">2015-01-01-0000</string>
-    <string name="keywords_build_date">yapı tarihi, yapı bilgisi</string>
+    <string name="keywords_build_date">sürüm tarihi, sürüm bilgisi</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Manage applications, package string displayed in app snippet -->
@@ -66,20 +66,23 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Tam ekran uygulamalar</string>
     <string name="display_cutout_force_fullscreen_summary">Uygulamaları çentik alanını yoksaymaya zorla</string>
-    <string name="display_cutout_force_fullscreen_restart_app">Please restart the application to apply the changes</string>
-    <string name="cutout_force_fullscreen_no_apps">No apps</string>
+    <string name="display_cutout_force_fullscreen_restart_app">Değişiklikleri uygulamak için lütfen uygulamayı yeniden başlatın</string>
+    <string name="cutout_force_fullscreen_no_apps">Uygulama yok</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">İstemcilerin VPN kullanmasına izin ver</string>
     <string name="tethering_allow_vpn_upstreams_summary">Hotspot kullanıcılarının bağlantıları sırasında bu cihazın\u2019s VPN bağlantısını kullanmasına izin ver</string>
-    <!-- Smart charging -->
-    <string name="smart_charging_title">Akıllı şarj</string>
-    <string name="smart_charging_summary">Maksimum şarj seviyesini ayarlayın</string>
-    <string name="smart_charging_switch_title">Akıllı şarj özelliğini kullan</string>
-    <string name="smart_charging_level_title">Durdurma tetikleyici seviyesi</string>
-    <string name="smart_charging_resume_level_title">Başlatma tetikleyici seviyesi</string>
-    <string name="smart_charging_reset_stats_title">Pil istatistiklerini sıfırla</string>
-    <string name="smart_charging_reset_stats_summary">Kullanıcının tanımladığı şarj değerine ulaşınca pil istatistiklerini sıfırla</string>
-    <string name="smart_charging_footer">Akıllı şarj, pilinizin ömrünü uzatmak için maksimum şarj seviyesini ayarlamanızı sağlar</string>
+    <!-- Adaptive charging -->
+    <string name="adaptive_charging_title">Uyarlanabilir Şarj</string>
+    <string name="adaptive_charging_summary">Açık / Şartlı olarak şarjı kısıtlama</string>
+    <string name="adaptive_charging_mode_title">Kısıtlama modu</string>
+    <string name="adaptive_charging_mode_level">Pil yüzdesi</string>
+    <string name="adaptive_charging_mode_temperature">Pil sıcaklığı</string>
+    <string name="adaptive_charging_mode_both">Pil yüzdesi veya sıcaklığı</string>
+    <string name="adaptive_charging_cutoff_title">Şarj etmeyi durdur</string>
+    <string name="adaptive_charging_resume_title">Şarj etmeye devam et</string>
+    <string name="adaptive_charging_reset_stats_title">Pil istatistiklerini sıfırla</string>
+    <string name="adaptive_charging_reset_stats_summary">Kullanıcının tanımladığı şarj değerine ulaşınca pil istatistiklerini sıfırla</string>
+    <string name="adaptive_charging_description">Uyarlanabilir şarj, belirli koşullar altında şarjı kısıtlayarak pilinizin ömrünü uzatmaya yardımcı olur.</string>
     <!-- Cherish maintainer -->
     <string name="maintainer">Cihaz sorumlusu</string>
     <!-- LiveDisplay -->
@@ -144,19 +147,6 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Şarj olurken her zaman açık</string>
     <string name="doze_on_charge_summary">Şarj olurken her zaman uyku ekranını göster</string>
-    <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Ağ erişimine izin ver</string>
-    <string name="data_usage_app_restrict_all_summary">Ağ kullanımını etkinleştir</string>
-    <string name="data_usage_app_restrict_mobile">Mobil veri</string>
-    <string name="data_usage_app_restrict_mobile_summary">Mobil veri kullanımını etkinleştir</string>
-    <string name="data_usage_app_restrict_vpn">VPN verisi</string>
-    <string name="data_usage_app_restrict_vpn_summary">VPN veri kullanımını etkinleştir</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi verisi</string>
-    <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi veri kullanımını etkinleştir</string>
-    <!-- Doze on double tap -->
-    <string name="double_tap_title">Çift dokunma</string>
-    <string name="doze_double_tap_title">Telefonu kontrol etmek için çift dokun</string>
-    <string name="doze_double_tap_summary">Çift dokunuşla bildirimler</string>
     <!-- About phone cards -->
     <string name="storage_card_title">Depolama</string>
     <string name="storage_card_info">Kullanımda</string>
@@ -194,6 +184,7 @@
     <string name="show_powermenu">Güç menüsünü göster</string>
     <string name="partial_screenshot">Kısmi ekran görüntüsü</string>
     <string name="hush_mute">Bildirimleri sessize al</string>
+    <string name="recent_app_toggle">Son kullanılan uygulamaya geç</string>
     <!-- Long back swipe options -->
     <string name="navbar_gesture_tweaks_pref_title">Gelişmiş hareketler</string>
     <string name="navbar_gesture_tweaks_pref_summary">Hareketleri özelleştir ve özel eylemler ayarla</string>
@@ -279,10 +270,6 @@
     <string name="increasing_ring_volume_option_title">Artan zil sesi</string>
     <string name="increasing_ring_min_volume_title">Başlangıç sesi</string>
     <string name="increasing_ring_ramp_up_time_title">Yükseliş süresi</string>
-    <!-- Clock style -->
-    <string name="clock_style_title">Saat stili</string>
-    <string name="clock_style_summary">Kilit ekranı saatini özelleştirin</string>
-    <string name="theme_customization_statusbar_height_title">Durum çubuğu yüksekliği</string>
     <string name="default_accent_color">Dodger Blue (varsayılan)</string>
     <string name="default_icon_shape">Daire (varsayılan)</string>
     <string name="default_font">OnePlus Slate (varsayılan)</string>
@@ -324,7 +311,7 @@
     <string name="applock_lock_after_instantly_summary">Uygulama kapatıldığında anında kilitlenecek</string>
     <string name="applock_lock_after_15_seconds_summary">Kapandıktan 15 saniye sonra uygulama kilitlenecek</string>
     <string name="applock_lock_after_screen_off_summary">Ekran kapatıldığında uygulama kilitlenecek</string>
-    <string name="applock_notification_info">Kilitli her uygulamanın tercihinde gösterilen bildirim simgesine tıklayarak bildirim içeriğini uygulama bazında gösterebilir/gizleyebilirsiniz</string>
+    <string name="applock_notification_info">Kilitli her uygulamanın tercihinde gösterilen bildirim simgesine tıklayarak bildirim içeriğini uygulama bazında gösterebilir/gizleyebilirsiniz.</string>
     <string name="applock_show_notif">Bildirim içeriği gösteriliyor</string>
     <string name="applock_hide_notif">Bildirim içeriği gizleniyor</string>
     <string name="applock_setup">Uygulama kilitleyiciyi ayarlayın</string>
@@ -340,9 +327,6 @@
     <string name="security_dashboard_summary_face_and_fingerprint">Ekran kilidi, parmak izi, yüz tanıma kilidi</string>
     <string name="face_redo_confirm_btn">Yinele</string>
     <string name="face_redo_warning_msg">Mevcut yüz taramasını kaldırmak ve yeni bir tarama oluşturmak ister misiniz?</string>
-    <!-- global cleartext penalties -->
-    <string name="cleartext_network_policy_title">Açık metin ağ trafiğini kısıtla</string>
-    <string name="cleartext_network_policy_summary">TLS dışı tüm ağ trafiğini engeller. Özel DNS yapılandırması gerektirir. Not: Açık muafiyetler olmadan Tor ve çoğu VPN çalışmaz</string>
     <!--  screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">Wi-Fi zaman aşımı</string>
     <!--  screen, setting option summary to change wifi timeout -->
@@ -391,10 +375,6 @@
     <string name="fingerprint_power_button_press_title">Kilidi açmak için basın</string>
     <string name="fingerprint_power_button_press_off_summary">Ekran kapalıyken parmak iziyle kilidi açmak için güç tuşuna dokunun</string>
     <string name="fingerprint_power_button_press_on_summary">Ekran kapalıyken parmak iziyle kilidi açmak için güç tuşuna sıkıca basın</string>
-    <!-- Custom Signal bar icons -->
-    <string name="custom_signal_bar_title">Sinyal</string>
-    <!-- Custom Wi-Fi bar icons -->
-    <string name="custom_wifi_bar_title">Wi-Fi</string>
     <!-- Themes customisation -->
     <string name="theme_customization_systemui_title">Sistem teması</string>
     <!-- Refresh rate -->
@@ -441,10 +421,54 @@
     <string name="current_battery_capacity_summary">Çekirdek tarafından ölçülen mevcut pil kapasitesi</string>
     <string name="designed_battery_capacity">Tasarlanmış pil kapasitesi</string>
     <string name="designed_battery_capacity_summary">Üretici tarafından tasarlanan pil kapasitesi</string>
-    <string name="battery_charge_cycles">Şarj döngüleri tamamlandı</string>
+    <string name="battery_charge_cycles">Tamamlanan şarj döngüsü</string>
     <!-- Settings categories -->
     <string name="connectivity_title">Bağlantılar</string>
     <string name="personalize_title">Kişiselleştir</string>
     <string name="security_title">Güvenlik</string>
     <string name="others_title">Diğer</string>
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_red">Kırmızı yoğunluğu</string>
+    <string name="color_mode_balance_green">Yeşil yoğunluğu</string>
+    <string name="color_mode_balance_blue">Mavi yoğunluğu</string>
+    <string name="keywords_color_balance">renk, renk dengesi, renk düzeltmesi, kırmızı, yeşil, mavi, LiveDisplay</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Ağ erişimine izin ver</string>
+    <string name="data_usage_app_restrict_all_summary">Ağ kullanımını etkinleştir</string>
+    <string name="data_usage_app_restrict_mobile">Mobil veri</string>
+    <string name="data_usage_app_restrict_mobile_summary">Mobil veri kullanımını etkinleştir</string>
+    <string name="data_usage_app_restrict_vpn">VPN verisi</string>
+    <string name="data_usage_app_restrict_vpn_summary">VPN veri kullanımını etkinleştir</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi verisi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi veri kullanımını etkinleştir</string>
+    <!-- Legacy WFD settings -->
+    <string name="legacy_wfd_video_mode_title">Video modu</string>
+    <string name="legacy_wfd_video_mode_720p_30fps">720p 30fps</string>
+    <string name="legacy_wfd_video_mode_720p_60fps">720p 60fps</string>
+    <string name="legacy_wfd_video_mode_1080p_30fps">1080p 30fps</string>
+    <string name="legacy_wfd_video_mode_1080p_60fps">1080p 60fps</string>
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">Düzeni karıştır</string>
+    <string name="unlock_scramble_pin_layout_summary">Cihaz kilidini açarken PIN düzenini karıştırır</string>
+    <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Agresif pil</string>
+    <string name="aggressive_battery_summary">Daha iyi pil tasarrufu</string>
+    <string name="aggressive_battery_warning_text">Bunlar güç tasarrufu özellikleridir. Gezinme çubuğu uygulamaları gibi boşta çalışmayı amaçlayan servislere müdahale edebilirler. Bu uygulamaları, pil ayarlarından etkilenmekten beyaz listeye alabilirsiniz.</string>
+    <string name="aggressive_idle_title">Agresif boşta durumu</string>
+    <string name="aggressive_idle_summary">Cihaz daha sık boşta ve daha az uyanma</string>
+    <string name="aggressive_standby_title">Agresif bekleme</string>
+    <string name="aggressive_standby_summary">Uygulamaların arka plan da çalışmasını engelle</string>
+    <string name="aggressive_battery_saver_title">Pil tasarrufunda otomatik etkinleştir</string>
+    <string name="aggressive_battery_saver_summary">Pil tasarrufunu kullanırken agresif pili otomatik olarak etkinleştirir</string>
+    <!-- Sensor block per-package -->
+    <string name="sensor_block_title">Uygulama başına sensör engelleme</string>
+    <string name="sensor_block_summary">Pil tasarrufu için bazı uygulamaların belirli sensörlere erişimini engelle</string>
+    <string name="sensor_block_app_picker_title">Bu uygulamalar için sensörleri engelle</string>
+    <string name="add_sensor_block_package_title">Sensör engellemesi için uygulama ekle</string>
+    <string name="add_sensor_block_package_summary">Bu uygulamalar için önemli hareket, ivmeölçer, doğrusal ivme sensörleri engellenecektir</string>
+    <string name="wifi_tether_client_list_title">Client List</string>
+    <string name="wifi_tether_client_list_summary">Manage clients connected to hotspot</string>
+    <!-- Edge Music Gestures -->
+    <string name="edge_music_title">Edge Music Gesture</string>
+    <string name="edge_music_summary">Enable music control on dead edge area (set edge deadzone to anything other than off)</string>
 </resources>
