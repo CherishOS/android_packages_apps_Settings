@@ -66,20 +66,23 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">全画面表示のアプリ</string>
     <string name="display_cutout_force_fullscreen_summary">強制的にアプリのノッチ領域を無視する</string>
-    <string name="display_cutout_force_fullscreen_restart_app">Please restart the application to apply the changes</string>
-    <string name="cutout_force_fullscreen_no_apps">No apps</string>
+    <string name="display_cutout_force_fullscreen_restart_app">変更を反映するにはアプリを再起動する必要があります</string>
+    <string name="cutout_force_fullscreen_no_apps">アプリなし</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">クライアントの VPN 使用の許可</string>
     <string name="tethering_allow_vpn_upstreams_summary">この端末の VPN 接続をホットスポットのクライアントが送信接続に使うことを許可する</string>
-    <!-- Smart charging -->
-    <string name="smart_charging_title">スマート充電</string>
-    <string name="smart_charging_summary">最大充電レベルを設定する</string>
-    <string name="smart_charging_switch_title">スマート充電の使用</string>
-    <string name="smart_charging_level_title">充電停止レベル</string>
-    <string name="smart_charging_resume_level_title">充電開始レベル</string>
-    <string name="smart_charging_reset_stats_title">バッテリーの統計情報をリセット</string>
-    <string name="smart_charging_reset_stats_summary">ユーザーが決定した充電レベルに到達後バッテリーの統計を初期化する</string>
-    <string name="smart_charging_footer">スマート充電を使用すると最大充電レベルを設定することでバッテリー寿命を延ばすことができます</string>
+    <!-- Adaptive charging -->
+    <string name="adaptive_charging_title">充電制御</string>
+    <string name="adaptive_charging_summary">ON / 充電制限の条件を適用中です</string>
+    <string name="adaptive_charging_mode_title">制限モード</string>
+    <string name="adaptive_charging_mode_level">バッテリー残量</string>
+    <string name="adaptive_charging_mode_temperature">バッテリー温度</string>
+    <string name="adaptive_charging_mode_both">両方</string>
+    <string name="adaptive_charging_cutoff_title">充電停止</string>
+    <string name="adaptive_charging_resume_title">充電再開</string>
+    <string name="adaptive_charging_reset_stats_title">バッテリーの統計情報をリセット</string>
+    <string name="adaptive_charging_reset_stats_summary">ユーザーが決定した充電レベルに到達後統計情報をリセットする</string>
+    <string name="adaptive_charging_description">充電制御は特定の条件下での充電を制限し、バッテリーの寿命を延ばすのに役立ちます。</string>
     <!-- Cherish maintainer -->
     <string name="maintainer">メンテナー</string>
     <!-- LiveDisplay -->
@@ -144,19 +147,6 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">充電時の Always On Display</string>
     <string name="doze_on_charge_summary">充電時は常に Doze 画面を表示する</string>
-    <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">ネットワークアクセスを許可</string>
-    <string name="data_usage_app_restrict_all_summary">ネットワークの使用状況を有効化する</string>
-    <string name="data_usage_app_restrict_mobile">モバイルデータ</string>
-    <string name="data_usage_app_restrict_mobile_summary">モバイルデータ使用量を有効化する</string>
-    <string name="data_usage_app_restrict_vpn">VPN データ</string>
-    <string name="data_usage_app_restrict_vpn_summary">VPN データ使用量を有効化する</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi データ</string>
-    <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi データ使用量を有効化する</string>
-    <!-- Doze on double tap -->
-    <string name="double_tap_title">ダブルタップ</string>
-    <string name="doze_double_tap_title">ダブルタップで端末を確認</string>
-    <string name="doze_double_tap_summary">ダブルタップで通知を点滅させる</string>
     <!-- About phone cards -->
     <string name="storage_card_title">ストレージ</string>
     <string name="storage_card_info">使用中</string>
@@ -194,9 +184,10 @@
     <string name="show_powermenu">電源メニューを表示</string>
     <string name="partial_screenshot">部分スクリーンショット</string>
     <string name="hush_mute">通知をミュート</string>
+    <string name="recent_app_toggle">直前のアプリの切り替え</string>
     <!-- Long back swipe options -->
     <string name="navbar_gesture_tweaks_pref_title">高度なジェスチャー</string>
-    <string name="navbar_gesture_tweaks_pref_summary">ジェスチャー編集とカスタムアクション設定</string>
+    <string name="navbar_gesture_tweaks_pref_summary">ジェスチャーを編集してカスタムアクションを設定する</string>
     <string name="navbar_gesture_tweaks_cat_title">高度な設定</string>
     <string name="long_back_swipe_timeout_title">長いスワイプアクションの制限時間</string>
     <string name="left_swipe_actions_title">長い左スワイプアクション</string>
@@ -255,7 +246,7 @@
     <string name="pause_audio_stream_summary">メディア音量がゼロになっらた自動的にメディア再生を一時停止する</string>
     <!-- Expand immediately -->
     <string name="extra_volume_ui_features_title">追加の音量インターフェース</string>
-    <string name="expand_immediately_title">音量パネル内の拡張ボタンを有効化</string>
+    <string name="expand_immediately_title">拡張ボタンを有効化</string>
     <string name="expand_immediately_summary">一部が隠されたバーの操作なしで、音量パネル内に複数の音量バーを直接展開して操作できる追加のボタンを表示する。</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">フル</string>
@@ -279,10 +270,6 @@
     <string name="increasing_ring_volume_option_title">着信音量の増幅</string>
     <string name="increasing_ring_min_volume_title">開始音量</string>
     <string name="increasing_ring_ramp_up_time_title">増幅時間</string>
-    <!-- Clock style -->
-    <string name="clock_style_title">時計のスタイル</string>
-    <string name="clock_style_summary">ロック画面の時計を編集する</string>
-    <string name="theme_customization_statusbar_height_title">ステータスバーの高さ</string>
     <string name="default_accent_color">ドジャーブルー (既定)</string>
     <string name="default_icon_shape">円 (既定)</string>
     <string name="default_font">OnePlus スレート (既定)</string>
@@ -318,16 +305,16 @@
     <string name="applock_unlocked_apps">未ロックのアプリ</string>
     <string name="applock_lock_after_title">以下の後にアプリをロック</string>
     <string name="applock_lock_after_instantly">すぐに</string>
-    <string name="applock_lock_after_15_seconds">10秒</string>
+    <string name="applock_lock_after_15_seconds">15秒</string>
     <string name="applock_lock_after_screen_off">画面を消灯</string>
     <string name="applock_lock_after_summary">選択した制限時間後にアプリはロックされます</string>
     <string name="applock_lock_after_instantly_summary">アプリを閉じるとすぐにロックされます</string>
     <string name="applock_lock_after_15_seconds_summary">アプリは終了から15秒後にロックされます</string>
     <string name="applock_lock_after_screen_off_summary">アプリは画面消灯時にロックされます</string>
-    <string name="applock_notification_info">それぞれのロック済みのアプリの設定に表示される通知アイコンをクリックすることで、アプリごとの通知の内容の表示/非表示を切り替えることができます。</string>
+    <string name="applock_notification_info">ロックアイコンの横をクリックした場合に通知の内容の表示を変更できます。</string>
     <string name="applock_show_notif">通知の内容を表示中です</string>
     <string name="applock_hide_notif">通知の内容を非表示中です</string>
-    <string name="applock_setup">アプリのロックを設定</string>
+    <string name="applock_setup">アプリのロックを設定する</string>
     <string name="applock_overlay_summary">このアプリはロックされているためこの機能は利用できません</string>
     <plurals name="applock_summary">
         <item quantity="other">%d個のアプリがロックされました</item>
@@ -339,16 +326,13 @@
     <string name="security_dashboard_summary_face_and_fingerprint">画面ロック、指紋、顔認証でロック解除</string>
     <string name="face_redo_confirm_btn">やり直し</string>
     <string name="face_redo_warning_msg">既存の顔スキャンを削除して新しいスキャンを作成しますか?</string>
-    <!-- global cleartext penalties -->
-    <string name="cleartext_network_policy_title">未暗号化のネットワーク通信を制限</string>
-    <string name="cleartext_network_policy_summary">TLS 以外の全ての通信をブロックします。プライベート DNS 設定が必要です。注意: 除外を明示化しないと Tor やほとんどの VPN は動作しません。</string>
     <!--  screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">Wi-Fi を自動的にオフにする</string>
     <!--  screen, setting option summary to change wifi timeout -->
     <string name="wifi_timeout_summary">ネットワークに接続していない場合は<xliff:g id="timeout_description">%1$s</xliff:g>後に Wi-Fi はオフになります</string>
     <string name="wifi_timeout_summary2">無効</string>
     <string name="wifi_timeout_summary_never">なし</string>
-    <string name="wifi_timeout_summary_15secs">10秒</string>
+    <string name="wifi_timeout_summary_15secs">15秒</string>
     <string name="wifi_timeout_summary_30secs">30秒</string>
     <string name="wifi_timeout_summary_1min">1分</string>
     <string name="wifi_timeout_summary_2mins">2分</string>
@@ -362,10 +346,10 @@
     <!-- Connected devices screen, setting option name to change bluetooth timeout -->
     <string name="bluetooth_timeout">Bluetooth の制限時間</string>
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
-    <string name="bluetooth_timeout_summary">端末が接続されていない場合は<xliff:g id="timeout_description">%1$s</xliff:g>後に Bluetooth は オフになります</string>
+    <string name="bluetooth_timeout_summary">端末が接続されていない場合は<xliff:g id="timeout_description">%1$s</xliff:g>後に Bluetooth はオフになります</string>
     <string name="bluetooth_timeout_summary2">自動的に Bluetooth をオフにしない</string>
     <string name="bluetooth_timeout_summary_never">なし</string>
-    <string name="bluetooth_timeout_summary_15secs">10秒</string>
+    <string name="bluetooth_timeout_summary_15secs">15秒</string>
     <string name="bluetooth_timeout_summary_30secs">30秒</string>
     <string name="bluetooth_timeout_summary_1min">1分</string>
     <string name="bluetooth_timeout_summary_2mins">2分</string>
@@ -390,10 +374,6 @@
     <string name="fingerprint_power_button_press_title">押してロック解除</string>
     <string name="fingerprint_power_button_press_off_summary">画面消灯時に指紋センサーの電源ボタンを押してロック解除する</string>
     <string name="fingerprint_power_button_press_on_summary">画面消灯時に指紋認証でロック解除するには電源ボタンをしっかりと押して下さい</string>
-    <!-- Custom Signal bar icons -->
-    <string name="custom_signal_bar_title">シグナル</string>
-    <!-- Custom Wi-Fi bar icons -->
-    <string name="custom_wifi_bar_title">Wi-Fi</string>
     <!-- Themes customisation -->
     <string name="theme_customization_systemui_title">システムテーマ</string>
     <!-- Refresh rate -->
@@ -427,7 +407,7 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">端末左側にある指紋認証センサーを探します</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">端末右側にある指紋認証センサーを探します</string>
     <!-- Fingerprint location message - tablet -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">端末前面にある指紋認証センサーを探します</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">タブレット前面にある指紋認証センサーを探します</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">タブレット左側にある指紋認証センサーを探します</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">タブレット右側にある指紋認証センサーを探します</string>
     <!-- Screen off fod -->
@@ -440,10 +420,54 @@
     <string name="current_battery_capacity_summary">カーネルによって測定された現在のバッテリー容量</string>
     <string name="designed_battery_capacity">設計バッテリー容量</string>
     <string name="designed_battery_capacity_summary">メーカーによって設計されたバッテリー容量</string>
-    <string name="battery_charge_cycles">充電サイクルが完了しました</string>
+    <string name="battery_charge_cycles">充電サイクル完了数</string>
     <!-- Settings categories -->
     <string name="connectivity_title">接続</string>
     <string name="personalize_title">個人設定</string>
     <string name="security_title">セキュリティ</string>
     <string name="others_title">その他</string>
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_red">赤の強度</string>
+    <string name="color_mode_balance_green">緑の強度</string>
+    <string name="color_mode_balance_blue">青の強度</string>
+    <string name="keywords_color_balance">色、色のバランス、色のコレクション、赤、緑、青、LiveDisplay</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">ネットワークアクセスを許可</string>
+    <string name="data_usage_app_restrict_all_summary">ネットワークの使用状況を有効化する</string>
+    <string name="data_usage_app_restrict_mobile">モバイルデータ</string>
+    <string name="data_usage_app_restrict_mobile_summary">モバイルデータ使用量を有効化する</string>
+    <string name="data_usage_app_restrict_vpn">VPN データ</string>
+    <string name="data_usage_app_restrict_vpn_summary">VPN データ使用量を有効化する</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi データ</string>
+    <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi データ使用量を有効化する</string>
+    <!-- Legacy WFD settings -->
+    <string name="legacy_wfd_video_mode_title">ビデオモード</string>
+    <string name="legacy_wfd_video_mode_720p_30fps">720p 30fps</string>
+    <string name="legacy_wfd_video_mode_720p_60fps">720p 60fps</string>
+    <string name="legacy_wfd_video_mode_1080p_30fps">1080p 30fps</string>
+    <string name="legacy_wfd_video_mode_1080p_60fps">1080p 60fps</string>
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">ランダムなレイアウト</string>
+    <string name="unlock_scramble_pin_layout_summary">端末のロック解除時に PIN レイアウトをランダムにする</string>
+    <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">アグレッシブバッテリー</string>
+    <string name="aggressive_battery_summary">より厳しくバッテリーを節約する</string>
+    <string name="aggressive_battery_warning_text">これらは節電機能です。ナビゲーションアプリのように、アイドル状態で実行することを目的としたサービスを妨害する可能性があります。バッテリー設定でこれらのアプリが影響を受けないようにホワイトリストに登録できます。</string>
+    <string name="aggressive_idle_title">アグレッシブアイドル</string>
+    <string name="aggressive_idle_summary">より頻繁に端末をアイドルにしてスリープ解除を減らす</string>
+    <string name="aggressive_standby_title">アグレッシブスタンバイ</string>
+    <string name="aggressive_standby_summary">バックグラウンド実行するアプリを制限する</string>
+    <string name="aggressive_battery_saver_title">自動有効</string>
+    <string name="aggressive_battery_saver_summary">バッテリーセーバー使用時は自動で有効化する</string>
+    <!-- Sensor block per-package -->
+    <string name="sensor_block_title">パッケージごとのセンサーの無効化</string>
+    <string name="sensor_block_summary">バッテリーを節約するためにアプリから特定のセンサーへのアクセスを無効化する</string>
+    <string name="sensor_block_app_picker_title">アプリへのセンサーをブロック</string>
+    <string name="add_sensor_block_package_title">センサーをブロックするアプリを追加</string>
+    <string name="add_sensor_block_package_summary">大きな動き、加速度センサー、線形加速度センサーがこれらのアプリでブロックされます。</string>
+    <string name="wifi_tether_client_list_title">Client List</string>
+    <string name="wifi_tether_client_list_summary">Manage clients connected to hotspot</string>
+    <!-- Edge Music Gestures -->
+    <string name="edge_music_title">Edge Music Gesture</string>
+    <string name="edge_music_summary">Enable music control on dead edge area (set edge deadzone to anything other than off)</string>
 </resources>
