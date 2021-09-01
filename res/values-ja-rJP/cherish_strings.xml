@@ -465,9 +465,9 @@
     <string name="sensor_block_app_picker_title">アプリへのセンサーをブロック</string>
     <string name="add_sensor_block_package_title">センサーをブロックするアプリを追加</string>
     <string name="add_sensor_block_package_summary">大きな動き、加速度センサー、線形加速度センサーがこれらのアプリでブロックされます。</string>
-    <string name="wifi_tether_client_list_title">Client List</string>
-    <string name="wifi_tether_client_list_summary">Manage clients connected to hotspot</string>
+    <string name="wifi_tether_client_list_title">クライアントリスト</string>
+    <string name="wifi_tether_client_list_summary">ホットスポットに接続されているクライアントを管理する</string>
     <!-- Edge Music Gestures -->
-    <string name="edge_music_title">Edge Music Gesture</string>
-    <string name="edge_music_summary">Enable music control on dead edge area (set edge deadzone to anything other than off)</string>
+    <string name="edge_music_title">エッジ音楽ジェスチャー</string>
+    <string name="edge_music_summary">エッジのデッドゾーン上での音楽の操作を有効化する (エッジのデッドゾーンを OFF 以外に設定して下さい)</string>
 </resources>
