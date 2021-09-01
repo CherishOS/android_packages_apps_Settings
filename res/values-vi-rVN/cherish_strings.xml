@@ -465,9 +465,9 @@
     <string name="sensor_block_app_picker_title">Chặn cảm biến cho các ứng dụng này</string>
     <string name="add_sensor_block_package_title">Thêm ứng dụng cho khối cảm biến</string>
     <string name="add_sensor_block_package_summary">Các cảm biến chuyển động, gia tốc kế, cảm biến gia tốc tuyến tính quan trọng sẽ bị chặn đối với các ứng dụng này</string>
-    <string name="wifi_tether_client_list_title">Client List</string>
-    <string name="wifi_tether_client_list_summary">Manage clients connected to hotspot</string>
+    <string name="wifi_tether_client_list_title">Danh sách máy chủ</string>
+    <string name="wifi_tether_client_list_summary">Quản lý máy chủ được kết nối với điểm phát sóng</string>
     <!-- Edge Music Gestures -->
-    <string name="edge_music_title">Edge Music Gesture</string>
-    <string name="edge_music_summary">Enable music control on dead edge area (set edge deadzone to anything other than off)</string>
+    <string name="edge_music_title">Cử chỉ góc âm nhạc</string>
+    <string name="edge_music_summary">Bật kiểm soát âm nhạc trên khu vực cạnh chết (đặt khu vực cạnh chết thành bất kỳ điều gì khác ngoài tắt)</string>
 </resources>
