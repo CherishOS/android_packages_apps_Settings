@@ -190,8 +190,8 @@ public class NetworkProviderCallsSmsController extends AbstractPreferenceControl
 
     @Override
     public boolean isAvailable() {
-        return SubscriptionUtil.isSimHardwareVisible(mContext) &&
-                mUserManager.isAdminUser();
+        return SubscriptionUtil.isSimHardwareVisible(mContext) &&com.android.settings.Utils.isVoiceCapable(mContext) && 
+        mUserManager.isAdminUser();
     }
 
     @Override
