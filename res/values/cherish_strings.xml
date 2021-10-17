@@ -43,4 +43,8 @@
     <!-- CherishOS version -->
     <string name="cherish_version">Cherish version</string>
     <string name="cherish_version_default">Unknown</string>
+
+    <!-- CherishOS Build Date -->
+    <string name="build_date">Build date</string>
+
 </resources>
