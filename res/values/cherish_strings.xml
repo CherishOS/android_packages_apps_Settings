@@ -40,4 +40,7 @@
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s today</string>
 
+    <!-- CherishOS version -->
+    <string name="cherish_version">Cherish version</string>
+    <string name="cherish_version_default">Unknown</string>
 </resources>
