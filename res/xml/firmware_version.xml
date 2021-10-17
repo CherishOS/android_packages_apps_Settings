@@ -30,6 +30,15 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
+
+    <!-- Cherish version -->
+    <Preference
+        android:key="cherish_version"
+        android:title="@string/cherish_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.CherishVersionPreferenceController"/>
+
     <!-- Security patch -->
     <Preference
         android:key="security_key"
