@@ -27,7 +27,7 @@
 
     <!-- Cherish maintainer -->
     <string name="maintainer">Maintainer</string>
-    <string name="cherish_maintainer" translatable="false">Unofficial Maintainer</string>
+    <string name="cherish_maintainer">Unofficial Maintainer</string>
 
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Swipe to screenshot</string>
