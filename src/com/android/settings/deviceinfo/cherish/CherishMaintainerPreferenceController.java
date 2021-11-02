@@ -17,7 +17,7 @@
 package com.android.settings.deviceinfo.cherish;
 
 import android.content.Context;
-import android.content.res.Resources;
+import android.os.SystemProperties;
 import android.text.TextUtils;
 
 import androidx.preference.Preference;
@@ -28,6 +28,7 @@ import com.android.settings.core.BasePreferenceController;
 public class CherishMaintainerPreferenceController extends BasePreferenceController {
 
     private static final String TAG = "CherishMaintainerPreferenceController";
+    private static final String ROM_PROPERTY = "ro.cherish.maintainer";
 
     public CherishMaintainerPreferenceController(Context context, String key) {
         super(context, key);
@@ -38,7 +39,8 @@ public class CherishMaintainerPreferenceController extends BasePreferenceControl
     }
 
     public CharSequence getSummary() {
-        String maintainer = mContext.getResources().getString(R.string.cherish_maintainer);
-        return maintainer;
+        String rom = SystemProperties.get(ROM_PROPERTY,
+                this.mContext.getString(R.string.device_info_default));
+        return rom;
     }
 }
