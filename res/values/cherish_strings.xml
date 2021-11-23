@@ -81,4 +81,10 @@
     <string name="doze_on_charge_title">Always on when charging</string>
     <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
 
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] --> 
+    <string name="duration_less_than_one_minute">Less than 1 Minute</string> 
+
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s today</string>
+
 </resources>
