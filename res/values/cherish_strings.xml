@@ -117,4 +117,8 @@
     <string name="trust_restrict_usb_always">Deny USB connections</string>
     <string name="trust_restrict_usb_keyguard">Allow USB connections when unlocked</string>
     <string name="trust_restrict_usb_disabled">Always allow USB connections</string>
+
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Always on when charging</string>
+    <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
 </resources>
