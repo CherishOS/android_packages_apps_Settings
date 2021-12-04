@@ -88,6 +88,7 @@ android_library {
         "WifiTrackerLib",
         "SettingsLibActivityEmbedding",
         "Settings-change-ids",
+        "accountfeatureprovidergoogle",
     ],
 
     libs: [
@@ -142,4 +143,10 @@ filegroup {
 filegroup {
     name: "Settings_manifest",
     srcs: ["AndroidManifest.xml"],
+}
+
+java_import {
+    name: "accountfeatureprovidergoogle",
+    jars: ["libs/accountfeatureprovidergoogle.jar"],
+    sdk_version: "current",
 }
