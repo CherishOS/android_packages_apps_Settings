@@ -54,6 +54,7 @@ android_library {
     aaptflags: ["--extra-packages com.cherish.settings"],
 
     resource_dirs: ["res",
+                    "res-pixel"
                     "CherishSettings/res"
     ],
 
@@ -89,7 +90,10 @@ android_library {
         "lottie",
         "windowExtLib",
         "faceunlock_framework",
+        "SettingsGoogle-lib",
     ],
+    manifest: "AndroidManifest.xml",
+    additional_manifests: ["SettingsGoogle-Manifest.xml"],
 
     libs: [
         "telephony-common",
