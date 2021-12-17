@@ -32,6 +32,8 @@ public class PowerMenuPreferenceController extends BasePreferenceController {
 
     @Override
     public CharSequence getSummary() {
+        if (PowerMenuSettingsUtils.isLongPressPowerForTorchEnabled(mContext))
+            return mContext.getText(R.string.power_menu_summary_long_press_for_torch);
         final int powerButtonValue = PowerMenuSettingsUtils.getPowerButtonSettingValue(mContext);
         if (powerButtonValue == LONG_PRESS_POWER_ASSISTANT_VALUE) {
             return mContext.getText(R.string.power_menu_summary_long_press_for_assist_enabled);

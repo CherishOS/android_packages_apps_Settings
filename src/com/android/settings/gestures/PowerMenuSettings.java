@@ -17,11 +17,15 @@
 package com.android.settings.gestures;
 
 import android.app.settings.SettingsEnums;
+import android.content.Context;
 
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.search.SearchIndexable;
+
+import java.util.List;
 
 @SearchIndexable
 public class PowerMenuSettings extends DashboardFragment {
@@ -41,6 +45,11 @@ public class PowerMenuSettings extends DashboardFragment {
     @Override
     public int getMetricsCategory() {
         return SettingsEnums.POWER_MENU_SETTINGS;
+    }
+
+    @Override
+    protected List<AbstractPreferenceController> createPreferenceControllers(Context context) {
+        return List.of(new LongPressPowerButtonTorchPreferenceController(context, getSettingsLifecycle()));
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =

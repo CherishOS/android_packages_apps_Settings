@@ -46,6 +46,12 @@
         settings:searchable="false"
         settings:controller="com.android.settings.gestures.DoubleTapPowerPreferenceController" />
 
+    <com.cherish.settings.preferences.SecureSettingSwitchPreference
+        android:key="torch_double_tap_power_gesture_enabled"
+        android:title="@string/double_tap_power_for_torch_title"
+        android:defaultValue="false"
+        settings:controller="com.android.settings.gestures.DoubleTapPowerTorchPreferenceController" />
+
     <Preference
         android:key="gesture_double_twist_input_summary"
         android:title="@string/double_twist_for_camera_mode_title"

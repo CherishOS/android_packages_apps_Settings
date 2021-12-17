@@ -20,10 +20,17 @@ import static android.provider.Settings.Secure.CAMERA_DOUBLE_TAP_POWER_GESTURE_D
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.database.ContentObserver;
+import android.os.Handler;
+import android.os.Looper;
 import android.provider.Settings;
 import android.text.TextUtils;
 
 import androidx.annotation.VisibleForTesting;
+import androidx.preference.Preference;
+import androidx.preference.PreferenceScreen;
+
+import com.android.settings.R;
 
 public class DoubleTapPowerPreferenceController extends GesturePreferenceController {
 
@@ -35,6 +42,19 @@ public class DoubleTapPowerPreferenceController extends GesturePreferenceControl
     private static final String PREF_KEY_VIDEO = "gesture_double_tap_power_video";
 
     private final String SECURE_KEY = CAMERA_DOUBLE_TAP_POWER_GESTURE_DISABLED;
+
+    private static final String PREF_KEY_DOUBLE_TAP_POWER_TORCH = "torch_double_tap_power_gesture_enabled";
+
+    private final ContentObserver mSettingsObserver = new ContentObserver(new Handler(Looper.getMainLooper())) {
+        @Override
+        public void onChange(boolean selfChange) {
+            if (mPreference != null) {
+                updateState(mPreference);
+            }
+        }
+    };
+
+    private Preference mPreference;
 
     public DoubleTapPowerPreferenceController(Context context, String key) {
         super(context, key);
@@ -52,7 +72,21 @@ public class DoubleTapPowerPreferenceController extends GesturePreferenceControl
 
     @Override
     public int getAvailabilityStatus() {
-        return isGestureAvailable(mContext) ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
+        if (isGestureAvailable(mContext)) {
+            final boolean isDoubleTapPowerTorchGestureEnabled = Settings.Secure.getInt(
+                mContext.getContentResolver(),
+                Settings.Secure.TORCH_DOUBLE_TAP_POWER_GESTURE_ENABLED, 0) == 1;
+            return isDoubleTapPowerTorchGestureEnabled ? DISABLED_DEPENDENT_SETTING : AVAILABLE;
+        } else {
+            return UNSUPPORTED_ON_DEVICE;
+        }
+    }
+
+    @Override
+    public CharSequence getSummary() {
+        return getAvailabilityStatus() == AVAILABLE
+            ? super.getSummary()
+            : mContext.getString(R.string.gesture_double_tap_power_summary_disabled);
     }
 
     @Override
@@ -71,10 +105,34 @@ public class DoubleTapPowerPreferenceController extends GesturePreferenceControl
     }
 
     @Override
+    public void onStart() {
+        super.onStart();
+        mContext.getContentResolver().registerContentObserver(Settings.Secure.getUriFor(
+            Settings.Secure.TORCH_DOUBLE_TAP_POWER_GESTURE_ENABLED),
+                false, mSettingsObserver);
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        mContext.getContentResolver().unregisterContentObserver(mSettingsObserver);
+    }
+
+    @Override
+    public void displayPreference(PreferenceScreen screen) {
+        super.displayPreference(screen);
+        mPreference = screen.findPreference(getPreferenceKey());
+    }
+
+    @Override
+    public void updateState(Preference preference) {
+        super.updateState(preference);
+        preference.setEnabled(getAvailabilityStatus() == AVAILABLE);
+    }
+
+    @Override
     public boolean isChecked() {
-        final int cameraDisabled = Settings.Secure.getInt(mContext.getContentResolver(),
-                SECURE_KEY, ON);
-        return cameraDisabled == ON;
+        return Settings.Secure.getInt(mContext.getContentResolver(), SECURE_KEY, ON) == ON;
     }
 
     @Override

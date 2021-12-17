@@ -23,7 +23,10 @@ import android.hardware.display.AmbientDisplayConfiguration;
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.search.SearchIndexable;
+
+import java.util.List;
 
 @SearchIndexable
 public class GestureSettings extends DashboardFragment {
@@ -53,6 +56,11 @@ public class GestureSettings extends DashboardFragment {
         use(AssistGestureSettingsPreferenceController.class).setAssistOnly(false);
         use(PickupGesturePreferenceController.class).setConfig(getConfig(context));
         use(DoubleTapScreenPreferenceController.class).setConfig(getConfig(context));
+    }
+
+    @Override
+    protected List<AbstractPreferenceController> createPreferenceControllers(Context context) {
+        return List.of(new DoubleTapPowerTorchPreferenceController(context, getSettingsLifecycle()));
     }
 
     private AmbientDisplayConfiguration getConfig(Context context) {

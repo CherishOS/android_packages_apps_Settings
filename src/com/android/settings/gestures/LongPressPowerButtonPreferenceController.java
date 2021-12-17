@@ -22,21 +22,37 @@ import static com.android.settings.gestures.PowerMenuSettingsUtils.POWER_BUTTON_
 import static com.android.settings.gestures.PowerMenuSettingsUtils.POWER_BUTTON_LONG_PRESS_SETTING;
 
 import android.content.Context;
+import android.database.ContentObserver;
+import android.os.Handler;
+import android.os.Looper;
 import android.provider.Settings;
 
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
+import androidx.preference.SwitchPreference;
 
 import com.android.internal.annotations.VisibleForTesting;
 import com.android.settings.R;
 import com.android.settings.core.TogglePreferenceController;
+import com.android.settingslib.core.lifecycle.LifecycleObserver;
+import com.android.settingslib.core.lifecycle.events.OnStart;
+import com.android.settingslib.core.lifecycle.events.OnStop;
 
 import org.checkerframework.checker.nullness.qual.MonotonicNonNull;
 
 /**
  * Configures the behaviour of long press power button action.
  */
-public class LongPressPowerButtonPreferenceController extends TogglePreferenceController {
+public class LongPressPowerButtonPreferenceController extends TogglePreferenceController
+        implements LifecycleObserver, OnStart, OnStop {
+
+
+    private final ContentObserver mSettingsObserver = new ContentObserver(new Handler(Looper.getMainLooper())) {
+        @Override
+        public void onChange(boolean selfChange) {
+            updateState(mAssistSwitch);
+        }
+    };
 
     private static final String KEY_CHORD_POWER_VOLUME_UP_SETTING =
             Settings.Global.KEY_CHORD_POWER_VOLUME_UP;
@@ -73,6 +89,18 @@ public class LongPressPowerButtonPreferenceController extends TogglePreferenceCo
     }
 
     @Override
+    public void onStart() {
+        mContext.getContentResolver().registerContentObserver(
+                Settings.Secure.getUriFor(Settings.Secure.TORCH_LONG_PRESS_POWER),
+                false, mSettingsObserver);
+    }
+
+    @Override
+    public void onStop() {
+        mContext.getContentResolver().unregisterContentObserver(mSettingsObserver);
+    }
+
+    @Override
     public void displayPreference(PreferenceScreen screen) {
         super.displayPreference(screen);
         mFooterHint = screen.findPreference(FOOTER_HINT_KEY);
@@ -82,6 +110,7 @@ public class LongPressPowerButtonPreferenceController extends TogglePreferenceCo
 
     @Override
     public CharSequence getSummary() {
+        if (PowerMenuSettingsUtils.isLongPressPowerForTorchEnabled(mContext)) return null;
         final int powerButtonValue = PowerMenuSettingsUtils.getPowerButtonSettingValue(mContext);
         if (powerButtonValue == LONG_PRESS_POWER_ASSISTANT_VALUE) {
             return mContext.getString(R.string.power_menu_summary_long_press_for_assist_enabled);
@@ -98,7 +127,22 @@ public class LongPressPowerButtonPreferenceController extends TogglePreferenceCo
     public int getAvailabilityStatus() {
         final boolean enabled = mContext.getResources().getBoolean(
                 com.android.internal.R.bool.config_longPressOnPowerForAssistantSettingAvailable);
-        return enabled ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
+        if (enabled) {
+            return PowerMenuSettingsUtils.isLongPressPowerForTorchEnabled(mContext)
+                ? DISABLED_DEPENDENT_SETTING
+                : AVAILABLE; 
+        } else {
+            return UNSUPPORTED_ON_DEVICE;
+        }
+    }
+
+    @Override
+    public void updateState(Preference preference) {
+        super.updateState(preference);
+        final boolean enabled = getAvailabilityStatus() == AVAILABLE;
+        mAssistSwitch.setEnabled(enabled);
+        mFooterHint.setVisible(enabled && ((SwitchPreference) mAssistSwitch).isChecked());
+        refreshStateDisplay();
     }
 
     @Override
