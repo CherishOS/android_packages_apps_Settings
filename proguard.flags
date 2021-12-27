@@ -73,6 +73,7 @@
 -keep class com.google.** { *; }
 -keep class vendor.** { *; }
 -keep class com.android.wsuinterface.** { *; }
+-keep class com.google.android.settings.** { *; }
 
 # For reflection
 -keepattributes InnerClasses
