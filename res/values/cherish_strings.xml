@@ -460,4 +460,8 @@ When the screen is off, the torch can be enabled with one of the following key c
 
     <!-- Min refresh rate -->
     <string name="min_refresh_rate_title">Minimum refresh rate</string>
+
+    <!-- Idle manager -->
+    <string name="idle_manager_title">Idle manager</string>
+    <string name="idle_manager_summary">Stop all non-essential background processes when the device is idle</string>
 </resources>

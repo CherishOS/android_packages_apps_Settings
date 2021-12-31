@@ -73,6 +73,12 @@
             settings:keywords="@string/keywords_battery_adaptive_preferences" />
     </PreferenceCategory>
 
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
+        android:key="arcane_idle_manager"
+        android:title="@string/idle_manager_title"
+        android:summary="@string/idle_manager_summary"
+        android:defaultValue="false" />
+
     <!-- Battery light -->
     <Preference
         android:key="battery_lights"
