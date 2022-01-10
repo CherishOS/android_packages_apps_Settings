@@ -250,5 +250,8 @@
 	<!-- Volume dialog position -->
     <string name="volume_panel_on_left_title">Left volume panel</string>
     <string name="volume_panel_on_left_summary">Show the volume panel on the left side of the screen</string>
+	
+	<!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">Use floating rotate button</string>
 
 </resources>
