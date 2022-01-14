@@ -256,5 +256,9 @@
 	<!-- Volume button music control -->
     <string name="volume_button_music_control_title">Playback control</string>
     <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+	
+	<!-- Theme -->
+    <string name="pitch_colors">Pitch black theme</string>
+    <string name="pitch_colors_summary">Pitch black theme for Settings, SystemUI, etc</string>
 
 </resources>
