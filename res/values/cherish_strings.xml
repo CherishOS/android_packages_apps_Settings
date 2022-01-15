@@ -226,9 +226,6 @@
 	<!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 
-    <!-- Themes customization -->
-    <string name="theme_customization_systemui_title">Theme color</string>
-
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Adaptive playback</string>
     <string name="adaptive_playback_enabled">Use adaptive playback</string>
