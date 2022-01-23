@@ -109,12 +109,6 @@
     <dimen name="actionbar_contentInsetStart">16dp</dimen>
     <dimen name="actionbar_subsettings_contentInsetStart">72dp</dimen>
 
-    <!-- Dashboard image tile size -->
-    <dimen name="dashboard_tile_image_size">36dp</dimen>
-
-    <!-- Dashboard foreground image size -->
-    <dimen name="dashboard_tile_foreground_image_size">24dp</dimen>
-
     <!-- Dashboard foreground image inset (from background edge to foreground edge) -->
     <dimen name="dashboard_tile_foreground_image_inset">6dp</dimen>
 
@@ -127,8 +121,8 @@
 
     <!-- Search bar -->
     <dimen name="search_bar_margin">16dp</dimen>
-    <dimen name="search_bar_height">52dp</dimen>
-    <dimen name="search_bar_text_size">20sp</dimen>
+    <dimen name="search_bar_height">42dp</dimen>
+    <dimen name="search_bar_text_size">13sp</dimen>
     <dimen name="search_bar_corner_radius">28dp</dimen>
     <dimen name="search_bar_content_inset">56dp</dimen>
 
@@ -456,4 +450,37 @@
     <dimen name="chartview_trapezoid_radius">5dp</dimen>
     <dimen name="chartview_trapezoid_margin_start">1dp</dimen>
     <dimen name="chartview_trapezoid_margin_bottom">2dp</dimen>
+    
+    <!-- OnePlus -->
+    <dimen name="op_control_margin_list_top2">12dp</dimen>
+    <dimen name="op_control_margin_space1">4dp</dimen>
+    <dimen name="op_control_margin_space7">40.0dip</dimen>
+    <dimen name="op_control_margin_screen_right3">20.0dip</dimen>
+    <dimen name="op_control_margin_screen_left3">20dp</dimen>
+    <dimen name="op_control_margin_space3">16.0dip</dimen>
+    <dimen name="op_control_margin_list_bottom4">21.0dip</dimen>
+    <dimen name="op_control_margin_list_top4">21.0dip</dimen>
+    <dimen name="op_control_avatar_size3">40dp</dimen>
+    <dimen name="dashboard_tile_image_size">@dimen/op_control_avatar_size3</dimen>
+    <dimen name="dashboard_tile_foreground_image_size">@dimen/op_control_icon_size_indicator</dimen>
+    <dimen name="op_control_icon_size_indicator">16.0dip</dimen>
+    
+    <!-- Card Layout OOS -->
+    <dimen name="card_margin_start">16.0dp</dimen>
+    <dimen name="card_margin_end">16.0dp</dimen>
+    <dimen name="card_padding_end">70.0dp</dimen>
+    <dimen name="card_height">75.0dp</dimen>
+    <dimen name="card_radius">8.0dp</dimen>
+    <dimen name="dashboard_icon_size">40dp</dimen>
+    
+    <!-- Card Layout OOS 12-->
+    <dimen name="card_margin_start_oos12">0.0dp</dimen>
+    <dimen name="card_margin_end_oos12">0.0dp</dimen>
+    <dimen name="card_height_oos12">65.0dp</dimen>
+    
+    <!-- ripple radius-->
+    <dimen name="card_radius_oos12">0dp</dimen>
+    
+    <dimen name="default_margin">16dp</dimen>
+    <dimen name="default_padding">16dp</dimen>
 </resources>

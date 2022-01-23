@@ -30,14 +30,17 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.ArraySet;
 import android.util.FeatureFlagUtils;
+import android.provider.Settings;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.Toolbar;
-
+import android.content.Context;
+import android.os.UserHandle;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentManager;
@@ -45,10 +48,10 @@ import androidx.fragment.app.FragmentTransaction;
 import androidx.window.embedding.SplitRule;
 
 import com.android.settings.R;
-import com.android.settings.Settings;
+import com.android.settings.accounts.AvatarViewMixin;
+import android.provider.Settings;
 import com.android.settings.SettingsActivity;
 import com.android.settings.SettingsApplication;
-import com.android.settings.accounts.AvatarViewMixin;
 import com.android.settings.activityembedding.ActivityEmbeddingRulesController;
 import com.android.settings.activityembedding.ActivityEmbeddingUtils;
 import com.android.settings.core.CategoryMixin;
@@ -57,6 +60,8 @@ import com.android.settings.homepage.contextualcards.ContextualCardsFragment;
 import com.android.settings.overlay.FeatureFactory;
 import com.android.settingslib.Utils;
 import com.android.settingslib.core.lifecycle.HideNonSystemOverlayMixin;
+
+import com.google.android.material.appbar.CollapsingToolbarLayout;
 
 import java.net.URISyntaxException;
 import java.util.Set;
@@ -83,10 +88,11 @@ public class SettingsHomepageActivity extends FragmentActivity implements
     private View mHomepageView;
     private View mSuggestionView;
     private View mTwoPaneSuggestionView;
+    private boolean mIsTwoPaneLastTime;
     private CategoryMixin mCategoryMixin;
     private Set<HomepageLoadedListener> mLoadedListeners;
     private boolean mIsEmbeddingActivityEnabled;
-    private boolean mIsTwoPaneLastTime;
+    CollapsingToolbarLayout collapsing_toolbar;
 
     /** A listener receiving homepage loaded events. */
     public interface HomepageLoadedListener {
@@ -147,24 +153,27 @@ public class SettingsHomepageActivity extends FragmentActivity implements
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.settings_homepage_container);
+        Context context = getApplicationContext();
+
+        final boolean useStockLayout = Settings.System.getIntForUser(context.getContentResolver(),
+                Settings.System.USE_STOCK_LAYOUT, 0, UserHandle.USER_CURRENT) != 0;
+
+        setContentView(useStockLayout  ? R.layout.settings_homepage_container_stock
+                                       : R.layout.settings_homepage_container);
+
         mIsEmbeddingActivityEnabled = ActivityEmbeddingUtils.isEmbeddingActivityEnabled(this);
+
+        updateHomepageBackground();
+        mLoadedListeners = new ArraySet<>();
+        final String highlightMenuKey = getHighlightMenuKey();
+        if (useStockLayout) {
         mIsTwoPaneLastTime = ActivityEmbeddingUtils.isTwoPaneResolution(this);
 
         final View appBar = findViewById(R.id.app_bar_container);
         appBar.setMinimumHeight(getSearchBoxHeight());
         initHomepageContainer();
         updateHomepageAppBar();
-        updateHomepageBackground();
-        mLoadedListeners = new ArraySet<>();
-
         initSearchBarView();
-
-        getLifecycle().addObserver(new HideNonSystemOverlayMixin(this));
-        mCategoryMixin = new CategoryMixin(this);
-        getLifecycle().addObserver(mCategoryMixin);
-
-        final String highlightMenuKey = getHighlightMenuKey();
         // Only allow features on high ram devices.
         if (!getSystemService(ActivityManager.class).isLowRamDevice()) {
             initAvatarView();
@@ -175,6 +184,22 @@ public class SettingsHomepageActivity extends FragmentActivity implements
                 showFragment(() -> new ContextualCardsFragment(), R.id.contextual_cards_content);
             }
         }
+        } else {
+
+        final View root = findViewById(R.id.settings_homepage_container);
+	LinearLayout commonCon = root.findViewById(R.id.common_con);
+        final Toolbar toolbar = root.findViewById(R.id.search_action_bar);
+	collapsing_toolbar =  root.findViewById(R.id.collapsing_toolbar);
+
+        FeatureFactory.getFactory(this).getSearchFeatureProvider()
+                .initSearchToolbar(this /* activity */, toolbar, SettingsEnums.SETTINGS_HOMEPAGE);
+
+        collapsing_toolbar.setTitle("Settings");
+        }
+        getLifecycle().addObserver(new HideNonSystemOverlayMixin(this));
+        mCategoryMixin = new CategoryMixin(this);
+        getLifecycle().addObserver(mCategoryMixin);
+
         mMainFragment = showFragment(() -> {
             final TopLevelSettings fragment = new TopLevelSettings();
             fragment.getArguments().putString(SettingsActivity.EXTRA_FRAGMENT_ARG_KEY,
@@ -213,12 +238,18 @@ public class SettingsHomepageActivity extends FragmentActivity implements
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
+        Context context = getApplicationContext();
+        final boolean useStockLayout = Settings.System.getIntForUser(context.getContentResolver(),
+                Settings.System.USE_STOCK_LAYOUT, 0, UserHandle.USER_CURRENT) != 0;
+
+        if (useStockLayout) {
         final boolean isTwoPane = ActivityEmbeddingUtils.isTwoPaneResolution(this);
         if (mIsTwoPaneLastTime != isTwoPane) {
             mIsTwoPaneLastTime = isTwoPane;
             updateHomepageAppBar();
             updateHomepageBackground();
         }
+    }
     }
 
     private void initSearchBarView() {
@@ -247,6 +278,7 @@ public class SettingsHomepageActivity extends FragmentActivity implements
             }
         }
     }
+
 
     private void updateHomepageBackground() {
         if (!mIsEmbeddingActivityEnabled) {
@@ -430,4 +462,5 @@ public class SettingsHomepageActivity extends FragmentActivity implements
         final int searchBarMargin = getResources().getDimensionPixelSize(R.dimen.search_bar_margin);
         return searchBarHeight + searchBarMargin * 2;
     }
+
 }

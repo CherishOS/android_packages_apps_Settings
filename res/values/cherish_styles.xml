@@ -24,4 +24,31 @@
         <item name="android:textColor">@color/primary_dark_material_light</item>
         <item name="android:lineSpacingMultiplier">1.2</item>
     </style>
+	
+	<!-- Cards -->
+    <style name="rdnt_cardview_text_primary">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@*android:string/config_headlineFontFamily</item>
+    </style>
+
+    <style name="TextAppearance.SparkInfoTitle">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="TextAppearance.SparkInfoSummary">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">12.5sp</item>
+        <item name="android:lineSpacingMultiplier">1.3</item>
+    </style>
+
+    <style name="rdnt_cardview_text_secondary">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@*android:string/config_headlineFontFamily</item>
+    </style>
 </resources>

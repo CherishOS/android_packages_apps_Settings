@@ -924,4 +924,40 @@
            parent="@*android:style/TextAppearance.DeviceDefault">
         <item name="android:textColor">?android:attr/textColorSecondary</item>
     </style>
+    
+    <!-- xd. Action Bar -->
+    <style name="xd_toolbar.Expanded" parent="xd_toolbar.Collapsed">
+        <item name="android:textSize">42dp</item>
+        <item name="android:textColor">@color/settingslib_text_color_primary_device_default</item>
+        <item name="android:fontFamily">@*android:string/config_headlineFontFamilyMedium</item>
+    </style>
+
+    <style name="xd_toolbar.Collapsed" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+        <item name="android:fontFamily">@string/settingslib_config_headlineFontFamily</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/settingslib_text_color_primary_device_default</item>
+
+    </style>
+
+    <style name="op_control_text_style_base">
+        <item name="android:breakStrategy">simple</item>
+    </style>
+
+    <style name="op_control_text_style_body1" parent="@style/op_control_text_style_base">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:fontFamily">@*android:string/config_bodyFontFamily</item>
+    </style>
+    
+    <style name="op_control_text_style_h6" parent="@style/op_control_text_style_base">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:fontFamily">@*android:string/config_headlineFontFamilyMedium</item>
+    </style>
+
+    <style name="TextAppearance.HomepagePreferenceTitle" parent="@android:style/TextAppearance.DeviceDefault">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="ExpandedAppBar" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">48sp</item>
+    </style>
 </resources>

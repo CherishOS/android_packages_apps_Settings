@@ -1223,7 +1223,7 @@ public final class Utils extends com.android.settingslib.Utils {
      */
     @ColorInt
     public static int getHomepageIconColor(Context context) {
-        return getColorAttrDefaultColor(context, android.R.attr.textColorSecondary);
+        return getColorAttrDefaultColor(context, android.R.attr.colorAccent);
     }
 
     /**
@@ -1231,7 +1231,7 @@ public final class Utils extends com.android.settingslib.Utils {
      */
     @ColorInt
     public static int getHomepageIconColorHighlight(Context context) {
-        return getColorAttrDefaultColor(context, android.R.attr.textColorSecondaryInverse);
+        return getColorAttrDefaultColor(context, android.R.attr.colorAccent);
     }
 
     public static String normalizeTitleCaseIfRequired(Context context, String input) {

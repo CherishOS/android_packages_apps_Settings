@@ -1,26 +1,5 @@
-<!--
-    Copyright (C) 2017 The Android Open Source Project
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-         http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
--->
-<vector xmlns:android="http://schemas.android.com/apk/res/android"
-        android:autoMirrored="true"
-        android:width="24dp"
-        android:height="24dp"
-        android:viewportWidth="24.0"
-        android:viewportHeight="24.0"
-        android:tint="?android:attr/colorControlNormal">
-    <path
-        android:pathData="m3.8,22l17.19,0c0.55,0 1.01,-0.45 1.01,-1.01l0,-17.19c0,-0.71 -0.87,-1.08 -1.38,-0.57l-17.38,17.39c-0.51,0.51 -0.15,1.38 0.56,1.38z"
-        android:fillColor="#FFFFFFFF"/>
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:tint="?android:colorControlNormal" android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:pathData="M4.054 20.642c-.143.143-.186.358-.109.545.078.187.26.309.462.309h15.608c.401   0 .786-.16 1.07-.444.283-.284.442-.669.441-1.07-.005-3.55-.019-12.357-.024-15.578   0-.202-.122-.384-.309-.461-.187-.077-.402-.034-.545.108C17.582 7.117 7.124 17.573   4.054 20.642z M13.393 21.496V11.305" android:strokeColor="@android:color/holo_green_dark" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeLineJoin="round" />
 </vector>

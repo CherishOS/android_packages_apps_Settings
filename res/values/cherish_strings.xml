@@ -427,4 +427,8 @@
 	
 	<!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+	
+	<string name="wellbeing_title">Google Wellbeing</string>
+    <string name="usercard_summary">Current active user, tap for more information</string>
+    <string name="connectivity_category_title">connectivity</string>
 </resources>
