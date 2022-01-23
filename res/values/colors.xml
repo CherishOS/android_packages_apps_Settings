@@ -209,4 +209,20 @@
 
     <!-- Background for multiple user settings page avatars -->
     <color name="user_avatar_color_bg">?androidprv:attr/colorSurface</color>
+
+    <color name="settingsHeaderColor">@*android:color/accent_device_default_light</color>
+
+    <color name="op_control_text_color_primary">@color/op_control_text_color_primary_light</color>
+    <color name="op_control_text_color_primary_light">#d8000000</color>
+    <color name="op_control_text_color_secondary">@color/op_control_text_color_secondary_light</color>
+    <color name="op_control_text_color_secondary_light">#66000000</color>
+    <color name="oneplus_accent_text_color">#ffc41442</color>
+    <color name="op_control_bg_color_weaken_light">#0a000000</color>
+    <color name="op_control_contextual_card_solid_color">@color/op_control_bg_color_weaken_light</color>
+    <color name="op_control_accent_color_green">@color/op_control_accent_color_green_light</color>
+    <color name="op_control_accent_color_green_light">#ff0bd270</color>
+    <color name="op_control_accent_color_green_dark">#ff06743e</color>
+    <color name="oneplus_homepage_icon_background">#ffffff</color>
+    <color name="oneplus_accent_color">@color/settingsHeaderColor</color>
+    <color name="settings_accent_color">@color/oneplus_accent_color</color>
 </resources>
