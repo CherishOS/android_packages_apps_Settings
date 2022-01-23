@@ -1,25 +1,7 @@
-<!--
-  Copyright (C) 2018 The Android Open Source Project
-
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
-  -->
-<vector xmlns:android="http://schemas.android.com/apk/res/android"
-        android:width="24dp"
-        android:height="24dp"
-        android:viewportWidth="24.0"
-        android:viewportHeight="24.0">
-    <path
-        android:pathData="M3,4V8H21V4H3ZM21,20H3V16H21V20ZM7,17H5V19H7V17ZM5,7H7V5H5V7ZM3,14H21V10H3V14ZM7,11H5V13H7V11Z"
-        android:fillType="evenOdd"
-        android:fillColor="?android:attr/colorPrimary"/>
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:tint="@color/settings_accent_color" android:height="54dp" android:width="54dp" android:viewportWidth="54" android:viewportHeight="54">
+    <group>
+        <clip-path android:pathData="M0,0h54v54h-54z"/>
+        <path android:fillColor="#000000" android:pathData="M9.841,8.8404C9.8832,8.7982 9.9404,8.7745 10.0001,8.7745H44.0001C44.0598,8.7745 44.117,8.7982 44.1592,8.8404C44.2014,8.8826 44.2251,8.9398 44.2251,8.9995V18.2245H9.7751V8.9995C9.7751,8.9398 9.7988,8.8826 9.841,8.8404ZM5.7251,18.2245V8.9995C5.7251,7.8657 6.1755,6.7783 6.9772,5.9766C7.7789,5.1749 8.8663,4.7245 10.0001,4.7245H44.0001C45.1339,4.7245 46.2213,5.1749 47.023,5.9766C47.8247,6.7783 48.2751,7.8657 48.2751,8.9995V18.2245V20.2495V22.2745V31.7245V33.7495V35.7745V47.2495V49.2745H46.2501H7.7501H5.7251V47.2495V35.7745V33.7495V31.7245V22.2745V20.2495V18.2245ZM44.2251,22.2745V31.7245H9.7751V22.2745H44.2251ZM9.7751,35.7745H44.2251V45.2245H9.7751V35.7745ZM12.25,15.5249H16.75V11.4749H12.25V15.5249ZM16.75,29.0249H12.25V24.9749H16.75V29.0249ZM12.25,42.5249H16.75V38.4749H12.25V42.5249Z" android:fillType="evenOdd"/>
+    </group>
 </vector>
