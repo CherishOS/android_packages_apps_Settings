@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2021 The CherishOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- SELinux Status -->
+    <string name="selinux_status">Status SELinux</string>
+    <string name="selinux_status_disabled">Dinonaktifkan</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Sentuh untuk melihat info</string>
+    <!-- CherishOS version -->
+    <string name="cherish_version">Versi Cherish</string>
+    <string name="cherish_version_default">Tidak diketahui</string>
+    <!-- CherishOS Build Date -->
+    <string name="build_date">Tanggal pembuatan</string>
+    <!-- Cherish maintainer -->
+    <string name="maintainer">Pengelola</string>
+    <!--Cherish Settings-->
+    <string name="cherish_settings_title">Setelan Cherish</string>
+    <string name="cherish_settings_summary">Kebahagiaan tidak tersedia dan itu datang dari tindakan Anda sendiri</string>
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">Tata letak acak</string>
+    <string name="unlock_scramble_pin_layout_summary">Acak tata letak PIN saat membuka perangkat</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Usap untuk tangkapan layar</string>
+    <string name="three_finger_gesture_summary">Usap tiga jari ke bawah untuk menangkap layar</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Buka kunci cepat</string>
+    <string name="unlock_quick_unlock_control_summary">Membuka secara otomatis ketika PIN/kata sandi yang dimasukkan benar</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Setel ulang statistik</string>
+    <string name="battery_stats_message">Statistik penggunaan baterai akan disetel ulang</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Layar menyala saat pengisian daya</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Aktifkan layar ketika menghubungkan atau melepaskan pengisi daya</string>
+    <!-- Home button wake -->
+    <string name="home_wake_button_title">Tombol beranda untuk membangunkan layar</string>
+    <string name="home_wake_button_summary">Aktifkan tombol beranda untuk membangunkan layar</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">Warna lampu</string>
+    <string name="custom_light_on_time_title">Durasi lampu aktif selama led berkedip (milidetik)</string>
+    <string name="custom_light_off_time_title">Durasi lampu mati selama led berkedip (milidetik)\"</string>
+    <string name="value_equals_default">bawaan</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">Pilih ukuran pola</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Tampilkan kesalahan pola</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Tampilkan titik-titik pola</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Selalu menyala saat mengisi daya</string>
+    <string name="doze_on_charge_summary">Tampilkan layar ambien sepanjang waktu saat mengisi daya</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Kurang dari 1 Menit</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s hari ini</string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Optimalkan layar Anda berdasarkan waktu dan kondisi sekitar untuk meningkatkan keterbacaan dan mengurangi kelelahan mata</string>
+    <string name="live_display_mode">Mode tampilan</string>
+    <string name="live_display_color_temperature_title">Temperatur warna</string>
+    <string name="live_display_color_temperature_summary">Siang: <xliff:g id="day_temperature">%1$d</xliff:g>K;
+Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="derajat">%1$d</xliff:g>K</string>
+    <string name="live_display_day">Siang</string>
+    <string name="live_display_night">Malam</string>
+    <string name="live_display_outdoor_mode_title">Mode luar ruangan otomatis</string>
+    <string name="live_display_outdoor_mode_summary">Meningkatkan kecerahan dan saturasi secara otomatis saat di bawah sinar matahari</string>
+    <string name="live_display_anti_flicker_title">Anti kerlip</string>
+    <string name="live_display_anti_flicker_summary">Cegah kerlipan yang luas dan kurangi ketegangan mata dalam kondisi cahaya redup. Ini dapat menurunkan akurasi warna dan memengaruhi cara beberapa item ditampilkan.</string>
+    <string name="live_display_low_power_title">Kurangi konsumsi daya</string>
+    <string name="live_display_low_power_summary">Sesuaikan tampilan untuk konsumsi daya terendah tanpa degradasi</string>
+    <string name="live_display_enhance_color_title">Tingkatkan warna</string>
+    <string name="live_display_enhance_color_summary">Tingkatkan vibran warna dari corak terang, pemandangan dan gambar lain</string>
+    <string name="live_display_color_profile_title">Profil warna</string>
+    <string name="live_display_color_profile_standard_title">Standar</string>
+    <string name="live_display_color_profile_standard_summary">Warna yang akurat dan putih terang</string>
+    <string name="live_display_color_profile_natural_title">Alami</string>
+    <string name="live_display_color_profile_natural_summary">Warna realistis dan warna kulit</string>
+    <string name="live_display_color_profile_dynamic_title">Dinamis</string>
+    <string name="live_display_color_profile_dynamic_summary">Peningkatan warna dan putih terang</string>
+    <string name="live_display_color_profile_cinema_title">Sinematik</string>
+    <string name="live_display_color_profile_cinema_summary">Reproduksi warna yang sempurna untuk video</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomi</string>
+    <string name="live_display_color_profile_astronomy_summary">Merah gelap untuk mempertahankan penglihatan malam</string>
+    <string name="live_display_color_profile_photography_title">Fotografi</string>
+    <string name="live_display_color_profile_photography_summary">Reproduksi warna yang sempurna untuk foto</string>
+    <string name="live_display_color_profile_basic_title">Dasar</string>
+    <string name="live_display_color_profile_basic_summary">Gunakan tampilan yang belum dikalibrasi</string>
+    <string name="live_display_color_profile_adaptive_title">Adaptif</string>
+    <string name="live_display_color_profile_adaptive_summary">Warna beradaptasi dengan kondisi sekitar</string>
+    <string name="live_display_color_profile_reading_title">Membaca</string>
+    <string name="live_display_color_profile_reading_summary">Warna yang lebih hangat untuk mengurangi kelelahan mata</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Warna akurat dengan ruang warna sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Warna akurat dengan ruang warna DCI-P3</string>
+    <string name="live_display_reading_mode_title">Mode membaca</string>
+    <string name="live_display_reading_mode_summary">Mode warna abu-abu untuk pembacaan jangka panjang</string>
+    <string name="color_calibration_title">Kalibrasi warna</string>
+    <string name="color_calibration_summary">Kalibrasi warna pada layar</string>
+    <string name="color_red_title">Merah</string>
+    <string name="color_green_title">Hijau</string>
+    <string name="color_blue_title">Biru</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Penyesuaian gambar</string>
+    <string name="picture_adjustment_summary">Sesuaikan warna, saturasi, intensitas, dan kontras</string>
+    <string name="adj_hue_title">Warna</string>
+    <string name="adj_saturation_title">Saturasi</string>
+    <string name="adj_intensity_title">Intensitas</string>
+    <string name="adj_contrast_title">Kontras</string>
+    <!-- Legacy WFD settings -->
+    <string name="legacy_wfd_video_mode_title">Mode Video</string>
+    <string name="legacy_wfd_video_mode_720p_30fps">720p 30fps</string>
+    <string name="legacy_wfd_video_mode_720p_60fps">720p 60fps</string>
+    <string name="legacy_wfd_video_mode_1080p_30fps">1080p 30fps</string>
+    <string name="legacy_wfd_video_mode_1080p_60fps">1080p 60fps</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Penuh</string>
+    <string name="back_height_high_label">Bawah</string>
+    <string name="back_options_dialog_title">Pilihan</string>
+    <string name="back_height_message">Jumlah ketinggian layar yang digunakan sebagai daerah yang dapat disentuh untuk gestur kembali.</string>
+    <!-- Fullscreen gestures -->
+    <string name="other_controls_title">Kontrol lainnya</string>
+    <string name="fullscreen_gestures_title">Gestur layar penuh</string>
+    <string name="fullscreen_gestures_summary">Sembunyikan pil bilah navigasi dan ruang keyboard</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Ketuk dua kali</string>
+    <string name="doze_double_tap_title">Ketuk dua kali untuk memeriksa telepon</string>
+    <string name="doze_double_tap_summary">Tampilkan notifikasi dengan ketukan ganda</string>
+    <!-- Volume dialog timeout -->
+    <string name="unit_seconds">Detik(d)</string>
+    <string name="volume_dialog_timeout_title">Waktu habis panel suara</string>
+    <string name="volume_dialog_timeout_summary">Waktu yang dibutuhkan panel volume untuk memudar</string>
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">Panjang pil</string>
+    <string name="short_label">Pendek</string>
+    <string name="long_label">Panjang</string>
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Umpan balik haptik</string>
+    <string name="back_gesture_haptic_summary">Aktifkan efek getaran pada tombol gestur kembali</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Tidak ada tindakan</string>
+    <string name="action_menu">Menu</string>
+    <string name="action_app_switch">Baru-baru ini</string>
+    <string name="action_voice_search">Penelusuran suara</string>
+    <string name="action_launch_camera">Kamera</string>
+    <string name="action_last_app">Aplikasi terakhir</string>
+    <string name="action_splitscreen">Layar terpisah</string>
+    <string name="action_flashlight">Lampu Senter</string>
+    <string name="action_clear_notifications">Bersihkan notifikasi</string>
+    <string name="action_volume_panel">Panel volume</string>
+    <string name="action_screen_off">Layar mati</string>
+    <string name="action_notifications">Notifikasi</string>
+    <string name="action_power_menu">Menu Daya</string>
+    <string name="action_screenshot">Tangkapan layar</string>
+    <string name="action_qs_panel">Panel Setelan Cepat</string>
+    <string name="action_app_action">Aplikasi</string>
+    <string name="action_ringer_modes">Mode dering</string>
+    <string name="kill_app">Matikan aplikasi saat ini</string>
+    <string name="recent_app_toggle">Beralih aplikasi baru-baru ini</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Opsi gestur lanjutan</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Kustomisasi gestur dan atur tindakan khusus</string>
+    <string name="navbar_gesture_tweaks_cat_title">Lanjutan</string>
+    <string name="swipe_app_select_summary">Pilih aplikasi untuk memulai dengan tindakan tekan</string>
+    <string name="long_back_swipe_timeout_title">Batas waktu usap panjang</string>
+    <string name="left_swipe_actions_title">Tindakan usap panjang ke kiri</string>
+    <string name="left_swipe_app_action_title">Pilih aplikasi usap panjang ke kiri</string>
+    <string name="right_swipe_actions_title">Tindakan usap panjang ke kanan</string>
+    <string name="right_swipe_app_action_title">Pilih aplikasi usap panjang ke kanan</string>
+    <string name="left_vertical_swipe_actions_title">Tindakan usap L ke kiri vertikal</string>
+    <string name="left_vertical_swipe_app_action_title">Pilih aplikasi usap ke kiri vertikal</string>
+    <string name="right_vertical_swipe_actions_title">Tindakan usap L ke kanan vertikal</string>
+    <string name="right_vertical_swipe_app_action_title">Pilih aplikasi usap ke kanan vertikal</string>
+    <string name="gesture_nav_tweaks_footer_info">Untuk memilih aktivitas aplikasi tertentu untuk tindakan, tekan lama pada aplikasi apa pun di pemilih aplikasi.\n\nJika peluncur ditampilkan, lakukan gesek di bagian paling bawah layar untuk memicu tindakan.</string>
+    <string name="back_swipe_extended_title">Tindakan mengusap yang diperpanjang</string>
+    <string name="back_swipe_extended_summary">Memicu tindakan pada mengusap yang lebih lebar (lebih dari setengah ukuran tampilan), atau mengusap L (cukup panjang secara vertikal)</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Meningkatkan volume dering</string>
+    <string name="increasing_ring_min_volume_title">Volume awal</string>
+    <string name="increasing_ring_ramp_up_time_title">Waktu penguatan</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Hubungkan volume dering &amp; notifikasi</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Pemutaran Adaptif</string>
+    <string name="adaptive_playback_enabled">Gunakan Pemutar Adaptif</string>
+    <string name="adaptive_playback_disabled_summary">Nonaktif</string>
+    <string name="adaptive_playback_timeout_title">Gunakan batas waktu</string>
+    <string name="adaptive_playback_timeout_none">Tanpa batas waktu</string>
+    <string name="adaptive_playback_timeout_none_summary">Aktif (tidak ada batas waktu)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 detik</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Aktif (30 detik)</string>
+    <string name="adaptive_playback_timeout_1_min">1 menit</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Aktif (1 menit)</string>
+    <string name="adaptive_playback_timeout_2_min">2 menit</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Aktif (2 menit)</string>
+    <string name="adaptive_playback_timeout_5_min">5 menit</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Aktif (5 menit)</string>
+    <string name="adaptive_playback_timeout_10_min">10 menit</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Aktif (10 menit)</string>
+    <!-- Torch gesture -->
+    <string name="gesture_double_tap_power_summary_disabled">Dinonaktifkan oleh gestur senter</string>
+    <string name="double_tap_power_for_torch_title">Hidup/matikan senter</string>
+    <string name="double_tap_power_for_torch_summary_enabled">Tekan tombol daya dua kali dengan cepat untuk mengaktifkan senter</string>
+    <string name="double_tap_power_for_torch_summary_disabled">Dinonaktifkan oleh gestur buka kamera</string>
+    <string name="power_menu_long_press_for_torch">Tahan untuk mengaktifkan senter</string>
+    <string name="torch_long_press_power_text">Tekan lama untuk senter hanya berfungsi saat layar mati.\nMenekan lama lagi saat senter menyala akan mematikannya, meskipun layar menyala.</string>
+    <string name="power_menu_summary_long_press_for_torch">Hidup/matikan senter</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Kontrol Pemutaran</string>
+    <string name="volume_button_music_control_summary">Saat layar mati, menekan lama tombol volume akan melewati trek musik</string>
+    <!-- Theme -->
+    <string name="pitch_colors">Tema hitam pekat</string>
+    <string name="pitch_colors_summary">Tema hitam pekat untuk Setelan, SistemUI, dll</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Izinkan akses jaringan</string>
+    <string name="data_usage_app_restrict_all_summary">Aktifkan penggunaan jaringan</string>
+    <string name="data_usage_app_restrict_mobile">Data seluler</string>
+    <string name="data_usage_app_restrict_mobile_summary">Aktifkan penggunaan data seluler</string>
+    <string name="data_usage_app_restrict_vpn">Data VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Aktifkan penggunaan data VPN</string>
+    <string name="data_usage_app_restrict_wifi">Data Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Aktifkan penggunaan data Wi\u2011Fi</string>
+    <!-- Hotspot lineage extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Izinkan klien untuk menggunakan VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Izinkan klien hotspot untuk menggunakan koneksi VPN perangkat\u2019 ini untuk konektivitas upstream</string>
+    <!--  screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Matikan Wi-Fi secara otomatis</string>
+    <!--  screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">Wi-Fi akan dimatikan setelah <xliff:g id="timeout_description">%1$s</xliff:g> jika tidak ada jaringan terhubung</string>
+    <string name="wifi_timeout_summary2">Dinonaktifkan</string>
+    <string name="wifi_timeout_summary_never">Jangan pernah</string>
+    <string name="wifi_timeout_summary_15secs">15 detik</string>
+    <string name="wifi_timeout_summary_30secs">30 detik</string>
+    <string name="wifi_timeout_summary_1min">1 menit</string>
+    <string name="wifi_timeout_summary_2mins">2 menit</string>
+    <string name="wifi_timeout_summary_5mins">5 menit</string>
+    <string name="wifi_timeout_summary_10mins">10 menit</string>
+    <string name="wifi_timeout_summary_30mins">30 menit</string>
+    <string name="wifi_timeout_summary_1hour">1 jam</string>
+    <string name="wifi_timeout_summary_2hours">2 jam</string>
+    <string name="wifi_timeout_summary_4hours">4 jam</string>
+    <string name="wifi_timeout_summary_8hours">8 jam</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Batas waktu Bluetooth</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">Bluetooth akan dimatikan setelah <xliff:g id="timeout_description">%1$s</xliff:g> jika tidak ada perangkat terhubung</string>
+    <string name="bluetooth_timeout_summary2">Jangan matikan Bluetooth secara otomatis</string>
+    <string name="bluetooth_timeout_summary_never">Jangan pernah</string>
+    <string name="bluetooth_timeout_summary_15secs">15 detik</string>
+    <string name="bluetooth_timeout_summary_30secs">30 detik</string>
+    <string name="bluetooth_timeout_summary_1min">1 menit</string>
+    <string name="bluetooth_timeout_summary_2mins">2 menit</string>
+    <string name="bluetooth_timeout_summary_5mins">5 menit</string>
+    <string name="bluetooth_timeout_summary_10mins">10 menit</string>
+    <string name="bluetooth_timeout_summary_30mins">30 menit</string>
+    <string name="bluetooth_timeout_summary_1hour">1 jam</string>
+    <string name="bluetooth_timeout_summary_2hours">2 jam</string>
+    <string name="bluetooth_timeout_summary_4hours">4 jam</string>
+    <string name="bluetooth_timeout_summary_8hours">8 jam</string>
+</resources>
