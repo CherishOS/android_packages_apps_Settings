@@ -73,6 +73,14 @@
             android:max="2"
             settings:textStart="@string/low_label"
             settings:textEnd="@string/high_label"/>
+		
+		<com.android.settings.widget.LabeledSeekBarPreference
+        android:key="gesture_navbar_radius_preference"
+        android:title="@string/gesture_navbar_radius_title"
+        android:max="3"
+        android:selectable="true"
+        settings:textStart="@string/thin_label"
+        settings:textEnd="@string/thick_label" />
 
         <com.android.settings.widget.LabeledSeekBarPreference
             android:key="gesture_back_height"
