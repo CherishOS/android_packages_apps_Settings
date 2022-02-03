@@ -26,4 +26,7 @@
     <string name="config_batteryChargeCycles">/sys/class/power_supply/bms/cycle_count</string>
     <bool name="config_supportBatteryHealth">false</bool>
 
+    <!-- Indicates whether device has a front facing fingerprint sensor (not udfps). -->
+    <bool name="config_is_front_facing_fps" translatable="false">false</bool>
+
 </resources>
