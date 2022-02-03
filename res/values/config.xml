@@ -636,4 +636,7 @@
 
     <!-- Whether to enable the app battery usage list page feature. -->
     <bool name="config_app_battery_usage_list_enabled">false</bool>
+
+    <!-- Indicates whether device has a front facing fingerprint sensor (not udfps). -->
+    <bool name="config_is_front_facing_fps" translatable="false">false</bool>
 </resources>
