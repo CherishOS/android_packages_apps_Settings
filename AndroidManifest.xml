@@ -3904,6 +3904,19 @@
                 android:value="com.cherish.settings.CherishSettings" />
         </activity>
 
+        <activity android:name="com.cherish.settings.fragments.DisplayCutoutForceFullscreenActivity"
+                  android:label="@string/display_cutout_force_fullscreen_title"
+                  android:theme="@style/Theme.SubSettingsBase"
+                  android:enabled="true"
+                  android:exported="true"
+                  android:taskAffinity="com.android.settings"
+                  android:parentActivityName="Settings">
+            <intent-filter android:priority="70">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
         <receiver android:name="com.google.android.settings.fuelgauge.BatteryBroadcastReceiver" android:exported="true">
             <intent-filter>
