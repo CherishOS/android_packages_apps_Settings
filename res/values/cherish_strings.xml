@@ -257,5 +257,11 @@
     <string name="aosp_security_settings_title">Stock lock options</string>
     <!-- Screen setting option summary text for the item tot ake you to the stock security and location screen -->
     <string name="aosp_security_settings_summary">Set App lock, SIM card lock, credential storage lock</string>
+	
+	<!-- Battery stats view -->
+    <string name="powerusage_provider_google">Use Pixel battery stats provider</string>
+    <string name="power_usage_provider_summary">Use battery stats graph and power scheme from Pixel</string>
+    <string name="powerusage_provider_google_dialog_title">Changing provider</string>
+    <string name="powerusage_provider_google_dialog_message">Please close Setttings from recents and reopen to apply this change</string>
 
 </resources>

@@ -58,6 +58,12 @@
         android:title="@string/battery_percentage"
         settings:controller="com.android.settings.display.BatteryPercentagePreferenceController" />
 
+    <SwitchPreference
+        android:key="power_usage_provider_google"
+        android:title="@string/powerusage_provider_google"
+	android:summary="@string/power_usage_provider_summary"
+        settings:controller="com.android.settings.fuelgauge.GooglePowerUsageProviderPreferenceController" />
+
     <com.android.settings.fuelgauge.PowerGaugePreference
         android:key="battery_temp"
         android:title="@string/battery_temp"

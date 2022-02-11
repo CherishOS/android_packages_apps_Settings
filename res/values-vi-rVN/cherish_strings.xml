@@ -203,4 +203,9 @@
     <string name="volume_panel_on_left_summary">Bảng điều khiển âm lượng hiển thị ở bên trái màn hình</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Sử dụng nút xoay nổi</string>
+	<!-- Battery stats view -->
+    <string name="powerusage_provider_google">Sử dụng nhà cung cấp số liệu thống kê pin Pixel</string>
+    <string name="power_usage_provider_summary">Sử dụng biểu đồ thống kê pin và sơ đồ năng lượng từ Pixel</string>
+    <string name="powerusage_provider_google_dialog_title">Thay đổi nhà cung cấp</string>
+    <string name="powerusage_provider_google_dialog_message">Vui lòng đóng Cài đặt từ gần đây và mở lại để áp dụng thay đổi này</string>
 </resources>
