@@ -90,6 +90,7 @@ android_library {
         "lottie",
         "SettingsGoogle-lib",
         "powerusagefeaturegoogle",
+        "faceunlock_framework",
     ],
     manifest: "AndroidManifest.xml",
     additional_manifests: ["SettingsGoogle-Manifest.xml"],
