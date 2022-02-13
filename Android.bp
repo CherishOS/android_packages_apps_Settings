@@ -54,7 +54,7 @@ android_library {
     aaptflags: ["--extra-packages com.cherish.settings"],
 
     resource_dirs: ["res",
-                    "res-pixel"
+                    "res-pixel",
                     "CherishSettings/res"
     ],
 
