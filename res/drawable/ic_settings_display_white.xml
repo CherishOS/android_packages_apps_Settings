@@ -1,25 +1,9 @@
-<!--
-  Copyright (C) 2018 The Android Open Source Project
-
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
-  -->
-<vector xmlns:android="http://schemas.android.com/apk/res/android"
-        android:width="24dp"
-        android:height="24dp"
-        android:viewportWidth="24.0"
-        android:viewportHeight="24.0">
-    <path
-        android:pathData="M20.31,9V4.31H15.62L12.31,1L9,4.31H4.31V9L1,12.31L4.31,15.62V20.31H9L12.31,23.62L15.62,20.31H20.31V15.62L23.62,12.31L20.31,9ZM18.31,14.79V18.31H14.79L12.31,20.79L9.83,18.31H6.31V14.79L3.83,12.31L6.31,9.83V6.31H9.83L12.31,3.83L14.79,6.31H18.31V9.83L20.79,12.31L18.31,14.79ZM17.31,12.31C17.31,15.07 15.07,17.31 12.31,17.31V7.31C15.07,7.31 17.31,9.55 17.31,12.31Z"
-        android:fillType="evenOdd"
-        android:fillColor="?android:attr/colorPrimary"/>
-</vector>
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center" android:top="1.0dip" android:start="1.0dip">
+        <vector android:tint="?android:colorControlNormal" android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0">
+            <path android:pathData="M9.5 19v1.455c0 .475.335 1.045 1 1.045h3c.57 0 1-.475 1-1.045V19M11.81  2.5c-3.895 0-6.935 3.135-6.935 7.03 0 2.375 1.235 4.465 3.04 5.795v2.185c0  .475.38 1.045 1.045 1.045h6.08c.57 0 1.045-.475 1.045-1.045v-2.28c1.9-1.33 3.04-3.42 3.04-5.795-.285-3.8-3.23-6.935-7.315-6.935z" android:strokeColor="@android:color/holo_blue_dark" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        </vector>
+    </item>
+</layer-list>
