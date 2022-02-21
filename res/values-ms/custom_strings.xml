@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Alih keluar imbasan muka sedia ada dan cipta imbasan baru</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Buat semula imbas wajah</string>
+    <string name="face_redo_confirm_btn">Buat semula</string>
+    <string name="face_redo_warning_msg">Adakah anda ingin mengalih keluar imbasan muka sedia ada dan mencipta imbasan baru?</string>
+    <string name="face_unlock_method_title">izinkan buka kunci wajah di layar kunci</string>
+    <string name="face_unlock_method_default">apabila layar dihidupkan</string>
+    <string name="face_unlock_method_swipe">bila mengusap di layar kunci</string>
+</resources>

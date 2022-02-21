@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Выдаліце ​​існуючы здымак твара і стварыце новы</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Паўтарыць сканіраванне твара</string>
+    <string name="face_redo_confirm_btn">Паўтарыць</string>
+    <string name="face_redo_warning_msg">Вы хочаце выдаліць існуючы здымак твару і стварыць новы?</string>
+    <string name="face_unlock_method_title">Дазволіць разблакіроўку тварам на экране блакіроўкі</string>
+    <string name="face_unlock_method_default">Калі экран уключаны</string>
+    <string name="face_unlock_method_swipe">Пры дакрананні да экрана блакіроўкі</string>
+</resources>

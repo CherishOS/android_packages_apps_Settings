@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="security_settings_face_unlock_redo_face_scan_summary">ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಮುಖದ ಗುರುತನ್ನು ತೆಗೆದು ಹೊಸದನ್ನು ಸೇರಿಸಿ</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">ಮುಖವನ್ನು ಮತ್ತೊಮ್ಮೆ ಗುರುತಿಸಿ</string>
+    <string name="face_redo_confirm_btn">ಮತ್ತೆಮಾಡು</string>
+    <string name="face_redo_warning_msg">ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಮುಖದ ಗುರುತನ್ನು ಅಳಿಸಿ ಹೊಸದೊಂದನ್ನು ಸೇರಿಸಲು ಬಯಸುವಿರ?</string>
+    <string name="face_unlock_method_title">ಲಾಕ್ ಸ್ಕ್ರೀನ್‌ನಲ್ಲಿ ಫೇಸ್ ಅನ್‌ಲಾಕ್ ಅನ್ನು ಅನುಮತಿಸಿ</string>
+    <string name="face_unlock_method_default">ಸ್ಕ್ರೀನ್ ಆನ್ ಮಾಡಿದಾಗ</string>
+    <string name="face_unlock_method_swipe">ಲಾಕ್ ಸ್ಕ್ರೀನ್ ಮೇಲೆ ಸ್ವೈಪ್ ಮಾಡುವಾಗ</string>
+</resources>

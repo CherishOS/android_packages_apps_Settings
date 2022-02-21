@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="security_settings_face_unlock_redo_face_scan_summary">არსებული სახის ანაბეჭდის მოცილება და ახლის შექმნა</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">სახის სკანირების აღდგენა</string>
+    <string name="face_redo_confirm_btn">აღდგენა</string>
+    <string name="face_redo_warning_msg">გსურთ რომ წაიშალოს არსებული სახის ანაბეჭდი და შეიქმნას ახალი?</string>
+    <string name="face_unlock_method_title">დაბლოკვის ეკრანზე სახით განბლოკვის დაშვება</string>
+    <string name="face_unlock_method_default">როდესაც ეკრანი ჩართულია</string>
+    <string name="face_unlock_method_swipe">დაბლოკვის ეკრანზე გადაფურცვლისას</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Уклоните постојеће скенирање лица и направите ново</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Поновите скенирање лица</string>
+    <string name="face_redo_confirm_btn">Понови</string>
+    <string name="face_redo_warning_msg">Желите ли да уклоните постојеће скенирање лица и да направите ново?</string>
+    <string name="face_unlock_method_title">Омогући откључавање лицем у закљученом екрану</string>
+    <string name="face_unlock_method_default">Када је екран укључен</string>
+    <string name="face_unlock_method_swipe">Код превлачења преко закључаног екрана</string>
+</resources>

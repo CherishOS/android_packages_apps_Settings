@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="security_settings_face_unlock_redo_face_scan_summary">ପୂର୍ବରୁ ଥିବା ଚେହେରା ସ୍କେନ୍ କୁ ହଟାଇ ନୂତନ ସ୍କେନ୍ ତିଆରି କରନ୍ତୁ</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">ପୁନର୍ବାର ଚେହେରା ସ୍କେନ୍ କରନ୍ତୁ</string>
+    <string name="face_redo_confirm_btn">ପୁନଃକରଣ</string>
+    <string name="face_redo_warning_msg">ବିଦ୍ୟମାନ ଚେହେରା ସ୍କେନ୍ ଅପସାରଣ କରି ଏକ ନୂତନ ସୃଷ୍ଟି କରିବାକୁ ଚାହୁଁଛନ୍ତି କି?</string>
+    <string name="face_unlock_method_title">ତାଲା ଚିତ୍ରପଟ୍ଟରେ ଚେହେରା ଅନଲକ୍ ଅନୁମତି ଦିଅନ୍ତୁ</string>
+    <string name="face_unlock_method_default">ଚିତ୍ରପଟ୍ଟ ସଚଳ ଥିବା ବେଳେ</string>
+    <string name="face_unlock_method_swipe">ତାଲା ଚିତ୍ରପଟ୍ଟରେ ସ୍ୱାଇପ୍ କରିବା ସମୟରେ</string>
+</resources>

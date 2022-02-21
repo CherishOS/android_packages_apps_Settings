@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="face_unlock_method_title">Leiskite atrakinti veido atpažinimo funkcija užrakinimo ekrane</string>
+    <string name="face_unlock_method_default">Įjungus ekraną </string>
+    <string name="face_unlock_method_swipe">Perbraukus užrakto ekrane</string>
+</resources>

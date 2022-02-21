@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="security_settings_face_unlock_redo_face_scan_summary">移除現有的臉部掃描資料，並建立新的資料</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">重新執行臉部掃描</string>
+    <string name="face_redo_confirm_btn">重做</string>
+    <string name="face_redo_warning_msg">您要移除現有的臉部掃描資料，並建立新的資料嗎?</string>
+    <string name="face_unlock_method_title">允許在鎖定屏幕上進行人臉解鎖</string>
+    <string name="face_unlock_method_default">螢幕開啟時</string>
+    <string name="face_unlock_method_swipe">在鎖定螢幕滑動時</string>
+</resources>

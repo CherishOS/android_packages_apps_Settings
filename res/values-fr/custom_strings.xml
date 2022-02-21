@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Supprimer le visage scanné existant et en créer un nouveau</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Scanner à nouveau le visage</string>
+    <string name="face_redo_confirm_btn">Rétablir</string>
+    <string name="face_redo_warning_msg">Voulez-vous supprimer le visage scanné existant et en créer un nouveau ?</string>
+    <string name="face_unlock_method_title">Autoriser le déverrouillage par reconnaissance faciale lorsque</string>
+    <string name="face_unlock_method_default">Quand l\'écran est allumé</string>
+    <string name="face_unlock_method_swipe">En faisant glisser sur l\'écran de verrouillage</string>
+</resources>

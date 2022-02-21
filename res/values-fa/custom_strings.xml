@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="security_settings_face_unlock_redo_face_scan_summary">اسکن موجود صورت را حذف کرده و یک اسکن جدید ایجاد کنید</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">اسکن مجدد صورت</string>
+    <string name="face_redo_confirm_btn">انجام مجدد</string>
+    <string name="face_redo_warning_msg">مایلید اسکن موجود صورت را حذف کرده و یک اسکن جدید ایجاد کنید؟</string>
+    <string name="face_unlock_method_title">اجازه باز کردن قفل با چهره روی صفحه قفل</string>
+    <string name="face_unlock_method_default">وقتی صفحه نمایش روشن است</string>
+    <string name="face_unlock_method_swipe">هنگام کشیدن روی قفل صفحه</string>
+</resources>

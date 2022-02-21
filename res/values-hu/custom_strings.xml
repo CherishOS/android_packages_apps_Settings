@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="security_settings_face_unlock_redo_face_scan_summary">A korábban beolvasott arc eltávolítása és új arc beolvasása</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Új arcbeolvasás</string>
+    <string name="face_redo_confirm_btn">Újra</string>
+    <string name="face_redo_warning_msg">Szeretné eltávolítani a korábban beolvasott arcot és új arcot beolvasni?</string>
+    <string name="face_unlock_method_title">Arcalapú feloldás engedélyezése a záróképernyőn</string>
+    <string name="face_unlock_method_default">Ha a képernyő be van kapcsolva</string>
+    <string name="face_unlock_method_swipe">Ha csúsztatja a záróképernyőt</string>
+</resources>

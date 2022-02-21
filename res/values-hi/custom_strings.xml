@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="security_settings_face_unlock_redo_face_scan_summary">मौजूदा फेस स्कैन हटा दें और एक नया स्कैन बनाएं</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">फेस स्कैन फिर से करें</string>
+    <string name="face_redo_confirm_btn">फिर से करें</string>
+    <string name="face_redo_warning_msg">क्या आप मौजूदा फ़ेस स्कैन को हटाना चाहते हैं और एक नया फ़ेस स्कैन बनाना चाहते हैं?</string>
+    <string name="face_unlock_method_title">लॉक स्क्रीन पे चेहरे की पहचान लागू करें </string>
+    <string name="face_unlock_method_default">जब स्क्रीन चालू हो </string>
+    <string name="face_unlock_method_swipe">जब लॉक स्क्रीन पे स्वाइप कर रहे हों </string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="security_settings_face_unlock_redo_face_scan_summary">ஏற்கனவே உள்ள முக ஸ்கேனை அகற்றி, புதிய ஸ்கேனை உருவாக்கவும்</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">முக ஸ்கேனை மீண்டும் செய்</string>
+    <string name="face_redo_confirm_btn">மீண்டும்செய்</string>
+    <string name="face_redo_warning_msg">ஏற்கனவே உள்ள முக ஸ்கேனை அகற்றி, புதிய ஒன்றை உருவாக்க விரும்புகிறீர்களா?</string>
+</resources>
