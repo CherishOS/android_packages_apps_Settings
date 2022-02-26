@@ -107,12 +107,6 @@
     <dimen name="actionbar_contentInsetStart">16dp</dimen>
     <dimen name="actionbar_subsettings_contentInsetStart">72dp</dimen>
 
-    <!-- Dashboard image tile size -->
-    <dimen name="dashboard_tile_image_size">36dp</dimen>
-
-    <!-- Dashboard foreground image size -->
-    <dimen name="dashboard_tile_foreground_image_size">24dp</dimen>
-
     <!-- Dashboard foreground image inset (from background edge to foreground edge) -->
     <dimen name="dashboard_tile_foreground_image_inset">6dp</dimen>
 
@@ -534,4 +528,18 @@
 
     <!-- Default margin for side fps enroll find sensor lottie -->
     <dimen name="sfps_enroll_find_sensor_lottie_margin">0dp</dimen>
+    
+    <!-- OnePlus -->
+    <dimen name="op_control_margin_list_top2">12dp</dimen>
+    <dimen name="op_control_margin_space1">4dp</dimen>
+    <dimen name="op_control_margin_space7">40.0dip</dimen>
+    <dimen name="op_control_margin_screen_right3">20.0dip</dimen>
+    <dimen name="op_control_margin_screen_left3">20dp</dimen>
+    <dimen name="op_control_margin_space3">16.0dip</dimen>
+    <dimen name="op_control_margin_list_bottom4">21.0dip</dimen>
+    <dimen name="op_control_margin_list_top4">21.0dip</dimen>
+    <dimen name="op_control_avatar_size3">33.0dip</dimen>
+    <dimen name="dashboard_tile_image_size">@dimen/op_control_avatar_size3</dimen>
+    <dimen name="dashboard_tile_foreground_image_size">@dimen/op_control_icon_size_indicator</dimen>
+    <dimen name="op_control_icon_size_indicator">16.0dip</dimen>
 </resources>
