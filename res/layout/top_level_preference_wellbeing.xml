@@ -11,8 +11,17 @@
 
     <ImageView
         android:id="@android:id/icon"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.preference.internal.PreferenceImageView
+        android:id="@+id/wb_pref_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:src="@drawable/op_ic_homepage_wellbeing_settings"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -23,21 +32,31 @@
         android:gravity="center_vertical"
         android:orientation="vertical"
         android:layout_marginStart="50dp"
-        app:layout_constraintStart_toEndOf="@android:id/icon">
+        app:layout_constraintStart_toEndOf="@+id/wb_pref_icon">
 
         <TextView
             android:id="@android:id/title"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:textColor="?android:attr/textColorPrimary"
+            android:singleLine="true"
+            android:textSize="0sp" />
+
+        <TextView
+            android:id="@+id/wb_pref_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="?android:attr/textColorPrimary"
+            android:text="@string/wellbeing_title"
             android:singleLine="true"
-            android:textSize="16sp" />
-
+            android:textSize="18sp" />
+            
         <TextView
             android:id="@android:id/summary"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
+            android:textSize="12sp"
             android:singleLine="true"
             android:textColor="?android:attr/textColorSecondary"/>
     </LinearLayout>

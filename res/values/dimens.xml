@@ -464,4 +464,10 @@
     <dimen name="dashboard_tile_image_size">@dimen/op_control_avatar_size3</dimen>
     <dimen name="dashboard_tile_foreground_image_size">@dimen/op_control_icon_size_indicator</dimen>
     <dimen name="op_control_icon_size_indicator">16.0dip</dimen>
+    
+    <!-- Card Layout -->
+    <dimen name="card_margin_start">16.0dp</dimen>
+    <dimen name="card_margin_end">16.0dp</dimen>
+    <dimen name="card_height">75.0dp</dimen>
+    <dimen name="card_radius">8.0dp</dimen>
 </resources>

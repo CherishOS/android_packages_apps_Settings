@@ -5,25 +5,35 @@
     android:layout_height="@dimen/card_height"
     android:layout_marginStart="@dimen/card_margin_start"
     android:layout_marginEnd="@dimen/card_margin_end"
-    android:background="@drawable/arcana_preference_middle_background"
+    android:layout_marginBottom="20dp"
+    android:background="@drawable/arcana_preference_bottom_background"
     android:paddingEnd="15dp"
     android:paddingStart="25dp">
 
     <ImageView
         android:id="@android:id/icon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <androidx.preference.internal.PreferenceImageView
+        android:id="@+id/google_pref_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/op_ic_homepage_google_settings"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        
     <LinearLayout
 	    android:layout_height="match_parent"
         android:layout_width="match_parent"
         android:gravity="center_vertical"
         android:orientation="vertical"
         android:layout_marginStart="50dp"
-        app:layout_constraintStart_toEndOf="@android:id/icon">
+        app:layout_constraintStart_toEndOf="@+id/google_pref_icon">
 
         <TextView
             android:id="@android:id/title"
@@ -31,13 +41,14 @@
             android:layout_height="wrap_content"
             android:textColor="?android:attr/textColorPrimary"
             android:singleLine="true"
-            android:textSize="16sp" />
+            android:textSize="18sp" />
 
         <TextView
             android:id="@android:id/summary"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
+            android:textSize="12sp"
             android:singleLine="true"
             android:textColor="?android:attr/textColorSecondary"/>
     </LinearLayout>

@@ -16,7 +16,7 @@
         <shape xmlns:android="http://schemas.android.com/apk/res/android">
             <solid android:color="#FFFFFFFF"/>
             <corners android:bottomRightRadius="0dp" android:bottomLeftRadius="0dp" 
-                android:topLeftRadius="22dp" android:topRightRadius="22dp"/> 
+                android:topLeftRadius="@dimen/card_radius" android:topRightRadius="@dimen/card_radius"/> 
         </shape>
     </item>
     <item android:id="@android:id/background">
@@ -25,7 +25,7 @@
 
             <solid android:color="@color/search_bar_background" />
             <corners android:bottomRightRadius="0dp" android:bottomLeftRadius="0dp" 
-                android:topLeftRadius="22dp" android:topRightRadius="22dp"/> 
+                android:topLeftRadius="@dimen/card_radius" android:topRightRadius="@dimen/card_radius"/> 
         </shape>
     </item>
 </ripple>
