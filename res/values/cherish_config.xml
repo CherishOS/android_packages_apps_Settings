@@ -24,4 +24,8 @@
     <!-- Whether to show TouchGestures preference -->
     <bool name="config_supportsTouchGestures">false</bool>
 
+    <!-- xdUI Base Layout -->
+    <color name="homepage_blaze_background">#536dfe</color>
+    <color name="xd_background1">@android:color/system_neutral1_50</color>
+
 </resources>
