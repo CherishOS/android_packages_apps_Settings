@@ -201,7 +201,7 @@ public class TopLevelSettings extends DashboardFragment implements
  	    String key = preference.getKey();
 
 	    if (key.equals("top_level_network")){
-	        preference.setLayoutResource(R.layout.card_view_pref_top);
+	        preference.setLayoutResource(R.layout.top_level_preference_top);
 	    }
             if (key.equals("top_level_connected_devices")){
                 preference.setLayoutResource(R.layout.top_level_preference_bottom);
@@ -216,13 +216,13 @@ public class TopLevelSettings extends DashboardFragment implements
                 preference.setLayoutResource(R.layout.top_level_preference_middle);
             }
             if (key.equals("top_level_battery")){
-                preference.setLayoutResource(R.layout.card_view_pref_top);
+                preference.setLayoutResource(R.layout.top_level_preference_top);
             }
             if (key.equals("top_level_display")){
                 preference.setLayoutResource(R.layout.top_level_preference_top);
             }
             if (key.equals("top_level_sound")){
-                preference.setLayoutResource(R.layout.card_view_pref_middle);
+                preference.setLayoutResource(R.layout.top_level_preference_middle);
             }
             if (key.equals("top_level_apps")){
                 preference.setLayoutResource(R.layout.top_level_preference_middle);
@@ -240,22 +240,19 @@ public class TopLevelSettings extends DashboardFragment implements
                 preference.setLayoutResource(R.layout.top_level_preference_middle);
             }
             if (key.equals("top_level_security")){
-                preference.setLayoutResource(R.layout.card_view_pref_top);
+                preference.setLayoutResource(R.layout.top_level_preference_top);
             }
             if (key.equals("top_level_privacy")){
-                preference.setLayoutResource(R.layout.card_view_pref_middle);
+                preference.setLayoutResource(R.layout.top_level_preference_middle);
             }
             if (key.equals("top_level_emergency")){
-                preference.setLayoutResource(R.layout.card_view_pref_bottom);
+                preference.setLayoutResource(R.layout.top_level_preference_bottom);
             }
             if (key.equals("top_level_system")){
-                preference.setLayoutResource(R.layout.card_view_pref_top);
+                preference.setLayoutResource(R.layout.top_level_preference_top);
             }
             if (key.equals("top_level_about_device")){
-                preference.setLayoutResource(R.layout.card_view_pref_bottom);
-            }
-            if (key.equals("top_level_usercard")){
-                preference.setLayoutResource(R.layout.usercard);
+                preference.setLayoutResource(R.layout.top_level_preference_bottom);
             }
             if (key.equals("dashboard_tile_pref_com.google.android.apps.wellbeing.settings.TopLevelSettingsActivity")){
                 preference.setLayoutResource(R.layout.top_level_preference_wellbeing);
@@ -274,6 +271,7 @@ public class TopLevelSettings extends DashboardFragment implements
             }
 	}
     }
+    
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
