@@ -232,5 +232,7 @@
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 	
 	<string name="wellbeing_title">Google Wellbeing</string>
+	
+	<string name="usercard_summary">Current active user, tap for more information</string>
 
 </resources>
