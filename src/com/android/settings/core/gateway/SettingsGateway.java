@@ -198,6 +198,8 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 import com.cherish.settings.CherishSettings;
 import com.cherish.settings.fragments.SmartPixels;
 
+import ink.kscope.settings.wifi.tether.WifiTetherClientManager;
+
 public class SettingsGateway {
 
     /**
@@ -383,6 +385,7 @@ public class SettingsGateway {
             UserAspectRatioDetails.class.getName(),
             CherishSettings.class.getName(),
             SmartPixels.class.getName(),
+            WifiTetherClientManager.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
