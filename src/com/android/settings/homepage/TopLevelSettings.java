@@ -30,6 +30,7 @@ import android.content.res.Configuration;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.UserManager;
+import android.os.UserHandle;
 import android.provider.Settings;
 import android.view.View;
 import android.widget.TextView;
@@ -65,6 +66,7 @@ public class TopLevelSettings extends DashboardFragment implements
     private static final String SAVED_HIGHLIGHT_MIXIN = "highlight_mixin";
     private static final String PREF_KEY_SUPPORT = "top_level_support";
     private static final String KEY_USER_CARD = "top_level_usercard";
+    private int mGMSenabled;
 
     private boolean mIsEmbeddingActivityEnabled;
     private TopLevelHighlightMixin mHighlightMixin;
@@ -97,6 +99,7 @@ public class TopLevelSettings extends DashboardFragment implements
         super.onAttach(context);
         HighlightableMenu.fromXml(context, getPreferenceScreenResId());
         use(SupportPreferenceController.class).setActivity(getActivity());
+        getGMSstatus(context);
     }
 
     @Override
@@ -272,6 +275,8 @@ public class TopLevelSettings extends DashboardFragment implements
             if (key.equals("top_level_about_device")){
                 preference.setLayoutResource(R.layout.top_level_preference_bottom);
             }
+            
+	    if (mGMSenabled == 0) {
             if (key.equals("dashboard_tile_pref_com.google.android.apps.wellbeing.settings.TopLevelSettingsActivity")){
                 preference.setLayoutResource(R.layout.top_level_preference_wellbeing);
             }
@@ -287,6 +292,14 @@ public class TopLevelSettings extends DashboardFragment implements
 	    if (key.equals("top_level_wellbeing")){
                 preference.setLayoutResource(R.layout.top_level_preference_wellbeing);
             }
+            if (key.equals("top_level_accounts")){
+                preference.setLayoutResource(R.layout.top_level_preference_middle);
+            }
+            } else if (mGMSenabled == 1) {
+            if (key.equals("top_level_accounts")){
+                preference.setLayoutResource(R.layout.top_level_preference_bottom);
+            }
+          }
 	}
     }
     
@@ -400,4 +413,9 @@ public class TopLevelSettings extends DashboardFragment implements
                     return false;
                 }
             };
+            
+    private void getGMSstatus(Context context) {
+        mGMSenabled = Settings.System.getIntForUser(context.getContentResolver(),
+                    Settings.System.SETTINGS_DASHBOARD_GMS, 0, UserHandle.USER_CURRENT);
+    }
 }
