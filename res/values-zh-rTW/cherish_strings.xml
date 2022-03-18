@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">No certificate specified. Your connection will not be private.</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Minimum refresh rate</string>
+    <string name="max_refresh_rate_title">Maximum refresh rate</string>
+    <string name="low_power_refresh_rate_title_custom">Low power refresh rate</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux 狀態</string>
+    <string name="selinux_status_disabled">已停用</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">點擊顯示詳細資料</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">選擇解鎖圖形大小</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">顯示解鎖圖形錯誤</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">顯示解鎖圖形點</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">少於一分鐘</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">今天使用了 %1$s</string>
+    <!-- CherishOS version -->
+    <string name="cherish_version">Cherish 版本</string>
+    <string name="cherish_version_default">不明</string>
+    <!-- CherishOS Build Date -->
+    <string name="build_date">建置日期</string>
+    <!-- Maintainer -->
+    <string name="maintainer">維護人員</string>
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">亂序佈局</string>
+    <string name="unlock_scramble_pin_layout_summary">解鎖裝置時使用亂序 PIN 碼佈局</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">滑動以擷取螢幕畫面</string>
+    <string name="three_finger_gesture_summary">用三根手指向下滑動來擷取螢幕畫面</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">快速解鎖</string>
+    <string name="unlock_quick_unlock_control_summary">當正確輸入PIN碼/密碼時自動解鎖</string>
+    <!-- Wake on plug -->
+    <string name="wake_when_plugged_or_unplugged_title">接上或移除電源時喚醒</string>
+    <string name="wake_when_plugged_or_unplugged_summary">在接上或拔除電源時開啟螢幕</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">指示燈顏色</string>
+    <string name="custom_light_on_time_title">在 LED 閃爍時燈號開啟時間 (毫秒)</string>
+    <string name="custom_light_off_time_title">在 LED 閃爍時燈號的關閉時間 (毫秒)</string>
+    <string name="value_equals_default">預設</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">在充電時開啟 AOD</string>
+    <string name="doze_on_charge_summary">充電時一直處於 Doze 介面</string>
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">全螢幕</string>
+    <string name="back_height_high_label">底部</string>
+    <string name="back_options_dialog_title">選項</string>
+    <string name="back_height_message">可觸發返回手勢的螢幕高度範圍</string>
+    <!-- Fullscreen gestures -->
+    <string name="other_controls_title">其他控制項</string>
+    <string name="fullscreen_gestures_title">全螢幕手勢</string>
+    <string name="fullscreen_gestures_summary">隱藏主畫面按鈕和鍵盤底部區域</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">雙擊</string>
+    <string name="doze_double_tap_title">輕觸兩下來察看手機</string>
+    <string name="doze_double_tap_summary">輕觸兩下查看 AOD 顯示通知</string>
+    <!-- Volume dialog timeout -->
+    <string name="unit_seconds">秒</string>
+    <string name="volume_dialog_timeout_title">音量控制面板自動關閉時間</string>
+    <string name="volume_dialog_timeout_summary">音量面板在沒有操作時自動退出的時間</string>
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">主畫面按鈕長度</string>
+    <string name="short_label">短</string>
+    <string name="long_label">長</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">App volume</string>
+    <string name="app_volume_title">Per-app volume control</string>
+    <string name="app_volume_summary">Allow to set different volume levels for each app</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
+    <string name="face_redo_confirm_btn">Redo</string>
+    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
+    <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
+    <string name="face_unlock_method_default">When the screen is turned on</string>
+    <string name="face_unlock_method_swipe">When swiping on lock screen</string>
+    <!--Cherish Settings-->
+    <string name="cherish_settings_title">Cherish 設定</string>
+    <string name="cherish_settings_summary">快樂來自您自己的行動</string>
+    <!-- App lock -->
+    <string name="app_lock_title">App lock</string>
+    <string name="app_lock_summary_singular">1 application is protected</string>
+    <string name="app_lock_summary_plural"><xliff:g example="2" id="Number of applications">%1$d</xliff:g> applications are protected</string>
+    <string name="app_lock_authentication_dialog_title">Unlock</string>
+    <string name="enable_debugging">Enable debugging</string>
+    <string name="disable_debugging">Disable debugging</string>
+    <string name="app_lock_packages_title">Protected apps</string>
+    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
+    <string name="app_lock_timeout_title">Auto lock timeout</string>
+    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
+    <string name="app_lock_notifications_title">Collapse notifications</string>
+    <string name="app_lock_notifications_summary">          Notification content will be hidden and collapsed for selected apps when they are locked.
+          Heads up notifications will be automatically disabled.
+    </string>
+    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
+    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
+    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
+    <!-- Battery temperature -->
+    <string name="battery_temp">Battery temperature</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Smart Pause</string>
+    <string name="adaptive_playback_enabled">Use smart pause</string>
+    <string name="adaptive_playback_disabled_summary">關閉</string>
+    <string name="adaptive_playback_intro_text">Automatically pauses media when the volume is muted and will resume automatically when volume is restored within the set time.</string>
+    <string name="adaptive_playback_timeout_title">超過時間</string>
+    <string name="adaptive_playback_timeout_none">不限時間</string>
+    <string name="adaptive_playback_timeout_none_summary">開啟 (無超時)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 秒</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">開啟 (30秒)</string>
+    <string name="adaptive_playback_timeout_1_min">1 分鐘</string>
+    <string name="adaptive_playback_timeout_1_min_summary">開啟 (1 分鐘)</string>
+    <string name="adaptive_playback_timeout_2_min">2 分鐘</string>
+    <string name="adaptive_playback_timeout_2_min_summary">開啟 (2分鐘)</string>
+    <string name="adaptive_playback_timeout_5_min">5 分鐘</string>
+    <string name="adaptive_playback_timeout_5_min_summary">開啟 (5分鐘)</string>
+    <string name="adaptive_playback_timeout_10_min">10 分鐘</string>
+    <string name="adaptive_playback_timeout_10_min_summary">開啟 (10分鐘)</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">允許網路存取</string>
+    <string name="data_usage_app_restrict_all_summary">啟用網路用量</string>
+    <string name="data_usage_app_restrict_mobile">行動數據</string>
+    <string name="data_usage_app_restrict_mobile_summary">啟用行動數據流量統計</string>
+    <string name="data_usage_app_restrict_vpn">VPN 數據</string>
+    <string name="data_usage_app_restrict_vpn_summary">啟用 VPN 流量統計</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi 數據</string>
+    <string name="data_usage_app_restrict_wifi_summary">啟用 Wi\u2011Fi 流量統計</string>
+    <!-- Hotspot lineage extras -->
+    <string name="tethering_allow_vpn_upstreams_title">允許客戶端使用 VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">允許熱點客戶端使用此設備\u2019的 VPN 連接到上遊</string>
+    <!--  screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">自動關閉 Wi-Fi</string>
+    <!--  screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">如果沒有連接網路，則在 <xliff:g id="timeout_description">%1$s</xliff:g> 後關閉 Wi-Fi</string>
+    <string name="wifi_timeout_summary2">已停用</string>
+    <string name="wifi_timeout_summary_never">永遠不要</string>
+    <string name="wifi_timeout_summary_15secs">15 秒</string>
+    <string name="wifi_timeout_summary_30secs">30 秒</string>
+    <string name="wifi_timeout_summary_1min">1 分鐘</string>
+    <string name="wifi_timeout_summary_2mins">2 分鐘</string>
+    <string name="wifi_timeout_summary_5mins">5 分鐘</string>
+    <string name="wifi_timeout_summary_10mins">10 分鐘</string>
+    <string name="wifi_timeout_summary_30mins">30 分鐘</string>
+    <string name="wifi_timeout_summary_1hour">1 小時</string>
+    <string name="wifi_timeout_summary_2hours">2 小時</string>
+    <string name="wifi_timeout_summary_4hours">4 小時</string>
+    <string name="wifi_timeout_summary_8hours">8 小時</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">藍牙連接逾時</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">如果沒有連接到任何裝置，藍牙將在<xliff:g id="timeout_description">%1$s</xliff:g>後自動關閉</string>
+    <string name="bluetooth_timeout_summary2">不要自動關閉藍牙</string>
+    <string name="bluetooth_timeout_summary_never">永遠不要</string>
+    <string name="bluetooth_timeout_summary_15secs">15 秒</string>
+    <string name="bluetooth_timeout_summary_30secs">30 秒</string>
+    <string name="bluetooth_timeout_summary_1min">1 分鐘</string>
+    <string name="bluetooth_timeout_summary_2mins">2 分鐘</string>
+    <string name="bluetooth_timeout_summary_5mins">5 分鐘</string>
+    <string name="bluetooth_timeout_summary_10mins">10 分鐘</string>
+    <string name="bluetooth_timeout_summary_30mins">30 分鐘</string>
+    <string name="bluetooth_timeout_summary_1hour">1 小時</string>
+    <string name="bluetooth_timeout_summary_2hours">2 小時</string>
+    <string name="bluetooth_timeout_summary_4hours">4 小時</string>
+    <string name="bluetooth_timeout_summary_8hours">8 小時</string>
+    <!-- Cloudflare DNS Option -->
+    <!-- AdGuard DNS Option -->
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Rotation</string>
+    <string name="display_rotation_summary">Select rotation angles</string>
+    <string name="display_rotation_disabled">Disabled</string>
+    <string name="display_rotation_unit">degrees</string>
+    <string name="display_rotation_category_title">Rotation modes</string>
+    <string name="display_rotation_0_title">0 degrees</string>
+    <string name="display_rotation_90_title">90 degrees</string>
+    <string name="display_rotation_180_title">180 degrees</string>
+    <string name="display_rotation_270_title">270 degrees</string>
+</resources>
