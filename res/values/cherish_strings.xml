@@ -431,4 +431,8 @@
 	<string name="wellbeing_title">Google Wellbeing</string>
     <string name="usercard_summary">Current active user, tap for more information</string>
     <string name="connectivity_category_title">connectivity</string>
+	
+	<!-- Suppress notifications if screen is on -->
+    <string name="notification_sound_vib_screen_on_title">Notification sound if active</string>
+    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
 </resources>
