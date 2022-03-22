@@ -195,7 +195,7 @@
     <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Vị trí cảm biến vân tay ở mặt sau máy tính bảng của bạn.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Vị trí cảm biến vân tay ở mặt sau thiết bị của bạn.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Vị trí cảm biến vân tay ở mặt sau điện thoại của bạn.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Vị trí cảm biến vân tay ở mặt sau máy tính bảng của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Vị trí của cảm biến vân tay ở bên cạnh máy tính bảng của bạn.</string>
     <string name="fingerprint_enroll_find_sensor_message_side" product="device">Vị trí cảm biến vân tay ở bên cạnh thiết bị của bạn.</string>
     <string name="fingerprint_enroll_find_sensor_message_side" product="default">Tìm cảm biến vân tay ở bên cạnh điện thoại của bạn.</string>
     <!-- Volume dialog position -->
