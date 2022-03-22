@@ -183,4 +183,24 @@
     <string name="display_rotation_90_title">90 độ</string>
     <string name="display_rotation_180_title">90 độ</string>
     <string name="display_rotation_270_title">270 độ</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <string name="wellbeing_title">Google Wellbeing</string>
+    <string name="usercard_summary">Current active user, tap for more information</string>
+    <string name="connectivity_category_title">connectivity</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Locate the fingerprint sensor on the back of your tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Locate the fingerprint sensor on the back of your device.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Locate the fingerprint sensor on the back of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Locate the fingerprint sensor on the side of your tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Locate the fingerprint sensor on the side of your device.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Locate the fingerprint sensor on the side of your phone.</string>
+    <!-- Volume dialog position -->
+    <string name="volume_panel_on_left_title">Left volume panel</string>
+    <string name="volume_panel_on_left_summary">Show the volume panel on the left side of the screen</string>
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">Use floating rotate button</string>
 </resources>
