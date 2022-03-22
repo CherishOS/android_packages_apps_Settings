@@ -183,4 +183,24 @@
     <string name="display_rotation_90_title">90 độ</string>
     <string name="display_rotation_180_title">90 độ</string>
     <string name="display_rotation_270_title">270 độ</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Liên kết âm lượng nhạc chuông &amp; thông báo</string>
+    <string name="wellbeing_title">Google Wellbeing</string>
+    <string name="usercard_summary">Người dùng đang hoạt động hiện tại, hãy nhấn để biết thêm thông tin</string>
+    <string name="connectivity_category_title">kết nối</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Vị trí cảm biến vân tay trên mặt trước điện thoại của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Xác định vị trí cảm biến vân tay ở mặt trước điện thoại của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Xác định vị trí cảm biến vân tay ở mặt trước điện thoại của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Vị trí cảm biến vân tay ở mặt sau máy tính bảng của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Vị trí cảm biến vân tay ở mặt sau thiết bị của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Vị trí cảm biến vân tay ở mặt sau điện thoại của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Vị trí cảm biến vân tay ở mặt sau máy tính bảng của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Vị trí cảm biến vân tay ở bên cạnh thiết bị của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Tìm cảm biến vân tay ở bên cạnh điện thoại của bạn.</string>
+    <!-- Volume dialog position -->
+    <string name="volume_panel_on_left_title">Bảng âm lượng bên trái</string>
+    <string name="volume_panel_on_left_summary">Bảng điều khiển âm lượng hiển thị ở bên trái màn hình</string>
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">Sử dụng nút xoay nổi</string>
 </resources>
