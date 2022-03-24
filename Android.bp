@@ -78,6 +78,7 @@ android_library {
         "androidx.fragment_fragment-ktx",
         "androidx.lifecycle_lifecycle-runtime-ktx",
         "androidx.preference_preference",
+        "androidx.preference_preference-ktx",
         "androidx.recyclerview_recyclerview",
         "androidx.window_window",
         "com.google.android.material_material",
@@ -111,6 +112,9 @@ android_library {
         "kotlinx_coroutines",
         "androidx.preference_preference-ktx",
         "faceunlock_framework",
+        "kotlin-stdlib",
+        "kotlinx_coroutines_android",
+        "kotlinx_coroutines",
     ],
 
     libs: [
