@@ -22,7 +22,7 @@
     android:title="Settings">
 
     <com.android.settingslib.widget.LayoutPreference
-        android:layout="@layout/usercard_aosp"
+        android:layout="@layout/usercard_oos11"
         android:fragment="com.android.settings.users.UserSettings"
         android:key="top_level_usercard"
         android:order="-170" />

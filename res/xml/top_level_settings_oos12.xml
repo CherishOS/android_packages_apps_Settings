@@ -22,17 +22,10 @@
     android:title="Settings">
 
     <com.android.settingslib.widget.LayoutPreference
-        android:layout="@layout/usercard_aosp"
+        android:layout="@layout/usercard_oos12"
         android:fragment="com.android.settings.users.UserSettings"
         android:key="top_level_usercard"
         android:order="-170" />
-        
-    <com.android.settings.widget.HomepagePreference
-        android:title="@string/connectivity_category_title"
-        android:icon="@drawable/ic_network"
-        android:key="usercard_space"
-        android:selectable="false"
-        android:order="-165"/>
         
     <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.network.NetworkDashboardFragment"
