@@ -13,8 +13,5 @@
 	
 	<!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
-	
-	<!-- Indicates whether device has a front facing fingerprint sensor (not udfps). -->
-    <bool name="config_is_front_facing_fps" translatable="false">false</bool>
 
 </resources>
