@@ -378,52 +378,52 @@ public class TopLevelSettings extends DashboardFragment implements
 	        preference.setLayoutResource(R.layout.usercard_oos12);
 	    }
 	    if (key.equals("top_level_network")){
-	        preference.setLayoutResource(R.layout.top_level_preference_card_oos12);
+	        preference.setLayoutResource(R.layout.top_level_preference_top_oos12);
 	    }
             if (key.equals("top_level_connected_devices")){
                 preference.setLayoutResource(R.layout.top_level_preference_bottom_oos12);
             }
             if (key.equals("top_level_cherish")){
-                preference.setLayoutResource(R.layout.top_level_preference_card_oos12);
+                preference.setLayoutResource(R.layout.top_level_preference_top_oos12);
             }
             if (key.equals("top_level_wallpaper")){
                 preference.setLayoutResource(R.layout.top_level_preference_bottom_oos12);
             }
             if (key.equals("top_level_battery")){
-                preference.setLayoutResource(R.layout.top_level_preference_card_oos12);
+                preference.setLayoutResource(R.layout.top_level_preference_middle_oos12);
             }
             if (key.equals("top_level_display")){
-                preference.setLayoutResource(R.layout.top_level_preference_card_oos12);
+                preference.setLayoutResource(R.layout.top_level_preference_middle_oos12);
             }
             if (key.equals("top_level_sound")){
                 preference.setLayoutResource(R.layout.top_level_preference_bottom_oos12);
             }
             if (key.equals("top_level_apps")){
-                preference.setLayoutResource(R.layout.top_level_preference_card_oos12);
+                preference.setLayoutResource(R.layout.top_level_preference_top_oos12);
             }
             if (key.equals("top_level_storage")){
-                preference.setLayoutResource(R.layout.top_level_preference_card_oos12);
+                preference.setLayoutResource(R.layout.top_level_preference_middle_oos12);
             }
             if (key.equals("top_level_notifications")){
-                preference.setLayoutResource(R.layout.top_level_preference_card_oos12);
+                preference.setLayoutResource(R.layout.top_level_preference_middle_oos12);
             }
             if (key.equals("top_level_location")){
                 preference.setLayoutResource(R.layout.top_level_preference_bottom_oos12);
             }
             if (key.equals("top_level_accessibility")){
-                preference.setLayoutResource(R.layout.top_level_preference_card_oos12);
+                preference.setLayoutResource(R.layout.top_level_preference_top_oos12);
             }
             if (key.equals("top_level_security")){
-                preference.setLayoutResource(R.layout.top_level_preference_card_oos12);
+                preference.setLayoutResource(R.layout.top_level_preference_middle_oos12);
             }
             if (key.equals("top_level_privacy")){
-                preference.setLayoutResource(R.layout.top_level_preference_card_oos12);
+                preference.setLayoutResource(R.layout.top_level_preference_middle_oos12);
             }
             if (key.equals("top_level_emergency")){
-                preference.setLayoutResource(R.layout.top_level_preference_card_oos12);
+                preference.setLayoutResource(R.layout.top_level_preference_top_oos12);
             }
             if (key.equals("top_level_system")){
-                preference.setLayoutResource(R.layout.top_level_preference_card_oos12);
+                preference.setLayoutResource(R.layout.top_level_preference_top_oos12);
             }
             if (key.equals("top_level_about_device")){
                 preference.setLayoutResource(R.layout.top_level_preference_bottom_oos12);
@@ -444,7 +444,7 @@ public class TopLevelSettings extends DashboardFragment implements
                 preference.setLayoutResource(R.layout.top_level_preference_wellbeing_oos12);
             }
             if (key.equals("top_level_accounts")){
-                preference.setLayoutResource(R.layout.top_level_preference_card_oos12);
+                preference.setLayoutResource(R.layout.top_level_preference_middle_oos12);
             }
             
             } else if (mDashBoardStyle == 4) {
@@ -452,52 +452,52 @@ public class TopLevelSettings extends DashboardFragment implements
 	        preference.setLayoutResource(R.layout.usercard_oos12);
 	    }
 	    if (key.equals("top_level_network")){
-	        preference.setLayoutResource(R.layout.top_level_preference_card_oos12);
+	        preference.setLayoutResource(R.layout.top_level_preference_middle_oos12);
 	    }
             if (key.equals("top_level_connected_devices")){
                 preference.setLayoutResource(R.layout.top_level_preference_bottom_oos12);
             }
             if (key.equals("top_level_cherish")){
-                preference.setLayoutResource(R.layout.top_level_preference_card_oos12);
+                preference.setLayoutResource(R.layout.top_level_preference_middle_oos12);
             }
             if (key.equals("top_level_wallpaper")){
                 preference.setLayoutResource(R.layout.top_level_preference_bottom_oos12);
             }
             if (key.equals("top_level_battery")){
-                preference.setLayoutResource(R.layout.top_level_preference_card_oos12);
+                preference.setLayoutResource(R.layout.top_level_preference_middle_oos12);
             }
             if (key.equals("top_level_display")){
-                preference.setLayoutResource(R.layout.top_level_preference_card_oos12);
+                preference.setLayoutResource(R.layout.top_level_preference_middle_oos12);
             }
             if (key.equals("top_level_sound")){
                 preference.setLayoutResource(R.layout.top_level_preference_bottom_oos12);
             }
             if (key.equals("top_level_apps")){
-                preference.setLayoutResource(R.layout.top_level_preference_card_oos12);
+                preference.setLayoutResource(R.layout.top_level_preference_middle_oos12);
             }
             if (key.equals("top_level_storage")){
-                preference.setLayoutResource(R.layout.top_level_preference_card_oos12);
+                preference.setLayoutResource(R.layout.top_level_preference_middle_oos12);
             }
             if (key.equals("top_level_notifications")){
-                preference.setLayoutResource(R.layout.top_level_preference_card_oos12);
+                preference.setLayoutResource(R.layout.top_level_preference_middle_oos12);
             }
             if (key.equals("top_level_location")){
                 preference.setLayoutResource(R.layout.top_level_preference_bottom_oos12);
             }
             if (key.equals("top_level_accessibility")){
-                preference.setLayoutResource(R.layout.top_level_preference_card_oos12);
+                preference.setLayoutResource(R.layout.top_level_preference_middle_oos12);
             }
             if (key.equals("top_level_security")){
-                preference.setLayoutResource(R.layout.top_level_preference_card_oos12);
+                preference.setLayoutResource(R.layout.top_level_preference_middle_oos12);
             }
             if (key.equals("top_level_privacy")){
-                preference.setLayoutResource(R.layout.top_level_preference_card_oos12);
+                preference.setLayoutResource(R.layout.top_level_preference_middle_oos12);
             }
             if (key.equals("top_level_emergency")){
-                preference.setLayoutResource(R.layout.top_level_preference_card_oos12);
+                preference.setLayoutResource(R.layout.top_level_preference_middle_oos12);
             }
             if (key.equals("top_level_system")){
-                preference.setLayoutResource(R.layout.top_level_preference_card_oos12);
+                preference.setLayoutResource(R.layout.top_level_preference_middle_oos12);
             }
             if (key.equals("top_level_about_device")){
                 preference.setLayoutResource(R.layout.top_level_preference_bottom_oos12);

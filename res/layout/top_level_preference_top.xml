@@ -6,7 +6,7 @@
     android:layout_marginStart="@dimen/card_margin_start"
     android:layout_marginEnd="@dimen/card_margin_end"
     android:background="@drawable/arcana_preference_top_background"
-    android:paddingEnd="18dp"
+    android:paddingEnd="25dp"
     android:paddingStart="18dp">
 
     <ImageView
