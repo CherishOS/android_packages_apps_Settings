@@ -200,7 +200,7 @@
         settings:controller="com.android.settings.deviceinfo.aboutphone.TopLevelAboutDevicePreferenceController"/>
 
     <com.android.settings.widget.HomepagePreference
-        android:icon="@drawable/op_ic_homepage_support_settings"
+        android:icon="@drawable/ic_help"
         android:key="top_level_support"
         android:order="100"
         android:title="@string/page_tab_title_support"
