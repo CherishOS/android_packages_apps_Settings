@@ -307,4 +307,8 @@
     <string name="optimized_charge_title">Optimized charging</string>
     <string name="optimized_charge_summary">Limit charging to 75%-80% to extend battery life</string>
 
+    <!-- IME button space -->
+    <string name="navbar_category">Navigation bar</string>
+    <string name="navigation_bar_ime_space_title">IME button space</string>
+    <string name="navigation_bar_ime_space_summary">Show IME button space below keyboard</string>
 </resources>
