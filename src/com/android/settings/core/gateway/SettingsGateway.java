@@ -102,6 +102,7 @@ import com.android.settings.fuelgauge.AdvancedPowerUsageDetail;
 import com.android.settings.fuelgauge.batterysaver.BatterySaverScheduleSettings;
 import com.android.settings.fuelgauge.batterysaver.BatterySaverSettings;
 import com.android.settings.fuelgauge.batteryusage.PowerUsageSummary;
+import com.android.settings.fuelgauge.sleepmode.SleepMode;
 import com.android.settings.gestures.AssistGestureSettings;
 import com.android.settings.gestures.ButtonNavigationSettingsFragment;
 import com.android.settings.gestures.DoubleTapPowerSettings;
@@ -352,7 +353,8 @@ public class SettingsGateway {
             TurnScreenOnDetails.class.getName(),
             CherishSettings.class.getName(),
             LiveDisplaySettings.class.getName(),
-            WifiTetherClientManager.class.getName()
+            WifiTetherClientManager.class.getName(),
+            SleepMode.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -396,6 +398,7 @@ public class SettingsGateway {
             Settings.ModuleLicensesActivity.class.getName(),
             UserBackupSettingsActivity.class.getName(),
             Settings.CherishSettingsActivity.class.getName(),
-            Settings.PreviouslyConnectedDeviceDashboardActivity.class.getName()
+            Settings.PreviouslyConnectedDeviceDashboardActivity.class.getName(),
+            Settings.SleepModeActivity.class.getName()
     };
             }
