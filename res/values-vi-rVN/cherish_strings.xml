@@ -188,24 +188,111 @@
     <string name="wellbeing_title">Google Wellbeing</string>
     <string name="usercard_summary">Người dùng đang hoạt động hiện tại, hãy nhấn để biết thêm thông tin</string>
     <string name="connectivity_category_title">kết nối</string>
-    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Vị trí cảm biến vân tay trên mặt trước điện thoại của bạn.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Xác định vị trí cảm biến vân tay ở mặt trước điện thoại của bạn.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Xác định vị trí cảm biến vân tay ở mặt trước điện thoại của bạn.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Vị trí cảm biến vân tay ở mặt sau máy tính bảng của bạn.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Vị trí cảm biến vân tay ở mặt sau thiết bị của bạn.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Vị trí cảm biến vân tay ở mặt sau điện thoại của bạn.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Vị trí của cảm biến vân tay ở bên cạnh máy tính bảng của bạn.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Vị trí cảm biến vân tay ở bên cạnh thiết bị của bạn.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Tìm cảm biến vân tay ở bên cạnh điện thoại của bạn.</string>
     <!-- Volume dialog position -->
     <string name="volume_panel_on_left_title">Bảng âm lượng bên trái</string>
     <string name="volume_panel_on_left_summary">Bảng điều khiển âm lượng hiển thị ở bên trái màn hình</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Sử dụng nút xoay nổi</string>
-	<!-- Battery stats view -->
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front">Xác định vị trí cảm biến vân tay ở mặt trước điện thoại của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">Vị trí cảm biến vân tay ở mặt sau điện thoại của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Tìm cảm biến vân tay ở bên cạnh điện thoại của bạn.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front">Chạm vào cảm biến ở mặt trước điện thoại của bạn.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Chạm vào cảm biến ở mặt sau điện thoại của bạn.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Chạm vào cảm biến ở mặt bên của điện thoại.</string>
+    <!-- Screen setting option title for the item to take you to the stock security screen -->
+    <string name="aosp_security_settings_title">Tùy chọn phương thức khóa hàng</string>
+    <!-- Screen setting option summary text for the item tot ake you to the stock security and location screen -->
+    <string name="aosp_security_settings_summary">Đặt ứng dụng mở khóa màn hình, khóa thẻ SIM, khóa bộ nhớ thông tin xác thực</string>
+    <!-- Battery stats view -->
     <string name="powerusage_provider_google">Sử dụng nhà cung cấp số liệu thống kê pin Pixel</string>
     <string name="power_usage_provider_summary">Sử dụng biểu đồ thống kê pin và sơ đồ năng lượng từ Pixel</string>
     <string name="powerusage_provider_google_dialog_title">Thay đổi nhà cung cấp</string>
     <string name="powerusage_provider_google_dialog_message">Vui lòng đóng Cài đặt từ gần đây và mở lại để áp dụng thay đổi này</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Không có thao tác</string>
+    <string name="action_menu">Menu</string>
+    <string name="action_app_switch">Gần đây</string>
+    <string name="action_voice_search">Tìm kiếm giọng nói</string>
+    <string name="action_launch_camera">Máy ảnh</string>
+    <string name="action_last_app">Ứng dụng cuối</string>
+    <string name="action_splitscreen">Chia đôi màn hình</string>
+    <string name="action_flashlight">Đèn pin</string>
+    <string name="action_clear_notifications">Xóa thông báo</string>
+    <string name="action_volume_panel">Bảng điều chỉnh âm lượng</string>
+    <string name="action_screen_off">Màn hình tắt</string>
+    <string name="action_notifications">Thông báo</string>
+    <string name="action_power_menu">Trình đơn nguồn</string>
+    <string name="action_screenshot">Ảnh chụp màn hình</string>
+    <string name="action_qs_panel">Bảng cài đặt nhanh</string>
+    <string name="action_app_action">Ứng dụng</string>
+    <string name="action_ringer_modes">Chế độ đổ chuông</string>
+    <string name="kill_app">Xoá ứng dụng dưới nền</string>
+    <string name="recent_app_toggle">Chuyển ứng dụng gần đây</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Cài đặt cử chỉ nâng cao</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Tùy chỉnh cử chỉ và thiết lập hành động tùy chỉnh</string>
+    <string name="navbar_gesture_tweaks_cat_title">Nâng cao</string>
+    <string name="swipe_app_select_summary">Chọn một ứng dụng để khởi động với hành động ép</string>
+    <string name="long_back_swipe_timeout_title">Thời gian chờ hành động vuốt dài</string>
+    <string name="left_swipe_actions_title">Thao tác vuốt dài sang trái</string>
+    <string name="left_swipe_app_action_title">Chọn ứng dụng vuốt dài bên trái</string>
+    <string name="right_swipe_actions_title">Hành động vuốt dài sang phải</string>
+    <string name="right_swipe_app_action_title">Chọn ứng dụng vuốt dài bên phải</string>
+    <string name="left_vertical_swipe_actions_title">Vuốt L bên trái</string>
+    <string name="left_vertical_swipe_app_action_title">Chọn ứng dụng vuốt bên trái</string>
+    <string name="right_vertical_swipe_actions_title">Vuốt L bên phải</string>
+    <string name="right_vertical_swipe_app_action_title">Chọn ứng dụng vuốt bên phải</string>
+    <string name="gesture_nav_tweaks_footer_info">Để chọn một hoạt động của ứng dụng cụ thể cho một hành động, nhấn giữ một ứng dụng bất kì trong bộ chọn ứng dụng.\n\nNếu trình khởi chạy đang được hiển thị, hãy vuốt lên từ khu vực phía dưới màn hình để thực hiện hành động.</string>
+    <string name="back_swipe_extended_title">Hành động vuốt mở rộng</string>
+    <string name="back_swipe_extended_summary">Kích hoạt hành động khi vuốt rộng hơn (hơn một nửa kích thước màn hình) hoặc vuốt L (đủ dài theo chiều dọc)</string>
+    <!-- IME button space -->
+    <string name="navbar_category">Thanh điều hướng</string>
+    <string name="navigation_bar_ime_space_title">Khoảng trống dưới bàn phím</string>
+    <string name="navigation_bar_ime_space_summary">Hiển thị một khoảng trống bên dưới bàn phím</string>
+    <!-- Back gesture haptic -->
+    <string name="back_gesture_haptic_title">Rung khi có cử chỉ quay lại</string>
+    <string name="back_gesture_haptic_summary">Rung khi thực hiện động tác quay lại</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Hiển thị một mũi tên chuyển động cho cử chỉ quay lại</string>
+    <string name="back_gesture_arrow_summary">Hiển thị một mũi tên hoạt hình cho cử chỉ trở lại</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Chuông và rung khi vẽ mẫu hình</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Tuỳ chỉnh</string>
+    <string name="custom_vibration_pattern_title">Tuỳ chỉnh mẫu</string>
+    <string name="custom_vibration_pattern_summary">Đặt kiểu rung tùy chỉnh</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Dung lượng pin hiện tại</string>
+    <string name="designed_battery_capacity">Dung lượng pin được thiết kế</string>
+    <string name="battery_charge_cycles">Chu kỳ sạc đầy pin</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Đã ẩn mạng</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Tên điểm phát sóng di động của bạn sẽ không xuất hiện trong danh sách các mạng WLAN khả dụng.</string>
+    <string name="wifi_band_24ghz_and_5ghz">2.4 GHz &amp; 5 GHz</string>
+    <string name="wifi_band_24ghz_and_6ghz">2.4 GHz &amp; 6 GHz</string>
+    <string name="wifi_band_60ghz">60 GHz</string>
+    <plurals name="wifi_hotspot_auto_off_timeout">
+        <item quantity="other">Tắt khi không có thiết bị nào được kết nối cho <xliff:g id="KHOẢNG THỜI GIAN">%1$d</xliff:g> phút</item>
+    </plurals>
+    <string name="wifi_hotspot_auto_off_timeout_never">Không bao giờ tắt điểm phát sóng</string>
+    <string name="wifi_hotspot_client_manager_title">Thiết bị đã kết nối</string>
+    <string name="wifi_hotspot_client_manager_summary">Liệt kê và quản lý các thiết bị được kết nối với điểm phát sóng, đồng thời đặt giới hạn số lượng máy khách</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Liệt kê các thiết bị được kết nối với điểm phát sóng</string>
+    <string name="wifi_hotspot_client_limit_title">Giới hạn thiết bị được kết nối</string>
+    <plurals name="wifi_hotspot_client_limit_summary">
+        <item quantity="other">Lên đến <xliff:g id="device_num">%1$d</xliff:g> thiết bị có thể kết nối với điểm phát sóng này</item>
+    </plurals>
+    <string name="wifi_hotspot_blocked_clients_list_title">Các thiết bị đã chặn</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Các thiết bị được kết nối</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Chặn thiết bị</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Hành động này sẽ ngắt kết nối \"<xliff:g id="device_name">%1$s</xliff:g>\" từ thiết bị này và thêm nó vào danh sách chặn</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Bỏ chặn thiết bị</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Thiết bị này\"<xliff:g id="device_name">%1$s</xliff:g>\" sẽ có thể kết nối với điểm phát sóng này</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Không có khách hàng hiện có sẵn. Các thiết bị đã kết nối và bị chặn sẽ được liệt kê ở đây khi có sẵn.</string>
 </resources>
