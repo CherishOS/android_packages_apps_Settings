@@ -86,7 +86,7 @@
         android:fragment="com.android.settings.applications.AppDashboardFragment"
         android:icon="@drawable/op_ic_homepage_apps_settings"
         android:key="top_level_apps"
-        android:order="-100"
+        android:order="-105"
         android:title="@string/apps_dashboard_title"
         android:summary="@string/app_and_notification_dashboard_summary"
         settings:highlightableMenuKey="@string/menu_key_apps"/>

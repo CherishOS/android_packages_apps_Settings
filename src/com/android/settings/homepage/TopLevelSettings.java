@@ -263,13 +263,13 @@ public class TopLevelSettings extends DashboardFragment implements
                 preference.setLayoutResource(R.layout.top_level_preference_bottom);
             }
             if (key.equals("top_level_apps")){
-                preference.setLayoutResource(R.layout.top_level_preference_bottom);
+                preference.setLayoutResource(R.layout.top_level_preference_top);
             }
             if (key.equals("top_level_storage")){
                 preference.setLayoutResource(R.layout.top_level_preference_middle);
             }
             if (key.equals("top_level_notifications")){
-                preference.setLayoutResource(R.layout.top_level_preference_top);
+                preference.setLayoutResource(R.layout.top_level_preference_middle);
             }
             if (key.equals("top_level_location")){
                 preference.setLayoutResource(R.layout.top_level_preference_bottom);
