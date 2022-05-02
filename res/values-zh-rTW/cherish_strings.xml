@@ -298,4 +298,7 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">解鎖設備</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">此設備“<xliff:g id="device_name">%1$s</xliff:g>”將能夠連接到此無線基地台</string>
     <string name="wifi_hotspot_client_manager_footer_text">當前沒有可用的客戶端。如果可用，將在此處列出已連接和已阻止的設備。</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
 </resources>
