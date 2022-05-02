@@ -296,4 +296,7 @@
     <string name="wifi_hotspot_unblock_client_dialog_title">Buka blokir perangkat</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">Perangkat ini \"<xliff:g id="device_name">%1$s</xliff:g>\" akan dapat terhubung ke hotspot ini</string>
     <string name="wifi_hotspot_client_manager_footer_text">Tidak ada klien yang tersedia saat ini. Perangkat yang terhubung dan diblokir akan dicantumkan di sini jika tersedia.</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
 </resources>
