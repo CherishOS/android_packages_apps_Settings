@@ -414,6 +414,8 @@
     <string name="live_display_color_profile_dci_p3_summary">Colors accurate to the DCI-P3 color space</string>
     <string name="live_display_reading_mode_title">Reading mode</string>
     <string name="live_display_reading_mode_summary">Grayscale mode for long-term reading</string>
+	<string name="live_display_anti_flicker_title">Anti flicker</string>
+    <string name="live_display_anti_flicker_summary">Prevent extensive flickering and reduce eye strain in low light conditions. It might degrade color accuracy and affect the way some items are displayed.</string>
     <string name="color_calibration_title">Color calibration</string>
     <string name="color_calibration_summary">Calibrate on-screen colors</string>
     <string name="color_red_title">Red</string>
