@@ -924,18 +924,4 @@
            parent="@*android:style/TextAppearance.DeviceDefault">
         <item name="android:textColor">?android:attr/textColorSecondary</item>
     </style>
-    
-    <style name="op_control_text_style_base">
-        <item name="android:breakStrategy">simple</item>
-    </style>
-
-    <style name="op_control_text_style_body1" parent="@style/op_control_text_style_base">
-        <item name="android:textSize">13.0sp</item>
-        <item name="android:fontFamily">@*android:string/config_bodyFontFamily</item>
-    </style>
-    
-    <style name="op_control_text_style_h6" parent="@style/op_control_text_style_base">
-        <item name="android:textSize">16.0sp</item>
-        <item name="android:fontFamily">@*android:string/config_headlineFontFamilyMedium</item>
-    </style>
 </resources>
