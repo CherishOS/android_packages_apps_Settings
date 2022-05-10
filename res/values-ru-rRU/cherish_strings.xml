@@ -33,33 +33,33 @@
     <!-- Maintainer -->
     <string name="maintainer">Сопровождающий</string>
     <!-- PIN scramble -->
-    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <string name="unlock_scramble_pin_layout_title">Перемешать расположение</string>
+    <string name="unlock_scramble_pin_layout_summary">Перемешать схему PIN-кода при разблокировке устройства</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Swipe to screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+    <string name="three_finger_gesture">Потяните для скриншота</string>
+    <string name="three_finger_gesture_summary">Проведите тремя пальцами для создания скриншота</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
+    <string name="unlock_quick_unlock_control_summary">Автоматически разблокировать при вводе правильного PIN-кода/пароля</string>
     <!-- Wake on plug -->
-    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
-    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
+    <string name="wake_when_plugged_or_unplugged_title">Пробуждение при подключении</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Включить экран при подключении или отключении источника питания</string>
     <!-- Custom light color -->
-    <string name="custom_light_title">Light color</string>
-    <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
-    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
-    <string name="value_equals_default">def</string>
+    <string name="custom_light_title">Светлый цвет</string>
+    <string name="custom_light_on_time_title">Время включения света во время импульса светодиода (мс)</string>
+    <string name="custom_light_off_time_title">Время выключения света во время импульса светодиода (мс)</string>
+    <string name="value_equals_default">умолч.</string>
     <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Always on when charging</string>
-    <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
+    <string name="doze_on_charge_title">Всегда включен во время зарядки</string>
+    <string name="doze_on_charge_summary">Постоянное отображение экрана ожидания во время зарядки</string>
     <!-- Back gesture height -->
-    <string name="back_height_low_label">Full</string>
-    <string name="back_height_high_label">Bottom</string>
-    <string name="back_options_dialog_title">Options</string>
-    <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
+    <string name="back_height_low_label">Полный</string>
+    <string name="back_height_high_label">Нижний</string>
+    <string name="back_options_dialog_title">Параметры</string>
+    <string name="back_height_message">Высота экрана используемая для жеста назад.</string>
     <!-- Fullscreen gestures -->
-    <string name="other_controls_title">Other controls</string>
-    <string name="fullscreen_gestures_title">Fullscreen gestures</string>
+    <string name="other_controls_title">Другое управление</string>
+    <string name="fullscreen_gestures_title">Полноэкранные жесты</string>
     <string name="fullscreen_gestures_summary">Hide navbar pill and keyboard space</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Double tap</string>
