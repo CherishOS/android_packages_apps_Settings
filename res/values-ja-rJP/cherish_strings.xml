@@ -93,188 +93,188 @@
     <string name="app_lock_summary_singular">1個のアプリが保護されています</string>
     <string name="app_lock_summary_plural"><xliff:g example="2" id="Number of applications">%1$d</xliff:g>個のアプリが保護されています</string>
     <string name="app_lock_authentication_dialog_title">ロック解除</string>
-    <string name="enable_debugging">Enable debugging</string>
-    <string name="disable_debugging">Disable debugging</string>
-    <string name="app_lock_packages_title">Protected apps</string>
-    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
-    <string name="app_lock_timeout_title">Auto lock timeout</string>
-    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
-    <string name="app_lock_notifications_title">Collapse notifications</string>
+    <string name="enable_debugging">デバッグを有効化</string>
+    <string name="disable_debugging">デバッグを無効化</string>
+    <string name="app_lock_packages_title">アプリの保護</string>
+    <string name="app_lock_packages_summary">生体認証や端末認証で保護するアプリを選択する</string>
+    <string name="app_lock_timeout_title">自動ロックの時間</string>
+    <string name="app_lock_timeout_summary">バックグラウンドでロック解除中のアプリをロックするまでの時間です</string>
+    <string name="app_lock_notifications_title">通知を消去</string>
     <string name="app_lock_notifications_summary">          Notification content will be hidden and collapsed for selected apps when they are locked.
           Heads up notifications will be automatically disabled.
     </string>
-    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
-    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
-    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
+    <string name="app_lock_notifications_disabled_summary">アプリを最初に保護する</string>
+    <string name="app_lock_biometrics_allowed_title">生体認証でのロック解除を有効化</string>
+    <string name="app_lock_footer_text">制限時間後にバブルは自動的に解除されます</string>
     <!-- Battery temperature -->
-    <string name="battery_temp">Battery temperature</string>
+    <string name="battery_temp">バッテリー温度</string>
     <!-- Adaptive Playback -->
-    <string name="adaptive_playback_screen_title">Smart Pause</string>
-    <string name="adaptive_playback_enabled">Use smart pause</string>
-    <string name="adaptive_playback_disabled_summary">Off</string>
-    <string name="adaptive_playback_intro_text">Automatically pauses media when the volume is muted and will resume automatically when volume is restored within the set time.</string>
-    <string name="adaptive_playback_timeout_title">Use a timeout of</string>
-    <string name="adaptive_playback_timeout_none">No timeout</string>
-    <string name="adaptive_playback_timeout_none_summary">On (no timeout)</string>
-    <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
-    <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
-    <string name="adaptive_playback_timeout_1_min">1 minute</string>
-    <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
-    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
-    <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
-    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
-    <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
-    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
-    <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
+    <string name="adaptive_playback_screen_title">スマートポーズ</string>
+    <string name="adaptive_playback_enabled">スマートポーズを使用</string>
+    <string name="adaptive_playback_disabled_summary">OFF</string>
+    <string name="adaptive_playback_intro_text">音量をミュートにした時はメディアを自動的に一時停止し、設定時間内に音量が元に戻ったら自動的に再開されます。</string>
+    <string name="adaptive_playback_timeout_title">使用する点灯時間</string>
+    <string name="adaptive_playback_timeout_none">制限なし</string>
+    <string name="adaptive_playback_timeout_none_summary">ON (制限なし)</string>
+    <string name="adaptive_playback_timeout_30_secs">30秒</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">ON (30秒)</string>
+    <string name="adaptive_playback_timeout_1_min">1分</string>
+    <string name="adaptive_playback_timeout_1_min_summary">ON (1分)</string>
+    <string name="adaptive_playback_timeout_2_min">2分</string>
+    <string name="adaptive_playback_timeout_2_min_summary">ON (2分)</string>
+    <string name="adaptive_playback_timeout_5_min">5分</string>
+    <string name="adaptive_playback_timeout_5_min_summary">ON (5分)</string>
+    <string name="adaptive_playback_timeout_10_min">10分</string>
+    <string name="adaptive_playback_timeout_10_min_summary">ON (10分)</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Allow network access</string>
-    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
-    <string name="data_usage_app_restrict_mobile">Mobile data</string>
-    <string name="data_usage_app_restrict_mobile_summary">Enable usage of mobile data</string>
-    <string name="data_usage_app_restrict_vpn">VPN data</string>
-    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_all">ネットワークアクセスを許可</string>
+    <string name="data_usage_app_restrict_all_summary">ネットワークの使用状況を有効化する</string>
+    <string name="data_usage_app_restrict_mobile">モバイルデータ</string>
+    <string name="data_usage_app_restrict_mobile_summary">モバイルデータ使用量を有効化する</string>
+    <string name="data_usage_app_restrict_vpn">VPN データ</string>
+    <string name="data_usage_app_restrict_vpn_summary">VPN データ使用量を有効化する</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi データ</string>
+    <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi データ使用量を有効化する</string>
     <!-- Hotspot lineage extras -->
-    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <string name="tethering_allow_vpn_upstreams_title">クライアントの VPN 使用の許可</string>
+    <string name="tethering_allow_vpn_upstreams_summary">この端末の VPN 接続をホットスポットのクライアントが送信接続に使うことを許可する</string>
     <!--  screen, setting option name to change wifi timeout -->
-    <string name="wifi_timeout">Turn off Wi-Fi automatically</string>
+    <string name="wifi_timeout">Wi-Fi を自動的に切る</string>
     <!--  screen, setting option summary to change wifi timeout -->
-    <string name="wifi_timeout_summary">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
-    <string name="wifi_timeout_summary2">Disabled</string>
-    <string name="wifi_timeout_summary_never">Never</string>
-    <string name="wifi_timeout_summary_15secs">15 seconds</string>
-    <string name="wifi_timeout_summary_30secs">30 seconds</string>
-    <string name="wifi_timeout_summary_1min">1 minute</string>
-    <string name="wifi_timeout_summary_2mins">2 minutes</string>
-    <string name="wifi_timeout_summary_5mins">5 minutes</string>
-    <string name="wifi_timeout_summary_10mins">10 minutes</string>
-    <string name="wifi_timeout_summary_30mins">30 minutes</string>
-    <string name="wifi_timeout_summary_1hour">1 hour</string>
-    <string name="wifi_timeout_summary_2hours">2 hours</string>
-    <string name="wifi_timeout_summary_4hours">4 hours</string>
-    <string name="wifi_timeout_summary_8hours">8 hours</string>
+    <string name="wifi_timeout_summary">ネットワークに接続していない場合は<xliff:g id="timeout_description">%1$s</xliff:g>後に Wi-Fi は無効になります</string>
+    <string name="wifi_timeout_summary2">無効</string>
+    <string name="wifi_timeout_summary_never">なし</string>
+    <string name="wifi_timeout_summary_15secs">15秒</string>
+    <string name="wifi_timeout_summary_30secs">30秒</string>
+    <string name="wifi_timeout_summary_1min">1分</string>
+    <string name="wifi_timeout_summary_2mins">2分</string>
+    <string name="wifi_timeout_summary_5mins">5分</string>
+    <string name="wifi_timeout_summary_10mins">10分</string>
+    <string name="wifi_timeout_summary_30mins">30分</string>
+    <string name="wifi_timeout_summary_1hour">1時間</string>
+    <string name="wifi_timeout_summary_2hours">2時間</string>
+    <string name="wifi_timeout_summary_4hours">4時間</string>
+    <string name="wifi_timeout_summary_8hours">8時間</string>
     <!-- Connected devices screen, setting option name to change bluetooth timeout -->
-    <string name="bluetooth_timeout">Bluetooth timeout</string>
+    <string name="bluetooth_timeout">Bluetooth の制限時間</string>
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
-    <string name="bluetooth_timeout_summary">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
-    <string name="bluetooth_timeout_summary2">Do not automatically turn off Bluetooth</string>
-    <string name="bluetooth_timeout_summary_never">Never</string>
-    <string name="bluetooth_timeout_summary_15secs">15 seconds</string>
-    <string name="bluetooth_timeout_summary_30secs">30 seconds</string>
-    <string name="bluetooth_timeout_summary_1min">1 minute</string>
-    <string name="bluetooth_timeout_summary_2mins">2 minutes</string>
-    <string name="bluetooth_timeout_summary_5mins">5 minutes</string>
-    <string name="bluetooth_timeout_summary_10mins">10 minutes</string>
-    <string name="bluetooth_timeout_summary_30mins">30 minutes</string>
-    <string name="bluetooth_timeout_summary_1hour">1 hour</string>
-    <string name="bluetooth_timeout_summary_2hours">2 hours</string>
-    <string name="bluetooth_timeout_summary_4hours">4 hours</string>
-    <string name="bluetooth_timeout_summary_8hours">8 hours</string>
+    <string name="bluetooth_timeout_summary">端末が接続されていない場合は<xliff:g id="timeout_description">%1$s</xliff:g>後に Bluetooth は無効になります</string>
+    <string name="bluetooth_timeout_summary2">自動的に Bluetooth を無効にしない</string>
+    <string name="bluetooth_timeout_summary_never">なし</string>
+    <string name="bluetooth_timeout_summary_15secs">15秒</string>
+    <string name="bluetooth_timeout_summary_30secs">30秒</string>
+    <string name="bluetooth_timeout_summary_1min">1分</string>
+    <string name="bluetooth_timeout_summary_2mins">2分</string>
+    <string name="bluetooth_timeout_summary_5mins">5分</string>
+    <string name="bluetooth_timeout_summary_10mins">10分</string>
+    <string name="bluetooth_timeout_summary_30mins">30分</string>
+    <string name="bluetooth_timeout_summary_1hour">1時間</string>
+    <string name="bluetooth_timeout_summary_2hours">2時間</string>
+    <string name="bluetooth_timeout_summary_4hours">4時間</string>
+    <string name="bluetooth_timeout_summary_8hours">8時間</string>
     <!-- Cloudflare DNS Option -->
     <!-- AdGuard DNS Option -->
     <!-- Display : Rotation -->
-    <string name="display_rotation_title">Rotation</string>
-    <string name="display_rotation_summary">Select rotation angles</string>
-    <string name="display_rotation_disabled">Disabled</string>
-    <string name="display_rotation_unit">degrees</string>
-    <string name="display_rotation_category_title">Rotation modes</string>
-    <string name="display_rotation_0_title">0 degrees</string>
-    <string name="display_rotation_90_title">90 degrees</string>
-    <string name="display_rotation_180_title">180 degrees</string>
-    <string name="display_rotation_270_title">270 degrees</string>
+    <string name="display_rotation_title">回転</string>
+    <string name="display_rotation_summary">回転角度を選択する</string>
+    <string name="display_rotation_disabled">無効</string>
+    <string name="display_rotation_unit">角度</string>
+    <string name="display_rotation_category_title">回転のモード</string>
+    <string name="display_rotation_0_title">0度</string>
+    <string name="display_rotation_90_title">90度</string>
+    <string name="display_rotation_180_title">180度</string>
+    <string name="display_rotation_270_title">270度</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <string name="volume_link_notification_title">着信と通知の音量をリンク</string>
     <string name="wellbeing_title">Google Wellbeing</string>
-    <string name="usercard_summary">Current active user, tap for more information</string>
-    <string name="connectivity_category_title">connectivity</string>
+    <string name="usercard_summary">現在のアクティブユーザーです。タップして詳細情報を表示します。</string>
+    <string name="connectivity_category_title">接続</string>
     <!-- Volume dialog position -->
-    <string name="volume_panel_on_left_title">Left volume panel</string>
-    <string name="volume_panel_on_left_summary">Show the volume panel on the left side of the screen</string>
+    <string name="volume_panel_on_left_title">左側の音量パネル</string>
+    <string name="volume_panel_on_left_summary">画面の左側に音量パネルを表示する</string>
     <!-- Floating rotation button -->
-    <string name="enable_floating_rotation_button_title">Use floating rotate button</string>
+    <string name="enable_floating_rotation_button_title">フローティング回転ボタンを使用</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the front of your phone.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear">Locate the fingerprint sensor on the back of your phone.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side">Locate the fingerprint sensor on the side of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">スマートフォン前面にある指紋認証センサーを探します</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">スマートフォン背面にある指紋認証センサーを探します</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">スマートフォン左側にある指紋認証センサーを探します</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
-    <string name="fingerprint_enroll_touch_dialog_message_front">Touch the sensor on the front of your phone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear">Touch the sensor on the back of your phone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side">Touch the sensor on the side of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">スマートフォン前面にある指紋認証センサーをタッチします</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">スマートフォン背面にある指紋認証センサーをタッチします</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">スマートフォン側面にある指紋認証センサーをタッチします</string>
     <!-- Screen setting option title for the item to take you to the stock security screen -->
-    <string name="aosp_security_settings_title">Stock lock options</string>
+    <string name="aosp_security_settings_title">既存のロックオプション</string>
     <!-- Screen setting option summary text for the item tot ake you to the stock security and location screen -->
-    <string name="aosp_security_settings_summary">Set App lock, SIM card lock, credential storage lock</string>
+    <string name="aosp_security_settings_summary">アプリロックの設定、SIM カードのロック、認証情報ストレージのロック</string>
     <!-- Battery stats view -->
-    <string name="powerusage_provider_google">Use Pixel battery stats provider</string>
+    <string name="powerusage_provider_google">Pixel バッテリー統計プロバイダを使用</string>
     <string name="power_usage_provider_summary">Use battery stats graph and power scheme from Pixel</string>
     <string name="powerusage_provider_google_dialog_title">Changing provider</string>
     <string name="powerusage_provider_google_dialog_message">Please close Setttings from recents and reopen to apply this change</string>
     <!-- Custom actions -->
-    <string name="action_nothing">No action</string>
-    <string name="action_menu">Menu</string>
-    <string name="action_app_switch">Recents</string>
-    <string name="action_voice_search">Voice search</string>
-    <string name="action_launch_camera">Camera</string>
-    <string name="action_last_app">Last app</string>
-    <string name="action_splitscreen">Split screen</string>
-    <string name="action_flashlight">Flashlight</string>
-    <string name="action_clear_notifications">Clear notifications</string>
-    <string name="action_volume_panel">Volume panel</string>
-    <string name="action_screen_off">Screen off</string>
-    <string name="action_notifications">Notifications</string>
-    <string name="action_power_menu">Power menu</string>
-    <string name="action_screenshot">Screenshot</string>
-    <string name="action_qs_panel">QS panel</string>
-    <string name="action_app_action">Application</string>
-    <string name="action_ringer_modes">Ringer modes</string>
-    <string name="kill_app">Kill foreground app</string>
-    <string name="recent_app_toggle">Switch recent app</string>
+    <string name="action_nothing">なし</string>
+    <string name="action_menu">メニュー</string>
+    <string name="action_app_switch">アプリ履歴</string>
+    <string name="action_voice_search">音声検索</string>
+    <string name="action_launch_camera">カメラ</string>
+    <string name="action_last_app">直前のアプリ</string>
+    <string name="action_splitscreen">画面分割</string>
+    <string name="action_flashlight">フラッシュライト</string>
+    <string name="action_clear_notifications">通知を消去</string>
+    <string name="action_volume_panel">音量パネル</string>
+    <string name="action_screen_off">画面を消灯</string>
+    <string name="action_notifications">通知</string>
+    <string name="action_power_menu">電源メニュー</string>
+    <string name="action_screenshot">スクリーンショット</string>
+    <string name="action_qs_panel">クイック設定パネル</string>
+    <string name="action_app_action">アプリ</string>
+    <string name="action_ringer_modes">着信モード</string>
+    <string name="kill_app">表示中のアプリを終了</string>
+    <string name="recent_app_toggle">直前のアプリの切り替え</string>
     <!-- Long swipe gestures -->
-    <string name="navbar_gesture_tweaks_pref_title">Advanced gestures options</string>
-    <string name="navbar_gesture_tweaks_pref_summary">Customize gestures and set custom actions</string>
-    <string name="navbar_gesture_tweaks_cat_title">Advanced</string>
-    <string name="swipe_app_select_summary">Select an app to launch with the squeeze action</string>
-    <string name="long_back_swipe_timeout_title">Long swipe action timeout</string>
-    <string name="left_swipe_actions_title">Long left swipe action</string>
-    <string name="left_swipe_app_action_title">Select long left swipe app</string>
-    <string name="right_swipe_actions_title">Long right swipe action</string>
-    <string name="right_swipe_app_action_title">Select long right swipe app</string>
-    <string name="left_vertical_swipe_actions_title">Vertical left L-swipe action</string>
-    <string name="left_vertical_swipe_app_action_title">Select vertical left swipe app</string>
-    <string name="right_vertical_swipe_actions_title">Vertical right L-swipe action</string>
-    <string name="right_vertical_swipe_app_action_title">Select vertical right swipe app</string>
-    <string name="gesture_nav_tweaks_footer_info">To choose a specific app activity for the action, long press on any app in the apps picker.\n\nIf launcher is showing, do the swipe at the very bottom area of the screen to trigger the action.</string>
-    <string name="back_swipe_extended_title">Extended swipe action</string>
-    <string name="back_swipe_extended_summary">Trigger action on wider swipe (more than half of display size), or a L swipe (vertically longer enough)</string>
+    <string name="navbar_gesture_tweaks_pref_title">高度なジェスチャーオプション</string>
+    <string name="navbar_gesture_tweaks_pref_summary">ジェスチャーを編集してカスタムアクションを設定する</string>
+    <string name="navbar_gesture_tweaks_cat_title">高度な設定</string>
+    <string name="swipe_app_select_summary">握りアクションで起動するアプリを選択する</string>
+    <string name="long_back_swipe_timeout_title">長いスワイプアクションの制限時間</string>
+    <string name="left_swipe_actions_title">長い左スワイプアクション</string>
+    <string name="left_swipe_app_action_title">長い左スワイプアクションのアプリ選択</string>
+    <string name="right_swipe_actions_title">長い右スワイプアクション</string>
+    <string name="right_swipe_app_action_title">長い右スワイプアクションのアプリ選択</string>
+    <string name="left_vertical_swipe_actions_title">垂直左 L スワイプのアクション</string>
+    <string name="left_vertical_swipe_app_action_title">垂直左スワイプアプリを選択</string>
+    <string name="right_vertical_swipe_actions_title">垂直右 L スワイプのアクション</string>
+    <string name="right_vertical_swipe_app_action_title">垂直右スワイプアプリを選択</string>
+    <string name="gesture_nav_tweaks_footer_info">アクションの特定のアプリアクティビティを選択するには、アプリの選択でアプリを長押しして下さい。\n\nランチャーが表示されている場合は、画面の一番下の領域でスワイプしてアクションを起動します。</string>
+    <string name="back_swipe_extended_title">拡張スワイプアクション</string>
+    <string name="back_swipe_extended_summary">より広いスワイプ (少なくとも画面の半分より広い) か、「L」スワイプ (縦の方が長い) でアクションを起動する。</string>
     <!-- IME button space -->
-    <string name="navbar_category">Navigation bar</string>
-    <string name="navigation_bar_ime_space_title">IME button space</string>
-    <string name="navigation_bar_ime_space_summary">Show IME button space below keyboard</string>
+    <string name="navbar_category">ナビゲーションバー</string>
+    <string name="navigation_bar_ime_space_title">IME ボタンのスペース</string>
+    <string name="navigation_bar_ime_space_summary">キーボードの下に IME ボタンのスペースを表示する</string>
     <!-- Back gesture haptic -->
-    <string name="back_gesture_haptic_title">Back gesture haptic</string>
-    <string name="back_gesture_haptic_summary">Vibrate when performing a back gesture</string>
+    <string name="back_gesture_haptic_title">振動フィードバック</string>
+    <string name="back_gesture_haptic_summary">戻るジェスチャー時に振動を有効化する</string>
     <!-- Back gesture animation -->
-    <string name="back_gesture_arrow_message">Back gesture animation</string>
-    <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture</string>
+    <string name="back_gesture_arrow_message">戻るジェスチャーアニメーション</string>
+    <string name="back_gesture_arrow_summary">戻るジェスチャーの矢印をアニメーションする</string>
     <!-- Vibration patterns -->
-    <string name="vibration_pattern_title">Ringtone vibration pattern</string>
+    <string name="vibration_pattern_title">着信音の振動のパターン</string>
     <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
     <string name="pattern_dzzz_da">dzzz-da</string>
     <string name="pattern_mm_mm_mm">mm-mm-mm</string>
     <string name="pattern_da_da_dzzz">da-da-dzzz</string>
     <string name="pattern_da_dzzz_da">da-dzzz-da</string>
-    <string name="pattern_custom">Custom</string>
-    <string name="custom_vibration_pattern_title">Custom pattern</string>
-    <string name="custom_vibration_pattern_summary">Set a custom vibration pattern</string>
+    <string name="pattern_custom">カスタム</string>
+    <string name="custom_vibration_pattern_title">カスタムパターン</string>
+    <string name="custom_vibration_pattern_summary">カスタムの振動パターンを設定する</string>
     <!-- Battery health -->
-    <string name="current_battery_capacity">Current battery capacity</string>
-    <string name="designed_battery_capacity">Designed battery capacity</string>
-    <string name="battery_charge_cycles">Charge cycles completed</string>
+    <string name="current_battery_capacity">現在バッテリー容量</string>
+    <string name="designed_battery_capacity">設計バッテリー容量</string>
+    <string name="battery_charge_cycles">充電サイクル完了数</string>
     <!-- Hotspot -->
-    <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
-    <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>
+    <string name="wifi_hotspot_hidden_ssid_title">非公開ネットワーク</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">お使いのモバイルホットスポット名は利用可能な WLAN ネットワークのリスト内から消えます</string>
     <string name="wifi_band_24ghz_and_5ghz">2.4 GHz &amp; 5 GHz</string>
     <string name="wifi_band_24ghz_and_6ghz">2.4 GHz &amp; 6 GHz</string>
     <string name="wifi_band_60ghz">60 GHz</string>
