@@ -267,22 +267,22 @@
     <string name="pattern_da_dzzz_da">da-dzzz-da</string>
     <string name="pattern_custom">Personalizado</string>
     <string name="custom_vibration_pattern_title">Padrão personalizado</string>
-    <string name="custom_vibration_pattern_summary">Set a custom vibration pattern</string>
+    <string name="custom_vibration_pattern_summary">Definir um padrão de vibração personalizado</string>
     <!-- Battery health -->
-    <string name="current_battery_capacity">Current battery capacity</string>
-    <string name="designed_battery_capacity">Designed battery capacity</string>
-    <string name="battery_charge_cycles">Charge cycles completed</string>
+    <string name="current_battery_capacity">Capacidade atual da bateria</string>
+    <string name="designed_battery_capacity">Capacidade nominal da bateria</string>
+    <string name="battery_charge_cycles">Ciclos de carga concluídos</string>
     <!-- Hotspot -->
-    <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Rede oculta</string>
     <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>
-    <string name="wifi_band_24ghz_and_5ghz">2.4 GHz &amp; 5 GHz</string>
-    <string name="wifi_band_24ghz_and_6ghz">2.4 GHz &amp; 6 GHz</string>
+    <string name="wifi_band_24ghz_and_5ghz">2,4 GHz e 5 GHz</string>
+    <string name="wifi_band_24ghz_and_6ghz">2,4 GHz e 6 GHz</string>
     <string name="wifi_band_60ghz">60 GHz</string>
     <plurals name="wifi_hotspot_auto_off_timeout">
         <item quantity="other">Turn off when no device connected for <xliff:g id="DURATION">%1$d</xliff:g> minutes</item>
         <item quantity="one">Turn off when no device connected for <xliff:g id="DURATION">%1$d</xliff:g> minute</item>
     </plurals>
-    <string name="wifi_hotspot_auto_off_timeout_never">Never turn off hotsopt</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Nunca desativar hotspot</string>
     <string name="wifi_hotspot_client_manager_title">Connected devices</string>
     <string name="wifi_hotspot_client_manager_summary">List and manage devices connected to the hotspot, and set the limit of the number of clients</string>
     <string name="wifi_hotspot_client_manager_list_only_summary">List devices connected to the hotspot</string>
