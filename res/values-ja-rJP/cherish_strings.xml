@@ -208,9 +208,9 @@
     <string name="aosp_security_settings_summary">アプリロックの設定、SIM カードのロック、認証情報ストレージのロック</string>
     <!-- Battery stats view -->
     <string name="powerusage_provider_google">Pixel バッテリー統計プロバイダを使用</string>
-    <string name="power_usage_provider_summary">Use battery stats graph and power scheme from Pixel</string>
-    <string name="powerusage_provider_google_dialog_title">Changing provider</string>
-    <string name="powerusage_provider_google_dialog_message">Please close Setttings from recents and reopen to apply this change</string>
+    <string name="power_usage_provider_summary">OS のバッテリー統計グラフと電源設定を使用する</string>
+    <string name="powerusage_provider_google_dialog_title">充電プロバイダー</string>
+    <string name="powerusage_provider_google_dialog_message">この変更を適用するにはアプリ履歴から設定を消去して再度開いて下さい</string>
     <!-- Custom actions -->
     <string name="action_nothing">なし</string>
     <string name="action_menu">メニュー</string>
@@ -279,60 +279,60 @@
     <string name="wifi_band_24ghz_and_6ghz">2.4 GHz &amp; 6 GHz</string>
     <string name="wifi_band_60ghz">60 GHz</string>
     <plurals name="wifi_hotspot_auto_off_timeout">
-        <item quantity="other">Turn off when no device connected for <xliff:g id="DURATION">%1$d</xliff:g> minutes</item>
+        <item quantity="other"><xliff:g id="DURATION">%1$d</xliff:g>分間端末の接続がない場合はオフにする</item>
     </plurals>
-    <string name="wifi_hotspot_auto_off_timeout_never">Never turn off hotsopt</string>
-    <string name="wifi_hotspot_client_manager_title">Connected devices</string>
-    <string name="wifi_hotspot_client_manager_summary">List and manage devices connected to the hotspot, and set the limit of the number of clients</string>
-    <string name="wifi_hotspot_client_manager_list_only_summary">List devices connected to the hotspot</string>
-    <string name="wifi_hotspot_client_limit_title">Limit of connected devices</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">ホットスポットを維持</string>
+    <string name="wifi_hotspot_client_manager_title">接続済みの端末</string>
+    <string name="wifi_hotspot_client_manager_summary">ホットスポットへ接続済みの端末のリストと管理、クライアント数の上限を設定します。</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">ホットスポットに接続された端末一覧</string>
+    <string name="wifi_hotspot_client_limit_title">接続する端末の上限数</string>
     <plurals name="wifi_hotspot_client_limit_summary">
-        <item quantity="other">Up to <xliff:g id="device_num">%1$d</xliff:g> devices can connect to this hotspot</item>
+        <item quantity="other">最大<xliff:g id="device_num">%1$d</xliff:g>台の端末がこのホットポットに接続できます</item>
     </plurals>
-    <string name="wifi_hotspot_blocked_clients_list_title">Blocked Devices</string>
-    <string name="wifi_hotspot_connected_clients_list_title">Connected Devices</string>
-    <string name="wifi_hotspot_block_client_dialog_title">Block device</string>
-    <string name="wifi_hotspot_block_client_dialog_text">This action will disconnect \"<xliff:g id="device_name">%1$s</xliff:g>\" from this device and add it to blocklist</string>
-    <string name="wifi_hotspot_unblock_client_dialog_title">Unblock device</string>
-    <string name="wifi_hotspot_unblock_client_dialog_text">This device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
-    <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when avaialable.</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">ブロック済みの端末</string>
+    <string name="wifi_hotspot_connected_clients_list_title">接続された端末</string>
+    <string name="wifi_hotspot_block_client_dialog_title">端末をブロック</string>
+    <string name="wifi_hotspot_block_client_dialog_text">この操作によりこの端末から \"<xliff:g id="device_name">%1$s</xliff:g>\" を切断しブロックリストに追加します</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">端末をブロック解除</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">端末 \"<xliff:g id="device_name">%1$s</xliff:g>\" はこのホットスポットへ接続可能になります</string>
+    <string name="wifi_hotspot_client_manager_footer_text">利用可能なクライアントは現在ありません。利用可能になった時に接続済みまたはブロック済みの端末はこのリストに表示されます。</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="battery_stats_reset">統計のリセット</string>
+    <string name="battery_stats_message">バッテリーの使用統計はリセットされます</string>
     <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
-    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
-    <string name="search">Search</string>
-    <string name="search_apps">Search apps</string>
+    <string name="display_cutout_force_fullscreen_title">全画面表示のアプリ</string>
+    <string name="display_cutout_force_fullscreen_summary">強制的にアプリのノッチ領域を無視する</string>
+    <string name="search">検索</string>
+    <string name="search_apps">アプリを検索</string>
     <!-- Pocket mode -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">誤起動を防止</string>
+    <string name="proximity_wake_summary">スリープ解除する前に接近センサーで確認する</string>
     <!-- LiveDisplay -->
-    <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
-    <string name="live_display_mode">Display mode</string>
-    <string name="live_display_color_temperature_title">Color temperature</string>
-    <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_summary">画面を見やすく目の疲れを軽減するために時間と周囲の環境に合わせて画面を最適化する</string>
+    <string name="live_display_mode">ディスプレイモード</string>
+    <string name="live_display_color_temperature_title">色温度</string>
+    <string name="live_display_color_temperature_summary">昼: <xliff:g id="day_temperature">%1$d</xliff:g>K  夜: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
-    <string name="live_display_day">Day</string>
-    <string name="live_display_night">Night</string>
-    <string name="live_display_outdoor_mode_title">Automatic outdoor mode</string>
-    <string name="live_display_outdoor_mode_summary">Increase brightness and saturation automatically under bright sunlight</string>
-    <string name="live_display_low_power_title">Reduce power consumption</string>
-    <string name="live_display_low_power_summary">Adjust display for lowest power consumption without degradation</string>
-    <string name="live_display_enhance_color_title">Enhance colors</string>
-    <string name="live_display_enhance_color_summary">Improve color vibrance of flesh tones, scenery, and other images</string>
-    <string name="live_display_color_profile_title">Color profile</string>
-    <string name="live_display_color_profile_standard_title">Standard</string>
-    <string name="live_display_color_profile_standard_summary">Accurate colors and bright whites</string>
-    <string name="live_display_color_profile_natural_title">Natural</string>
-    <string name="live_display_color_profile_natural_summary">Realistic colors and flesh tones</string>
-    <string name="live_display_color_profile_dynamic_title">Dynamic</string>
-    <string name="live_display_color_profile_dynamic_summary">Enhanced colors and bright whites</string>
-    <string name="live_display_color_profile_cinema_title">Cinema</string>
-    <string name="live_display_color_profile_cinema_summary">Perfect color reproduction for video</string>
-    <string name="live_display_color_profile_astronomy_title">Astronomy</string>
-    <string name="live_display_color_profile_astronomy_summary">Deep red for preserving night vision</string>
-    <string name="live_display_color_profile_photography_title">Photography</string>
+    <string name="live_display_day">昼</string>
+    <string name="live_display_night">夜</string>
+    <string name="live_display_outdoor_mode_title">自動屋外モード</string>
+    <string name="live_display_outdoor_mode_summary">明るい日差しが照射する環境下で明るさと彩度を自動的に向上させる</string>
+    <string name="live_display_low_power_title">消費電力を削減</string>
+    <string name="live_display_low_power_summary">性能を低下させずに画面を最低の消費電力に調整する</string>
+    <string name="live_display_enhance_color_title">色を拡張</string>
+    <string name="live_display_enhance_color_summary">肌の色・風景・他の画像の色の鮮やかさを補正する</string>
+    <string name="live_display_color_profile_title">色のプロファイル</string>
+    <string name="live_display_color_profile_standard_title">標準</string>
+    <string name="live_display_color_profile_standard_summary">正確な色と明るい白</string>
+    <string name="live_display_color_profile_natural_title">ナチュラル</string>
+    <string name="live_display_color_profile_natural_summary">写実的な色と肌色</string>
+    <string name="live_display_color_profile_dynamic_title">ダイナミック</string>
+    <string name="live_display_color_profile_dynamic_summary">補正された色と明るい白</string>
+    <string name="live_display_color_profile_cinema_title">シネマ</string>
+    <string name="live_display_color_profile_cinema_summary">ビデオの完全な色再現</string>
+    <string name="live_display_color_profile_astronomy_title">夜空</string>
+    <string name="live_display_color_profile_astronomy_summary">夜間利用時に目に優しい深い赤</string>
+    <string name="live_display_color_profile_photography_title">写真</string>
     <string name="live_display_color_profile_photography_summary">写真の完全な色再現</string>
     <string name="live_display_color_profile_basic_title">基本</string>
     <string name="live_display_color_profile_basic_summary">無調整のディスプレイを使用する</string>
