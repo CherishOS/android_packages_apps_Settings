@@ -230,6 +230,11 @@
 	
 	<!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+	
+	<string name="wellbeing_title">Google Wellbeing</string>
+	
+	<string name="usercard_summary">Current active user, tap for more information</string>
+	<string name="connectivity_category_title">connectivity</string>
 
 	<!-- Volume dialog position -->
     <string name="volume_panel_on_left_title">Left volume panel</string>
@@ -427,16 +432,4 @@
 	
 	<!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Screenshot sound</string>
-	
-	<string name="wellbeing_title">Google Wellbeing</string>
-    <string name="usercard_summary">Current active user, tap for more information</string>
-    <string name="connectivity_category_title">connectivity</string>
-	
-	<!-- Suppress notifications if screen is on -->
-    <string name="notification_sound_vib_screen_on_title">Notification sound if active</string>
-    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
-	
-	<!-- Game Space -->
-    <string name="game_space_title">Game Space</string>
-    <string name="game_space_summary">Enhance your gaming experience</string>
 </resources>
