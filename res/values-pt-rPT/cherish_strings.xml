@@ -111,8 +111,8 @@
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Reprodução adaptável</string>
     <string name="adaptive_playback_enabled">Usar reprodução adaptável</string>
-    <string name="adaptive_playback_disabled_summary">Desativado</string>
-    <string name="adaptive_playback_intro_text">Pausa automaticamente a mídia quando o volume é silenciado e retoma automaticamente quando o volume é restaurado dentro do tempo definido.</string>
+    <string name="adaptive_playback_disabled_summary">Desativada</string>
+    <string name="adaptive_playback_intro_text">Pausa automaticamente a música quando o volume é silenciado e retoma automaticamente quando o volume é restaurado dentro do tempo definido.</string>
     <string name="adaptive_playback_timeout_title">Usar um tempo limite de</string>
     <string name="adaptive_playback_timeout_none">Sem tempo limite</string>
     <string name="adaptive_playback_timeout_none_summary">Ativado (sem tempo limite)</string>
