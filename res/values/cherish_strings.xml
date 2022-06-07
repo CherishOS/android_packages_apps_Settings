@@ -330,4 +330,11 @@
     <!-- Game space -->
     <string name="game_space_title">Game space</string>
     <string name="game_space_summary">Enhance your gaming experience</string>
+
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">IME space</string>
+    <string name="navigation_bar_ime_space_summary">Space under keyboard options</string>
+    <string name="ime_narrow">Narrow</string>
+    <string name="ime_default">Default</string>
+    <string name="ime_hidden">Hidden</string>
 </resources>
