@@ -85,6 +85,10 @@
     <string name="show_navbar_gesture_bar_title">Gesture indicator</string>
     <string name="show_navbar_gesture_bar_summary">Show gesture indicator at the bottom of the screen</string>
 	
+	<!-- Narrow gestural navigation bar -->
+    <string name="gestural_navbar_narrow_title">Remove space under keyboard</string>
+    <string name="gestural_navbar_narrow_summary">Make the navigation bar under the keyboard narrow</string>
+	
 	<!-- Doze on double tap -->
     <string name="double_tap_title">Double tap</string>
     <string name="doze_double_tap_title">Double tap to check phone</string>
