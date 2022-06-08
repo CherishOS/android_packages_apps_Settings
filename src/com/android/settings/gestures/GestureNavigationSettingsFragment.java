@@ -215,12 +215,9 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
         });
     }
 
-    private void initGestureNavbarLengthPreference() {
+     private void initGestureNavbarLengthPreference() {
         final ContentResolver resolver = getContext().getContentResolver();
         mGestureNavbarLengthPreference = getPreferenceScreen().findPreference(GESTURE_NAVBAR_LENGTH_KEY);
-        mGestureNavbarLengthPreference.setEnabled(Settings.System.getIntForUser(
-            resolver, Settings.System.FULLSCREEN_GESTURES,
-            0, UserHandle.USER_CURRENT) == 0);
         mGestureNavbarLengthPreference.setContinuousUpdates(true);
         mGestureNavbarLengthPreference.setProgress(Settings.Secure.getIntForUser(
             resolver, Settings.Secure.GESTURE_NAVBAR_LENGTH_MODE,
