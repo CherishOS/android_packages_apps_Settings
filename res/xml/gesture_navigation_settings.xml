@@ -102,11 +102,5 @@
             android:title="@string/back_gesture_arrow_message"
             android:summary="@string/back_gesture_arrow_summary"
             android:defaultValue="true" />
-
-        <com.cherish.settings.preferences.SystemSettingSwitchPreference
-            android:key="fullscreen_gestures"
-            android:title="@string/fullscreen_gestures_title"
-            android:summary="@string/fullscreen_gestures_summary"
-            android:defaultValue="false" />
     </PreferenceCategory>
 </PreferenceScreen>
