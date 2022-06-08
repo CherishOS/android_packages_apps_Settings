@@ -213,7 +213,8 @@
     <string name="app_volume_title">Per-app volume control</string>
     <string name="app_volume_summary">Allow to set different volume levels for each app</string>
 
-    <!-- Narrow gestural navigation bar -->
-    <string name="gestural_navbar_narrow_title">Remove space under keyboard</string>
-    <string name="gestural_navbar_narrow_summary">Make the navigation bar under the keyboard narrow</string>
+    <!-- Navigation bar IME space -->
+    <string name="hidden_string">Hidden</string>
+    <string name="navigation_bar_ime_space_title">Space under the keyboard</string>
+    <string name="navigation_bar_ime_space_value_narrow">Narrow</string>
 </resources>
