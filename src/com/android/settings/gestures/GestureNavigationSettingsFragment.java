@@ -19,11 +19,19 @@ package com.android.settings.gestures;
 import android.app.settings.SettingsEnums;
 import android.content.ContentResolver;
 import android.content.Context;
+import android.content.om.IOverlayManager;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.os.Bundle;
+import android.os.RemoteException;
+import android.os.ServiceManager;
+import android.os.UserHandle;
 import android.provider.Settings;
+import android.util.Log;
 import android.view.WindowManager;
+
+import androidx.preference.ListPreference;
+import androidx.preference.SwitchPreference;
 
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
@@ -58,6 +66,7 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
     private int mCurrentLefttWidth;
 
     private LabeledSeekBarPreference mGestureNavbarLengthPreference;
+    private SwitchPreference mGestureNavbarHint;
 
     public GestureNavigationSettingsFragment() {
         super();
@@ -86,6 +95,20 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
         initSeekBarPreference(KEY_BACK_HEIGHT);
 
         initGestureNavbarLengthPreference();
+
+        mGestureNavbarHint = findPreference("navigation_bar_hint");
+        ListPreference pref = findPreference("navigation_bar_ime_space");
+        pref.setOnPreferenceChangeListener((p, v) -> {
+            int value = Integer.parseInt((String) v);
+            // disable navbar hint toggle if ime space is hidden
+            mGestureNavbarHint.setEnabled(value == 2 ? false : true);
+            return true;
+        });
+
+        // disable navbar hint toggle if ime space is hidden
+        mGestureNavbarHint.setEnabled(
+                Settings.System.getInt(getContext().getContentResolver(),
+                Settings.System.NAVIGATION_BAR_IME_SPACE, 0) == 2 ? false : true);
     }
 
     @Override
