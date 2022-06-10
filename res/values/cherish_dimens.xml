@@ -36,4 +36,9 @@
      <dimen name="xd_toolbar_scrim">89dp</dimen>
      <dimen name="xd_toolbar_expanded_title_margin_start">21dp</dimen>
      <dimen name="xd_toolbar_expanded_title_margin_end">75dp</dimen>
+	 
+	 <!-- Card Layout RUI -->
+    <dimen name="card_margin_rui_start">16.0dp</dimen>
+    <dimen name="card_margin_rui_end">16.0dp</dimen>
+    <dimen name="card_height_rui">75.0dp</dimen>
 </resources>
