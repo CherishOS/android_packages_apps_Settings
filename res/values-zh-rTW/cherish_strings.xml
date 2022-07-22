@@ -106,6 +106,13 @@
     <string name="app_lock_notifications_disabled_summary">首要保護的應用程序</string>
     <string name="app_lock_biometrics_allowed_title">通過生物特徵辨識後才能解鎖</string>
     <string name="app_lock_footer_text">超時後氣泡通知會自動消失</string>
+    <string name="app_lock_5_seconds">5 seconds</string>
+    <string name="app_lock_10_seconds">10 seconds</string>
+    <string name="app_lock_30_seconds">30 seconds</string>
+    <string name="app_lock_1_minute">1 minute</string>
+    <string name="app_lock_5_minutes">5 minutes</string>
+    <string name="app_lock_10_minutes">10 minutes</string>
+    <string name="app_lock_30_minutes">30 minutes</string>
     <!-- Battery temperature -->
     <string name="battery_temp">電池溫度</string>
     <!-- Adaptive Playback -->
@@ -248,10 +255,6 @@
     <string name="gesture_nav_tweaks_footer_info">在應用選擇器中長按應用程式，可以設定手勢動作來指定一個應用活動。 \n\n在啟動器使用期間，在螢幕底部區域滑動以啟用手勢動作。</string>
     <string name="back_swipe_extended_title">額外滑動手勢</string>
     <string name="back_swipe_extended_summary">較長的滑動距離 (超過螢幕的一半) 或做 L 形滑動 (垂直距離需夠長) 可以觸發手勢</string>
-    <!-- IME button space -->
-    <string name="navbar_category">導航列</string>
-    <string name="navigation_bar_ime_space_title">輸入法選項按鈕位置</string>
-    <string name="navigation_bar_ime_space_summary">在鍵盤下方顯示輸入法選項</string>
     <!-- Back gesture haptic -->
     <string name="back_gesture_haptic_title">震動回饋</string>
     <string name="back_gesture_haptic_summary">觸發返回手勢時震動</string>
@@ -364,4 +367,14 @@
     <string name="adj_contrast_title">對比度</string>
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">螢幕截圖音效</string>
+    <!-- Suppress notifications if screen is on -->
+    <string name="notification_sound_vib_screen_on_title">Notification sound if active</string>
+    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
+    <!-- Game Space -->
+    <string name="game_space_title">Game Space</string>
+    <string name="game_space_summary">Enhance your gaming experience</string>
+    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_title">Wallpaper zoom effect</string>
+    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_summary">Zoom the wallpaper in order to show zoom-out depth animation. Wallpapers may suffer quality decrease</string>
 </resources>
