@@ -105,6 +105,13 @@
     <string name="app_lock_notifications_disabled_summary">Bảo vệ một ứng dụng trước tiên</string>
     <string name="app_lock_biometrics_allowed_title">Bật sinh trắc học để mở khóa</string>
     <string name="app_lock_footer_text">Bong bóng sẽ tự động bị loại bỏ sau khi hết thời gian chờ</string>
+    <string name="app_lock_5_seconds">5 seconds</string>
+    <string name="app_lock_10_seconds">10 seconds</string>
+    <string name="app_lock_30_seconds">30 seconds</string>
+    <string name="app_lock_1_minute">1 minute</string>
+    <string name="app_lock_5_minutes">5 minutes</string>
+    <string name="app_lock_10_minutes">10 minutes</string>
+    <string name="app_lock_30_minutes">30 minutes</string>
     <!-- Battery temperature -->
     <string name="battery_temp">Nhiệt độ pin</string>
     <!-- Adaptive Playback -->
@@ -247,10 +254,6 @@
     <string name="gesture_nav_tweaks_footer_info">Để chọn một hoạt động của ứng dụng cụ thể cho một hành động, nhấn giữ một ứng dụng bất kì trong bộ chọn ứng dụng.\n\nNếu trình khởi chạy đang được hiển thị, hãy vuốt lên từ khu vực phía dưới màn hình để thực hiện hành động.</string>
     <string name="back_swipe_extended_title">Hành động vuốt mở rộng</string>
     <string name="back_swipe_extended_summary">Kích hoạt hành động khi vuốt rộng hơn (hơn một nửa kích thước màn hình) hoặc vuốt L (đủ dài theo chiều dọc)</string>
-    <!-- IME button space -->
-    <string name="navbar_category">Thanh điều hướng</string>
-    <string name="navigation_bar_ime_space_title">Khoảng trống dưới bàn phím</string>
-    <string name="navigation_bar_ime_space_summary">Hiển thị một khoảng trống bên dưới bàn phím</string>
     <!-- Back gesture haptic -->
     <string name="back_gesture_haptic_title">Rung khi có cử chỉ quay lại</string>
     <string name="back_gesture_haptic_summary">Rung khi thực hiện động tác quay lại</string>
@@ -361,4 +364,14 @@
     <string name="adj_contrast_title">Độ tương phản</string>
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Âm thanh chụp màn hình</string>
+    <!-- Suppress notifications if screen is on -->
+    <string name="notification_sound_vib_screen_on_title">Notification sound if active</string>
+    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
+    <!-- Game Space -->
+    <string name="game_space_title">Game Space</string>
+    <string name="game_space_summary">Enhance your gaming experience</string>
+    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_title">Wallpaper zoom effect</string>
+    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_summary">Zoom the wallpaper in order to show zoom-out depth animation. Wallpapers may suffer quality decrease</string>
 </resources>
