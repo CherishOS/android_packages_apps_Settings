@@ -106,6 +106,13 @@
     <string name="app_lock_notifications_disabled_summary">Сначала выберите приложение для защиты</string>
     <string name="app_lock_biometrics_allowed_title">Включить биометрию для разблокировки</string>
     <string name="app_lock_footer_text">Всплывающие уведомления будут автоматически удалены со временем</string>
+    <string name="app_lock_5_seconds">5 seconds</string>
+    <string name="app_lock_10_seconds">10 seconds</string>
+    <string name="app_lock_30_seconds">30 seconds</string>
+    <string name="app_lock_1_minute">1 minute</string>
+    <string name="app_lock_5_minutes">5 minutes</string>
+    <string name="app_lock_10_minutes">10 minutes</string>
+    <string name="app_lock_30_minutes">30 minutes</string>
     <!-- Battery temperature -->
     <string name="battery_temp">Температура батареи</string>
     <!-- Adaptive Playback -->
@@ -248,10 +255,6 @@
     <string name="gesture_nav_tweaks_footer_info">Для выбора конкретного действия приложения нажмите и удерживайте палец на любом приложении в меню выбора приложений.\n\nЕсли отображается панель запуска, проведите пальцем по нижней части экрана, чтобы активировать действие.</string>
     <string name="back_swipe_extended_title">Расширенные возможности свайпа</string>
     <string name="back_swipe_extended_summary">Запуск действия на широкий свайп (более чем на половину экрана), или L-свайп (существенно длиннее по вертикали)</string>
-    <!-- IME button space -->
-    <string name="navbar_category">Панель навигации</string>
-    <string name="navigation_bar_ime_space_title">Расстояние между кнопками панели навигации</string>
-    <string name="navigation_bar_ime_space_summary">Показывать отступ кнопок панели навигации под клавиатурой</string>
     <!-- Back gesture haptic -->
     <string name="back_gesture_haptic_title">Тактильный отклик</string>
     <string name="back_gesture_haptic_summary">Вибрировать при выполнении жеста \"Назад\"</string>
@@ -368,4 +371,14 @@
     <string name="adj_contrast_title">Контрастность</string>
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Звук снимка экрана</string>
+    <!-- Suppress notifications if screen is on -->
+    <string name="notification_sound_vib_screen_on_title">Notification sound if active</string>
+    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
+    <!-- Game Space -->
+    <string name="game_space_title">Game Space</string>
+    <string name="game_space_summary">Enhance your gaming experience</string>
+    <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_title">Wallpaper zoom effect</string>
+    <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
+    <string name="wallpaper_zoom_effect_summary">Zoom the wallpaper in order to show zoom-out depth animation. Wallpapers may suffer quality decrease</string>
 </resources>
