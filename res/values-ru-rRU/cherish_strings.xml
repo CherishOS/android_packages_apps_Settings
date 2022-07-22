@@ -106,13 +106,13 @@
     <string name="app_lock_notifications_disabled_summary">Сначала выберите приложение для защиты</string>
     <string name="app_lock_biometrics_allowed_title">Включить биометрию для разблокировки</string>
     <string name="app_lock_footer_text">Всплывающие уведомления будут автоматически удалены со временем</string>
-    <string name="app_lock_5_seconds">5 seconds</string>
-    <string name="app_lock_10_seconds">10 seconds</string>
-    <string name="app_lock_30_seconds">30 seconds</string>
-    <string name="app_lock_1_minute">1 minute</string>
-    <string name="app_lock_5_minutes">5 minutes</string>
-    <string name="app_lock_10_minutes">10 minutes</string>
-    <string name="app_lock_30_minutes">30 minutes</string>
+    <string name="app_lock_5_seconds">5 секунд</string>
+    <string name="app_lock_10_seconds">10 секунд</string>
+    <string name="app_lock_30_seconds">30 секунд</string>
+    <string name="app_lock_1_minute">1 минута</string>
+    <string name="app_lock_5_minutes">5 минут</string>
+    <string name="app_lock_10_minutes">10 минут</string>
+    <string name="app_lock_30_minutes">30 минут</string>
     <!-- Battery temperature -->
     <string name="battery_temp">Температура батареи</string>
     <!-- Adaptive Playback -->
@@ -280,7 +280,7 @@
     <string name="wifi_hotspot_hidden_ssid_summary">Имя точки доступа мобильного телефона не будет отображаться в списке доступных WLAN сетей.</string>
     <string name="wifi_band_24ghz_and_5ghz">2.4 GHz &amp; 5 GHz</string>
     <string name="wifi_band_24ghz_and_6ghz">2.4 GHz &amp; 6 GHz</string>
-    <string name="wifi_band_60ghz">60 GHz</string>
+    <string name="wifi_band_60ghz">60 ГГц</string>
     <plurals name="wifi_hotspot_auto_off_timeout">
         <item quantity="other">Выключить, если устройство не подключилось в течении <xliff:g id="DURATION">%1$d</xliff:g> минут</item>
         <item quantity="one">Выключить, если устройство не подключилось в течение <xliff:g id="DURATION">%1$d</xliff:g> минуты</item>
