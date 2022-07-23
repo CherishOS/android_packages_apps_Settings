@@ -106,13 +106,13 @@
     <string name="app_lock_notifications_disabled_summary">Proteja uma app primeiro</string>
     <string name="app_lock_biometrics_allowed_title">Ativar biometria para desbloquear</string>
     <string name="app_lock_footer_text">Os balões de notificações serão automaticamente dispensados após o tempo limite</string>
-    <string name="app_lock_5_seconds">5 seconds</string>
-    <string name="app_lock_10_seconds">10 seconds</string>
-    <string name="app_lock_30_seconds">30 seconds</string>
-    <string name="app_lock_1_minute">1 minute</string>
-    <string name="app_lock_5_minutes">5 minutes</string>
-    <string name="app_lock_10_minutes">10 minutes</string>
-    <string name="app_lock_30_minutes">30 minutes</string>
+    <string name="app_lock_5_seconds">5 segundos</string>
+    <string name="app_lock_10_seconds">10 segundos</string>
+    <string name="app_lock_30_seconds">30 segundos</string>
+    <string name="app_lock_1_minute">1 minuto</string>
+    <string name="app_lock_5_minutes">5 minutos</string>
+    <string name="app_lock_10_minutes">10 minutos</string>
+    <string name="app_lock_30_minutes">30 minutos</string>
     <!-- Battery temperature -->
     <string name="battery_temp">Temperatura da bateria</string>
     <!-- Adaptive Playback -->
@@ -193,7 +193,7 @@
     <string name="display_rotation_270_title">270 graus</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Associar volumes de toque e notificação</string>
-    <string name="wellbeing_title">Google Wellbeing</string>
+    <string name="wellbeing_title">Bem-estar digital</string>
     <string name="usercard_summary">Utilizador ativo atual, toque para mais informações</string>
     <string name="connectivity_category_title">Conectividade</string>
     <!-- Volume dialog position -->
@@ -368,13 +368,13 @@
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Som de captura de ecrã</string>
     <!-- Suppress notifications if screen is on -->
-    <string name="notification_sound_vib_screen_on_title">Notification sound if active</string>
-    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
+    <string name="notification_sound_vib_screen_on_title">Som de notificação se ativo</string>
+    <string name="notification_sound_vib_screen_on_summary">Reproduzir som e vibrar para notificações quando o ecrã está ligado</string>
     <!-- Game Space -->
-    <string name="game_space_title">Game Space</string>
-    <string name="game_space_summary">Enhance your gaming experience</string>
+    <string name="game_space_title">Espaço de jogo</string>
+    <string name="game_space_summary">Melhore a sua experiência de jogo</string>
     <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
-    <string name="wallpaper_zoom_effect_title">Wallpaper zoom effect</string>
+    <string name="wallpaper_zoom_effect_title">Efeito de zoom do papel de parede</string>
     <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
-    <string name="wallpaper_zoom_effect_summary">Zoom the wallpaper in order to show zoom-out depth animation. Wallpapers may suffer quality decrease</string>
+    <string name="wallpaper_zoom_effect_summary">Amplia o papel de parede para mostrar uma animação de profundidade do zoom. Os papéis de parede podem sofrer uma redução de qualidade</string>
 </resources>
