@@ -106,13 +106,13 @@
     <string name="app_lock_notifications_disabled_summary">アプリを最初に保護する</string>
     <string name="app_lock_biometrics_allowed_title">生体認証でのロック解除を有効化</string>
     <string name="app_lock_footer_text">制限時間後にバブルは自動的に解除されます</string>
-    <string name="app_lock_5_seconds">5 seconds</string>
-    <string name="app_lock_10_seconds">10 seconds</string>
-    <string name="app_lock_30_seconds">30 seconds</string>
-    <string name="app_lock_1_minute">1 minute</string>
-    <string name="app_lock_5_minutes">5 minutes</string>
-    <string name="app_lock_10_minutes">10 minutes</string>
-    <string name="app_lock_30_minutes">30 minutes</string>
+    <string name="app_lock_5_seconds">5秒</string>
+    <string name="app_lock_10_seconds">10秒</string>
+    <string name="app_lock_30_seconds">30秒</string>
+    <string name="app_lock_1_minute">1分</string>
+    <string name="app_lock_5_minutes">5分</string>
+    <string name="app_lock_10_minutes">10分</string>
+    <string name="app_lock_30_minutes">30分</string>
     <!-- Battery temperature -->
     <string name="battery_temp">バッテリー温度</string>
     <!-- Adaptive Playback -->
@@ -366,13 +366,13 @@
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">スクリーンショットの音</string>
     <!-- Suppress notifications if screen is on -->
-    <string name="notification_sound_vib_screen_on_title">Notification sound if active</string>
-    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
+    <string name="notification_sound_vib_screen_on_title">画面点灯中の通知サウンド</string>
+    <string name="notification_sound_vib_screen_on_summary">画面点灯中に通知を受信した時に通知音と振動を鳴らす</string>
     <!-- Game Space -->
-    <string name="game_space_title">Game Space</string>
-    <string name="game_space_summary">Enhance your gaming experience</string>
+    <string name="game_space_title">ゲームスペース</string>
+    <string name="game_space_summary">ゲーム体験を向上させる</string>
     <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
-    <string name="wallpaper_zoom_effect_title">Wallpaper zoom effect</string>
+    <string name="wallpaper_zoom_effect_title">壁紙のズーム効果</string>
     <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
-    <string name="wallpaper_zoom_effect_summary">Zoom the wallpaper in order to show zoom-out depth animation. Wallpapers may suffer quality decrease</string>
+    <string name="wallpaper_zoom_effect_summary">縮小深度アニメーションを表示するために壁紙を拡大します。壁紙の品質が低下する可能性があります。</string>
 </resources>
