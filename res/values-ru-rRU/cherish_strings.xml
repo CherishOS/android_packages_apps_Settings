@@ -372,13 +372,13 @@
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Звук снимка экрана</string>
     <!-- Suppress notifications if screen is on -->
-    <string name="notification_sound_vib_screen_on_title">Notification sound if active</string>
-    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
+    <string name="notification_sound_vib_screen_on_title">Звук уведомления, если активно</string>
+    <string name="notification_sound_vib_screen_on_summary">Воспроизведение звука и вибрации для уведомлений при включенном экране</string>
     <!-- Game Space -->
-    <string name="game_space_title">Game Space</string>
-    <string name="game_space_summary">Enhance your gaming experience</string>
+    <string name="game_space_title">Игровое пространство</string>
+    <string name="game_space_summary">Улучшайте свои впечатления от игр</string>
     <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
-    <string name="wallpaper_zoom_effect_title">Wallpaper zoom effect</string>
+    <string name="wallpaper_zoom_effect_title">Эффект масштаба обоев</string>
     <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
-    <string name="wallpaper_zoom_effect_summary">Zoom the wallpaper in order to show zoom-out depth animation. Wallpapers may suffer quality decrease</string>
+    <string name="wallpaper_zoom_effect_summary">Изменение масштаба обоев для эффекта глубины. Качество обоев может снизиться</string>
 </resources>
