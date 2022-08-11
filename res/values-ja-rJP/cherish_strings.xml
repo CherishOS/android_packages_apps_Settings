@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Warning message displayed if user choses not to validate the EAP server -->
-    <string name="wifi_do_not_validate_eap_server_warning">証明書が指定されていません。この接続ではプライバシーが保護されません。</string>
+    <string name="wifi_do_not_validate_eap_server_warning">証明書が指定されていません。この接続ではプライバシーは保護されません。</string>
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">最小リフレッシュレート</string>
     <string name="max_refresh_rate_title">最大リフレッシュレート</string>
@@ -14,7 +14,7 @@
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">タップして情報を表示</string>
     <!-- Lock screen pattern size -->
-    <string name="lock_settings_picker_pattern_size_message">パターンサイズを選択</string>
+    <string name="lock_settings_picker_pattern_size_message">パターンを選択して下さい</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
     <string name="lockpattern_settings_enable_error_path_title">間違えたパターンを表示</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
@@ -40,7 +40,7 @@
     <string name="three_finger_gesture_summary">3本指で下スワイプしてスクリーンショットを取得する</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">クイックロック解除</string>
-    <string name="unlock_quick_unlock_control_summary">正しいPIN/パスワードが入力されたときはロックを自動的に解除する</string>
+    <string name="unlock_quick_unlock_control_summary">正しい PIN/パスワード が入力された時はロックを自動的に解除する</string>
     <!-- Wake on plug -->
     <string name="wake_when_plugged_or_unplugged_title">電源接続時にスリープ解除</string>
     <string name="wake_when_plugged_or_unplugged_summary">電源を接続または切断した時に画面を点灯させる</string>
@@ -71,308 +71,298 @@
     <string name="volume_dialog_timeout_summary">音量パネルがフェードするまでの時間です</string>
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">ピルの長さ</string>
-    <string name="short_label">短</string>
-    <string name="long_label">長</string>
+    <string name="short_label">短い</string>
+    <string name="long_label">長い</string>
     <!-- Per-app volume control -->
     <string name="app_volume">アプリの音量</string>
-    <string name="app_volume_title">アプリごとの音量調節</string>
-    <string name="app_volume_summary">アプリごとに異なる音量を設定する</string>
+    <string name="app_volume_title">Per-app volume control</string>
+    <string name="app_volume_summary">Allow to set different volume levels for each app</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_unlock_redo_face_scan_summary">既存の顔スキャンを削除して新しいスキャンを作成する</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">顔スキャンを再実行</string>
-    <string name="face_redo_confirm_btn">やり直す</string>
-    <string name="face_redo_warning_msg">既存の顔スキャンを削除して新しいスキャンを作成しますか?</string>
-    <string name="face_unlock_method_title">ロック画面での顔認証ロック解除を許可</string>
-    <string name="face_unlock_method_default">画面が点灯した時</string>
-    <string name="face_unlock_method_swipe">ロック画面をスワイプした時</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
+    <string name="face_redo_confirm_btn">Redo</string>
+    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
+    <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
+    <string name="face_unlock_method_default">When the screen is turned on</string>
+    <string name="face_unlock_method_swipe">When swiping on lock screen</string>
+    <string name="skip_biometric_auth_confirmation_title">Skip manually confirmation</string>
     <!--Cherish Settings-->
-    <string name="cherish_settings_title">Cherish 設定</string>
-    <string name="cherish_settings_summary">幸せは利用不可能であり、あなた自身の行動から訪れます。</string>
+    <string name="cherish_settings_title">Cherish Settings</string>
+    <string name="cherish_settings_summary">Happiness is not available and it comes from your own actions</string>
     <!-- App lock -->
-    <string name="app_lock_title">アプリロック</string>
-    <string name="app_lock_summary_singular">1個のアプリが保護されています</string>
-    <string name="app_lock_summary_plural"><xliff:g example="2" id="Number of applications">%1$d</xliff:g>個のアプリが保護されています</string>
-    <string name="app_lock_authentication_dialog_title">ロック解除</string>
-    <string name="enable_debugging">デバッグを有効化</string>
-    <string name="disable_debugging">デバッグを無効化</string>
-    <string name="app_lock_packages_title">アプリの保護</string>
-    <string name="app_lock_packages_summary">生体認証や端末認証で保護するアプリを選択する</string>
-    <string name="app_lock_timeout_title">自動ロックの時間</string>
-    <string name="app_lock_timeout_summary">バックグラウンドでロック解除中のアプリをロックするまでの時間です</string>
-    <string name="app_lock_notifications_title">通知を消去</string>
+    <string name="app_lock_title">App lock</string>
+    <string name="app_lock_summary_singular">1 application is protected</string>
+    <string name="app_lock_summary_plural"><xliff:g example="2" id="Number of applications">%1$d</xliff:g> applications are protected</string>
+    <string name="app_lock_authentication_dialog_title">Unlock</string>
+    <string name="enable_debugging">Enable debugging</string>
+    <string name="disable_debugging">Disable debugging</string>
+    <string name="app_lock_packages_title">Protected apps</string>
+    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
+    <string name="app_lock_timeout_title">Auto lock timeout</string>
+    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
+    <string name="app_lock_notifications_title">Collapse notifications</string>
     <string name="app_lock_notifications_summary">          Notification content will be hidden and collapsed for selected apps when they are locked.
           Heads up notifications will be automatically disabled.
     </string>
-    <string name="app_lock_notifications_disabled_summary">アプリを最初に保護する</string>
-    <string name="app_lock_biometrics_allowed_title">生体認証でのロック解除を有効化</string>
-    <string name="app_lock_footer_text">制限時間後にバブルは自動的に解除されます</string>
-    <string name="app_lock_5_seconds">5秒</string>
-    <string name="app_lock_10_seconds">10秒</string>
-    <string name="app_lock_30_seconds">30秒</string>
-    <string name="app_lock_1_minute">1分</string>
-    <string name="app_lock_5_minutes">5分</string>
-    <string name="app_lock_10_minutes">10分</string>
-    <string name="app_lock_30_minutes">30分</string>
+    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
+    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
+    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
+    <string name="app_lock_5_seconds">5 seconds</string>
+    <string name="app_lock_10_seconds">10 seconds</string>
+    <string name="app_lock_30_seconds">30 seconds</string>
+    <string name="app_lock_1_minute">1 minute</string>
+    <string name="app_lock_5_minutes">5 minutes</string>
+    <string name="app_lock_10_minutes">10 minutes</string>
+    <string name="app_lock_30_minutes">30 minutes</string>
     <!-- Battery temperature -->
-    <string name="battery_temp">バッテリー温度</string>
+    <string name="battery_temp">Battery temperature</string>
     <!-- Adaptive Playback -->
-    <string name="adaptive_playback_screen_title">スマートポーズ</string>
-    <string name="adaptive_playback_enabled">スマートポーズを使用</string>
-    <string name="adaptive_playback_disabled_summary">OFF</string>
-    <string name="adaptive_playback_intro_text">音量をミュートにした時はメディアを自動的に一時停止し、設定時間内に音量が元に戻ったら自動的に再開されます。</string>
-    <string name="adaptive_playback_timeout_title">使用する点灯時間</string>
-    <string name="adaptive_playback_timeout_none">制限なし</string>
-    <string name="adaptive_playback_timeout_none_summary">ON (制限なし)</string>
-    <string name="adaptive_playback_timeout_30_secs">30秒</string>
-    <string name="adaptive_playback_timeout_30_secs_summary">ON (30秒)</string>
-    <string name="adaptive_playback_timeout_1_min">1分</string>
-    <string name="adaptive_playback_timeout_1_min_summary">ON (1分)</string>
-    <string name="adaptive_playback_timeout_2_min">2分</string>
-    <string name="adaptive_playback_timeout_2_min_summary">ON (2分)</string>
-    <string name="adaptive_playback_timeout_5_min">5分</string>
-    <string name="adaptive_playback_timeout_5_min_summary">ON (5分)</string>
+    <string name="adaptive_playback_screen_title">Smart Pause</string>
+    <string name="adaptive_playback_enabled">Use smart pause</string>
+    <string name="adaptive_playback_disabled_summary">Off</string>
+    <string name="adaptive_playback_intro_text">Automatically pauses media when the volume is muted and will resume automatically when volume is restored within the set time.</string>
+    <string name="adaptive_playback_timeout_title">Use a timeout of</string>
+    <string name="adaptive_playback_timeout_none">No timeout</string>
+    <string name="adaptive_playback_timeout_none_summary">On (no timeout)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minute</string>
+    <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
+    <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
+    <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
     <string name="adaptive_playback_timeout_10_min">10分</string>
-    <string name="adaptive_playback_timeout_10_min_summary">ON (10分)</string>
+    <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">ネットワークアクセスを許可</string>
-    <string name="data_usage_app_restrict_all_summary">ネットワークの使用状況を有効化する</string>
-    <string name="data_usage_app_restrict_mobile">モバイルデータ</string>
-    <string name="data_usage_app_restrict_mobile_summary">モバイルデータ使用量を有効化する</string>
-    <string name="data_usage_app_restrict_vpn">VPN データ</string>
-    <string name="data_usage_app_restrict_vpn_summary">VPN データ使用量を有効化する</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi データ</string>
-    <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi データ使用量を有効化する</string>
+    <string name="data_usage_app_restrict_all">Allow network access</string>
+    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
+    <string name="data_usage_app_restrict_mobile">Mobile data</string>
+    <string name="data_usage_app_restrict_mobile_summary">Enable usage of mobile data</string>
+    <string name="data_usage_app_restrict_vpn">VPN data</string>
+    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
     <!-- Hotspot lineage extras -->
-    <string name="tethering_allow_vpn_upstreams_title">クライアントの VPN 使用の許可</string>
-    <string name="tethering_allow_vpn_upstreams_summary">この端末の VPN 接続をホットスポットのクライアントが送信接続に使うことを許可する</string>
+    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
     <!--  screen, setting option name to change wifi timeout -->
-    <string name="wifi_timeout">Wi-Fi を自動的に切る</string>
+    <string name="wifi_timeout">Turn off Wi-Fi automatically</string>
     <!--  screen, setting option summary to change wifi timeout -->
-    <string name="wifi_timeout_summary">ネットワークに接続していない場合は<xliff:g id="timeout_description">%1$s</xliff:g>後に Wi-Fi は無効になります</string>
-    <string name="wifi_timeout_summary2">無効</string>
-    <string name="wifi_timeout_summary_never">なし</string>
-    <string name="wifi_timeout_summary_15secs">15秒</string>
-    <string name="wifi_timeout_summary_30secs">30秒</string>
-    <string name="wifi_timeout_summary_1min">1分</string>
-    <string name="wifi_timeout_summary_2mins">2分</string>
-    <string name="wifi_timeout_summary_5mins">5分</string>
-    <string name="wifi_timeout_summary_10mins">10分</string>
-    <string name="wifi_timeout_summary_30mins">30分</string>
-    <string name="wifi_timeout_summary_1hour">1時間</string>
-    <string name="wifi_timeout_summary_2hours">2時間</string>
-    <string name="wifi_timeout_summary_4hours">4時間</string>
-    <string name="wifi_timeout_summary_8hours">8時間</string>
+    <string name="wifi_timeout_summary">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
+    <string name="wifi_timeout_summary2">Disabled</string>
+    <string name="custom_timeout_summary_never">Never</string>
+    <string name="custom_timeout_summary_15secs">15 seconds</string>
+    <string name="custom_timeout_summary_30secs">30 seconds</string>
+    <string name="custom_timeout_summary_1min">1 minute</string>
+    <string name="custom_timeout_summary_2mins">2 minutes</string>
+    <string name="custom_timeout_summary_5mins">5 minutes</string>
+    <string name="custom_timeout_summary_10mins">10 minutes</string>
+    <string name="custom_timeout_summary_20mins">20 minutes</string>
+    <string name="custom_timeout_summary_30mins">30 minutes</string>
+    <string name="custom_timeout_summary_1hour">1 hour</string>
+    <string name="custom_timeout_summary_2hours">2 hours</string>
+    <string name="custom_timeout_summary_4hours">4 hours</string>
+    <string name="custom_timeout_summary_8hours">8 hours</string>
     <!-- Connected devices screen, setting option name to change bluetooth timeout -->
-    <string name="bluetooth_timeout">Bluetooth の制限時間</string>
+    <string name="bluetooth_timeout">Bluetooth timeout</string>
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
-    <string name="bluetooth_timeout_summary">端末が接続されていない場合は<xliff:g id="timeout_description">%1$s</xliff:g>後に Bluetooth は無効になります</string>
-    <string name="bluetooth_timeout_summary2">自動的に Bluetooth を無効にしない</string>
-    <string name="bluetooth_timeout_summary_never">なし</string>
-    <string name="bluetooth_timeout_summary_15secs">15秒</string>
-    <string name="bluetooth_timeout_summary_30secs">30秒</string>
-    <string name="bluetooth_timeout_summary_1min">1分</string>
-    <string name="bluetooth_timeout_summary_2mins">2分</string>
-    <string name="bluetooth_timeout_summary_5mins">5分</string>
-    <string name="bluetooth_timeout_summary_10mins">10分</string>
-    <string name="bluetooth_timeout_summary_30mins">30分</string>
-    <string name="bluetooth_timeout_summary_1hour">1時間</string>
-    <string name="bluetooth_timeout_summary_2hours">2時間</string>
-    <string name="bluetooth_timeout_summary_4hours">4時間</string>
-    <string name="bluetooth_timeout_summary_8hours">8時間</string>
+    <string name="bluetooth_timeout_summary">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
+    <string name="bluetooth_timeout_summary2">Do not automatically turn off Bluetooth</string>
     <!-- Cloudflare DNS Option -->
     <!-- AdGuard DNS Option -->
     <!-- Display : Rotation -->
-    <string name="display_rotation_title">回転</string>
-    <string name="display_rotation_summary">回転角度を選択する</string>
-    <string name="display_rotation_disabled">無効</string>
-    <string name="display_rotation_unit">角度</string>
-    <string name="display_rotation_category_title">回転のモード</string>
-    <string name="display_rotation_0_title">0度</string>
-    <string name="display_rotation_90_title">90度</string>
-    <string name="display_rotation_180_title">180度</string>
-    <string name="display_rotation_270_title">270度</string>
+    <string name="display_rotation_title">Rotation</string>
+    <string name="display_rotation_summary">Select rotation angles</string>
+    <string name="display_rotation_disabled">Disabled</string>
+    <string name="display_rotation_unit">degrees</string>
+    <string name="display_rotation_category_title">Rotation modes</string>
+    <string name="display_rotation_0_title">0 degrees</string>
+    <string name="display_rotation_90_title">90 degrees</string>
+    <string name="display_rotation_180_title">180 degrees</string>
+    <string name="display_rotation_270_title">270 degrees</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">着信と通知の音量をリンク</string>
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
     <string name="wellbeing_title">Google Wellbeing</string>
-    <string name="usercard_summary">現在のアクティブユーザーです。タップして詳細情報を表示します。</string>
-    <string name="connectivity_category_title">接続</string>
+    <string name="usercard_summary">Current active user, tap for more information</string>
+    <string name="connectivity_category_title">connectivity</string>
     <!-- Volume dialog position -->
-    <string name="volume_panel_on_left_title">左側の音量パネル</string>
-    <string name="volume_panel_on_left_summary">画面の左側に音量パネルを表示する</string>
+    <string name="volume_panel_on_left_title">Left volume panel</string>
+    <string name="volume_panel_on_left_summary">Show the volume panel on the left side of the screen</string>
     <!-- Floating rotation button -->
-    <string name="enable_floating_rotation_button_title">フローティング回転ボタンを使用</string>
+    <string name="enable_floating_rotation_button_title">Use floating rotate button</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front">スマートフォン前面にある指紋認証センサーを探します</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear">スマートフォン背面にある指紋認証センサーを探します</string>
-    <string name="fingerprint_enroll_find_sensor_message_side">スマートフォン左側にある指紋認証センサーを探します</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the front of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">Locate the fingerprint sensor on the back of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Locate the fingerprint sensor on the side of your phone.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
-    <string name="fingerprint_enroll_touch_dialog_message_front">スマートフォン前面にある指紋認証センサーをタッチします</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear">スマートフォン背面にある指紋認証センサーをタッチします</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side">スマートフォン側面にある指紋認証センサーをタッチします</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">Touch the sensor on the front of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Touch the sensor on the back of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Touch the sensor on the side of your phone.</string>
     <!-- Screen setting option title for the item to take you to the stock security screen -->
-    <string name="aosp_security_settings_title">既存のロックオプション</string>
+    <string name="aosp_security_settings_title">Stock lock options</string>
     <!-- Screen setting option summary text for the item tot ake you to the stock security and location screen -->
-    <string name="aosp_security_settings_summary">アプリロックの設定、SIM カードのロック、認証情報ストレージのロック</string>
+    <string name="aosp_security_settings_summary">Set App lock, SIM card lock, credential storage lock</string>
     <!-- Battery stats view -->
-    <string name="powerusage_provider_google">Pixel バッテリー統計プロバイダを使用</string>
-    <string name="power_usage_provider_summary">OS のバッテリー統計グラフと電源設定を使用する</string>
-    <string name="powerusage_provider_google_dialog_title">充電プロバイダー</string>
-    <string name="powerusage_provider_google_dialog_message">この変更を適用するにはアプリ履歴から設定を消去して再度開いて下さい</string>
+    <string name="powerusage_provider_google">Use Pixel battery stats provider</string>
+    <string name="power_usage_provider_summary">Use battery stats graph and power scheme from Pixel</string>
+    <string name="powerusage_provider_google_dialog_title">Changing provider</string>
+    <string name="powerusage_provider_google_dialog_message">Please close Setttings from recents and reopen to apply this change</string>
     <!-- Custom actions -->
-    <string name="action_nothing">なし</string>
-    <string name="action_menu">メニュー</string>
-    <string name="action_app_switch">アプリ履歴</string>
-    <string name="action_voice_search">音声検索</string>
-    <string name="action_launch_camera">カメラ</string>
-    <string name="action_last_app">直前のアプリ</string>
-    <string name="action_splitscreen">画面分割</string>
-    <string name="action_flashlight">フラッシュライト</string>
-    <string name="action_clear_notifications">通知を消去</string>
-    <string name="action_volume_panel">音量パネル</string>
-    <string name="action_screen_off">画面を消灯</string>
-    <string name="action_notifications">通知</string>
-    <string name="action_power_menu">電源メニュー</string>
-    <string name="action_screenshot">スクリーンショット</string>
-    <string name="action_qs_panel">クイック設定パネル</string>
-    <string name="action_app_action">アプリ</string>
-    <string name="action_ringer_modes">着信モード</string>
-    <string name="kill_app">表示中のアプリを終了</string>
-    <string name="recent_app_toggle">直前のアプリの切り替え</string>
+    <string name="action_nothing">No action</string>
+    <string name="action_menu">Menu</string>
+    <string name="action_app_switch">Recents</string>
+    <string name="action_voice_search">Voice search</string>
+    <string name="action_launch_camera">Camera</string>
+    <string name="action_last_app">Last app</string>
+    <string name="action_splitscreen">Split screen</string>
+    <string name="action_flashlight">Flashlight</string>
+    <string name="action_clear_notifications">Clear notifications</string>
+    <string name="action_volume_panel">Volume panel</string>
+    <string name="action_screen_off">Screen off</string>
+    <string name="action_notifications">Notifications</string>
+    <string name="action_power_menu">Power menu</string>
+    <string name="action_screenshot">Screenshot</string>
+    <string name="action_qs_panel">QS panel</string>
+    <string name="action_app_action">Application</string>
+    <string name="action_ringer_modes">Ringer modes</string>
+    <string name="kill_app">Kill foreground app</string>
+    <string name="recent_app_toggle">Switch recent app</string>
     <!-- Long swipe gestures -->
-    <string name="navbar_gesture_tweaks_pref_title">高度なジェスチャーオプション</string>
-    <string name="navbar_gesture_tweaks_pref_summary">ジェスチャーを編集してカスタムアクションを設定する</string>
-    <string name="navbar_gesture_tweaks_cat_title">高度な設定</string>
-    <string name="swipe_app_select_summary">握りアクションで起動するアプリを選択する</string>
-    <string name="long_back_swipe_timeout_title">長いスワイプアクションの制限時間</string>
-    <string name="left_swipe_actions_title">長い左スワイプアクション</string>
-    <string name="left_swipe_app_action_title">長い左スワイプアクションのアプリ選択</string>
-    <string name="right_swipe_actions_title">長い右スワイプアクション</string>
-    <string name="right_swipe_app_action_title">長い右スワイプアクションのアプリ選択</string>
-    <string name="left_vertical_swipe_actions_title">垂直左 L スワイプのアクション</string>
-    <string name="left_vertical_swipe_app_action_title">垂直左スワイプアプリを選択</string>
-    <string name="right_vertical_swipe_actions_title">垂直右 L スワイプのアクション</string>
-    <string name="right_vertical_swipe_app_action_title">垂直右スワイプアプリを選択</string>
-    <string name="gesture_nav_tweaks_footer_info">アクションの特定のアプリアクティビティを選択するには、アプリの選択でアプリを長押しして下さい。\n\nランチャーが表示されている場合は、画面の一番下の領域でスワイプしてアクションを起動します。</string>
-    <string name="back_swipe_extended_title">拡張スワイプアクション</string>
-    <string name="back_swipe_extended_summary">より広いスワイプ (少なくとも画面の半分より広い) か、「L」スワイプ (縦の方が長い) でアクションを起動する。</string>
+    <string name="navbar_gesture_tweaks_pref_title">Advanced gestures options</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Customize gestures and set custom actions</string>
+    <string name="navbar_gesture_tweaks_cat_title">Advanced</string>
+    <string name="swipe_app_select_summary">Select an app to launch with the squeeze action</string>
+    <string name="long_back_swipe_timeout_title">Long swipe action timeout</string>
+    <string name="left_swipe_actions_title">Long left swipe action</string>
+    <string name="left_swipe_app_action_title">Select long left swipe app</string>
+    <string name="right_swipe_actions_title">Long right swipe action</string>
+    <string name="right_swipe_app_action_title">Select long right swipe app</string>
+    <string name="left_vertical_swipe_actions_title">Vertical left L-swipe action</string>
+    <string name="left_vertical_swipe_app_action_title">Select vertical left swipe app</string>
+    <string name="right_vertical_swipe_actions_title">Vertical right L-swipe action</string>
+    <string name="right_vertical_swipe_app_action_title">Select vertical right swipe app</string>
+    <string name="gesture_nav_tweaks_footer_info">To choose a specific app activity for the action, long press on any app in the apps picker.\n\nIf launcher is showing, do the swipe at the very bottom area of the screen to trigger the action.</string>
+    <string name="back_swipe_extended_title">Extended swipe action</string>
+    <string name="back_swipe_extended_summary">Trigger action on wider swipe (more than half of display size), or a L swipe (vertically longer enough)</string>
     <!-- Back gesture haptic -->
-    <string name="back_gesture_haptic_title">振動フィードバック</string>
-    <string name="back_gesture_haptic_summary">戻るジェスチャー時に振動を有効化する</string>
+    <string name="back_gesture_haptic_title">Back gesture haptic</string>
+    <string name="back_gesture_haptic_summary">Vibrate when performing a back gesture</string>
     <!-- Back gesture animation -->
-    <string name="back_gesture_arrow_message">戻るジェスチャーアニメーション</string>
-    <string name="back_gesture_arrow_summary">戻るジェスチャーの矢印をアニメーションする</string>
+    <string name="back_gesture_arrow_message">Back gesture animation</string>
+    <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture</string>
     <!-- Vibration patterns -->
-    <string name="vibration_pattern_title">着信音の振動のパターン</string>
+    <string name="vibration_pattern_title">Ringtone vibration pattern</string>
     <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
     <string name="pattern_dzzz_da">dzzz-da</string>
     <string name="pattern_mm_mm_mm">mm-mm-mm</string>
     <string name="pattern_da_da_dzzz">da-da-dzzz</string>
     <string name="pattern_da_dzzz_da">da-dzzz-da</string>
-    <string name="pattern_custom">カスタム</string>
-    <string name="custom_vibration_pattern_title">カスタムパターン</string>
-    <string name="custom_vibration_pattern_summary">カスタムの振動パターンを設定する</string>
+    <string name="pattern_custom">Custom</string>
+    <string name="custom_vibration_pattern_title">Custom pattern</string>
+    <string name="custom_vibration_pattern_summary">Set a custom vibration pattern</string>
     <!-- Battery health -->
-    <string name="current_battery_capacity">現在バッテリー容量</string>
-    <string name="designed_battery_capacity">設計バッテリー容量</string>
-    <string name="battery_charge_cycles">充電サイクル完了数</string>
+    <string name="current_battery_capacity">Current battery capacity</string>
+    <string name="designed_battery_capacity">Designed battery capacity</string>
+    <string name="battery_charge_cycles">Charge cycles completed</string>
     <!-- Hotspot -->
-    <string name="wifi_hotspot_hidden_ssid_title">非公開ネットワーク</string>
-    <string name="wifi_hotspot_hidden_ssid_summary">お使いのモバイルホットスポット名は利用可能な WLAN ネットワークのリスト内から消えます</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>
     <string name="wifi_band_24ghz_and_5ghz">2.4 GHz &amp; 5 GHz</string>
     <string name="wifi_band_24ghz_and_6ghz">2.4 GHz &amp; 6 GHz</string>
     <string name="wifi_band_60ghz">60 GHz</string>
     <plurals name="wifi_hotspot_auto_off_timeout">
-        <item quantity="other"><xliff:g id="DURATION">%1$d</xliff:g>分間端末の接続がない場合はオフにする</item>
+        <item quantity="other">Turn off when no device connected for <xliff:g id="DURATION">%1$d</xliff:g> minutes</item>
     </plurals>
-    <string name="wifi_hotspot_auto_off_timeout_never">ホットスポットを維持</string>
-    <string name="wifi_hotspot_client_manager_title">接続済みの端末</string>
-    <string name="wifi_hotspot_client_manager_summary">ホットスポットへ接続済みの端末のリストと管理、クライアント数の上限を設定します。</string>
-    <string name="wifi_hotspot_client_manager_list_only_summary">ホットスポットに接続された端末一覧</string>
-    <string name="wifi_hotspot_client_limit_title">接続する端末の上限数</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Never turn off hotsopt</string>
+    <string name="wifi_hotspot_client_manager_title">Connected devices</string>
+    <string name="wifi_hotspot_client_manager_summary">List and manage devices connected to the hotspot, and set the limit of the number of clients</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">List devices connected to the hotspot</string>
+    <string name="wifi_hotspot_client_limit_title">Limit of connected devices</string>
     <plurals name="wifi_hotspot_client_limit_summary">
-        <item quantity="other">最大<xliff:g id="device_num">%1$d</xliff:g>台の端末がこのホットポットに接続できます</item>
+        <item quantity="other">Up to <xliff:g id="device_num">%1$d</xliff:g> devices can connect to this hotspot</item>
     </plurals>
-    <string name="wifi_hotspot_blocked_clients_list_title">ブロック済みの端末</string>
-    <string name="wifi_hotspot_connected_clients_list_title">接続された端末</string>
-    <string name="wifi_hotspot_block_client_dialog_title">端末をブロック</string>
-    <string name="wifi_hotspot_block_client_dialog_text">この操作によりこの端末から \"<xliff:g id="device_name">%1$s</xliff:g>\" を切断しブロックリストに追加します</string>
-    <string name="wifi_hotspot_unblock_client_dialog_title">端末をブロック解除</string>
-    <string name="wifi_hotspot_unblock_client_dialog_text">端末 \"<xliff:g id="device_name">%1$s</xliff:g>\" はこのホットスポットへ接続可能になります</string>
-    <string name="wifi_hotspot_client_manager_footer_text">利用可能なクライアントは現在ありません。利用可能になった時に接続済みまたはブロック済みの端末はこのリストに表示されます。</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Blocked Devices</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Connected Devices</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Block device</string>
+    <string name="wifi_hotspot_block_client_dialog_text">This action will disconnect \"<xliff:g id="device_name">%1$s</xliff:g>\" from this device and add it to blocklist</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Unblock device</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">This device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
+    <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when avaialable.</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">統計のリセット</string>
-    <string name="battery_stats_message">バッテリーの使用統計はリセットされます</string>
-    <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">全画面表示のアプリ</string>
-    <string name="display_cutout_force_fullscreen_summary">強制的にアプリのノッチ領域を無視する</string>
-    <string name="search">検索</string>
-    <string name="search_apps">アプリを検索</string>
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
     <!-- Pocket mode -->
-    <string name="proximity_wake_title">誤起動を防止</string>
-    <string name="proximity_wake_summary">スリープ解除する前に接近センサーで確認する</string>
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
     <!-- LiveDisplay -->
-    <string name="live_display_summary">画面を見やすく目の疲れを軽減するために時間と周囲の環境に合わせて画面を最適化する</string>
-    <string name="live_display_mode">ディスプレイモード</string>
-    <string name="live_display_color_temperature_title">色温度</string>
-    <string name="live_display_color_temperature_summary">昼: <xliff:g id="day_temperature">%1$d</xliff:g>K  夜: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
+    <string name="live_display_mode">Display mode</string>
+    <string name="live_display_color_temperature_title">Color temperature</string>
+    <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
-    <string name="live_display_day">昼</string>
-    <string name="live_display_night">夜</string>
-    <string name="live_display_outdoor_mode_title">自動屋外モード</string>
-    <string name="live_display_outdoor_mode_summary">明るい日差しが照射する環境下で明るさと彩度を自動的に向上させる</string>
-    <string name="live_display_low_power_title">消費電力を削減</string>
-    <string name="live_display_low_power_summary">性能を低下させずに画面を最低の消費電力に調整する</string>
-    <string name="live_display_enhance_color_title">色を拡張</string>
-    <string name="live_display_enhance_color_summary">肌の色・風景・他の画像の色の鮮やかさを補正する</string>
-    <string name="live_display_color_profile_title">色のプロファイル</string>
-    <string name="live_display_color_profile_standard_title">標準</string>
-    <string name="live_display_color_profile_standard_summary">正確な色と明るい白</string>
-    <string name="live_display_color_profile_natural_title">ナチュラル</string>
-    <string name="live_display_color_profile_natural_summary">写実的な色と肌色</string>
-    <string name="live_display_color_profile_dynamic_title">ダイナミック</string>
-    <string name="live_display_color_profile_dynamic_summary">補正された色と明るい白</string>
-    <string name="live_display_color_profile_cinema_title">シネマ</string>
-    <string name="live_display_color_profile_cinema_summary">ビデオの完全な色再現</string>
-    <string name="live_display_color_profile_astronomy_title">夜空</string>
-    <string name="live_display_color_profile_astronomy_summary">夜間利用時に目に優しい深い赤</string>
-    <string name="live_display_color_profile_photography_title">写真</string>
-    <string name="live_display_color_profile_photography_summary">写真の完全な色再現</string>
-    <string name="live_display_color_profile_basic_title">基本</string>
-    <string name="live_display_color_profile_basic_summary">無調整のディスプレイを使用する</string>
-    <string name="live_display_color_profile_adaptive_title">自動</string>
-    <string name="live_display_color_profile_adaptive_summary">色を周囲の状況に適応する</string>
-    <string name="live_display_color_profile_reading_title">読書</string>
-    <string name="live_display_color_profile_reading_summary">目の負担を軽減するため暖かい色にする</string>
+    <string name="live_display_day">Day</string>
+    <string name="live_display_night">Night</string>
+    <string name="live_display_outdoor_mode_title">Automatic outdoor mode</string>
+    <string name="live_display_outdoor_mode_summary">Increase brightness and saturation automatically under bright sunlight</string>
+    <string name="live_display_low_power_title">Reduce power consumption</string>
+    <string name="live_display_low_power_summary">Adjust display for lowest power consumption without degradation</string>
+    <string name="live_display_enhance_color_title">Enhance colors</string>
+    <string name="live_display_enhance_color_summary">Improve color vibrance of flesh tones, scenery, and other images</string>
+    <string name="live_display_color_profile_title">Color profile</string>
+    <string name="live_display_color_profile_standard_title">Standard</string>
+    <string name="live_display_color_profile_standard_summary">Accurate colors and bright whites</string>
+    <string name="live_display_color_profile_natural_title">Natural</string>
+    <string name="live_display_color_profile_natural_summary">Realistic colors and flesh tones</string>
+    <string name="live_display_color_profile_dynamic_title">Dynamic</string>
+    <string name="live_display_color_profile_dynamic_summary">Enhanced colors and bright whites</string>
+    <string name="live_display_color_profile_cinema_title">Cinema</string>
+    <string name="live_display_color_profile_cinema_summary">Perfect color reproduction for video</string>
+    <string name="live_display_color_profile_astronomy_title">Astronomy</string>
+    <string name="live_display_color_profile_astronomy_summary">Deep red for preserving night vision</string>
+    <string name="live_display_color_profile_photography_title">Photography</string>
+    <string name="live_display_color_profile_photography_summary">Perfect color reproduction for photos</string>
+    <string name="live_display_color_profile_basic_title">Basic</string>
+    <string name="live_display_color_profile_basic_summary">Use the display uncalibrated</string>
+    <string name="live_display_color_profile_adaptive_title">Adaptive</string>
+    <string name="live_display_color_profile_adaptive_summary">Colors adapt to ambient conditions</string>
+    <string name="live_display_color_profile_reading_title">Reading</string>
+    <string name="live_display_color_profile_reading_summary">Warmer colors for less eye strain</string>
     <string name="live_display_color_profile_srgb_title">sRGB</string>
-    <string name="live_display_color_profile_srgb_summary">正確な sRGB 色空間に補正する</string>
+    <string name="live_display_color_profile_srgb_summary">Colors accurate to the sRGB color space</string>
     <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
-    <string name="live_display_color_profile_dci_p3_summary">正確な DCI-P3 色空間に補正する</string>
-    <string name="live_display_reading_mode_title">読書モード</string>
-    <string name="live_display_reading_mode_summary">長期間読書するのに適したグレースケールモードに変更する</string>
-    <string name="live_display_anti_flicker_title">アンチフリッカー</string>
-    <string name="live_display_anti_flicker_summary">幅広いちらつきを防ぎ、暗い環境での目への負担を軽減します。色の再現度が低下したり、いくつかの項目の表示に影響する可能性があります。</string>
-    <string name="color_calibration_title">色の調整</string>
-    <string name="color_calibration_summary">画面の色を調整する</string>
-    <string name="color_red_title">赤</string>
-    <string name="color_green_title">緑</string>
-    <string name="color_blue_title">青</string>
+    <string name="live_display_color_profile_dci_p3_summary">Colors accurate to the DCI-P3 color space</string>
+    <string name="live_display_reading_mode_title">Reading mode</string>
+    <string name="live_display_reading_mode_summary">Grayscale mode for long-term reading</string>
+    <string name="live_display_anti_flicker_title">Anti flicker</string>
+    <string name="live_display_anti_flicker_summary">Prevent extensive flickering and reduce eye strain in low light conditions. It might degrade color accuracy and affect the way some items are displayed.</string>
+    <string name="color_calibration_title">Color calibration</string>
+    <string name="color_calibration_summary">Calibrate on-screen colors</string>
+    <string name="color_red_title">Red</string>
+    <string name="color_green_title">Green</string>
+    <string name="color_blue_title">Blue</string>
     <!-- LiveDisplay : Picture Adjustment -->
-    <string name="picture_adjustment_title">画像調整</string>
-    <string name="picture_adjustment_summary">色相・彩度・明度・コントラストを調整する</string>
-    <string name="adj_hue_title">色相</string>
-    <string name="adj_saturation_title">彩度</string>
-    <string name="adj_intensity_title">明度</string>
-    <string name="adj_contrast_title">コントラスト</string>
+    <string name="picture_adjustment_title">Picture adjustment</string>
+    <string name="picture_adjustment_summary">Adjust hue, saturation, intensity, and contrast</string>
+    <string name="adj_hue_title">Hue</string>
+    <string name="adj_saturation_title">Saturation</string>
+    <string name="adj_intensity_title">Intensity</string>
+    <string name="adj_contrast_title">Contrast</string>
     <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">スクリーンショットの音</string>
+    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
     <!-- Suppress notifications if screen is on -->
-    <string name="notification_sound_vib_screen_on_title">画面点灯中の通知サウンド</string>
-    <string name="notification_sound_vib_screen_on_summary">画面点灯中に通知を受信した時に通知音と振動を鳴らす</string>
+    <string name="notification_sound_vib_screen_on_title">Notification sound if active</string>
+    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
     <!-- Game Space -->
-    <string name="game_space_title">ゲームスペース</string>
-    <string name="game_space_summary">ゲーム体験を向上させる</string>
+    <string name="game_space_title">Game Space</string>
+    <string name="game_space_summary">Enhance your gaming experience</string>
     <!-- Display Settings: Title of the setting which toggles wallpaper zooming effects on interraction -->
-    <string name="wallpaper_zoom_effect_title">壁紙のズーム効果</string>
+    <string name="wallpaper_zoom_effect_title">Wallpaper zoom effect</string>
     <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
-    <string name="wallpaper_zoom_effect_summary">縮小深度アニメーションを表示するために壁紙を拡大します。壁紙の品質が低下する可能性があります。</string>
+    <string name="wallpaper_zoom_effect_summary">Zoom the wallpaper in order to show zoom-out depth animation. Wallpapers may suffer quality decrease</string>
+    <!-- Toolbar -->
+    <string name="collapsing_toolbar_title">Settings</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Playback control</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
 </resources>
