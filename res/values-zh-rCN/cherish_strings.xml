@@ -45,7 +45,7 @@
     <string name="wake_when_plugged_or_unplugged_title">充电唤醒</string>
     <string name="wake_when_plugged_or_unplugged_summary">连接或断开电源时点亮屏幕</string>
     <!-- Custom light color -->
-    <string name="custom_light_title">指示灯颜色</string>
+    <string name="custom_light_title">呼吸灯颜色</string>
     <string name="custom_light_on_time_title">呼吸灯闪烁时开启时间 (毫秒)</string>
     <string name="custom_light_off_time_title">呼吸灯闪烁时关闭时间 (毫秒)</string>
     <string name="value_equals_default">默认</string>
@@ -64,7 +64,7 @@
     <!-- Doze on double tap -->
     <string name="double_tap_title">双击</string>
     <string name="doze_double_tap_title">点按两次即可查看手机</string>
-    <string name="doze_double_tap_summary">双击快速显示通知</string>
+    <string name="doze_double_tap_summary">双击查看息屏显示通知</string>
     <!-- Volume dialog timeout -->
     <string name="unit_seconds">秒</string>
     <string name="volume_dialog_timeout_title">音量面板超时</string>
@@ -84,10 +84,11 @@
     <string name="face_redo_warning_msg">是否要移除现有的人脸数据并重新录入？</string>
     <string name="face_unlock_method_title">允许在锁定屏幕使用人脸识别解锁</string>
     <string name="face_unlock_method_default">屏幕开启时</string>
-    <string name="face_unlock_method_swipe">在锁定屏幕上滑动时</string>
+    <string name="face_unlock_method_swipe">在锁屏界面上滑动时</string>
+    <string name="skip_biometric_auth_confirmation_title">跳过手动确认</string>
     <!--Cherish Settings-->
     <string name="cherish_settings_title">Cherish 设置</string>
-    <string name="cherish_settings_summary">快乐来自您自己的行动</string>
+    <string name="cherish_settings_summary">行动创造幸福</string>
     <!-- App lock -->
     <string name="app_lock_title">应用锁</string>
     <string name="app_lock_summary_singular">1 个应用程序受到保护</string>
@@ -100,8 +101,8 @@
     <string name="app_lock_timeout_title">超时自动锁定</string>
     <string name="app_lock_timeout_summary">一段时间后，后台解锁的应用程序应被锁定</string>
     <string name="app_lock_notifications_title">折叠通知</string>
-    <string name="app_lock_notifications_summary">          Notification content will be hidden and collapsed for selected apps when they are locked.
-          Heads up notifications will be automatically disabled.
+    <string name="app_lock_notifications_summary">锁定选定应用时，通知内容将被隐藏和折叠。
+          浮动通知将被自动禁用。
     </string>
     <string name="app_lock_notifications_disabled_summary">首先保护应用程序</string>
     <string name="app_lock_biometrics_allowed_title">启用生物识别解锁</string>
@@ -150,35 +151,24 @@
     <!--  screen, setting option summary to change wifi timeout -->
     <string name="wifi_timeout_summary">如果没有网络连接，则在 <xliff:g id="timeout_description">%1$s</xliff:g> 后关闭 Wi-Fi</string>
     <string name="wifi_timeout_summary2">已禁用</string>
-    <string name="wifi_timeout_summary_never">从不</string>
-    <string name="wifi_timeout_summary_15secs">15秒</string>
-    <string name="wifi_timeout_summary_30secs">30秒</string>
-    <string name="wifi_timeout_summary_1min">1分钟</string>
-    <string name="wifi_timeout_summary_2mins">2分钟</string>
-    <string name="wifi_timeout_summary_5mins">5分钟</string>
-    <string name="wifi_timeout_summary_10mins">10分钟</string>
-    <string name="wifi_timeout_summary_30mins">30分钟</string>
-    <string name="wifi_timeout_summary_1hour">1 小时</string>
-    <string name="wifi_timeout_summary_2hours">2 小时</string>
-    <string name="wifi_timeout_summary_4hours">4 小时</string>
-    <string name="wifi_timeout_summary_8hours">8 小时</string>
+    <string name="custom_timeout_summary_never">从不</string>
+    <string name="custom_timeout_summary_15secs">15秒</string>
+    <string name="custom_timeout_summary_30secs">30秒</string>
+    <string name="custom_timeout_summary_1min">1分钟</string>
+    <string name="custom_timeout_summary_2mins">2分钟</string>
+    <string name="custom_timeout_summary_5mins">5分钟</string>
+    <string name="custom_timeout_summary_10mins">10分钟</string>
+    <string name="custom_timeout_summary_20mins">20分钟</string>
+    <string name="custom_timeout_summary_30mins">30分钟</string>
+    <string name="custom_timeout_summary_1hour">1 小时</string>
+    <string name="custom_timeout_summary_2hours">2 小时</string>
+    <string name="custom_timeout_summary_4hours">4 小时</string>
+    <string name="custom_timeout_summary_8hours">8 小时</string>
     <!-- Connected devices screen, setting option name to change bluetooth timeout -->
     <string name="bluetooth_timeout">蓝牙超时</string>
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
     <string name="bluetooth_timeout_summary">如果没有设备连接，蓝牙将在<xliff:g id="timeout_description">%1$s</xliff:g>后关闭</string>
-    <string name="bluetooth_timeout_summary2">不自动关闭蓝牙</string>
-    <string name="bluetooth_timeout_summary_never">从不</string>
-    <string name="bluetooth_timeout_summary_15secs">15秒</string>
-    <string name="bluetooth_timeout_summary_30secs">30秒</string>
-    <string name="bluetooth_timeout_summary_1min">1分钟</string>
-    <string name="bluetooth_timeout_summary_2mins">2分钟</string>
-    <string name="bluetooth_timeout_summary_5mins">5分钟</string>
-    <string name="bluetooth_timeout_summary_10mins">10分钟</string>
-    <string name="bluetooth_timeout_summary_30mins">30分钟</string>
-    <string name="bluetooth_timeout_summary_1hour">1 小时</string>
-    <string name="bluetooth_timeout_summary_2hours">2 小时</string>
-    <string name="bluetooth_timeout_summary_4hours">4 小时</string>
-    <string name="bluetooth_timeout_summary_8hours">8 小时</string>
+    <string name="bluetooth_timeout_summary2">不要自动关闭蓝牙</string>
     <!-- Cloudflare DNS Option -->
     <!-- AdGuard DNS Option -->
     <!-- Display : Rotation -->
@@ -256,7 +246,7 @@
     <string name="back_swipe_extended_title">额外滑动手势</string>
     <string name="back_swipe_extended_summary">长划 (超过一半屏幕) 或 做 L 形划动 (垂直距离足够长) 以激活动作</string>
     <!-- Back gesture haptic -->
-    <string name="back_gesture_haptic_title">返回手势触觉反馈</string>
+    <string name="back_gesture_haptic_title">返回手势触觉</string>
     <string name="back_gesture_haptic_summary">执行返回手势时振动</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">返回手势动画</string>
@@ -292,21 +282,16 @@
     <plurals name="wifi_hotspot_client_limit_summary">
         <item quantity="other">最多 <xliff:g id="device_num">%1$d</xliff:g> 设备可以连接到这个热点</item>
     </plurals>
-    <string name="wifi_hotspot_blocked_clients_list_title">被屏蔽的设备</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">已阻止的设备</string>
     <string name="wifi_hotspot_connected_clients_list_title">已连接的设备</string>
-    <string name="wifi_hotspot_block_client_dialog_title">屏蔽设备</string>
-    <string name="wifi_hotspot_block_client_dialog_text">此操作将断开此设备上的 \"<xliff:g id="device_name">%1$s</xliff:g>\"并将其添加到屏蔽列表</string>
-    <string name="wifi_hotspot_unblock_client_dialog_title">不封禁设备</string>
+    <string name="wifi_hotspot_block_client_dialog_title">阻止设备</string>
+    <string name="wifi_hotspot_block_client_dialog_text">此操作将断开 \"<xliff:g id="device_name">%1$s</xliff:g>\" 与该设备的连接，并将其添加到阻止列表中</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">不阻止设备</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">此设备 \"<xliff:g id="device_name">%1$s</xliff:g>\" 将能够连接到这个热点</string>
     <string name="wifi_hotspot_client_manager_footer_text">目前没有可用的客户端。连接和被屏蔽的设备将在可存档时列出。</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">重置统计数据</string>
     <string name="battery_stats_message">电池的历史统计数据将会被重置</string>
-    <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">强制全屏的应用程序</string>
-    <string name="display_cutout_force_fullscreen_summary">强制应用忽略刘海区域</string>
-    <string name="search">搜索</string>
-    <string name="search_apps">搜索应用</string>
     <!-- Pocket mode -->
     <string name="proximity_wake_title">防止意外唤醒</string>
     <string name="proximity_wake_summary">在唤醒屏幕前检查距离感应器</string>
@@ -367,7 +352,7 @@
     <string name="screenshot_shutter_sound_title">截图提示音</string>
     <!-- Suppress notifications if screen is on -->
     <string name="notification_sound_vib_screen_on_title">屏幕开启时的通知声</string>
-    <string name="notification_sound_vib_screen_on_summary">当屏幕开启时播放声音和振动</string>
+    <string name="notification_sound_vib_screen_on_summary">当屏幕开启时播放声音和振动通知</string>
     <!-- Game Space -->
     <string name="game_space_title">游戏空间</string>
     <string name="game_space_summary">增强您的游戏体验</string>
@@ -375,4 +360,9 @@
     <string name="wallpaper_zoom_effect_title">壁纸缩放效果</string>
     <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
     <string name="wallpaper_zoom_effect_summary">缩放壁纸以展示缩小深度动画。壁纸质量可能降低</string>
+    <!-- Toolbar -->
+    <string name="collapsing_toolbar_title">设置</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">播放控制</string>
+    <string name="volume_button_music_control_summary">屏幕关闭时，长按音量键来切换歌曲</string>
 </resources>
