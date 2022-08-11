@@ -73,6 +73,8 @@ android_library {
         "androidx.slice_slice-view",
         "androidx.window_window-java",
         "gson",
+        "androidx.fragment_fragment-ktx",
+        "androidx.lifecycle_lifecycle-runtime-ktx",
         "guava",
 
         // Android internal dependencies
@@ -117,6 +119,7 @@ android_library {
         "com_android_systemui_flags_lib",
         "settings_connectivity_flags_lib",
         "glide",
+        "SettingsLibMainSwitchPreference",
     ],
 
     plugins: [
