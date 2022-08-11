@@ -46,21 +46,21 @@
     <string name="wake_when_plugged_or_unplugged_summary">Aktifkan layar ketika menghubungkan atau melepaskan pengisi daya</string>
     <!-- Custom light color -->
     <string name="custom_light_title">Warna lampu</string>
-    <string name="custom_light_on_time_title">Durasi lampu aktif selama led berkedip (ms)</string>
-    <string name="custom_light_off_time_title">Durasi lampu nonaktif selama led berkedip (ms)\"</string>
+    <string name="custom_light_on_time_title">Durasi lampu aktif saat led berkedip (milidetik)</string>
+    <string name="custom_light_off_time_title">Durasi lampu mati saat led berkedip (milidetik)\"</string>
     <string name="value_equals_default">bawaan</string>
     <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Tetap menyala saat mengisi daya</string>
-    <string name="doze_on_charge_summary">Tampilkan layar tidur sepanjang waktu saat mengisi daya</string>
+    <string name="doze_on_charge_title">Selalu menyala saat mengisi daya</string>
+    <string name="doze_on_charge_summary">Tampilkan layar ambien sepanjang waktu saat mengisi daya</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">Penuh</string>
     <string name="back_height_high_label">Bawah</string>
     <string name="back_options_dialog_title">Pilihan</string>
-    <string name="back_height_message">Jumlah ketinggian layar yang digunakan sebagai daerah yang dapat disentuh untuk gerakan kembali.</string>
+    <string name="back_height_message">Jumlah ketinggian layar yang digunakan sebagai daerah yang dapat disentuh untuk gestur kembali.</string>
     <!-- Fullscreen gestures -->
     <string name="other_controls_title">Kontrol lainnya</string>
     <string name="fullscreen_gestures_title">Gestur layar penuh</string>
-    <string name="fullscreen_gestures_summary">Sembunyikan pil bilah navigasi dan ruang keyboard</string>
+    <string name="fullscreen_gestures_summary">Sembunyikan gestur bilah navigasi dan ruang keyboard</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Ketuk dua kali</string>
     <string name="doze_double_tap_title">Ketuk dua kali untuk memeriksa telepon</string>
@@ -70,7 +70,7 @@
     <string name="volume_dialog_timeout_title">Waktu habis panel suara</string>
     <string name="volume_dialog_timeout_summary">Waktu yang dibutuhkan panel volume untuk memudar</string>
     <!-- Gesture navbar length -->
-    <string name="gesture_navbar_length_title">Panjang pil</string>
+    <string name="gesture_navbar_length_title">Panjang gestur bilah navigasi</string>
     <string name="short_label">Pendek</string>
     <string name="long_label">Panjang</string>
     <!-- Per-app volume control -->
@@ -85,6 +85,7 @@
     <string name="face_unlock_method_title">Izinkan face unlock di layar kunci</string>
     <string name="face_unlock_method_default">Saat layar dihidupkan</string>
     <string name="face_unlock_method_swipe">Saat mengusap layar kunci</string>
+    <string name="skip_biometric_auth_confirmation_title">Lewati konfirmasi secara manual</string>
     <!--Cherish Settings-->
     <string name="cherish_settings_title">Setelan Cherish</string>
     <string name="cherish_settings_summary">Kebahagiaan tidak tersedia dan itu datang dari tindakanmu sendiri</string>
@@ -100,7 +101,7 @@
     <string name="app_lock_timeout_title">Batas waktu penguncian otomatis</string>
     <string name="app_lock_timeout_summary">Durasi waktu setelah aplikasi yang tidak terkunci di latar belakang harus dikunci</string>
     <string name="app_lock_notifications_title">Matikan notifikasi</string>
-    <string name="app_lock_notifications_summary">          Konten notifikasi akan disembunyikan dan dimatikan untuk aplikasi yang dipilih saat terkunci.
+    <string name="app_lock_notifications_summary">Konten notifikasi akan disembunyikan dan dinonaktifkan untuk aplikasi yang dipilih saat terkunci.
           Notifikasi mengambang akan dinonaktifkan secara otomatis.
     </string>
     <string name="app_lock_notifications_disabled_summary">Lindungi aplikasi terlebih dahulu</string>
@@ -144,41 +145,30 @@
     <string name="data_usage_app_restrict_wifi_summary">Aktifkan penggunaan data Wi\u2011Fi</string>
     <!-- Hotspot lineage extras -->
     <string name="tethering_allow_vpn_upstreams_title">Izinkan klien untuk menggunakan VPN</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Izinkan klien hotspot untuk menggunakan koneksi VPN perangkat\u2019 ini untuk konektivitas upstream</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Izinkan klien hotspot untuk menggunakan koneksi VPN perangkat ini untuk konektivitas upstream</string>
     <!--  screen, setting option name to change wifi timeout -->
-    <string name="wifi_timeout">Matikan Wi-Fi secara otomatis</string>
+    <string name="wifi_timeout">Nonaktifkan Wi-Fi secara otomatis</string>
     <!--  screen, setting option summary to change wifi timeout -->
-    <string name="wifi_timeout_summary">Wi-Fi akan dimatikan setelah <xliff:g id="timeout_description">%1$s</xliff:g> jika tidak ada jaringan terhubung</string>
+    <string name="wifi_timeout_summary">Wi-Fi akan dinonaktifkan setelah <xliff:g id="timeout_description">%1$s</xliff:g> jika tidak ada jaringan terhubung</string>
     <string name="wifi_timeout_summary2">Dinonaktifkan</string>
-    <string name="wifi_timeout_summary_never">Jangan pernah</string>
-    <string name="wifi_timeout_summary_15secs">15 detik</string>
-    <string name="wifi_timeout_summary_30secs">30 detik</string>
-    <string name="wifi_timeout_summary_1min">1 menit</string>
-    <string name="wifi_timeout_summary_2mins">2 menit</string>
-    <string name="wifi_timeout_summary_5mins">5 menit</string>
-    <string name="wifi_timeout_summary_10mins">10 menit</string>
-    <string name="wifi_timeout_summary_30mins">30 menit</string>
-    <string name="wifi_timeout_summary_1hour">1 jam</string>
-    <string name="wifi_timeout_summary_2hours">2 jam</string>
-    <string name="wifi_timeout_summary_4hours">4 jam</string>
-    <string name="wifi_timeout_summary_8hours">8 jam</string>
+    <string name="custom_timeout_summary_never">Jangan pernah</string>
+    <string name="custom_timeout_summary_15secs">15 detik</string>
+    <string name="custom_timeout_summary_30secs">30 detik</string>
+    <string name="custom_timeout_summary_1min">1 menit</string>
+    <string name="custom_timeout_summary_2mins">2 menit</string>
+    <string name="custom_timeout_summary_5mins">5 menit</string>
+    <string name="custom_timeout_summary_10mins">10 menit</string>
+    <string name="custom_timeout_summary_20mins">20 menit</string>
+    <string name="custom_timeout_summary_30mins">30 menit</string>
+    <string name="custom_timeout_summary_1hour">1 jam</string>
+    <string name="custom_timeout_summary_2hours">2 jam</string>
+    <string name="custom_timeout_summary_4hours">4 jam</string>
+    <string name="custom_timeout_summary_8hours">8 jam</string>
     <!-- Connected devices screen, setting option name to change bluetooth timeout -->
     <string name="bluetooth_timeout">Batas waktu Bluetooth</string>
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
-    <string name="bluetooth_timeout_summary">Bluetooth akan dimatikan setelah <xliff:g id="timeout_description">%1$s</xliff:g> jika tidak ada perangkat terhubung</string>
-    <string name="bluetooth_timeout_summary2">Jangan matikan Bluetooth secara otomatis</string>
-    <string name="bluetooth_timeout_summary_never">Jangan pernah</string>
-    <string name="bluetooth_timeout_summary_15secs">15 detik</string>
-    <string name="bluetooth_timeout_summary_30secs">30 detik</string>
-    <string name="bluetooth_timeout_summary_1min">1 menit</string>
-    <string name="bluetooth_timeout_summary_2mins">2 menit</string>
-    <string name="bluetooth_timeout_summary_5mins">5 menit</string>
-    <string name="bluetooth_timeout_summary_10mins">10 menit</string>
-    <string name="bluetooth_timeout_summary_30mins">30 menit</string>
-    <string name="bluetooth_timeout_summary_1hour">1 jam</string>
-    <string name="bluetooth_timeout_summary_2hours">2 jam</string>
-    <string name="bluetooth_timeout_summary_4hours">4 jam</string>
-    <string name="bluetooth_timeout_summary_8hours">8 jam</string>
+    <string name="bluetooth_timeout_summary">Bluetooth akan dinonaktifkan setelah <xliff:g id="timeout_description">%1$s</xliff:g> jika tidak ada perangkat terhubung</string>
+    <string name="bluetooth_timeout_summary2">Jangan nonaktifkan Bluetooth secara otomatis</string>
     <!-- Cloudflare DNS Option -->
     <!-- AdGuard DNS Option -->
     <!-- Display : Rotation -->
@@ -203,7 +193,7 @@
     <string name="enable_floating_rotation_button_title">Gunakan tombol rotasi mengapung</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front">Temukan sensor sidik jari di bagian depan ponsel Anda.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear">Temukan lokasi sensor sidik jari di bagian belakang ponsel Anda.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">Temukan sensor sidik jari di bagian belakang ponsel Anda.</string>
     <string name="fingerprint_enroll_find_sensor_message_side">Temukan sensor sidik jari di bagian samping ponsel Anda.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
     <string name="fingerprint_enroll_touch_dialog_message_front">Sentuh sensor di bagian depan ponsel Anda.</string>
@@ -214,10 +204,10 @@
     <!-- Screen setting option summary text for the item tot ake you to the stock security and location screen -->
     <string name="aosp_security_settings_summary">Setel kunci aplikasi, kunci kartu SIM, kunci penyimpanan kredensial</string>
     <!-- Battery stats view -->
-    <string name="powerusage_provider_google">Gunakan penyedia statistik baterai Pixel</string>
+    <string name="powerusage_provider_google">Gunakan statistik baterai Pixel</string>
     <string name="power_usage_provider_summary">Gunakan grafik statistik baterai dan skema daya dari Pixel</string>
     <string name="powerusage_provider_google_dialog_title">Mengubah penyedia</string>
-    <string name="powerusage_provider_google_dialog_message">Harap tutup Setelan dari recent dan buka kembali untuk menerapkan perubahan ini</string>
+    <string name="powerusage_provider_google_dialog_message">Harap tutup Setelan dari baru-baru ini dan buka kembali untuk menerapkan perubahan ini</string>
     <!-- Custom actions -->
     <string name="action_nothing">Tidak ada tindakan</string>
     <string name="action_menu">Menu</string>
@@ -302,11 +292,6 @@
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Atur ulang statistik</string>
     <string name="battery_stats_message">Statistik penggunaan baterai akan diatur ulang</string>
-    <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Aplikasi layar penuh</string>
-    <string name="display_cutout_force_fullscreen_summary">Paksa aplikasi untuk mengabaikan ruang takik</string>
-    <string name="search">Cari</string>
-    <string name="search_apps">Cari aplikasi</string>
     <!-- Pocket mode -->
     <string name="proximity_wake_title">Mencegah bangun tidak disengaja</string>
     <string name="proximity_wake_summary">Periksa sensor proximity sebelum membangunkan layar</string>
@@ -314,7 +299,7 @@
     <string name="live_display_summary">Optimalkan layar Anda berdasarkan waktu dan kondisi sekitar untuk meningkatkan keterbacaan dan mengurangi kelelahan mata</string>
     <string name="live_display_mode">Mode tampilan</string>
     <string name="live_display_color_temperature_title">Temperatur warna</string>
-    <string name="live_display_color_temperature_summary">Siang: <xliff:g id="day_temperature">%1$d</xliff:g>K;
+    <string name="live_display_color_temperature_summary">Siang: <xliff:g id="day_temperature">%1$d</xliff:g>K
 Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="derajat">%1$d</xliff:g>K</string>
     <string name="live_display_day">Siang</string>
@@ -351,7 +336,7 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_reading_mode_title">Mode membaca</string>
     <string name="live_display_reading_mode_summary">Mode warna abu-abu untuk pembacaan jangka panjang</string>
     <string name="live_display_anti_flicker_title">Anti kerlip</string>
-    <string name="live_display_anti_flicker_summary">Mencegah kerlipan berlebih dan mengurangi ketegangan mata di kondisi cahaya redup. Hal ini dapat menurunkan akurasi warna dan mempengaruhi cara beberapa item saat ditampilkan.</string>
+    <string name="live_display_anti_flicker_summary">Cegah kerlipan yang luas dan kurangi ketegangan mata dalam kondisi cahaya redup. Ini dapat menurunkan akurasi warna dan memengaruhi cara beberapa item ditampilkan.</string>
     <string name="color_calibration_title">Kalibrasi warna</string>
     <string name="color_calibration_summary">Kalibrasi warna pada layar</string>
     <string name="color_red_title">Merah</string>
@@ -376,4 +361,9 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="wallpaper_zoom_effect_title">Efek perbesar wallpaper</string>
     <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
     <string name="wallpaper_zoom_effect_summary">Perbesar wallpaper untuk menampilkan animasi kedalaman memperkecil. Wallpaper mungkin mengalami penurunan kualitas</string>
+    <!-- Toolbar -->
+    <string name="collapsing_toolbar_title">Setelan</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Kontrol pemutaran</string>
+    <string name="volume_button_music_control_summary">Saat layar mati, menekan lama tombol volume akan melewatkan trek musik</string>
 </resources>
