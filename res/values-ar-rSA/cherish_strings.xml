@@ -85,6 +85,7 @@
     <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
     <string name="face_unlock_method_default">When the screen is turned on</string>
     <string name="face_unlock_method_swipe">When swiping on lock screen</string>
+    <string name="skip_biometric_auth_confirmation_title">Skip manually confirmation</string>
     <!--Cherish Settings-->
     <string name="cherish_settings_title">Cherish Settings</string>
     <string name="cherish_settings_summary">Happiness is not available and it comes from your own actions</string>
@@ -150,35 +151,24 @@
     <!--  screen, setting option summary to change wifi timeout -->
     <string name="wifi_timeout_summary">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
     <string name="wifi_timeout_summary2">Disabled</string>
-    <string name="wifi_timeout_summary_never">Never</string>
-    <string name="wifi_timeout_summary_15secs">15 seconds</string>
-    <string name="wifi_timeout_summary_30secs">30 seconds</string>
-    <string name="wifi_timeout_summary_1min">1 minute</string>
-    <string name="wifi_timeout_summary_2mins">2 minutes</string>
-    <string name="wifi_timeout_summary_5mins">5 minutes</string>
-    <string name="wifi_timeout_summary_10mins">10 minutes</string>
-    <string name="wifi_timeout_summary_30mins">30 minutes</string>
-    <string name="wifi_timeout_summary_1hour">1 hour</string>
-    <string name="wifi_timeout_summary_2hours">2 hours</string>
-    <string name="wifi_timeout_summary_4hours">4 hours</string>
-    <string name="wifi_timeout_summary_8hours">8 hours</string>
+    <string name="custom_timeout_summary_never">Never</string>
+    <string name="custom_timeout_summary_15secs">15 seconds</string>
+    <string name="custom_timeout_summary_30secs">30 seconds</string>
+    <string name="custom_timeout_summary_1min">1 minute</string>
+    <string name="custom_timeout_summary_2mins">2 minutes</string>
+    <string name="custom_timeout_summary_5mins">5 minutes</string>
+    <string name="custom_timeout_summary_10mins">10 minutes</string>
+    <string name="custom_timeout_summary_20mins">20 minutes</string>
+    <string name="custom_timeout_summary_30mins">30 minutes</string>
+    <string name="custom_timeout_summary_1hour">1 hour</string>
+    <string name="custom_timeout_summary_2hours">2 hours</string>
+    <string name="custom_timeout_summary_4hours">4 hours</string>
+    <string name="custom_timeout_summary_8hours">8 hours</string>
     <!-- Connected devices screen, setting option name to change bluetooth timeout -->
     <string name="bluetooth_timeout">Bluetooth timeout</string>
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
     <string name="bluetooth_timeout_summary">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
     <string name="bluetooth_timeout_summary2">Do not automatically turn off Bluetooth</string>
-    <string name="bluetooth_timeout_summary_never">Never</string>
-    <string name="bluetooth_timeout_summary_15secs">15 seconds</string>
-    <string name="bluetooth_timeout_summary_30secs">30 seconds</string>
-    <string name="bluetooth_timeout_summary_1min">1 minute</string>
-    <string name="bluetooth_timeout_summary_2mins">2 minutes</string>
-    <string name="bluetooth_timeout_summary_5mins">5 minutes</string>
-    <string name="bluetooth_timeout_summary_10mins">10 minutes</string>
-    <string name="bluetooth_timeout_summary_30mins">30 minutes</string>
-    <string name="bluetooth_timeout_summary_1hour">1 hour</string>
-    <string name="bluetooth_timeout_summary_2hours">2 hours</string>
-    <string name="bluetooth_timeout_summary_4hours">4 hours</string>
-    <string name="bluetooth_timeout_summary_8hours">8 hours</string>
     <!-- Cloudflare DNS Option -->
     <!-- AdGuard DNS Option -->
     <!-- Display : Rotation -->
@@ -312,11 +302,6 @@
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Reset stats</string>
     <string name="battery_stats_message">Battery history stats are going to be reset</string>
-    <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
-    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
-    <string name="search">Search</string>
-    <string name="search_apps">Search apps</string>
     <!-- Pocket mode -->
     <string name="proximity_wake_title">Prevent accidental wake-up</string>
     <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
@@ -385,4 +370,9 @@
     <string name="wallpaper_zoom_effect_title">Wallpaper zoom effect</string>
     <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
     <string name="wallpaper_zoom_effect_summary">Zoom the wallpaper in order to show zoom-out depth animation. Wallpapers may suffer quality decrease</string>
+    <!-- Toolbar -->
+    <string name="collapsing_toolbar_title">Settings</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Playback control</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
 </resources>
