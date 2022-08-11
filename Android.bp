@@ -54,6 +54,8 @@ android_library {
         "androidx.core_core",
         "androidx.appcompat_appcompat",
         "androidx.cardview_cardview",
+        "androidx.fragment_fragment-ktx",
+        "androidx.lifecycle_lifecycle-runtime-ktx",
         "androidx.preference_preference",
         "androidx.recyclerview_recyclerview",
         "androidx.window_window",
@@ -79,6 +81,7 @@ android_library {
         "WifiTrackerLib",
         "SettingsLibActivityEmbedding",
         "accountfeatureprovidergoogle",
+        "SettingsLibMainSwitchPreference",
     ],
 
     libs: [
