@@ -286,4 +286,8 @@
 	
 	<!-- Battery temperature -->
     <string name="battery_temp">Battery temperature</string>
+	
+	 <!-- Game Space -->
+    <string name="game_space_title">Game Space</string>
+    <string name="game_space_summary">Enhance your gaming experience</string>
 </resources>
