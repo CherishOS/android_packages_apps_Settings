@@ -217,4 +217,8 @@
     <string name="hidden_string">Hidden</string>
     <string name="navigation_bar_ime_space_title">Space under the keyboard</string>
     <string name="navigation_bar_ime_space_value_narrow">Narrow</string>
+	
+	 <!-- Game Space -->
+    <string name="game_space_title">Game Space</string>
+    <string name="game_space_summary">Enhance your gaming experience</string>
 </resources>
