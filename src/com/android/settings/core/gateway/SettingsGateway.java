@@ -181,6 +181,8 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 import com.cherish.settings.CherishSettings;
 import com.android.settings.livedisplay.LiveDisplaySettings;
 
+import com.google.android.settings.security.SecurityHubDashboard;
+
 import ink.kscope.settings.wifi.tether.WifiTetherClientManager;
 
 public class SettingsGateway {
@@ -352,7 +354,8 @@ public class SettingsGateway {
             TurnScreenOnDetails.class.getName(),
             CherishSettings.class.getName(),
             LiveDisplaySettings.class.getName(),
-            WifiTetherClientManager.class.getName()
+            WifiTetherClientManager.class.getName(),
+            SecurityHubDashboard.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
