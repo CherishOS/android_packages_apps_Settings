@@ -3,5 +3,5 @@
     <item>
         <com.android.settings.widget.OPAdaptiveIconShapeDrawable android:height="@dimen/dashboard_tile_image_size" android:width="@dimen/dashboard_tile_image_size" android:color="@color/oneplus_homepage_icon_background"/>
     </item>
-    <item android:gravity="center" android:height="@dimen/dashboard_tile_foreground_image_size" android:width="@dimen/dashboard_tile_foreground_image_size" android:drawable="@drawable/ic_phone_info"/>
+    <item android:gravity="center" android:height="@dimen/dashboard_tile_foreground_image_size_op" android:width="@dimen/dashboard_tile_foreground_image_size_op" android:drawable="@drawable/ic_phone_info_op"/>
 </layer-list>

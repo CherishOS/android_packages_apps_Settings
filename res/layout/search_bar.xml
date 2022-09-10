@@ -19,13 +19,16 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="@dimen/search_bar_margin">
+    android:layout_marginBottom="20dp"
+    android:layout_marginTop="@dimen/search_bar_margin">
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/search_bar"
         style="@style/SearchBarStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
         android:layout_weight="1">
         <Toolbar
             android:id="@+id/search_action_bar"
@@ -39,6 +42,7 @@
             <TextView
                 android:id="@+id/search_action_bar_title"
                 style="@style/TextAppearance.SearchBar"
+                android:textColor="@color/op_control_text_color_primary"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingStart="@dimen/search_bar_title_padding_start"

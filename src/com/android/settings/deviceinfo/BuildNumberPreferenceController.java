@@ -32,6 +32,8 @@ import android.widget.Toast;
 
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
+import androidx.preference.PreferenceCategory;
+import androidx.preference.PreferenceScreen;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
@@ -105,6 +107,21 @@ public class BuildNumberPreferenceController extends BasePreferenceController im
     @Override
     public CharSequence getSummary() {
         return BidiFormatter.getInstance().unicodeWrap(Build.DISPLAY);
+    }
+
+    @Override
+    public void displayPreference(PreferenceScreen screen) {
+        super.displayPreference(screen);
+        final Preference preference = screen.findPreference(getPreferenceKey());
+        if (!isAvailable() || preference == null || !preference.isVisible()) {
+            return;
+        }
+
+        preference.setTitle(R.string.build_number);
+        preference.setCopyingEnabled(true);
+        preference.setOrder(18);
+        preference.setKey("build_number");
+        preference.setLayoutResource(R.layout.arc_card_about_top);
     }
 
     @Override

@@ -19,10 +19,29 @@ package com.android.settings.deviceinfo.hardwareinfo;
 import android.app.settings.SettingsEnums;
 import android.content.Context;
 
+import com.android.settingslib.core.lifecycle.Lifecycle;
+import com.android.settingslib.core.AbstractPreferenceController;
+
+import com.android.settings.deviceinfo.BluetoothAddressPreferenceController;
+import com.android.settings.deviceinfo.FccEquipmentIdPreferenceController;
+import com.android.settings.deviceinfo.FeedbackPreferenceController;
+import com.android.settings.deviceinfo.IpAddressPreferenceController;
+import com.android.settings.deviceinfo.WifiMacAddressPreferenceController;
+import com.android.settings.deviceinfo.imei.ImeiInfoPreferenceController;
+import com.android.settings.deviceinfo.simstatus.SimStatusPreferenceController;
+import com.android.settings.deviceinfo.ManualPreferenceController;
+import com.android.settings.deviceinfo.RegulatoryInfoPreferenceController;
+import com.android.settings.deviceinfo.SafetyInfoPreferenceController;
+import com.android.settings.deviceinfo.WifiMacAddressPreferenceController;
+import com.android.settings.deviceinfo.simstatus.SimStatusPreferenceController;
+
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @SearchIndexable
 public class HardwareInfoFragment extends DashboardFragment {
@@ -37,6 +56,33 @@ public class HardwareInfoFragment extends DashboardFragment {
     @Override
     protected int getPreferenceScreenResId() {
         return R.xml.hardware_info;
+    }
+
+
+    @Override
+    protected List<AbstractPreferenceController> createPreferenceControllers(Context context) {
+        return buildPreferenceControllers(context, this /* fragment */, getSettingsLifecycle());
+    }
+
+    private static List<AbstractPreferenceController> buildPreferenceControllers(
+            Context context, HardwareInfoFragment fragment, Lifecycle lifecycle) {
+        final List<AbstractPreferenceController> controllers = new ArrayList<>();
+        controllers.add(new SimStatusPreferenceController(context, fragment));
+        controllers.add(new IpAddressPreferenceController(context, lifecycle));
+        controllers.add(new WifiMacAddressPreferenceController(context, lifecycle));
+        controllers.add(new BluetoothAddressPreferenceController(context, lifecycle));
+        controllers.add(new RegulatoryInfoPreferenceController(context));
+        controllers.add(new SafetyInfoPreferenceController(context));
+        controllers.add(new ManualPreferenceController(context));
+        controllers.add(new FeedbackPreferenceController(fragment, context));
+        controllers.add(new FccEquipmentIdPreferenceController(context));
+        return controllers;
+    }
+
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        use(ImeiInfoPreferenceController.class).setHost(this /* parent */);
     }
 
     @Override

@@ -19,7 +19,7 @@ package com.android.settings.deviceinfo.aboutphone;
 import android.content.Context;
 
 import com.android.settings.core.BasePreferenceController;
-import com.android.settings.deviceinfo.DeviceNamePreferenceController;
+import com.android.settings.deviceinfo.firmwareversion.AboutHeaderTextPreferenceController;
 
 public class TopLevelAboutDevicePreferenceController extends BasePreferenceController {
 
@@ -34,8 +34,8 @@ public class TopLevelAboutDevicePreferenceController extends BasePreferenceContr
 
     @Override
     public CharSequence getSummary() {
-        final DeviceNamePreferenceController deviceNamePreferenceController =
-                new DeviceNamePreferenceController(mContext, "unused_key");
-        return deviceNamePreferenceController.getSummary();
+        final AboutHeaderTextPreferenceController aboutHeaderTextPreferenceController =
+                new AboutHeaderTextPreferenceController(mContext, "unused_key");
+        return aboutHeaderTextPreferenceController.getSummary();
     }
 }

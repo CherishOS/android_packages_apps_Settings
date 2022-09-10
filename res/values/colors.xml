@@ -225,6 +225,9 @@
     <!-- OnePlus -->
     <color name="settingsHeaderColor">@*android:color/accent_device_default_light</color>
     <color name="op_control_text_color_primary">@color/op_control_text_color_primary_light</color>
+    <color name="op_control_text_color_primary_inverse">#ffffff</color>
+    <color name="op_control_text_color_primary_inverse_translucent">#E0ffffff</color>
+    <color name="op_control_text_color_primary_translucent">#E0000000</color>
     <color name="op_control_text_color_primary_light">#d8000000</color>
     <color name="op_control_text_color_secondary">@color/op_control_text_color_secondary_light</color>
     <color name="op_control_text_color_secondary_light">#66000000</color>

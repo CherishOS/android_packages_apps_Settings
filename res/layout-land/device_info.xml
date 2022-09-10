@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+Copyright (C) The 2022 dotOS Project
+Copyright (C) The 2022 RiceDroid Project
+   Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+         http://www.apache.org/licenses/LICENSE-2.0
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/entity_header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="6sp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:minWidth="160dp"
+        app:cardBackgroundColor="?android:attr/colorAccent"
+        app:strokeColor="@color/op_control_text_color_primary"
+        app:strokeWidth="4dp"
+        app:cardCornerRadius="32dp"
+        app:cardElevation="0dp">
+
+        <com.rice.utils.WallpaperBlurView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:gravity="center"
+            android:elevation="0dp"
+            android:contentDescription="@null"
+            android:foreground="@drawable/wallpaper_scrim"
+            android:background="@drawable/wallpaper_scrim"
+            android:orientation="vertical" />
+                
+                <LinearLayout
+                    android:id="@+id/banner_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:id="@+id/romVersion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:fadingEdge="horizontal"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:scrollHorizontally="true"
+                        android:drawableLeft="@drawable/ic_rom_logo_wrapper"
+                        android:drawablePadding="8dp"
+                        android:singleLine="true"
+                        android:textColor="@*android:color/white"
+                        android:textSize="40sp"
+                         />
+
+                    <TextView
+                        android:id="@+id/deviceName"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:fadingEdge="horizontal"
+                        android:paddingTop="9dp"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:scrollHorizontally="true"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:textColor="@*android:color/white"
+                        android:textSize="16sp"
+                         />
+                        
+                </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

@@ -18,8 +18,39 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
-    android:title="@string/model_info"
+    android:title="@string/cherish_model_info"
     settings:keywords="@string/keywords_model_and_hardware">
+    
+    <PreferenceCategory
+        android:key="device_detail_category"
+        android:selectable="false"
+        android:title="@string/my_device_info_device_details_category_title">
+        
+        <!-- IMEI -->
+        <com.android.settings.deviceinfo.PhoneNumberSummaryPreference
+            android:key="imei_info"
+            android:order="31"
+            android:title="@string/status_imei"
+            android:summary="@string/summary_placeholder"
+            settings:keywords="@string/keywords_imei_info"
+            settings:enableCopying="true"
+            settings:controller="com.android.settings.deviceinfo.imei.ImeiInfoPreferenceController"/>    
+
+        <!-- SIM status -->
+        <Preference
+            android:key="sim_status"
+            android:order="43"
+            android:title="@string/sim_status_title"
+            settings:keywords="@string/keywords_sim_status"
+            android:summary="@string/summary_placeholder"
+            settings:enableCopying="true"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="model_info"
+        android:selectable="false"
+        android:title="@string/model_info">
 
     <!-- Model -->
     <Preference
@@ -66,4 +97,64 @@
         settings:controller="com.android.settings.deviceinfo.hardwareinfo.HardwareRevisionPreferenceController"
         settings:enableCopying="true"/>
 
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+    	android:key="device_identifiers"
+        android:title="@string/my_device_info_device_identifiers_category_title">
+
+   <Preference
+        android:key="base_band"
+        android:title="@string/baseband_version"
+        android:summary="@string/summary_placeholder"
+        android:selectable="false"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.BasebandVersionPreferenceController"/>
+            
+        <!-- Bluetooth address -->
+        <Preference
+            android:key="bt_address"
+            android:title="@string/status_bt_address"
+            android:summary="@string/summary_placeholder"
+            android:selectable="false"
+            settings:enableCopying="true"/>
+
+        <!-- Factory Wi-Fi MAC address -->
+        <Preference
+            android:key="wifi_mac_address"
+            android:title="@string/status_device_wifi_mac_address"
+            android:summary="@string/summary_placeholder"
+            android:selectable="false"
+            settings:enableCopying="true"/>
+            
+        <!--IP address -->
+        <Preference
+            android:key="wifi_ip_address"
+            android:title="@string/wifi_ip_address"
+            android:summary="@string/summary_placeholder"
+            android:selectable="false"
+            settings:enableCopying="true"/>
+            
+        <!-- Wi-Fi MAC address -->
+        <Preference
+            android:key="saved_accesspoints_wifi_mac_address"
+            android:title="@string/status_wifi_mac_address"
+            android:summary="@string/view_saved_network"
+            android:fragment="com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSettings2"
+            settings:enableCopying="false"/>
+    
+        <!-- Manual -->
+        <Preference
+            android:key="manual"
+            android:title="@string/manual">
+            <intent android:action="android.settings.SHOW_MANUAL"/>
+        </Preference>
+
+        <!-- Feedback on the device -->
+        <Preference
+            android:key="device_feedback"
+            android:title="@string/device_feedback"
+            settings:keywords="@string/keywords_device_feedback"/>
+
+    </PreferenceCategory>
 </PreferenceScreen>
