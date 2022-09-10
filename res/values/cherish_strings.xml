@@ -264,4 +264,8 @@
     <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
     <string name="search">Search</string>
     <string name="search_apps">Search apps</string>
+	
+	<!-- Volume Media Output Toggle -->
+    <string name="volume_media_output_toggle_title">Show media controller on volume panel</string>
+    <string name="volume_media_output_toggle_summary">Show media controller if there is an active stream</string>
 </resources>
