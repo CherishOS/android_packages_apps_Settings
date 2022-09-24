@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- SELinux Status -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status">SELinux-Status</string>
+    <string name="selinux_status_disabled">Deaktiviert</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
-    <string name="device_info_protected_single_press">Tap to show info</string>
+    <string name="device_info_protected_single_press">Antippen, um Info anzuzeigen</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Maintainer -->
-    <string name="maintainer">Maintainer</string>
+    <string name="maintainer">Entwickler</string>
     <!-- Battery temperature -->
-    <string name="battery_temp">Battery temperature</string>
+    <string name="battery_temp">Akkutemperatur</string>
     <!-- About phone screen, Cherish OS version -->
     <string name="cherish_version">Cherish version</string>
-    <string name="cherish_version_default">Unknown</string>
+    <string name="cherish_version_default">Unbekannt</string>
     <string name="keywords_cherish_version">CherishOS version, cherish version</string>
     <!-- About phone screen, build date -->
-    <string name="about_device_name">Device</string>
-    <string name="build_date">Build date</string>
+    <string name="about_device_name">Gerät</string>
+    <string name="build_date">Build-Datum</string>
     <string name="build_date_default">2015-01-01-0000</string>
-    <string name="keywords_build_date">build date, build info</string>
+    <string name="keywords_build_date">Build-Datum, Build-Info</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">Swipe to screenshot</string>
     <string name="swipe_to_screenshot_gesture_summary">Swipe three fingers to take screenshot</string>
@@ -38,13 +38,13 @@
     <string name="proximity_wake_title">Prevent accidental wake-up</string>
     <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
     <!-- Hardware info -->
-    <string name="platform_revision">Platform</string>
-    <string name="total_ram">Total RAM</string>
+    <string name="platform_revision">Plattform</string>
+    <string name="total_ram">Gesamter RAM</string>
     <!--Cherish Settings-->
-    <string name="cherish_settings_title">Cherish Settings</string>
+    <string name="cherish_settings_title">Cherish Einstellungen</string>
     <string name="cherish_settings_summary">Happiness is not available and it comes from your own actions</string>
     <!-- Custom light color -->
-    <string name="custom_light_title">Light color</string>
+    <string name="custom_light_title">Helle Farben</string>
     <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
     <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
     <string name="value_equals_default">def</string>
@@ -52,15 +52,15 @@
     <string name="screen_off_udfps_title">Screen off FOD</string>
     <string name="screen_off_udfps_summary">Keep FOD enabled when the screen is off</string>
     <!-- FastCharge feature -->
-    <string name="fast_charging_title">Fast charging</string>
+    <string name="fast_charging_title">Schnelles Laden</string>
     <string name="fast_charging_summary">Disable to reduce the heat produced by the device while charging or to extend the lifespan of the battery</string>
     <!-- Adaptive Playback -->
-    <string name="adaptive_playback_screen_title">Smart Pause</string>
-    <string name="adaptive_playback_master_switch_title">Use Smart Pause</string>
-    <string name="adaptive_playback_disabled_summary">Off</string>
+    <string name="adaptive_playback_screen_title">Adaptive Medienwiedergabe</string>
+    <string name="adaptive_playback_master_switch_title">Adaptive Medienwiedergabe verwenden</string>
+    <string name="adaptive_playback_disabled_summary">Aus</string>
     <string name="adaptive_playback_intro_text">Automatically pauses media when the volume is muted and will resume automatically when volume is restored within the set time.</string>
     <string name="adaptive_playback_timeout_title">Use a timeout of</string>
-    <string name="adaptive_playback_timeout_none">No timeout</string>
+    <string name="adaptive_playback_timeout_none">Kein Timeout</string>
     <string name="adaptive_playback_timeout_none_summary">On (no timeout)</string>
     <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
     <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
