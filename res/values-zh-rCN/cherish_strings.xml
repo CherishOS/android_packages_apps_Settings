@@ -16,15 +16,15 @@
     <!-- About phone screen, Cherish OS version -->
     <string name="cherish_version">Cherish 版本</string>
     <string name="cherish_version_default">未知</string>
-    <string name="keywords_cherish_version">CherishOS version, cherish version</string>
+    <string name="keywords_cherish_version">CherishOS 版本，cherish版本</string>
     <!-- About phone screen, build date -->
-    <string name="about_device_name">Device</string>
+    <string name="about_device_name">设备</string>
     <string name="build_date">构建日期</string>
     <string name="build_date_default">2015-01-01-0000</string>
-    <string name="keywords_build_date">build date, build info</string>
+    <string name="keywords_build_date">编译日期，编译信息</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="swipe_to_screenshot_gesture_title">Swipe to screenshot</string>
-    <string name="swipe_to_screenshot_gesture_summary">Swipe three fingers to take screenshot</string>
+    <string name="swipe_to_screenshot_gesture_title">滑动截图</string>
+    <string name="swipe_to_screenshot_gesture_summary">三指下滑截图</string>
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">最低刷新率</string>
     <string name="max_refresh_rate_title">最高刷新率</string>
@@ -38,8 +38,8 @@
     <string name="proximity_wake_title">防止意外唤醒</string>
     <string name="proximity_wake_summary">在唤醒屏幕前检查距离感应器</string>
     <!-- Hardware info -->
-    <string name="platform_revision">Platform</string>
-    <string name="total_ram">Total RAM</string>
+    <string name="platform_revision">平台</string>
+    <string name="total_ram">总内存</string>
     <!--Cherish Settings-->
     <string name="cherish_settings_title">Cherish 设置</string>
     <string name="cherish_settings_summary">快乐来自您自己的行动</string>
@@ -49,14 +49,14 @@
     <string name="custom_light_off_time_title">呼吸灯闪烁时关闭时间 (毫秒)</string>
     <string name="value_equals_default">默认</string>
     <!-- Screen off FOD -->
-    <string name="screen_off_udfps_title">Screen off FOD</string>
-    <string name="screen_off_udfps_summary">Keep FOD enabled when the screen is off</string>
+    <string name="screen_off_udfps_title">息屏指纹</string>
+    <string name="screen_off_udfps_summary">当屏幕关闭时保持屏下指纹开启</string>
     <!-- FastCharge feature -->
-    <string name="fast_charging_title">Fast charging</string>
-    <string name="fast_charging_summary">Disable to reduce the heat produced by the device while charging or to extend the lifespan of the battery</string>
+    <string name="fast_charging_title">正在快速充电</string>
+    <string name="fast_charging_summary">禁用以减少设备在充电时产生的热量或延长电池的使用寿命</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">智能暂停</string>
-    <string name="adaptive_playback_master_switch_title">Use Smart Pause</string>
+    <string name="adaptive_playback_master_switch_title">使用自适应播放</string>
     <string name="adaptive_playback_disabled_summary">关闭</string>
     <string name="adaptive_playback_intro_text">音量静音时自动暂停媒体，并在设定时间内恢复音量时自动恢复</string>
     <string name="adaptive_playback_timeout_title">使用超时</string>
@@ -77,9 +77,9 @@
     <string name="doze_double_tap_title">点按两次即可查看手机</string>
     <string name="doze_double_tap_summary">双击快速显示通知</string>
     <!-- Fingerprint wake-and-unlock -->
-    <string name="fingerprint_wake_unlock_title">Touch fingerprint to unlock</string>
-    <string name="fingerprint_wake_unlock_touch">Listens for events while the screen is off</string>
-    <string name="fingerprint_wake_unlock_press">Only listens for events once the screen is on</string>
+    <string name="fingerprint_wake_unlock_title">触摸指纹解锁</string>
+    <string name="fingerprint_wake_unlock_touch">在屏幕关闭时监听事件</string>
+    <string name="fingerprint_wake_unlock_press">仅在屏幕开启后监听事件</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">乱序布局</string>
     <string name="unlock_scramble_pin_layout_summary">当解锁设备时使用乱序 PIN 布局</string>
@@ -87,10 +87,10 @@
     <string name="unlock_quick_unlock_control_title">快速解锁</string>
     <string name="unlock_quick_unlock_control_summary">输入正确的 PIN/密码时自动解锁</string>
     <!-- Fullscreen gestures -->
-    <string name="navbar_category">Navigation bar</string>
+    <string name="navbar_category">导航栏</string>
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">导航栏长度</string>
-    <string name="hide_label">Hidden</string>
+    <string name="hide_label">隐藏</string>
     <string name="long_label">长</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">允许客户端使用 VPN</string>
@@ -98,24 +98,24 @@
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">关联铃声&amp; 通知的音量</string>
     <!-- Increasing ring tone volume -->
-    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
-    <string name="increasing_ring_min_volume_title">Start volume</string>
-    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+    <string name="increasing_ring_volume_option_title">铃声音量渐强</string>
+    <string name="increasing_ring_min_volume_title">初始音量</string>
+    <string name="increasing_ring_ramp_up_time_title">铃声渐强时长</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">返回手势动画</string>
     <string name="back_gesture_arrow_summary">使用返回手势时显示一个小箭头动画</string>
     <!-- Pocket judge -->
-    <string name="pocket_judge_title">Pocket detection</string>
-    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+    <string name="pocket_judge_title">口袋检测</string>
+    <string name="pocket_judge_summary">当设备在口袋中时屏蔽屏幕和按键操作</string>
     <!-- High touch sensitivity -->
-    <string name="high_touch_sensitivity_title">High touch sensitivity</string>
-    <string name="high_touch_sensitivity_summary">Increase touchscreen sensitivity so it can be used while wearing gloves</string>
+    <string name="high_touch_sensitivity_title">高触摸灵敏度</string>
+    <string name="high_touch_sensitivity_summary">增加触摸屏的灵敏度，以便在戴手套时使用</string>
     <!-- Touchscreen hovering -->
-    <string name="touchscreen_hovering_title">Touchscreen hovering</string>
-    <string name="touchscreen_hovering_summary">Allows you to hover the screen like a mouse in web browsers, remote desktops, etc</string>
+    <string name="touchscreen_hovering_title">悬浮操作</string>
+    <string name="touchscreen_hovering_summary">允许您把手指悬停在屏幕上作为浏览器、远程桌面等的鼠标指针</string>
     <!-- High touch polling rate -->
-    <string name="high_touch_polling_rate_title">High touch polling rate</string>
-    <string name="high_touch_polling_rate_summary">Increase touchscreen polling rate</string>
+    <string name="high_touch_polling_rate_title">高触控采样率</string>
+    <string name="high_touch_polling_rate_summary">提高触摸屏采样率</string>
     <!-- LiveDisplay -->
     <string name="live_display_summary">基于时间和环境条件来优化您的屏幕以改善可读性和减少眼睛疲劳</string>
     <string name="live_display_mode">显示模式</string>
@@ -176,9 +176,9 @@
     <!-- Cloudflare DNS Option -->
     <!-- AdGuard DNS Option -->
     <!-- Navigation bar IME space -->
-    <string name="hidden_string">Hidden</string>
-    <string name="navigation_bar_ime_space_title">Space under the keyboard</string>
-    <string name="navigation_bar_ime_space_value_narrow">Narrow</string>
+    <string name="hidden_string">隐藏</string>
+    <string name="navigation_bar_ime_space_title">键盘下的空间</string>
+    <string name="navigation_bar_ime_space_value_narrow">紧凑</string>
     <!-- Game Space -->
     <string name="game_space_title">游戏空间</string>
     <string name="game_space_summary">增强您的游戏体验</string>
@@ -206,36 +206,36 @@
     <string name="wifi_hotspot_unblock_client_dialog_text">此设备 \"<xliff:g id="device_name">%1$s</xliff:g>\" 将能够连接到这个热点</string>
     <string name="wifi_hotspot_client_manager_footer_text">目前没有可用的客户端。连接和被屏蔽的设备将在可存档时列出。</string>
     <!--  screen, setting option summary to change custom timeout -->
-    <string name="custom_timeout_summary_never">Never</string>
-    <string name="custom_timeout_summary_5secs">5 seconds</string>
-    <string name="custom_timeout_summary_10secs">10 seconds</string>
-    <string name="custom_timeout_summary_15secs">15 seconds</string>
-    <string name="custom_timeout_summary_30secs">30 seconds</string>
-    <string name="custom_timeout_summary_1min">1 minute</string>
-    <string name="custom_timeout_summary_2mins">2 minutes</string>
-    <string name="custom_timeout_summary_5mins">5 minutes</string>
-    <string name="custom_timeout_summary_10mins">10 minutes</string>
-    <string name="custom_timeout_summary_20mins">20 minutes</string>
-    <string name="custom_timeout_summary_30mins">30 minutes</string>
-    <string name="custom_timeout_summary_1hour">1 hour</string>
-    <string name="custom_timeout_summary_2hours">2 hours</string>
-    <string name="custom_timeout_summary_4hours">4 hours</string>
-    <string name="custom_timeout_summary_8hours">8 hours</string>
+    <string name="custom_timeout_summary_never">从不</string>
+    <string name="custom_timeout_summary_5secs">5 秒</string>
+    <string name="custom_timeout_summary_10secs">10 秒</string>
+    <string name="custom_timeout_summary_15secs">15秒</string>
+    <string name="custom_timeout_summary_30secs">30秒</string>
+    <string name="custom_timeout_summary_1min">1分钟</string>
+    <string name="custom_timeout_summary_2mins">2分钟</string>
+    <string name="custom_timeout_summary_5mins">5分钟</string>
+    <string name="custom_timeout_summary_10mins">10分钟</string>
+    <string name="custom_timeout_summary_20mins">20分钟</string>
+    <string name="custom_timeout_summary_30mins">30分钟</string>
+    <string name="custom_timeout_summary_1hour">1 小时</string>
+    <string name="custom_timeout_summary_2hours">2 小时</string>
+    <string name="custom_timeout_summary_4hours">4 小时</string>
+    <string name="custom_timeout_summary_8hours">8 小时</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">您未指定任何证书，因此无法为您设置私密连接。</string>
     <!-- CherishOS versioning -->
-    <string name="cherish_version_title">Cherish Version</string>
-    <string name="cherish_device_title">Device</string>
-    <string name="cherish_release_type_title">Release type</string>
-    <string name="cherish_maintainer_title">Maintainer</string>
+    <string name="cherish_version_title">Cherish 版本</string>
+    <string name="cherish_device_title">设备</string>
+    <string name="cherish_release_type_title">版本类型</string>
+    <string name="cherish_maintainer_title">维护者</string>
     <!-- About page -->
-    <string name="battery">Battery</string>
-    <string name="display">Display</string>
-    <string name="storage">Storage</string>
-    <string name="chipset">Chipset</string>
+    <string name="battery">电量</string>
+    <string name="display">显示</string>
+    <string name="storage">储存</string>
+    <string name="chipset">芯片组</string>
     <!-- Settings homepage alternative header -->
-    <string name="top_level_settings_title">Settings</string>
-    <string name="wellbeing_title">Google Wellbeing</string>
+    <string name="top_level_settings_title">设置</string>
+    <string name="wellbeing_title">数字健康</string>
     <string name="usercard_summary">当前活动用户，点击获取更多信息</string>
     <string name="connectivity_category_title">连通性</string>
     <!-- Notch: Full screen apps -->
