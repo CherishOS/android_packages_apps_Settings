@@ -78,8 +78,8 @@
     <string name="doze_double_tap_summary">Tocar duas vezes na tela para verificar o smartphone</string>
     <!-- Fingerprint wake-and-unlock -->
     <string name="fingerprint_wake_unlock_title">Toque na impressão digital para desbloquear</string>
-    <string name="fingerprint_wake_unlock_touch">Listens for events while the screen is off</string>
-    <string name="fingerprint_wake_unlock_press">Only listens for events once the screen is on</string>
+    <string name="fingerprint_wake_unlock_touch">Aguarda eventos enquanto a tela está desligada</string>
+    <string name="fingerprint_wake_unlock_press">Aguarda eventos somente quando a tela está ligada</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Embaralhar números</string>
     <string name="unlock_scramble_pin_layout_summary">Embaralhar PIN ao desbloquear o dispositivo</string>
@@ -114,8 +114,8 @@
     <string name="touchscreen_hovering_title">Flutuar o dedo na tela</string>
     <string name="touchscreen_hovering_summary">Permite que você flutue o dedo na tela como um mouse em navegadores web, desktops remotos, etc</string>
     <!-- High touch polling rate -->
-    <string name="high_touch_polling_rate_title">High touch polling rate</string>
-    <string name="high_touch_polling_rate_summary">Increase touchscreen polling rate</string>
+    <string name="high_touch_polling_rate_title">Alta taxa de sondagem de toque</string>
+    <string name="high_touch_polling_rate_summary">Aumentar a taxa de consulta da tela</string>
     <!-- LiveDisplay -->
     <string name="live_display_summary">Otimiza sua tela com base na hora do dia e nas condições do ambiente para melhorar a legibilidade e reduzir o cansaço visual</string>
     <string name="live_display_mode">Modo de exibição</string>
@@ -177,7 +177,7 @@
     <!-- AdGuard DNS Option -->
     <!-- Navigation bar IME space -->
     <string name="hidden_string">Oculto</string>
-    <string name="navigation_bar_ime_space_title">Space under the keyboard</string>
+    <string name="navigation_bar_ime_space_title">Espaço sob o teclado</string>
     <string name="navigation_bar_ime_space_value_narrow">Estreito</string>
     <!-- Game Space -->
     <string name="game_space_title">Espaço de Jogo</string>
@@ -219,22 +219,22 @@
     <string name="custom_timeout_summary_30mins">30 minutos</string>
     <string name="custom_timeout_summary_1hour">1 hora</string>
     <string name="custom_timeout_summary_2hours">2 horas</string>
-    <string name="custom_timeout_summary_4hours">4 hours</string>
-    <string name="custom_timeout_summary_8hours">8 hours</string>
+    <string name="custom_timeout_summary_4hours">4 horas</string>
+    <string name="custom_timeout_summary_8hours">8 horas</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Nenhum certificado especificado. Sua conexão não será particular.</string>
     <!-- CherishOS versioning -->
-    <string name="cherish_version_title">Cherish Version</string>
-    <string name="cherish_device_title">Device</string>
-    <string name="cherish_release_type_title">Release type</string>
-    <string name="cherish_maintainer_title">Maintainer</string>
+    <string name="cherish_version_title">Versão do Cherish</string>
+    <string name="cherish_device_title">Dispositivo</string>
+    <string name="cherish_release_type_title">Tipo de lançamento</string>
+    <string name="cherish_maintainer_title">Mantenedor</string>
     <!-- About page -->
-    <string name="battery">Battery</string>
-    <string name="display">Display</string>
-    <string name="storage">Storage</string>
+    <string name="battery">Bateria</string>
+    <string name="display">Tela</string>
+    <string name="storage">Armazenamento</string>
     <string name="chipset">Chipset</string>
     <!-- Settings homepage alternative header -->
-    <string name="top_level_settings_title">Settings</string>
+    <string name="top_level_settings_title">Configurações</string>
     <string name="wellbeing_title">Bem-estar digital</string>
     <string name="usercard_summary">Usuário ativo atual, toque para obter mais informações</string>
     <string name="connectivity_category_title">conectividade</string>
