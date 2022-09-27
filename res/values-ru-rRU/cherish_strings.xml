@@ -16,15 +16,15 @@
     <!-- About phone screen, Cherish OS version -->
     <string name="cherish_version">Версия CherishOS</string>
     <string name="cherish_version_default">Неизвестно</string>
-    <string name="keywords_cherish_version">CherishOS version, cherish version</string>
+    <string name="keywords_cherish_version">Версия CherishOS</string>
     <!-- About phone screen, build date -->
-    <string name="about_device_name">Device</string>
+    <string name="about_device_name">Устройство</string>
     <string name="build_date">Дата сборки</string>
     <string name="build_date_default">2015-01-01-0000</string>
-    <string name="keywords_build_date">build date, build info</string>
+    <string name="keywords_build_date">дата сборки, информация о сборке</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="swipe_to_screenshot_gesture_title">Swipe to screenshot</string>
-    <string name="swipe_to_screenshot_gesture_summary">Swipe three fingers to take screenshot</string>
+    <string name="swipe_to_screenshot_gesture_title">Проведите для скриншота</string>
+    <string name="swipe_to_screenshot_gesture_summary">Проведите тремя пальцами для создания скриншота</string>
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">Минимальная частота обновления</string>
     <string name="max_refresh_rate_title">Максимальная частота обновления</string>
@@ -38,8 +38,8 @@
     <string name="proximity_wake_title">Предотвращение случайного пробуждения</string>
     <string name="proximity_wake_summary">Проверять датчик приближения перед пробуждением экрана</string>
     <!-- Hardware info -->
-    <string name="platform_revision">Platform</string>
-    <string name="total_ram">Total RAM</string>
+    <string name="platform_revision">Платформа</string>
+    <string name="total_ram">Всего ОЗУ</string>
     <!--Cherish Settings-->
     <string name="cherish_settings_title">Настройки CherishOS</string>
     <string name="cherish_settings_summary">Чтобы стать счастливым - нужно действовать</string>
@@ -49,14 +49,14 @@
     <string name="custom_light_off_time_title">Время выключения света во время импульса светодиода (мс)</string>
     <string name="value_equals_default">умолч.</string>
     <!-- Screen off FOD -->
-    <string name="screen_off_udfps_title">Screen off FOD</string>
-    <string name="screen_off_udfps_summary">Keep FOD enabled when the screen is off</string>
+    <string name="screen_off_udfps_title">FOD экран выкл</string>
+    <string name="screen_off_udfps_summary">Оставить FOD включенным при выключенном экране</string>
     <!-- FastCharge feature -->
-    <string name="fast_charging_title">Fast charging</string>
-    <string name="fast_charging_summary">Disable to reduce the heat produced by the device while charging or to extend the lifespan of the battery</string>
+    <string name="fast_charging_title">Быстрая зарядка</string>
+    <string name="fast_charging_summary">Отключите, чтобы уменьшить нагрев устройства во время зарядки или продлить срок службы аккумулятора</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Умная пауза</string>
-    <string name="adaptive_playback_master_switch_title">Use Smart Pause</string>
+    <string name="adaptive_playback_master_switch_title">Использовать умную паузу</string>
     <string name="adaptive_playback_disabled_summary">Выключено</string>
     <string name="adaptive_playback_intro_text">Автоматически приостанавливает воспроизведение медиа при отключении громкости и автоматически возобновляет его при увеличении громкости в течение заданного времени.</string>
     <string name="adaptive_playback_timeout_title">Таймаут воспроизведения</string>
@@ -77,9 +77,9 @@
     <string name="doze_double_tap_title">Дважды нажать, чтобы проверить уведомления</string>
     <string name="doze_double_tap_summary">Дважды нажать, чтобы включить пульсирующие уведомления</string>
     <!-- Fingerprint wake-and-unlock -->
-    <string name="fingerprint_wake_unlock_title">Touch fingerprint to unlock</string>
-    <string name="fingerprint_wake_unlock_touch">Listens for events while the screen is off</string>
-    <string name="fingerprint_wake_unlock_press">Only listens for events once the screen is on</string>
+    <string name="fingerprint_wake_unlock_title">Нажмите на отпечаток пальца для разблокировки</string>
+    <string name="fingerprint_wake_unlock_touch">Прослушивает события при выключенном экране</string>
+    <string name="fingerprint_wake_unlock_press">Прослушивает события только после включения экрана</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Перемешать расположение кнопок</string>
     <string name="unlock_scramble_pin_layout_summary">Перемешать схему PIN-кода при разблокировке устройства</string>
@@ -87,10 +87,10 @@
     <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
     <string name="unlock_quick_unlock_control_summary">Автоматически разблокировать при вводе правильного PIN-кода/пароля</string>
     <!-- Fullscreen gestures -->
-    <string name="navbar_category">Navigation bar</string>
+    <string name="navbar_category">Панель навигации</string>
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">Длина навигационной панели жестов</string>
-    <string name="hide_label">Hidden</string>
+    <string name="hide_label">Скрытый</string>
     <string name="long_label">Длинная</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Разрешить клиентам использовать VPN</string>
@@ -98,24 +98,24 @@
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Объединить громкость звонка и уведомлений</string>
     <!-- Increasing ring tone volume -->
-    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
-    <string name="increasing_ring_min_volume_title">Start volume</string>
-    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+    <string name="increasing_ring_volume_option_title">Нарастающая громкость звонка</string>
+    <string name="increasing_ring_min_volume_title">Начальная громкость</string>
+    <string name="increasing_ring_ramp_up_time_title">Время нарастания</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">Анимация жеста \"Назад\"</string>
     <string name="back_gesture_arrow_summary">Показать анимированную стрелку для жеста \"Назад\"</string>
     <!-- Pocket judge -->
-    <string name="pocket_judge_title">Pocket detection</string>
-    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+    <string name="pocket_judge_title">Режим \"В кармане\"</string>
+    <string name="pocket_judge_summary">Блокировать экран и кнопки, когда устройство находится в кармане</string>
     <!-- High touch sensitivity -->
-    <string name="high_touch_sensitivity_title">High touch sensitivity</string>
-    <string name="high_touch_sensitivity_summary">Increase touchscreen sensitivity so it can be used while wearing gloves</string>
+    <string name="high_touch_sensitivity_title">Высокая чувствительность касаний</string>
+    <string name="high_touch_sensitivity_summary">Увеличивает чувствительность экрана для возможности работы в перчатках</string>
     <!-- Touchscreen hovering -->
-    <string name="touchscreen_hovering_title">Touchscreen hovering</string>
-    <string name="touchscreen_hovering_summary">Allows you to hover the screen like a mouse in web browsers, remote desktops, etc</string>
+    <string name="touchscreen_hovering_title">Наведение сенсорного экрана</string>
+    <string name="touchscreen_hovering_summary">Позволяет вам навести курсор мыши в веб-браузерах, удаленных рабочих столах и т.д.</string>
     <!-- High touch polling rate -->
-    <string name="high_touch_polling_rate_title">High touch polling rate</string>
-    <string name="high_touch_polling_rate_summary">Increase touchscreen polling rate</string>
+    <string name="high_touch_polling_rate_title">Высокий уровень опроса касательно</string>
+    <string name="high_touch_polling_rate_summary">Увеличить частоту опросов сенсорного экрана</string>
     <!-- LiveDisplay -->
     <string name="live_display_summary">Оптимизировать экран в зависимости от времени суток и условий окружающей среды для улучшения читаемости и снижения утомляемости глаз</string>
     <string name="live_display_mode">Режим отображения</string>
@@ -176,9 +176,9 @@
     <!-- Cloudflare DNS Option -->
     <!-- AdGuard DNS Option -->
     <!-- Navigation bar IME space -->
-    <string name="hidden_string">Hidden</string>
-    <string name="navigation_bar_ime_space_title">Space under the keyboard</string>
-    <string name="navigation_bar_ime_space_value_narrow">Narrow</string>
+    <string name="hidden_string">Скрытый</string>
+    <string name="navigation_bar_ime_space_title">Пространство под клавиатурой</string>
+    <string name="navigation_bar_ime_space_value_narrow">Узкий</string>
     <!-- Game Space -->
     <string name="game_space_title">Игровое пространство</string>
     <string name="game_space_summary">Улучшайте свои впечатления от игр</string>
@@ -206,35 +206,35 @@
     <string name="wifi_hotspot_unblock_client_dialog_text">\"<xliff:g id="device_name">%1$s</xliff:g>\" сможет подключиться к этой точке доступа</string>
     <string name="wifi_hotspot_client_manager_footer_text">В настоящее время нет доступных клиентов. Подключенные и заблокированные устройства будут перечислены здесь, когда они станут доступны.</string>
     <!--  screen, setting option summary to change custom timeout -->
-    <string name="custom_timeout_summary_never">Never</string>
-    <string name="custom_timeout_summary_5secs">5 seconds</string>
-    <string name="custom_timeout_summary_10secs">10 seconds</string>
-    <string name="custom_timeout_summary_15secs">15 seconds</string>
-    <string name="custom_timeout_summary_30secs">30 seconds</string>
-    <string name="custom_timeout_summary_1min">1 minute</string>
-    <string name="custom_timeout_summary_2mins">2 minutes</string>
-    <string name="custom_timeout_summary_5mins">5 minutes</string>
-    <string name="custom_timeout_summary_10mins">10 minutes</string>
-    <string name="custom_timeout_summary_20mins">20 minutes</string>
-    <string name="custom_timeout_summary_30mins">30 minutes</string>
-    <string name="custom_timeout_summary_1hour">1 hour</string>
-    <string name="custom_timeout_summary_2hours">2 hours</string>
-    <string name="custom_timeout_summary_4hours">4 hours</string>
-    <string name="custom_timeout_summary_8hours">8 hours</string>
+    <string name="custom_timeout_summary_never">Никогда</string>
+    <string name="custom_timeout_summary_5secs">5 секунд</string>
+    <string name="custom_timeout_summary_10secs">10 секунд</string>
+    <string name="custom_timeout_summary_15secs">15 секунд</string>
+    <string name="custom_timeout_summary_30secs">30 секунд</string>
+    <string name="custom_timeout_summary_1min">1 минута</string>
+    <string name="custom_timeout_summary_2mins">2 минуты</string>
+    <string name="custom_timeout_summary_5mins">5 минут</string>
+    <string name="custom_timeout_summary_10mins">10 минут</string>
+    <string name="custom_timeout_summary_20mins">20 минут</string>
+    <string name="custom_timeout_summary_30mins">30 минут</string>
+    <string name="custom_timeout_summary_1hour">1 час</string>
+    <string name="custom_timeout_summary_2hours">2 часа</string>
+    <string name="custom_timeout_summary_4hours">4 часа</string>
+    <string name="custom_timeout_summary_8hours">8 часов</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Сертификат не указан. Будет установлено незащищенное соединение.</string>
     <!-- CherishOS versioning -->
-    <string name="cherish_version_title">Cherish Version</string>
-    <string name="cherish_device_title">Device</string>
-    <string name="cherish_release_type_title">Release type</string>
-    <string name="cherish_maintainer_title">Maintainer</string>
+    <string name="cherish_version_title">Версия Cherish</string>
+    <string name="cherish_device_title">Устройство</string>
+    <string name="cherish_release_type_title">Тип выпуска</string>
+    <string name="cherish_maintainer_title">Сопровождающий</string>
     <!-- About page -->
-    <string name="battery">Battery</string>
-    <string name="display">Display</string>
-    <string name="storage">Storage</string>
-    <string name="chipset">Chipset</string>
+    <string name="battery">Батарея</string>
+    <string name="display">Экран</string>
+    <string name="storage">Хранилище</string>
+    <string name="chipset">Процессор</string>
     <!-- Settings homepage alternative header -->
-    <string name="top_level_settings_title">Settings</string>
+    <string name="top_level_settings_title">Настройки</string>
     <string name="wellbeing_title">Цифровое благополучие</string>
     <string name="usercard_summary">Текущий активный пользователь, нажмите для получения дополнительной информации</string>
     <string name="connectivity_category_title">подключение</string>
