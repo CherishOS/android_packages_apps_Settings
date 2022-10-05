@@ -8,6 +8,11 @@
 
     <!-- Device Info screen. CherishOS legal. -->
     <string name="cherish_license_title">CherishOS legal</string>
+	
+	<!-- About phone screen, Cherish OS version -->
+    <string name="cherish_version">CherishOS version</string>
+    <string name="cherish_version_default">Unknown</string>
+    <string name="keywords_cherish_version">CherishOS version, cherish version</string>
 
     <!-- Android version screen, build maintainer -->
     <string name="build_maintainer">Build maintainer</string>
