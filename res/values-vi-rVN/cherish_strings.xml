@@ -241,6 +241,6 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Ứng dụng toàn màn hình</string>
     <string name="display_cutout_force_fullscreen_summary">Bỏ qua phần tai thỏ cho các ứng dụng được chọn</string>
-    <string name="search">Search</string>
-    <string name="search_apps">Search apps</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="search_apps">Tìm kiếm ứng dụng</string>
 </resources>
