@@ -241,4 +241,6 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">App a schermo intero</string>
     <string name="display_cutout_force_fullscreen_summary">Le applicazioni ignorano lo spazio del notch</string>
+    <string name="search">Search</string>
+    <string name="search_apps">Search apps</string>
 </resources>
