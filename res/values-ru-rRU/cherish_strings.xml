@@ -241,6 +241,6 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Полноэкранные приложения</string>
     <string name="display_cutout_force_fullscreen_summary">Заставить приложения игнорировать вырез на экране</string>
-    <string name="search">Search</string>
-    <string name="search_apps">Search apps</string>
+    <string name="search">Поиск</string>
+    <string name="search_apps">Поиск приложений</string>
 </resources>
