@@ -241,6 +241,6 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">全画面表示のアプリ</string>
     <string name="display_cutout_force_fullscreen_summary">強制的にアプリのノッチ領域を無視する</string>
-    <string name="search">Search</string>
-    <string name="search_apps">Search apps</string>
+    <string name="search">検索</string>
+    <string name="search_apps">アプリの検索</string>
 </resources>
