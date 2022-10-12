@@ -8,7 +8,7 @@
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tapez pour voir les informations</string>
     <!-- App details: open play store link if app is user installed -->
-    <string name="app_play_store">Google Play</string>
+    <string name="app_play_store">Google Play</string>
     <!-- Maintainer -->
     <string name="maintainer">Développeurs</string>
     <!-- Battery temperature -->
@@ -16,15 +16,15 @@
     <!-- About phone screen, Cherish OS version -->
     <string name="cherish_version">Version CherishOS</string>
     <string name="cherish_version_default">Inconnu</string>
-    <string name="keywords_cherish_version">CherishOS version, cherish version</string>
+    <string name="keywords_cherish_version">Version de CherishOS, version de cherish</string>
     <!-- About phone screen, build date -->
-    <string name="about_device_name">Device</string>
+    <string name="about_device_name">Appareil</string>
     <string name="build_date">Date de version</string>
-    <string name="build_date_default">2015-01-01-0000</string>
-    <string name="keywords_build_date">build date, build info</string>
+    <string name="build_date_default">01-01-2015-0000</string>
+    <string name="keywords_build_date">date de compilation, informations de compilation</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="swipe_to_screenshot_gesture_title">Swipe to screenshot</string>
-    <string name="swipe_to_screenshot_gesture_summary">Swipe three fingers to take screenshot</string>
+    <string name="swipe_to_screenshot_gesture_title">Balayer l\'écran pour prendre une capture d\'écran</string>
+    <string name="swipe_to_screenshot_gesture_summary">Balayer l\'écran avec trois doigts pour faire une capture d\'écran</string>
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">Taux de rafraîchissement minimum</string>
     <string name="max_refresh_rate_title">Taux de rafraîchissement maximum</string>
@@ -38,8 +38,8 @@
     <string name="proximity_wake_title">Éviter l\'allumage de l\'écran accidentellement</string>
     <string name="proximity_wake_summary">Vérifier le capteur de proximité avant d\'allumer l\'écran</string>
     <!-- Hardware info -->
-    <string name="platform_revision">Platform</string>
-    <string name="total_ram">Total RAM</string>
+    <string name="platform_revision">Plateforme</string>
+    <string name="total_ram">Mémoire RAM totale</string>
     <!--Cherish Settings-->
     <string name="cherish_settings_title">Paramètres de Cherish</string>
     <string name="cherish_settings_summary">Le bonheur n\'est pas disponible et provient de vos propres actions</string>
@@ -49,14 +49,14 @@
     <string name="custom_light_off_time_title">Durée d\'extinction pendant l’impulsion led (ms)\"</string>
     <string name="value_equals_default">par défaut</string>
     <!-- Screen off FOD -->
-    <string name="screen_off_udfps_title">Screen off FOD</string>
-    <string name="screen_off_udfps_summary">Keep FOD enabled when the screen is off</string>
+    <string name="screen_off_udfps_title">Reconnaissance d\'empreinte lorsque l\'écran est éteint</string>
+    <string name="screen_off_udfps_summary">Laisser la reconnaissance de l\'empreinte activée lorsque l\'écran est éteint</string>
     <!-- FastCharge feature -->
-    <string name="fast_charging_title">Fast charging</string>
+    <string name="fast_charging_title">Charge rapide</string>
     <string name="fast_charging_summary">Disable to reduce the heat produced by the device while charging or to extend the lifespan of the battery</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Pause intelligente</string>
-    <string name="adaptive_playback_master_switch_title">Use Smart Pause</string>
+    <string name="adaptive_playback_master_switch_title">Utiliser la pause intelligente</string>
     <string name="adaptive_playback_disabled_summary">Désactivé</string>
     <string name="adaptive_playback_intro_text">La lecture adaptative met en pause automatiquement les médias lorsque le volume est mis en sourdine et reprend automatiquement lorsque le volume est restauré dans le délai défini.</string>
     <string name="adaptive_playback_timeout_title">Utiliser un délai de</string>
@@ -77,7 +77,7 @@
     <string name="doze_double_tap_title">Appui double pour allumé le téléphone</string>
     <string name="doze_double_tap_summary">Faire clignoter les notifications par double appui</string>
     <!-- Fingerprint wake-and-unlock -->
-    <string name="fingerprint_wake_unlock_title">Touch fingerprint to unlock</string>
+    <string name="fingerprint_wake_unlock_title">Touchez le lecteur d\'empreinte digitale pour déverrouiller</string>
     <string name="fingerprint_wake_unlock_touch">Listens for events while the screen is off</string>
     <string name="fingerprint_wake_unlock_press">Only listens for events once the screen is on</string>
     <!-- PIN scramble -->
@@ -87,10 +87,10 @@
     <string name="unlock_quick_unlock_control_title">Déverrouillage rapide</string>
     <string name="unlock_quick_unlock_control_summary">Déverrouiller automatiquement l\'appareil lorsque le bon code PIN/mot de passe est saisi</string>
     <!-- Fullscreen gestures -->
-    <string name="navbar_category">Navigation bar</string>
+    <string name="navbar_category">Barre de navigation</string>
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">Longueur de la barre de navigation</string>
-    <string name="hide_label">Hidden</string>
+    <string name="hide_label">Masqué</string>
     <string name="long_label">Longue</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Autoriser les clients à utiliser les connexions VPN</string>
@@ -98,8 +98,8 @@
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Lier les volumes de la sonnerie &amp; des notifications</string>
     <!-- Increasing ring tone volume -->
-    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
-    <string name="increasing_ring_min_volume_title">Start volume</string>
+    <string name="increasing_ring_volume_option_title">Volume de sonnerie progressive</string>
+    <string name="increasing_ring_min_volume_title">Volume de départ</string>
     <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">Animation du geste de retour</string>
@@ -108,14 +108,14 @@
     <string name="pocket_judge_title">Pocket detection</string>
     <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
     <!-- High touch sensitivity -->
-    <string name="high_touch_sensitivity_title">High touch sensitivity</string>
+    <string name="high_touch_sensitivity_title">Haute sensibilité tactile</string>
     <string name="high_touch_sensitivity_summary">Increase touchscreen sensitivity so it can be used while wearing gloves</string>
     <!-- Touchscreen hovering -->
     <string name="touchscreen_hovering_title">Touchscreen hovering</string>
     <string name="touchscreen_hovering_summary">Allows you to hover the screen like a mouse in web browsers, remote desktops, etc</string>
     <!-- High touch polling rate -->
-    <string name="high_touch_polling_rate_title">High touch polling rate</string>
-    <string name="high_touch_polling_rate_summary">Increase touchscreen polling rate</string>
+    <string name="high_touch_polling_rate_title">Taux de rafraîchissement tactile élevé</string>
+    <string name="high_touch_polling_rate_summary">Augmenter le taux de rafraîchissement tactile</string>
     <!-- LiveDisplay -->
     <string name="live_display_summary">Optimise votre écran en fonction de l\'heure et des conditions ambiantes pour améliorer la lisibilité et réduire la fatigue oculaire</string>
     <string name="live_display_mode">Plein écran</string>
@@ -145,7 +145,7 @@
     <string name="live_display_color_profile_astronomy_summary">Rouge profond pour préserver la vision nocturne</string>
     <string name="live_display_color_profile_photography_title">Photographie</string>
     <string name="live_display_color_profile_photography_summary">Reproduction parfaite des couleurs pour les photos</string>
-    <string name="live_display_color_profile_basic_title">Basic</string>
+    <string name="live_display_color_profile_basic_title">Basique</string>
     <string name="live_display_color_profile_basic_summary">Utiliser l\'affichage non calibré</string>
     <string name="live_display_color_profile_adaptive_title">Adaptatif</string>
     <string name="live_display_color_profile_adaptive_summary">Les couleurs s\'adaptent aux conditions ambiantes</string>
@@ -176,7 +176,7 @@
     <!-- Cloudflare DNS Option -->
     <!-- AdGuard DNS Option -->
     <!-- Navigation bar IME space -->
-    <string name="hidden_string">Hidden</string>
+    <string name="hidden_string">Masqué</string>
     <string name="navigation_bar_ime_space_title">Space under the keyboard</string>
     <string name="navigation_bar_ime_space_value_narrow">Narrow</string>
     <!-- Game Space -->
@@ -206,41 +206,41 @@
     <string name="wifi_hotspot_unblock_client_dialog_text">L\'appareil \"<xliff:g id="device_name">%1$s</xliff:g>\" pourra se connecter à ce point d\'accès</string>
     <string name="wifi_hotspot_client_manager_footer_text">Aucun client n\'est actuellement disponible. Les appareils connectés et bloqués seront répertoriés ici lorsqu\'ils seront disponibles.</string>
     <!--  screen, setting option summary to change custom timeout -->
-    <string name="custom_timeout_summary_never">Never</string>
-    <string name="custom_timeout_summary_5secs">5 seconds</string>
-    <string name="custom_timeout_summary_10secs">10 seconds</string>
-    <string name="custom_timeout_summary_15secs">15 seconds</string>
-    <string name="custom_timeout_summary_30secs">30 seconds</string>
+    <string name="custom_timeout_summary_never">Jamais</string>
+    <string name="custom_timeout_summary_5secs">5 secondes</string>
+    <string name="custom_timeout_summary_10secs">10 secondes</string>
+    <string name="custom_timeout_summary_15secs">15 secondes</string>
+    <string name="custom_timeout_summary_30secs">30 secondes</string>
     <string name="custom_timeout_summary_1min">1 minute</string>
-    <string name="custom_timeout_summary_2mins">2 minutes</string>
-    <string name="custom_timeout_summary_5mins">5 minutes</string>
-    <string name="custom_timeout_summary_10mins">10 minutes</string>
-    <string name="custom_timeout_summary_20mins">20 minutes</string>
-    <string name="custom_timeout_summary_30mins">30 minutes</string>
-    <string name="custom_timeout_summary_1hour">1 hour</string>
-    <string name="custom_timeout_summary_2hours">2 hours</string>
-    <string name="custom_timeout_summary_4hours">4 hours</string>
-    <string name="custom_timeout_summary_8hours">8 hours</string>
+    <string name="custom_timeout_summary_2mins">2 minutes</string>
+    <string name="custom_timeout_summary_5mins">5 minutes</string>
+    <string name="custom_timeout_summary_10mins">10 minutes</string>
+    <string name="custom_timeout_summary_20mins">20 minutes</string>
+    <string name="custom_timeout_summary_30mins">30 minutes</string>
+    <string name="custom_timeout_summary_1hour">1 heure</string>
+    <string name="custom_timeout_summary_2hours">2 heures</string>
+    <string name="custom_timeout_summary_4hours">4 heures</string>
+    <string name="custom_timeout_summary_8hours">8 heures</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Aucun certificat spécifié. Votre connexion ne sera pas privée.</string>
     <!-- CherishOS versioning -->
-    <string name="cherish_version_title">Cherish Version</string>
-    <string name="cherish_device_title">Device</string>
-    <string name="cherish_release_type_title">Release type</string>
-    <string name="cherish_maintainer_title">Maintainer</string>
+    <string name="cherish_version_title">Version CherishOS</string>
+    <string name="cherish_device_title">Appareil</string>
+    <string name="cherish_release_type_title">Type de Release</string>
+    <string name="cherish_maintainer_title">Développeur</string>
     <!-- About page -->
-    <string name="battery">Battery</string>
-    <string name="display">Display</string>
-    <string name="storage">Storage</string>
+    <string name="battery">Batterie</string>
+    <string name="display">Affichage</string>
+    <string name="storage">Stockage</string>
     <string name="chipset">Chipset</string>
     <!-- Settings homepage alternative header -->
-    <string name="top_level_settings_title">Settings</string>
+    <string name="top_level_settings_title">Paramètres</string>
     <string name="wellbeing_title">Bien-être Google</string>
     <string name="usercard_summary">Utilisateur actuellement actif, appuyez pour plus d\'informations</string>
     <string name="connectivity_category_title">connectivité</string>
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Applications en plein écran</string>
     <string name="display_cutout_force_fullscreen_summary">Forcer les applications à ignorer l\'espace d\'encoche</string>
-    <string name="search">Search</string>
-    <string name="search_apps">Search apps</string>
+    <string name="search">Recherche</string>
+    <string name="search_apps">Rechercher dans les applications</string>
 </resources>
