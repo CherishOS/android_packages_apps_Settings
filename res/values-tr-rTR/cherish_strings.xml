@@ -50,13 +50,13 @@
     <string name="value_equals_default">varsayılan</string>
     <!-- Screen off FOD -->
     <string name="screen_off_udfps_title">Screen off FOD</string>
-    <string name="screen_off_udfps_summary">Keep FOD enabled when the screen is off</string>
+    <string name="screen_off_udfps_summary">Ekran kapalıyken parmak izini açık tutun</string>
     <!-- FastCharge feature -->
-    <string name="fast_charging_title">Fast charging</string>
-    <string name="fast_charging_summary">Disable to reduce the heat produced by the device while charging or to extend the lifespan of the battery</string>
+    <string name="fast_charging_title">Hızlı şarj</string>
+    <string name="fast_charging_summary">Cihazın şarj ederken ürettiği ısıyı azaltmak veya pilin ömrünü uzatmak için devre dışı bırakın</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Uyarlanabilir oynatma</string>
-    <string name="adaptive_playback_master_switch_title">Use Smart Pause</string>
+    <string name="adaptive_playback_master_switch_title">Akıllı duraklatmayı kullan</string>
     <string name="adaptive_playback_disabled_summary">Kapalı</string>
     <string name="adaptive_playback_intro_text">Uyarlanabilir oynatma, ses tamamen kapatıldığında medyayı otomatik olarak duraklatır ve ayarlanan süre içinde ses tekrar açıldığında otomatik olarak devam eder.</string>
     <string name="adaptive_playback_timeout_title">Zaman aşımı kullanın</string>
@@ -77,9 +77,9 @@
     <string name="doze_double_tap_title">Telefonu kontrol etmek için çift dokun</string>
     <string name="doze_double_tap_summary">Çift dokunuşla bildirimler</string>
     <!-- Fingerprint wake-and-unlock -->
-    <string name="fingerprint_wake_unlock_title">Touch fingerprint to unlock</string>
-    <string name="fingerprint_wake_unlock_touch">Listens for events while the screen is off</string>
-    <string name="fingerprint_wake_unlock_press">Only listens for events once the screen is on</string>
+    <string name="fingerprint_wake_unlock_title">Kilidi açmak için parmak izine dokunun</string>
+    <string name="fingerprint_wake_unlock_touch">Ekran kapalıyken olayları dinler</string>
+    <string name="fingerprint_wake_unlock_press">Olayları yalnızca ekran açıkken dinler</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Düzeni karıştır</string>
     <string name="unlock_scramble_pin_layout_summary">Cihaz kilidini açarken PIN düzenini karıştırır</string>
@@ -87,10 +87,10 @@
     <string name="unlock_quick_unlock_control_title">Hızlı kilit açma</string>
     <string name="unlock_quick_unlock_control_summary">Doğru PIN/Şifre girildiğinde otomatik olarak kilidi aç</string>
     <!-- Fullscreen gestures -->
-    <string name="navbar_category">Navigation bar</string>
+    <string name="navbar_category">Gezinme çubuğu</string>
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">Tuş uzunluğu</string>
-    <string name="hide_label">Hidden</string>
+    <string name="hide_label">Gizli</string>
     <string name="long_label">Uzun</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">İstemcilerin VPN kullanmasına izin ver</string>
@@ -98,30 +98,30 @@
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Zil ve bildirim sesini birleştir</string>
     <!-- Increasing ring tone volume -->
-    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
-    <string name="increasing_ring_min_volume_title">Start volume</string>
-    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+    <string name="increasing_ring_volume_option_title">Artan zil sesi</string>
+    <string name="increasing_ring_min_volume_title">Başlangıç ses düzeyi</string>
+    <string name="increasing_ring_ramp_up_time_title">Yükseliş süresi</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">Geri hareketi animasyonu</string>
     <string name="back_gesture_arrow_summary">Geri hareketi için animasyonlu bir ok göster</string>
     <!-- Pocket judge -->
-    <string name="pocket_judge_title">Pocket detection</string>
-    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+    <string name="pocket_judge_title">Cep algılama</string>
+    <string name="pocket_judge_summary">Cihaz cebinizdeyken ekran ve buton işlevlerini engelle</string>
     <!-- High touch sensitivity -->
-    <string name="high_touch_sensitivity_title">High touch sensitivity</string>
-    <string name="high_touch_sensitivity_summary">Increase touchscreen sensitivity so it can be used while wearing gloves</string>
+    <string name="high_touch_sensitivity_title">Yüksek dokunma hassasiyeti</string>
+    <string name="high_touch_sensitivity_summary">Dokunmatik ekran hassasiyetini artırır, böylece eldiven giyerken kullanılabilir</string>
     <!-- Touchscreen hovering -->
-    <string name="touchscreen_hovering_title">Touchscreen hovering</string>
-    <string name="touchscreen_hovering_summary">Allows you to hover the screen like a mouse in web browsers, remote desktops, etc</string>
+    <string name="touchscreen_hovering_title">Temassız gezinme</string>
+    <string name="touchscreen_hovering_summary">Ekrana dokunmadan parmağınızı yakınlaştırarak bir fare kullanıyormuş gibi web tarayıcılarında, uzak masaüstlerinde, vb. dolaşmanızı sağlar</string>
     <!-- High touch polling rate -->
-    <string name="high_touch_polling_rate_title">High touch polling rate</string>
-    <string name="high_touch_polling_rate_summary">Increase touchscreen polling rate</string>
+    <string name="high_touch_polling_rate_title">Yüksek dokunma yoklama oranı</string>
+    <string name="high_touch_polling_rate_summary">Dokunma ekranı yoklama oranını artırın</string>
     <!-- LiveDisplay -->
     <string name="live_display_summary">Okunabilirliği artırmak ve göz yorgunluğunu azaltmak için ekranınızı günün zamanına ve ortam koşullarına göre optimize edin</string>
     <string name="live_display_mode">Görüntü modu</string>
     <string name="live_display_color_temperature_title">Renk sıcaklığı</string>
     <string name="live_display_color_temperature_summary">Gün: <xliff:g id="day_temperature">%1$d</xliff:g>K  Gece: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
-    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="derece">%1$d</xliff:g>K</string>
     <string name="live_display_day">Gün</string>
     <string name="live_display_night">Gece</string>
     <string name="live_display_outdoor_mode_title">Otomatik açık alan modu</string>
@@ -176,12 +176,12 @@
     <!-- Cloudflare DNS Option -->
     <!-- AdGuard DNS Option -->
     <!-- Navigation bar IME space -->
-    <string name="hidden_string">Hidden</string>
-    <string name="navigation_bar_ime_space_title">Space under the keyboard</string>
-    <string name="navigation_bar_ime_space_value_narrow">Narrow</string>
+    <string name="hidden_string">Gizli</string>
+    <string name="navigation_bar_ime_space_title">Klavyenin altındaki alan</string>
+    <string name="navigation_bar_ime_space_value_narrow">Dar</string>
     <!-- Game Space -->
-    <string name="game_space_title">Game Space</string>
-    <string name="game_space_summary">Enhance your gaming experience</string>
+    <string name="game_space_title">Oyun Alanı</string>
+    <string name="game_space_summary">Oyun deneyiminizi geliştirin</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Şarj olurken her zaman açık</string>
     <string name="doze_on_charge_summary">Şarj olurken her zaman uyku ekranını göster</string>
@@ -206,41 +206,41 @@
     <string name="wifi_hotspot_unblock_client_dialog_text">Bu cihaz \"<xliff:g id="device_name">%1$s</xliff:g>\" bu hotspot a bağlanabilecek</string>
     <string name="wifi_hotspot_client_manager_footer_text">Şu anda hiçbir istemci mevcut değil. Bağlı ve engellenen cihazlar mevcut olduğunda burada listelenecek.</string>
     <!--  screen, setting option summary to change custom timeout -->
-    <string name="custom_timeout_summary_never">Never</string>
-    <string name="custom_timeout_summary_5secs">5 seconds</string>
-    <string name="custom_timeout_summary_10secs">10 seconds</string>
-    <string name="custom_timeout_summary_15secs">15 seconds</string>
-    <string name="custom_timeout_summary_30secs">30 seconds</string>
-    <string name="custom_timeout_summary_1min">1 minute</string>
-    <string name="custom_timeout_summary_2mins">2 minutes</string>
-    <string name="custom_timeout_summary_5mins">5 minutes</string>
-    <string name="custom_timeout_summary_10mins">10 minutes</string>
-    <string name="custom_timeout_summary_20mins">20 minutes</string>
-    <string name="custom_timeout_summary_30mins">30 minutes</string>
-    <string name="custom_timeout_summary_1hour">1 hour</string>
-    <string name="custom_timeout_summary_2hours">2 hours</string>
-    <string name="custom_timeout_summary_4hours">4 hours</string>
-    <string name="custom_timeout_summary_8hours">8 hours</string>
+    <string name="custom_timeout_summary_never">Hiçbir zaman</string>
+    <string name="custom_timeout_summary_5secs">5 saniye</string>
+    <string name="custom_timeout_summary_10secs">10 saniye</string>
+    <string name="custom_timeout_summary_15secs">15 saniye</string>
+    <string name="custom_timeout_summary_30secs">30 saniye</string>
+    <string name="custom_timeout_summary_1min">1 dakika</string>
+    <string name="custom_timeout_summary_2mins">2 dakika</string>
+    <string name="custom_timeout_summary_5mins">5 dakika</string>
+    <string name="custom_timeout_summary_10mins">10 dakika</string>
+    <string name="custom_timeout_summary_20mins">20 dakika</string>
+    <string name="custom_timeout_summary_30mins">30 dakika</string>
+    <string name="custom_timeout_summary_1hour">1 saat</string>
+    <string name="custom_timeout_summary_2hours">2 saat</string>
+    <string name="custom_timeout_summary_4hours">4 saat</string>
+    <string name="custom_timeout_summary_8hours">8 saat</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Sertifika belirtilmedi. Bağlantınız gizli olmayacak.</string>
     <!-- CherishOS versioning -->
-    <string name="cherish_version_title">Cherish Version</string>
-    <string name="cherish_device_title">Device</string>
-    <string name="cherish_release_type_title">Release type</string>
-    <string name="cherish_maintainer_title">Maintainer</string>
+    <string name="cherish_version_title">Cherish Sürümü</string>
+    <string name="cherish_device_title">Cihaz</string>
+    <string name="cherish_release_type_title">Yayım Türü</string>
+    <string name="cherish_maintainer_title">Cihaz sorumlusu</string>
     <!-- About page -->
-    <string name="battery">Battery</string>
-    <string name="display">Display</string>
-    <string name="storage">Storage</string>
-    <string name="chipset">Chipset</string>
+    <string name="battery">Pil</string>
+    <string name="display">Ekran</string>
+    <string name="storage">Depolama</string>
+    <string name="chipset">Yonga seti</string>
     <!-- Settings homepage alternative header -->
-    <string name="top_level_settings_title">Settings</string>
-    <string name="wellbeing_title">Google Wellbeing</string>
+    <string name="top_level_settings_title">Ayarlar</string>
+    <string name="wellbeing_title">Google Sağlık</string>
     <string name="usercard_summary">Şu anki aktif kullanıcı, daha fazla bilgi için tıklayın</string>
     <string name="connectivity_category_title">bağlantılar</string>
     <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Tam ekran uygulamalar</string>
-    <string name="display_cutout_force_fullscreen_summary">Uygulamaları çentik alanını yoksaymaya zorla</string>
-    <string name="search">Search</string>
-    <string name="search_apps">Search apps</string>
+    <string name="display_cutout_force_fullscreen_title">Tam ekran uygulamaları</string>
+    <string name="display_cutout_force_fullscreen_summary">Uygulamaları çentik alanını yok saymaya zorla</string>
+    <string name="search">Ara</string>
+    <string name="search_apps">Uygulamaları ara</string>
 </resources>
