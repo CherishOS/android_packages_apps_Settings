@@ -224,9 +224,9 @@
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Không có chứng chỉ nào được chỉ định. Kết nối của bạn sẽ không phải là riêng tư.</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
-    <string name="custom_firmware_version">Cherish version</string>
+    <string name="custom_firmware_version">Phiên bản Cherish</string>
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
-    <string name="about_device_info">About device</string>
+    <string name="about_device_info">Về thiết bị</string>
     <!-- CherishOS versioning -->
     <string name="cherish_version_title">Phiên bản Cherish</string>
     <string name="cherish_device_title">Thiết bị</string>
@@ -248,6 +248,6 @@
     <string name="search">Tìm kiếm</string>
     <string name="search_apps">Tìm kiếm ứng dụng</string>
     <!-- Volume Media Output Toggle -->
-    <string name="volume_media_output_toggle_title">Show media controller on volume panel</string>
-    <string name="volume_media_output_toggle_summary">Show media controller if there is an active stream</string>
+    <string name="volume_media_output_toggle_title">Hiển thị bộ điều khiển âm thanh trên bảng âm lượng</string>
+    <string name="volume_media_output_toggle_summary">Hiển thị bộ điều khiển âm lượng nếu có một luồng đang hoạt động</string>
 </resources>
