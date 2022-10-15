@@ -270,6 +270,12 @@
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">No certificate specified. Your connection will not be private.</string>
 	
+	<!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="custom_firmware_version">Cherish version</string>
+    <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
+    <string name="custom_firmware_uri" translatable="false">https://cherishos.com/</string>
+    <string name="about_device_info">About device</string>
+	
 	<!-- CherishOS versioning -->
     <string name="cherish_version_title">Cherish Version</string>
     <string name="cherish_device_title">Device</string>
