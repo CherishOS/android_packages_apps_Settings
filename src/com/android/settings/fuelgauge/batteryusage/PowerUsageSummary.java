@@ -111,6 +111,7 @@ public class PowerUsageSummary extends PowerUsageBase implements
                     mBatteryHeaderPreferenceController.updateHeaderByBatteryTips(
                             mBatteryTipPreferenceController.getCurrentBatteryTip(), batteryInfo);
                     mBatteryInfo = batteryInfo;
+                    mBatteryTempPref.setSummary(mBatteryInfo.batteryTemp + " \u2103");
                 }
 
                 @Override
@@ -234,11 +235,6 @@ public class PowerUsageSummary extends PowerUsageBase implements
             restartBatteryTipLoader();
         } else {
             mNeedUpdateBatteryTip = true;
-        }
-        if (BatteryInfo.batteryTemp != 0f) {
-            mBatteryTempPref.setSummary(BatteryInfo.batteryTemp / 10 + " °C");
-        } else {
-            mBatteryTempPref.setSummary(getResources().getString(R.string.status_unavailable));
         }
         // reload BatteryInfo and updateUI
         restartBatteryInfoLoader();
