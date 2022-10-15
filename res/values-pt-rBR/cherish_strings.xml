@@ -223,6 +223,10 @@
     <string name="custom_timeout_summary_8hours">8 horas</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Nenhum certificado especificado. Sua conexão não será particular.</string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="custom_firmware_version">Cherish version</string>
+    <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
+    <string name="about_device_info">About device</string>
     <!-- CherishOS versioning -->
     <string name="cherish_version_title">Versão do Cherish</string>
     <string name="cherish_device_title">Dispositivo</string>
@@ -243,4 +247,7 @@
     <string name="display_cutout_force_fullscreen_summary">Forçar aplicativos a ignorar o espaço do notch</string>
     <string name="search">Pesquisar</string>
     <string name="search_apps">Pesquisar aplicativos</string>
+    <!-- Volume Media Output Toggle -->
+    <string name="volume_media_output_toggle_title">Mostrar controle de mídia no painel de volume</string>
+    <string name="volume_media_output_toggle_summary">Mostrar controlador de mídia se houver um fluxo ativo</string>
 </resources>

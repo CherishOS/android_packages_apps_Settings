@@ -10,7 +10,7 @@
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Maintainer -->
-    <string name="maintainer">Mantida por</string>
+    <string name="maintainer">Mantido por</string>
     <!-- Battery temperature -->
     <string name="battery_temp">Temperatura da bateria</string>
     <!-- About phone screen, Cherish OS version -->
@@ -193,7 +193,7 @@
     <!-- Hotspot -->
     <string name="wifi_hotspot_hidden_ssid_title">Rede oculta</string>
     <string name="wifi_hotspot_hidden_ssid_summary">O nome do seu hotspot móvel não aparecerá na lista de redes Wi-Fi disponíveis.</string>
-    <string name="wifi_hotspot_auto_off_timeout_never">Nunca desativar o hotspot</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Nunca desativar hotspot</string>
     <string name="wifi_hotspot_client_manager_title">Dispositivos conectados</string>
     <string name="wifi_hotspot_client_manager_summary">Lista e gerencia dispositivos conectados ao hotspot, e define o limite do número de clientes</string>
     <string name="wifi_hotspot_client_manager_list_only_summary">Lista de dispositivos conectados ao hotspot</string>
@@ -223,6 +223,10 @@
     <string name="custom_timeout_summary_8hours">8 horas</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Nenhum certificado especificado. A sua ligação não será privada.</string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="custom_firmware_version">Cherish version</string>
+    <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
+    <string name="about_device_info">About device</string>
     <!-- CherishOS versioning -->
     <string name="cherish_version_title">Versão da Cherish</string>
     <string name="cherish_device_title">Dispositivo</string>
@@ -243,4 +247,7 @@
     <string name="display_cutout_force_fullscreen_summary">Forçar apps a ignorar o espaço do entalhe</string>
     <string name="search">Procurar</string>
     <string name="search_apps">Procurar apps</string>
+    <!-- Volume Media Output Toggle -->
+    <string name="volume_media_output_toggle_title">Mostrar controlo de multimédia no painel de volume</string>
+    <string name="volume_media_output_toggle_summary">Mostrar controlo de multimédia se houver uma transmissão ativa</string>
 </resources>
