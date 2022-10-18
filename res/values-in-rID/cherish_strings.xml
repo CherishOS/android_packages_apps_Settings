@@ -225,9 +225,9 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Tidak ada sertifikat yang ditentukan. Koneksi Anda tidak akan bersifat pribadi.</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
-    <string name="custom_firmware_version">Cherish version</string>
+    <string name="custom_firmware_version">Versi CherishOS</string>
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
-    <string name="about_device_info">About device</string>
+    <string name="about_device_info">Tentang perangkat</string>
     <!-- CherishOS versioning -->
     <string name="cherish_version_title">Versi CherishOS</string>
     <string name="cherish_device_title">Perangkat</string>
@@ -249,6 +249,6 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="search">Cari</string>
     <string name="search_apps">Cari aplikasi</string>
     <!-- Volume Media Output Toggle -->
-    <string name="volume_media_output_toggle_title">Show media controller on volume panel</string>
-    <string name="volume_media_output_toggle_summary">Show media controller if there is an active stream</string>
+    <string name="volume_media_output_toggle_title">Tampilkan pengontrol media pada panel volume</string>
+    <string name="volume_media_output_toggle_summary">Tampilkan pengontrol media jika ada aliran aktif</string>
 </resources>
