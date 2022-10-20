@@ -251,4 +251,8 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <!-- Volume Media Output Toggle -->
     <string name="volume_media_output_toggle_title">Tampilkan pengontrol media pada panel volume</string>
     <string name="volume_media_output_toggle_summary">Tampilkan pengontrol media jika ada aliran aktif</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Kapasitas baterai saat ini</string>
+    <string name="designed_battery_capacity">Kapasitas baterai yang dirancang</string>
+    <string name="battery_charge_cycles">Siklus Mengisi Selesai</string>
 </resources>
