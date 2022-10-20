@@ -251,7 +251,7 @@
     <string name="volume_media_output_toggle_title">音量パネルにメディアコントローラーを表示</string>
     <string name="volume_media_output_toggle_summary">アクティブなストリームがある場合はメディアコントローラを表示する</string>
     <!-- Battery health -->
-    <string name="current_battery_capacity">Current battery capacity</string>
-    <string name="designed_battery_capacity">Designed battery capacity</string>
-    <string name="battery_charge_cycles">Charge cycles completed</string>
+    <string name="current_battery_capacity">現在バッテリー容量</string>
+    <string name="designed_battery_capacity">設計バッテリー容量</string>
+    <string name="battery_charge_cycles">充電サイクル完了数</string>
 </resources>
