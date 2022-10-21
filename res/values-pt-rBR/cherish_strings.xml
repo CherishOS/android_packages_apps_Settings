@@ -254,4 +254,6 @@
     <string name="current_battery_capacity">Capacidade atual da bateria</string>
     <string name="designed_battery_capacity">Capacidade projetada da bateria</string>
     <string name="battery_charge_cycles">Ciclos de carregamento concluídos</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">Warning: This option may not work properly or lead to data loss and is therefore not recommended!</string>
 </resources>
