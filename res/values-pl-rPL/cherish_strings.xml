@@ -121,7 +121,7 @@
     <string name="live_display_mode">Tryb wyświetlania</string>
     <string name="live_display_color_temperature_title">Temperatura kolorów</string>
     <string name="live_display_color_temperature_summary">Dzień: <xliff:g id="day_temperature">%1$d</xliff:g>K  Noc: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
-    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="stopni">%1$d</xliff:g>K</string>
     <string name="live_display_day">Dzień</string>
     <string name="live_display_night">Noc</string>
     <string name="live_display_outdoor_mode_title">Automatyczny tryb \"na zewnątrz\"</string>
@@ -133,7 +133,7 @@
     <string name="live_display_enhance_color_title">Wzmocnienie kolorów</string>
     <string name="live_display_enhance_color_summary">Popraw jaskrawość kolorów odcieni skóry, scenerii i innych obrazów</string>
     <string name="live_display_color_profile_title">Profil kolorów</string>
-    <string name="live_display_color_profile_standard_title">Standard</string>
+    <string name="live_display_color_profile_standard_title">Standardowy</string>
     <string name="live_display_color_profile_standard_summary">Dokładne odwzorowanie kolorów i jasności bieli</string>
     <string name="live_display_color_profile_natural_title">Naturalny</string>
     <string name="live_display_color_profile_natural_summary">Realistyczne kolory i odcienie skóry</string>
@@ -224,9 +224,9 @@
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Nie określono certyfikatu. Twoje połączenie nie będzie prywatne.</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
-    <string name="custom_firmware_version">Cherish version</string>
+    <string name="custom_firmware_version">Wersja Cherish</string>
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
-    <string name="about_device_info">About device</string>
+    <string name="about_device_info">O urządzeniu</string>
     <!-- CherishOS versioning -->
     <string name="cherish_version_title">Wersja Cherish</string>
     <string name="cherish_device_title">Urządzenie</string>
@@ -245,13 +245,15 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Aplikacje pełnoekranowe</string>
     <string name="display_cutout_force_fullscreen_summary">Zmuś aplikacje do ignorowania notch\'a</string>
-    <string name="search">Search</string>
-    <string name="search_apps">Search apps</string>
+    <string name="search">Szukaj</string>
+    <string name="search_apps">Wyszukaj aplikacje</string>
     <!-- Volume Media Output Toggle -->
-    <string name="volume_media_output_toggle_title">Show media controller on volume panel</string>
-    <string name="volume_media_output_toggle_summary">Show media controller if there is an active stream</string>
+    <string name="volume_media_output_toggle_title">Pokaż sterownik multimediów na panelu głośności</string>
+    <string name="volume_media_output_toggle_summary">Pokaż sterownik multimediów, jeśli jest aktywny strumień</string>
     <!-- Battery health -->
-    <string name="current_battery_capacity">Current battery capacity</string>
-    <string name="designed_battery_capacity">Designed battery capacity</string>
-    <string name="battery_charge_cycles">Charge cycles completed</string>
+    <string name="current_battery_capacity">Obecna pojemność baterii</string>
+    <string name="designed_battery_capacity">Fabryczna pojemność baterii</string>
+    <string name="battery_charge_cycles">Ukończone cykle ładowania</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">Ostrzeżenie: Ta opcja może nie działać poprawnie lub prowadzić do utraty danych i dlatego nie jest zalecana!</string>
 </resources>
