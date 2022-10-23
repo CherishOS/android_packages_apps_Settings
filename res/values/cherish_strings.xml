@@ -287,4 +287,8 @@
     <string name="private_dns_mode_open_dns" translatable="false">Open DNS</string>
     <string name="private_dns_mode_cleanbrowsing" translatable="false">Cleanbrowsing DNS</string>
     <string name="private_dns_mode_quad9" translatable="false">Quad9 DNS</string>
+
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
+    <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
 </resources>
