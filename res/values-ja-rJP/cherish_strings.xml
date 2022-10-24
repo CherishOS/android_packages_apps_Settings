@@ -72,6 +72,9 @@
     <string name="adaptive_playback_timeout_5_min_summary">ON (5分)</string>
     <string name="adaptive_playback_timeout_10_min">10分</string>
     <string name="adaptive_playback_timeout_10_min_summary">ON (10分)</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Playback control</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">ダブルタップ</string>
     <string name="doze_double_tap_title">ダブルタップで端末を確認</string>
@@ -256,4 +259,7 @@
     <string name="battery_charge_cycles">充電サイクル完了数</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">警告: このオプションは正常に動作しなかったりデータの消失に繋がる可能性がありますので、推奨いたしません。</string>
+    <!-- Lockscreen shortcuts -->
+    <string name="lockscreen_shortcuts_title">Lockscreen shortcuts</string>
+    <string name="lockscreen_shortcuts_summary">Customize which shortcuts are displayed</string>
 </resources>
