@@ -72,6 +72,9 @@
     <string name="adaptive_playback_timeout_5_min_summary">Aktif (5 menit)</string>
     <string name="adaptive_playback_timeout_10_min">10 menit</string>
     <string name="adaptive_playback_timeout_10_min_summary">Aktif (10 menit)</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Kontrol pemutaran</string>
+    <string name="volume_button_music_control_summary">Saat layar mati, menekan lama tombol volume akan melewatkan trek musik</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Ketuk dua kali</string>
     <string name="doze_double_tap_title">Ketuk dua kali untuk memeriksa telepon</string>
@@ -257,4 +260,7 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="battery_charge_cycles">Siklus Mengisi Selesai</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Peringatan: Opsi ini mungkin tidak berfungsi dengan baik atau menyebabkan hilangnya data dan oleh karena itu tidak disarankan!</string>
+    <!-- Lockscreen shortcuts -->
+    <string name="lockscreen_shortcuts_title">Pintasan layar kunci</string>
+    <string name="lockscreen_shortcuts_summary">Sesuaikan pintasan mana yang ditampilkan</string>
 </resources>
