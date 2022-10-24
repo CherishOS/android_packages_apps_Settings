@@ -72,6 +72,9 @@
     <string name="adaptive_playback_timeout_5_min_summary">Açık (5 dakika)</string>
     <string name="adaptive_playback_timeout_10_min">10 dakika</string>
     <string name="adaptive_playback_timeout_10_min_summary">Açık (10 dakika)</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Playback control</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Çift dokunma</string>
     <string name="doze_double_tap_title">Telefonu kontrol etmek için çift dokun</string>
@@ -224,9 +227,9 @@
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Sertifika belirtilmedi. Bağlantınız gizli olmayacak.</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
-    <string name="custom_firmware_version">Cherish version</string>
+    <string name="custom_firmware_version">Cherish Sürümü</string>
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
-    <string name="about_device_info">About device</string>
+    <string name="about_device_info">Cihaz hakkında</string>
     <!-- CherishOS versioning -->
     <string name="cherish_version_title">Cherish Sürümü</string>
     <string name="cherish_device_title">Cihaz</string>
@@ -248,10 +251,15 @@
     <string name="search">Ara</string>
     <string name="search_apps">Uygulamaları ara</string>
     <!-- Volume Media Output Toggle -->
-    <string name="volume_media_output_toggle_title">Show media controller on volume panel</string>
-    <string name="volume_media_output_toggle_summary">Show media controller if there is an active stream</string>
+    <string name="volume_media_output_toggle_title">Ses panelinde medya denetleyicisini göster</string>
+    <string name="volume_media_output_toggle_summary">Etkin bir akış varsa medya denetleyicisini göster</string>
     <!-- Battery health -->
-    <string name="current_battery_capacity">Current battery capacity</string>
-    <string name="designed_battery_capacity">Designed battery capacity</string>
-    <string name="battery_charge_cycles">Charge cycles completed</string>
+    <string name="current_battery_capacity">Mevcut pil kapasitesi</string>
+    <string name="designed_battery_capacity">Planlanan pil kapasitesi</string>
+    <string name="battery_charge_cycles">Şarj döngüleri tamamlandı</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">Warning: This option may not work properly or lead to data loss and is therefore not recommended!</string>
+    <!-- Lockscreen shortcuts -->
+    <string name="lockscreen_shortcuts_title">Lockscreen shortcuts</string>
+    <string name="lockscreen_shortcuts_summary">Customize which shortcuts are displayed</string>
 </resources>
