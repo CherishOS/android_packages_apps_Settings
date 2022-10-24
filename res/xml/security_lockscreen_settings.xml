@@ -74,6 +74,13 @@
             android:title="@string/lockscreen_double_line_clock_setting_toggle"
             android:summary="@string/lockscreen_double_line_clock_summary"
             settings:controller="com.android.settings.display.LockscreenClockPreferenceController" />
+
+		<Preference
+            android:key="lockscreen_shortcuts"
+            android:title="@string/lockscreen_shortcuts_title"
+            android:summary="@string/lockscreen_shortcuts_summary" >
+            <intent android:action="com.android.settings.action.LOCKSCREEN_TUNER" />
+		</Preference>
     </PreferenceCategory>
 
     <PreferenceCategory
