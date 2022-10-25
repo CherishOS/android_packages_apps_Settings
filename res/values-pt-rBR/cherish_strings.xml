@@ -73,8 +73,8 @@
     <string name="adaptive_playback_timeout_10_min">10 minutos</string>
     <string name="adaptive_playback_timeout_10_min_summary">Ativado (10 minutos)</string>
     <!-- Volume button music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">Controle de reprodução</string>
+    <string name="volume_button_music_control_summary">Quando a tela estiver desligada, pressione e segure as teclas de volume para pular faixas de música</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Toque duplo</string>
     <string name="doze_double_tap_title">Toque duas vezes para verificar o telefone</string>
@@ -260,6 +260,6 @@
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Aviso: Esta opção pode não funcionar corretamente ou levar à perda de dados, portanto, não é recomendada!</string>
     <!-- Lockscreen shortcuts -->
-    <string name="lockscreen_shortcuts_title">Lockscreen shortcuts</string>
-    <string name="lockscreen_shortcuts_summary">Customize which shortcuts are displayed</string>
+    <string name="lockscreen_tuner_title">Atalhos da tela de bloqueio</string>
+    <string name="lockscreen_tuner_summary">Modificar os atalhos exibidos na tela de bloqueio</string>
 </resources>
