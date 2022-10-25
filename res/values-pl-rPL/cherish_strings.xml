@@ -260,6 +260,6 @@
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Ostrzeżenie: Ta opcja może nie działać poprawnie lub prowadzić do utraty danych i dlatego nie jest zalecana!</string>
     <!-- Lockscreen shortcuts -->
-    <string name="lockscreen_shortcuts_title">Skróty ekranu blokady</string>
-    <string name="lockscreen_shortcuts_summary">Dostosuj które skróty są wyświetlane</string>
+    <string name="lockscreen_tuner_title">Lockscreen shortcuts</string>
+    <string name="lockscreen_tuner_summary">Modify the shortcuts shown in the lockscreen</string>
 </resources>
