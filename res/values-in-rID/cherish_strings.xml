@@ -261,6 +261,6 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Peringatan: Opsi ini mungkin tidak berfungsi dengan baik atau menyebabkan hilangnya data dan oleh karena itu tidak disarankan!</string>
     <!-- Lockscreen shortcuts -->
-    <string name="lockscreen_tuner_title">Lockscreen shortcuts</string>
-    <string name="lockscreen_tuner_summary">Modify the shortcuts shown in the lockscreen</string>
+    <string name="lockscreen_tuner_title">Pintasan layar kunci</string>
+    <string name="lockscreen_tuner_summary">Ubah pintasan yang ditampilkan di layar kunci</string>
 </resources>
