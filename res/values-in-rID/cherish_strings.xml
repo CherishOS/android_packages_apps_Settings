@@ -263,4 +263,7 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <!-- Lockscreen shortcuts -->
     <string name="lockscreen_tuner_title">Pintasan layar kunci</string>
     <string name="lockscreen_tuner_summary">Ubah pintasan yang ditampilkan di layar kunci</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">One shot auto-brightness</string>
+    <string name="auto_brightness_one_shot_summary">Brightness adjustment will only occur at the moment the screen is turned on</string>
 </resources>
