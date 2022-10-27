@@ -262,4 +262,7 @@
     <!-- Lockscreen shortcuts -->
     <string name="lockscreen_tuner_title">Atalhos do ecrã de bloqueio</string>
     <string name="lockscreen_tuner_summary">Modificar os atalhos mostrados no ecrã de bloqueio</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Brilho automático ao ligar o ecrã</string>
+    <string name="auto_brightness_one_shot_summary">O ajuste do brilho ocorrerá apenas no momento em que o ecrã for ligado</string>
 </resources>
