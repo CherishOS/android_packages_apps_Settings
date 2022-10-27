@@ -262,4 +262,7 @@
     <!-- Lockscreen shortcuts -->
     <string name="lockscreen_tuner_title">Raccourcis de l\'écran de verrouillage</string>
     <string name="lockscreen_tuner_summary">Modifier les raccourcis affichés sur l\'écran de verrouillage</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Luminosité automatique rapide</string>
+    <string name="auto_brightness_one_shot_summary">Le réglage de la luminosité ne se produira qu\'au moment où l\'écran est allumé</string>
 </resources>
