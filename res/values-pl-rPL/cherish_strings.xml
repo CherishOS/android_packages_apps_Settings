@@ -72,6 +72,9 @@
     <string name="adaptive_playback_timeout_5_min_summary">Włączony (5 minuty)</string>
     <string name="adaptive_playback_timeout_10_min">10 minut</string>
     <string name="adaptive_playback_timeout_10_min_summary">Włączony (10 minuty)</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Sterowanie odtwarzaniem</string>
+    <string name="volume_button_music_control_summary">Przy wyłączonym ekranie, długie naciśnięcie przycisków głośności spowoduje zmianę utworu</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Podwójne dotknięcie</string>
     <string name="doze_double_tap_title">Stuknij dwukrotnie, by sprawdzić telefon</string>
@@ -256,4 +259,10 @@
     <string name="battery_charge_cycles">Ukończone cykle ładowania</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Ostrzeżenie: Ta opcja może nie działać poprawnie lub prowadzić do utraty danych i dlatego nie jest zalecana!</string>
+    <!-- Lockscreen shortcuts -->
+    <string name="lockscreen_tuner_title">Lockscreen shortcuts</string>
+    <string name="lockscreen_tuner_summary">Modify the shortcuts shown in the lockscreen</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">One shot auto-brightness</string>
+    <string name="auto_brightness_one_shot_summary">Regulacja jasności nastąpi tylko w momencie włączenia ekranu</string>
 </resources>
