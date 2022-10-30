@@ -19,13 +19,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:title="@string/navbar_gesture_tweaks_pref_title">
 
-    <com.spark.support.preferences.SystemSettingSwitchPreference
+    <com.cherish.settings.preferences.SystemSettingSwitchPreference
         android:key="back_swipe_extended"
         android:title="@string/back_swipe_extended_title"
         android:summary="@string/back_swipe_extended_summary"
         android:defaultValue="false" />
 
-    <com.spark.support.preferences.SystemSettingListPreference
+    <com.cherish.settings.preferences.SystemSettingListPreference
         android:key="long_back_swipe_timeout"
         android:title="@string/long_back_swipe_timeout_title"
         android:entries="@array/long_back_swipe_timeout_entries"

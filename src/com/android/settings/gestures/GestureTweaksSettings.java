@@ -37,9 +37,9 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
 import com.android.settingslib.search.Indexable;
 
-import com.cherish.support.preferences.CustomSeekBarPreference;
-import com.cherish.support.preferences.SystemSettingListPreference;
-import com.cherish.support.preferences.SystemSettingSwitchPreference;
+import com.cherish.settings.preferences.CustomSeekBarPreference;
+import com.cherish.settings.preferences.SystemSettingListPreference;
+import com.cherish.settings.preferences.SystemSettingSwitchPreference;
 
 import java.util.ArrayList;
 import java.util.List;
