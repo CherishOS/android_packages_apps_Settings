@@ -53,7 +53,7 @@
     <string name="screen_off_udfps_summary">Laisser la reconnaissance de l\'empreinte activée lorsque l\'écran est éteint</string>
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Charge rapide</string>
-    <string name="fast_charging_summary">Disable to reduce the heat produced by the device while charging or to extend the lifespan of the battery</string>
+    <string name="fast_charging_summary">Désactiver pour réduire la chaleur produite par l\'appareil pendant la charge ou pour prolonger la durée de vie de la batterie</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Pause intelligente</string>
     <string name="adaptive_playback_master_switch_title">Utiliser la pause intelligente</string>
@@ -72,14 +72,17 @@
     <string name="adaptive_playback_timeout_5_min_summary">Activé (5 minutes)</string>
     <string name="adaptive_playback_timeout_10_min">10 minutes</string>
     <string name="adaptive_playback_timeout_10_min_summary">Activé (10 minutes)</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Contrôle de lecture</string>
+    <string name="volume_button_music_control_summary">Lorsque l\'écran est éteint, un appui long sur les touches de volume permet de passer des pistes musicales</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Tapotez deux fois</string>
     <string name="doze_double_tap_title">Appui double pour allumé le téléphone</string>
     <string name="doze_double_tap_summary">Faire clignoter les notifications par double appui</string>
     <!-- Fingerprint wake-and-unlock -->
     <string name="fingerprint_wake_unlock_title">Touchez le lecteur d\'empreinte digitale pour déverrouiller</string>
-    <string name="fingerprint_wake_unlock_touch">Listens for events while the screen is off</string>
-    <string name="fingerprint_wake_unlock_press">Only listens for events once the screen is on</string>
+    <string name="fingerprint_wake_unlock_touch">Écouter les événements lorsque l\'écran est éteint</string>
+    <string name="fingerprint_wake_unlock_press">N\'écoute les événements que lorsque l\'écran est allumé</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Disposition aléatoire</string>
     <string name="unlock_scramble_pin_layout_summary">Disposer aléatoirement les touches lors du déverrouillage</string>
@@ -100,19 +103,19 @@
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Volume de sonnerie progressive</string>
     <string name="increasing_ring_min_volume_title">Volume de départ</string>
-    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+    <string name="increasing_ring_ramp_up_time_title">Durée de progression</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">Animation du geste de retour</string>
     <string name="back_gesture_arrow_summary">Afficher une flèche animée pour le geste retour</string>
     <!-- Pocket judge -->
-    <string name="pocket_judge_title">Pocket detection</string>
-    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+    <string name="pocket_judge_title">Détection de mise en poche</string>
+    <string name="pocket_judge_summary">Empêche l\'activation accidentelle de votre appareil lorsque celui-ci est dans votre poche</string>
     <!-- High touch sensitivity -->
     <string name="high_touch_sensitivity_title">Haute sensibilité tactile</string>
-    <string name="high_touch_sensitivity_summary">Increase touchscreen sensitivity so it can be used while wearing gloves</string>
+    <string name="high_touch_sensitivity_summary">Augmenter la sensibilité de l\'écran pour qu\'il puisse être utilisé avec des gants</string>
     <!-- Touchscreen hovering -->
-    <string name="touchscreen_hovering_title">Touchscreen hovering</string>
-    <string name="touchscreen_hovering_summary">Allows you to hover the screen like a mouse in web browsers, remote desktops, etc</string>
+    <string name="touchscreen_hovering_title">Survol de l\'écran tactile</string>
+    <string name="touchscreen_hovering_summary">Permet d\'utiliser l\'écran comme une souris dans le navigateur internet, en bureau distant, etc</string>
     <!-- High touch polling rate -->
     <string name="high_touch_polling_rate_title">Taux de rafraîchissement tactile élevé</string>
     <string name="high_touch_polling_rate_summary">Augmenter le taux de rafraîchissement tactile</string>
@@ -177,8 +180,8 @@
     <!-- AdGuard DNS Option -->
     <!-- Navigation bar IME space -->
     <string name="hidden_string">Masqué</string>
-    <string name="navigation_bar_ime_space_title">Space under the keyboard</string>
-    <string name="navigation_bar_ime_space_value_narrow">Narrow</string>
+    <string name="navigation_bar_ime_space_title">Espace sous le clavier</string>
+    <string name="navigation_bar_ime_space_value_narrow">Étroit</string>
     <!-- Game Space -->
     <string name="game_space_title">Espace de jeu</string>
     <string name="game_space_summary">Améliorez votre expérience de jeu</string>
@@ -224,9 +227,9 @@
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Aucun certificat spécifié. Votre connexion ne sera pas privée.</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
-    <string name="custom_firmware_version">Cherish version</string>
+    <string name="custom_firmware_version">Version CherishOS</string>
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
-    <string name="about_device_info">About device</string>
+    <string name="about_device_info">À propos de l\'appareil</string>
     <!-- CherishOS versioning -->
     <string name="cherish_version_title">Version CherishOS</string>
     <string name="cherish_device_title">Appareil</string>
@@ -248,10 +251,60 @@
     <string name="search">Recherche</string>
     <string name="search_apps">Rechercher dans les applications</string>
     <!-- Volume Media Output Toggle -->
-    <string name="volume_media_output_toggle_title">Show media controller on volume panel</string>
+    <string name="volume_media_output_toggle_title">Afficher le contrôleur de média sur le panneau de volume</string>
     <string name="volume_media_output_toggle_summary">Afficher le contrôleur de média s\'il y a un flux actif</string>
     <!-- Battery health -->
-    <string name="current_battery_capacity">Current battery capacity</string>
-    <string name="designed_battery_capacity">Designed battery capacity</string>
-    <string name="battery_charge_cycles">Charge cycles completed</string>
+    <string name="current_battery_capacity">Capacité actuelle de la batterie</string>
+    <string name="designed_battery_capacity">Capacité de batterie conçue</string>
+    <string name="battery_charge_cycles">Cycles de charge complets</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">Attention : Cette option peut ne pas fonctionner correctement ou entraîner une perte de données et n\'est donc pas recommandée !</string>
+    <!-- Lockscreen shortcuts -->
+    <string name="lockscreen_tuner_title">Raccourcis de l\'écran de verrouillage</string>
+    <string name="lockscreen_tuner_summary">Modifier les raccourcis affichés sur l\'écran de verrouillage</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Luminosité automatique rapide</string>
+    <string name="auto_brightness_one_shot_summary">Le réglage de la luminosité ne se produira qu\'au moment où l\'écran est allumé</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">No action</string>
+    <string name="action_menu">Menu</string>
+    <string name="action_app_switch">Recents</string>
+    <string name="action_voice_search">Voice search</string>
+    <string name="action_launch_camera">Camera</string>
+    <string name="action_last_app">Last app</string>
+    <string name="action_splitscreen">Split screen</string>
+    <string name="action_flashlight">Flashlight</string>
+    <string name="action_clear_notifications">Clear notifications</string>
+    <string name="action_volume_panel">Volume panel</string>
+    <string name="action_screen_off">Screen off</string>
+    <string name="action_notifications">Notifications</string>
+    <string name="action_power_menu">Power menu</string>
+    <string name="action_screenshot">Screenshot</string>
+    <string name="action_qs_panel">QS panel</string>
+    <string name="action_app_action">Application</string>
+    <string name="action_ringer_modes">Ringer modes</string>
+    <string name="kill_app">Kill foreground app</string>
+    <string name="recent_app_toggle">Switch recent app</string>
+    <string name="skip_song">Skip song</string>
+    <string name="prev_song">Previous song</string>
+    <string name="show_powermenu">Show Power menu</string>
+    <string name="partial_screenshot">Partial screenshot</string>
+    <string name="hush_mute">Silence notifications</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Advanced gestures options</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Customize gestures and set custom actions</string>
+    <string name="navbar_gesture_tweaks_cat_title">Advanced</string>
+    <string name="swipe_app_select_summary">Select an app to launch with the squeeze action</string>
+    <string name="long_back_swipe_timeout_title">Long swipe action timeout</string>
+    <string name="left_swipe_actions_title">Long left swipe action</string>
+    <string name="left_swipe_app_action_title">Select long left swipe app</string>
+    <string name="right_swipe_actions_title">Long right swipe action</string>
+    <string name="right_swipe_app_action_title">Select long right swipe app</string>
+    <string name="left_vertical_swipe_actions_title">Vertical left L-swipe action</string>
+    <string name="left_vertical_swipe_app_action_title">Select vertical left swipe app</string>
+    <string name="right_vertical_swipe_actions_title">Vertical right L-swipe action</string>
+    <string name="right_vertical_swipe_app_action_title">Select vertical right swipe app</string>
+    <string name="gesture_nav_tweaks_footer_info">To choose a specific app activity for the action, long press on any app in the apps picker.\n\nIf launcher is showing, do the swipe at the very bottom area of the screen to trigger the action.</string>
+    <string name="back_swipe_extended_title">Extended swipe action</string>
+    <string name="back_swipe_extended_summary">Trigger action on wider swipe (more than half of display size), or a L swipe (vertically longer enough)</string>
 </resources>
