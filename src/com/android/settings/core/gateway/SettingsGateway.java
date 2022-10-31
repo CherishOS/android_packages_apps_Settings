@@ -396,5 +396,6 @@ public class SettingsGateway {
             Settings.ModuleLicensesActivity.class.getName(),
             UserBackupSettingsActivity.class.getName(),
             Settings.CherishSettingsActivity.class.getName(),
+            Settings.PreviouslyConnectedDeviceDashboardActivity.class.getName()
     };
             }
