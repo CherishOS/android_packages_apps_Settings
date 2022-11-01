@@ -4619,8 +4619,14 @@
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
+        
+        <!-- Face enroll -->
+        <activity android:theme="@style/SudThemeGlif.Light"
+                  android:name="com.android.settings.biometrics.face.FaceEnrollActivityDirector"
+                  android:exported="true"
+                  android:screenOrientation="portrait"/>
+                        
         <!-- This is the longest AndroidManifest.xml ever. -->
-
         <activity android:name=".Settings$SmartPixelsActivity"
             android:label="@string/smart_pixels_title"
             android:taskAffinity="com.android.settings"
