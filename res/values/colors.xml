@@ -237,4 +237,7 @@
     <color name="oneplus_homepage_icon_background">#ffffff</color>
     <color name="oneplus_accent_color">@color/settingsHeaderColor</color>
     <color name="settings_accent_color">@color/oneplus_accent_color</color>
+
+   <color name="face_enroll_check_color">#42a5f5</color>
+   <color name="face_enroll_icon_color">#42a5f5</color>
 </resources>
