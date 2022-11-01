@@ -294,17 +294,21 @@
     <string name="navbar_gesture_tweaks_pref_title">Opções avançadas de gestos</string>
     <string name="navbar_gesture_tweaks_pref_summary">Personalizar gestos e definir ações personalizadas</string>
     <string name="navbar_gesture_tweaks_cat_title">Avançado</string>
-    <string name="swipe_app_select_summary">Select an app to launch with the squeeze action</string>
-    <string name="long_back_swipe_timeout_title">Long swipe action timeout</string>
-    <string name="left_swipe_actions_title">Long left swipe action</string>
-    <string name="left_swipe_app_action_title">Select long left swipe app</string>
-    <string name="right_swipe_actions_title">Long right swipe action</string>
-    <string name="right_swipe_app_action_title">Select long right swipe app</string>
-    <string name="left_vertical_swipe_actions_title">Vertical left L-swipe action</string>
-    <string name="left_vertical_swipe_app_action_title">Select vertical left swipe app</string>
-    <string name="right_vertical_swipe_actions_title">Vertical right L-swipe action</string>
-    <string name="right_vertical_swipe_app_action_title">Select vertical right swipe app</string>
-    <string name="gesture_nav_tweaks_footer_info">To choose a specific app activity for the action, long press on any app in the apps picker.\n\nIf launcher is showing, do the swipe at the very bottom area of the screen to trigger the action.</string>
-    <string name="back_swipe_extended_title">Extended swipe action</string>
-    <string name="back_swipe_extended_summary">Trigger action on wider swipe (more than half of display size), or a L swipe (vertically longer enough)</string>
+    <string name="swipe_app_select_summary">Selecione um app a ser aberto ao pressionar</string>
+    <string name="long_back_swipe_timeout_title">Tempo limite do deslize longo</string>
+    <string name="left_swipe_actions_title">Ação ao deslizar longamente para a esquerda</string>
+    <string name="left_swipe_app_action_title">Selecionar app de deslize longo para a esquerda</string>
+    <string name="right_swipe_actions_title">Ação ao deslizar longamente para a direita</string>
+    <string name="right_swipe_app_action_title">Selecionar app de deslize longo para a direita</string>
+    <string name="left_vertical_swipe_actions_title">Ação de deslize em L para a esquerda</string>
+    <string name="left_vertical_swipe_app_action_title">Selecionar app do deslizar verticalmente à esquerda</string>
+    <string name="right_vertical_swipe_actions_title">Ação de deslize em L para a direita</string>
+    <string name="right_vertical_swipe_app_action_title">Selecionar app do deslizar verticalmente à direita</string>
+    <string name="gesture_nav_tweaks_footer_info">Para escolher uma atividade de app específica para a ação, pressione e segure qualquer app no seletor de aplicativos. \n\nSe o iniciador estiver sendo exibido, deslize o dedo na área inferior da tela para acionar a ação.</string>
+    <string name="back_swipe_extended_title">Ação de deslizar prolongado</string>
+    <string name="back_swipe_extended_summary">Acione a ação com um deslize mais amplo (mais da metade do tamanho da tela) ou com um deslize em L (verticalmente longo o suficiente)</string>
+    <!-- DNS -->
+    <string name="private_dns_mode_open_dns">Open DNS</string>
+    <string name="private_dns_mode_cleanbrowsing">Cleanbrowsing DNS</string>
+    <string name="private_dns_mode_quad9">Quad9 DNS</string>
 </resources>
