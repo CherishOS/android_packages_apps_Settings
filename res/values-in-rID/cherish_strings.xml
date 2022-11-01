@@ -6,7 +6,7 @@
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
-    <string name="device_info_protected_single_press">Sentuh untuk melihat info</string>
+    <string name="device_info_protected_single_press">Ketuk untuk menampilkan info</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Maintainer -->
@@ -14,7 +14,7 @@
     <!-- Battery temperature -->
     <string name="battery_temp">Suhu Baterai</string>
     <!-- About phone screen, Cherish OS version -->
-    <string name="cherish_version">Versi CherishOS</string>
+    <string name="cherish_version">Versi Cherish OS</string>
     <string name="cherish_version_default">Tidak diketahui</string>
     <string name="keywords_cherish_version">Versi CherishOS, versi cherish</string>
     <!-- About phone screen, build date -->
@@ -55,10 +55,10 @@
     <string name="fast_charging_title">Pengisian Cepat</string>
     <string name="fast_charging_summary">Nonaktifkan untuk mengurangi panas yang dihasilkan oleh perangkat saat mengisi daya atau untuk memperpanjang masa pakai baterai</string>
     <!-- Adaptive Playback -->
-    <string name="adaptive_playback_screen_title">Pemutaran Adaptif</string>
+    <string name="adaptive_playback_screen_title">Jeda Cerdas</string>
     <string name="adaptive_playback_master_switch_title">Gunakan Jeda Cerdas</string>
     <string name="adaptive_playback_disabled_summary">Nonaktif</string>
-    <string name="adaptive_playback_intro_text">Pemutaran Adaptif secara otomatis menjeda media saat volume dimatikan dan akan dilanjutkan secara otomatis saat volume dihidupkan dalam waktu yang ditentukan.</string>
+    <string name="adaptive_playback_intro_text">Secara otomatis menjeda media saat volume dimatikan dan akan dilanjutkan secara otomatis saat volume dihidupkan dalam waktu yang ditentukan.</string>
     <string name="adaptive_playback_timeout_title">Gunakan batas waktu</string>
     <string name="adaptive_playback_timeout_none">Tanpa batas waktu</string>
     <string name="adaptive_playback_timeout_none_summary">Aktif (tidak ada batas waktu)</string>
@@ -72,6 +72,9 @@
     <string name="adaptive_playback_timeout_5_min_summary">Aktif (5 menit)</string>
     <string name="adaptive_playback_timeout_10_min">10 menit</string>
     <string name="adaptive_playback_timeout_10_min_summary">Aktif (10 menit)</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Kontrol pemutaran</string>
+    <string name="volume_button_music_control_summary">Saat layar mati, menekan lama tombol volume akan melewatkan trek musik</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Ketuk dua kali</string>
     <string name="doze_double_tap_title">Ketuk dua kali untuk memeriksa telepon</string>
@@ -94,7 +97,7 @@
     <string name="long_label">Panjang</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Izinkan klien untuk menggunakan VPN</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Izinkan klien hotspot untuk menggunakan koneksi VPN perangkat\u2019 ini untuk konektivitas upstream</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Izinkan klien hotspot untuk menggunakan koneksi VPN perangkat ini untuk konektivitas upstream</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Hubungkan volume dering &amp; notifikasi</string>
     <!-- Increasing ring tone volume -->
@@ -172,7 +175,7 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="adj_contrast_title">Kontras</string>
     <!-- Per-app volume control -->
     <string name="app_volume">Volume aplikasi</string>
-    <string name="app_volume_title">Kontrol volume per-aplikasi</string>
+    <string name="app_volume_title">Kontrol volume per aplikasi</string>
     <string name="app_volume_summary">Izinkan untuk mengatur tingkat volume yang berbeda untuk setiap aplikasi</string>
     <!-- Cloudflare DNS Option -->
     <!-- AdGuard DNS Option -->
@@ -184,8 +187,8 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="game_space_title">Ruang Game</string>
     <string name="game_space_summary">Tingkatkan pengalaman bermain game Anda</string>
     <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Tetap menyala saat mengisi daya</string>
-    <string name="doze_on_charge_summary">Tampilkan layar tidur sepanjang waktu saat mengisi daya</string>
+    <string name="doze_on_charge_title">Selalu menyala saat mengisi daya</string>
+    <string name="doze_on_charge_summary">Tampilkan layar ambien sepanjang waktu saat mengisi daya</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">Penuh</string>
     <string name="back_height_high_label">Bawah</string>
@@ -229,7 +232,7 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
     <string name="about_device_info">Tentang perangkat</string>
     <!-- CherishOS versioning -->
-    <string name="cherish_version_title">Versi CherishOS</string>
+    <string name="cherish_version_title">Versi Cherish OS</string>
     <string name="cherish_device_title">Perangkat</string>
     <string name="cherish_release_type_title">Jenis rilis</string>
     <string name="cherish_maintainer_title">Pengelola</string>
@@ -242,7 +245,7 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="top_level_settings_title">Setelan</string>
     <string name="wellbeing_title">Kesehatan Digital Google</string>
     <string name="usercard_summary">Pengguna aktif saat ini, ketuk untuk informasi lebih lanjut</string>
-    <string name="connectivity_category_title">konektivitas</string>
+    <string name="connectivity_category_title">Konektivitas</string>
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Aplikasi layar penuh</string>
     <string name="display_cutout_force_fullscreen_summary">Paksa aplikasi untuk mengabaikan ruang takik</string>
@@ -257,4 +260,56 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="battery_charge_cycles">Siklus Mengisi Selesai</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Peringatan: Opsi ini mungkin tidak berfungsi dengan baik atau menyebabkan hilangnya data dan oleh karena itu tidak disarankan!</string>
+    <!-- Lockscreen shortcuts -->
+    <string name="lockscreen_tuner_title">Pintasan layar kunci</string>
+    <string name="lockscreen_tuner_summary">Ubah pintasan yang ditampilkan di layar kunci</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Kecerahan otomatis satu bidikan</string>
+    <string name="auto_brightness_one_shot_summary">Penyesuaian kecerahan hanya akan terjadi pada saat layar dihidupkan</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">No action</string>
+    <string name="action_menu">Menu</string>
+    <string name="action_app_switch">Recents</string>
+    <string name="action_voice_search">Voice search</string>
+    <string name="action_launch_camera">Camera</string>
+    <string name="action_last_app">Last app</string>
+    <string name="action_splitscreen">Split screen</string>
+    <string name="action_flashlight">Flashlight</string>
+    <string name="action_clear_notifications">Clear notifications</string>
+    <string name="action_volume_panel">Volume panel</string>
+    <string name="action_screen_off">Screen off</string>
+    <string name="action_notifications">Notifications</string>
+    <string name="action_power_menu">Power menu</string>
+    <string name="action_screenshot">Screenshot</string>
+    <string name="action_qs_panel">QS panel</string>
+    <string name="action_app_action">Application</string>
+    <string name="action_ringer_modes">Ringer modes</string>
+    <string name="kill_app">Kill foreground app</string>
+    <string name="recent_app_toggle">Switch recent app</string>
+    <string name="skip_song">Skip song</string>
+    <string name="prev_song">Previous song</string>
+    <string name="show_powermenu">Show Power menu</string>
+    <string name="partial_screenshot">Partial screenshot</string>
+    <string name="hush_mute">Silence notifications</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Advanced gestures options</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Customize gestures and set custom actions</string>
+    <string name="navbar_gesture_tweaks_cat_title">Advanced</string>
+    <string name="swipe_app_select_summary">Select an app to launch with the squeeze action</string>
+    <string name="long_back_swipe_timeout_title">Long swipe action timeout</string>
+    <string name="left_swipe_actions_title">Long left swipe action</string>
+    <string name="left_swipe_app_action_title">Select long left swipe app</string>
+    <string name="right_swipe_actions_title">Long right swipe action</string>
+    <string name="right_swipe_app_action_title">Select long right swipe app</string>
+    <string name="left_vertical_swipe_actions_title">Vertical left L-swipe action</string>
+    <string name="left_vertical_swipe_app_action_title">Select vertical left swipe app</string>
+    <string name="right_vertical_swipe_actions_title">Vertical right L-swipe action</string>
+    <string name="right_vertical_swipe_app_action_title">Select vertical right swipe app</string>
+    <string name="gesture_nav_tweaks_footer_info">To choose a specific app activity for the action, long press on any app in the apps picker.\n\nIf launcher is showing, do the swipe at the very bottom area of the screen to trigger the action.</string>
+    <string name="back_swipe_extended_title">Extended swipe action</string>
+    <string name="back_swipe_extended_summary">Trigger action on wider swipe (more than half of display size), or a L swipe (vertically longer enough)</string>
+    <!-- DNS -->
+    <string name="private_dns_mode_open_dns">Open DNS</string>
+    <string name="private_dns_mode_cleanbrowsing">Cleanbrowsing DNS</string>
+    <string name="private_dns_mode_quad9">Quad9 DNS</string>
 </resources>

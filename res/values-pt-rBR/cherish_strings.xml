@@ -72,6 +72,9 @@
     <string name="adaptive_playback_timeout_5_min_summary">Ativado (5 minutos)</string>
     <string name="adaptive_playback_timeout_10_min">10 minutos</string>
     <string name="adaptive_playback_timeout_10_min_summary">Ativado (10 minutos)</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Controle de reprodução</string>
+    <string name="volume_button_music_control_summary">Quando a tela estiver desligada, pressione e segure as teclas de volume para pular faixas de música</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Toque duplo</string>
     <string name="doze_double_tap_title">Toque duas vezes para verificar o telefone</string>
@@ -256,4 +259,56 @@
     <string name="battery_charge_cycles">Ciclos de carregamento concluídos</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Aviso: Esta opção pode não funcionar corretamente ou levar à perda de dados, portanto, não é recomendada!</string>
+    <!-- Lockscreen shortcuts -->
+    <string name="lockscreen_tuner_title">Atalhos da tela de bloqueio</string>
+    <string name="lockscreen_tuner_summary">Modificar os atalhos exibidos na tela de bloqueio</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Brilho automático ao ligar a tela</string>
+    <string name="auto_brightness_one_shot_summary">O ajuste de brilho só ocorrerá no momento em que a tela for ligada</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Nenhuma ação</string>
+    <string name="action_menu">Menu</string>
+    <string name="action_app_switch">Recentes</string>
+    <string name="action_voice_search">Pesquisa por voz</string>
+    <string name="action_launch_camera">Câmera</string>
+    <string name="action_last_app">Último app</string>
+    <string name="action_splitscreen">Tela dividida</string>
+    <string name="action_flashlight">Lanterna</string>
+    <string name="action_clear_notifications">Limpar notificações</string>
+    <string name="action_volume_panel">Painel de volume</string>
+    <string name="action_screen_off">Desligar tela</string>
+    <string name="action_notifications">Notificações</string>
+    <string name="action_power_menu">Menu de energia</string>
+    <string name="action_screenshot">Captura de tela</string>
+    <string name="action_qs_panel">Painel de configurações rápidas</string>
+    <string name="action_app_action">Aplicativo</string>
+    <string name="action_ringer_modes">Modos de toque</string>
+    <string name="kill_app">Fechar app em primeiro plano</string>
+    <string name="recent_app_toggle">Alternar app recente</string>
+    <string name="skip_song">Pular música</string>
+    <string name="prev_song">Música anterior</string>
+    <string name="show_powermenu">Mostrar menu de energia</string>
+    <string name="partial_screenshot">Captura de tela parcial</string>
+    <string name="hush_mute">Silenciar notificações</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Opções avançadas de gestos</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Personalizar gestos e definir ações personalizadas</string>
+    <string name="navbar_gesture_tweaks_cat_title">Avançado</string>
+    <string name="swipe_app_select_summary">Selecione um app a ser aberto ao pressionar</string>
+    <string name="long_back_swipe_timeout_title">Tempo limite do deslize longo</string>
+    <string name="left_swipe_actions_title">Ação ao deslizar longamente para a esquerda</string>
+    <string name="left_swipe_app_action_title">Selecionar app de deslize longo para a esquerda</string>
+    <string name="right_swipe_actions_title">Ação ao deslizar longamente para a direita</string>
+    <string name="right_swipe_app_action_title">Selecionar app de deslize longo para a direita</string>
+    <string name="left_vertical_swipe_actions_title">Ação de deslize em L para a esquerda</string>
+    <string name="left_vertical_swipe_app_action_title">Selecionar app do deslizar verticalmente à esquerda</string>
+    <string name="right_vertical_swipe_actions_title">Ação de deslize em L para a direita</string>
+    <string name="right_vertical_swipe_app_action_title">Selecionar app do deslizar verticalmente à direita</string>
+    <string name="gesture_nav_tweaks_footer_info">Para escolher uma atividade de app específica para a ação, pressione e segure qualquer app no seletor de aplicativos. \n\nSe o iniciador estiver sendo exibido, deslize o dedo na área inferior da tela para acionar a ação.</string>
+    <string name="back_swipe_extended_title">Ação de deslizar prolongado</string>
+    <string name="back_swipe_extended_summary">Acione a ação com um deslize mais amplo (mais da metade do tamanho da tela) ou com um deslize em L (verticalmente longo o suficiente)</string>
+    <!-- DNS -->
+    <string name="private_dns_mode_open_dns">Open DNS</string>
+    <string name="private_dns_mode_cleanbrowsing">Cleanbrowsing DNS</string>
+    <string name="private_dns_mode_quad9">Quad9 DNS</string>
 </resources>

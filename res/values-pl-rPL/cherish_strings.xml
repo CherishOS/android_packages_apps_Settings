@@ -74,7 +74,7 @@
     <string name="adaptive_playback_timeout_10_min_summary">Włączony (10 minuty)</string>
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Sterowanie odtwarzaniem</string>
-    <string name="volume_button_music_control_summary">Przy wyłączonym ekranie, długie naciśnięcie przycisków głośności spowoduje zmianę utworu</string>
+    <string name="volume_button_music_control_summary">Gdy ekran jest wyłączony, długie naciśnięcie przycisków głośności spowoduje zmianę utworu</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Podwójne dotknięcie</string>
     <string name="doze_double_tap_title">Stuknij dwukrotnie, by sprawdzić telefon</string>
@@ -260,9 +260,55 @@
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Ostrzeżenie: Ta opcja może nie działać poprawnie lub prowadzić do utraty danych i dlatego nie jest zalecana!</string>
     <!-- Lockscreen shortcuts -->
-    <string name="lockscreen_tuner_title">Lockscreen shortcuts</string>
-    <string name="lockscreen_tuner_summary">Modify the shortcuts shown in the lockscreen</string>
+    <string name="lockscreen_tuner_title">Skróty na ekranie blokady</string>
+    <string name="lockscreen_tuner_summary">Zmodyfikuj skróty wyświetlane na ekranie blokady</string>
     <!-- One shot automatic brightness -->
-    <string name="auto_brightness_one_shot_title">One shot auto-brightness</string>
+    <string name="auto_brightness_one_shot_title">Automatyczna jasność w jednym ujęciu</string>
     <string name="auto_brightness_one_shot_summary">Regulacja jasności nastąpi tylko w momencie włączenia ekranu</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Brak akcji</string>
+    <string name="action_menu">Menu</string>
+    <string name="action_app_switch">Ostatnie</string>
+    <string name="action_voice_search">Wyszukiwanie głosowe</string>
+    <string name="action_launch_camera">Aparat</string>
+    <string name="action_last_app">Ostatnia aplikacja</string>
+    <string name="action_splitscreen">Podziel ekran</string>
+    <string name="action_flashlight">Latarka</string>
+    <string name="action_clear_notifications">Wyczyść powiadomienia</string>
+    <string name="action_volume_panel">Panel głośności</string>
+    <string name="action_screen_off">Wygaszanie ekranu</string>
+    <string name="action_notifications">Powiadomienia</string>
+    <string name="action_power_menu">Menu zasilania</string>
+    <string name="action_screenshot">Zrzut Ekranu</string>
+    <string name="action_qs_panel">Panel Szybkich Ustawień</string>
+    <string name="action_app_action">Aplikacja</string>
+    <string name="action_ringer_modes">Tryby dzwonka</string>
+    <string name="kill_app">Wymuś zatrzymanie aktywnej aplikacji</string>
+    <string name="recent_app_toggle">Przełącz na ostatnią aplikację</string>
+    <string name="skip_song">Pomiń piosenkę</string>
+    <string name="prev_song">Poprzednia piosenka</string>
+    <string name="show_powermenu">Pokaż menu zasilania</string>
+    <string name="partial_screenshot">Częściowy zrzut ekranu</string>
+    <string name="hush_mute">Wycisz powiadomienia</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Zaawansowane opcje gestów</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Dostosuj gesty i ustaw własne akcje</string>
+    <string name="navbar_gesture_tweaks_cat_title">Zaawansowane</string>
+    <string name="swipe_app_select_summary">Wybierz aplikację do uruchomienia przy ściśnięciu</string>
+    <string name="long_back_swipe_timeout_title">Limit czasu akcji długiego przesunięcia</string>
+    <string name="left_swipe_actions_title">Akcja długiego przesunięcia w lewo</string>
+    <string name="left_swipe_app_action_title">Wybierz aplikację długiego przeciągnięcia w lewo</string>
+    <string name="right_swipe_actions_title">Akcja długiego przesunięcia w prawo</string>
+    <string name="right_swipe_app_action_title">Wybierz aplikację długiego przeciągnięcia w prawo</string>
+    <string name="left_vertical_swipe_actions_title">Akcja pionowego przesunięcia w lewo</string>
+    <string name="left_vertical_swipe_app_action_title">Wybierz aplikację przesunięcia w lewo w pionie</string>
+    <string name="right_vertical_swipe_actions_title">Akcja pionowego przesunięcia w prawo</string>
+    <string name="right_vertical_swipe_app_action_title">Wybierz aplikację przesunięcia w prawo w pionie</string>
+    <string name="gesture_nav_tweaks_footer_info">Aby wybrać konkretną aktywność aplikacji dla akcji, przytrzymaj dłużej dowolną aplikację w menu aplikacji.\n\nJeśli wyświetlany jest launcher, wykonaj przesunięcie od dolnej części ekranu, aby wykonać akcję.</string>
+    <string name="back_swipe_extended_title">Rozszerzona akcja przesunięcia</string>
+    <string name="back_swipe_extended_summary">Rozpocznij akcję na szerszym przesunięciu (ponad połowa rozmiaru ekranu) lub o kształcie litery L (Wystarczająco długim pionowo)</string>
+    <!-- DNS -->
+    <string name="private_dns_mode_open_dns">Open DNS</string>
+    <string name="private_dns_mode_cleanbrowsing">Cleanbrowsing DNS</string>
+    <string name="private_dns_mode_quad9">Quad9 DNS</string>
 </resources>
