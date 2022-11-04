@@ -73,8 +73,8 @@
     <string name="adaptive_playback_timeout_10_min">10 минут</string>
     <string name="adaptive_playback_timeout_10_min_summary">Включено (10 минут)</string>
     <!-- Volume button music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">Управление воспроизведением</string>
+    <string name="volume_button_music_control_summary">Когда экран выключен, длительное нажатие кнопок громкости приводит к пропуску музыкальных дорожек</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Двойное нажатие</string>
     <string name="doze_double_tap_title">Дважды нажать, чтобы проверить уведомления</string>
@@ -254,61 +254,61 @@
     <string name="volume_media_output_toggle_title">Показывать контроллер мультимедиа в панели громкости</string>
     <string name="volume_media_output_toggle_summary">Показывать контроллер медиа, если есть активный поток</string>
     <!-- Battery health -->
-    <string name="current_battery_capacity">Current battery capacity</string>
-    <string name="designed_battery_capacity">Designed battery capacity</string>
-    <string name="battery_charge_cycles">Charge cycles completed</string>
+    <string name="current_battery_capacity">Текущая емкость батареи</string>
+    <string name="designed_battery_capacity">Заявленная емкость батареи</string>
+    <string name="battery_charge_cycles">Завершенные циклы зарядки</string>
     <!-- Warning message for the sd card setup -->
-    <string name="storage_warning_internal">Warning: This option may not work properly or lead to data loss and is therefore not recommended!</string>
+    <string name="storage_warning_internal">Внимание: Этот параметр может работать неправильно или привести к потере данных, поэтому он не рекомендуется!</string>
     <!-- Lockscreen shortcuts -->
-    <string name="lockscreen_tuner_title">Lockscreen shortcuts</string>
-    <string name="lockscreen_tuner_summary">Modify the shortcuts shown in the lockscreen</string>
+    <string name="lockscreen_tuner_title">Ярлыки экрана блокировки</string>
+    <string name="lockscreen_tuner_summary">Изменить ярлыки на экране блокировки</string>
     <!-- One shot automatic brightness -->
-    <string name="auto_brightness_one_shot_title">One shot auto-brightness</string>
-    <string name="auto_brightness_one_shot_summary">Brightness adjustment will only occur at the moment the screen is turned on</string>
+    <string name="auto_brightness_one_shot_title">Однократная автояркость</string>
+    <string name="auto_brightness_one_shot_summary">Регулировка яркости будет происходить только в момент включения экрана</string>
     <!-- Custom actions -->
-    <string name="action_nothing">No action</string>
-    <string name="action_menu">Menu</string>
-    <string name="action_app_switch">Recents</string>
-    <string name="action_voice_search">Voice search</string>
-    <string name="action_launch_camera">Camera</string>
-    <string name="action_last_app">Last app</string>
-    <string name="action_splitscreen">Split screen</string>
-    <string name="action_flashlight">Flashlight</string>
-    <string name="action_clear_notifications">Clear notifications</string>
-    <string name="action_volume_panel">Volume panel</string>
-    <string name="action_screen_off">Screen off</string>
-    <string name="action_notifications">Notifications</string>
-    <string name="action_power_menu">Power menu</string>
-    <string name="action_screenshot">Screenshot</string>
-    <string name="action_qs_panel">QS panel</string>
-    <string name="action_app_action">Application</string>
-    <string name="action_ringer_modes">Ringer modes</string>
-    <string name="kill_app">Kill foreground app</string>
-    <string name="recent_app_toggle">Switch recent app</string>
-    <string name="skip_song">Skip song</string>
-    <string name="prev_song">Previous song</string>
-    <string name="show_powermenu">Show Power menu</string>
-    <string name="partial_screenshot">Partial screenshot</string>
-    <string name="hush_mute">Silence notifications</string>
+    <string name="action_nothing">Без действия</string>
+    <string name="action_menu">Меню</string>
+    <string name="action_app_switch">Недавние</string>
+    <string name="action_voice_search">Голосовой поиск</string>
+    <string name="action_launch_camera">Камера</string>
+    <string name="action_last_app">Последнее приложение</string>
+    <string name="action_splitscreen">Разделение экрана</string>
+    <string name="action_flashlight">Фонарик</string>
+    <string name="action_clear_notifications">Очистить уведомления</string>
+    <string name="action_volume_panel">Панель громкости</string>
+    <string name="action_screen_off">Выключить экран</string>
+    <string name="action_notifications">Уведомления</string>
+    <string name="action_power_menu">Меню питания</string>
+    <string name="action_screenshot">Скриншот</string>
+    <string name="action_qs_panel">Панель быстрых настроек</string>
+    <string name="action_app_action">Приложение</string>
+    <string name="action_ringer_modes">Режимы звонка</string>
+    <string name="kill_app">Закрыть активное приложение</string>
+    <string name="recent_app_toggle">Переключить недавнее приложение</string>
+    <string name="skip_song">Пропустить песню</string>
+    <string name="prev_song">Предыдущая песня</string>
+    <string name="show_powermenu">Показать меню питания</string>
+    <string name="partial_screenshot">Частичный снимок экрана</string>
+    <string name="hush_mute">Отключить звук уведомлений</string>
     <!-- Long swipe gestures -->
-    <string name="navbar_gesture_tweaks_pref_title">Advanced gestures options</string>
-    <string name="navbar_gesture_tweaks_pref_summary">Customize gestures and set custom actions</string>
-    <string name="navbar_gesture_tweaks_cat_title">Advanced</string>
-    <string name="swipe_app_select_summary">Select an app to launch with the squeeze action</string>
-    <string name="long_back_swipe_timeout_title">Long swipe action timeout</string>
-    <string name="left_swipe_actions_title">Long left swipe action</string>
-    <string name="left_swipe_app_action_title">Select long left swipe app</string>
-    <string name="right_swipe_actions_title">Long right swipe action</string>
-    <string name="right_swipe_app_action_title">Select long right swipe app</string>
-    <string name="left_vertical_swipe_actions_title">Vertical left L-swipe action</string>
-    <string name="left_vertical_swipe_app_action_title">Select vertical left swipe app</string>
-    <string name="right_vertical_swipe_actions_title">Vertical right L-swipe action</string>
-    <string name="right_vertical_swipe_app_action_title">Select vertical right swipe app</string>
-    <string name="gesture_nav_tweaks_footer_info">To choose a specific app activity for the action, long press on any app in the apps picker.\n\nIf launcher is showing, do the swipe at the very bottom area of the screen to trigger the action.</string>
-    <string name="back_swipe_extended_title">Extended swipe action</string>
-    <string name="back_swipe_extended_summary">Trigger action on wider swipe (more than half of display size), or a L swipe (vertically longer enough)</string>
+    <string name="navbar_gesture_tweaks_pref_title">Дополнительные параметры жестов</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Настройка жестов и установка пользовательских действий</string>
+    <string name="navbar_gesture_tweaks_cat_title">Дополнительно</string>
+    <string name="swipe_app_select_summary">Выберите приложение для запуска с помощью функции сжатия</string>
+    <string name="long_back_swipe_timeout_title">Длительность действий задержки смахивания </string>
+    <string name="left_swipe_actions_title">Действие при длинном смахивании влево</string>
+    <string name="left_swipe_app_action_title">Выберите приложение для длинного смахивания влево</string>
+    <string name="right_swipe_actions_title">Действие при длительном смахивании вправо</string>
+    <string name="right_swipe_app_action_title">Выберите приложение для длинного сдвига влево</string>
+    <string name="left_vertical_swipe_actions_title">Вертикальное действие слева L-смахивание</string>
+    <string name="left_vertical_swipe_app_action_title">Выберите приложение для вертикального смахивания</string>
+    <string name="right_vertical_swipe_actions_title">Вертикальное действие справа L-смахивание</string>
+    <string name="right_vertical_swipe_app_action_title">Выберите приложение для вертикального смахивания вправо</string>
+    <string name="gesture_nav_tweaks_footer_info">Чтобы выбрать конкретное действие приложения для действия, нажмите и удерживайте любое приложение в средстве выбора приложений.\n\nЕсли отображается панель запуска, проведите по экрану в самом низу экрана, чтобы вызвать действие.</string>
+    <string name="back_swipe_extended_title">Расширенное действие смахивания</string>
+    <string name="back_swipe_extended_summary">Запуск действия при длительном смахивания (более чем на половину экрана), или L-смахивание (от края и вверх)</string>
     <!-- DNS -->
-    <string name="private_dns_mode_open_dns">Open DNS</string>
-    <string name="private_dns_mode_cleanbrowsing">Cleanbrowsing DNS</string>
+    <string name="private_dns_mode_open_dns">Открыть DNS</string>
+    <string name="private_dns_mode_cleanbrowsing">Очищение DNS</string>
     <string name="private_dns_mode_quad9">Quad9 DNS</string>
 </resources>
