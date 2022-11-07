@@ -227,9 +227,9 @@
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">您未指定任何证书，因此无法为您设置私密连接。</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
-    <string name="custom_firmware_version">Cherish version</string>
+    <string name="custom_firmware_version">Cherish 版本</string>
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
-    <string name="about_device_info">About device</string>
+    <string name="about_device_info">关于设备</string>
     <!-- CherishOS versioning -->
     <string name="cherish_version_title">Cherish 版本</string>
     <string name="cherish_device_title">设备</string>
@@ -248,14 +248,14 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">强制全屏的应用程序</string>
     <string name="display_cutout_force_fullscreen_summary">强制应用忽略刘海区域</string>
-    <string name="search">Search</string>
-    <string name="search_apps">Search apps</string>
+    <string name="search">搜索</string>
+    <string name="search_apps">搜索应用</string>
     <!-- Volume Media Output Toggle -->
-    <string name="volume_media_output_toggle_title">Show media controller on volume panel</string>
+    <string name="volume_media_output_toggle_title">在音量面板上显示媒体控制器</string>
     <string name="volume_media_output_toggle_summary">Show media controller if there is an active stream</string>
     <!-- Battery health -->
-    <string name="current_battery_capacity">Current battery capacity</string>
-    <string name="designed_battery_capacity">Designed battery capacity</string>
+    <string name="current_battery_capacity">当前电池容量</string>
+    <string name="designed_battery_capacity">设计电池容量</string>
     <string name="battery_charge_cycles">Charge cycles completed</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Warning: This option may not work properly or lead to data loss and is therefore not recommended!</string>
