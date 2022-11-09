@@ -306,7 +306,7 @@
     <string name="right_vertical_swipe_app_action_title">Select vertical right swipe app</string>
     <string name="gesture_nav_tweaks_footer_info">To choose a specific app activity for the action, long press on any app in the apps picker.\n\nIf launcher is showing, do the swipe at the very bottom area of the screen to trigger the action.</string>
     <string name="back_swipe_extended_title">Action de balayage étendu</string>
-    <string name="back_swipe_extended_summary">Trigger action on wider swipe (more than half of display size), or a L swipe (vertically longer enough)</string>
+    <string name="back_swipe_extended_summary">Déclencher l\'action sur un balayage plus large (plus de la moitié de la taille de l\'écran), ou un balayage en L (suffisamment long verticalement)</string>
     <!-- DNS -->
     <string name="private_dns_mode_open_dns">Open DNS</string>
     <string name="private_dns_mode_cleanbrowsing">Nettoyage du DNS</string>
@@ -315,12 +315,12 @@
     <string name="app_info_update_time">Updated: %1$s</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_settings_footer_custom">Face unlock lets you unlock your device by looking at it. Keep in mind:\n\n● Your device may unlock any time you look at it.\n● Your device can be unlocked by someone else if they hold it in front of your face while your eyes are open.\n● Your device may also be unlocked by someone who looks a lot like you, such as a child or identical sibling.</string>
-    <string name="security_settings_face_settings_remove_dialog_details_custom">Data recorded by face unlock will be permanently and securely deleted. After removal, you will need your PIN, pattern, or password to unlock your phone.</string>
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
-    <string name="face_redo_confirm_btn">Redo</string>
-    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
-    <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
-    <string name="face_unlock_method_default">When the screen is turned on</string>
-    <string name="face_unlock_method_swipe">When swiping on lock screen</string>
+    <string name="security_settings_face_settings_remove_dialog_details_custom">Les données de reconnaissance faciales seront supprimées de manière sécurisée et définitive. Après suppression, vous aurez besoin de votre code PIN, schéma ou mot de passe pour déverrouiller votre téléphone.</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Supprimer l\'analyse faciale existante et créer une nouvelle analyse</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Recommencer l\'analyse faciale</string>
+    <string name="face_redo_confirm_btn">Recommencer</string>
+    <string name="face_redo_warning_msg">Voulez-vous supprimer l\'analyse faciale existante et en créer une nouvelle ?</string>
+    <string name="face_unlock_method_title">Autoriser la reconnaissance faciale sur l\'écran de verrouillage</string>
+    <string name="face_unlock_method_default">Quand l\'écran est allumé</string>
+    <string name="face_unlock_method_swipe">Lors d\'un balayage sur l\'écran de verrouillage</string>
 </resources>
