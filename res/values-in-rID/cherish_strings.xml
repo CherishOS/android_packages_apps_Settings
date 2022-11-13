@@ -315,8 +315,8 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="app_info_install_time">Terpasang: %1$s</string>
     <string name="app_info_update_time">Diperbarui: %1$s</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_settings_footer_custom">Face unlock lets you unlock your device by looking at it. Keep in mind:\n\n● Your device may unlock any time you look at it.\n● Your device can be unlocked by someone else if they hold it in front of your face while your eyes are open.\n● Your device may also be unlocked by someone who looks a lot like you, such as a child or identical sibling.</string>
-    <string name="security_settings_face_settings_remove_dialog_details_custom">Data recorded by face unlock will be permanently and securely deleted. After removal, you will need your PIN, pattern, or password to unlock your phone.</string>
+    <string name="security_settings_face_settings_footer_custom">Face Unlock memungkinkan Anda membuka kunci perangkat dengan melihatnya. Perhatikan:\n\n● Perangkat Anda dapat terbuka kuncinya setiap kali Anda melihatnya.\n● Perangkat Anda dapat dibuka kuncinya oleh orang lain jika mereka memegangnya di depan wajah Anda saat mata Anda terbuka.\n● Perangkat Anda juga dapat dibuka oleh seseorang yang sangat mirip dengan Anda, seperti anak kecil atau saudara kandung yang identik.</string>
+    <string name="security_settings_face_settings_remove_dialog_details_custom">Data yang disimpan dengan metode Face Unlock akan dihapus dan diamankan secara permanen. Setelah dihapus, Anda akan memerlukan PIN, pola, atau kata sandi untuk membuka ponsel Anda.</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">Hapus pemindaian wajah yang ada dan buat pemindaian baru</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Ulangi pemindaian wajah</string>
     <string name="face_redo_confirm_btn">Ulangi</string>
