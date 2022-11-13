@@ -324,31 +324,31 @@
     <string name="face_unlock_method_default">Khi màn hình được bật</string>
     <string name="face_unlock_method_swipe">Khi vuốt trên màn hình khóa</string>
     <!-- Sleep Mode -->
-    <string name="sleep_mode_title">Sleep Mode</string>
-    <string name="sleep_mode_summary_on">On / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_summary_off">Off / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_ringer_title">Ringer mode</string>
-    <string name="sleep_mode_ringer_off_title">Do not change</string>
-    <string name="sleep_mode_ringer_vibrate_title">Vibrate</string>
-    <string name="sleep_mode_ringer_dnd_title">Do Not Disturb</string>
-    <string name="sleep_mode_ringer_silent_title">Silent</string>
-    <string name="sleep_mode_schedule_sunset">Sunset</string>
-    <string name="sleep_mode_schedule_sunrise">Sunrise</string>
-    <string name="sleep_mode_schedule_mixed_sunset">Turns on from sunset to a custom time</string>
-    <string name="sleep_mode_schedule_mixed_sunrise">Turns on from a custom time to sunrise</string>
-    <string name="sleep_mode_toggles_title">Toggles</string>
-    <string name="sleep_mode_wifi_toggle_title">Turn off Wi-Fi</string>
-    <string name="sleep_mode_wifi_toggle_summary">Disable Wi-Fi when Sleep mode is turned on</string>
-    <string name="sleep_mode_bluetooth_toggle_title">Turn off Bluetooth</string>
-    <string name="sleep_mode_bluetooth_toggle_summary">Disable Bluetooth when Sleep mode is turned on</string>
-    <string name="sleep_mode_cellular_toggle_title">Turn off Mobile data</string>
-    <string name="sleep_mode_cellular_toggle_summary">Disable Mobile data when Sleep mode is turned on</string>
-    <string name="sleep_mode_location_toggle_title">Turn off Location</string>
-    <string name="sleep_mode_location_toggle_summary">Disable Location when Sleep mode is turned on</string>
-    <string name="sleep_mode_sensors_toggle_title">Turn off Sensors</string>
-    <string name="sleep_mode_sensors_toggle_summary">Disable Sensors when Sleep mode is turned on</string>
-    <string name="sleep_mode_display_text">Sleep mode allows you to disable certain services to help save battery and silence your phone while you sleep.</string>
+    <string name="sleep_mode_title">Chế độ ngủ</string>
+    <string name="sleep_mode_summary_on">Bật / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Tắt / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Chế độ chuông</string>
+    <string name="sleep_mode_ringer_off_title">Không thay đổi</string>
+    <string name="sleep_mode_ringer_vibrate_title">Rung</string>
+    <string name="sleep_mode_ringer_dnd_title">Không làm phiền</string>
+    <string name="sleep_mode_ringer_silent_title">Im lặng</string>
+    <string name="sleep_mode_schedule_sunset">Hoàng hôn</string>
+    <string name="sleep_mode_schedule_sunrise">Bình minh</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Bật từ hoàng hôn đến tùy chọn thời gian</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Bật cho tùy chọn thời gian đến lúc bình minh</string>
+    <string name="sleep_mode_toggles_title">Chuyển đổi</string>
+    <string name="sleep_mode_wifi_toggle_title">Tắt Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Tắt Wi-Fi khi bật chế độ Ngủ</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Tắt Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Tắt Bluetooth khi bật chế độ Ngủ</string>
+    <string name="sleep_mode_cellular_toggle_title">Tắt dữ liệu di động</string>
+    <string name="sleep_mode_cellular_toggle_summary">Tắt dữ liệu di động khi bật chế độ Ngủ</string>
+    <string name="sleep_mode_location_toggle_title">Tắt vị trí</string>
+    <string name="sleep_mode_location_toggle_summary">Tắt vị trí khi bật chế độ Ngủ</string>
+    <string name="sleep_mode_sensors_toggle_title">Tắt cảm biến</string>
+    <string name="sleep_mode_sensors_toggle_summary">Tắt cảm biến khi bật chế độ Ngủ</string>
+    <string name="sleep_mode_display_text">Chế độ ngủ cho phép bạn tắt một số dịch vụ nhất định để giúp tiết kiệm pin và tắt tiếng điện thoại khi bạn ngủ.</string>
     <!-- Scarlet Assistant Idle Manager -->
-    <string name="idle_manager_title">Scarlet Assistant Idle Manager</string>
-    <string name="idle_manager_summary">Scarlet will optimize device\'s power consumption while device is idle and will efficiently boost device performance at every screen wake up.</string>
+    <string name="idle_manager_title">Trợ lý quản lí Scarlet không hoạt động</string>
+    <string name="idle_manager_summary">Scarlet sẽ tối ưu hóa mức tiêu thụ điện năng của thiết bị trong khi thiết bị không hoạt động và sẽ tăng hiệu suất của thiết bị vào mỗi lần đánh thức màn hình.</string>
 </resources>
