@@ -178,10 +178,9 @@
     <string name="app_volume_summary">Изменение громкости для отдельных приложений</string>
     <!-- Cloudflare DNS Option -->
     <!-- AdGuard DNS Option -->
-    <!-- Navigation bar IME space -->
-    <string name="hidden_string">Скрытый</string>
+    <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">Пространство под клавиатурой</string>
-    <string name="navigation_bar_ime_space_value_narrow">Узкий</string>
+    <string name="navigation_bar_ime_space_summary">Hide IME button space below keyboard</string>
     <!-- Game Space -->
     <string name="game_space_title">Игровое пространство</string>
     <string name="game_space_summary">Улучшайте свои впечатления от игр</string>
