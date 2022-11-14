@@ -178,10 +178,9 @@
     <string name="app_volume_summary">Zezwalaj na ustawienie różnych poziomów głośności dla każdej aplikacji</string>
     <!-- Cloudflare DNS Option -->
     <!-- AdGuard DNS Option -->
-    <!-- Navigation bar IME space -->
-    <string name="hidden_string">Ukryty</string>
+    <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">Przestrzeń pod klawiaturą</string>
-    <string name="navigation_bar_ime_space_value_narrow">Wąskie</string>
+    <string name="navigation_bar_ime_space_summary">Hide IME button space below keyboard</string>
     <!-- Game Space -->
     <string name="game_space_title">Przestrzeń gier</string>
     <string name="game_space_summary">Popraw swoje wrażenia z gry</string>
