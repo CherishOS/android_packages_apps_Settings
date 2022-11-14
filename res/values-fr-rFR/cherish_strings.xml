@@ -58,7 +58,7 @@
     <string name="adaptive_playback_screen_title">Pause intelligente</string>
     <string name="adaptive_playback_master_switch_title">Utiliser la pause intelligente</string>
     <string name="adaptive_playback_disabled_summary">Désactivé</string>
-    <string name="adaptive_playback_intro_text">La lecture adaptative met en pause automatiquement les médias lorsque le volume est mis en sourdine et reprend automatiquement lorsque le volume est restauré dans le délai défini.</string>
+    <string name="adaptive_playback_intro_text">Met automatiquement les médias en pause lorsque le volume est mis en sourdine et reprend lorsque le volume est restauré dans le délai défini.</string>
     <string name="adaptive_playback_timeout_title">Utiliser un délai de</string>
     <string name="adaptive_playback_timeout_none">Aucun délai</string>
     <string name="adaptive_playback_timeout_none_summary">Activé (sans délai)</string>
@@ -178,10 +178,9 @@
     <string name="app_volume_summary">Permet de définir des niveaux de volume différents pour chaque application</string>
     <!-- Cloudflare DNS Option -->
     <!-- AdGuard DNS Option -->
-    <!-- Navigation bar IME space -->
-    <string name="hidden_string">Masqué</string>
+    <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">Espace sous le clavier</string>
-    <string name="navigation_bar_ime_space_value_narrow">Étroit</string>
+    <string name="navigation_bar_ime_space_summary">Hide IME button space below keyboard</string>
     <!-- Game Space -->
     <string name="game_space_title">Espace de jeu</string>
     <string name="game_space_summary">Améliorez votre expérience de jeu</string>
@@ -304,50 +303,50 @@
     <string name="left_vertical_swipe_app_action_title">Select vertical left swipe app</string>
     <string name="right_vertical_swipe_actions_title">Vertical right L-swipe action</string>
     <string name="right_vertical_swipe_app_action_title">Select vertical right swipe app</string>
-    <string name="gesture_nav_tweaks_footer_info">To choose a specific app activity for the action, long press on any app in the apps picker.\n\nIf launcher is showing, do the swipe at the very bottom area of the screen to trigger the action.</string>
+    <string name="gesture_nav_tweaks_footer_info">Pour choisir une activité d\'application spécifique pour l\'action, appuyez longuement sur n\'importe quelle application dans le sélecteur d\'applications.\n\nSi le lanceur s\'affiche, faites glisser votre doigt tout en bas de l\'écran pour déclencher l\'action.</string>
     <string name="back_swipe_extended_title">Action de balayage étendu</string>
     <string name="back_swipe_extended_summary">Déclencher l\'action sur un balayage plus large (plus de la moitié de la taille de l\'écran), ou un balayage en L (suffisamment long verticalement)</string>
     <!-- DNS -->
     <string name="private_dns_mode_open_dns">Open DNS</string>
     <string name="private_dns_mode_cleanbrowsing">Nettoyage du DNS</string>
     <string name="private_dns_mode_quad9">Quad9 DNS</string>
-    <string name="app_info_install_time">Installed: %1$s</string>
-    <string name="app_info_update_time">Updated: %1$s</string>
+    <string name="app_info_install_time">Installé : %1$s</string>
+    <string name="app_info_update_time">Mis à jour : %1$s</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_settings_footer_custom">Face unlock lets you unlock your device by looking at it. Keep in mind:\n\n● Your device may unlock any time you look at it.\n● Your device can be unlocked by someone else if they hold it in front of your face while your eyes are open.\n● Your device may also be unlocked by someone who looks a lot like you, such as a child or identical sibling.</string>
+    <string name="security_settings_face_settings_footer_custom">Le déverrouillage facial vous permet de déverrouiller votre appareil en le regardant. Gardez à l\'esprit :\n\n● Votre appareil peut être déverrouillé à chaque fois que vous le regardez.\n● Votre appareil peut être déverrouillé par quelqu\'un d\'autre s\'il le tient devant votre visage pendant que vos yeux sont ouverts.\n● Votre appareil peut également être déverrouillé par une personne qui vous ressemble beaucoup, comme un enfant ou vos frères et sœurs.</string>
     <string name="security_settings_face_settings_remove_dialog_details_custom">Les données de reconnaissance faciales seront supprimées de manière sécurisée et définitive. Après suppression, vous aurez besoin de votre code PIN, schéma ou mot de passe pour déverrouiller votre téléphone.</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">Supprimer l\'analyse faciale existante et créer une nouvelle analyse</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Recommencer l\'analyse faciale</string>
     <string name="face_redo_confirm_btn">Recommencer</string>
     <string name="face_redo_warning_msg">Voulez-vous supprimer l\'analyse faciale existante et en créer une nouvelle ?</string>
     <string name="face_unlock_method_title">Autoriser la reconnaissance faciale sur l\'écran de verrouillage</string>
-    <string name="face_unlock_method_default">Quand l\'écran est allumé</string>
+    <string name="face_unlock_method_default">Lorsque l\'écran est allumé</string>
     <string name="face_unlock_method_swipe">Lors d\'un balayage sur l\'écran de verrouillage</string>
     <!-- Sleep Mode -->
-    <string name="sleep_mode_title">Sleep Mode</string>
-    <string name="sleep_mode_summary_on">On / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_summary_off">Off / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_ringer_title">Ringer mode</string>
-    <string name="sleep_mode_ringer_off_title">Do not change</string>
-    <string name="sleep_mode_ringer_vibrate_title">Vibrate</string>
-    <string name="sleep_mode_ringer_dnd_title">Do Not Disturb</string>
-    <string name="sleep_mode_ringer_silent_title">Silent</string>
-    <string name="sleep_mode_schedule_sunset">Sunset</string>
-    <string name="sleep_mode_schedule_sunrise">Sunrise</string>
-    <string name="sleep_mode_schedule_mixed_sunset">Turns on from sunset to a custom time</string>
-    <string name="sleep_mode_schedule_mixed_sunrise">Turns on from a custom time to sunrise</string>
+    <string name="sleep_mode_title">Mode sommeil</string>
+    <string name="sleep_mode_summary_on">Activé / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Désactivé / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Mode sonnerie</string>
+    <string name="sleep_mode_ringer_off_title">Ne pas changer</string>
+    <string name="sleep_mode_ringer_vibrate_title">Vibrer</string>
+    <string name="sleep_mode_ringer_dnd_title">Ne Pas Déranger</string>
+    <string name="sleep_mode_ringer_silent_title">Silencieux</string>
+    <string name="sleep_mode_schedule_sunset">Coucher du soleil</string>
+    <string name="sleep_mode_schedule_sunrise">Lever du soleil</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Allumé du coucher du soleil jusqu\'à une heure précise</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Allumé à partir d\'une heure précise jusqu\'au lever du soleil</string>
     <string name="sleep_mode_toggles_title">Toggles</string>
-    <string name="sleep_mode_wifi_toggle_title">Turn off Wi-Fi</string>
-    <string name="sleep_mode_wifi_toggle_summary">Disable Wi-Fi when Sleep mode is turned on</string>
-    <string name="sleep_mode_bluetooth_toggle_title">Turn off Bluetooth</string>
-    <string name="sleep_mode_bluetooth_toggle_summary">Disable Bluetooth when Sleep mode is turned on</string>
-    <string name="sleep_mode_cellular_toggle_title">Turn off Mobile data</string>
-    <string name="sleep_mode_cellular_toggle_summary">Disable Mobile data when Sleep mode is turned on</string>
-    <string name="sleep_mode_location_toggle_title">Turn off Location</string>
-    <string name="sleep_mode_location_toggle_summary">Disable Location when Sleep mode is turned on</string>
-    <string name="sleep_mode_sensors_toggle_title">Turn off Sensors</string>
-    <string name="sleep_mode_sensors_toggle_summary">Disable Sensors when Sleep mode is turned on</string>
-    <string name="sleep_mode_display_text">Sleep mode allows you to disable certain services to help save battery and silence your phone while you sleep.</string>
+    <string name="sleep_mode_wifi_toggle_title">Désactiver le Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Désactiver le Wi-Fi lorsque le mode veille est activé</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Désactiver le bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Désactiver le Wi-Fi lorsque le mode veille est activé</string>
+    <string name="sleep_mode_cellular_toggle_title">Désactiver les données mobiles</string>
+    <string name="sleep_mode_cellular_toggle_summary">Désactiver les données mobiles lorsque le mode veille est activé</string>
+    <string name="sleep_mode_location_toggle_title">Désactiver la localisation</string>
+    <string name="sleep_mode_location_toggle_summary">Désactiver la localisation lorsque le mode veille est activé</string>
+    <string name="sleep_mode_sensors_toggle_title">Désactiver les capteurs</string>
+    <string name="sleep_mode_sensors_toggle_summary">Désactiver les capteurs lorsque le mode veille est activé</string>
+    <string name="sleep_mode_display_text">Le mode Veille vous permet de désactiver certains services pour économiser de la batterie et couper le son de votre téléphone pendant que vous dormez.</string>
     <!-- Scarlet Assistant Idle Manager -->
     <string name="idle_manager_title">Scarlet Assistant Idle Manager</string>
     <string name="idle_manager_summary">Scarlet will optimize device\'s power consumption while device is idle and will efficiently boost device performance at every screen wake up.</string>
