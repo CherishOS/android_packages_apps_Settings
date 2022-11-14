@@ -2,73 +2,73 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- SELinux Status -->
     <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_disabled">Deaktiveret</string>
     <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status_enforcing">Håndhæver</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
-    <string name="device_info_protected_single_press">Tap to show info</string>
+    <string name="device_info_protected_single_press">Tryk for at vise info</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Maintainer -->
-    <string name="maintainer">Maintainer</string>
+    <string name="maintainer">Vedligeholder</string>
     <!-- Battery temperature -->
-    <string name="battery_temp">Battery temperature</string>
+    <string name="battery_temp">Batteriets temperatur</string>
     <!-- About phone screen, Cherish OS version -->
     <string name="cherish_version">Cherish version</string>
-    <string name="cherish_version_default">Unknown</string>
+    <string name="cherish_version_default">Ukendt</string>
     <string name="keywords_cherish_version">CherishOS version, cherish version</string>
     <!-- About phone screen, build date -->
-    <string name="about_device_name">Device</string>
-    <string name="build_date">Build date</string>
+    <string name="about_device_name">Enhed</string>
+    <string name="build_date">Delversions dato</string>
     <string name="build_date_default">2015-01-01-0000</string>
-    <string name="keywords_build_date">build date, build info</string>
+    <string name="keywords_build_date">Delversions dato, Delversions info</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="swipe_to_screenshot_gesture_title">Swipe to screenshot</string>
-    <string name="swipe_to_screenshot_gesture_summary">Swipe three fingers to take screenshot</string>
+    <string name="swipe_to_screenshot_gesture_title">Swipe for skærmbillede</string>
+    <string name="swipe_to_screenshot_gesture_summary">Swipe med tre fingre, for at tage skærmbillede</string>
     <!-- Refresh rate -->
-    <string name="min_refresh_rate_title">Minimum refresh rate</string>
-    <string name="max_refresh_rate_title">Maximum refresh rate</string>
+    <string name="min_refresh_rate_title">Minimum opdateringshastighed</string>
+    <string name="max_refresh_rate_title">Maksimum opdateringshastighed</string>
     <string name="low_power_refresh_rate_title_custom">Low power refresh rate</string>
     <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+    <string name="screenshot_shutter_sound_title">Skærmbillede-lyd</string>
     <!-- Wake on plug -->
-    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
-    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
+    <string name="wake_when_plugged_or_unplugged_title">Vågn ved tilslutning</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Tænd skærmen, når opladeren til- eller frakobles</string>
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">Forhindr utilsigtet opvågning</string>
+    <string name="proximity_wake_summary">Check nærhedsføleren før skærmen vækkes</string>
     <!-- Hardware info -->
     <string name="platform_revision">Platform</string>
-    <string name="total_ram">Total RAM</string>
+    <string name="total_ram">Samlet RAM</string>
     <!--Cherish Settings-->
-    <string name="cherish_settings_title">Cherish Settings</string>
-    <string name="cherish_settings_summary">Happiness is not available and it comes from your own actions</string>
+    <string name="cherish_settings_title">Cherish Indstillinger</string>
+    <string name="cherish_settings_summary">Lykke er ikke tilgængelig, og det kommer fra dine egne handlinger</string>
     <!-- Custom light color -->
-    <string name="custom_light_title">Light color</string>
-    <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
-    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
+    <string name="custom_light_title">Lysfarve</string>
+    <string name="custom_light_on_time_title">Lys TIL-tid under LED-puls (ms)</string>
+    <string name="custom_light_off_time_title">Lys FRA-tid under LED-puls (ms)</string>
     <string name="value_equals_default">def</string>
     <!-- Screen off FOD -->
-    <string name="screen_off_udfps_title">Screen off FOD</string>
-    <string name="screen_off_udfps_summary">Keep FOD enabled when the screen is off</string>
+    <string name="screen_off_udfps_title">Skærm slukket FOD</string>
+    <string name="screen_off_udfps_summary">Behold FOD aktiveret, når skærmen er slukket</string>
     <!-- FastCharge feature -->
-    <string name="fast_charging_title">Fast charging</string>
+    <string name="fast_charging_title">Hurtig opladning</string>
     <string name="fast_charging_summary">Disable to reduce the heat produced by the device while charging or to extend the lifespan of the battery</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Smart Pause</string>
-    <string name="adaptive_playback_master_switch_title">Use Smart Pause</string>
-    <string name="adaptive_playback_disabled_summary">Off</string>
+    <string name="adaptive_playback_master_switch_title">Brug Smart Pause</string>
+    <string name="adaptive_playback_disabled_summary">Slået fra</string>
     <string name="adaptive_playback_intro_text">Automatically pauses media when the volume is muted and will resume automatically when volume is restored within the set time.</string>
-    <string name="adaptive_playback_timeout_title">Use a timeout of</string>
-    <string name="adaptive_playback_timeout_none">No timeout</string>
-    <string name="adaptive_playback_timeout_none_summary">On (no timeout)</string>
-    <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
-    <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
-    <string name="adaptive_playback_timeout_1_min">1 minute</string>
-    <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
-    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
-    <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
-    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
+    <string name="adaptive_playback_timeout_title">Brug en tidsgrænse på</string>
+    <string name="adaptive_playback_timeout_none">Ingen tidsgrænse</string>
+    <string name="adaptive_playback_timeout_none_summary">Til (ingen tidsgrænse)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 sekunder</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Til (30 sekunder)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minut</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Til (1 minut)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutter</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Til (2 minutter)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutter</string>
     <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
     <string name="adaptive_playback_timeout_10_min">10 minutes</string>
     <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
@@ -178,10 +178,9 @@
     <string name="app_volume_summary">Allow to set different volume levels for each app</string>
     <!-- Cloudflare DNS Option -->
     <!-- AdGuard DNS Option -->
-    <!-- Navigation bar IME space -->
-    <string name="hidden_string">Hidden</string>
+    <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">Space under the keyboard</string>
-    <string name="navigation_bar_ime_space_value_narrow">Narrow</string>
+    <string name="navigation_bar_ime_space_summary">Hide IME button space below keyboard</string>
     <!-- Game Space -->
     <string name="game_space_title">Game Space</string>
     <string name="game_space_summary">Enhance your gaming experience</string>
