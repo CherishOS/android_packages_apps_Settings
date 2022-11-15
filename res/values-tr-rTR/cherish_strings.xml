@@ -180,7 +180,7 @@
     <!-- AdGuard DNS Option -->
     <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">Klavyenin altındaki alan</string>
-    <string name="navigation_bar_ime_space_summary">Hide IME button space below keyboard</string>
+    <string name="navigation_bar_ime_space_summary">Klavyenin altında giriş yöntemi düzenleyicisi tuş alanını gizle</string>
     <!-- Game Space -->
     <string name="game_space_title">Oyun Alanı</string>
     <string name="game_space_summary">Oyun deneyiminizi geliştirin</string>
@@ -313,8 +313,8 @@
     <string name="app_info_install_time">Yüklenen: %1$s</string>
     <string name="app_info_update_time">Güncellendi: %1$s</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_settings_footer_custom">Face unlock lets you unlock your device by looking at it. Keep in mind:\n\n● Your device may unlock any time you look at it.\n● Your device can be unlocked by someone else if they hold it in front of your face while your eyes are open.\n● Your device may also be unlocked by someone who looks a lot like you, such as a child or identical sibling.</string>
-    <string name="security_settings_face_settings_remove_dialog_details_custom">Data recorded by face unlock will be permanently and securely deleted. After removal, you will need your PIN, pattern, or password to unlock your phone.</string>
+    <string name="security_settings_face_settings_footer_custom">Cihazınızın kilidini açmak için Yüz tanıma kilidini kullanın. Şunları unutmayın:\n\nFarkında olmadığınız durumlarda bile telefona baktığınızda telefonun kilidi açılabilir.\n●0Gözleriniz açıkken telefonunuz yüzünüze doğru çevrilirse telefonunuzun kilidi başka biri tarafından açılabilir.\n●Telefonunuzun kilidi, size çok benzeyen biri (ör. çocuğunuz ya da ikiz kardeşiniz) tarafından açılabilir.</string>
+    <string name="security_settings_face_settings_remove_dialog_details_custom">Yüz tanıma kilidi ile kaydedilen veriler kalıcı ve güvenli bir şekilde silinir. Kaldırma işleminden sonra telefonunuzun kilidini açmak için PIN, desen veya şifre kullanmanız gerekir.</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">Mevcut yüz taramasını kaldır ve yeni bir tarama oluştur</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Yüz taramasını yeniden yap</string>
     <string name="face_redo_confirm_btn">Yeniden yap</string>
@@ -324,30 +324,30 @@
     <string name="face_unlock_method_swipe">Kilit ekranında kaydırırken</string>
     <!-- Sleep Mode -->
     <string name="sleep_mode_title">Uyku Modu</string>
-    <string name="sleep_mode_summary_on">On / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_summary_off">Off / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_ringer_title">Ringer mode</string>
-    <string name="sleep_mode_ringer_off_title">Do not change</string>
+    <string name="sleep_mode_summary_on">Açık / <xliff:g name="auto_mode_summary" example="Hiçbir zaman otomatik olarak kapatma">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Kapalı / <xliff:g name="auto_mode_summary" example="Hiçbir zaman otomatik olarak açma">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Zil sesi modu</string>
+    <string name="sleep_mode_ringer_off_title">Değiştirme</string>
     <string name="sleep_mode_ringer_vibrate_title">Titreşim</string>
     <string name="sleep_mode_ringer_dnd_title">Rahatsız Etmeyin</string>
     <string name="sleep_mode_ringer_silent_title">Sessiz</string>
     <string name="sleep_mode_schedule_sunset">Gün Batımı</string>
     <string name="sleep_mode_schedule_sunrise">Gün Doğumu</string>
-    <string name="sleep_mode_schedule_mixed_sunset">Turns on from sunset to a custom time</string>
-    <string name="sleep_mode_schedule_mixed_sunrise">Turns on from a custom time to sunrise</string>
-    <string name="sleep_mode_toggles_title">Toggles</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Gün batımından bir zamana kadar açılıyor</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Bir zamandan gün doğumuna kadar açılıyor</string>
+    <string name="sleep_mode_toggles_title">Kısayollar</string>
     <string name="sleep_mode_wifi_toggle_title">Wi-Fi Özelliğini Kapat</string>
     <string name="sleep_mode_wifi_toggle_summary">Uyku modu açıldığında Wi-Fi özelliğini kapat</string>
     <string name="sleep_mode_bluetooth_toggle_title">Bluetooth\'u kapat</string>
-    <string name="sleep_mode_bluetooth_toggle_summary">Disable Bluetooth when Sleep mode is turned on</string>
-    <string name="sleep_mode_cellular_toggle_title">Turn off Mobile data</string>
-    <string name="sleep_mode_cellular_toggle_summary">Disable Mobile data when Sleep mode is turned on</string>
-    <string name="sleep_mode_location_toggle_title">Turn off Location</string>
-    <string name="sleep_mode_location_toggle_summary">Disable Location when Sleep mode is turned on</string>
-    <string name="sleep_mode_sensors_toggle_title">Turn off Sensors</string>
-    <string name="sleep_mode_sensors_toggle_summary">Disable Sensors when Sleep mode is turned on</string>
-    <string name="sleep_mode_display_text">Sleep mode allows you to disable certain services to help save battery and silence your phone while you sleep.</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Uyku modu açıldığında Bluetooth\'u devre dışı bırak</string>
+    <string name="sleep_mode_cellular_toggle_title">Mobil veriyi kapat</string>
+    <string name="sleep_mode_cellular_toggle_summary">Uyku modu açıldığında Mobil veriyi devre dışı bırak</string>
+    <string name="sleep_mode_location_toggle_title">Konumu kapat</string>
+    <string name="sleep_mode_location_toggle_summary">Uyku modu açıldığında konum hizmetlerini devre dışı bırak</string>
+    <string name="sleep_mode_sensors_toggle_title">Sensörleri kapat</string>
+    <string name="sleep_mode_sensors_toggle_summary">Uyku modu açıldığında sensörleri devre dışı bırak</string>
+    <string name="sleep_mode_display_text">Uyku modu pil tasarrufu için bazı servisleri devre dışı bırakmanızı ve siz uyurken telefonunuzu sessiz moda almanızı sağlar.</string>
     <!-- Scarlet Assistant Idle Manager -->
-    <string name="idle_manager_title">Scarlet Assistant Idle Manager</string>
-    <string name="idle_manager_summary">Scarlet will optimize device\'s power consumption while device is idle and will efficiently boost device performance at every screen wake up.</string>
+    <string name="idle_manager_title">Scarlet Asistan Bekleme Yöneticisi</string>
+    <string name="idle_manager_summary">Cihaz bekleme modundayken pil tasarrufu sağlamak için ve cihaz her uyandığında performansı arttırmak için telefonunuzu optimize eder.</string>
 </resources>
