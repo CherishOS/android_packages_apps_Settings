@@ -25,6 +25,7 @@ import android.content.pm.ParceledListSlice;
 import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
 import android.service.notification.ConversationChannelWrapper;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
@@ -36,6 +37,7 @@ import androidx.preference.PreferenceScreen;
 import com.android.settings.R;
 import com.android.settings.notification.NotificationBackend;
 import com.android.settingslib.core.lifecycle.Lifecycle;
+import com.android.settingslib.utils.ThreadUtils;
 import com.android.settingslib.widget.LayoutPreference;
 
 import java.util.ArrayList;
@@ -54,6 +56,18 @@ public class ZenModeConversationsImagePreferenceController
 
     private ViewGroup mViewGroup;
     private LayoutPreference mPreference;
+
+    private boolean isLoading;//MFVUI
+    private boolean resumed;//MFVUI
+
+    private Runnable runnableUpdateUI = new Runnable() {
+        @Override
+        public void run() {
+            if (mContext != null && mPreference != null){
+                updateState(mPreference);
+            }
+        }
+    };
 
     public ZenModeConversationsImagePreferenceController(Context context, String key,
             Lifecycle lifecycle, NotificationBackend notificationBackend) {
@@ -86,6 +100,7 @@ public class ZenModeConversationsImagePreferenceController
 
     @Override
     public void updateState(Preference preference) {
+        Log.d(TAG, "updateState");
         loadConversations();
 
         mViewGroup.removeAllViews();
@@ -120,11 +135,17 @@ public class ZenModeConversationsImagePreferenceController
     }
 
     private void loadConversations() {
+        if (isLoading) {
+            Log.d(TAG, "Loading now, ignore");
+            return;
+        }
+        isLoading = true;
         // Load conversations
         new AsyncTask<Void, Void, Void>() {
             private List<Drawable> mDrawables = new ArrayList<>();
             @Override
             protected Void doInBackground(Void... unused) {
+                Log.d(TAG, "doInBackground");
                 mDrawables.clear();
                 final int conversationSenders = mBackend.getPriorityConversationSenders();
                 if (conversationSenders == CONVERSATION_SENDERS_NONE) {
@@ -155,13 +176,31 @@ public class ZenModeConversationsImagePreferenceController
 
             @Override
             protected void onPostExecute(Void unused) {
+                isLoading = false;
                 if (mContext == null) {
                     return;
                 }
+                Log.d(TAG, "onPostExecute");
                 mConversationDrawables.clear();
                 mConversationDrawables.addAll(mDrawables);
-                updateState(mPreference);
+                if (resumed) {
+                    ThreadUtils.getUiThreadHandler().postDelayed(runnableUpdateUI, 1000);
+                }
+
             }
         }.execute();
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        resumed = true;
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        resumed = false;
+        ThreadUtils.getUiThreadHandler().removeCallbacks(runnableUpdateUI);
     }
 }
