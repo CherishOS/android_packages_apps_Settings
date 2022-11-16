@@ -347,7 +347,4 @@
     <string name="sleep_mode_sensors_toggle_title">Sensörleri kapat</string>
     <string name="sleep_mode_sensors_toggle_summary">Uyku modu açıldığında sensörleri devre dışı bırak</string>
     <string name="sleep_mode_display_text">Uyku modu pil tasarrufu için bazı servisleri devre dışı bırakmanızı ve siz uyurken telefonunuzu sessiz moda almanızı sağlar.</string>
-    <!-- Scarlet Assistant Idle Manager -->
-    <string name="idle_manager_title">Scarlet Asistan Bekleme Yöneticisi</string>
-    <string name="idle_manager_summary">Cihaz bekleme modundayken pil tasarrufu sağlamak için ve cihaz her uyandığında performansı arttırmak için telefonunuzu optimize eder.</string>
 </resources>
