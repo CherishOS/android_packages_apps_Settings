@@ -347,7 +347,4 @@
     <string name="sleep_mode_sensors_toggle_title">Desligar sensores</string>
     <string name="sleep_mode_sensors_toggle_summary">Desativar sensores quando o modo de suspensão estiver ativado</string>
     <string name="sleep_mode_display_text">O modo de suspensão permite desativar certos serviços para ajudar a poupar bateria e silenciar o seu telefone enquanto dorme.</string>
-    <!-- Scarlet Assistant Idle Manager -->
-    <string name="idle_manager_title">Gestor de Inatividade do Assistente Scarlet</string>
-    <string name="idle_manager_summary">O Scarlet otimizará o consumo de energia enquanto o dispositivo está inativo e aumentará o desempenho do dispositivo em cada ativação do ecrã.</string>
 </resources>
