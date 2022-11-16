@@ -348,7 +348,4 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="sleep_mode_sensors_toggle_title">Nonaktifkan Sensor</string>
     <string name="sleep_mode_sensors_toggle_summary">Nonaktifkan Sensor saat Mode Tidur diaktifkan</string>
     <string name="sleep_mode_display_text">Mode Tidur memungkinkan Anda menonaktifkan layanan tertentu untuk membantu menghemat baterai dan membungkam ponsel saat Anda tidur.</string>
-    <!-- Scarlet Assistant Idle Manager -->
-    <string name="idle_manager_title">Asisten Manajer Idle Scarlet</string>
-    <string name="idle_manager_summary">Scarlet akan mengoptimalkan konsumsi daya perangkat saat perangkat tidak digunakan dan secara efisien akan meningkatkan kinerja perangkat di setiap layar bangun.</string>
 </resources>
