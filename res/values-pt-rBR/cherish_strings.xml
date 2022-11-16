@@ -347,7 +347,4 @@
     <string name="sleep_mode_sensors_toggle_title">Desativar sensores</string>
     <string name="sleep_mode_sensors_toggle_summary">Desativar sensores quando o modo de inatividade estiver ativado</string>
     <string name="sleep_mode_display_text">O modo de inatividade permite que você desative certos serviços para ajudar a economizar bateria e silenciar seu telefone enquanto dorme.</string>
-    <!-- Scarlet Assistant Idle Manager -->
-    <string name="idle_manager_title">Gerenciador do Assistente Scarlet</string>
-    <string name="idle_manager_summary">O Scarlet vai otimizar o consumo de energia do dispositivo enquanto o dispositivo está inativo e aumentará de forma eficiente o desempenho quando acordar.</string>
 </resources>
