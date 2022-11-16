@@ -320,7 +320,7 @@
     <string name="face_redo_confirm_btn">Recommencer</string>
     <string name="face_redo_warning_msg">Voulez-vous supprimer l\'analyse faciale existante et en créer une nouvelle ?</string>
     <string name="face_unlock_method_title">Autoriser la reconnaissance faciale sur l\'écran de verrouillage</string>
-    <string name="face_unlock_method_default">Lorsque l\'écran est allumé</string>
+    <string name="face_unlock_method_default">Quand l\'écran est allumé</string>
     <string name="face_unlock_method_swipe">Lors d\'un balayage sur l\'écran de verrouillage</string>
     <!-- Sleep Mode -->
     <string name="sleep_mode_title">Mode sommeil</string>
@@ -347,7 +347,4 @@
     <string name="sleep_mode_sensors_toggle_title">Désactiver les capteurs</string>
     <string name="sleep_mode_sensors_toggle_summary">Désactiver les capteurs lorsque le mode veille est activé</string>
     <string name="sleep_mode_display_text">Le mode Veille vous permet de désactiver certains services pour économiser de la batterie et couper le son de votre téléphone pendant que vous dormez.</string>
-    <!-- Scarlet Assistant Idle Manager -->
-    <string name="idle_manager_title">Scarlet Assistant Idle Manager</string>
-    <string name="idle_manager_summary">Scarlet will optimize device\'s power consumption while device is idle and will efficiently boost device performance at every screen wake up.</string>
 </resources>
