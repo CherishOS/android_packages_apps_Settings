@@ -20,4 +20,16 @@
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:key="other_settings_screen"
     android:title="@string/other_settings">
+
+    <PreferenceCategory
+        android:title="@string/quick_settings">
+
+        <SwitchPreference
+            android:key="sensors_off_quick_settings"
+            android:title="@string/sensors_off_quick_settings_title"
+            android:summary="@string/enable_quick_setting"
+            settings:highlightableMenuKey="@string/menu_key_system"
+            settings:controller="com.android.settings.other.SensorsOffPreferenceController" />
+
+    </PreferenceCategory>
 </PreferenceScreen>

@@ -398,4 +398,5 @@ When the screen is off, the torch can be enabled with one of the following key c
 
     <!-- Other Fragment -->
     <string name="other_settings">Other options</string>
+    <string name="quick_settings">Quick Settings</string>
 </resources>
