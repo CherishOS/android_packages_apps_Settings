@@ -178,10 +178,9 @@
     <string name="app_volume_summary">允许为每个应用设置不同的音量级别</string>
     <!-- Cloudflare DNS Option -->
     <!-- AdGuard DNS Option -->
-    <!-- Navigation bar IME space -->
-    <string name="hidden_string">隐藏</string>
+    <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">键盘下的空间</string>
-    <string name="navigation_bar_ime_space_value_narrow">紧凑</string>
+    <string name="navigation_bar_ime_space_summary">Hide IME button space below keyboard</string>
     <!-- Game Space -->
     <string name="game_space_title">游戏空间</string>
     <string name="game_space_summary">增强您的游戏体验</string>
@@ -348,7 +347,4 @@
     <string name="sleep_mode_sensors_toggle_title">Turn off Sensors</string>
     <string name="sleep_mode_sensors_toggle_summary">Disable Sensors when Sleep mode is turned on</string>
     <string name="sleep_mode_display_text">Sleep mode allows you to disable certain services to help save battery and silence your phone while you sleep.</string>
-    <!-- Scarlet Assistant Idle Manager -->
-    <string name="idle_manager_title">Scarlet Assistant Idle Manager</string>
-    <string name="idle_manager_summary">Scarlet will optimize device\'s power consumption while device is idle and will efficiently boost device performance at every screen wake up.</string>
 </resources>
