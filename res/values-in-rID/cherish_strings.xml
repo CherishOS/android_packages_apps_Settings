@@ -179,10 +179,9 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="app_volume_summary">Izinkan untuk mengatur tingkat volume yang berbeda untuk setiap aplikasi</string>
     <!-- Cloudflare DNS Option -->
     <!-- AdGuard DNS Option -->
-    <!-- Navigation bar IME space -->
-    <string name="hidden_string">Tersembunyi</string>
+    <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">Ruang di bawah keyboard</string>
-    <string name="navigation_bar_ime_space_value_narrow">Sempit</string>
+    <string name="navigation_bar_ime_space_summary">Sembunyikan ruang tombol IME di bawah keyboard</string>
     <!-- Game Space -->
     <string name="game_space_title">Ruang Game</string>
     <string name="game_space_summary">Tingkatkan pengalaman bermain game Anda</string>
@@ -325,31 +324,28 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="face_unlock_method_default">Saat layar dihidupkan</string>
     <string name="face_unlock_method_swipe">Saat mengusap layar kunci</string>
     <!-- Sleep Mode -->
-    <string name="sleep_mode_title">Sleep Mode</string>
-    <string name="sleep_mode_summary_on">On / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_summary_off">Off / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_ringer_title">Ringer mode</string>
-    <string name="sleep_mode_ringer_off_title">Do not change</string>
-    <string name="sleep_mode_ringer_vibrate_title">Vibrate</string>
-    <string name="sleep_mode_ringer_dnd_title">Do Not Disturb</string>
-    <string name="sleep_mode_ringer_silent_title">Silent</string>
-    <string name="sleep_mode_schedule_sunset">Sunset</string>
-    <string name="sleep_mode_schedule_sunrise">Sunrise</string>
-    <string name="sleep_mode_schedule_mixed_sunset">Turns on from sunset to a custom time</string>
-    <string name="sleep_mode_schedule_mixed_sunrise">Turns on from a custom time to sunrise</string>
-    <string name="sleep_mode_toggles_title">Toggles</string>
-    <string name="sleep_mode_wifi_toggle_title">Turn off Wi-Fi</string>
-    <string name="sleep_mode_wifi_toggle_summary">Disable Wi-Fi when Sleep mode is turned on</string>
-    <string name="sleep_mode_bluetooth_toggle_title">Turn off Bluetooth</string>
-    <string name="sleep_mode_bluetooth_toggle_summary">Disable Bluetooth when Sleep mode is turned on</string>
-    <string name="sleep_mode_cellular_toggle_title">Turn off Mobile data</string>
-    <string name="sleep_mode_cellular_toggle_summary">Disable Mobile data when Sleep mode is turned on</string>
-    <string name="sleep_mode_location_toggle_title">Turn off Location</string>
-    <string name="sleep_mode_location_toggle_summary">Disable Location when Sleep mode is turned on</string>
-    <string name="sleep_mode_sensors_toggle_title">Turn off Sensors</string>
-    <string name="sleep_mode_sensors_toggle_summary">Disable Sensors when Sleep mode is turned on</string>
-    <string name="sleep_mode_display_text">Sleep mode allows you to disable certain services to help save battery and silence your phone while you sleep.</string>
-    <!-- Scarlet Assistant Idle Manager -->
-    <string name="idle_manager_title">Scarlet Assistant Idle Manager</string>
-    <string name="idle_manager_summary">Scarlet will optimize device\'s power consumption while device is idle and will efficiently boost device performance at every screen wake up.</string>
+    <string name="sleep_mode_title">Mode Tidur</string>
+    <string name="sleep_mode_summary_on">Aktif / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Nonaktif / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Mode dering</string>
+    <string name="sleep_mode_ringer_off_title">Jangan diubah</string>
+    <string name="sleep_mode_ringer_vibrate_title">Getar</string>
+    <string name="sleep_mode_ringer_dnd_title">Jangan Ganggu</string>
+    <string name="sleep_mode_ringer_silent_title">Senyap</string>
+    <string name="sleep_mode_schedule_sunset">Matahari terbenam</string>
+    <string name="sleep_mode_schedule_sunrise">Matahari terbit</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Aktifkan dari matahari terbenam ke waktu khusus</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Aktifkan dari waktu khusus hingga matahari terbit</string>
+    <string name="sleep_mode_toggles_title">Tombol Nonaktifkan</string>
+    <string name="sleep_mode_wifi_toggle_title">Nonaktifkan Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Nonaktifkan Wi-Fi saat Mode Tidur diaktifkan</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Nonaktifkan Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Nonaktifkan Bluetooth saat Mode Tidur diaktifkan</string>
+    <string name="sleep_mode_cellular_toggle_title">Nonaktifkan data seluler</string>
+    <string name="sleep_mode_cellular_toggle_summary">Nonaktifkan data seluler saat Mode Tidur diaktifkan</string>
+    <string name="sleep_mode_location_toggle_title">Nonaktifkan Lokasi</string>
+    <string name="sleep_mode_location_toggle_summary">Nonaktifkan Lokasi saat Mode Tidur diaktifkan</string>
+    <string name="sleep_mode_sensors_toggle_title">Nonaktifkan Sensor</string>
+    <string name="sleep_mode_sensors_toggle_summary">Nonaktifkan Sensor saat Mode Tidur diaktifkan</string>
+    <string name="sleep_mode_display_text">Mode Tidur memungkinkan Anda menonaktifkan layanan tertentu untuk membantu menghemat baterai dan membungkam ponsel saat Anda tidur.</string>
 </resources>
