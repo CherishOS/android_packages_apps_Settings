@@ -178,10 +178,9 @@
     <string name="app_volume_summary">アプリごとに異なる音量を設定する</string>
     <!-- Cloudflare DNS Option -->
     <!-- AdGuard DNS Option -->
-    <!-- Navigation bar IME space -->
-    <string name="hidden_string">非表示</string>
+    <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">IME ボタンのスペース</string>
-    <string name="navigation_bar_ime_space_value_narrow">狭い</string>
+    <string name="navigation_bar_ime_space_summary">キーボードの下に IME ボタンのスペースを隠す</string>
     <!-- Game Space -->
     <string name="game_space_title">ゲームスペース</string>
     <string name="game_space_summary">ゲーム体験を向上させる</string>
@@ -324,31 +323,28 @@
     <string name="face_unlock_method_default">画面が点灯した時</string>
     <string name="face_unlock_method_swipe">ロック画面をスワイプした時</string>
     <!-- Sleep Mode -->
-    <string name="sleep_mode_title">Sleep Mode</string>
-    <string name="sleep_mode_summary_on">On / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_summary_off">Off / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_ringer_title">Ringer mode</string>
-    <string name="sleep_mode_ringer_off_title">Do not change</string>
-    <string name="sleep_mode_ringer_vibrate_title">Vibrate</string>
+    <string name="sleep_mode_title">スリープモード</string>
+    <string name="sleep_mode_summary_on">ON / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">OFF / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">着信音モード</string>
+    <string name="sleep_mode_ringer_off_title">変更しない</string>
+    <string name="sleep_mode_ringer_vibrate_title">振動</string>
     <string name="sleep_mode_ringer_dnd_title">Do Not Disturb</string>
-    <string name="sleep_mode_ringer_silent_title">Silent</string>
-    <string name="sleep_mode_schedule_sunset">Sunset</string>
-    <string name="sleep_mode_schedule_sunrise">Sunrise</string>
-    <string name="sleep_mode_schedule_mixed_sunset">Turns on from sunset to a custom time</string>
-    <string name="sleep_mode_schedule_mixed_sunrise">Turns on from a custom time to sunrise</string>
-    <string name="sleep_mode_toggles_title">Toggles</string>
-    <string name="sleep_mode_wifi_toggle_title">Turn off Wi-Fi</string>
-    <string name="sleep_mode_wifi_toggle_summary">Disable Wi-Fi when Sleep mode is turned on</string>
-    <string name="sleep_mode_bluetooth_toggle_title">Turn off Bluetooth</string>
-    <string name="sleep_mode_bluetooth_toggle_summary">Disable Bluetooth when Sleep mode is turned on</string>
-    <string name="sleep_mode_cellular_toggle_title">Turn off Mobile data</string>
-    <string name="sleep_mode_cellular_toggle_summary">Disable Mobile data when Sleep mode is turned on</string>
-    <string name="sleep_mode_location_toggle_title">Turn off Location</string>
-    <string name="sleep_mode_location_toggle_summary">Disable Location when Sleep mode is turned on</string>
-    <string name="sleep_mode_sensors_toggle_title">Turn off Sensors</string>
-    <string name="sleep_mode_sensors_toggle_summary">Disable Sensors when Sleep mode is turned on</string>
-    <string name="sleep_mode_display_text">Sleep mode allows you to disable certain services to help save battery and silence your phone while you sleep.</string>
-    <!-- Scarlet Assistant Idle Manager -->
-    <string name="idle_manager_title">Scarlet Assistant Idle Manager</string>
-    <string name="idle_manager_summary">Scarlet will optimize device\'s power consumption while device is idle and will efficiently boost device performance at every screen wake up.</string>
+    <string name="sleep_mode_ringer_silent_title">サイレント</string>
+    <string name="sleep_mode_schedule_sunset">日没</string>
+    <string name="sleep_mode_schedule_sunrise">日の出</string>
+    <string name="sleep_mode_schedule_mixed_sunset">日没から設定時刻まで</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">設定時刻から日の出まで</string>
+    <string name="sleep_mode_toggles_title">切り替え</string>
+    <string name="sleep_mode_wifi_toggle_title">Wi-Fi を無効化</string>
+    <string name="sleep_mode_wifi_toggle_summary">スリープモードが ON の時は Wi-Fi を無効にする</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Bluetooth を無効化</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">スリープモードが ON の時は Bluetooth を無効にする</string>
+    <string name="sleep_mode_cellular_toggle_title">モバイルデータを無効化</string>
+    <string name="sleep_mode_cellular_toggle_summary">スリープモードが ON の時はモバイルデータを無効にする</string>
+    <string name="sleep_mode_location_toggle_title">位置情報を無効化</string>
+    <string name="sleep_mode_location_toggle_summary">スリープモードが ON の時は位置情報を無効にする</string>
+    <string name="sleep_mode_sensors_toggle_title">センサーを無効化</string>
+    <string name="sleep_mode_sensors_toggle_summary">スリープモードが ON の時はセンサーを無効にする</string>
+    <string name="sleep_mode_display_text">スリープモードはバッテリー消費を減らし睡眠中に音を鳴らさないために端末の特定のサービスを無効化します</string>
 </resources>

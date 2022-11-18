@@ -178,10 +178,9 @@
     <string name="app_volume_summary">Изменение громкости для отдельных приложений</string>
     <!-- Cloudflare DNS Option -->
     <!-- AdGuard DNS Option -->
-    <!-- Navigation bar IME space -->
-    <string name="hidden_string">Скрытый</string>
+    <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">Пространство под клавиатурой</string>
-    <string name="navigation_bar_ime_space_value_narrow">Узкий</string>
+    <string name="navigation_bar_ime_space_summary">Скрыть отступ под клавиатурой</string>
     <!-- Game Space -->
     <string name="game_space_title">Игровое пространство</string>
     <string name="game_space_summary">Улучшайте свои впечатления от игр</string>
@@ -324,31 +323,28 @@
     <string name="face_unlock_method_default">Когда экран включен</string>
     <string name="face_unlock_method_swipe">При проведении пальцем по экрану блокировки</string>
     <!-- Sleep Mode -->
-    <string name="sleep_mode_title">Sleep Mode</string>
-    <string name="sleep_mode_summary_on">On / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_summary_off">Off / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_ringer_title">Ringer mode</string>
-    <string name="sleep_mode_ringer_off_title">Do not change</string>
-    <string name="sleep_mode_ringer_vibrate_title">Vibrate</string>
-    <string name="sleep_mode_ringer_dnd_title">Do Not Disturb</string>
-    <string name="sleep_mode_ringer_silent_title">Silent</string>
-    <string name="sleep_mode_schedule_sunset">Sunset</string>
-    <string name="sleep_mode_schedule_sunrise">Sunrise</string>
-    <string name="sleep_mode_schedule_mixed_sunset">Turns on from sunset to a custom time</string>
-    <string name="sleep_mode_schedule_mixed_sunrise">Turns on from a custom time to sunrise</string>
-    <string name="sleep_mode_toggles_title">Toggles</string>
-    <string name="sleep_mode_wifi_toggle_title">Turn off Wi-Fi</string>
-    <string name="sleep_mode_wifi_toggle_summary">Disable Wi-Fi when Sleep mode is turned on</string>
-    <string name="sleep_mode_bluetooth_toggle_title">Turn off Bluetooth</string>
-    <string name="sleep_mode_bluetooth_toggle_summary">Disable Bluetooth when Sleep mode is turned on</string>
-    <string name="sleep_mode_cellular_toggle_title">Turn off Mobile data</string>
-    <string name="sleep_mode_cellular_toggle_summary">Disable Mobile data when Sleep mode is turned on</string>
-    <string name="sleep_mode_location_toggle_title">Turn off Location</string>
-    <string name="sleep_mode_location_toggle_summary">Disable Location when Sleep mode is turned on</string>
-    <string name="sleep_mode_sensors_toggle_title">Turn off Sensors</string>
-    <string name="sleep_mode_sensors_toggle_summary">Disable Sensors when Sleep mode is turned on</string>
-    <string name="sleep_mode_display_text">Sleep mode allows you to disable certain services to help save battery and silence your phone while you sleep.</string>
-    <!-- Scarlet Assistant Idle Manager -->
-    <string name="idle_manager_title">Scarlet Assistant Idle Manager</string>
-    <string name="idle_manager_summary">Scarlet will optimize device\'s power consumption while device is idle and will efficiently boost device performance at every screen wake up.</string>
+    <string name="sleep_mode_title">Режим сна</string>
+    <string name="sleep_mode_summary_on">On /<xliff:g name="auto_mode_summary" example="Не включать автоматически">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Off / <xliff:g name="auto_mode_summary" example="Не включать автоматически">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Режим звонка</string>
+    <string name="sleep_mode_ringer_off_title">Не изменять</string>
+    <string name="sleep_mode_ringer_vibrate_title">Вибрировать</string>
+    <string name="sleep_mode_ringer_dnd_title">Не беспокоить</string>
+    <string name="sleep_mode_ringer_silent_title">Без звука</string>
+    <string name="sleep_mode_schedule_sunset">Закат</string>
+    <string name="sleep_mode_schedule_sunrise">Восход</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Включается с момента заката до заданного времени</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Включается с заданного времени до восхода солнца</string>
+    <string name="sleep_mode_toggles_title">Переключатели</string>
+    <string name="sleep_mode_wifi_toggle_title">Выключить Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Отключить Wi-Fi, когда включен спящий режим</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Выключить Blueooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Отключить Bluetooth, когда включен спящий режим</string>
+    <string name="sleep_mode_cellular_toggle_title">Выключить мобильные данные</string>
+    <string name="sleep_mode_cellular_toggle_summary">Отключить мобильные данные, когда включен спящий режим</string>
+    <string name="sleep_mode_location_toggle_title">Выключить местоположение</string>
+    <string name="sleep_mode_location_toggle_summary">Отключить местоположение, когда включен спящий режим</string>
+    <string name="sleep_mode_sensors_toggle_title">Выключить датчики</string>
+    <string name="sleep_mode_sensors_toggle_summary">Отключить датчики, когда включен спящий режим</string>
+    <string name="sleep_mode_display_text">Спящий режим позволяет отключить некоторые службы, чтобы сэкономить заряд батареи, и отключить звук телефона, пока вы спите.</string>
 </resources>
