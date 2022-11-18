@@ -180,7 +180,7 @@
     <!-- AdGuard DNS Option -->
     <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">Khoảng trống phía dưới bàn phím</string>
-    <string name="navigation_bar_ime_space_summary">Hide IME button space below keyboard</string>
+    <string name="navigation_bar_ime_space_summary">Ẩn hiện khoảng trống bên dưới bàn phím</string>
     <!-- Game Space -->
     <string name="game_space_title">Không gian trò chơi</string>
     <string name="game_space_summary">Cải thiện trải nghiệm chơi game</string>
