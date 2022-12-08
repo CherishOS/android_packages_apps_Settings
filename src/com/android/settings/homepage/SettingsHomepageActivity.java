@@ -40,12 +40,14 @@ import android.os.UserManager;
 import android.text.TextUtils;
 import android.util.ArraySet;
 import android.util.FeatureFlagUtils;
+import android.provider.Settings;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.Toolbar;
 
 import androidx.annotation.VisibleForTesting;
@@ -53,6 +55,8 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowCompat;
 import androidx.core.view.WindowInsetsCompat;
+import android.content.Context;
+import android.os.UserHandle;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentManager;
@@ -61,10 +65,10 @@ import androidx.window.embedding.ActivityEmbeddingController;
 import androidx.window.embedding.SplitRule;
 
 import com.android.settings.R;
-import com.android.settings.Settings;
+import com.android.settings.accounts.AvatarViewMixin;
+import android.provider.Settings;
 import com.android.settings.SettingsActivity;
 import com.android.settings.SettingsApplication;
-import com.android.settings.accounts.AvatarViewMixin;
 import com.android.settings.activityembedding.ActivityEmbeddingRulesController;
 import com.android.settings.activityembedding.ActivityEmbeddingUtils;
 import com.android.settings.core.CategoryMixin;
@@ -74,6 +78,8 @@ import com.android.settings.overlay.FeatureFactory;
 import com.android.settings.safetycenter.SafetyCenterManagerWrapper;
 import com.android.settingslib.Utils;
 import com.android.settingslib.core.lifecycle.HideNonSystemOverlayMixin;
+
+import com.google.android.material.appbar.CollapsingToolbarLayout;
 
 import java.net.URISyntaxException;
 import java.util.Set;
@@ -104,6 +110,7 @@ public class SettingsHomepageActivity extends FragmentActivity implements
     private View mHomepageView;
     private View mSuggestionView;
     private View mTwoPaneSuggestionView;
+    private boolean mIsTwoPaneLastTime;
     private CategoryMixin mCategoryMixin;
     private Set<HomepageLoadedListener> mLoadedListeners;
     private ActivityEmbeddingController mActivityEmbeddingController;
@@ -111,6 +118,7 @@ public class SettingsHomepageActivity extends FragmentActivity implements
     private boolean mIsTwoPane;
     // A regular layout shows icons on homepage, whereas a simplified layout doesn't.
     private boolean mIsRegularLayout = true;
+    CollapsingToolbarLayout collapsing_toolbar;
 
     /** A listener receiving homepage loaded events. */
     public interface HomepageLoadedListener {
@@ -174,7 +182,19 @@ public class SettingsHomepageActivity extends FragmentActivity implements
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Context context = getApplicationContext();
 
+        final boolean useStockLayout = Settings.System.getIntForUser(context.getContentResolver(),
+                Settings.System.USE_STOCK_LAYOUT, 0, UserHandle.USER_CURRENT) != 0;
+
+        setContentView(useStockLayout  ? R.layout.settings_homepage_container_stock
+                                       : R.layout.settings_homepage_container);
+
+
+        updateHomepageBackground();
+        mLoadedListeners = new ArraySet<>();
+        final String highlightMenuKey = getHighlightMenuKey();
+        if (useStockLayout) {
         mIsEmbeddingActivityEnabled = ActivityEmbeddingUtils.isEmbeddingActivityEnabled(this);
         if (mIsEmbeddingActivityEnabled) {
             final UserManager um = getSystemService(UserManager.class);
@@ -196,7 +216,6 @@ public class SettingsHomepageActivity extends FragmentActivity implements
         }
 
         setupEdgeToEdge();
-        setContentView(R.layout.settings_homepage_container);
 
         mActivityEmbeddingController = ActivityEmbeddingController.getInstance(this);
         mIsTwoPane = mActivityEmbeddingController.isActivityEmbedded(this);
@@ -204,16 +223,7 @@ public class SettingsHomepageActivity extends FragmentActivity implements
         updateAppBarMinHeight();
         initHomepageContainer();
         updateHomepageAppBar();
-        updateHomepageBackground();
-        mLoadedListeners = new ArraySet<>();
-
         initSearchBarView();
-
-        getLifecycle().addObserver(new HideNonSystemOverlayMixin(this));
-        mCategoryMixin = new CategoryMixin(this);
-        getLifecycle().addObserver(mCategoryMixin);
-
-        final String highlightMenuKey = getHighlightMenuKey();
         // Only allow features on high ram devices.
         if (!getSystemService(ActivityManager.class).isLowRamDevice()) {
             initAvatarView();
@@ -226,6 +236,22 @@ public class SettingsHomepageActivity extends FragmentActivity implements
                         .getLayoutTransition().enableTransitionType(LayoutTransition.CHANGING);
             }
         }
+        } else {
+
+        final View root = findViewById(R.id.settings_homepage_container);
+	LinearLayout commonCon = root.findViewById(R.id.common_con);
+        final Toolbar toolbar = root.findViewById(R.id.search_action_bar);
+	collapsing_toolbar =  root.findViewById(R.id.collapsing_toolbar);
+
+        FeatureFactory.getFactory(this).getSearchFeatureProvider()
+                .initSearchToolbar(this /* activity */, toolbar, SettingsEnums.SETTINGS_HOMEPAGE);
+
+        collapsing_toolbar.setTitle(getResources().getString(R.string.top_level_settings_title));
+        }
+        getLifecycle().addObserver(new HideNonSystemOverlayMixin(this));
+        mCategoryMixin = new CategoryMixin(this);
+        getLifecycle().addObserver(mCategoryMixin);
+
         mMainFragment = showFragment(() -> {
             final TopLevelSettings fragment = new TopLevelSettings();
             fragment.getArguments().putString(SettingsActivity.EXTRA_FRAGMENT_ARG_KEY,
@@ -274,6 +300,11 @@ public class SettingsHomepageActivity extends FragmentActivity implements
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
+        Context context = getApplicationContext();
+        final boolean useStockLayout = Settings.System.getIntForUser(context.getContentResolver(),
+                Settings.System.USE_STOCK_LAYOUT, 0, UserHandle.USER_CURRENT) != 0;
+
+        if (useStockLayout) {
         final boolean newTwoPaneState = mActivityEmbeddingController.isActivityEmbedded(this);
         if (mIsTwoPane != newTwoPaneState) {
             mIsTwoPane = newTwoPaneState;
@@ -282,6 +313,7 @@ public class SettingsHomepageActivity extends FragmentActivity implements
             updateHomepagePaddings();
         }
         updateSplitLayout();
+        }
     }
 
     private void updateSplitLayout() {
@@ -357,6 +389,7 @@ public class SettingsHomepageActivity extends FragmentActivity implements
             }
         }
     }
+
 
     private void updateHomepageBackground() {
         if (!mIsEmbeddingActivityEnabled) {
@@ -660,11 +693,9 @@ public class SettingsHomepageActivity extends FragmentActivity implements
         if (mIsTwoPane) {
             findViewById(R.id.homepage_app_bar_regular_phone_view).setVisibility(View.GONE);
             findViewById(R.id.homepage_app_bar_two_pane_view).setVisibility(View.VISIBLE);
-            findViewById(R.id.suggestion_container_two_pane).setVisibility(View.VISIBLE);
         } else {
             findViewById(R.id.homepage_app_bar_regular_phone_view).setVisibility(View.VISIBLE);
             findViewById(R.id.homepage_app_bar_two_pane_view).setVisibility(View.GONE);
-            findViewById(R.id.suggestion_container_two_pane).setVisibility(View.GONE);
         }
     }
 
@@ -719,4 +750,5 @@ public class SettingsHomepageActivity extends FragmentActivity implements
             }
         }
     }
+
 }

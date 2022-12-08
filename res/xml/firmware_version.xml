@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
   Copyright (C) 2019 The Android Open Source Project
-
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
   You may obtain a copy of the License at
-
        http://www.apache.org/licenses/LICENSE-2.0
-
   Unless required by applicable law or agreed to in writing, software
   distributed under the License is distributed on an "AS IS" BASIS,
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -18,103 +15,90 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
-    android:title="@string/firmware_version"
+    android:title="@string/about_device_info"
     settings:keywords="@string/keywords_android_version">
 
-<PreferenceScreen
-    android:layout="@layout/cherish_logo"
-    android:key="cherish_logo" />
-	
-	
-	<!-- Android version -->
+    <!-- Cherish info -->
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="cherish_info"
+        android:layout="@layout/cherish_info"
+        android:selectable="false" />
+        
+    <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
         android:title="@string/firmware_version"
         android:summary="@string/summary_placeholder"
+        android:icon="@drawable/ic_android_version"
+        settings:layout="@layout/cherish_card_about"
         settings:enableCopying="true"
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
-    <!-- Cherish version -->
+    <!-- Battery -->
     <Preference
-         android:key="cherish_version"
-         android:title="@string/cherish_version"
-         android:summary="@string/summary_placeholder"
-         settings:enableCopying="true"
-         settings:controller="com.android.settings.deviceinfo.firmwareversion.CherishVersionPreferenceController"/>
-		 
-	<!-- Device Name -->
-    <Preference
-        android:key="about_device_name"
-        android:title="@string/about_device_name"
-        android:summary="@string/summary_placeholder"
+        android:key="battery"
+        settings:layout="@layout/cherish_card_about"
+        android:title="@string/battery"
+        android:icon="@drawable/batteryab"
         settings:enableCopying="true"
-        android:selectable="false"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.AboutDeviceNamePreferenceController"/>
-
-    <!-- Maintainer -->
+        android:selectable="true"/>
+        
+    <!-- Chipset -->
     <Preference
-        android:key="maintainer"
-        android:title="@string/maintainer"
-        android:summary="@string/summary_placeholder"
+        android:key="chipset"
+        settings:layout="@layout/cherish_card_about"
+        android:title="@string/chipset"
+        android:icon="@drawable/chipsetab"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.cherish.CherishMaintainerPreferenceController"/>
-
+        android:selectable="true"/>
+        
+    <!-- Display -->
+    <Preference
+        android:key="display"
+        settings:layout="@layout/cherish_card_about"
+        android:title="@string/display"
+        android:icon="@drawable/displayab"
+        settings:enableCopying="true"
+        android:selectable="true"/>
+        
     <!-- Security patch -->
     <Preference
         android:key="security_key"
         android:title="@string/security_patch"
+        android:icon="@drawable/ic_device_status"
+        settings:layout="@layout/cherish_card_about"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SecurityPatchLevelPreferenceController"/>
-
-    <!-- Mainline module version -->
-    <Preference
-        android:key="module_version"
-        android:title="@string/module_version"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.MainlineModuleVersionPreferenceController"/>
-
-    <!-- Baseband -->
-    <Preference
-        android:key="base_band"
-        android:title="@string/baseband_version"
-        android:summary="@string/summary_placeholder"
-        android:selectable="false"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.BasebandVersionPreferenceController"/>
-
-    <!-- Build date -->
-    <Preference 
-        android:key="build_date"
-        android:title="@string/build_date"
-        android:summary="@string/build_date_default"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.BuildDatePreferenceController"/>
 
     <!-- Kernel -->
     <Preference
         android:key="kernel_version"
         android:title="@string/kernel_version"
         android:summary="@string/summary_placeholder"
+        android:icon="@drawable/ic_legal"
+        settings:layout="@layout/cherish_card_about"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.KernelVersionPreferenceController"/>
-
-    <!-- SELinux -->
+        
+    <!-- Baseband -->
     <Preference
-        android:key="selinux_status"
-        android:title="@string/selinux_status"
+        android:key="base_band"
+        android:title="@string/baseband_version"
         android:summary="@string/summary_placeholder"
-        settings:enableCopying="false"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.SelinuxStatusPreferenceController"/>
-
-    <!-- Build -->
-    <!--Preference
-        android:key="os_build_number"
-        android:title="@string/build_number"
-        android:summary="@string/summary_placeholder"
+        android:icon="@drawable/ic_model_hardware"
         android:selectable="false"
+        settings:layout="@layout/cherish_card_about"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.SimpleBuildNumberPreferenceController"/> -->
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.BasebandVersionPreferenceController"/>
+
+    <!-- Storage -->
+    <Preference
+        android:key="storage"
+        settings:layout="@layout/cherish_card_about"
+        android:title="@string/storage"
+        android:icon="@drawable/storageab"
+        settings:enableCopying="true"
+        android:selectable="true"/>
 
 </PreferenceScreen>

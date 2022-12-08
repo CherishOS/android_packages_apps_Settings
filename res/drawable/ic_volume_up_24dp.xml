@@ -1,31 +1,9 @@
-<!--
-  Copyright (C) 2018 The Android Open Source Project
-
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
-  -->
-<vector xmlns:android="http://schemas.android.com/apk/res/android"
-        android:width="24dp"
-        android:height="24dp"
-        android:viewportWidth="24.0"
-        android:viewportHeight="24.0">
-    <path
-        android:pathData="M3,15V9H7L12,4V20L7,15H3ZM10,15.17V8.83L7.83,11H5V13H7.83L10,15.17Z"
-        android:fillType="evenOdd"
-        android:fillColor="?android:attr/colorPrimary"/>
-    <path
-        android:pathData="M16.5,12C16.5,10.23 15.48,8.71 14,7.97V16.02C15.48,15.29 16.5,13.77 16.5,12Z"
-        android:fillColor="?android:attr/colorPrimary"/>
-    <path
-        android:pathData="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.85 14,18.71V20.77C18.01,19.86 21,16.28 21,12C21,7.72 18.01,4.14 14,3.23Z"
-        android:fillColor="?android:attr/colorPrimary"/>
-</vector>
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center" android:top="1.0dip" android:start="1.0dip">
+        <vector android:tint="?android:colorControlNormal" android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0">
+            <path android:pathData="M14.673 8.164c1.492.635 2.539 2.115 2.539 3.838 0 1.708-1.03 3.177-2.502 3.821   M3.713 9.5c-.132 0-.26.053-.354.147-.093.093-.146.22-.146.353v4c0 .133.053.26.146.354.094.093.221.146.354.146h3.2l3.445   3.445c.143.143.358.186.545.109.187-.078.309-.261.309-.463-.003-2.579-.009-8.596-.011-11.173-.001-.202-.123-.385-.309-.462-.187-.077-.402-.034-.545.109-1.25 1.251-3.434 3.436-3.434   3.436S4.724 9.5 3.713 9.5zM15.183 4.503c3.238.955 5.604 3.952   5.604 7.497 0 3.552-2.375 6.554-5.621 7.503" android:strokeColor="@android:color/holo_green_dark" android:strokeWidth="1.5" android:strokeLineCap="round" android:strokeLineJoin="round" />
+        </vector>
+    </item>
+</layer-list>
