@@ -105,6 +105,7 @@ android_library {
         "SystemUIUnfoldLib",
         "accountfeatureprovidergoogle",
         "SettingsLibMainSwitchPreference",
+        "vendor.lineage.fastcharge-V1.0-java",
     ],
 
     libs: [
