@@ -25,6 +25,7 @@ import android.content.pm.PackageManager;
 import android.content.res.Configuration;
 import android.content.res.TypedArray;
 import android.graphics.text.LineBreakConfig;
+import android.provider.Settings;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
@@ -84,6 +85,7 @@ public class SettingsBaseActivity extends FragmentActivity implements CategoryHa
             TransitionHelper.applyBackwardTransition(this);
         }
         super.onCreate(savedInstanceState);
+
         if (isFinishing()) {
             return;
         }
@@ -110,7 +112,11 @@ public class SettingsBaseActivity extends FragmentActivity implements CategoryHa
         }
 
         if (isToolbarEnabled() && !isAnySetupWizard) {
+         if ((Settings.System.getInt(getApplicationContext().getContentResolver(), Settings.System.ALT_SETTINGS_LAYOUT, 0) == 1)) {
+            super.setContentView(R.layout.xd_base_layout);
+          } else {
             super.setContentView(R.layout.collapsing_toolbar_base_layout);
+          }
             mCollapsingToolbarLayout = findViewById(R.id.collapsing_toolbar);
             mAppBarLayout = findViewById(R.id.app_bar);
             if (mCollapsingToolbarLayout != null) {
@@ -291,4 +297,5 @@ public class SettingsBaseActivity extends FragmentActivity implements CategoryHa
         }
         return intent.getIntExtra(EXTRA_PAGE_TRANSITION_TYPE, TransitionType.TRANSITION_NONE);
     }
+
 }

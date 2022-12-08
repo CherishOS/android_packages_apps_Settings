@@ -58,7 +58,6 @@
     <!-- Icon tint color for battery usage system icon -->
     <color name="battery_usage_system_icon_color">@android:color/white</color>
 
-
     <!-- UDFPS colors -->
     <color name="udfps_enroll_icon">#7DA7F1</color>
     <color name="udfps_moving_target_fill">#475670</color>
@@ -74,5 +73,14 @@
 
     <!-- Switch bar disabled state color-->
     <color name="switch_bar_state_disabled_color">#1FE3E3E3</color>
+    
+    <color name="op_control_text_color_primary">#ffffffff</color>
+    <color name="op_control_text_color_secondary">#89ffffff</color>
+    <color name="oneplus_accent_text_color">#fff0648a</color>
+    <color name="op_control_contextual_card_solid_color">#ff1c1e20</color>
+    <color name="op_control_accent_color_green">@color/op_control_accent_color_green_dark</color>
+    <color name="oneplus_homepage_icon_background">#000000</color>
+    <color name="oneplus_accent_color">@color/settingsHeaderColor</color>
+    <color name="settings_accent_color">@color/oneplus_accent_color</color>
+    <color name="settingsHeaderColor">@*android:color/accent_device_default_dark</color>
 </resources>
-
