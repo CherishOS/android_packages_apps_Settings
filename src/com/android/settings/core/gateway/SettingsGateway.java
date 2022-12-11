@@ -184,6 +184,8 @@ import com.android.settings.livedisplay.LiveDisplaySettings;
 import ink.kscope.settings.wifi.tether.WifiTetherClientManager;
 import com.cherish.settings.fragments.SmartPixels;
 
+import com.google.android.settings.security.SecurityHubDashboard;
+
 public class SettingsGateway {
 
     /**
@@ -355,6 +357,7 @@ public class SettingsGateway {
             LiveDisplaySettings.class.getName(),
             WifiTetherClientManager.class.getName(),
             SmartPixels.class.getName(),
+            SecurityHubDashboard.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
