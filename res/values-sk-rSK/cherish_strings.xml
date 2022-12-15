@@ -1,100 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- SELinux Status -->
-    <string name="selinux_status">SELinux 상태</string>
-    <string name="selinux_status_disabled">비활성화됨</string>
-    <string name="selinux_status_permissive">허용</string>
-    <string name="selinux_status_enforcing">강제</string>
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
-    <string name="device_info_protected_single_press">탭하여 정보 보기</string>
+    <string name="device_info_protected_single_press">Tap to show info</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Maintainer -->
-    <string name="maintainer">관리자</string>
+    <string name="maintainer">Maintainer</string>
     <!-- Battery temperature -->
-    <string name="battery_temp">배터리 온도</string>
+    <string name="battery_temp">Battery temperature</string>
     <!-- About phone screen, Cherish OS version -->
-    <string name="cherish_version">Cherish version</string>
-    <string name="cherish_version_default">알 수 없음</string>
-    <string name="keywords_cherish_version">CherishOS 버전, cherish 버전</string>
+    <string name="cherish_version">CherishOS version</string>
+    <string name="cherish_version_default">Unknown</string>
+    <string name="keywords_cherish_version">CherishOS version, cherish version</string>
     <!-- About phone screen, build date -->
-    <string name="about_device_name">기기</string>
-    <string name="build_date">빌드 날짜</string>
+    <string name="about_device_name">Device</string>
+    <string name="build_date">Build date</string>
     <string name="build_date_default">2015-01-01-0000</string>
-    <string name="keywords_build_date">빌드 날짜, 빌드 정보</string>
+    <string name="keywords_build_date">build date, build info</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="swipe_to_screenshot_gesture_title">화면을 쓸어 스크린샷 찍기</string>
-    <string name="swipe_to_screenshot_gesture_summary">세 손가락을 쓸어서 스크린샷을 찍습니다</string>
+    <string name="swipe_to_screenshot_gesture_title">Swipe to screenshot</string>
+    <string name="swipe_to_screenshot_gesture_summary">Swipe three fingers to take screenshot</string>
     <!-- Refresh rate -->
-    <string name="min_refresh_rate_title">최소 화면 주사율</string>
-    <string name="max_refresh_rate_title">최대 화면 주사율</string>
-    <string name="low_power_refresh_rate_title_custom">저전력 화면 주사율</string>
+    <string name="min_refresh_rate_title">Minimum refresh rate</string>
+    <string name="max_refresh_rate_title">Maximum refresh rate</string>
+    <string name="low_power_refresh_rate_title_custom">Low power refresh rate</string>
     <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">스크린샷 효과음</string>
+    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
     <!-- Wake on plug -->
-    <string name="wake_when_plugged_or_unplugged_title">충전기 연결 시 화면 켜짐</string>
-    <string name="wake_when_plugged_or_unplugged_summary">전원이 연결되거나 분리될 때 화면을 켭니다</string>
+    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">실수로 화면 켜짐 방지</string>
-    <string name="proximity_wake_summary">화면을 켜기 전에 근접 센서를 확인합니다</string>
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
     <!-- Hardware info -->
-    <string name="platform_revision">플랫폼</string>
-    <string name="total_ram">총 RAM</string>
+    <string name="platform_revision">Platform</string>
+    <string name="total_ram">Total RAM</string>
     <!--Cherish Settings-->
-    <string name="cherish_settings_title">Cherish 설정</string>
-    <string name="cherish_settings_summary">행복은 이미 완성된 것이 아니라 당신의 행동으로부터 오는 것이다</string>
+    <string name="cherish_settings_title">Cherish Settings</string>
+    <string name="cherish_settings_summary">Happiness is not available and it comes from your own actions</string>
     <!-- Custom light color -->
-    <string name="custom_light_title">LED 색상</string>
-    <string name="custom_light_on_time_title">LED 펄스 중 점등 시간 (ms)</string>
-    <string name="custom_light_off_time_title">LED 펄스 중 소등 시간 (ms)\"</string>
-    <string name="value_equals_default">기본</string>
+    <string name="custom_light_title">Light color</string>
+    <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
+    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
+    <string name="value_equals_default">def</string>
     <!-- Screen off FOD -->
-    <string name="screen_off_udfps_title">꺼진 화면 지문 인식</string>
-    <string name="screen_off_udfps_summary">화면이 꺼져도 지문 인식 켠 채 유지</string>
+    <string name="screen_off_udfps_title">Screen off FOD</string>
+    <string name="screen_off_udfps_summary">Keep FOD enabled when the screen is off</string>
     <!-- FastCharge feature -->
-    <string name="fast_charging_title">고속 충전</string>
-    <string name="fast_charging_summary">충전하는 동안 발생하는 열을 줄이거나, 배터리 수명을 연장하려면 비활성화하십시오</string>
+    <string name="fast_charging_title">Fast charging</string>
+    <string name="fast_charging_summary">Disable to reduce the heat produced by the device while charging or to extend the lifespan of the battery</string>
     <!-- Adaptive Playback -->
-    <string name="adaptive_playback_screen_title">적응형 재생</string>
-    <string name="adaptive_playback_master_switch_title">적응형 재생 사용</string>
-    <string name="adaptive_playback_disabled_summary">끄기</string>
-    <string name="adaptive_playback_intro_text">적응형 재생은 볼륨이 음소거되면 자동으로 미디어 재생을 중지하고, 설정한 시간 내에 음소거 해제 시 자동으로 다시 미디어를 재생합니다.</string>
-    <string name="adaptive_playback_timeout_title">제한 시간</string>
-    <string name="adaptive_playback_timeout_none">제한 없음</string>
-    <string name="adaptive_playback_timeout_none_summary">사용 (시간 제한 없음)</string>
-    <string name="adaptive_playback_timeout_30_secs">30초</string>
-    <string name="adaptive_playback_timeout_30_secs_summary">사용 (30초)</string>
-    <string name="adaptive_playback_timeout_1_min">1분</string>
-    <string name="adaptive_playback_timeout_1_min_summary">사용 (1분)</string>
-    <string name="adaptive_playback_timeout_2_min">2분</string>
-    <string name="adaptive_playback_timeout_2_min_summary">사용 (2분)</string>
-    <string name="adaptive_playback_timeout_5_min">5분</string>
-    <string name="adaptive_playback_timeout_5_min_summary">사용 (5분)</string>
-    <string name="adaptive_playback_timeout_10_min">10분</string>
-    <string name="adaptive_playback_timeout_10_min_summary">사용 (10분)</string>
+    <string name="adaptive_playback_screen_title">Smart Pause</string>
+    <string name="adaptive_playback_master_switch_title">Use Smart Pause</string>
+    <string name="adaptive_playback_disabled_summary">Off</string>
+    <string name="adaptive_playback_intro_text">Automatically pauses media when the volume is muted and will resume automatically when volume is restored within the set time.</string>
+    <string name="adaptive_playback_timeout_title">Use a timeout of</string>
+    <string name="adaptive_playback_timeout_none">No timeout</string>
+    <string name="adaptive_playback_timeout_none_summary">On (no timeout)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minute</string>
+    <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
+    <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
+    <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
+    <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
     <!-- Volume button music control -->
-    <string name="volume_button_music_control_title">재생 컨트롤</string>
-    <string name="volume_button_music_control_summary">화면이 꺼져있을 때, 음량 조절 버튼을 길게 눌러 곡을 넘깁니다</string>
+    <string name="volume_button_music_control_title">Playback control</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
     <!-- Doze on double tap -->
-    <string name="double_tap_title">두 번 탭하기</string>
-    <string name="doze_double_tap_title">두 번 탭하여 기기 확인</string>
-    <string name="doze_double_tap_summary">두 번 탭하여 알림 확인</string>
+    <string name="double_tap_title">Double tap</string>
+    <string name="doze_double_tap_title">Double tap to check phone</string>
+    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
     <!-- Fingerprint wake-and-unlock -->
-    <string name="fingerprint_wake_unlock_title">지문 센서를 터치해 잠금 해제</string>
-    <string name="fingerprint_wake_unlock_touch">화면이 꺼져 있을 때에도 지문 인식 사용</string>
-    <string name="fingerprint_wake_unlock_press">화면이 켜져 있을 때만 지문 인식 사용</string>
+    <string name="fingerprint_wake_unlock_title">Touch fingerprint to unlock</string>
+    <string name="fingerprint_wake_unlock_touch">Listens for events while the screen is off</string>
+    <string name="fingerprint_wake_unlock_press">Only listens for events once the screen is on</string>
     <!-- PIN scramble -->
-    <string name="unlock_scramble_pin_layout_title">키패드 순서 섞기</string>
-    <string name="unlock_scramble_pin_layout_summary">기기 잠금을 해제할 때 키패드 레이아웃을 섞습니다</string>
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">빠른 잠금 해제</string>
-    <string name="unlock_quick_unlock_control_summary">PIN/비밀번호를 올바르게 입력하면 자동으로 잠금을 해제합니다</string>
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
     <!-- Fullscreen gestures -->
-    <string name="navbar_category">내비게이션 바</string>
+    <string name="navbar_category">Navigation bar</string>
     <!-- Gesture navbar length -->
-    <string name="gesture_navbar_length_title">하단 바 길이</string>
-    <string name="hide_label">숨김</string>
-    <string name="long_label">길게</string>
+    <string name="gesture_navbar_length_title">Pill length</string>
+    <string name="hide_label">Hidden</string>
+    <string name="long_label">Long</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
@@ -195,9 +195,9 @@
     <!-- Hotspot -->
     <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
     <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>
-    <string name="wifi_hotspot_auto_off_timeout_never">Never turn off hotsopt</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Never turn off hotspot</string>
     <string name="wifi_hotspot_client_manager_title">Connected devices</string>
-    <string name="wifi_hotspot_client_manager_summary">List and manage devices connected to the hotspot, and set the limit of the number of clients</string>
+    <string name="wifi_hotspot_client_manager_summary">List and manage devices connected to the hotspot</string>
     <string name="wifi_hotspot_client_manager_list_only_summary">List devices connected to the hotspot</string>
     <string name="wifi_hotspot_client_limit_title">Limit of connected devices</string>
     <string name="wifi_hotspot_blocked_clients_list_title">Blocked Devices</string>
@@ -205,8 +205,8 @@
     <string name="wifi_hotspot_block_client_dialog_title">Block device</string>
     <string name="wifi_hotspot_block_client_dialog_text">This action will disconnect \"<xliff:g id="device_name">%1$s</xliff:g>\" from this device and add it to blocklist</string>
     <string name="wifi_hotspot_unblock_client_dialog_title">Unblock device</string>
-    <string name="wifi_hotspot_unblock_client_dialog_text">This device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
-    <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when avaialable.</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">The device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
+    <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when available.</string>
     <!--  screen, setting option summary to change custom timeout -->
     <string name="custom_timeout_summary_never">Never</string>
     <string name="custom_timeout_summary_5secs">5 seconds</string>
