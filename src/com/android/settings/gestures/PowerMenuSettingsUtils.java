@@ -35,6 +35,14 @@ final class PowerMenuSettingsUtils {
     private static final String KEY_CHORD_POWER_VOLUME_UP_SETTING =
             Settings.Global.KEY_CHORD_POWER_VOLUME_UP;
 
+    /** Setting storing the current behaviour of long press power for torch. */
+    private static final String TORCH_LONG_PRESS_POWER_SETTING =
+            Settings.Secure.TORCH_LONG_PRESS_POWER;
+
+    /** Setting storing the current behaviour of double tap power for torch. */
+    private static final String TORCH_DOUBLE_TAP_POWER_GESTURE_ENABLED_SETTING =
+            Settings.Secure.TORCH_DOUBLE_TAP_POWER_GESTURE_ENABLED;
+
     /**
      * Value used for long press power button behaviour when long press power for Assistant is
      * disabled.
@@ -60,6 +68,10 @@ final class PowerMenuSettingsUtils {
 
     private static final Uri POWER_BUTTON_LONG_PRESS_URI =
             Settings.Global.getUriFor(POWER_BUTTON_LONG_PRESS_SETTING);
+    private static final Uri TORCH_LONG_PRESS_POWER_URI =
+            Settings.Secure.getUriFor(TORCH_LONG_PRESS_POWER_SETTING);
+    private static final Uri TORCH_DOUBLE_TAP_POWER_GESTURE_ENABLED_URI =
+            Settings.Secure.getUriFor(TORCH_DOUBLE_TAP_POWER_GESTURE_ENABLED_SETTING);
 
     /**
      * @return true if long press power for assistant is currently enabled.
@@ -124,6 +136,22 @@ final class PowerMenuSettingsUtils {
         return false;
     }
 
+    /**
+     * @return true if long press power for torch is currently enabled.
+     */
+    public static boolean isLongPressPowerForTorchEnabled(Context context) {
+        return Settings.Secure.getInt(context.getContentResolver(),
+                Settings.Secure.TORCH_LONG_PRESS_POWER, 0) == 1;
+    }
+
+    /**
+     * @return true if double tap power for torch is currently enabled.
+     */
+    public static boolean isDoubleTapPowerForTorchEnabled(Context context) {
+        return Settings.Secure.getInt(context.getContentResolver(),
+                Settings.Secure.TORCH_DOUBLE_TAP_POWER_GESTURE_ENABLED, 0) == 1;
+    }
+
     private final Context mContext;
     private final SettingsObserver mSettingsObserver;
 
@@ -141,6 +169,8 @@ final class PowerMenuSettingsUtils {
         mSettingsObserver.setCallback(callback);
         final ContentResolver resolver = mContext.getContentResolver();
         resolver.registerContentObserver(POWER_BUTTON_LONG_PRESS_URI, true, mSettingsObserver);
+        resolver.registerContentObserver(TORCH_LONG_PRESS_POWER_URI, true, mSettingsObserver);
+        resolver.registerContentObserver(TORCH_DOUBLE_TAP_POWER_GESTURE_ENABLED_URI, true, mSettingsObserver);
     }
 
     /** Unregisters callback for observing SettingsProvider state. */

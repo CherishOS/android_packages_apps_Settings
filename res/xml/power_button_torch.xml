@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2023 The PixelDust Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:key="power_button_torch_screen"
+    android:title="@string/power_button_torch_title">
+
+    <com.android.settingslib.widget.IllustrationPreference
+        android:key="gesture_power_button_torch_video"
+        settings:lottie_rawRes="@raw/lottie_power_button_torch" />
+
+    <SwitchPreference
+        android:key="power_button_torch_toggle"
+        android:title="@string/use_power_button_torch_title"
+        android:summary="@string/use_power_button_torch_summary"
+        settings:controller="com.android.settings.gestures.PowerButtonTorchGesturePreferenceController" />
+
+    <PreferenceCategory
+        android:key="gesture_power_button_torch_category"
+        android:title="@string/gesture_power_button_torch_category_title"
+	android:dependency="power_button_torch_toggle">
+        <com.android.settingslib.widget.SelectorWithWidgetPreference
+            android:key="gesture_power_button_torch_long_press"
+            android:title="@string/gesture_power_button_torch_long_press_title"
+            settings:controller="com.android.settings.gestures.LongPressPowerForTorchPreferenceController"/>
+
+        <com.android.settingslib.widget.SelectorWithWidgetPreference
+            android:key="gesture_power_button_torch_double_tap"
+            android:title="@string/gesture_power_button_torch_double_tap_title"
+            settings:controller="com.android.settings.gestures.DoubleTapPowerForTorchPreferenceController"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

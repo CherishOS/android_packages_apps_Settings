@@ -20,8 +20,13 @@ import static android.provider.Settings.Secure.CAMERA_DOUBLE_TAP_POWER_GESTURE_D
 import android.content.Context;
 import android.provider.Settings;
 import android.text.TextUtils;
-
+import android.database.ContentObserver;
+import android.os.Handler;
+import android.os.Looper;
 import androidx.annotation.NonNull;
+
+import androidx.preference.Preference;
+import androidx.preference.PreferenceScreen;
 
 import com.android.settings.R;
 import com.android.settings.core.TogglePreferenceController;
@@ -31,20 +36,58 @@ public class DoubleTapPowerToOpenCameraPreferenceController extends TogglePrefer
     static final int ON = 0;
     static final int OFF = 1;
 
+    private Preference mPreference;
+ 
+     private final ContentObserver mSettingsObserver = new ContentObserver(new Handler(Looper.getMainLooper())) {
+         @Override
+         public void onChange(boolean selfChange) {
+             if (mPreference != null) {
+                 updateState(mPreference);
+             }
+         }
+     };
+
     public DoubleTapPowerToOpenCameraPreferenceController(
             @NonNull Context context, @NonNull String key) {
         super(context, key);
     }
 
     @Override
-    public int getAvailabilityStatus() {
-        return mContext.getResources()
-                .getBoolean(
-                        com.android.internal.R.bool
-                                .config_cameraDoubleTapPowerGestureEnabled)
-                ? AVAILABLE
-                : UNSUPPORTED_ON_DEVICE;
+public int getAvailabilityStatus() {
+    boolean isGestureEnabled = mContext.getResources().getBoolean(
+            com.android.internal.R.bool.config_cameraDoubleTapPowerGestureEnabled);
+    if (isGestureEnabled) {
+        return PowerMenuSettingsUtils.isDoubleTapPowerForTorchEnabled(mContext)
+                ? DISABLED_DEPENDENT_SETTING
+                : AVAILABLE;
+    } else {
+        return UNSUPPORTED_ON_DEVICE;
     }
+}
+
+     public void onStart() {
+    mContext.getContentResolver().registerContentObserver(
+        Settings.Secure.getUriFor(Settings.Secure.TORCH_DOUBLE_TAP_POWER_GESTURE_ENABLED),
+        false,
+        mSettingsObserver
+    );
+}
+
+     public void onStop() {
+    mContext.getContentResolver().unregisterContentObserver(mSettingsObserver);
+}
+ 
+     @Override
+     public void displayPreference(PreferenceScreen screen) {
+         super.displayPreference(screen);
+         mPreference = screen.findPreference(getPreferenceKey());
+     }
+ 
+     @Override
+     public void updateState(Preference preference) {
+         super.updateState(preference);
+         preference.setEnabled(getAvailabilityStatus() == AVAILABLE);
+     }
 
     @Override
     public boolean isChecked() {

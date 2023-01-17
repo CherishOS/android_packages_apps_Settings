@@ -353,4 +353,15 @@
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
     <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Quickly enable torch</string>
+    <string name="use_power_button_torch_title">Use screen-off quick torch</string>
+    <string name="use_power_button_torch_summary">
+When the screen is off, the torch can be enabled with one of the following key combinations</string>
+    <string name="gesture_power_button_torch_category_title">When the screen is off, the torch is enabled by</string>
+    <string name="gesture_power_button_torch_long_press_title">Long-pressing the power menu button</string>
+    <string name="gesture_power_button_torch_double_tap_title">Quickly pressing the power menu button twice</string>
+    <string name="gesture_double_tap_power_summary_disabled">Disabled by flashlight gesture</string>
+    <string name="double_tap_power_for_torch_summary_disabled">Disabled by open camera gesture</string>
 </resources>
