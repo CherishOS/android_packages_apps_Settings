@@ -21,4 +21,7 @@
          but a dedicated one, i.e. not embedded in the power button. -->
     <bool name="config_is_side_fps" translatable="false">false</bool>
 
+    <!-- Whether to show TouchGestures preference -->
+    <bool name="config_supportsTouchGestures">false</bool>
+
 </resources>
