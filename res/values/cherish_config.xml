@@ -31,4 +31,8 @@
 
     <!-- Show battery cycle count -->
     <bool name="config_show_battery_cycle_count" translatable="false">false</bool>
+
+    <!-- Whether to show TouchGestures preference -->
+    <bool name="config_supportsTouchGestures">false</bool>
+
 </resources>
