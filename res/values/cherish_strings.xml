@@ -276,4 +276,8 @@
 	
 	<!-- Battery temperature -->
     <string name="battery_temp">Battery temperature</string>
+
+	<!-- IME button space -->
+    <string name="navigation_bar_ime_space_title">Hide IME button space</string>
+    <string name="navigation_bar_ime_space_summary">Hide IME button space below keyboard</string>
 </resources>
