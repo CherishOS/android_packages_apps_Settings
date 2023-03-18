@@ -297,4 +297,12 @@
     <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
     <string name="face_redo_confirm_btn">Redo</string>
     <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
+
+    <!-- Battery charge warning -->
+    <string name="notification_sound_battery_charge_title">Enable battery charge level warning</string>
+    <string name="notification_battery_charge_level_title">Battery charge warning</string>
+    <string name="notification_battery_charge_level_summary">Play a sound when the battery as reach a level when charging</string>
+    <string name="notification_battery_charge_level_seek_bar">Battery level</string>
+    <string name="notification_battery_charge_level_ringtone">Ringtone</string>
+    <string name="notification_battery_charge_level_silent">Silent</string>
 </resources>
