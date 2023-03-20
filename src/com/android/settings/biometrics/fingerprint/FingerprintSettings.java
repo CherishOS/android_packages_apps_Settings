@@ -204,6 +204,7 @@ public class FingerprintSettings extends SubSettings {
         private PreferenceCategory mFingerprintsEnrolledCategory;
         private PreferenceCategory mFingerprintUnlockCategory;
         private PreferenceCategory mFingerprintUnlockFooter;
+        private boolean mFingerprintWakeAndUnlock;
 
         private FingerprintManager mFingerprintManager;
         private FingerprintUpdater mFingerprintUpdater;
@@ -285,7 +286,7 @@ public class FingerprintSettings extends SubSettings {
                     case MSG_REFRESH_FINGERPRINT_TEMPLATES:
                         removeFingerprintPreference(msg.arg1);
                         updateAddPreference();
-                        if (isSfps()) {
+                        if (isSfps() && mFingerprintWakeAndUnlock) {
                             updateFingerprintUnlockCategoryVisibility();
                         }
                         updatePreferences();
@@ -375,6 +376,8 @@ public class FingerprintSettings extends SubSettings {
             mFingerprintManager = Utils.getFingerprintManagerOrNull(activity);
             mFingerprintUpdater = new FingerprintUpdater(activity, mFingerprintManager);
             mSensorProperties = mFingerprintManager.getSensorPropertiesInternal();
+            mFingerprintWakeAndUnlock = getContext().getResources().getBoolean(
+                    com.android.internal.R.bool.config_fingerprintWakeAndUnlock);
 
             mToken = getIntent().getByteArrayExtra(
                     ChooseLockSettingsHelper.EXTRA_KEY_CHALLENGE_TOKEN);
@@ -535,6 +538,10 @@ public class FingerprintSettings extends SubSettings {
 
         private void addFingerprintPreferences(PreferenceGroup root) {
             final String fpPrefKey = addFingerprintItemPreferences(root);
+            if (isSfps() && mFingerprintWakeAndUnlock) {
+                scrollToPreference(fpPrefKey);
+                addFingerprintUnlockCategory();
+            }
             for (AbstractPreferenceController controller : mControllers) {
                 if (controller instanceof FingerprintSettingsPreferenceController) {
                     ((FingerprintSettingsPreferenceController) controller).setUserId(mUserId);
