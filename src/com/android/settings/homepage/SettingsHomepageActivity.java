@@ -53,18 +53,23 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowCompat;
 import androidx.core.view.WindowInsetsCompat;
+import android.content.Context;
+import android.os.UserHandle;
+import android.os.UserManager;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.window.embedding.ActivityEmbeddingController;
 import androidx.window.embedding.SplitRule;
+import android.graphics.Bitmap;
+import android.graphics.drawable.Drawable;
+import com.android.internal.util.UserIcons;
 
 import com.android.settings.R;
 import com.android.settings.Settings;
 import com.android.settings.SettingsActivity;
 import com.android.settings.SettingsApplication;
-import com.android.settings.accounts.AvatarViewMixin;
 import com.android.settings.activityembedding.ActivityEmbeddingRulesController;
 import com.android.settings.activityembedding.ActivityEmbeddingUtils;
 import com.android.settings.core.CategoryMixin;
@@ -74,6 +79,8 @@ import com.android.settings.overlay.FeatureFactory;
 import com.android.settings.safetycenter.SafetyCenterManagerWrapper;
 import com.android.settingslib.Utils;
 import com.android.settingslib.core.lifecycle.HideNonSystemOverlayMixin;
+
+import com.android.settingslib.drawable.CircleFramedDrawable;
 
 import java.net.URISyntaxException;
 import java.util.Set;
@@ -171,6 +178,8 @@ public class SettingsHomepageActivity extends FragmentActivity implements
         return mCategoryMixin;
     }
 
+    ImageView avatarView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -207,6 +216,21 @@ public class SettingsHomepageActivity extends FragmentActivity implements
         updateHomepageBackground();
         mLoadedListeners = new ArraySet<>();
 
+        avatarView = findViewById(R.id.account_avatar);
+
+        if (avatarView != null) {
+          avatarView.setImageDrawable(getCircularUserIcon(getApplicationContext()));
+          avatarView.setVisibility(View.VISIBLE);
+          avatarView.setOnClickListener(new View.OnClickListener() {
+              @Override
+              public void onClick(View v) {
+                  Intent intent = new Intent(Intent.ACTION_MAIN);
+                  intent.setComponent(new ComponentName("com.android.settings","com.android.settings.Settings$UserSettingsActivity"));
+                  startActivity(intent);
+              }
+          });
+        }
+
         initSearchBarView();
 
         getLifecycle().addObserver(new HideNonSystemOverlayMixin(this));
@@ -216,7 +240,6 @@ public class SettingsHomepageActivity extends FragmentActivity implements
         final String highlightMenuKey = getHighlightMenuKey();
         // Only allow features on high ram devices.
         if (!getSystemService(ActivityManager.class).isLowRamDevice()) {
-            initAvatarView();
             final boolean scrollNeeded = mIsEmbeddingActivityEnabled
                     && !TextUtils.equals(getString(DEFAULT_HIGHLIGHT_MENU_KEY), highlightMenuKey);
             showSuggestionFragment(scrollNeeded);
@@ -341,20 +364,6 @@ public class SettingsHomepageActivity extends FragmentActivity implements
             FeatureFactory.getFactory(this).getSearchFeatureProvider()
                     .initSearchToolbar(this /* activity */, toolbarTwoPaneVersion,
                             SettingsEnums.SETTINGS_HOMEPAGE);
-        }
-    }
-
-    private void initAvatarView() {
-        final ImageView avatarView = findViewById(R.id.account_avatar);
-        final ImageView avatarTwoPaneView = findViewById(R.id.account_avatar_two_pane_version);
-        if (AvatarViewMixin.isAvatarSupported(this)) {
-            avatarView.setVisibility(View.VISIBLE);
-            getLifecycle().addObserver(new AvatarViewMixin(this, avatarView));
-
-            if (mIsEmbeddingActivityEnabled) {
-                avatarTwoPaneView.setVisibility(View.VISIBLE);
-                getLifecycle().addObserver(new AvatarViewMixin(this, avatarTwoPaneView));
-            }
         }
     }
 
@@ -717,6 +726,30 @@ public class SettingsHomepageActivity extends FragmentActivity implements
             if (fragment instanceof SplitLayoutListener) {
                 ((SplitLayoutListener) fragment).setSplitLayoutSupported(mIsTwoPaneLayout);
             }
+        }
+    }
+    
+    private Drawable getCircularUserIcon(Context context) {
+    	final UserManager mUserManager = getSystemService(UserManager.class);
+        Bitmap bitmapUserIcon = mUserManager.getUserIcon(UserHandle.myUserId());
+
+        if (bitmapUserIcon == null) {
+            // get default user icon.
+            final Drawable defaultUserIcon = UserIcons.getDefaultUserIcon(
+                    context.getResources(), UserHandle.myUserId(), false);
+            bitmapUserIcon = UserIcons.convertToBitmap(defaultUserIcon);
+        }
+        Drawable drawableUserIcon = new CircleFramedDrawable(bitmapUserIcon,
+                (int) context.getResources().getDimension(com.android.internal.R.dimen.user_icon_size));
+
+        return drawableUserIcon;
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        if (avatarView != null) {
+          avatarView.setImageDrawable(getCircularUserIcon(getApplicationContext()));
         }
     }
 }
