@@ -337,4 +337,8 @@
     <string name="ime_narrow">Narrow</string>
     <string name="ime_default">Default</string>
     <string name="ime_hidden">Hidden</string>
+
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">Force LTE CA</string>
+    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
 </resources>
