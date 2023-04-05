@@ -11,8 +11,6 @@
     <string name="app_play_store">Google Play</string>
     <!-- Maintainer -->
     <string name="maintainer">Сопровождающий</string>
-    <!-- Battery temperature -->
-    <string name="battery_temp">Температура батареи</string>
     <!-- About phone screen, Cherish OS version -->
     <string name="cherish_version">Версия CherishOS</string>
     <string name="cherish_version_default">Неизвестно</string>
@@ -79,16 +77,31 @@
     <string name="double_tap_title">Двойное нажатие</string>
     <string name="doze_double_tap_title">Дважды нажать, чтобы проверить уведомления</string>
     <string name="doze_double_tap_summary">Дважды нажать, чтобы включить пульсирующие уведомления</string>
-    <!-- Fingerprint wake-and-unlock -->
-    <string name="fingerprint_wake_unlock_title">Нажмите на отпечаток пальца для разблокировки</string>
-    <string name="fingerprint_wake_unlock_touch">Прослушивает события при выключенном экране</string>
-    <string name="fingerprint_wake_unlock_press">Прослушивает события только после включения экрана</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Перемешать расположение кнопок</string>
     <string name="unlock_scramble_pin_layout_summary">Перемешать схему PIN-кода при разблокировке устройства</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
     <string name="unlock_quick_unlock_control_summary">Автоматически разблокировать при вводе правильного PIN-кода/пароля</string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="custom_firmware_version">Версия CherishOS</string>
+    <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
+    <string name="about_device_info">Об устройстве</string>
+    <!-- CherishOS versioning -->
+    <string name="cherish_version_title">Версия Cherish</string>
+    <string name="cherish_device_title">Устройство</string>
+    <string name="cherish_release_type_title">Тип выпуска</string>
+    <string name="cherish_maintainer_title">Сопровождающий</string>
+    <!-- About page -->
+    <string name="battery">Батарея</string>
+    <string name="display">Экран</string>
+    <string name="storage">Хранилище</string>
+    <string name="chipset">Процессор</string>
+    <!-- Settings homepage alternative header -->
+    <string name="top_level_settings_title">Настройки</string>
+    <string name="wellbeing_title">Цифровое благополучие</string>
+    <string name="usercard_summary">Текущий активный пользователь, нажмите для получения дополнительной информации</string>
+    <string name="connectivity_category_title">подключение</string>
     <!-- Fullscreen gestures -->
     <string name="navbar_category">Панель навигации</string>
     <!-- Gesture navbar length -->
@@ -98,15 +111,6 @@
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Разрешить клиентам использовать VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Разрешить пользователям точки доступа использовать VPN-соединения этого устройства для подключения к сети</string>
-    <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Объединить громкость звонка и уведомлений</string>
-    <!-- Increasing ring tone volume -->
-    <string name="increasing_ring_volume_option_title">Нарастающая громкость звонка</string>
-    <string name="increasing_ring_min_volume_title">Начальная громкость</string>
-    <string name="increasing_ring_ramp_up_time_title">Время нарастания</string>
-    <!-- Back gesture animation -->
-    <string name="back_gesture_arrow_message">Анимация жеста \"Назад\"</string>
-    <string name="back_gesture_arrow_summary">Показать анимированную стрелку для жеста \"Назад\"</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Режим \"В кармане\"</string>
     <string name="pocket_judge_summary">Блокировать экран и кнопки, когда устройство находится в кармане</string>
@@ -176,14 +180,6 @@
     <string name="app_volume">Громкость приложения</string>
     <string name="app_volume_title">Громкость для каждого приложения</string>
     <string name="app_volume_summary">Изменение громкости для отдельных приложений</string>
-    <!-- Cloudflare DNS Option -->
-    <!-- AdGuard DNS Option -->
-    <!-- IME button space -->
-    <string name="navigation_bar_ime_space_title">Пространство под клавиатурой</string>
-    <string name="navigation_bar_ime_space_summary">Скрыть отступ под клавиатурой</string>
-    <!-- Game Space -->
-    <string name="game_space_title">Игровое пространство</string>
-    <string name="game_space_summary">Улучшайте свои впечатления от игр</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Всегда включен во время зарядки</string>
     <string name="doze_on_charge_summary">Постоянное отображение экрана ожидания во время зарядки</string>
@@ -225,25 +221,6 @@
     <string name="custom_timeout_summary_8hours">8 часов</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Сертификат не указан. Будет установлено незащищенное соединение.</string>
-    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
-    <string name="custom_firmware_version">Версия CherishOS</string>
-    <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
-    <string name="about_device_info">Об устройстве</string>
-    <!-- CherishOS versioning -->
-    <string name="cherish_version_title">Версия Cherish</string>
-    <string name="cherish_device_title">Устройство</string>
-    <string name="cherish_release_type_title">Тип выпуска</string>
-    <string name="cherish_maintainer_title">Сопровождающий</string>
-    <!-- About page -->
-    <string name="battery">Батарея</string>
-    <string name="display">Экран</string>
-    <string name="storage">Хранилище</string>
-    <string name="chipset">Процессор</string>
-    <!-- Settings homepage alternative header -->
-    <string name="top_level_settings_title">Настройки</string>
-    <string name="wellbeing_title">Цифровое благополучие</string>
-    <string name="usercard_summary">Текущий активный пользователь, нажмите для получения дополнительной информации</string>
-    <string name="connectivity_category_title">подключение</string>
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Полноэкранные приложения</string>
     <string name="display_cutout_force_fullscreen_summary">Заставить приложения игнорировать вырез на экране</string>
@@ -256,65 +233,16 @@
     <string name="current_battery_capacity">Текущая емкость батареи</string>
     <string name="designed_battery_capacity">Заявленная емкость батареи</string>
     <string name="battery_charge_cycles">Завершенные циклы зарядки</string>
-    <!-- Warning message for the sd card setup -->
-    <string name="storage_warning_internal">Внимание: Этот параметр может работать неправильно или привести к потере данных, поэтому он не рекомендуется!</string>
-    <!-- Lockscreen shortcuts -->
-    <string name="lockscreen_tuner_title">Ярлыки экрана блокировки</string>
-    <string name="lockscreen_tuner_summary">Изменить ярлыки на экране блокировки</string>
-    <!-- One shot automatic brightness -->
-    <string name="auto_brightness_one_shot_title">Однократная автояркость</string>
-    <string name="auto_brightness_one_shot_summary">Регулировка яркости будет происходить только в момент включения экрана</string>
-    <!-- Custom actions -->
-    <string name="action_nothing">Без действия</string>
-    <string name="action_menu">Меню</string>
-    <string name="action_app_switch">Недавние</string>
-    <string name="action_voice_search">Голосовой поиск</string>
-    <string name="action_launch_camera">Камера</string>
-    <string name="action_last_app">Последнее приложение</string>
-    <string name="action_splitscreen">Разделение экрана</string>
-    <string name="action_flashlight">Фонарик</string>
-    <string name="action_clear_notifications">Очистить уведомления</string>
-    <string name="action_volume_panel">Панель громкости</string>
-    <string name="action_screen_off">Выключить экран</string>
-    <string name="action_notifications">Уведомления</string>
-    <string name="action_power_menu">Меню питания</string>
-    <string name="action_screenshot">Скриншот</string>
-    <string name="action_qs_panel">Панель быстрых настроек</string>
-    <string name="action_app_action">Приложение</string>
-    <string name="action_ringer_modes">Режимы звонка</string>
-    <string name="kill_app">Закрыть активное приложение</string>
-    <string name="recent_app_toggle">Переключить недавнее приложение</string>
-    <string name="skip_song">Пропустить песню</string>
-    <string name="prev_song">Предыдущая песня</string>
-    <string name="show_powermenu">Показать меню питания</string>
-    <string name="partial_screenshot">Частичный снимок экрана</string>
-    <string name="hush_mute">Отключить звук уведомлений</string>
-    <!-- Long swipe gestures -->
-    <string name="navbar_gesture_tweaks_pref_title">Дополнительные параметры жестов</string>
-    <string name="navbar_gesture_tweaks_pref_summary">Настройка жестов и установка пользовательских действий</string>
-    <string name="navbar_gesture_tweaks_cat_title">Дополнительно</string>
-    <string name="swipe_app_select_summary">Выберите приложение для запуска с помощью функции сжатия</string>
-    <string name="long_back_swipe_timeout_title">Длительность действий задержки смахивания </string>
-    <string name="left_swipe_actions_title">Действие при длинном смахивании влево</string>
-    <string name="left_swipe_app_action_title">Выберите приложение для длинного смахивания влево</string>
-    <string name="right_swipe_actions_title">Действие при длительном смахивании вправо</string>
-    <string name="right_swipe_app_action_title">Выберите приложение для длинного сдвига влево</string>
-    <string name="left_vertical_swipe_actions_title">Вертикальное действие слева L-смахивание</string>
-    <string name="left_vertical_swipe_app_action_title">Выберите приложение для вертикального смахивания</string>
-    <string name="right_vertical_swipe_actions_title">Вертикальное действие справа L-смахивание</string>
-    <string name="right_vertical_swipe_app_action_title">Выберите приложение для вертикального смахивания вправо</string>
-    <string name="gesture_nav_tweaks_footer_info">Чтобы выбрать конкретное действие приложения для действия, нажмите и удерживайте любое приложение в средстве выбора приложений.\n\nЕсли отображается панель запуска, проведите по экрану в самом низу экрана, чтобы вызвать действие.</string>
-    <string name="back_swipe_extended_title">Расширенное действие смахивания</string>
-    <string name="back_swipe_extended_summary">Запуск действия при длительном смахивания (более чем на половину экрана), или L-смахивание (от края и вверх)</string>
-    <!-- DNS -->
-    <string name="private_dns_mode_open_dns">Открыть DNS</string>
-    <string name="private_dns_mode_cleanbrowsing">Очищение DNS</string>
-    <string name="private_dns_mode_quad9">Quad9 DNS</string>
-    <string name="app_info_install_time">Установлен %1$s</string>
-    <string name="app_info_update_time">Обновлено: %1$s</string>
+    <!-- Battery temperature -->
+    <string name="battery_temp">Температура батареи</string>
+    <!-- IME button space -->
+    <string name="navigation_bar_ime_space_title">Пространство под клавиатурой</string>
+    <string name="navigation_bar_ime_space_summary">Скрыть отступ под клавиатурой</string>
+    <!-- Private DNS Providers -->
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
+    <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_settings_footer_custom">Разблокировка лицом позволяет разблокировать устройство, посмотрев на него. Имейте ввиду:\n\n Ваше устройство может разблокироваться в любое время, когда вы посмотрите на него.\n● Кто-то другой может разблокировать ваше устройство, если поднесет его к вашему лицу, а ваши глаза открыты.\n● Ваше устройство также может быть разблокировано кем-то, кто очень похож на вас, например, ребенком, братом или сестрой.</string>
-    <string name="security_settings_face_settings_remove_dialog_details_custom">Данные, которые используются разблокировкой лицом для распознавания, будут удалены навсегда и нигде не сохранятся. В дальнейшем для разблокировки телефона, входа в приложения и подтверждения платежей устройство будет запрашивать PIN-код, пароль или графический ключ.</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">Удалить использующийся снимок лица и создать новый</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Повторное сканирование лица</string>
     <string name="face_redo_confirm_btn">Повторить</string>
@@ -322,29 +250,41 @@
     <string name="face_unlock_method_title">Разрешить разблокировку лицом на экране блокировки</string>
     <string name="face_unlock_method_default">Когда экран включен</string>
     <string name="face_unlock_method_swipe">При проведении пальцем по экрану блокировки</string>
-    <!-- Sleep Mode -->
-    <string name="sleep_mode_title">Режим сна</string>
-    <string name="sleep_mode_summary_on">On /<xliff:g name="auto_mode_summary" example="Не включать автоматически">%1$s</xliff:g></string>
-    <string name="sleep_mode_summary_off">Off / <xliff:g name="auto_mode_summary" example="Не включать автоматически">%1$s</xliff:g></string>
-    <string name="sleep_mode_ringer_title">Режим звонка</string>
-    <string name="sleep_mode_ringer_off_title">Не изменять</string>
-    <string name="sleep_mode_ringer_vibrate_title">Вибрировать</string>
-    <string name="sleep_mode_ringer_dnd_title">Не беспокоить</string>
-    <string name="sleep_mode_ringer_silent_title">Без звука</string>
-    <string name="sleep_mode_schedule_sunset">Закат</string>
-    <string name="sleep_mode_schedule_sunrise">Восход</string>
-    <string name="sleep_mode_schedule_mixed_sunset">Включается с момента заката до заданного времени</string>
-    <string name="sleep_mode_schedule_mixed_sunrise">Включается с заданного времени до восхода солнца</string>
-    <string name="sleep_mode_toggles_title">Переключатели</string>
-    <string name="sleep_mode_wifi_toggle_title">Выключить Wi-Fi</string>
-    <string name="sleep_mode_wifi_toggle_summary">Отключить Wi-Fi, когда включен спящий режим</string>
-    <string name="sleep_mode_bluetooth_toggle_title">Выключить Blueooth</string>
-    <string name="sleep_mode_bluetooth_toggle_summary">Отключить Bluetooth, когда включен спящий режим</string>
-    <string name="sleep_mode_cellular_toggle_title">Выключить мобильные данные</string>
-    <string name="sleep_mode_cellular_toggle_summary">Отключить мобильные данные, когда включен спящий режим</string>
-    <string name="sleep_mode_location_toggle_title">Выключить местоположение</string>
-    <string name="sleep_mode_location_toggle_summary">Отключить местоположение, когда включен спящий режим</string>
-    <string name="sleep_mode_sensors_toggle_title">Выключить датчики</string>
-    <string name="sleep_mode_sensors_toggle_summary">Отключить датчики, когда включен спящий режим</string>
-    <string name="sleep_mode_display_text">Спящий режим позволяет отключить некоторые службы, чтобы сэкономить заряд батареи, и отключить звук телефона, пока вы спите.</string>
+    <!-- Battery charge warning -->
+    <string name="notification_sound_battery_charge_title">Enable battery charge level warning</string>
+    <string name="notification_battery_charge_level_title">Battery charge warning</string>
+    <string name="notification_battery_charge_level_summary">Play a sound when the battery as reach a level when charging</string>
+    <string name="notification_battery_charge_level_seek_bar">Battery level</string>
+    <string name="notification_battery_charge_level_ringtone">Ringtone</string>
+    <string name="notification_battery_charge_level_silent">Silent</string>
+    <!-- Gesture navbar radius -->
+    <string name="gesture_navbar_radius_title">Pill radius</string>
+    <string name="thin_label">Thin</string>
+    <string name="thick_label">Thick</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Ringtone vibration pattern</string>
+    <string name="notification_vibration_pattern_title">Notification vibration pattern</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Custom</string>
+    <string name="custom_vibration_pattern_title">Custom pattern</string>
+    <string name="custom_vibration_pattern_summary">Set a custom vibration pattern</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Нарастающая громкость звонка</string>
+    <string name="increasing_ring_min_volume_title">Начальная громкость</string>
+    <string name="increasing_ring_ramp_up_time_title">Время нарастания</string>
+    <!-- Game space -->
+    <string name="game_space_title">Игровое пространство</string>
+    <string name="game_space_summary">Улучшайте свои впечатления от игр</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Ambient music ticker</string>
+    <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played</string>
+    <!-- VPN app management screen, global VPN -->
+    <string name="global_vpn_title">Global VPN</string>
+    <string name="global_vpn_summary">Force all traffic on the device through this VPN, including work profile and other users.</string>
+    <string name="global_vpn_summary_on">Force all traffic on the device through this VPN, including work profile and other users. Note: When enabled, you will not be able to use a separate VPN in a work profile or other users</string>
+    <string name="global_vpn_summary_any_vpn_active">You need to disable all active VPN connections first to enable this</string>
 </resources>

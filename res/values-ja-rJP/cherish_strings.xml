@@ -11,8 +11,6 @@
     <string name="app_play_store">Google Play</string>
     <!-- Maintainer -->
     <string name="maintainer">メンテナ</string>
-    <!-- Battery temperature -->
-    <string name="battery_temp">バッテリー温度</string>
     <!-- About phone screen, Cherish OS version -->
     <string name="cherish_version">Cherish バージョン</string>
     <string name="cherish_version_default">不明</string>
@@ -79,16 +77,31 @@
     <string name="double_tap_title">ダブルタップ</string>
     <string name="doze_double_tap_title">ダブルタップで端末を確認</string>
     <string name="doze_double_tap_summary">ダブルタップで通知を点滅させる</string>
-    <!-- Fingerprint wake-and-unlock -->
-    <string name="fingerprint_wake_unlock_title">指紋タッチでロック解除</string>
-    <string name="fingerprint_wake_unlock_touch">画面消灯中に外部操作を受け付ける</string>
-    <string name="fingerprint_wake_unlock_press">画面点灯時にのみ1回だけ外部操作を受け付ける</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">ランダムなレイアウト</string>
     <string name="unlock_scramble_pin_layout_summary">端末のロック解除時に PIN レイアウトをランダムにする</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">クイックロック解除</string>
     <string name="unlock_quick_unlock_control_summary">正しいPIN/パスワードが入力されたときはロックを自動的に解除する</string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="custom_firmware_version">Cherish バージョン</string>
+    <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
+    <string name="about_device_info">端末情報</string>
+    <!-- CherishOS versioning -->
+    <string name="cherish_version_title">Cherish バージョン</string>
+    <string name="cherish_device_title">端末</string>
+    <string name="cherish_release_type_title">リリース種類</string>
+    <string name="cherish_maintainer_title">メンテナ</string>
+    <!-- About page -->
+    <string name="battery">バッテリー</string>
+    <string name="display">ディスプレイ</string>
+    <string name="storage">ストレージ</string>
+    <string name="chipset">チップセット</string>
+    <!-- Settings homepage alternative header -->
+    <string name="top_level_settings_title">設定</string>
+    <string name="wellbeing_title">Google Wellbeing</string>
+    <string name="usercard_summary">現在のアクティブユーザーです。タップして詳細情報を表示します。</string>
+    <string name="connectivity_category_title">接続</string>
     <!-- Fullscreen gestures -->
     <string name="navbar_category">ナビゲーションバー</string>
     <!-- Gesture navbar length -->
@@ -98,15 +111,6 @@
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">クライアントの VPN 使用の許可</string>
     <string name="tethering_allow_vpn_upstreams_summary">この端末の VPN 接続をホットスポットのクライアントが送信接続に使うことを許可する</string>
-    <!-- Volume link notification -->
-    <string name="volume_link_notification_title">着信と通知の音量をリンク</string>
-    <!-- Increasing ring tone volume -->
-    <string name="increasing_ring_volume_option_title">着信音量の増幅</string>
-    <string name="increasing_ring_min_volume_title">開始音量</string>
-    <string name="increasing_ring_ramp_up_time_title">増幅時間</string>
-    <!-- Back gesture animation -->
-    <string name="back_gesture_arrow_message">戻るジェスチャーアニメーション</string>
-    <string name="back_gesture_arrow_summary">戻るジェスチャーの矢印をアニメーションする</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">ポケット検出</string>
     <string name="pocket_judge_summary">ポケットに入っている時にタッチやボタン入力を無効化する</string>
@@ -176,14 +180,6 @@
     <string name="app_volume">アプリの音量</string>
     <string name="app_volume_title">アプリごとの音量調節</string>
     <string name="app_volume_summary">アプリごとに異なる音量を設定する</string>
-    <!-- Cloudflare DNS Option -->
-    <!-- AdGuard DNS Option -->
-    <!-- IME button space -->
-    <string name="navigation_bar_ime_space_title">IME ボタンのスペース</string>
-    <string name="navigation_bar_ime_space_summary">キーボードの下に IME ボタンのスペースを隠す</string>
-    <!-- Game Space -->
-    <string name="game_space_title">ゲームスペース</string>
-    <string name="game_space_summary">ゲーム体験を向上させる</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">充電時の Always On Display</string>
     <string name="doze_on_charge_summary">充電時は常に Doze 画面を表示する</string>
@@ -225,25 +221,6 @@
     <string name="custom_timeout_summary_8hours">8時間</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">証明書が指定されていません。この接続ではプライバシーが保護されません。</string>
-    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
-    <string name="custom_firmware_version">Cherish バージョン</string>
-    <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
-    <string name="about_device_info">端末情報</string>
-    <!-- CherishOS versioning -->
-    <string name="cherish_version_title">Cherish バージョン</string>
-    <string name="cherish_device_title">端末</string>
-    <string name="cherish_release_type_title">リリース種類</string>
-    <string name="cherish_maintainer_title">メンテナ</string>
-    <!-- About page -->
-    <string name="battery">バッテリー</string>
-    <string name="display">ディスプレイ</string>
-    <string name="storage">ストレージ</string>
-    <string name="chipset">チップセット</string>
-    <!-- Settings homepage alternative header -->
-    <string name="top_level_settings_title">設定</string>
-    <string name="wellbeing_title">Google Wellbeing</string>
-    <string name="usercard_summary">現在のアクティブユーザーです。タップして詳細情報を表示します。</string>
-    <string name="connectivity_category_title">接続</string>
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">全画面表示のアプリ</string>
     <string name="display_cutout_force_fullscreen_summary">強制的にアプリのノッチ領域を無視する</string>
@@ -256,65 +233,16 @@
     <string name="current_battery_capacity">現在バッテリー容量</string>
     <string name="designed_battery_capacity">設計バッテリー容量</string>
     <string name="battery_charge_cycles">充電サイクル完了数</string>
-    <!-- Warning message for the sd card setup -->
-    <string name="storage_warning_internal">警告: このオプションは正常に動作しなかったりデータの消失に繋がる可能性がありますので、推奨いたしません。</string>
-    <!-- Lockscreen shortcuts -->
-    <string name="lockscreen_tuner_title">ロック画面のショートカット</string>
-    <string name="lockscreen_tuner_summary">ロック画面に表示されるショートカットを変更する</string>
-    <!-- One shot automatic brightness -->
-    <string name="auto_brightness_one_shot_title">自動明るさを復帰時のみ実行</string>
-    <string name="auto_brightness_one_shot_summary">画面が復帰した時に1度だけ自動で画面の明るさ調整を行う</string>
-    <!-- Custom actions -->
-    <string name="action_nothing">なし</string>
-    <string name="action_menu">メニュー</string>
-    <string name="action_app_switch">アプリ履歴</string>
-    <string name="action_voice_search">音声検索</string>
-    <string name="action_launch_camera">カメラ</string>
-    <string name="action_last_app">直前のアプリ</string>
-    <string name="action_splitscreen">画面分割</string>
-    <string name="action_flashlight">フラッシュライト</string>
-    <string name="action_clear_notifications">通知を消去</string>
-    <string name="action_volume_panel">音量パネル</string>
-    <string name="action_screen_off">画面を消灯</string>
-    <string name="action_notifications">通知</string>
-    <string name="action_power_menu">電源メニュー</string>
-    <string name="action_screenshot">スクリーンショット</string>
-    <string name="action_qs_panel">クイック設定パネル</string>
-    <string name="action_app_action">アプリ</string>
-    <string name="action_ringer_modes">着信モード</string>
-    <string name="kill_app">表示中のアプリを終了</string>
-    <string name="recent_app_toggle">直前のアプリの切り替え</string>
-    <string name="skip_song">曲をスキップ</string>
-    <string name="prev_song">前の曲</string>
-    <string name="show_powermenu">電源メニューを表示</string>
-    <string name="partial_screenshot">部分スクリーンショット</string>
-    <string name="hush_mute">通知をミュート</string>
-    <!-- Long swipe gestures -->
-    <string name="navbar_gesture_tweaks_pref_title">高度なジェスチャーオプション</string>
-    <string name="navbar_gesture_tweaks_pref_summary">ジェスチャーを編集してカスタムアクションを設定する</string>
-    <string name="navbar_gesture_tweaks_cat_title">高度な設定</string>
-    <string name="swipe_app_select_summary">握りアクションで起動するアプリを選択する</string>
-    <string name="long_back_swipe_timeout_title">ロングスワイプアクションの制限時間</string>
-    <string name="left_swipe_actions_title">ロング左スワイプアクション</string>
-    <string name="left_swipe_app_action_title">ロング左スワイプアクションのアプリ選択</string>
-    <string name="right_swipe_actions_title">ロング右スワイプアクション</string>
-    <string name="right_swipe_app_action_title">ロング右スワイプアクションのアプリ選択</string>
-    <string name="left_vertical_swipe_actions_title">垂直左 L スワイプのアクション</string>
-    <string name="left_vertical_swipe_app_action_title">垂直左スワイプアプリを選択</string>
-    <string name="right_vertical_swipe_actions_title">垂直右 L スワイプのアクション</string>
-    <string name="right_vertical_swipe_app_action_title">垂直右スワイプアプリを選択</string>
-    <string name="gesture_nav_tweaks_footer_info">アクションの特定のアプリアクティビティを選択するには、アプリの選択でアプリを長押しして下さい。\n\nランチャーが表示されている場合は、画面の一番下の領域でスワイプしてアクションを起動します。</string>
-    <string name="back_swipe_extended_title">拡張スワイプアクション</string>
-    <string name="back_swipe_extended_summary">より広いスワイプ (少なくとも画面の半分より広い) か、「L」スワイプ (縦の方が長い) でアクションを起動する。</string>
-    <!-- DNS -->
-    <string name="private_dns_mode_open_dns">DNS を開く</string>
-    <string name="private_dns_mode_cleanbrowsing">CleanBrowsing DNS</string>
-    <string name="private_dns_mode_quad9">Quad9 DNS</string>
-    <string name="app_info_install_time">インストール日時: %1$s</string>
-    <string name="app_info_update_time">アップデート日時: %1$s</string>
+    <!-- Battery temperature -->
+    <string name="battery_temp">バッテリー温度</string>
+    <!-- IME button space -->
+    <string name="navigation_bar_ime_space_title">IME ボタンのスペース</string>
+    <string name="navigation_bar_ime_space_summary">キーボードの下に IME ボタンのスペースを隠す</string>
+    <!-- Private DNS Providers -->
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
+    <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_settings_footer_custom">顔認証ロック解除では端末を覗き込むことでロック解除できます。以下のことに中止して下さい:\n\n● いつでもあなたの端末はロック解除できるようになります。\n● あなたの目が開いている間に他人があなたの端末をあなたの顔に向けたら誰でもロック解除が可能です。\n● 子供や兄弟などの見た目が似ている人物の顔でロック解除される可能性があります。</string>
-    <string name="security_settings_face_settings_remove_dialog_details_custom">顔認証ロック解除により記録されたデータは完全かつ安全に削除されます。削除後は PIN、パターン、パスワードで端末をロック解除する必要があります。</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">既存の顔スキャンを削除して新しいスキャンを作成する</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">顔スキャンを再実行</string>
     <string name="face_redo_confirm_btn">やり直す</string>
@@ -322,29 +250,41 @@
     <string name="face_unlock_method_title">ロック画面での顔認証ロック解除を許可</string>
     <string name="face_unlock_method_default">画面が点灯した時</string>
     <string name="face_unlock_method_swipe">ロック画面をスワイプした時</string>
-    <!-- Sleep Mode -->
-    <string name="sleep_mode_title">スリープモード</string>
-    <string name="sleep_mode_summary_on">ON / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_summary_off">OFF / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_ringer_title">着信音モード</string>
-    <string name="sleep_mode_ringer_off_title">変更しない</string>
-    <string name="sleep_mode_ringer_vibrate_title">振動</string>
-    <string name="sleep_mode_ringer_dnd_title">Do Not Disturb</string>
-    <string name="sleep_mode_ringer_silent_title">サイレント</string>
-    <string name="sleep_mode_schedule_sunset">日没</string>
-    <string name="sleep_mode_schedule_sunrise">日の出</string>
-    <string name="sleep_mode_schedule_mixed_sunset">日没から設定時刻まで</string>
-    <string name="sleep_mode_schedule_mixed_sunrise">設定時刻から日の出まで</string>
-    <string name="sleep_mode_toggles_title">切り替え</string>
-    <string name="sleep_mode_wifi_toggle_title">Wi-Fi を無効化</string>
-    <string name="sleep_mode_wifi_toggle_summary">スリープモードが ON の時は Wi-Fi を無効にする</string>
-    <string name="sleep_mode_bluetooth_toggle_title">Bluetooth を無効化</string>
-    <string name="sleep_mode_bluetooth_toggle_summary">スリープモードが ON の時は Bluetooth を無効にする</string>
-    <string name="sleep_mode_cellular_toggle_title">モバイルデータを無効化</string>
-    <string name="sleep_mode_cellular_toggle_summary">スリープモードが ON の時はモバイルデータを無効にする</string>
-    <string name="sleep_mode_location_toggle_title">位置情報を無効化</string>
-    <string name="sleep_mode_location_toggle_summary">スリープモードが ON の時は位置情報を無効にする</string>
-    <string name="sleep_mode_sensors_toggle_title">センサーを無効化</string>
-    <string name="sleep_mode_sensors_toggle_summary">スリープモードが ON の時はセンサーを無効にする</string>
-    <string name="sleep_mode_display_text">スリープモードはバッテリー消費を減らし睡眠中に音を鳴らさないために端末の特定のサービスを無効化します</string>
+    <!-- Battery charge warning -->
+    <string name="notification_sound_battery_charge_title">Enable battery charge level warning</string>
+    <string name="notification_battery_charge_level_title">Battery charge warning</string>
+    <string name="notification_battery_charge_level_summary">Play a sound when the battery as reach a level when charging</string>
+    <string name="notification_battery_charge_level_seek_bar">Battery level</string>
+    <string name="notification_battery_charge_level_ringtone">Ringtone</string>
+    <string name="notification_battery_charge_level_silent">Silent</string>
+    <!-- Gesture navbar radius -->
+    <string name="gesture_navbar_radius_title">Pill radius</string>
+    <string name="thin_label">Thin</string>
+    <string name="thick_label">Thick</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Ringtone vibration pattern</string>
+    <string name="notification_vibration_pattern_title">Notification vibration pattern</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Custom</string>
+    <string name="custom_vibration_pattern_title">Custom pattern</string>
+    <string name="custom_vibration_pattern_summary">Set a custom vibration pattern</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">着信音量の増幅</string>
+    <string name="increasing_ring_min_volume_title">開始音量</string>
+    <string name="increasing_ring_ramp_up_time_title">増幅時間</string>
+    <!-- Game space -->
+    <string name="game_space_title">ゲームスペース</string>
+    <string name="game_space_summary">ゲーム体験を向上させる</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Ambient music ticker</string>
+    <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played</string>
+    <!-- VPN app management screen, global VPN -->
+    <string name="global_vpn_title">Global VPN</string>
+    <string name="global_vpn_summary">Force all traffic on the device through this VPN, including work profile and other users.</string>
+    <string name="global_vpn_summary_on">Force all traffic on the device through this VPN, including work profile and other users. Note: When enabled, you will not be able to use a separate VPN in a work profile or other users</string>
+    <string name="global_vpn_summary_any_vpn_active">You need to disable all active VPN connections first to enable this</string>
 </resources>
