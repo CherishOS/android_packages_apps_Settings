@@ -241,8 +241,8 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="navigation_bar_ime_space_summary">Sembunyikan ruang tombol IME di bawah keyboard</string>
     <!-- Private DNS Providers -->
     <!-- Show clipboard overlay -->
-    <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
-    <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
+    <string name="show_clipboard_overlay_title">Tampilkan hamparan papan klip</string>
+    <string name="show_clipboard_overlay_summary">Tampilkan hamparan di sudut kiri bawah layar ketika sesuatu disalin ke papan klip</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">Hapus pemindaian wajah yang ada dan buat pemindaian baru</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Ulangi pemindaian wajah</string>
@@ -252,27 +252,27 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="face_unlock_method_default">Saat layar dihidupkan</string>
     <string name="face_unlock_method_swipe">Saat mengusap layar kunci</string>
     <!-- Battery charge warning -->
-    <string name="notification_sound_battery_charge_title">Enable battery charge level warning</string>
-    <string name="notification_battery_charge_level_title">Battery charge warning</string>
-    <string name="notification_battery_charge_level_summary">Play a sound when the battery as reach a level when charging</string>
-    <string name="notification_battery_charge_level_seek_bar">Battery level</string>
-    <string name="notification_battery_charge_level_ringtone">Ringtone</string>
-    <string name="notification_battery_charge_level_silent">Silent</string>
+    <string name="notification_sound_battery_charge_title">Aktifkan peringatan tingkat pengisian daya baterai</string>
+    <string name="notification_battery_charge_level_title">Peringatan daya baterai</string>
+    <string name="notification_battery_charge_level_summary">Putar suara saat baterai mencapai level saat mengisi daya</string>
+    <string name="notification_battery_charge_level_seek_bar">Level baterai</string>
+    <string name="notification_battery_charge_level_ringtone">Nada dering</string>
+    <string name="notification_battery_charge_level_silent">Senyap</string>
     <!-- Gesture navbar radius -->
-    <string name="gesture_navbar_radius_title">Pill radius</string>
-    <string name="thin_label">Thin</string>
-    <string name="thick_label">Thick</string>
+    <string name="gesture_navbar_radius_title">Radius gestur bilah navigasi</string>
+    <string name="thin_label">Tipis</string>
+    <string name="thick_label">Tebal</string>
     <!-- Vibration patterns -->
-    <string name="vibration_pattern_title">Ringtone vibration pattern</string>
-    <string name="notification_vibration_pattern_title">Notification vibration pattern</string>
+    <string name="vibration_pattern_title">Pola getaran nada dering</string>
+    <string name="notification_vibration_pattern_title">Pola getaran notifikasi</string>
     <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
     <string name="pattern_dzzz_da">dzzz-da</string>
     <string name="pattern_mm_mm_mm">mm-mm-mm</string>
     <string name="pattern_da_da_dzzz">da-da-dzzz</string>
     <string name="pattern_da_dzzz_da">da-dzzz-da</string>
-    <string name="pattern_custom">Custom</string>
-    <string name="custom_vibration_pattern_title">Custom pattern</string>
-    <string name="custom_vibration_pattern_summary">Set a custom vibration pattern</string>
+    <string name="pattern_custom">Kustom</string>
+    <string name="custom_vibration_pattern_title">Pola kustom</string>
+    <string name="custom_vibration_pattern_summary">Setel pola getaran kustom</string>
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Meningkatkan volume dering</string>
     <string name="increasing_ring_min_volume_title">Volume awal</string>
@@ -281,11 +281,11 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="game_space_title">Ruang Game</string>
     <string name="game_space_summary">Tingkatkan pengalaman bermain game Anda</string>
     <!-- Pulse on music track change -->
-    <string name="pulse_on_new_tracks_title">Ambient music ticker</string>
-    <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played</string>
+    <string name="pulse_on_new_tracks_title">Ticker musik ambien</string>
+    <string name="pulse_on_new_tracks_summary">Perlihatkan Tampilan Ambien ketika trek musik baru dimainkan</string>
     <!-- VPN app management screen, global VPN -->
-    <string name="global_vpn_title">Global VPN</string>
-    <string name="global_vpn_summary">Force all traffic on the device through this VPN, including work profile and other users.</string>
-    <string name="global_vpn_summary_on">Force all traffic on the device through this VPN, including work profile and other users. Note: When enabled, you will not be able to use a separate VPN in a work profile or other users</string>
-    <string name="global_vpn_summary_any_vpn_active">You need to disable all active VPN connections first to enable this</string>
+    <string name="global_vpn_title">VPN Global</string>
+    <string name="global_vpn_summary">Paksa semua lalu lintas di perangkat melalui VPN ini, termasuk profil kerja dan pengguna lain.</string>
+    <string name="global_vpn_summary_on">Paksa semua lalu lintas di perangkat melalui VPN ini, termasuk profil kerja dan pengguna lain. Catatan: Saat diaktifkan, Anda tidak akan dapat menggunakan VPN terpisah di profil kerja atau pengguna lain</string>
+    <string name="global_vpn_summary_any_vpn_active">Anda harus menonaktifkan semua koneksi VPN aktif terlebih dahulu untuk mengaktifkan ini</string>
 </resources>
