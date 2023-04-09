@@ -285,9 +285,9 @@
     <string name="global_vpn_summary_on">Buộc tất cả lưu lượng truy cập trên thiết bị thông qua VPN này, bao gồm cả hồ sơ công việc và những người dùng khác. Lưu ý: Khi được bật, bạn sẽ không thể sử dụng VPN riêng trong hồ sơ công việc hoặc người dùng khác</string>
     <string name="global_vpn_summary_any_vpn_active">Trước tiên, bạn cần tắt tất cả các kết nối VPN đang hoạt động để kích hoạt tính năng này</string>
     <!-- Navigation bar IME space -->
-    <string name="navigation_bar_ime_space_title">IME space</string>
-    <string name="navigation_bar_ime_space_summary">Space under keyboard options</string>
-    <string name="ime_narrow">Narrow</string>
-    <string name="ime_default">Default</string>
-    <string name="ime_hidden">Hidden</string>
+    <string name="navigation_bar_ime_space_title">Ẩn không gian bàn phím</string>
+    <string name="navigation_bar_ime_space_summary">Ẩn không gian bên dưới bàn phím</string>
+    <string name="ime_narrow">Hẹp</string>
+    <string name="ime_default">Mặc định</string>
+    <string name="ime_hidden">Ẩn</string>
 </resources>
