@@ -240,8 +240,8 @@
     <string name="navigation_bar_ime_space_summary">Скрыть отступ под клавиатурой</string>
     <!-- Private DNS Providers -->
     <!-- Show clipboard overlay -->
-    <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
-    <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
+    <string name="show_clipboard_overlay_title">Показать наложение буфера обмена</string>
+    <string name="show_clipboard_overlay_summary">Показывать содержимое буфера обмена в левом нижнем углу экрана, когда что-то копируется в буфер</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">Удалить использующийся снимок лица и создать новый</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Повторное сканирование лица</string>
@@ -251,27 +251,27 @@
     <string name="face_unlock_method_default">Когда экран включен</string>
     <string name="face_unlock_method_swipe">При проведении пальцем по экрану блокировки</string>
     <!-- Battery charge warning -->
-    <string name="notification_sound_battery_charge_title">Enable battery charge level warning</string>
-    <string name="notification_battery_charge_level_title">Battery charge warning</string>
-    <string name="notification_battery_charge_level_summary">Play a sound when the battery as reach a level when charging</string>
-    <string name="notification_battery_charge_level_seek_bar">Battery level</string>
-    <string name="notification_battery_charge_level_ringtone">Ringtone</string>
-    <string name="notification_battery_charge_level_silent">Silent</string>
+    <string name="notification_sound_battery_charge_title">Включить предупреждение об уровне заряда батареи</string>
+    <string name="notification_battery_charge_level_title">Предупреждение о заряде батареи</string>
+    <string name="notification_battery_charge_level_summary">Воспроизводить звук, когда батарея достигает уровня во время зарядки</string>
+    <string name="notification_battery_charge_level_seek_bar">Уровень заряда</string>
+    <string name="notification_battery_charge_level_ringtone">Мелодия вызова</string>
+    <string name="notification_battery_charge_level_silent">Без звука</string>
     <!-- Gesture navbar radius -->
-    <string name="gesture_navbar_radius_title">Pill radius</string>
-    <string name="thin_label">Thin</string>
-    <string name="thick_label">Thick</string>
+    <string name="gesture_navbar_radius_title">Толщина полосы</string>
+    <string name="thin_label">Тонкий</string>
+    <string name="thick_label">Толстый</string>
     <!-- Vibration patterns -->
-    <string name="vibration_pattern_title">Ringtone vibration pattern</string>
-    <string name="notification_vibration_pattern_title">Notification vibration pattern</string>
-    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
-    <string name="pattern_dzzz_da">dzzz-da</string>
-    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
-    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
-    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
-    <string name="pattern_custom">Custom</string>
-    <string name="custom_vibration_pattern_title">Custom pattern</string>
-    <string name="custom_vibration_pattern_summary">Set a custom vibration pattern</string>
+    <string name="vibration_pattern_title">Шаблон вибрации при звонке</string>
+    <string name="notification_vibration_pattern_title">Шаблон вибрации уведомлений</string>
+    <string name="pattern_dzzz_dzzz">дззз-дззз</string>
+    <string name="pattern_dzzz_da">дззз-да</string>
+    <string name="pattern_mm_mm_mm">мм-мм-мм</string>
+    <string name="pattern_da_da_dzzz">Да-да-дзз</string>
+    <string name="pattern_da_dzzz_da">да-дззз-да</string>
+    <string name="pattern_custom">Свой</string>
+    <string name="custom_vibration_pattern_title">Свой шаблон</string>
+    <string name="custom_vibration_pattern_summary">Установить свой шаблон вибрации</string>
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Нарастающая громкость звонка</string>
     <string name="increasing_ring_min_volume_title">Начальная громкость</string>
@@ -280,11 +280,11 @@
     <string name="game_space_title">Игровое пространство</string>
     <string name="game_space_summary">Улучшайте свои впечатления от игр</string>
     <!-- Pulse on music track change -->
-    <string name="pulse_on_new_tracks_title">Ambient music ticker</string>
-    <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played</string>
+    <string name="pulse_on_new_tracks_title">Активная бегущая строка музыки</string>
+    <string name="pulse_on_new_tracks_summary">Показывать «Активный экран» при воспроизведении нового трека</string>
     <!-- VPN app management screen, global VPN -->
-    <string name="global_vpn_title">Global VPN</string>
-    <string name="global_vpn_summary">Force all traffic on the device through this VPN, including work profile and other users.</string>
-    <string name="global_vpn_summary_on">Force all traffic on the device through this VPN, including work profile and other users. Note: When enabled, you will not be able to use a separate VPN in a work profile or other users</string>
-    <string name="global_vpn_summary_any_vpn_active">You need to disable all active VPN connections first to enable this</string>
+    <string name="global_vpn_title">Глобальный VPN</string>
+    <string name="global_vpn_summary">Принудительный трафик на устройстве через этот VPN, включая рабочий профиль и других пользователей.</string>
+    <string name="global_vpn_summary_on">Принудительный трафик на устройстве через этот VPN, включая рабочий профиль и других пользователей. Примечание: Когда включено, вы не сможете использовать отдельный VPN в рабочем профиле или других пользователей</string>
+    <string name="global_vpn_summary_any_vpn_active">Вам нужно сначала отключить все активные VPN соединения, чтобы включить это</string>
 </resources>
