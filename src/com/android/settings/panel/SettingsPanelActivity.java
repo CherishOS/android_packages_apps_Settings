@@ -142,9 +142,9 @@ public class SettingsPanelActivity extends FragmentActivity {
         } else {
             setContentView(R.layout.settings_panel);
 
-            // Move the window to the bottom of screen, and make it take up the entire screen width.
+            // Move the window to the center of screen, and make it take up the entire screen width.
             final Window window = getWindow();
-            window.setGravity(Gravity.BOTTOM);
+            window.setGravity(Gravity.CENTER);
             window.setLayout(WindowManager.LayoutParams.MATCH_PARENT,
                     WindowManager.LayoutParams.WRAP_CONTENT);
             setupNavigationBar();

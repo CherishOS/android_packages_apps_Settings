@@ -17,10 +17,10 @@
 <inset xmlns:android="http://schemas.android.com/apk/res/android">
     <shape android:shape="rectangle">
         <corners
-            android:topLeftRadius="@dimen/settings_panel_corner_radius"
-            android:topRightRadius="@dimen/settings_panel_corner_radius"
-            android:bottomLeftRadius="0dp"
-            android:bottomRightRadius="0dp"/>
-        <solid android:color="@color/panel_background_color" />
+            android:topLeftRadius="@*android:dimen/config_dialogCornerRadius"
+            android:topRightRadius="@*android:dimen/config_dialogCornerRadius"
+            android:bottomLeftRadius="@*android:dimen/config_dialogCornerRadius"
+            android:bottomRightRadius="@*android:dimen/config_dialogCornerRadius"/>
+        <solid android:color="?android:attr/colorBackground" />
     </shape>
 </inset>

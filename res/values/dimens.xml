@@ -464,7 +464,7 @@
     <dimen name="settings_panel_width">@dimen/match_parent</dimen>
 
     <!-- Panel slices dimensions -->
-    <dimen name="panel_slice_vertical_padding">8dp</dimen>
+    <dimen name="panel_slice_vertical_padding">12dp</dimen>
     <dimen name="panel_slice_Horizontal_padding">24dp</dimen>
 
     <!-- Text padding for EmptyTextSettings -->

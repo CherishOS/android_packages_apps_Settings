@@ -63,12 +63,13 @@
                     android:id="@+id/header_title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:gravity="center"
                     android:layout_marginBottom="8dp"
                     android:ellipsize="end"
                     android:maxLines="1"
                     android:textColor="?android:attr/textColorPrimary"
-                    android:textSize="24sp"
-                    android:fontFamily="@*android:string/config_regularFontFamily"/>
+                    android:textSize="18sp"
+                    android:fontFamily="@*android:string/config_bodyFontFamily"/>
 
                 <TextView
                     android:id="@+id/header_subtitle"
@@ -90,8 +91,8 @@
             android:layout_marginBottom="@dimen/settings_panel_title_margin_bottom"
             android:gravity="center"
             android:textColor="?android:attr/textColorPrimary"
-            android:textSize="24sp"
-            android:fontFamily="@*android:string/config_regularFontFamily"/>
+            android:textSize="18sp"
+            android:fontFamily="@*android:string/config_bodyFontFamily"/>
 
         <ProgressBar
             android:id="@+id/progress_bar"
