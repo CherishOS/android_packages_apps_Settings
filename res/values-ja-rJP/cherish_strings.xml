@@ -235,9 +235,6 @@
     <string name="battery_charge_cycles">充電サイクル完了数</string>
     <!-- Battery temperature -->
     <string name="battery_temp">バッテリー温度</string>
-    <!-- IME button space -->
-    <string name="navigation_bar_ime_space_title">IME ボタンのスペース</string>
-    <string name="navigation_bar_ime_space_summary">キーボードの下に IME ボタンのスペースを隠す</string>
     <!-- Private DNS Providers -->
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
@@ -287,4 +284,10 @@
     <string name="global_vpn_summary">Force all traffic on the device through this VPN, including work profile and other users.</string>
     <string name="global_vpn_summary_on">Force all traffic on the device through this VPN, including work profile and other users. Note: When enabled, you will not be able to use a separate VPN in a work profile or other users</string>
     <string name="global_vpn_summary_any_vpn_active">You need to disable all active VPN connections first to enable this</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">IME space</string>
+    <string name="navigation_bar_ime_space_summary">Space under keyboard options</string>
+    <string name="ime_narrow">Narrow</string>
+    <string name="ime_default">Default</string>
+    <string name="ime_hidden">Hidden</string>
 </resources>

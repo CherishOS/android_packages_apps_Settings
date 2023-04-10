@@ -236,9 +236,6 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="battery_charge_cycles">Siklus Mengisi Selesai</string>
     <!-- Battery temperature -->
     <string name="battery_temp">Suhu Baterai</string>
-    <!-- IME button space -->
-    <string name="navigation_bar_ime_space_title">Ruang di bawah keyboard</string>
-    <string name="navigation_bar_ime_space_summary">Sembunyikan ruang tombol IME di bawah keyboard</string>
     <!-- Private DNS Providers -->
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Tampilkan hamparan papan klip</string>
@@ -288,4 +285,10 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="global_vpn_summary">Paksa semua lalu lintas di perangkat melalui VPN ini, termasuk profil kerja dan pengguna lain.</string>
     <string name="global_vpn_summary_on">Paksa semua lalu lintas di perangkat melalui VPN ini, termasuk profil kerja dan pengguna lain. Catatan: Saat diaktifkan, Anda tidak akan dapat menggunakan VPN terpisah di profil kerja atau pengguna lain</string>
     <string name="global_vpn_summary_any_vpn_active">Anda harus menonaktifkan semua koneksi VPN aktif terlebih dahulu untuk mengaktifkan ini</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">Ruang tombol IME</string>
+    <string name="navigation_bar_ime_space_summary">Opsi ruang tombol di bawah keyboard</string>
+    <string name="ime_narrow">Sempit</string>
+    <string name="ime_default">Bawaan</string>
+    <string name="ime_hidden">Tersembunyi</string>
 </resources>
