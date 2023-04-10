@@ -128,7 +128,7 @@
     <string name="live_display_mode">Plein écran</string>
     <string name="live_display_color_temperature_title">Température des couleurs</string>
     <string name="live_display_color_temperature_summary">Jour : <xliff:g id="day_temperature">%1$d</xliff:g>K Nuit : <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
-    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrés">%1$d</xliff:g>K</string>
     <string name="live_display_day">Jour</string>
     <string name="live_display_night">Nuit</string>
     <string name="live_display_outdoor_mode_title">Mode extérieur automatique</string>
@@ -235,13 +235,10 @@
     <string name="battery_charge_cycles">Cycles de charge complets</string>
     <!-- Battery temperature -->
     <string name="battery_temp">Température de la batterie</string>
-    <!-- IME button space -->
-    <string name="navigation_bar_ime_space_title">Espace sous le clavier</string>
-    <string name="navigation_bar_ime_space_summary">Hide IME button space below keyboard</string>
     <!-- Private DNS Providers -->
     <!-- Show clipboard overlay -->
-    <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
-    <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
+    <string name="show_clipboard_overlay_title">Afficher l\'overlay du presse-papiers</string>
+    <string name="show_clipboard_overlay_summary">Afficher un overlay dans le coin inférieur gauche de l\'écran quand quelque chose est copié dans le presse-papiers</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">Supprimer l\'analyse faciale existante et créer une nouvelle analyse</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Recommencer l\'analyse faciale</string>
@@ -251,12 +248,12 @@
     <string name="face_unlock_method_default">Quand l\'écran est allumé</string>
     <string name="face_unlock_method_swipe">Lors d\'un balayage sur l\'écran de verrouillage</string>
     <!-- Battery charge warning -->
-    <string name="notification_sound_battery_charge_title">Enable battery charge level warning</string>
-    <string name="notification_battery_charge_level_title">Battery charge warning</string>
-    <string name="notification_battery_charge_level_summary">Play a sound when the battery as reach a level when charging</string>
-    <string name="notification_battery_charge_level_seek_bar">Battery level</string>
-    <string name="notification_battery_charge_level_ringtone">Ringtone</string>
-    <string name="notification_battery_charge_level_silent">Silent</string>
+    <string name="notification_sound_battery_charge_title">Activer l\'avertissement de niveau de charge de la batterie</string>
+    <string name="notification_battery_charge_level_title">Alerte du niveau de charge de la Batterie</string>
+    <string name="notification_battery_charge_level_summary">Jouer un son lorsque la batterie atteint un niveau lors de la charge</string>
+    <string name="notification_battery_charge_level_seek_bar">Pourcentage de la batterie</string>
+    <string name="notification_battery_charge_level_ringtone">Sonnerie</string>
+    <string name="notification_battery_charge_level_silent">Muet</string>
     <!-- Gesture navbar radius -->
     <string name="gesture_navbar_radius_title">Pill radius</string>
     <string name="thin_label">Thin</string>
@@ -269,7 +266,7 @@
     <string name="pattern_mm_mm_mm">mm-mm-mm</string>
     <string name="pattern_da_da_dzzz">da-da-dzzz</string>
     <string name="pattern_da_dzzz_da">da-dzzz-da</string>
-    <string name="pattern_custom">Custom</string>
+    <string name="pattern_custom">Personnalisé</string>
     <string name="custom_vibration_pattern_title">Custom pattern</string>
     <string name="custom_vibration_pattern_summary">Set a custom vibration pattern</string>
     <!-- Increasing ring tone volume -->
@@ -287,4 +284,10 @@
     <string name="global_vpn_summary">Force all traffic on the device through this VPN, including work profile and other users.</string>
     <string name="global_vpn_summary_on">Force all traffic on the device through this VPN, including work profile and other users. Note: When enabled, you will not be able to use a separate VPN in a work profile or other users</string>
     <string name="global_vpn_summary_any_vpn_active">You need to disable all active VPN connections first to enable this</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">IME space</string>
+    <string name="navigation_bar_ime_space_summary">Space under keyboard options</string>
+    <string name="ime_narrow">Narrow</string>
+    <string name="ime_default">Default</string>
+    <string name="ime_hidden">Hidden</string>
 </resources>

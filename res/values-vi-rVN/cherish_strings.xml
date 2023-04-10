@@ -235,9 +235,6 @@
     <string name="battery_charge_cycles">Chu kỳ sạc đầy pin</string>
     <!-- Battery temperature -->
     <string name="battery_temp">Nhiệt độ pin</string>
-    <!-- IME button space -->
-    <string name="navigation_bar_ime_space_title">Khoảng trống phía dưới bàn phím</string>
-    <string name="navigation_bar_ime_space_summary">Ẩn hiện khoảng trống bên dưới bàn phím</string>
     <!-- Private DNS Providers -->
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Hiển thị lớp phủ khay nhớ tạm</string>
@@ -287,4 +284,10 @@
     <string name="global_vpn_summary">Buộc tất cả lưu lượng truy cập trên thiết bị thông qua VPN này, bao gồm cả hồ sơ công việc và những người dùng khác.</string>
     <string name="global_vpn_summary_on">Buộc tất cả lưu lượng truy cập trên thiết bị thông qua VPN này, bao gồm cả hồ sơ công việc và những người dùng khác. Lưu ý: Khi được bật, bạn sẽ không thể sử dụng VPN riêng trong hồ sơ công việc hoặc người dùng khác</string>
     <string name="global_vpn_summary_any_vpn_active">Trước tiên, bạn cần tắt tất cả các kết nối VPN đang hoạt động để kích hoạt tính năng này</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">Ẩn không gian bàn phím</string>
+    <string name="navigation_bar_ime_space_summary">Ẩn không gian bên dưới bàn phím</string>
+    <string name="ime_narrow">Hẹp</string>
+    <string name="ime_default">Mặc định</string>
+    <string name="ime_hidden">Ẩn</string>
 </resources>
