@@ -286,9 +286,9 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="global_vpn_summary_on">Paksa semua lalu lintas di perangkat melalui VPN ini, termasuk profil kerja dan pengguna lain. Catatan: Saat diaktifkan, Anda tidak akan dapat menggunakan VPN terpisah di profil kerja atau pengguna lain</string>
     <string name="global_vpn_summary_any_vpn_active">Anda harus menonaktifkan semua koneksi VPN aktif terlebih dahulu untuk mengaktifkan ini</string>
     <!-- Navigation bar IME space -->
-    <string name="navigation_bar_ime_space_title">IME space</string>
-    <string name="navigation_bar_ime_space_summary">Space under keyboard options</string>
-    <string name="ime_narrow">Narrow</string>
-    <string name="ime_default">Default</string>
-    <string name="ime_hidden">Hidden</string>
+    <string name="navigation_bar_ime_space_title">Ruang tombol IME</string>
+    <string name="navigation_bar_ime_space_summary">Opsi ruang tombol di bawah keyboard</string>
+    <string name="ime_narrow">Sempit</string>
+    <string name="ime_default">Bawaan</string>
+    <string name="ime_hidden">Tersembunyi</string>
 </resources>
