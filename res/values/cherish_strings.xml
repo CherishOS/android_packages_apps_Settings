@@ -430,4 +430,9 @@ When the screen is off, the torch can be enabled with one of the following key c
     <string name="custom_timeout_summary_10mins">10 minutes</string>
     <string name="custom_timeout_summary_30mins">30 minutes</string>
     <string name="custom_timeout_summary_1hour">1 hour</string>
+
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Show Ambient</string>
+    <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
+
 </resources>
