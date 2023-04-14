@@ -56,7 +56,7 @@ public class InfoPrefsController extends AbstractPreferenceController implements
         final TextView dispText = (TextView) cherishInfoPreference.findViewById(R.id.cust_display_summary);
 
         chipText.setText(SpecUtils.getProcessorModel());
-        storText.setText(String.valueOf(SpecUtils.getTotalInternalMemorySize()) + "GB ROM + " + String.valueOf(SpecUtils.getTotalRAM()) + "GB RAM");
+        storText.setText(String.valueOf(SpecUtils.getTotalInternalMemorySize()) + "GB ROM + " + SpecUtils.getTotalRAM() + " RAM");
         battText.setText(SpecUtils.getBatteryCapacity(mContext) + " mAh");
         dispText.setText(SpecUtils.getScreenRes(mContext)); 
     }

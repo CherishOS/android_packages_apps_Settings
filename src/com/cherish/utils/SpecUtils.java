@@ -31,12 +31,15 @@ import com.android.internal.os.PowerProfile;
 import com.android.internal.util.MemInfoReader;
 
 import java.io.File;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 
 import com.android.settings.R;
 
 public class SpecUtils {
     private static final String CPU_MODEL_PROPERTY = "ro.cherish.chipset";
     private static final String FALLBACK_CPU_MODEL_PROPERTY = "ro.board.platform";
+    private static final BigDecimal GB2MB = new BigDecimal(1024);
 
     public static String getTotalInternalMemorySize() {
         File path = Environment.getDataDirectory();
@@ -62,13 +65,13 @@ public class SpecUtils {
         else return "null";
     }
 
-    public static int getTotalRAM() {
+    public static String getTotalRAM() {
         MemInfoReader memReader = new MemInfoReader();
         memReader.readMemInfo();
-        double totalMemB = memReader.getTotalSize();
-        double totalMemGB = (totalMemB / 1073741824) + 0.3f; // Cause 4gig devices show memory as 3.48 .-.
-        int totalMemRounded = (int) Math.round(totalMemGB);
-        return totalMemRounded;
+        long totalMem = memReader.getTotalSize();
+        long totalMemMiB = totalMem / (1024 * 1024);
+        BigDecimal rawVal = new BigDecimal(totalMemMiB);
+        return rawVal.divide(GB2MB, 0, RoundingMode.UP) + " GB";
     }
 
     public static String getDeviceName() {
