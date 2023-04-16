@@ -290,4 +290,11 @@
     <string name="ime_narrow">Hẹp</string>
     <string name="ime_default">Mặc định</string>
     <string name="ime_hidden">Ẩn</string>
+    <!-- Force LTE_CA -->
+    <string name="force_lte_ca">Buộc LTE CA</string>
+    <string name="force_lte_ca_summary">Buộc sóng mang LTE hoạt động</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Liên kết âm lượng nhạc chuông &amp; thông báo</string>
+    <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
+    <string name="ring_volume_unlinked_option_title">Âm lượng chuông</string>
 </resources>
