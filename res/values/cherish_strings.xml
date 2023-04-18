@@ -404,4 +404,7 @@
     <string name="prevent_pointer_acceleration_wheel">Wheel only</string>
     <string name="prevent_pointer_acceleration_pointer">Pointer only</string>
     <string name="prevent_pointer_acceleration_none">None</string>
+
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 </resources>
