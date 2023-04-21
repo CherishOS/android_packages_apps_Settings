@@ -3,8 +3,8 @@
     <!-- SELinux Status -->
     <string name="selinux_status">Status SELinux</string>
     <string name="selinux_status_disabled">Wyłączony</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status_permissive">Pobłażliwy</string>
+    <string name="selinux_status_enforcing">Restrykcyjny</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Stuknij, aby wyświetlić informacje</string>
     <!-- App details: open play store link if app is user installed -->
