@@ -8,36 +8,36 @@
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Натисніть, щоб показати інформацію</string>
     <!-- App details: open play store link if app is user installed -->
-    <string name="app_play_store">Google Play</string>
+    <string name="app_play_store">Додаток Google Play</string>
     <!-- Maintainer -->
     <string name="maintainer">Супроводжуючі пристрої</string>
     <!-- About phone screen, Cherish OS version -->
     <string name="cherish_version">Версія CherishOS</string>
     <string name="cherish_version_default">Невідомий</string>
-    <string name="keywords_cherish_version">CherishOS version, cherish version</string>
+    <string name="keywords_cherish_version">Версія CherishOS</string>
     <!-- About phone screen, build date -->
-    <string name="about_device_name">Device</string>
+    <string name="about_device_name">Пристрій</string>
     <string name="build_date">Дата збірки</string>
     <string name="build_date_default">2015-01-01-0000</string>
-    <string name="keywords_build_date">build date, build info</string>
+    <string name="keywords_build_date">Дата збірки, інформація про збірку</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="swipe_to_screenshot_gesture_title">Swipe to screenshot</string>
-    <string name="swipe_to_screenshot_gesture_summary">Swipe three fingers to take screenshot</string>
+    <string name="swipe_to_screenshot_gesture_title">Провести для знімку екрану</string>
+    <string name="swipe_to_screenshot_gesture_summary">Проведіть по екрану трьома пальцями, щоб зробити знімок екрана</string>
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">Мінімальна частота оновлення</string>
     <string name="max_refresh_rate_title">Максимальна частота оновлення</string>
     <string name="low_power_refresh_rate_title_custom">Частота оновлення при низькому заряду батареї</string>
     <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+    <string name="screenshot_shutter_sound_title">Звук скріншота</string>
     <!-- Wake on plug -->
     <string name="wake_when_plugged_or_unplugged_title">Екран прокидається при підключені</string>
     <string name="wake_when_plugged_or_unplugged_summary">Екран вмикається при підключенні чи відключенні зарядного пристрою</string>
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">Запобігання випадкового пробудження</string>
+    <string name="proximity_wake_summary">Перевіряти датчик наближення для пробудження екрану</string>
     <!-- Hardware info -->
-    <string name="platform_revision">Platform</string>
-    <string name="total_ram">Total RAM</string>
+    <string name="platform_revision">Платформа</string>
+    <string name="total_ram">Всього ОЗУ</string>
     <!--Cherish Settings-->
     <string name="cherish_settings_title">Улюблені налаштування </string>
     <string name="cherish_settings_summary">Щастя недоступне і воно доходить до ваших власних дій</string>
@@ -47,14 +47,14 @@
     <string name="custom_light_off_time_title">Час викненого LED під час пульсації (мс)</string>
     <string name="value_equals_default">за замовчуванням</string>
     <!-- Screen off FOD -->
-    <string name="screen_off_udfps_title">Screen off FOD</string>
-    <string name="screen_off_udfps_summary">Keep FOD enabled when the screen is off</string>
+    <string name="screen_off_udfps_title">Вимкнення екрана FOD</string>
+    <string name="screen_off_udfps_summary">Залишайте FOD увімкненим, коли екран вимкнено</string>
     <!-- FastCharge feature -->
-    <string name="fast_charging_title">Fast charging</string>
-    <string name="fast_charging_summary">Disable to reduce the heat produced by the device while charging or to extend the lifespan of the battery</string>
+    <string name="fast_charging_title">Швидка зарядка</string>
+    <string name="fast_charging_summary">Вимкніть, щоб зменшити нагрів пристрою під час зарядки або для збільшення терміну служби акумулятора</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Розумна пауза</string>
-    <string name="adaptive_playback_master_switch_title">Use Smart Pause</string>
+    <string name="adaptive_playback_master_switch_title">Використовувати розумну паузу</string>
     <string name="adaptive_playback_disabled_summary">Вимкнено</string>
     <string name="adaptive_playback_intro_text">Автоматично призупиняє медіа, коли звук вимкнено, і автоматично відновлюється, коли гучність відновиться протягом встановленого часу.</string>
     <string name="adaptive_playback_timeout_title">Використовуйте тайм-аут</string>
@@ -71,8 +71,8 @@
     <string name="adaptive_playback_timeout_10_min">10 хвилин</string>
     <string name="adaptive_playback_timeout_10_min_summary">Увімкнено (10 хвилин)</string>
     <!-- Volume button music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">Керування відтворенням медіа</string>
+    <string name="volume_button_music_control_summary">Коли пристрій у режимі сну, утримування кнопок гучності перемикатиме композиції</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Подвійне натискання</string>
     <string name="doze_double_tap_title">Перегляд часу і повідомлень подвійним натисканням</string>
@@ -84,53 +84,53 @@
     <string name="unlock_quick_unlock_control_title">Швидке розблокування</string>
     <string name="unlock_quick_unlock_control_summary">Автоматичне розблокування при введенні правильного пароля чи PIN-коду</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
-    <string name="custom_firmware_version">Cherish version</string>
+    <string name="custom_firmware_version">Версія CherishOS</string>
     <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
-    <string name="about_device_info">About device</string>
+    <string name="about_device_info">Про пристрій</string>
     <!-- CherishOS versioning -->
-    <string name="cherish_version_title">Cherish Version</string>
-    <string name="cherish_device_title">Device</string>
-    <string name="cherish_release_type_title">Release type</string>
-    <string name="cherish_maintainer_title">Maintainer</string>
+    <string name="cherish_version_title">Версія CherishOS</string>
+    <string name="cherish_device_title">Пристрій</string>
+    <string name="cherish_release_type_title">Тип випуску</string>
+    <string name="cherish_maintainer_title">Розробники</string>
     <!-- About page -->
-    <string name="battery">Battery</string>
-    <string name="display">Display</string>
-    <string name="storage">Storage</string>
-    <string name="chipset">Chipset</string>
+    <string name="battery">Батарея</string>
+    <string name="display">Відображення</string>
+    <string name="storage">Сховище</string>
+    <string name="chipset">Чіпсет</string>
     <!-- Settings homepage alternative header -->
-    <string name="top_level_settings_title">Settings</string>
-    <string name="wellbeing_title">Google Wellbeing</string>
-    <string name="usercard_summary">Current active user, tap for more information</string>
-    <string name="connectivity_category_title">connectivity</string>
+    <string name="top_level_settings_title">Налаштування</string>
+    <string name="wellbeing_title">Google Добробут</string>
+    <string name="usercard_summary">Поточний користувач активний, натисніть для отримання додаткової інформації</string>
+    <string name="connectivity_category_title">підключення</string>
     <!-- Fullscreen gestures -->
-    <string name="navbar_category">Navigation bar</string>
+    <string name="navbar_category">Панель навігації</string>
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">Довжина таблетки</string>
-    <string name="hide_label">Hidden</string>
+    <string name="hide_label">Прихований</string>
     <string name="long_label">Довгий</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Дозволити клієнтам використовувати VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Дозволити клієнтам точки доступу використовувати цей пристрій\u2019s VPN з\'єднання для підключення до потоку</string>
     <!-- Pocket judge -->
-    <string name="pocket_judge_title">Pocket detection</string>
-    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+    <string name="pocket_judge_title">Режим \"В кишені\"</string>
+    <string name="pocket_judge_summary">Заблокувати екран та фізичні кнопки, коли пристрій перебуває в кишені</string>
     <!-- High touch sensitivity -->
-    <string name="high_touch_sensitivity_title">High touch sensitivity</string>
-    <string name="high_touch_sensitivity_summary">Increase touchscreen sensitivity so it can be used while wearing gloves</string>
+    <string name="high_touch_sensitivity_title">Висока чутливість дотику</string>
+    <string name="high_touch_sensitivity_summary">Підвищити чутливість сенсорного екрану для користуванням пристроєм у рукавичках</string>
     <!-- Touchscreen hovering -->
-    <string name="touchscreen_hovering_title">Touchscreen hovering</string>
-    <string name="touchscreen_hovering_summary">Allows you to hover the screen like a mouse in web browsers, remote desktops, etc</string>
+    <string name="touchscreen_hovering_title">Зависання над екраном</string>
+    <string name="touchscreen_hovering_summary">Дозволяє наводити на елементи екрана, як мишка у веб-браузері, при перегляді віддалених робочих столів, тощо</string>
     <!-- High touch polling rate -->
-    <string name="high_touch_polling_rate_title">High touch polling rate</string>
-    <string name="high_touch_polling_rate_summary">Increase touchscreen polling rate</string>
+    <string name="high_touch_polling_rate_title">Висока швидкість опитування на дотик</string>
+    <string name="high_touch_polling_rate_summary">Підвищити частоту опитування сенсорного екрана</string>
     <!-- LiveDisplay -->
-    <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
-    <string name="live_display_mode">Display mode</string>
-    <string name="live_display_color_temperature_title">Color temperature</string>
-    <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_summary">Налаштовувати екран залежно від часу доби і умов освітлення для підвищення зручності читання і зменшення втоми очей</string>
+    <string name="live_display_mode">Режим екрану</string>
+    <string name="live_display_color_temperature_title">Колірна температура</string>
+    <string name="live_display_color_temperature_summary">День: <xliff:g id="day_temperature">%1$d</xliff:g>К ніч: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
-    <string name="live_display_day">Day</string>
-    <string name="live_display_night">Night</string>
+    <string name="live_display_day">День</string>
+    <string name="live_display_night">Ніч</string>
     <string name="live_display_outdoor_mode_title">Automatic outdoor mode</string>
     <string name="live_display_outdoor_mode_summary">Increase brightness and saturation automatically under bright sunlight</string>
     <string name="live_display_anti_flicker_title">Anti flicker</string>
