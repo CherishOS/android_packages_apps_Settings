@@ -297,4 +297,46 @@
     <string name="volume_link_notification_title">Liên kết âm lượng nhạc chuông &amp; thông báo</string>
     <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
     <string name="ring_volume_unlinked_option_title">Âm lượng chuông</string>
+    <!-- App lock -->
+    <string name="app_lock_title">Khoá ứng dụng</string>
+    <plurals name="app_lock_summary">
+        <item quantity="other"><xliff:g example="1" id="Số lượng ứng dụng">%1$d</xliff:g> ứng dụng được bảo vệ
+<xliff:g example="10" id="Số lượng ứng dụng">%1$d</xliff:g> ứng dụng được bảo vệ</item>
+    </plurals>
+    <string name="app_lock_authentication_dialog_title">Mở khóa</string>
+    <string name="enable_debugging">Bật chế độ gỡ lỗi</string>
+    <string name="disable_debugging">Vô hiệu gỡ lỗi</string>
+    <string name="app_lock_packages_title">Các ứng dụng được bảo vệ</string>
+    <string name="app_lock_packages_summary">Chọn các ứng dụng để bảo vệ bằng sinh trắc học hoặc thông tin đăng nhập thiết bị</string>
+    <string name="app_lock_timeout_title">Hẹn giờ tự động khóa</string>
+    <string name="app_lock_timeout_summary">Khoảng thời gian mà sau đó ứng dụng đã mở khóa trong nền sẽ bị khóa</string>
+    <string name="app_lock_notifications_title">Thu gọn thông báo</string>
+    <string name="app_lock_notifications_summary">Nội dung thông báo của những ứng dụng được chọn sẽ bị ẩn và thu gọn lại khi chúng bị khoá. Thông báo nổi sẽ tự động tắt.</string>
+    <string name="app_lock_notifications_disabled_summary">Đầu tiên hãy khoá một ứng dụng</string>
+    <string name="app_lock_biometrics_allowed_title">Bật sinh trắc học để mở khóa</string>
+    <string name="app_lock_footer_text">Bong bóng nổi sẽ tự động biến mất sau khi hết thời gian chờ</string>
+    <string name="enable_protection">Bật bảo vệ</string>
+    <string name="hide_from_launcher_title">Ẩn khỏi trình khởi chạy</string>
+    <string name="hide_from_launcher_summary">Không cho ứng dụng này hiện trong bất kỳ trình khởi chạy nào. Yêu cầu khởi động lại trình khởi chạy để thay đổi có hiệu lực.</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front">Xác định vị trí cảm biến vân tay ở mặt trước điện thoại của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">Xác định cảm biến vân tay ở mặt sau điện thoại của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Xác định vị trí của cảm biến vân tay ở bên cạnh điện thoại của bạn.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front">Chạm vào cảm biến ở mặt trước điện thoại của bạn.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Chạm vào cảm biến ở mặt sau điện thoại của bạn.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Chạm vào cảm biến ở mặt bên của điện thoại.</string>
+    <!-- Transistent task mode (Tadi mode) -->
+    <string name="transistent_task_mode_title">Chế độ nhiệm vụ chờ</string>
+    <string name="transistent_task_mode_dialog_title">Chế độ tác vụ chờ (Khởi động lại thiết bị của bạn để áp dụng các thay đổi)</string>
+    <string name="transistent_task_mode_summary">Loại bỏ các ứng dụng khỏi các ứng dụng gần đây khi hoạt động cuối cùng bị đóng bằng nút quay lại.</string>
+    <string name="transistent_task_mode_default">Vô hiệu hoá (mặc định)</string>
+    <string name="transistent_task_mode_allow">Bật (Một số ứng dụng sẽ ở lại)</string>
+    <string name="transistent_task_mode_force">Buộc (Ghi đè hành vi ứng dụng)</string>
+    <!-- Prevent pointer accleration -->
+    <string name="prevent_pointer_acceleration_title">Gia tốc con trỏ</string>
+    <string name="prevent_pointer_acceleration_full">Đầy đủ (Con trỏ + Bánh xe)</string>
+    <string name="prevent_pointer_acceleration_wheel">Chỉ có bánh xe</string>
+    <string name="prevent_pointer_acceleration_pointer">Chỉ con trỏ</string>
+    <string name="prevent_pointer_acceleration_none">Trống</string>
 </resources>
