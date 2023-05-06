@@ -96,7 +96,7 @@
     <string name="battery">Bateria</string>
     <string name="display">Tela</string>
     <string name="storage">Armazenamento</string>
-    <string name="chipset">Chipset</string>
+    <string name="chipset">Processador</string>
     <!-- Settings homepage alternative header -->
     <string name="top_level_settings_title">Configurações</string>
     <string name="wellbeing_title">Bem-estar digital</string>
@@ -237,8 +237,8 @@
     <string name="battery_temp">Temperatura da bateria</string>
     <!-- Private DNS Providers -->
     <!-- Show clipboard overlay -->
-    <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
-    <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
+    <string name="show_clipboard_overlay_title">Mostrar sobreposição de texto</string>
+    <string name="show_clipboard_overlay_summary">Exibe uma janela no canto inferior esquerdo da tela quando algum texto for copiado para área de transferência</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">Fazer um novo escaneamento facial e remover o existente</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Refazer escaneamento facial</string>
@@ -248,27 +248,27 @@
     <string name="face_unlock_method_default">Quando a tela estiver ligada</string>
     <string name="face_unlock_method_swipe">Quando deslizar na tela de bloqueio</string>
     <!-- Battery charge warning -->
-    <string name="notification_sound_battery_charge_title">Enable battery charge level warning</string>
-    <string name="notification_battery_charge_level_title">Battery charge warning</string>
-    <string name="notification_battery_charge_level_summary">Play a sound when the battery as reach a level when charging</string>
-    <string name="notification_battery_charge_level_seek_bar">Battery level</string>
-    <string name="notification_battery_charge_level_ringtone">Ringtone</string>
-    <string name="notification_battery_charge_level_silent">Silent</string>
+    <string name="notification_sound_battery_charge_title">Ativar nível de aviso de carga da bateria</string>
+    <string name="notification_battery_charge_level_title">Aviso de carga da bateria</string>
+    <string name="notification_battery_charge_level_summary">Reproduzir um som quando a bateria atingir o nível especificado ao carregar</string>
+    <string name="notification_battery_charge_level_seek_bar">Nível da bateria</string>
+    <string name="notification_battery_charge_level_ringtone">Toque</string>
+    <string name="notification_battery_charge_level_silent">Silencioso</string>
     <!-- Gesture navbar radius -->
-    <string name="gesture_navbar_radius_title">Pill radius</string>
-    <string name="thin_label">Thin</string>
-    <string name="thick_label">Thick</string>
+    <string name="gesture_navbar_radius_title">Espessura da barra de gestos</string>
+    <string name="thin_label">Fino</string>
+    <string name="thick_label">Espessa</string>
     <!-- Vibration patterns -->
-    <string name="vibration_pattern_title">Ringtone vibration pattern</string>
-    <string name="notification_vibration_pattern_title">Notification vibration pattern</string>
+    <string name="vibration_pattern_title">Padrão de vibração do toque</string>
+    <string name="notification_vibration_pattern_title">Padrão de vibração da notificação</string>
     <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
     <string name="pattern_dzzz_da">dzzz-da</string>
     <string name="pattern_mm_mm_mm">mm-mm-mm</string>
     <string name="pattern_da_da_dzzz">da-da-dzzz</string>
     <string name="pattern_da_dzzz_da">da-dzzz-da</string>
-    <string name="pattern_custom">Custom</string>
-    <string name="custom_vibration_pattern_title">Custom pattern</string>
-    <string name="custom_vibration_pattern_summary">Set a custom vibration pattern</string>
+    <string name="pattern_custom">Personalizado</string>
+    <string name="custom_vibration_pattern_title">Padrão personalizado</string>
+    <string name="custom_vibration_pattern_summary">Definir um padrão de vibração personalizado</string>
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Aumento gradativo do volume do toque</string>
     <string name="increasing_ring_min_volume_title">Volume inicial</string>
@@ -277,28 +277,28 @@
     <string name="game_space_title">Espaço de Jogo</string>
     <string name="game_space_summary">Melhore sua experiência em jogos</string>
     <!-- Pulse on music track change -->
-    <string name="pulse_on_new_tracks_title">Ambient music ticker</string>
-    <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played</string>
+    <string name="pulse_on_new_tracks_title">Ícone de música ambiente</string>
+    <string name="pulse_on_new_tracks_summary">Ligar a tela para mostrar a música em reprodução</string>
     <!-- VPN app management screen, global VPN -->
-    <string name="global_vpn_title">Global VPN</string>
-    <string name="global_vpn_summary">Force all traffic on the device through this VPN, including work profile and other users.</string>
-    <string name="global_vpn_summary_on">Force all traffic on the device through this VPN, including work profile and other users. Note: When enabled, you will not be able to use a separate VPN in a work profile or other users</string>
-    <string name="global_vpn_summary_any_vpn_active">You need to disable all active VPN connections first to enable this</string>
+    <string name="global_vpn_title">VPN Global</string>
+    <string name="global_vpn_summary">Forçar todo o tráfego no dispositivo através desta VPN, incluindo perfil de trabalho e outros usuários.</string>
+    <string name="global_vpn_summary_on">Forçar todo o tráfego no dispositivo através desta VPN, incluindo perfil de trabalho e outros usuários. Nota: Quando ativado, você não poderá usar uma VPN separada em um perfil de trabalho ou outros usuários</string>
+    <string name="global_vpn_summary_any_vpn_active">Primeiro, você precisa desativar todas as conexões de VPN ativas para habilitar isso</string>
     <!-- Navigation bar IME space -->
-    <string name="navigation_bar_ime_space_title">IME space</string>
-    <string name="navigation_bar_ime_space_summary">Space under keyboard options</string>
-    <string name="ime_narrow">Narrow</string>
-    <string name="ime_default">Default</string>
-    <string name="ime_hidden">Hidden</string>
+    <string name="navigation_bar_ime_space_title">Espaço IME</string>
+    <string name="navigation_bar_ime_space_summary">Espaço sob as opções do teclado</string>
+    <string name="ime_narrow">Estreito</string>
+    <string name="ime_default">Padrão</string>
+    <string name="ime_hidden">Oculta</string>
     <!-- Force LTE_CA -->
-    <string name="force_lte_ca">Force LTE CA</string>
-    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <string name="force_lte_ca">Forçar LTE CA</string>
+    <string name="force_lte_ca_summary">Forçar agregação de transportadoras LTE a funcionar</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <string name="volume_link_notification_title">Associar volumes de toque &amp; e notificação</string>
     <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
-    <string name="ring_volume_unlinked_option_title">Ring volume</string>
+    <string name="ring_volume_unlinked_option_title">Volume do toque</string>
     <!-- App lock -->
-    <string name="app_lock_title">App lock</string>
+    <string name="app_lock_title">Bloqueio do aplicativo</string>
     <plurals name="app_lock_summary">
         <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> application is protected</item>
         <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
