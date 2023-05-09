@@ -42,6 +42,7 @@ import android.util.ArraySet;
 import android.util.FeatureFlagUtils;
 import android.provider.Settings;
 import android.util.Log;
+import android.util.TypedValue;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -242,56 +243,89 @@ public class SettingsHomepageActivity extends FragmentActivity implements
         }
 
 	if (messagesEnabled) {
-	final TextView textView = findViewById(R.id.homepage_title);
+
+	final View root = findViewById(R.id.settings_homepage_container);
+	final TextView textView = root.findViewById(R.id.user_title);
+	final TextView homepageTitle = root.findViewById(R.id.homepage_title);
+	final TextView searchTextView = root.findViewById(R.id.search_action_bar_title);
+
+	homepageTitle.setVisibility(View.VISIBLE);
+	textView.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimensionPixelSize(R.dimen.header_text_size_contextual));
+
+	String[] randomMsgSearch = getResources().getStringArray(R.array.settings_random);
+        String[] morningMsg = getResources().getStringArray(R.array.dashboard_morning);
+        String[] morningMsgGreet = getResources().getStringArray(R.array.dashboard_morning_greetings);
+        String[] msgNight = getResources().getStringArray(R.array.dashboard_night);
+        String[] msgearlyNight = getResources().getStringArray(R.array.dashboard_early_night);
+        String[] msgNoon = getResources().getStringArray(R.array.dashboard_noon);
+        String[] msgMN = getResources().getStringArray(R.array.dashboard_midnight);
+        String[] msgRandom = getResources().getStringArray(R.array.dashboard_random);
+        String[] msgRandomGreet = getResources().getStringArray(R.array.dashboard_random_greetings);
+
+        String greetingsEN = getResources().getString(R.string.dashboard_early_night_greeting1);
+        String greetingsN = getResources().getString(R.string.dashboard_night_greetings1);
+        String greetingsNoon = getResources().getString(R.string.dashboard_noon_greeting1);
+        String random6 = getResources().getString(R.string.dashboard_random6);
+
+	Random genSearchMsg = new Random();
+	int searchRnd = genSearchMsg.nextInt(randomMsgSearch.length-1);
+        searchTextView.setText(randomMsgSearch[searchRnd]);
+
         switch (Calendar.getInstance().get(Calendar.HOUR_OF_DAY)) {
             case 5: case 6: case 7: case 8: case 9: case 10:
        	// Generate random welcome massage as title header
-        	String[] morningMsg = getResources().getStringArray(R.array.dashboard_morning);
         	Random genMorningMsg = new Random();
         	int morning = genMorningMsg.nextInt(morningMsg.length-1);
-        	textView.setText(morningMsg[morning]);
+        	int morningGreet = genMorningMsg.nextInt(morningMsgGreet.length-1);
+        	textView.setText(morningMsgGreet[morningGreet] + " " + getOwnerName() + ",");
+        	homepageTitle.setText(morningMsg[morning]);
                 break;
 
             case 18: case 19: case 20: 
-        	String[] msgearlyNight = getResources().getStringArray(R.array.dashboard_early_night);
         	Random genmsgeNight = new Random();
         	int eNight = genmsgeNight.nextInt(msgearlyNight.length-1);
-        	textView.setText(msgearlyNight[eNight]);
+        	textView.setText(greetingsEN + " " + getOwnerName() + ",");
+        	homepageTitle.setText(msgearlyNight[eNight]);
                 break;
                 
             case 21: case 22: case 23: case 0: 
-        	String[] msgNight = getResources().getStringArray(R.array.dashboard_night);
         	Random genmsgNight = new Random();
         	int night = genmsgNight.nextInt(msgNight.length-1);
-        	textView.setText(msgNight[night]);
+        	textView.setText(greetingsN + " " + getOwnerName() + ",");
+        	homepageTitle.setText(msgNight[night]);
                 break;
 
              case 16: case 17:
-        	String[] msgNoon = getResources().getStringArray(R.array.dashboard_noon);
         	Random genmsgNoon = new Random();
         	int noon = genmsgNoon.nextInt(msgNoon.length-1);
-        	textView.setText(msgNoon[noon]);
+        	textView.setText(greetingsNoon + " " + getOwnerName() + ",");
+        	homepageTitle.setText(msgNoon[noon]);
                 break;
 
             case 1: case 2: case 3: case 4:
-        	String[] msgMN = getResources().getStringArray(R.array.dashboard_midnight);
         	Random genmsgMN = new Random();
         	int mn = genmsgMN.nextInt(msgMN.length-1);
-        	textView.setText(msgMN[mn]);
+        	int rd = genmsgMN.nextInt(msgRandom.length-1);
+        	textView.setText(msgRandom[rd] + " " + getOwnerName() + ",");
+        	homepageTitle.setText(msgMN[mn]);
                 break;
                 
             case 11: case 12: case 13: case 14: case 15:
-        	String[] msgRD = getResources().getStringArray(R.array.dashboard_random);
         	Random genmsgRD = new Random();
-        	int randomm = genmsgRD.nextInt(msgRD.length-1);
-        	textView.setText(msgRD[randomm]);
+        	int randomm = genmsgRD.nextInt(msgRandom.length-1);
+        	int randomGreet = genmsgRD.nextInt(msgRandomGreet.length-1);
+        	textView.setText(msgRandom[randomm] + " " + getOwnerName() + ",");
+        	homepageTitle.setText(msgRandomGreet[randomGreet]);
                 break;
 
             default:
                 break;
            }
         } else {
-           final TextView textView = findViewById(R.id.homepage_title);
+           final TextView secondarytextView = findViewById(R.id.homepage_title);
+           final TextView textView = findViewById(R.id.user_title);
+           textView.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimensionPixelSize(R.dimen.header_text_size_default));
+           secondarytextView.setVisibility(View.GONE);
            textView.setText(getResources().getString(R.string.top_level_settings_title));
         }
 
@@ -325,6 +359,7 @@ public class SettingsHomepageActivity extends FragmentActivity implements
 
 	if (messagesEnabled) {
 	collapsing_toolbar =  root.findViewById(R.id.collapsing_toolbar);
+	collapsing_toolbar.setCollapsedTitleTextAppearance(R.style.custom_toolbar_Contextual);
         switch (Calendar.getInstance().get(Calendar.HOUR_OF_DAY)) {
             case 5: case 6: case 7: case 8: case 9: case 10:
        	// Generate random welcome massage as title header
@@ -374,6 +409,7 @@ public class SettingsHomepageActivity extends FragmentActivity implements
            }
         } else {
            collapsing_toolbar =  root.findViewById(R.id.collapsing_toolbar);
+           collapsing_toolbar.setCollapsedTitleTextAppearance(R.style.custom_toolbar_Collapsed);
            collapsing_toolbar.setTitle(getResources().getString(R.string.top_level_settings_title));
         }
         
@@ -881,6 +917,13 @@ public class SettingsHomepageActivity extends FragmentActivity implements
                 (int) context.getResources().getDimension(com.android.internal.R.dimen.user_icon_size));
 
         return drawableUserIcon;
+    }
+
+    private String getOwnerName(){
+        final UserManager mUserManager = getSystemService(UserManager.class);
+        final UserInfo userInfo = com.android.settings.Utils.getExistingUser(mUserManager,
+                    UserHandle.of(UserHandle.myUserId()));
+        return userInfo.name != null ? userInfo.name : getString(R.string.default_user);
     }
 
     @Override

@@ -69,7 +69,7 @@
         app:expandedTitleMarginBottom="75dp"
         app:collapsedTitleGravity="start|center_vertical"
         app:expandedTitleGravity="start"
-        app:expandedTitleTextAppearance="@style/custom_toolbar.Expanded"
+        app:expandedTitleTextAppearance="@style/custom_toolbar_Expanded"
         app:layout_scrollFlags="exitUntilCollapsed|scroll">
 
     <Toolbar
