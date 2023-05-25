@@ -75,8 +75,6 @@
     <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">雙擊</string>
-    <string name="doze_double_tap_title">輕觸兩下來察看手機</string>
-    <string name="doze_double_tap_summary">輕觸兩下查看 AOD 顯示通知</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">亂序佈局</string>
     <string name="unlock_scramble_pin_layout_summary">解鎖裝置時使用亂序 PIN 碼佈局</string>
@@ -338,4 +336,10 @@
     <string name="prevent_pointer_acceleration_wheel">Wheel only</string>
     <string name="prevent_pointer_acceleration_pointer">Pointer only</string>
     <string name="prevent_pointer_acceleration_none">None</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Ambient display</string>
+    <string name="doze_enabled_summary">Whether to enable the doze package functionality</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Show Ambient</string>
+    <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
 </resources>
