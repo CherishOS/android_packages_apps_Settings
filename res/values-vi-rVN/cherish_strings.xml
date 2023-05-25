@@ -75,8 +75,6 @@
     <string name="volume_button_music_control_summary">Khi màn hình tắt, nhấn giữ nút âm lượng để chuyển bài</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Chạm 2 lần</string>
-    <string name="doze_double_tap_title">Chạm 2 lần để kiểm tra điện thoại</string>
-    <string name="doze_double_tap_summary">Thông báo xung bằng cách chạm hai lần</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Bố trí ngẫu nhiên</string>
     <string name="unlock_scramble_pin_layout_summary">Bố trí mã PIN ngẫu nhiên khi mở khóa thiết bị</string>
@@ -339,4 +337,10 @@
     <string name="prevent_pointer_acceleration_wheel">Chỉ có bánh xe</string>
     <string name="prevent_pointer_acceleration_pointer">Chỉ con trỏ</string>
     <string name="prevent_pointer_acceleration_none">Trống</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Ambient display</string>
+    <string name="doze_enabled_summary">Whether to enable the doze package functionality</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Show Ambient</string>
+    <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
 </resources>
