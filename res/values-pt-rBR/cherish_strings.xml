@@ -328,19 +328,19 @@
     <string name="transistent_task_mode_title">Modo de tarefa transitório</string>
     <string name="transistent_task_mode_dialog_title">Modo de tarefa transitória (reinicie seu dispositivo para aplicar as alterações)</string>
     <string name="transistent_task_mode_summary">Ignore aplicativos recentes quando a última atividade for fechada usando o botão Voltar.</string>
-    <string name="transistent_task_mode_default">Disable (Default)</string>
-    <string name="transistent_task_mode_allow">Enable (Some apps will stay)</string>
-    <string name="transistent_task_mode_force">Force (Override app behaviour)</string>
+    <string name="transistent_task_mode_default">Desativar (Padrão)</string>
+    <string name="transistent_task_mode_allow">Ativar (Os aplicativos permanecerão)</string>
+    <string name="transistent_task_mode_force">Forçar (Substituir o comportamento do aplicativo)</string>
     <!-- Prevent pointer accleration -->
-    <string name="prevent_pointer_acceleration_title">Pointer acceleration</string>
-    <string name="prevent_pointer_acceleration_full">Full (Pointer + Wheel)</string>
-    <string name="prevent_pointer_acceleration_wheel">Wheel only</string>
-    <string name="prevent_pointer_acceleration_pointer">Pointer only</string>
-    <string name="prevent_pointer_acceleration_none">None</string>
+    <string name="prevent_pointer_acceleration_title">Aceleração do ponteiro</string>
+    <string name="prevent_pointer_acceleration_full">Cheio (Ponteiro + Roda)</string>
+    <string name="prevent_pointer_acceleration_wheel">Apenas roda</string>
+    <string name="prevent_pointer_acceleration_pointer">Apenas o ponteiro</string>
+    <string name="prevent_pointer_acceleration_none">Nenhum</string>
     <!-- Doze enablement -->
-    <string name="doze_enabled_title">Ambient display</string>
-    <string name="doze_enabled_summary">Whether to enable the doze package functionality</string>
+    <string name="doze_enabled_title">Tela Ambiente</string>
+    <string name="doze_enabled_summary">Ativar a funcionalidade de pacote Doze</string>
     <!-- Ambient wake toggles -->
-    <string name="doze_gesture_ambient_title">Show Ambient</string>
-    <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
+    <string name="doze_gesture_ambient_title">Mostrar ambiente</string>
+    <string name="doze_gesture_ambient_summary">Mostrar Tela Ambiente em vez de acordar completamente a tela</string>
 </resources>
