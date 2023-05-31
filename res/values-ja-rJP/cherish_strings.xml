@@ -2,7 +2,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- SELinux Status -->
     <string name="selinux_status">SELinux ステータス</string>
-    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_disabled">無効</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
@@ -97,7 +97,7 @@
     <string name="chipset">チップセット</string>
     <!-- Settings homepage alternative header -->
     <string name="top_level_settings_title">設定</string>
-    <string name="wellbeing_title">Google Wellbeing</string>
+    <string name="wellbeing_title">Digital Wellbeing</string>
     <string name="usercard_summary">現在のアクティブユーザーです。タップして詳細情報を表示します。</string>
     <string name="connectivity_category_title">接続</string>
     <!-- Fullscreen gestures -->
@@ -235,7 +235,7 @@
     <string name="battery_temp">バッテリー温度</string>
     <!-- Private DNS Providers -->
     <!-- Show clipboard overlay -->
-    <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
+    <string name="show_clipboard_overlay_title">クリップボードオーバーレイを表示</string>
     <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">既存の顔スキャンを削除して新しいスキャンを作成する</string>
@@ -249,15 +249,15 @@
     <string name="notification_sound_battery_charge_title">Enable battery charge level warning</string>
     <string name="notification_battery_charge_level_title">Battery charge warning</string>
     <string name="notification_battery_charge_level_summary">Play a sound when the battery as reach a level when charging</string>
-    <string name="notification_battery_charge_level_seek_bar">Battery level</string>
-    <string name="notification_battery_charge_level_ringtone">Ringtone</string>
-    <string name="notification_battery_charge_level_silent">Silent</string>
+    <string name="notification_battery_charge_level_seek_bar">バッテリーレベル</string>
+    <string name="notification_battery_charge_level_ringtone">着信音</string>
+    <string name="notification_battery_charge_level_silent">サイレント</string>
     <!-- Gesture navbar radius -->
     <string name="gesture_navbar_radius_title">Pill radius</string>
     <string name="thin_label">Thin</string>
     <string name="thick_label">Thick</string>
     <!-- Vibration patterns -->
-    <string name="vibration_pattern_title">Ringtone vibration pattern</string>
+    <string name="vibration_pattern_title">着信バイブレーションのパターン</string>
     <string name="notification_vibration_pattern_title">Notification vibration pattern</string>
     <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
     <string name="pattern_dzzz_da">dzzz-da</string>
