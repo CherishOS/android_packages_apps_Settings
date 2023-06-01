@@ -236,7 +236,7 @@
     <!-- Private DNS Providers -->
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">クリップボードオーバーレイを表示</string>
-    <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
+    <string name="show_clipboard_overlay_summary">クリップボードのコピー時に画面左下にオーバーレイを表示します</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">既存の顔スキャンを削除して新しいスキャンを作成する</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">顔スキャンを再実行</string>
@@ -244,29 +244,29 @@
     <string name="face_redo_warning_msg">既存の顔スキャンを削除して新しいスキャンを作成しますか?</string>
     <string name="face_unlock_method_title">ロック画面での顔認証ロック解除を許可</string>
     <string name="face_unlock_method_default">画面が点灯した時</string>
-    <string name="face_unlock_method_swipe">ロック画面をスワイプした時</string>
+    <string name="face_unlock_method_swipe">ロック画面のスワイプ時</string>
     <!-- Battery charge warning -->
-    <string name="notification_sound_battery_charge_title">Enable battery charge level warning</string>
-    <string name="notification_battery_charge_level_title">Battery charge warning</string>
-    <string name="notification_battery_charge_level_summary">Play a sound when the battery as reach a level when charging</string>
+    <string name="notification_sound_battery_charge_title">バッテリー充電レベルの警告を有効化</string>
+    <string name="notification_battery_charge_level_title">バッテリー充電の警告</string>
+    <string name="notification_battery_charge_level_summary">バッテリーの充電が一定量に達した時に音を鳴らします</string>
     <string name="notification_battery_charge_level_seek_bar">バッテリーレベル</string>
     <string name="notification_battery_charge_level_ringtone">着信音</string>
     <string name="notification_battery_charge_level_silent">サイレント</string>
     <!-- Gesture navbar radius -->
-    <string name="gesture_navbar_radius_title">Pill radius</string>
+    <string name="gesture_navbar_radius_title">ピルの半径</string>
     <string name="thin_label">Thin</string>
     <string name="thick_label">Thick</string>
     <!-- Vibration patterns -->
-    <string name="vibration_pattern_title">着信バイブレーションのパターン</string>
-    <string name="notification_vibration_pattern_title">Notification vibration pattern</string>
+    <string name="vibration_pattern_title">着信時バイブレーションのパターン</string>
+    <string name="notification_vibration_pattern_title">通知時バイブレーションのパターン</string>
     <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
     <string name="pattern_dzzz_da">dzzz-da</string>
     <string name="pattern_mm_mm_mm">mm-mm-mm</string>
     <string name="pattern_da_da_dzzz">da-da-dzzz</string>
     <string name="pattern_da_dzzz_da">da-dzzz-da</string>
-    <string name="pattern_custom">Custom</string>
-    <string name="custom_vibration_pattern_title">Custom pattern</string>
-    <string name="custom_vibration_pattern_summary">Set a custom vibration pattern</string>
+    <string name="pattern_custom">カスタム</string>
+    <string name="custom_vibration_pattern_title">カスタムパターン</string>
+    <string name="custom_vibration_pattern_summary">カスタムバイブレーションパターンを設定</string>
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">着信音量の増幅</string>
     <string name="increasing_ring_min_volume_title">開始音量</string>
@@ -275,71 +275,73 @@
     <string name="game_space_title">ゲームスペース</string>
     <string name="game_space_summary">ゲーム体験を向上させる</string>
     <!-- Pulse on music track change -->
-    <string name="pulse_on_new_tracks_title">Ambient music ticker</string>
-    <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played</string>
+    <string name="pulse_on_new_tracks_title">アンビエント表示音楽ティッカー</string>
+    <string name="pulse_on_new_tracks_summary">次のトラックの再生時にアンビエント表示をします</string>
     <!-- VPN app management screen, global VPN -->
-    <string name="global_vpn_title">Global VPN</string>
-    <string name="global_vpn_summary">Force all traffic on the device through this VPN, including work profile and other users.</string>
-    <string name="global_vpn_summary_on">Force all traffic on the device through this VPN, including work profile and other users. Note: When enabled, you will not be able to use a separate VPN in a work profile or other users</string>
-    <string name="global_vpn_summary_any_vpn_active">You need to disable all active VPN connections first to enable this</string>
+    <string name="global_vpn_title">グローバル VPN</string>
+    <string name="global_vpn_summary">仕事用プロファイルやその他のユーザーを含め、この VPN を経由した通信を強制的に許可します。</string>
+    <string name="global_vpn_summary_on">仕事用プロファイルやその他のユーザーを含め、この VPN を経由した通信をこのデバイスで強制的に許可します。注意: 有効する事で仕事用プロファイルや他のユーザーで異なる VPN の通信を使用する事ができなくなります</string>
+    <string name="global_vpn_summary_any_vpn_active">この機能を有効化するには、最初にすべての有効な VPN 接続を無効化する必要があります</string>
     <!-- Navigation bar IME space -->
-    <string name="navigation_bar_ime_space_title">IME space</string>
-    <string name="navigation_bar_ime_space_summary">Space under keyboard options</string>
-    <string name="ime_narrow">Narrow</string>
-    <string name="ime_default">Default</string>
-    <string name="ime_hidden">Hidden</string>
+    <string name="navigation_bar_ime_space_title">IME スペース</string>
+    <string name="navigation_bar_ime_space_summary">キーボードオプションの下の空白</string>
+    <string name="ime_narrow">狭くする</string>
+    <string name="ime_default">デフォルト</string>
+    <string name="ime_hidden">非表示</string>
     <!-- Force LTE_CA -->
-    <string name="force_lte_ca">Force LTE CA</string>
-    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <string name="force_lte_ca">LTE CA を強制</string>
+    <string name="force_lte_ca_summary">LTE キャリアアグリゲーションを強制的に動作させます</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <string name="volume_link_notification_title">着信と通知の音量をリンク</string>
     <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
-    <string name="ring_volume_unlinked_option_title">Ring volume</string>
+    <string name="ring_volume_unlinked_option_title">着信音の音量</string>
     <!-- App lock -->
-    <string name="app_lock_title">App lock</string>
+    <string name="app_lock_title">アプリロック</string>
     <plurals name="app_lock_summary">
-        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+        <item quantity="other"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> 個のアプリが保護されています
+
+<xliff:g example="10" id="Number of applications">%1$d</xliff:g> 個のアプリが保護されています</item>
     </plurals>
-    <string name="app_lock_authentication_dialog_title">Unlock</string>
-    <string name="enable_debugging">Enable debugging</string>
-    <string name="disable_debugging">Disable debugging</string>
-    <string name="app_lock_packages_title">Protected apps</string>
-    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
-    <string name="app_lock_timeout_title">Auto lock timeout</string>
-    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
-    <string name="app_lock_notifications_title">Redact notifications</string>
-    <string name="app_lock_notifications_summary">Notification content will be hidden and collapsed for selected apps when they are locked. Heads up notifications will be automatically disabled.</string>
-    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
-    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
-    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
-    <string name="enable_protection">Enable protection</string>
-    <string name="hide_from_launcher_title">Hide from launcher</string>
-    <string name="hide_from_launcher_summary">Prevent this application from showing up in any launcher. Requires a launcher restart for changes to take effect.</string>
+    <string name="app_lock_authentication_dialog_title">ロック解除</string>
+    <string name="enable_debugging">デバッグを有効化</string>
+    <string name="disable_debugging">デバッグを無効化</string>
+    <string name="app_lock_packages_title">保護をされているアプリ</string>
+    <string name="app_lock_packages_summary">生体認証またはデバイス認証でロックをするアプリを選択します</string>
+    <string name="app_lock_timeout_title">自動ロックまでの時間</string>
+    <string name="app_lock_timeout_summary">バックグラウンドになっている状態のアプリを再度保護するまでの時間を設定します</string>
+    <string name="app_lock_notifications_title">通知の再構成</string>
+    <string name="app_lock_notifications_summary">選択をしたアプリを保護にすると通知内容が非表示になり、通知が折りたたまれます。ヘッドアップ通知は自動的に無効化されます。</string>
+    <string name="app_lock_notifications_disabled_summary">始めに保護をするアプリを選択します</string>
+    <string name="app_lock_biometrics_allowed_title">生体認証でのロック解除を有効化</string>
+    <string name="app_lock_footer_text">バブルをタイムアウト後に自動で閉じる</string>
+    <string name="enable_protection">保護を有効化</string>
+    <string name="hide_from_launcher_title">ランチャーから隠す</string>
+    <string name="hide_from_launcher_summary">ランチャー上にこのアプリを表示しないようにします。設定を適用する場合はランチャーアプリの再起動が必要です。</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the front of your phone.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear">Locate the fingerprint sensor on the back of your phone.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side">Locate the fingerprint sensor on the side of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">デバイスの前面にある指紋認証センサーの位置を確認します。</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">デバイスの背面にある指紋認証センサーの位置を確認します。</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">デバイスの側面にある指紋認証センサーの位置を確認します。</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
-    <string name="fingerprint_enroll_touch_dialog_message_front">Touch the sensor on the front of your phone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear">Touch the sensor on the back of your phone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side">Touch the sensor on the side of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">デバイスの前面にあるセンサーをタッチします。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">デバイスの背面にあるセンサーをタッチします。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">デバイスの側面にあるセンサーをタッチします。</string>
     <!-- Transistent task mode (Tadi mode) -->
-    <string name="transistent_task_mode_title">Transistent task mode</string>
-    <string name="transistent_task_mode_dialog_title">Transistent task mode (Reboot your device to apply changes)</string>
-    <string name="transistent_task_mode_summary">Dismiss apps from recents when last activity gets closed using back button.</string>
-    <string name="transistent_task_mode_default">Disable (Default)</string>
-    <string name="transistent_task_mode_allow">Enable (Some apps will stay)</string>
-    <string name="transistent_task_mode_force">Force (Override app behaviour)</string>
+    <string name="transistent_task_mode_title">一時タスクモード</string>
+    <string name="transistent_task_mode_dialog_title">一時タスクモード (設定の適用には再起動が必要です)</string>
+    <string name="transistent_task_mode_summary">最後のアクティビティを戻るボタンでアプリを閉じます。</string>
+    <string name="transistent_task_mode_default">無効 (デフォルト)</string>
+    <string name="transistent_task_mode_allow">有効化 (一部のアプリを残す)</string>
+    <string name="transistent_task_mode_force">強制 (アプリの動作を上書きする)</string>
     <!-- Prevent pointer accleration -->
-    <string name="prevent_pointer_acceleration_title">Pointer acceleration</string>
-    <string name="prevent_pointer_acceleration_full">Full (Pointer + Wheel)</string>
-    <string name="prevent_pointer_acceleration_wheel">Wheel only</string>
-    <string name="prevent_pointer_acceleration_pointer">Pointer only</string>
-    <string name="prevent_pointer_acceleration_none">None</string>
+    <string name="prevent_pointer_acceleration_title">ポインタの加速</string>
+    <string name="prevent_pointer_acceleration_full">完全 (ポインタ + ホイール)</string>
+    <string name="prevent_pointer_acceleration_wheel">ホイールのみ</string>
+    <string name="prevent_pointer_acceleration_pointer">ポインタのみ</string>
+    <string name="prevent_pointer_acceleration_none">なし</string>
     <!-- Doze enablement -->
-    <string name="doze_enabled_title">Ambient display</string>
-    <string name="doze_enabled_summary">Whether to enable the doze package functionality</string>
+    <string name="doze_enabled_title">アンビエント表示</string>
+    <string name="doze_enabled_summary">Doze パッケージ機能を有効化にするか選択ができます</string>
     <!-- Ambient wake toggles -->
-    <string name="doze_gesture_ambient_title">Show Ambient</string>
-    <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
+    <string name="doze_gesture_ambient_title">アンビエント表示を表示する</string>
+    <string name="doze_gesture_ambient_summary">画面を点灯する代わりにアンビエント表示で表示をします</string>
 </resources>
