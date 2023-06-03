@@ -107,6 +107,7 @@ android_library {
         "android.hardware.dumpstate-V1.1-java",
         "android.hardware.dumpstate-V1-java",
         "glide",
+        "colorpickerview",
         "lottie",
         "WifiTrackerLib",
         "SettingsLibActivityEmbedding",
@@ -183,4 +184,9 @@ filegroup {
 android_library_import {
     name: "glide",
     aars: ["libs/glide-4.15.1.aar"],
+}
+
+android_library_import {
+    name: "colorpickerview",
+    aars: ["libs/colorpickerview-release.aar"],
 }
