@@ -71,12 +71,10 @@
     <string name="adaptive_playback_timeout_10_min">10 minute</string>
     <string name="adaptive_playback_timeout_10_min_summary">Pornit (10 minute)</string>
     <!-- Volume button music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">Control redare</string>
+    <string name="volume_button_music_control_summary">Când ecranul este închis, apăsarea lungă a butoanelor de volum derulează melodia</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Apăsare dublă</string>
-    <string name="doze_double_tap_title">Atingeți de două ori pentru a verifica telefonul</string>
-    <string name="doze_double_tap_summary">Pulsează notificările la apăsare dublă</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Amestecare aspect</string>
     <string name="unlock_scramble_pin_layout_summary">Amestecă aspectul ecranului de PIN atunci când se deblochează dispozitivul</string>
@@ -154,7 +152,7 @@
     <string name="live_display_color_profile_photography_summary">Reproducere perfectă a culorii pentru fotografii</string>
     <string name="live_display_color_profile_basic_title">De bază</string>
     <string name="live_display_color_profile_basic_summary">Utilizați ecranul necalibrat</string>
-    <string name="live_display_color_profile_adaptive_title">Adaptive</string>
+    <string name="live_display_color_profile_adaptive_title">Adaptiv</string>
     <string name="live_display_color_profile_adaptive_summary">Culorile se adaptează la condițiile ambientale</string>
     <string name="live_display_color_profile_reading_title">Citire</string>
     <string name="live_display_color_profile_reading_summary">Culori mai calde pentru reducerea oboselii ochilor</string>
@@ -237,38 +235,38 @@
     <string name="battery_temp">Temperatura bateriei</string>
     <!-- Private DNS Providers -->
     <!-- Show clipboard overlay -->
-    <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
-    <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
+    <string name="show_clipboard_overlay_title">Afișare suprapunere clipboard</string>
+    <string name="show_clipboard_overlay_summary">Arată o suprapunere în colțul din stânga jos al ecranului atunci când ceva este copiat în clipboard</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
-    <string name="face_redo_confirm_btn">Redo</string>
-    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
-    <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
-    <string name="face_unlock_method_default">When the screen is turned on</string>
-    <string name="face_unlock_method_swipe">When swiping on lock screen</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Șterge scanarea feței existente și creează o nouă scanare</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Refă scanarea feței</string>
+    <string name="face_redo_confirm_btn">Refă</string>
+    <string name="face_redo_warning_msg">Vrei să elimini scanarea feței existente și să creezi una nouă?</string>
+    <string name="face_unlock_method_title">Permite deblocarea facială pe ecranul de blocare</string>
+    <string name="face_unlock_method_default">La pornirea ecranului</string>
+    <string name="face_unlock_method_swipe">La glisarea ecranului de blocare</string>
     <!-- Battery charge warning -->
-    <string name="notification_sound_battery_charge_title">Enable battery charge level warning</string>
-    <string name="notification_battery_charge_level_title">Battery charge warning</string>
-    <string name="notification_battery_charge_level_summary">Play a sound when the battery as reach a level when charging</string>
-    <string name="notification_battery_charge_level_seek_bar">Battery level</string>
-    <string name="notification_battery_charge_level_ringtone">Ringtone</string>
-    <string name="notification_battery_charge_level_silent">Silent</string>
+    <string name="notification_sound_battery_charge_title">Activează avertismentul privind nivelul de încărcare a bateriei</string>
+    <string name="notification_battery_charge_level_title">Avertizare încărcare baterie</string>
+    <string name="notification_battery_charge_level_summary">Redă un sunet atunci când bateria atinge un nivel la încărcare</string>
+    <string name="notification_battery_charge_level_seek_bar">Nivelul bateriei</string>
+    <string name="notification_battery_charge_level_ringtone">Ton de sonerie</string>
+    <string name="notification_battery_charge_level_silent">Silențios</string>
     <!-- Gesture navbar radius -->
-    <string name="gesture_navbar_radius_title">Pill radius</string>
-    <string name="thin_label">Thin</string>
-    <string name="thick_label">Thick</string>
+    <string name="gesture_navbar_radius_title">Grosimea pilulei</string>
+    <string name="thin_label">Subțire</string>
+    <string name="thick_label">Groasă</string>
     <!-- Vibration patterns -->
-    <string name="vibration_pattern_title">Ringtone vibration pattern</string>
-    <string name="notification_vibration_pattern_title">Notification vibration pattern</string>
+    <string name="vibration_pattern_title">Model vibrație ton de sonerie</string>
+    <string name="notification_vibration_pattern_title">Model vibrație notificare</string>
     <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
     <string name="pattern_dzzz_da">dzzz-da</string>
     <string name="pattern_mm_mm_mm">mm-mm-mm</string>
     <string name="pattern_da_da_dzzz">da-da-dzzz</string>
     <string name="pattern_da_dzzz_da">da-dzzz-da</string>
-    <string name="pattern_custom">Custom</string>
-    <string name="custom_vibration_pattern_title">Custom pattern</string>
-    <string name="custom_vibration_pattern_summary">Set a custom vibration pattern</string>
+    <string name="pattern_custom">Particularizat</string>
+    <string name="custom_vibration_pattern_title">Model personalizat</string>
+    <string name="custom_vibration_pattern_summary">Setează un model personalizat de vibrații</string>
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Volum ascendent</string>
     <string name="increasing_ring_min_volume_title">Volum inițial</string>
@@ -277,67 +275,76 @@
     <string name="game_space_title">Spațiu de jocuri</string>
     <string name="game_space_summary">Îmbunătățiți-vă experiența de joc</string>
     <!-- Pulse on music track change -->
-    <string name="pulse_on_new_tracks_title">Ambient music ticker</string>
-    <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played</string>
+    <string name="pulse_on_new_tracks_title">Afișare muzică pe ecranul ambiental</string>
+    <string name="pulse_on_new_tracks_summary">Afișare ecran ambiental când este redată o piesă nouă</string>
     <!-- VPN app management screen, global VPN -->
-    <string name="global_vpn_title">Global VPN</string>
-    <string name="global_vpn_summary">Force all traffic on the device through this VPN, including work profile and other users.</string>
-    <string name="global_vpn_summary_on">Force all traffic on the device through this VPN, including work profile and other users. Note: When enabled, you will not be able to use a separate VPN in a work profile or other users</string>
-    <string name="global_vpn_summary_any_vpn_active">You need to disable all active VPN connections first to enable this</string>
+    <string name="global_vpn_title">VPN global</string>
+    <string name="global_vpn_summary">Forțează tot traficul de pe dispozitiv prin acest VPN, inclusiv profilul de serviciu și alți utilizatori.</string>
+    <string name="global_vpn_summary_on">Forțează tot traficul de pe dispozitiv prin acest VPN, inclusiv profilul de serviciu și alți utilizatori. Notă: Când este activat, nu vei putea folosi un VPN separat într-un profil de serviciu sau alți utilizatori</string>
+    <string name="global_vpn_summary_any_vpn_active">Trebuie să dezactivezi toate conexiunile VPN active mai întâi pentru a activa</string>
     <!-- Navigation bar IME space -->
-    <string name="navigation_bar_ime_space_title">IME space</string>
-    <string name="navigation_bar_ime_space_summary">Space under keyboard options</string>
-    <string name="ime_narrow">Narrow</string>
-    <string name="ime_default">Default</string>
-    <string name="ime_hidden">Hidden</string>
+    <string name="navigation_bar_ime_space_title">Spațiu buton tastatură</string>
+    <string name="navigation_bar_ime_space_summary">Spațiul sub tastatură</string>
+    <string name="ime_narrow">Îngust</string>
+    <string name="ime_default">Implicit</string>
+    <string name="ime_hidden">Ascuns</string>
     <!-- Force LTE_CA -->
-    <string name="force_lte_ca">Force LTE CA</string>
-    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <string name="force_lte_ca">Forțează LTE CA</string>
+    <string name="force_lte_ca_summary">Forțează agregarea LTE</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <string name="volume_link_notification_title">Leagă volumele de apel și notificare</string>
     <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
-    <string name="ring_volume_unlinked_option_title">Ring volume</string>
+    <string name="ring_volume_unlinked_option_title">Volum sonerie</string>
     <!-- App lock -->
-    <string name="app_lock_title">App lock</string>
+    <string name="app_lock_title">Blocare aplicații</string>
     <plurals name="app_lock_summary">
-        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> application is protected</item>
-        <item quantity="few"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
-        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> aplicație este protejată</item>
+        <item quantity="few"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> aplicații sunt protejate</item>
+        <item quantity="other"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> aplicații sunt protejate</item>
     </plurals>
-    <string name="app_lock_authentication_dialog_title">Unlock</string>
-    <string name="enable_debugging">Enable debugging</string>
-    <string name="disable_debugging">Disable debugging</string>
-    <string name="app_lock_packages_title">Protected apps</string>
-    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
-    <string name="app_lock_timeout_title">Auto lock timeout</string>
-    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
-    <string name="app_lock_notifications_title">Redact notifications</string>
-    <string name="app_lock_notifications_summary">Notification content will be hidden and collapsed for selected apps when they are locked. Heads up notifications will be automatically disabled.</string>
-    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
-    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
-    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
-    <string name="enable_protection">Enable protection</string>
-    <string name="hide_from_launcher_title">Hide from launcher</string>
-    <string name="hide_from_launcher_summary">Prevent this application from showing up in any launcher. Requires a launcher restart for changes to take effect.</string>
+    <string name="app_lock_authentication_dialog_title">Deblocare</string>
+    <string name="enable_debugging">Activare depanare</string>
+    <string name="disable_debugging">Dezactivare depanare</string>
+    <string name="app_lock_packages_title">Aplicații protejate</string>
+    <string name="app_lock_packages_summary">Selectează aplicațiile pentru a le proteja cu datele biometrice sau datele de autentificare ale dispozitivului</string>
+    <string name="app_lock_timeout_title">Timp de expirare pentru blocare automată</string>
+    <string name="app_lock_timeout_summary">Durata de timp după care o aplicație deblocată în fundal ar trebui să fie blocată</string>
+    <string name="app_lock_notifications_title">Notificări</string>
+    <string name="app_lock_notifications_summary">Conținutul notificărilor va fi ascuns și restrâns pentru aplicațiile selectate atunci când acestea sunt blocate. Notificările plutitoare vor fi dezactivate automat.</string>
+    <string name="app_lock_notifications_disabled_summary">Protejează mai întâi o aplicație</string>
+    <string name="app_lock_biometrics_allowed_title">Activează datele biometrice pentru deblocare</string>
+    <string name="app_lock_footer_text">Bulele vor fi eliminate automat după expirarea timpului</string>
+    <string name="enable_protection">Activează protecția</string>
+    <string name="hide_from_launcher_title">Ascunde din lansator</string>
+    <string name="hide_from_launcher_summary">Previne afișarea acestei aplicații în orice lansator. Necesită o repornire a lansatorului pentru ca modificările să aibă efect.</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the front of your phone.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear">Locate the fingerprint sensor on the back of your phone.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side">Locate the fingerprint sensor on the side of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Găsește senzorul de amprentă pe partea din față a telefonului.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">Găsește senzorul de amprentă pe partea din spate a telefonului.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Găsește senzorul de amprentă pe partea laterală a telefonului.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
-    <string name="fingerprint_enroll_touch_dialog_message_front">Touch the sensor on the front of your phone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear">Touch the sensor on the back of your phone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side">Touch the sensor on the side of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">Atinge senzorul de pe partea frontală a telefonului.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Atinge senzorul din partea din spate a telefonului.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Atinge senzorul de pe partea laterală a telefonului.</string>
     <!-- Transistent task mode (Tadi mode) -->
-    <string name="transistent_task_mode_title">Transistent task mode</string>
-    <string name="transistent_task_mode_dialog_title">Transistent task mode (Reboot your device to apply changes)</string>
-    <string name="transistent_task_mode_summary">Dismiss apps from recents when last activity gets closed using back button.</string>
-    <string name="transistent_task_mode_default">Disable (Default)</string>
-    <string name="transistent_task_mode_allow">Enable (Some apps will stay)</string>
-    <string name="transistent_task_mode_force">Force (Override app behaviour)</string>
+    <string name="transistent_task_mode_title">Mod de activitate tranzitoriu</string>
+    <string name="transistent_task_mode_dialog_title">Mod de activitate temporar (Repornește dispozitivul pentru a aplica modificările)</string>
+    <string name="transistent_task_mode_summary">Elimină aplicațiile recente atunci când ultima activitate este închisă folosind butonul înapoi.</string>
+    <string name="transistent_task_mode_default">Dezactivat (Implicit)</string>
+    <string name="transistent_task_mode_allow">Activat (Unele aplicații vor rămâne)</string>
+    <string name="transistent_task_mode_force">Forțat (Suprascrie comportamentul aplicației)</string>
     <!-- Prevent pointer accleration -->
-    <string name="prevent_pointer_acceleration_title">Pointer acceleration</string>
-    <string name="prevent_pointer_acceleration_full">Full (Pointer + Wheel)</string>
-    <string name="prevent_pointer_acceleration_wheel">Wheel only</string>
-    <string name="prevent_pointer_acceleration_pointer">Pointer only</string>
-    <string name="prevent_pointer_acceleration_none">None</string>
+    <string name="prevent_pointer_acceleration_title">Accelerația indicatorului</string>
+    <string name="prevent_pointer_acceleration_full">Completă (Indicator + Roată)</string>
+    <string name="prevent_pointer_acceleration_wheel">Numai roată</string>
+    <string name="prevent_pointer_acceleration_pointer">Numai indicator</string>
+    <string name="prevent_pointer_acceleration_none">Nimic</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Ambient display</string>
+    <string name="doze_enabled_summary">Whether to enable the doze package functionality</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Show Ambient</string>
+    <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
+    <!-- Spoof storage encryption status -->
+    <string name="spoof_storage_encryption_status_title">Use storage encryption spoofing</string>
+    <string name="spoof_storage_encryption_status_summary">Spoof storage encryption status to encrypted.</string>
 </resources>
