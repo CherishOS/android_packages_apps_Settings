@@ -344,4 +344,7 @@
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">アンビエント表示を表示する</string>
     <string name="doze_gesture_ambient_summary">画面を点灯する代わりにアンビエント表示で表示をします</string>
+    <!-- Spoof storage encryption status -->
+    <string name="spoof_storage_encryption_status_title">Use storage encryption spoofing</string>
+    <string name="spoof_storage_encryption_status_summary">Spoof storage encryption status to encrypted.</string>
 </resources>
