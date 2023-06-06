@@ -75,8 +75,6 @@
     <string name="volume_button_music_control_summary">Ekran kapalıyken ses tuşlarına uzun basarak şarkıyı değiştir</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Çift dokunma</string>
-    <string name="doze_double_tap_title">Telefonu kontrol etmek için çift dokun</string>
-    <string name="doze_double_tap_summary">Çift dokunuşla bildirimler</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Düzeni karıştır</string>
     <string name="unlock_scramble_pin_layout_summary">Cihaz kilidini açarken PIN düzenini karıştırır</string>
@@ -339,4 +337,13 @@
     <string name="prevent_pointer_acceleration_wheel">Sadece tekerlek</string>
     <string name="prevent_pointer_acceleration_pointer">Sadece işaretçi</string>
     <string name="prevent_pointer_acceleration_none">Hiçbiri</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Ambient display</string>
+    <string name="doze_enabled_summary">Whether to enable the doze package functionality</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Show Ambient</string>
+    <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
+    <!-- Spoof storage encryption status -->
+    <string name="spoof_storage_encryption_status_title">Use storage encryption spoofing</string>
+    <string name="spoof_storage_encryption_status_summary">Spoof storage encryption status to encrypted.</string>
 </resources>
