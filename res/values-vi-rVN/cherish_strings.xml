@@ -338,12 +338,12 @@
     <string name="prevent_pointer_acceleration_pointer">Chỉ con trỏ</string>
     <string name="prevent_pointer_acceleration_none">Trống</string>
     <!-- Doze enablement -->
-    <string name="doze_enabled_title">Ambient display</string>
-    <string name="doze_enabled_summary">Whether to enable the doze package functionality</string>
+    <string name="doze_enabled_title">Hiển thị tương tác</string>
+    <string name="doze_enabled_summary">Cho phép bật màn hình xem nhanh</string>
     <!-- Ambient wake toggles -->
-    <string name="doze_gesture_ambient_title">Show Ambient</string>
-    <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
+    <string name="doze_gesture_ambient_title">Hiển thị màn hình xem nhanh</string>
+    <string name="doze_gesture_ambient_summary">Hiển thị màn hình xem nhanh thay vì đánh thức hoàn toàn màn hình</string>
     <!-- Spoof storage encryption status -->
-    <string name="spoof_storage_encryption_status_title">Use storage encryption spoofing</string>
-    <string name="spoof_storage_encryption_status_summary">Spoof storage encryption status to encrypted.</string>
+    <string name="spoof_storage_encryption_status_title">Sử dụng giả mạo mã hóa lưu trữ</string>
+    <string name="spoof_storage_encryption_status_summary">Giả mạo trạng thái mã hóa lưu trữ thành mã hóa.</string>
 </resources>
