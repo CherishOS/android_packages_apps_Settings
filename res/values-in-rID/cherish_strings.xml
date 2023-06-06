@@ -75,8 +75,6 @@
     <string name="volume_button_music_control_summary">Saat layar mati, menekan lama tombol volume akan melewatkan trek musik</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Ketuk dua kali</string>
-    <string name="doze_double_tap_title">Ketuk dua kali untuk memeriksa telepon</string>
-    <string name="doze_double_tap_summary">Tampilkan notifikasi dengan ketukan ganda</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Tata letak acak</string>
     <string name="unlock_scramble_pin_layout_summary">Acak tata letak PIN saat membuka perangkat</string>
@@ -339,4 +337,13 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="prevent_pointer_acceleration_wheel">Hanya roda</string>
     <string name="prevent_pointer_acceleration_pointer">Hanya penunjuk</string>
     <string name="prevent_pointer_acceleration_none">Tidak ada</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Ambient display</string>
+    <string name="doze_enabled_summary">Whether to enable the doze package functionality</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Show Ambient</string>
+    <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
+    <!-- Spoof storage encryption status -->
+    <string name="spoof_storage_encryption_status_title">Use storage encryption spoofing</string>
+    <string name="spoof_storage_encryption_status_summary">Spoof storage encryption status to encrypted.</string>
 </resources>
