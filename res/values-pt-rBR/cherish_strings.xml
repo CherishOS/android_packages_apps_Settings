@@ -344,6 +344,6 @@
     <string name="doze_gesture_ambient_title">Mostrar ambiente</string>
     <string name="doze_gesture_ambient_summary">Mostrar Tela Ambiente em vez de acordar completamente a tela</string>
     <!-- Spoof storage encryption status -->
-    <string name="spoof_storage_encryption_status_title">Use storage encryption spoofing</string>
-    <string name="spoof_storage_encryption_status_summary">Spoof storage encryption status to encrypted.</string>
+    <string name="spoof_storage_encryption_status_title">Mascarar informações de criptografia do armazenamento</string>
+    <string name="spoof_storage_encryption_status_summary">Falsificar status de criptografia de armazenamento para criptografado.</string>
 </resources>
