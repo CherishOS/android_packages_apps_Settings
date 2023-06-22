@@ -345,6 +345,6 @@
     <string name="doze_gesture_ambient_title">アンビエント表示を表示する</string>
     <string name="doze_gesture_ambient_summary">画面を点灯する代わりにアンビエント表示で表示をします</string>
     <!-- Spoof storage encryption status -->
-    <string name="spoof_storage_encryption_status_title">Use storage encryption spoofing</string>
-    <string name="spoof_storage_encryption_status_summary">Spoof storage encryption status to encrypted.</string>
+    <string name="spoof_storage_encryption_status_title">ストレージ暗号化の偽装を使用する</string>
+    <string name="spoof_storage_encryption_status_summary">ストレージ暗号化の状態を暗号化されている状態に偽装します</string>
 </resources>
