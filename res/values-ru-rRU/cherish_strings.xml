@@ -283,13 +283,13 @@
     <string name="global_vpn_summary_on">Принудительный трафик на устройстве через этот VPN, включая рабочий профиль и других пользователей. Примечание: Когда включено, вы не сможете использовать отдельный VPN в рабочем профиле или других пользователей</string>
     <string name="global_vpn_summary_any_vpn_active">Вам нужно сначала отключить все активные VPN соединения, чтобы включить это</string>
     <!-- Navigation bar IME space -->
-    <string name="navigation_bar_ime_space_title">IME space</string>
-    <string name="navigation_bar_ime_space_summary">Space under keyboard options</string>
-    <string name="ime_narrow">Narrow</string>
-    <string name="ime_default">Default</string>
-    <string name="ime_hidden">Hidden</string>
+    <string name="navigation_bar_ime_space_title">Отступ под клавиатурой</string>
+    <string name="navigation_bar_ime_space_summary">Пространство под настройками клавиатуры</string>
+    <string name="ime_narrow">Узкое</string>
+    <string name="ime_default">По умочанию</string>
+    <string name="ime_hidden">Скрытое</string>
     <!-- Force LTE_CA -->
-    <string name="force_lte_ca">Force LTE CA</string>
+    <string name="force_lte_ca">Принудительное LTE CA</string>
     <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
