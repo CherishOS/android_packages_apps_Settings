@@ -290,62 +290,62 @@
     <string name="ime_hidden">Скрытое</string>
     <!-- Force LTE_CA -->
     <string name="force_lte_ca">Принудительное LTE CA</string>
-    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <string name="force_lte_ca_summary">Принудительная агрегация частот LTE</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <string name="volume_link_notification_title">Объединение громкости звонка и уведомлений</string>
     <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
-    <string name="ring_volume_unlinked_option_title">Ring volume</string>
+    <string name="ring_volume_unlinked_option_title">Громкость звонка</string>
     <!-- App lock -->
-    <string name="app_lock_title">App lock</string>
+    <string name="app_lock_title">Блокировка приложений</string>
     <plurals name="app_lock_summary">
-        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> application is protected</item>
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> приложение защищено</item>
         <item quantity="few"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
         <item quantity="many"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
-        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> приложений защищено</item>
     </plurals>
-    <string name="app_lock_authentication_dialog_title">Unlock</string>
-    <string name="enable_debugging">Enable debugging</string>
-    <string name="disable_debugging">Disable debugging</string>
-    <string name="app_lock_packages_title">Protected apps</string>
-    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
-    <string name="app_lock_timeout_title">Auto lock timeout</string>
-    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
-    <string name="app_lock_notifications_title">Redact notifications</string>
-    <string name="app_lock_notifications_summary">Notification content will be hidden and collapsed for selected apps when they are locked. Heads up notifications will be automatically disabled.</string>
-    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
-    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
-    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
-    <string name="enable_protection">Enable protection</string>
-    <string name="hide_from_launcher_title">Hide from launcher</string>
-    <string name="hide_from_launcher_summary">Prevent this application from showing up in any launcher. Requires a launcher restart for changes to take effect.</string>
+    <string name="app_lock_authentication_dialog_title">Разблокировать</string>
+    <string name="enable_debugging">Включить отладку</string>
+    <string name="disable_debugging">Отключить отладку</string>
+    <string name="app_lock_packages_title">Защищенные приложения</string>
+    <string name="app_lock_packages_summary">Выберите приложения для защиты с помощью биометрии или учетных данных устройства</string>
+    <string name="app_lock_timeout_title">Тайм-аут автоблокировки</string>
+    <string name="app_lock_timeout_summary">Продолжительность времени, по истечении которого разблокированное приложение в фоновом режиме должно быть заблокировано</string>
+    <string name="app_lock_notifications_title">Блокировать уведомления</string>
+    <string name="app_lock_notifications_summary">Содержимое уведомлений будет скрыто и свернуто для выбранных приложений, когда они заблокированы. Всплывающие уведомления будут автоматически отключены.</string>
+    <string name="app_lock_notifications_disabled_summary">Сначала выберите приложение для защиты</string>
+    <string name="app_lock_biometrics_allowed_title">Включить биометрию для разблокировки</string>
+    <string name="app_lock_footer_text">Всплывающие уведомления будут автоматически удалены со временем</string>
+    <string name="enable_protection">Включить защиту</string>
+    <string name="hide_from_launcher_title">Скрыть из лаунчера</string>
+    <string name="hide_from_launcher_summary">Запретить отображение приложения в лаунчере. Требуется перезагрузка лаунчера, чтобы изменения вступили в силу.</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the front of your phone.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear">Locate the fingerprint sensor on the back of your phone.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side">Locate the fingerprint sensor on the side of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Найдите сканер отпечатков пальцев спереди вашего телефона.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">Найдите сканер отпечатков пальцев сзади вашего телефона.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Найдите сканер отпечатков пальцев сбоку вашего телефона.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
-    <string name="fingerprint_enroll_touch_dialog_message_front">Touch the sensor on the front of your phone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear">Touch the sensor on the back of your phone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side">Touch the sensor on the side of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">Коснитесь сенсора спереди вашего телефона.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Коснитесь сенсора сзади вашего телефона.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Коснитесь сенсора сбоку вашего телефона.</string>
     <!-- Transistent task mode (Tadi mode) -->
-    <string name="transistent_task_mode_title">Transistent task mode</string>
-    <string name="transistent_task_mode_dialog_title">Transistent task mode (Reboot your device to apply changes)</string>
-    <string name="transistent_task_mode_summary">Dismiss apps from recents when last activity gets closed using back button.</string>
-    <string name="transistent_task_mode_default">Disable (Default)</string>
-    <string name="transistent_task_mode_allow">Enable (Some apps will stay)</string>
-    <string name="transistent_task_mode_force">Force (Override app behaviour)</string>
+    <string name="transistent_task_mode_title">Режим временных задач</string>
+    <string name="transistent_task_mode_dialog_title">Режим временных задач (перезагрузите устройство, чтобы применить изменения)</string>
+    <string name="transistent_task_mode_summary">Убирать приложения из недавних, с помощью кнопки «Назад».</string>
+    <string name="transistent_task_mode_default">Отключить (по умолчанию)</string>
+    <string name="transistent_task_mode_allow">Включить (некоторые приложения останутся)</string>
+    <string name="transistent_task_mode_force">Принудительно (переопределить поведение приложения)</string>
     <!-- Prevent pointer accleration -->
-    <string name="prevent_pointer_acceleration_title">Pointer acceleration</string>
-    <string name="prevent_pointer_acceleration_full">Full (Pointer + Wheel)</string>
-    <string name="prevent_pointer_acceleration_wheel">Wheel only</string>
-    <string name="prevent_pointer_acceleration_pointer">Pointer only</string>
-    <string name="prevent_pointer_acceleration_none">None</string>
+    <string name="prevent_pointer_acceleration_title">Ускорение указателя</string>
+    <string name="prevent_pointer_acceleration_full">Полное (указатель + колесико)</string>
+    <string name="prevent_pointer_acceleration_wheel">Только колесико</string>
+    <string name="prevent_pointer_acceleration_pointer">Только указатель</string>
+    <string name="prevent_pointer_acceleration_none">Ничего</string>
     <!-- Doze enablement -->
-    <string name="doze_enabled_title">Ambient display</string>
-    <string name="doze_enabled_summary">Whether to enable the doze package functionality</string>
+    <string name="doze_enabled_title">Активный дисплей</string>
+    <string name="doze_enabled_summary">Включить функциональность пакета doze</string>
     <!-- Ambient wake toggles -->
-    <string name="doze_gesture_ambient_title">Show Ambient</string>
-    <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
+    <string name="doze_gesture_ambient_title">Показать События</string>
+    <string name="doze_gesture_ambient_summary">Показывать Активный дисплей вместо полного пробуждения экрана</string>
     <!-- Spoof storage encryption status -->
-    <string name="spoof_storage_encryption_status_title">Use storage encryption spoofing</string>
-    <string name="spoof_storage_encryption_status_summary">Spoof storage encryption status to encrypted.</string>
+    <string name="spoof_storage_encryption_status_title">Использовать подмену шифрования хранилища</string>
+    <string name="spoof_storage_encryption_status_summary">Подменить статус шифрования хранилища на зашифрованный.</string>
 </resources>
