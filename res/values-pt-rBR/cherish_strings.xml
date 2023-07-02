@@ -73,8 +73,6 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Controle de reprodução</string>
     <string name="volume_button_music_control_summary">Quando a tela estiver desligada, pressione e segure as teclas de volume para pular faixas de música</string>
-    <!-- Doze on double tap -->
-    <string name="double_tap_title">Toque duplo</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Embaralhar números</string>
     <string name="unlock_scramble_pin_layout_summary">Embaralhar PIN ao desbloquear o dispositivo</string>
@@ -274,14 +272,6 @@
     <!-- Game space -->
     <string name="game_space_title">Espaço de Jogo</string>
     <string name="game_space_summary">Melhore sua experiência em jogos</string>
-    <!-- Pulse on music track change -->
-    <string name="pulse_on_new_tracks_title">Ícone de música ambiente</string>
-    <string name="pulse_on_new_tracks_summary">Ligar a tela para mostrar a música em reprodução</string>
-    <!-- VPN app management screen, global VPN -->
-    <string name="global_vpn_title">VPN Global</string>
-    <string name="global_vpn_summary">Forçar todo o tráfego no dispositivo através desta VPN, incluindo perfil de trabalho e outros usuários.</string>
-    <string name="global_vpn_summary_on">Forçar todo o tráfego no dispositivo através desta VPN, incluindo perfil de trabalho e outros usuários. Nota: Quando ativado, você não poderá usar uma VPN separada em um perfil de trabalho ou outros usuários</string>
-    <string name="global_vpn_summary_any_vpn_active">Primeiro, você precisa desativar todas as conexões de VPN ativas para habilitar isso</string>
     <!-- Navigation bar IME space -->
     <string name="navigation_bar_ime_space_title">Espaço IME</string>
     <string name="navigation_bar_ime_space_summary">Espaço sob as opções do teclado</string>
@@ -291,10 +281,6 @@
     <!-- Force LTE_CA -->
     <string name="force_lte_ca">Forçar LTE CA</string>
     <string name="force_lte_ca_summary">Forçar agregação de transportadoras LTE a funcionar</string>
-    <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Associar volumes de toque &amp; e notificação</string>
-    <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
-    <string name="ring_volume_unlinked_option_title">Volume do toque</string>
     <!-- App lock -->
     <string name="app_lock_title">Bloqueio do aplicativo</string>
     <plurals name="app_lock_summary">
@@ -324,6 +310,18 @@
     <string name="fingerprint_enroll_touch_dialog_message_front">Toque no sensor na frente do seu telefone.</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear">Toque no sensor na parte de trás do seu telefone.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">Toque no sensor na lateral do seu telefone.</string>
+    <!-- Spoof storage encryption status -->
+    <string name="spoof_storage_encryption_status_title">Mascarar informações de criptografia do armazenamento</string>
+    <string name="spoof_storage_encryption_status_summary">Falsificar status de criptografia de armazenamento para criptografado.</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Ícone de música ambiente</string>
+    <string name="pulse_on_new_tracks_summary">Ligar a tela para mostrar a música em reprodução</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Tela Ambiente</string>
+    <string name="doze_enabled_summary">Ativar a funcionalidade de pacote Doze</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Mostrar ambiente</string>
+    <string name="doze_gesture_ambient_summary">Mostrar Tela Ambiente em vez de acordar completamente a tela</string>
     <!-- Transistent task mode (Tadi mode) -->
     <string name="transistent_task_mode_title">Modo de tarefa transitório</string>
     <string name="transistent_task_mode_dialog_title">Modo de tarefa transitória (reinicie seu dispositivo para aplicar as alterações)</string>
@@ -337,13 +335,9 @@
     <string name="prevent_pointer_acceleration_wheel">Apenas roda</string>
     <string name="prevent_pointer_acceleration_pointer">Apenas o ponteiro</string>
     <string name="prevent_pointer_acceleration_none">Nenhum</string>
-    <!-- Doze enablement -->
-    <string name="doze_enabled_title">Tela Ambiente</string>
-    <string name="doze_enabled_summary">Ativar a funcionalidade de pacote Doze</string>
-    <!-- Ambient wake toggles -->
-    <string name="doze_gesture_ambient_title">Mostrar ambiente</string>
-    <string name="doze_gesture_ambient_summary">Mostrar Tela Ambiente em vez de acordar completamente a tela</string>
-    <!-- Spoof storage encryption status -->
-    <string name="spoof_storage_encryption_status_title">Mascarar informações de criptografia do armazenamento</string>
-    <string name="spoof_storage_encryption_status_summary">Falsificar status de criptografia de armazenamento para criptografado.</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Associar volumes de toque &amp; e notificação</string>
+    <!-- Ringer mode mute speaker media -->
+    <string name="ringer_mute_speaker_media_title">Mute media volume on silent or vibrate</string>
+    <string name="ringer_mute_speaker_media_summary">Mute media volume when ringer mode is set to silent or vibrate. This affect speaker only</string>
 </resources>
