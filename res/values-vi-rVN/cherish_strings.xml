@@ -73,8 +73,6 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Điều khiển phát lại</string>
     <string name="volume_button_music_control_summary">Khi màn hình tắt, nhấn giữ nút âm lượng để chuyển bài</string>
-    <!-- Doze on double tap -->
-    <string name="double_tap_title">Chạm 2 lần</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Bố trí ngẫu nhiên</string>
     <string name="unlock_scramble_pin_layout_summary">Bố trí mã PIN ngẫu nhiên khi mở khóa thiết bị</string>
@@ -274,14 +272,6 @@
     <!-- Game space -->
     <string name="game_space_title">Không gian trò chơi</string>
     <string name="game_space_summary">Cải thiện trải nghiệm chơi game</string>
-    <!-- Pulse on music track change -->
-    <string name="pulse_on_new_tracks_title">Thẻ âm nhạc xem nhanh</string>
-    <string name="pulse_on_new_tracks_summary">Hiển thị màn hình luôn bật khi một bản nhạc mới được phát</string>
-    <!-- VPN app management screen, global VPN -->
-    <string name="global_vpn_title">Global VPN</string>
-    <string name="global_vpn_summary">Buộc tất cả lưu lượng truy cập trên thiết bị thông qua VPN này, bao gồm cả hồ sơ công việc và những người dùng khác.</string>
-    <string name="global_vpn_summary_on">Buộc tất cả lưu lượng truy cập trên thiết bị thông qua VPN này, bao gồm cả hồ sơ công việc và những người dùng khác. Lưu ý: Khi được bật, bạn sẽ không thể sử dụng VPN riêng trong hồ sơ công việc hoặc người dùng khác</string>
-    <string name="global_vpn_summary_any_vpn_active">Trước tiên, bạn cần tắt tất cả các kết nối VPN đang hoạt động để kích hoạt tính năng này</string>
     <!-- Navigation bar IME space -->
     <string name="navigation_bar_ime_space_title">Ẩn không gian bàn phím</string>
     <string name="navigation_bar_ime_space_summary">Ẩn không gian bên dưới bàn phím</string>
@@ -291,10 +281,6 @@
     <!-- Force LTE_CA -->
     <string name="force_lte_ca">Buộc LTE CA</string>
     <string name="force_lte_ca_summary">Buộc sóng mang LTE hoạt động</string>
-    <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Liên kết âm lượng nhạc chuông &amp; thông báo</string>
-    <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
-    <string name="ring_volume_unlinked_option_title">Âm lượng chuông</string>
     <!-- App lock -->
     <string name="app_lock_title">Khoá ứng dụng</string>
     <plurals name="app_lock_summary">
@@ -324,6 +310,18 @@
     <string name="fingerprint_enroll_touch_dialog_message_front">Chạm vào cảm biến ở mặt trước điện thoại của bạn.</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear">Chạm vào cảm biến ở mặt sau điện thoại của bạn.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">Chạm vào cảm biến ở mặt bên của điện thoại.</string>
+    <!-- Spoof storage encryption status -->
+    <string name="spoof_storage_encryption_status_title">Sử dụng giả mạo mã hóa lưu trữ</string>
+    <string name="spoof_storage_encryption_status_summary">Giả mạo trạng thái mã hóa lưu trữ thành mã hóa.</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Thẻ âm nhạc xem nhanh</string>
+    <string name="pulse_on_new_tracks_summary">Hiển thị màn hình luôn bật khi một bản nhạc mới được phát</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Hiển thị tương tác</string>
+    <string name="doze_enabled_summary">Cho phép bật màn hình xem nhanh</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Hiển thị màn hình xem nhanh</string>
+    <string name="doze_gesture_ambient_summary">Hiển thị màn hình xem nhanh thay vì đánh thức hoàn toàn màn hình</string>
     <!-- Transistent task mode (Tadi mode) -->
     <string name="transistent_task_mode_title">Chế độ nhiệm vụ chờ</string>
     <string name="transistent_task_mode_dialog_title">Chế độ tác vụ chờ (Khởi động lại thiết bị của bạn để áp dụng các thay đổi)</string>
@@ -337,13 +335,9 @@
     <string name="prevent_pointer_acceleration_wheel">Chỉ có bánh xe</string>
     <string name="prevent_pointer_acceleration_pointer">Chỉ con trỏ</string>
     <string name="prevent_pointer_acceleration_none">Trống</string>
-    <!-- Doze enablement -->
-    <string name="doze_enabled_title">Hiển thị tương tác</string>
-    <string name="doze_enabled_summary">Cho phép bật màn hình xem nhanh</string>
-    <!-- Ambient wake toggles -->
-    <string name="doze_gesture_ambient_title">Hiển thị màn hình xem nhanh</string>
-    <string name="doze_gesture_ambient_summary">Hiển thị màn hình xem nhanh thay vì đánh thức hoàn toàn màn hình</string>
-    <!-- Spoof storage encryption status -->
-    <string name="spoof_storage_encryption_status_title">Sử dụng giả mạo mã hóa lưu trữ</string>
-    <string name="spoof_storage_encryption_status_summary">Giả mạo trạng thái mã hóa lưu trữ thành mã hóa.</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Liên kết âm lượng nhạc chuông &amp; thông báo</string>
+    <!-- Ringer mode mute speaker media -->
+    <string name="ringer_mute_speaker_media_title">Mute media volume on silent or vibrate</string>
+    <string name="ringer_mute_speaker_media_summary">Mute media volume when ringer mode is set to silent or vibrate. This affect speaker only</string>
 </resources>

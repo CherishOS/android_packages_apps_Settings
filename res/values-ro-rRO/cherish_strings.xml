@@ -73,8 +73,6 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Control redare</string>
     <string name="volume_button_music_control_summary">Când ecranul este închis, apăsarea lungă a butoanelor de volum derulează melodia</string>
-    <!-- Doze on double tap -->
-    <string name="double_tap_title">Apăsare dublă</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Amestecare aspect</string>
     <string name="unlock_scramble_pin_layout_summary">Amestecă aspectul ecranului de PIN atunci când se deblochează dispozitivul</string>
@@ -274,14 +272,6 @@
     <!-- Game space -->
     <string name="game_space_title">Spațiu de jocuri</string>
     <string name="game_space_summary">Îmbunătățiți-vă experiența de joc</string>
-    <!-- Pulse on music track change -->
-    <string name="pulse_on_new_tracks_title">Afișare muzică pe ecranul ambiental</string>
-    <string name="pulse_on_new_tracks_summary">Afișare ecran ambiental când este redată o piesă nouă</string>
-    <!-- VPN app management screen, global VPN -->
-    <string name="global_vpn_title">VPN global</string>
-    <string name="global_vpn_summary">Forțează tot traficul de pe dispozitiv prin acest VPN, inclusiv profilul de serviciu și alți utilizatori.</string>
-    <string name="global_vpn_summary_on">Forțează tot traficul de pe dispozitiv prin acest VPN, inclusiv profilul de serviciu și alți utilizatori. Notă: Când este activat, nu vei putea folosi un VPN separat într-un profil de serviciu sau alți utilizatori</string>
-    <string name="global_vpn_summary_any_vpn_active">Trebuie să dezactivezi toate conexiunile VPN active mai întâi pentru a activa</string>
     <!-- Navigation bar IME space -->
     <string name="navigation_bar_ime_space_title">Spațiu buton tastatură</string>
     <string name="navigation_bar_ime_space_summary">Spațiul sub tastatură</string>
@@ -291,10 +281,6 @@
     <!-- Force LTE_CA -->
     <string name="force_lte_ca">Forțează LTE CA</string>
     <string name="force_lte_ca_summary">Forțează agregarea LTE</string>
-    <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Leagă volumele de apel și notificare</string>
-    <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
-    <string name="ring_volume_unlinked_option_title">Volum sonerie</string>
     <!-- App lock -->
     <string name="app_lock_title">Blocare aplicații</string>
     <plurals name="app_lock_summary">
@@ -325,6 +311,18 @@
     <string name="fingerprint_enroll_touch_dialog_message_front">Atinge senzorul de pe partea frontală a telefonului.</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear">Atinge senzorul din partea din spate a telefonului.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">Atinge senzorul de pe partea laterală a telefonului.</string>
+    <!-- Spoof storage encryption status -->
+    <string name="spoof_storage_encryption_status_title">Use storage encryption spoofing</string>
+    <string name="spoof_storage_encryption_status_summary">Spoof storage encryption status to encrypted.</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Afișare muzică pe ecranul ambiental</string>
+    <string name="pulse_on_new_tracks_summary">Afișare ecran ambiental când este redată o piesă nouă</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Ambient display</string>
+    <string name="doze_enabled_summary">Whether to enable the doze package functionality</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Show Ambient</string>
+    <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
     <!-- Transistent task mode (Tadi mode) -->
     <string name="transistent_task_mode_title">Mod de activitate tranzitoriu</string>
     <string name="transistent_task_mode_dialog_title">Mod de activitate temporar (Repornește dispozitivul pentru a aplica modificările)</string>
@@ -338,13 +336,9 @@
     <string name="prevent_pointer_acceleration_wheel">Numai roată</string>
     <string name="prevent_pointer_acceleration_pointer">Numai indicator</string>
     <string name="prevent_pointer_acceleration_none">Nimic</string>
-    <!-- Doze enablement -->
-    <string name="doze_enabled_title">Ambient display</string>
-    <string name="doze_enabled_summary">Whether to enable the doze package functionality</string>
-    <!-- Ambient wake toggles -->
-    <string name="doze_gesture_ambient_title">Show Ambient</string>
-    <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
-    <!-- Spoof storage encryption status -->
-    <string name="spoof_storage_encryption_status_title">Use storage encryption spoofing</string>
-    <string name="spoof_storage_encryption_status_summary">Spoof storage encryption status to encrypted.</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Leagă volumele de apel și notificare</string>
+    <!-- Ringer mode mute speaker media -->
+    <string name="ringer_mute_speaker_media_title">Mute media volume on silent or vibrate</string>
+    <string name="ringer_mute_speaker_media_summary">Mute media volume when ringer mode is set to silent or vibrate. This affect speaker only</string>
 </resources>

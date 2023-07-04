@@ -73,8 +73,6 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Управление воспроизведением</string>
     <string name="volume_button_music_control_summary">Когда экран выключен, длительное нажатие кнопок громкости приводит к пропуску музыкальных дорожек</string>
-    <!-- Doze on double tap -->
-    <string name="double_tap_title">Двойное нажатие</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Перемешать расположение кнопок</string>
     <string name="unlock_scramble_pin_layout_summary">Перемешать схему PIN-кода при разблокировке устройства</string>
@@ -274,14 +272,6 @@
     <!-- Game space -->
     <string name="game_space_title">Игровое пространство</string>
     <string name="game_space_summary">Улучшайте свои впечатления от игр</string>
-    <!-- Pulse on music track change -->
-    <string name="pulse_on_new_tracks_title">Активная бегущая строка музыки</string>
-    <string name="pulse_on_new_tracks_summary">Показывать «Активный экран» при воспроизведении нового трека</string>
-    <!-- VPN app management screen, global VPN -->
-    <string name="global_vpn_title">Глобальный VPN</string>
-    <string name="global_vpn_summary">Принудительный трафик на устройстве через этот VPN, включая рабочий профиль и других пользователей.</string>
-    <string name="global_vpn_summary_on">Принудительный трафик на устройстве через этот VPN, включая рабочий профиль и других пользователей. Примечание: Когда включено, вы не сможете использовать отдельный VPN в рабочем профиле или других пользователей</string>
-    <string name="global_vpn_summary_any_vpn_active">Вам нужно сначала отключить все активные VPN соединения, чтобы включить это</string>
     <!-- Navigation bar IME space -->
     <string name="navigation_bar_ime_space_title">Отступ под клавиатурой</string>
     <string name="navigation_bar_ime_space_summary">Пространство под настройками клавиатуры</string>
@@ -291,10 +281,6 @@
     <!-- Force LTE_CA -->
     <string name="force_lte_ca">Принудительное LTE CA</string>
     <string name="force_lte_ca_summary">Принудительная агрегация частот LTE</string>
-    <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Объединение громкости звонка и уведомлений</string>
-    <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
-    <string name="ring_volume_unlinked_option_title">Громкость звонка</string>
     <!-- App lock -->
     <string name="app_lock_title">Блокировка приложений</string>
     <plurals name="app_lock_summary">
@@ -326,6 +312,18 @@
     <string name="fingerprint_enroll_touch_dialog_message_front">Коснитесь сенсора спереди вашего телефона.</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear">Коснитесь сенсора сзади вашего телефона.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">Коснитесь сенсора сбоку вашего телефона.</string>
+    <!-- Spoof storage encryption status -->
+    <string name="spoof_storage_encryption_status_title">Использовать подмену шифрования хранилища</string>
+    <string name="spoof_storage_encryption_status_summary">Подменить статус шифрования хранилища на зашифрованный.</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Активная бегущая строка музыки</string>
+    <string name="pulse_on_new_tracks_summary">Показывать «Активный экран» при воспроизведении нового трека</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Активный дисплей</string>
+    <string name="doze_enabled_summary">Включить функциональность пакета doze</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Показать События</string>
+    <string name="doze_gesture_ambient_summary">Показывать Активный дисплей вместо полного пробуждения экрана</string>
     <!-- Transistent task mode (Tadi mode) -->
     <string name="transistent_task_mode_title">Режим временных задач</string>
     <string name="transistent_task_mode_dialog_title">Режим временных задач (перезагрузите устройство, чтобы применить изменения)</string>
@@ -339,13 +337,9 @@
     <string name="prevent_pointer_acceleration_wheel">Только колесико</string>
     <string name="prevent_pointer_acceleration_pointer">Только указатель</string>
     <string name="prevent_pointer_acceleration_none">Ничего</string>
-    <!-- Doze enablement -->
-    <string name="doze_enabled_title">Активный дисплей</string>
-    <string name="doze_enabled_summary">Включить функциональность пакета doze</string>
-    <!-- Ambient wake toggles -->
-    <string name="doze_gesture_ambient_title">Показать События</string>
-    <string name="doze_gesture_ambient_summary">Показывать Активный дисплей вместо полного пробуждения экрана</string>
-    <!-- Spoof storage encryption status -->
-    <string name="spoof_storage_encryption_status_title">Использовать подмену шифрования хранилища</string>
-    <string name="spoof_storage_encryption_status_summary">Подменить статус шифрования хранилища на зашифрованный.</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Объединение громкости звонка и уведомлений</string>
+    <!-- Ringer mode mute speaker media -->
+    <string name="ringer_mute_speaker_media_title">Отключить звук мультимедиа в беззвучном режиме или вибрации</string>
+    <string name="ringer_mute_speaker_media_summary">Отключите громкость мультимедиа, если режим звонка установлен на беззвучный режим или вибрацию. Это влияет только на динамик</string>
 </resources>

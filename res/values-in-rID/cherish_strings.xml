@@ -73,8 +73,6 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Kontrol pemutaran</string>
     <string name="volume_button_music_control_summary">Saat layar mati, menekan lama tombol volume akan melewatkan trek musik</string>
-    <!-- Doze on double tap -->
-    <string name="double_tap_title">Ketuk dua kali</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Tata letak acak</string>
     <string name="unlock_scramble_pin_layout_summary">Acak tata letak PIN saat membuka perangkat</string>
@@ -275,14 +273,6 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <!-- Game space -->
     <string name="game_space_title">Ruang Game</string>
     <string name="game_space_summary">Tingkatkan pengalaman bermain game Anda</string>
-    <!-- Pulse on music track change -->
-    <string name="pulse_on_new_tracks_title">Ticker musik ambien</string>
-    <string name="pulse_on_new_tracks_summary">Perlihatkan Tampilan Ambien ketika trek musik baru dimainkan</string>
-    <!-- VPN app management screen, global VPN -->
-    <string name="global_vpn_title">VPN Global</string>
-    <string name="global_vpn_summary">Paksa semua lalu lintas di perangkat melalui VPN ini, termasuk profil kerja dan pengguna lain.</string>
-    <string name="global_vpn_summary_on">Paksa semua lalu lintas di perangkat melalui VPN ini, termasuk profil kerja dan pengguna lain. Catatan: Saat diaktifkan, Anda tidak akan dapat menggunakan VPN terpisah di profil kerja atau pengguna lain</string>
-    <string name="global_vpn_summary_any_vpn_active">Anda harus menonaktifkan semua koneksi VPN aktif terlebih dahulu untuk mengaktifkan ini</string>
     <!-- Navigation bar IME space -->
     <string name="navigation_bar_ime_space_title">Ruang tombol IME</string>
     <string name="navigation_bar_ime_space_summary">Opsi ruang tombol di bawah keyboard</string>
@@ -292,10 +282,6 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <!-- Force LTE_CA -->
     <string name="force_lte_ca">Paksa LTE CA</string>
     <string name="force_lte_ca_summary">Paksa agregasi operator LTE agar berfungsi</string>
-    <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Hubungkan volume dering &amp; notifikasi</string>
-    <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
-    <string name="ring_volume_unlinked_option_title">Volume dering</string>
     <!-- App lock -->
     <string name="app_lock_title">Kunci Aplikasi</string>
     <plurals name="app_lock_summary">
@@ -324,6 +310,18 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="fingerprint_enroll_touch_dialog_message_front">Sentuh sensor di bagian depan ponsel Anda.</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear">Sentuh sensor di bagian belakang ponsel Anda.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">Sentuh sensor di bagian samping ponsel Anda.</string>
+    <!-- Spoof storage encryption status -->
+    <string name="spoof_storage_encryption_status_title">Gunakan pemalsuan enkripsi penyimpanan</string>
+    <string name="spoof_storage_encryption_status_summary">Status palsu enkripsi penyimpanan menjadi terenkripsi.</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Ticker musik ambien</string>
+    <string name="pulse_on_new_tracks_summary">Perlihatkan Tampilan Ambien ketika trek musik baru dimainkan</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Tampilan Ambien</string>
+    <string name="doze_enabled_summary">Apakah akan mengaktifkan fungsi paket doze</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Tampilkan Ambien</string>
+    <string name="doze_gesture_ambient_summary">Tampilkan Tampilan Ambien alih-alih sepenuhnya membangunkan layar</string>
     <!-- Transistent task mode (Tadi mode) -->
     <string name="transistent_task_mode_title">Mode tugas sementara</string>
     <string name="transistent_task_mode_dialog_title">Mode tugas sementara (Mulai ulang perangkat Anda untuk menerapkan perubahan)</string>
@@ -337,13 +335,9 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="prevent_pointer_acceleration_wheel">Hanya roda</string>
     <string name="prevent_pointer_acceleration_pointer">Hanya penunjuk</string>
     <string name="prevent_pointer_acceleration_none">Tidak ada</string>
-    <!-- Doze enablement -->
-    <string name="doze_enabled_title">Tampilan Ambien</string>
-    <string name="doze_enabled_summary">Apakah akan mengaktifkan fungsi paket doze</string>
-    <!-- Ambient wake toggles -->
-    <string name="doze_gesture_ambient_title">Tampilkan Ambien</string>
-    <string name="doze_gesture_ambient_summary">Tampilkan Tampilan Ambien alih-alih sepenuhnya membangunkan layar</string>
-    <!-- Spoof storage encryption status -->
-    <string name="spoof_storage_encryption_status_title">Gunakan pemalsuan enkripsi penyimpanan</string>
-    <string name="spoof_storage_encryption_status_summary">Status palsu enkripsi penyimpanan menjadi terenkripsi.</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Hubungkan volume dering &amp; notifikasi</string>
+    <!-- Ringer mode mute speaker media -->
+    <string name="ringer_mute_speaker_media_title">Mute media volume on silent or vibrate</string>
+    <string name="ringer_mute_speaker_media_summary">Mute media volume when ringer mode is set to silent or vibrate. This affect speaker only</string>
 </resources>

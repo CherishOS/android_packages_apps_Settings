@@ -73,8 +73,6 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Oynatma kontrolü</string>
     <string name="volume_button_music_control_summary">Ekran kapalıyken ses tuşlarına uzun basarak şarkıyı değiştir</string>
-    <!-- Doze on double tap -->
-    <string name="double_tap_title">Çift dokunma</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Düzeni karıştır</string>
     <string name="unlock_scramble_pin_layout_summary">Cihaz kilidini açarken PIN düzenini karıştırır</string>
@@ -274,14 +272,6 @@
     <!-- Game space -->
     <string name="game_space_title">Oyun Alanı</string>
     <string name="game_space_summary">Oyun deneyiminizi geliştirin</string>
-    <!-- Pulse on music track change -->
-    <string name="pulse_on_new_tracks_title">Ortam ekranı müzik bilgisi</string>
-    <string name="pulse_on_new_tracks_summary">Yeni bir şarkı başladığında ortam ekranında göster</string>
-    <!-- VPN app management screen, global VPN -->
-    <string name="global_vpn_title">Global VPN</string>
-    <string name="global_vpn_summary">İş profili ve diğer kullanıcılar dahil olmak üzere cihazdaki tüm trafiği bu VPN üzerinden zorlayın.</string>
-    <string name="global_vpn_summary_on">İş profili ve diğer kullanıcılar dahil olmak üzere cihazdaki tüm trafiği bu VPN üzerinden zorlayın. Not: Etkinleştirildiğinde, bir iş profilinde veya diğer kullanıcılarda ayrı bir VPN kullanamazsınız</string>
-    <string name="global_vpn_summary_any_vpn_active">Bunu etkinleştirmek için önce tüm etkin VPN bağlantılarını devre dışı bırakmanız gerekir</string>
     <!-- Navigation bar IME space -->
     <string name="navigation_bar_ime_space_title">Giriş yöntemi düzenleyicisi tuş alanını gizle</string>
     <string name="navigation_bar_ime_space_summary">Klavyenin altında giriş yöntemi düzenleyicisi tuş alanını gizle</string>
@@ -291,10 +281,6 @@
     <!-- Force LTE_CA -->
     <string name="force_lte_ca">LTE CA\'ya Zorla</string>
     <string name="force_lte_ca_summary">LTE taşıyıcı birleştirmeyi çalışmaya zorla</string>
-    <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Zil ve bildirim sesini birleştir</string>
-    <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
-    <string name="ring_volume_unlinked_option_title">Zil sesi</string>
     <!-- App lock -->
     <string name="app_lock_title">Uygulama kilidi</string>
     <plurals name="app_lock_summary">
@@ -324,6 +310,18 @@
     <string name="fingerprint_enroll_touch_dialog_message_front">Cihazınızın önündeki sensöre dokunun.</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear">Telefonunuzun arkasındaki sensöre dokunun.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">Telefonunuzun yan tarafında bulunan parmak izi sensörüne dokunun.</string>
+    <!-- Spoof storage encryption status -->
+    <string name="spoof_storage_encryption_status_title">Depolama şifreleme sahtekarlığını kullan</string>
+    <string name="spoof_storage_encryption_status_summary">Depolama şifreleme durumunu şifreli olarak değiştirin.</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Ortam ekranı müzik bilgisi</string>
+    <string name="pulse_on_new_tracks_summary">Yeni bir şarkı başladığında ortam ekranında göster</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">Ortam ekranı</string>
+    <string name="doze_enabled_summary">Doze paketi işlevselliğinin etkinleştirilip etkinleştirilmeyeceği</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">Ortam ekranını göster</string>
+    <string name="doze_gesture_ambient_summary">Ekranı tamamen uyandırmak yerine ortam ekranını göster</string>
     <!-- Transistent task mode (Tadi mode) -->
     <string name="transistent_task_mode_title">Geçici görev modu</string>
     <string name="transistent_task_mode_dialog_title">Geçici görev modu (Değişiklikleri uygulamak için cihazınızı yeniden başlatın)</string>
@@ -337,13 +335,9 @@
     <string name="prevent_pointer_acceleration_wheel">Sadece tekerlek</string>
     <string name="prevent_pointer_acceleration_pointer">Sadece işaretçi</string>
     <string name="prevent_pointer_acceleration_none">Hiçbiri</string>
-    <!-- Doze enablement -->
-    <string name="doze_enabled_title">Ortam ekranı</string>
-    <string name="doze_enabled_summary">Doze paketi işlevselliğinin etkinleştirilip etkinleştirilmeyeceği</string>
-    <!-- Ambient wake toggles -->
-    <string name="doze_gesture_ambient_title">Ortam ekranını göster</string>
-    <string name="doze_gesture_ambient_summary">Ekranı tamamen uyandırmak yerine ortam ekranını göster</string>
-    <!-- Spoof storage encryption status -->
-    <string name="spoof_storage_encryption_status_title">Depolama şifreleme sahtekarlığını kullan</string>
-    <string name="spoof_storage_encryption_status_summary">Depolama şifreleme durumunu şifreli olarak değiştirin.</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Zil ve bildirim sesini birleştir</string>
+    <!-- Ringer mode mute speaker media -->
+    <string name="ringer_mute_speaker_media_title">Mute media volume on silent or vibrate</string>
+    <string name="ringer_mute_speaker_media_summary">Mute media volume when ringer mode is set to silent or vibrate. This affect speaker only</string>
 </resources>
