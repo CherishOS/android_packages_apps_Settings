@@ -73,8 +73,6 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">再生コントロール</string>
     <string name="volume_button_music_control_summary">画面消灯時に音量キーを長押しして曲をシークする</string>
-    <!-- Doze on double tap -->
-    <string name="double_tap_title">ダブルタップ</string>
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">ランダムなレイアウト</string>
     <string name="unlock_scramble_pin_layout_summary">端末のロック解除時に PIN レイアウトをランダムにする</string>
@@ -274,14 +272,6 @@
     <!-- Game space -->
     <string name="game_space_title">ゲームスペース</string>
     <string name="game_space_summary">ゲーム体験を向上させる</string>
-    <!-- Pulse on music track change -->
-    <string name="pulse_on_new_tracks_title">アンビエント表示音楽ティッカー</string>
-    <string name="pulse_on_new_tracks_summary">次のトラックの再生時にアンビエント表示をします</string>
-    <!-- VPN app management screen, global VPN -->
-    <string name="global_vpn_title">グローバル VPN</string>
-    <string name="global_vpn_summary">仕事用プロファイルやその他のユーザーを含め、この VPN を経由した通信を強制的に許可します。</string>
-    <string name="global_vpn_summary_on">仕事用プロファイルやその他のユーザーを含め、この VPN を経由した通信をこのデバイスで強制的に許可します。注意: 有効する事で仕事用プロファイルや他のユーザーで異なる VPN の通信を使用する事ができなくなります</string>
-    <string name="global_vpn_summary_any_vpn_active">この機能を有効化するには、最初にすべての有効な VPN 接続を無効化する必要があります</string>
     <!-- Navigation bar IME space -->
     <string name="navigation_bar_ime_space_title">IME スペース</string>
     <string name="navigation_bar_ime_space_summary">キーボードオプションの下の空白</string>
@@ -291,10 +281,6 @@
     <!-- Force LTE_CA -->
     <string name="force_lte_ca">LTE CA を強制</string>
     <string name="force_lte_ca_summary">LTE キャリアアグリゲーションを強制的に動作させます</string>
-    <!-- Volume link notification -->
-    <string name="volume_link_notification_title">着信と通知の音量をリンク</string>
-    <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
-    <string name="ring_volume_unlinked_option_title">着信音の音量</string>
     <!-- App lock -->
     <string name="app_lock_title">アプリロック</string>
     <plurals name="app_lock_summary">
@@ -325,6 +311,18 @@
     <string name="fingerprint_enroll_touch_dialog_message_front">デバイスの前面にあるセンサーをタッチします。</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear">デバイスの背面にあるセンサーをタッチします。</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">デバイスの側面にあるセンサーをタッチします。</string>
+    <!-- Spoof storage encryption status -->
+    <string name="spoof_storage_encryption_status_title">ストレージ暗号化の偽装を使用する</string>
+    <string name="spoof_storage_encryption_status_summary">ストレージ暗号化の状態を暗号化されている状態に偽装します</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">アンビエント表示音楽ティッカー</string>
+    <string name="pulse_on_new_tracks_summary">次のトラックの再生時にアンビエント表示をします</string>
+    <!-- Doze enablement -->
+    <string name="doze_enabled_title">アンビエント表示</string>
+    <string name="doze_enabled_summary">Doze パッケージ機能を有効化にするか選択ができます</string>
+    <!-- Ambient wake toggles -->
+    <string name="doze_gesture_ambient_title">アンビエント表示を表示する</string>
+    <string name="doze_gesture_ambient_summary">画面を点灯する代わりにアンビエント表示で表示をします</string>
     <!-- Transistent task mode (Tadi mode) -->
     <string name="transistent_task_mode_title">一時タスクモード</string>
     <string name="transistent_task_mode_dialog_title">一時タスクモード (設定の適用には再起動が必要です)</string>
@@ -338,13 +336,9 @@
     <string name="prevent_pointer_acceleration_wheel">ホイールのみ</string>
     <string name="prevent_pointer_acceleration_pointer">ポインタのみ</string>
     <string name="prevent_pointer_acceleration_none">なし</string>
-    <!-- Doze enablement -->
-    <string name="doze_enabled_title">アンビエント表示</string>
-    <string name="doze_enabled_summary">Doze パッケージ機能を有効化にするか選択ができます</string>
-    <!-- Ambient wake toggles -->
-    <string name="doze_gesture_ambient_title">アンビエント表示を表示する</string>
-    <string name="doze_gesture_ambient_summary">画面を点灯する代わりにアンビエント表示で表示をします</string>
-    <!-- Spoof storage encryption status -->
-    <string name="spoof_storage_encryption_status_title">ストレージ暗号化の偽装を使用する</string>
-    <string name="spoof_storage_encryption_status_summary">ストレージ暗号化の状態を暗号化されている状態に偽装します</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">着信と通知の音量をリンク</string>
+    <!-- Ringer mode mute speaker media -->
+    <string name="ringer_mute_speaker_media_title">Mute media volume on silent or vibrate</string>
+    <string name="ringer_mute_speaker_media_summary">Mute media volume when ringer mode is set to silent or vibrate. This affect speaker only</string>
 </resources>
