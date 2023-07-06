@@ -693,11 +693,9 @@ public class SettingsHomepageActivity extends FragmentActivity implements
         if (mIsTwoPane) {
             findViewById(R.id.homepage_app_bar_regular_phone_view).setVisibility(View.GONE);
             findViewById(R.id.homepage_app_bar_two_pane_view).setVisibility(View.VISIBLE);
-	    findViewById(R.id.suggestion_container_two_pane).setVisibility(View.VISIBLE);
         } else {
             findViewById(R.id.homepage_app_bar_regular_phone_view).setVisibility(View.VISIBLE);
             findViewById(R.id.homepage_app_bar_two_pane_view).setVisibility(View.GONE);
-	    findViewById(R.id.suggestion_container_two_pane).setVisibility(View.GONE);
         }
     }
 
