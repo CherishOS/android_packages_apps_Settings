@@ -99,31 +99,6 @@
 	<!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Quick unlock</string>
     <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
-	
-	<!-- About phone screen, status item label  [CHAR LIMIT=40] -->
-    <string name="custom_firmware_version">Cherish version</string>
-    <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
-    <string name="custom_firmware_uri" translatable="false">https://cherishos.com/</string>
-    <string name="about_device_info">About device</string>
-	
-	<!-- CherishOS versioning -->
-    <string name="cherish_version_title">Cherish Version</string>
-    <string name="cherish_device_title">Device</string>
-    <string name="cherish_release_type_title">Release type</string>
-    <string name="cherish_maintainer_title">Maintainer</string>
-
-    <!-- About page -->
-    <string name="battery">Battery</string>
-    <string name="display">Display</string>
-    <string name="storage">Storage</string>
-    <string name="chipset">Chipset</string>
-
-    <!-- Settings homepage alternative header -->
-    <string name="top_level_settings_title">Settings</string>
-
-    <string name="wellbeing_title">Google Wellbeing</string>
-    <string name="usercard_summary">Current active user, tap for more information</string>
-    <string name="connectivity_category_title">connectivity</string>
 
 	<!-- Fullscreen gestures -->
     <string name="navbar_category">Navigation bar</string>
