@@ -338,6 +338,6 @@
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Zil ve bildirim sesini birleştir</string>
     <!-- Ringer mode mute speaker media -->
-    <string name="ringer_mute_speaker_media_title">Mute media volume on silent or vibrate</string>
-    <string name="ringer_mute_speaker_media_summary">Mute media volume when ringer mode is set to silent or vibrate. This affect speaker only</string>
+    <string name="ringer_mute_speaker_media_title">Sessiz veya titreşimde medya sesini kapatın</string>
+    <string name="ringer_mute_speaker_media_summary">Zil modu sessiz veya titreşim olarak ayarlandığında medya sesini kapatın. Bu yalnızca konuşmacıyı etkiler</string>
 </resources>
