@@ -20,7 +20,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 
-import androidx.preference.Preference;
+import androidx.preference.PreferenceGroup;
 import androidx.preference.PreferenceScreen;
 
 import com.android.settings.R;
@@ -53,7 +53,6 @@ public class SecuritySettings extends DashboardFragment {
 
     private static final String APP_LOCK_PREF_KEY = "app_lock";
     private static final String SECURITY_STATUS_KEY = "security_status";
-    private static final String SECURITY_CATEGORY_KEY = "security_category";
 
     @Override
     public int getMetricsCategory() {
@@ -100,14 +99,10 @@ public class SecuritySettings extends DashboardFragment {
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         super.onCreatePreferences(savedInstanceState, rootKey);
         final PreferenceScreen preferenceScreen = getPreferenceScreen();
-        for (int i = 0; i < preferenceScreen.getPreferenceCount(); i++) {
-            final Preference pref = preferenceScreen.getPreference(i);
-            if (SECURITY_STATUS_KEY.equals(pref.getKey())) {
-                final Preference nextPref = preferenceScreen.getPreference(i + 1);
-                if (SECURITY_CATEGORY_KEY.equals(nextPref.getKey())) {
-                    preferenceScreen.removePreference(pref);
-                }
-            }
+        final PreferenceGroup securityStatusGroup =
+            (PreferenceGroup) preferenceScreen.findPreference(SECURITY_STATUS_KEY);
+        if (securityStatusGroup != null && securityStatusGroup.getPreferenceCount() == 0) {
+            preferenceScreen.removePreference(securityStatusGroup);
         }
     }
 
