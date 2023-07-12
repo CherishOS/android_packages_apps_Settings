@@ -72,7 +72,8 @@
         android:title="@string/navigation_bar_ime_space_title"
         android:summary="@string/navigation_bar_ime_space_summary"
         android:entries="@array/navigation_bar_ime_space_entries"
-        android:entryValues="@array/navigation_bar_ime_space_values" />
+        android:entryValues="@array/navigation_bar_ime_space_values"
+        android:defaultValue="0" />
 
     <PreferenceCategory
         android:key="assistant_gesture_category"
