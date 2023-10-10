@@ -67,6 +67,13 @@
         <intent android:action="android.settings.MANAGE_DEFAULT_APPS_SETTINGS"/>
     </Preference>
 
+    <com.cherish.settings.preferences.SystemPropertyListPreference
+        android:key="persist.sys.default_launcher"
+        android:title="@string/quickswitch_launcher_title"
+        android:entries="@array/quickswitch_launcher_entries"
+        android:entryValues="@array/quickswitch_launcher_values"
+        android:summary="%s"/>
+
     <Preference
         android:key="cloned_apps"
         android:title="@string/cloned_apps_dashboard_title"
