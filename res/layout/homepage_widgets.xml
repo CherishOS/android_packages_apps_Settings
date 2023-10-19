@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="2">
+
+    <LinearLayout
+        android:id="@+id/battery_widget"
+        android:layout_width="0dp"
+        android:layout_height="164dp"
+        android:layout_weight="1"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginStart="24dp"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:background="@drawable/custom_preference_background">
+
+        <RelativeLayout
+            android:id="@+id/battery_widget_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/battery_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                style="@style/op_control_text_style_h6"
+                android:textColor="@color/op_control_text_color_primary"
+                android:text="@string/homepage_widget_battery_title"
+                android:textSize="20sp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentTop="true" />
+
+            <com.android.settings.preferences.ui.BatteryProgressBar
+                android:id="@+id/battery_progress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:max="100"
+                android:scaleY="1"
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:layout_marginHorizontal="20dp"
+                android:indeterminate="false"
+                android:layout_marginTop="12dp"
+                android:layout_below="@+id/battery_title" />
+
+            <com.android.settings.preferences.ui.ChargingPercentTextView
+                android:id="@+id/battery_percent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginStart="20dp"
+                android:layout_below="@+id/battery_progress"
+                android:layout_marginTop="18dp"
+                style="@style/op_control_text_style_body1"
+                android:textColor="@color/op_control_text_color_primary"/>
+                
+            <com.android.settings.preferences.ui.ChargingStatusTextView
+                android:id="@+id/battery_status"
+                style="@style/op_control_text_style_body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:textSize="13sp"
+                android:textColor="@color/op_control_text_color_secondary"
+                android:layout_below="@+id/battery_percent"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="9dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/compact_widgets"
+        android:layout_width="0dp"
+        android:layout_height="170dp"
+        android:layout_toRightOf="@+id/battery_widget"
+        android:layout_weight="1"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginStart="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/storage_widget"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_preference_background">
+
+            <RelativeLayout
+                android:id="@+id/storage_widget_frame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+            
+                    <TextView
+                        android:id="@+id/storage_title"
+                        style="@style/op_control_text_style_h6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/homepage_widget_storage_title"
+                        android:textSize="20sp"
+                        android:textColor="@color/op_control_text_color_primary"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_alignParentTop="true" />
+
+                    <com.android.settings.preferences.ui.StorageProgressBar
+                        android:id="@+id/storage_progress"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:max="100"
+                        android:scaleY="1"
+                        android:progress="0"
+                        android:layout_marginHorizontal="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="18dp"
+                        android:indeterminate="false"
+                        android:layout_below="@+id/storage_title"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="20dp"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/accessibility_widgets"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:id="@+id/search_widget"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:background="@drawable/custom_preference_background"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/search_widget_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_homepage_search"
+                        android:layout_gravity="center"
+                        android:tint="@color/settings_accent_color"
+                        android:padding="2dp" 
+                        android:clickable="true"/>
+
+                </LinearLayout>
+                
+                <LinearLayout
+                    android:id="@+id/system_widget"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="20dp"
+                    android:clickable="true"
+                    android:background="@drawable/custom_preference_background"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/system_widget_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tint="@color/settings_accent_color"
+                        android:src="@drawable/ic_settings_system_dashboard_white"
+                        android:layout_gravity="center"
+                        android:padding="2dp"
+                        android:clickable="true" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

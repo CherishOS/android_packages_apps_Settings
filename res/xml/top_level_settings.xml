@@ -21,6 +21,17 @@
     android:key="top_level_settings"
     android:title="Settings">
 
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/top_level_preference_banner_view"
+        android:key="top_level_homepage_banner_view"
+        android:order="-180"/>
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/homepage_widgets"
+        android:key="top_level_homepage_widgets"
+        android:selectable="false"
+        android:order="-170" />
+
     <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.network.NetworkDashboardFragment"
         android:icon="@drawable/ic_settings_wireless"

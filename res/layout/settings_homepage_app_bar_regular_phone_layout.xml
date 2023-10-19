@@ -17,39 +17,57 @@
 
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="?android:attr/colorBackground"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:gravity="center">
 
-    <LinearLayout
-        android:layout_width="match_parent"
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="@dimen/homepage_title_margin_top"
-        android:orientation="horizontal">
-
-        <TextView
-            android:id="@+id/homepage_title"
-            android:text="@string/settings_label"
-            style="@style/HomepageTitleText"
-            android:layout_width="0dp"
-            android:layout_weight="1" />
+        android:layout_marginBottom="20dp"
+        app:cardCornerRadius="32dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:strokeColor="@color/op_control_text_color_primary"
+        app:strokeWidth="4dp">
 
         <ImageView
             android:id="@+id/account_avatar"
-            android:layout_width="@dimen/avatar_length"
-            android:layout_height="@dimen/avatar_length"
-            android:layout_marginEnd="@dimen/avatar_margin_end"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
             android:visibility="invisible"
-            android:accessibilityTraversalAfter="@id/homepage_title"
             android:contentDescription="@string/search_bar_account_avatar_content_description" />
-    </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/homepage_title"
+        android:textColor="@color/op_control_text_color_primary"
+        style="@style/op_control_text_style_h6"
+        android:layout_marginBottom="9dp"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/homepage_greetings"
+        style="@style/op_control_text_style_body1"
+        android:textColor="@color/op_control_text_color_primary"
+        android:textSize="18sp"
+        android:layout_marginBottom="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
     <FrameLayout
         android:id="@+id/suggestion_content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
+    <!-- homepage redesign start
     <include layout="@layout/search_bar"/>
+    homepage redesign end --> 
 
 </LinearLayout>

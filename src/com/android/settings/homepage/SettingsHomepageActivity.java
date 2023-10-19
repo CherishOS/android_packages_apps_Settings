@@ -37,18 +37,21 @@ import android.graphics.drawable.Drawable;
 import android.content.res.Configuration;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Handler;
 import android.os.Process;
 import android.os.UserHandle;
 import android.os.UserManager;
 import android.text.TextUtils;
 import android.util.ArraySet;
 import android.util.FeatureFlagUtils;
+import android.util.TypedValue;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toolbar;
 
 import androidx.annotation.VisibleForTesting;
@@ -86,8 +89,14 @@ import com.android.settingslib.core.lifecycle.HideNonSystemOverlayMixin;
 import com.android.settingslib.drawable.CircleFramedDrawable;
 
 import com.google.android.setupcompat.util.WizardManagerHelper;
+import com.android.settingslib.drawable.CircleFramedDrawable;
+
+import com.google.android.material.appbar.AppBarLayout;
+import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton;
 
 import java.net.URISyntaxException;
+import java.util.Calendar;
+import java.util.Random;
 import java.util.Set;
 
 import com.android.settingslib.drawable.CircleFramedDrawable;
@@ -226,23 +235,126 @@ public class SettingsHomepageActivity extends FragmentActivity implements
         updateHomepageAppBar();
         updateHomepageBackground();
         mLoadedListeners = new ArraySet<>();
+        
+        // Homepage redesign start
+        // initSearchBarView();
+        
+        AppBarLayout appBarLayout = findViewById(R.id.app_bar);
+        final ExtendedFloatingActionButton fabSearch = findViewById(R.id.fabSearch);
+        FeatureFactory.getFactory(this)
+                .getSearchFeatureProvider()
+                .initSearchToolbar(this /* activity */, (View) fabSearch, null, SettingsEnums.SETTINGS_HOMEPAGE);
 
-        avatarView = findViewById(R.id.account_avatar);
+        appBarLayout.addOnOffsetChangedListener(new AppBarLayout.OnOffsetChangedListener() {
+            @Override
+            public void onOffsetChanged(AppBarLayout appBarLayout, int verticalOffset) {
+                int totalScrollRange = appBarLayout.getTotalScrollRange();
 
-        if (avatarView != null) {
-          avatarView.setImageDrawable(getCircularUserIcon(getApplicationContext()));
-          avatarView.setVisibility(View.VISIBLE);
-          avatarView.setOnClickListener(new View.OnClickListener() {
-              @Override
-              public void onClick(View v) {
-                  Intent intent = new Intent(Intent.ACTION_MAIN);
-                  intent.setComponent(new ComponentName("com.android.settings","com.android.settings.Settings$UserSettingsActivity"));
-                  startActivity(intent);
-              }
-          });
+                if (Math.abs(verticalOffset) == totalScrollRange) {
+                    fabSearch.show();
+                    fabSearch.postOnAnimationDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            fabSearch.extend();
+                        }
+                    }, 100);
+                } else {
+                    fabSearch.shrink();
+                    fabSearch.postOnAnimationDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            fabSearch.hide();
+                        }
+                    }, 100);
+                }
+            }
+        });
+
+        boolean messagesEnabled = true;
+	    if (messagesEnabled) {
+	        final View root = findViewById(R.id.settings_homepage_container);
+	        final TextView homepageTitleView = root.findViewById(R.id.homepage_title);
+	        final TextView homepageGreetingsView = root.findViewById(R.id.homepage_greetings);
+
+	        homepageGreetingsView.setVisibility(View.VISIBLE);
+	        homepageTitleView.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimensionPixelSize(R.dimen.header_text_size_contextual));
+
+	        String[] randomMsgSearch = getResources().getStringArray(R.array.settings_random);
+            String[] morningMsg = getResources().getStringArray(R.array.dashboard_morning);
+            String[] morningMsgGreet = getResources().getStringArray(R.array.dashboard_morning_greetings);
+            String[] msgNight = getResources().getStringArray(R.array.dashboard_night);
+            String[] msgearlyNight = getResources().getStringArray(R.array.dashboard_early_night);
+            String[] msgNoon = getResources().getStringArray(R.array.dashboard_noon);
+            String[] msgMN = getResources().getStringArray(R.array.dashboard_midnight);
+            String[] msgRandom = getResources().getStringArray(R.array.dashboard_random);
+            String[] msgRandomGreet = getResources().getStringArray(R.array.dashboard_random_greetings);
+
+            String greetingsEN = getResources().getString(R.string.dashboard_early_night_greeting1);
+            String greetingsN = getResources().getString(R.string.dashboard_night_greetings1);
+            String greetingsNoon = getResources().getString(R.string.dashboard_noon_greeting1);
+            String random6 = getResources().getString(R.string.dashboard_random6);
+
+	        Random genSearchMsg = new Random();
+	        int searchRnd = genSearchMsg.nextInt(randomMsgSearch.length-1);
+
+        switch (Calendar.getInstance().get(Calendar.HOUR_OF_DAY)) {
+            case 5: case 6: case 7: case 8: case 9: case 10:
+
+        	Random genMorningMsg = new Random();
+        	int morning = genMorningMsg.nextInt(morningMsg.length-1);
+        	int morningGreet = genMorningMsg.nextInt(morningMsgGreet.length-1);
+        	homepageTitleView.setText(morningMsgGreet[morningGreet] + " " + getOwnerName() + ".");
+        	homepageGreetingsView.setText(morningMsg[morning]);
+                break;
+
+            case 18: case 19: case 20: 
+        	Random genmsgeNight = new Random();
+        	int eNight = genmsgeNight.nextInt(msgearlyNight.length-1);
+        	homepageTitleView.setText(greetingsEN + " " + getOwnerName() + ".");
+        	homepageGreetingsView.setText(msgearlyNight[eNight]);
+                break;
+                
+            case 21: case 22: case 23: case 0: 
+        	Random genmsgNight = new Random();
+        	int night = genmsgNight.nextInt(msgNight.length-1);
+        	homepageTitleView.setText(greetingsN + " " + getOwnerName() + ".");
+        	homepageGreetingsView.setText(msgNight[night]);
+                break;
+
+             case 16: case 17:
+        	Random genmsgNoon = new Random();
+        	int noon = genmsgNoon.nextInt(msgNoon.length-1);
+        	homepageTitleView.setText(greetingsNoon + " " + getOwnerName() + ".");
+        	homepageGreetingsView.setText(msgNoon[noon]);
+                break;
+
+            case 1: case 2: case 3: case 4:
+        	Random genmsgMN = new Random();
+        	int mn = genmsgMN.nextInt(msgMN.length-1);
+        	int rd = genmsgMN.nextInt(msgRandom.length-1);
+        	homepageTitleView.setText(msgRandom[rd] + " " + getOwnerName() + ".");
+        	homepageGreetingsView.setText(msgMN[mn]);
+                break;
+                
+            case 11: case 12: case 13: case 14: case 15:
+        	Random genmsgRD = new Random();
+        	int randomm = genmsgRD.nextInt(msgRandom.length-1);
+        	int randomGreet = genmsgRD.nextInt(msgRandomGreet.length-1);
+        	homepageTitleView.setText(msgRandom[randomm] + " " + getOwnerName() + ".");
+        	homepageGreetingsView.setText(msgRandomGreet[randomGreet]);
+                break;
+
+            default:
+                break;
+           }
+        } else {
+           final TextView homepageTitleView = findViewById(R.id.homepage_title);
+           final TextView secondarytextView = findViewById(R.id.homepage_greetings);
+           homepageTitleView.setTextSize(TypedValue.COMPLEX_UNIT_PX, getResources().getDimensionPixelSize(R.dimen.header_text_size_default));
+           secondarytextView.setVisibility(View.GONE);
+           homepageTitleView.setText(getResources().getString(R.string.top_level_settings_title));
         }
-
-        initSearchBarView();
+        // Homepage redesign end
 
         avatarView = findViewById(R.id.account_avatar);
         //final AvatarViewMixin avatarViewMixin = new AvatarViewMixin(this, avatarView);
@@ -355,15 +467,6 @@ public class SettingsHomepageActivity extends FragmentActivity implements
         }
         mIsRegularLayout = !mIsRegularLayout;
 
-        // Update search title padding
-        View searchTitle = findViewById(R.id.search_bar_title);
-        if (searchTitle != null) {
-            int paddingStart = getResources().getDimensionPixelSize(
-                    mIsRegularLayout
-                            ? R.dimen.search_bar_title_padding_start_regular_two_pane
-                            : R.dimen.search_bar_title_padding_start);
-            searchTitle.setPaddingRelative(paddingStart, 0, 0, 0);
-        }
         // Notify fragments
         getSupportFragmentManager().getFragments().forEach(fragment -> {
             if (fragment instanceof SplitLayoutListener) {
@@ -386,18 +489,20 @@ public class SettingsHomepageActivity extends FragmentActivity implements
                 });
     }
 
-    private void initSearchBarView() {
-        final Toolbar toolbar = findViewById(R.id.search_action_bar);
-        FeatureFactory.getFactory(this).getSearchFeatureProvider()
-                .initSearchToolbar(this /* activity */, toolbar, SettingsEnums.SETTINGS_HOMEPAGE);
+    // Homepage redesign start
+    //private void initSearchBarView() {
+        //final Toolbar toolbar = findViewById(R.id.search_action_bar);
+        //FeatureFactory.getFactory(this).getSearchFeatureProvider()
+           //     .initSearchToolbar(this /* activity */, toolbar, SettingsEnums.SETTINGS_HOMEPAGE);
 
-        if (mIsEmbeddingActivityEnabled) {
-            final Toolbar toolbarTwoPaneVersion = findViewById(R.id.search_action_bar_two_pane);
-            FeatureFactory.getFactory(this).getSearchFeatureProvider()
-                    .initSearchToolbar(this /* activity */, toolbarTwoPaneVersion,
-                            SettingsEnums.SETTINGS_HOMEPAGE);
-        }
-    }
+        //if (mIsEmbeddingActivityEnabled) {
+            //final Toolbar toolbarTwoPaneVersion = findViewById(R.id.search_action_bar_two_pane);
+          //  FeatureFactory.getFactory(this).getSearchFeatureProvider()
+               //     .initSearchToolbar(this /* activity */, toolbarTwoPaneVersion,
+                    //        SettingsEnums.SETTINGS_HOMEPAGE);
+        //}
+    //}
+    // Homepage redesign end
 
     private void updateHomepageBackground() {
         if (!mIsEmbeddingActivityEnabled) {
@@ -767,9 +872,9 @@ public class SettingsHomepageActivity extends FragmentActivity implements
             }
         }
     }
-
+    
     private Drawable getCircularUserIcon(Context context) {
-    	final UserManager mUserManager = getSystemService(UserManager.class);
+        final UserManager mUserManager = getSystemService(UserManager.class);
         Bitmap bitmapUserIcon = mUserManager.getUserIcon(UserHandle.myUserId());
 
         if (bitmapUserIcon == null) {
@@ -790,5 +895,11 @@ public class SettingsHomepageActivity extends FragmentActivity implements
         if (avatarView != null) {
           avatarView.setImageDrawable(getCircularUserIcon(getApplicationContext()));
         }
+    }
+    private String getOwnerName(){
+        final UserManager mUserManager = getSystemService(UserManager.class);
+        final UserInfo userInfo = com.android.settings.Utils.getExistingUser(mUserManager,
+                    UserHandle.of(UserHandle.myUserId()));
+        return userInfo.name != null ? userInfo.name : getString(R.string.default_user);
     }
 }
