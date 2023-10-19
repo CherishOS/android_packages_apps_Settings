@@ -437,5 +437,7 @@ public class SettingsGateway {
             Settings.NavigationModeSettingsActivity.class.getName(),
             Settings.CherishSettingsActivity.class.getName(),
             Settings.SmartPixelsActivity.class.getName(),
+            Settings.FirmwareVersionActivity.class.getName(),
+            Settings.WallpaperSettingsActivity.class.getName(),
     };
             }
