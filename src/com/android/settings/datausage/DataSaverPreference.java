@@ -30,6 +30,9 @@ public class DataSaverPreference extends Preference implements DataSaverBackend.
         mDataSaverBackend = new DataSaverBackend(context);
     }
 
+    private void init(Context context, AttributeSet attrs) {
+    }
+
     @Override
     public void onAttached() {
         super.onAttached();

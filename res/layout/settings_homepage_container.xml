@@ -67,7 +67,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:gravity="bottom"
-            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+            app:layout_scrollFlags="scroll|enterAlwaysCollapsed">
 
             <include
                 android:id="@+id/homepage_app_bar_regular_phone_view"
@@ -79,4 +79,24 @@
                 android:visibility="gone"/>
         </LinearLayout>
     </com.google.android.material.appbar.AppBarLayout>
+    
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fabSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search_button_text_title"
+        android:textAllCaps="false"
+        android:visibility="gone"
+        android:textColor="@color/settingslib_btn_colored_text_material"
+        android:theme="@style/Theme.CollapsingToolbar.Settings"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_gravity="top|end"
+        style="@style/mtx_text_style_h6"
+        app:backgroundTint="@color/settingslib_btn_colored_background_material"
+        app:iconTint="@color/settingslib_btn_colored_text_material"
+        app:hideMotionSpec="@anim/fab_hide"
+        app:showMotionSpec="@anim/fab_show"
+        app:icon="@drawable/ic_homepage_search"/>
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
