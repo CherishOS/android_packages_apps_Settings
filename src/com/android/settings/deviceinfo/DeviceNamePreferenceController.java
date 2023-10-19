@@ -16,6 +16,7 @@
 
 package com.android.settings.deviceinfo;
 
+import android.accounts.Account;
 import android.bluetooth.BluetoothAdapter;
 import android.content.Context;
 import android.net.wifi.SoftApConfiguration;
@@ -39,6 +40,10 @@ import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnCreate;
 import com.android.settingslib.core.lifecycle.events.OnSaveInstanceState;
 
+import com.android.settings.accounts.AccountFeatureProvider;
+import com.android.settings.network.SubscriptionUtil;
+import com.android.settings.overlay.FeatureFactory;
+
 public class DeviceNamePreferenceController extends BasePreferenceController
         implements ValidatedEditTextPreference.Validator,
         Preference.OnPreferenceChangeListener,
@@ -58,12 +63,18 @@ public class DeviceNamePreferenceController extends BasePreferenceController
     private DeviceNamePreferenceHost mHost;
     private String mPendingDeviceName;
 
+    private final AccountFeatureProvider mAccountFeatureProvider;
+    private Account[] mAccounts;
+
     public DeviceNamePreferenceController(Context context, String key) {
         super(context, key);
 
         mWifiManager = (WifiManager) context.getSystemService(Context.WIFI_SERVICE);
         mWifiDeviceNameTextValidator = new WifiDeviceNameTextValidator();
         mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+
+        mAccountFeatureProvider = FeatureFactory.getFactory(mContext).getAccountFeatureProvider();
+        mAccounts = mAccountFeatureProvider.getAccounts(mContext);
 
         initializeDeviceName();
     }
@@ -76,6 +87,13 @@ public class DeviceNamePreferenceController extends BasePreferenceController
         mPreference.setSummary(deviceName);
         mPreference.setText(deviceName.toString());
         mPreference.setValidator(this);
+        final Preference accountPreference = screen.findPreference("branded_account");
+        final boolean accountPrefAvailable = accountPreference != null && (mAccounts != null && mAccounts.length > 0);
+        if (!SubscriptionUtil.isSimHardwareVisible(mContext) && !accountPrefAvailable) {
+            mPreference.setLayoutResource(R.layout.top_level_preference_solo_card);
+        } else {
+            mPreference.setLayoutResource(R.layout.top_level_preference_top_card);
+        }
     }
 
     private void initializeDeviceName() {

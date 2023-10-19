@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="2">
+
+    <LinearLayout
+        android:id="@+id/firmware_details"
+        android:layout_width="0dp"
+        android:layout_height="164dp"
+        android:layout_weight="1.2"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="24dp"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:clipToOutline="true"
+        android:background="@drawable/custom_preference_background">
+
+        <RelativeLayout
+            android:id="@+id/firmware_details_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/firmware_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                style="@style/mtx_text_style_h6"
+                android:textColor="@color/mtx_text_color_primary"
+                android:text="@string/firmware_name_text"
+                android:textSize="18sp"
+                android:layout_marginStart="20dp"
+                android:layout_alignParentTop="true" />
+
+            <TextView
+                android:id="@+id/firmware_version"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/firmware_name"
+                android:layout_marginTop="2dp"
+                style="@style/mtx_text_style_h6"
+                android:textColor="@color/mtx_text_color_secondary"
+                android:textSize="13sp"
+                android:layout_marginStart="20dp"/>
+
+            <TextView
+                android:id="@+id/firmware_build_summary"
+                style="@style/mtx_text_style_h6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="@string/firmware_build_summary_title"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/mtx_text_color_primary"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="24dp"
+                android:layout_alignParentBottom="true"/>
+    
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/build_variant"
+        android:layout_width="0dp"
+        android:layout_height="170dp"
+        android:layout_toRightOf="@+id/firmware_details"
+        android:layout_weight="0.8"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/custom_preference_background"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:clipChildren="true"
+        android:clipToPadding="true"
+        android:clipToOutline="true">
+
+        <TextView
+            android:id="@+id/build_variant_title"
+            style="@style/mtx_text_style_h6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gapps"
+            android:textSize="16sp"
+            android:textColor="@color/mtx_text_color_primary"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="20dp"
+            android:layout_alignParentTop="true" />
+
+        <ImageView
+            android:id="@+id/android_logo"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/device_info_android_logo"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_alignParentBottom="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>

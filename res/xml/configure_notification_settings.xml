@@ -76,6 +76,7 @@
             android:summary="@string/manage_notification_access_summary"
             android:fragment="com.android.settings.notification.NotificationAccessSettings"
             settings:controller="com.android.settings.applications.specialaccess.notificationaccess.NotificationAccessController" />
+
         <!-- When device is locked -->
         <com.android.settings.RestrictedListPreference
             android:key="lock_screen_notifications"
@@ -105,15 +106,14 @@
             android:summary="@string/lockscreen_bypass_summary"
             settings:searchable="false"
             settings:controller="com.android.settings.biometrics.face.FaceSettingsLockscreenBypassPreferenceController" />
-
     </PreferenceCategory>
 
     <PreferenceCategory
         android:key="advanced_section_header"
         android:title="@string/advanced_section_header">
-        <com.android.settingslib.RestrictedPreference
+        <com.android.settingslib.RestrictedPreference 
             android:key="zen_mode_notifications"
-            android:order="17"
+            android:order="15"
             android:title="@string/zen_mode_settings_title"
             settings:useAdminDisabledSummary="true"
             android:fragment="com.android.settings.notification.zen.ZenModeSettings"
@@ -137,7 +137,7 @@
             settings:searchable="false"
             settings:controller="com.android.settings.accessibility.FlashNotificationsPreferenceController" />
 
-        <com.android.settingslib.RestrictedPreference
+        <com.android.settingslib.RestrictedPreference 
             android:key="app_and_notif_cell_broadcast_settings"
             android:order="20"
             android:title="@string/cell_broadcast_settings"

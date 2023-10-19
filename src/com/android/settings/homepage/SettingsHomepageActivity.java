@@ -26,29 +26,29 @@ import android.animation.LayoutTransition;
 import android.app.ActivityManager;
 import android.app.settings.SettingsEnums;
 import android.content.ComponentName;
-import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.ApplicationInfoFlags;
 import android.content.pm.UserInfo;
-import android.graphics.Bitmap;
-import android.graphics.drawable.Drawable;
 import android.content.res.Configuration;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Handler;
 import android.os.Process;
 import android.os.UserHandle;
 import android.os.UserManager;
 import android.text.TextUtils;
 import android.util.ArraySet;
 import android.util.FeatureFlagUtils;
+import android.util.TypedValue;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toolbar;
 
 import androidx.annotation.VisibleForTesting;
@@ -68,8 +68,6 @@ import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
 import com.android.internal.util.UserIcons;
 
-import com.android.internal.util.UserIcons;
-
 import com.android.settings.R;
 import com.android.settings.Settings;
 import com.android.settings.SettingsActivity;
@@ -83,14 +81,17 @@ import com.android.settings.overlay.FeatureFactory;
 import com.android.settings.safetycenter.SafetyCenterManagerWrapper;
 import com.android.settingslib.Utils;
 import com.android.settingslib.core.lifecycle.HideNonSystemOverlayMixin;
-import com.android.settingslib.drawable.CircleFramedDrawable;
 
 import com.google.android.setupcompat.util.WizardManagerHelper;
+import com.android.settingslib.drawable.CircleFramedDrawable;
+
+import com.google.android.material.appbar.AppBarLayout;
+import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton;
 
 import java.net.URISyntaxException;
+import java.util.Calendar;
+import java.util.Random;
 import java.util.Set;
-
-import com.android.settingslib.drawable.CircleFramedDrawable;
 
 /** Settings homepage activity */
 public class SettingsHomepageActivity extends FragmentActivity implements
@@ -184,10 +185,6 @@ public class SettingsHomepageActivity extends FragmentActivity implements
         return mCategoryMixin;
     }
 
-    Context context;
-    ImageView avatarView;
-    UserManager mUserManager;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -219,41 +216,41 @@ public class SettingsHomepageActivity extends FragmentActivity implements
 
         updateAppBarMinHeight();
         initHomepageContainer();
-
-        Context context = getApplicationContext();
-        mUserManager = context.getSystemService(UserManager.class);
-
         updateHomepageAppBar();
         updateHomepageBackground();
         mLoadedListeners = new ArraySet<>();
+        
+        // Homepage redesign start
+        // initSearchBarView();
+        
+        AppBarLayout appBarLayout = findViewById(R.id.app_bar);
+        final ExtendedFloatingActionButton fabSearch = findViewById(R.id.fabSearch);
+        FeatureFactory.getFactory(this)
+                .getSearchFeatureProvider()
+                .initSearchToolbar(this /* activity */, (View) fabSearch, null, SettingsEnums.SETTINGS_HOMEPAGE);
 
-        avatarView = findViewById(R.id.account_avatar);
-
-        if (avatarView != null) {
-          avatarView.setImageDrawable(getCircularUserIcon(getApplicationContext()));
-          avatarView.setVisibility(View.VISIBLE);
-          avatarView.setOnClickListener(new View.OnClickListener() {
-              @Override
-              public void onClick(View v) {
-                  Intent intent = new Intent(Intent.ACTION_MAIN);
-                  intent.setComponent(new ComponentName("com.android.settings","com.android.settings.Settings$UserSettingsActivity"));
-                  startActivity(intent);
-              }
-          });
-        }
-
-        initSearchBarView();
-
-        avatarView = findViewById(R.id.account_avatar);
-        //final AvatarViewMixin avatarViewMixin = new AvatarViewMixin(this, avatarView);
-        avatarView.setImageDrawable(getCircularUserIcon(context));
-        avatarView.setVisibility(View.VISIBLE);
-        avatarView.setOnClickListener(new View.OnClickListener() {
+        appBarLayout.addOnOffsetChangedListener(new AppBarLayout.OnOffsetChangedListener() {
             @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_MAIN);
-                intent.setComponent(new ComponentName("com.android.settings","com.android.settings.Settings$UserSettingsActivity"));
-                startActivity(intent);
+            public void onOffsetChanged(AppBarLayout appBarLayout, int verticalOffset) {
+                int totalScrollRange = appBarLayout.getTotalScrollRange();
+
+                if (Math.abs(verticalOffset) == totalScrollRange) {
+                    fabSearch.show();
+                    fabSearch.postOnAnimationDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            fabSearch.extend();
+                        }
+                    }, 100);
+                } else {
+                    fabSearch.shrink();
+                    fabSearch.postOnAnimationDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            fabSearch.hide();
+                        }
+                    }, 100);
+                }
             }
         });
 
@@ -355,15 +352,6 @@ public class SettingsHomepageActivity extends FragmentActivity implements
         }
         mIsRegularLayout = !mIsRegularLayout;
 
-        // Update search title padding
-        View searchTitle = findViewById(R.id.search_bar_title);
-        if (searchTitle != null) {
-            int paddingStart = getResources().getDimensionPixelSize(
-                    mIsRegularLayout
-                            ? R.dimen.search_bar_title_padding_start_regular_two_pane
-                            : R.dimen.search_bar_title_padding_start);
-            searchTitle.setPaddingRelative(paddingStart, 0, 0, 0);
-        }
         // Notify fragments
         getSupportFragmentManager().getFragments().forEach(fragment -> {
             if (fragment instanceof SplitLayoutListener) {
@@ -386,18 +374,20 @@ public class SettingsHomepageActivity extends FragmentActivity implements
                 });
     }
 
-    private void initSearchBarView() {
-        final Toolbar toolbar = findViewById(R.id.search_action_bar);
-        FeatureFactory.getFactory(this).getSearchFeatureProvider()
-                .initSearchToolbar(this /* activity */, toolbar, SettingsEnums.SETTINGS_HOMEPAGE);
+    // Homepage redesign start
+    //private void initSearchBarView() {
+        //final Toolbar toolbar = findViewById(R.id.search_action_bar);
+        //FeatureFactory.getFactory(this).getSearchFeatureProvider()
+           //     .initSearchToolbar(this /* activity */, toolbar, SettingsEnums.SETTINGS_HOMEPAGE);
 
-        if (mIsEmbeddingActivityEnabled) {
-            final Toolbar toolbarTwoPaneVersion = findViewById(R.id.search_action_bar_two_pane);
-            FeatureFactory.getFactory(this).getSearchFeatureProvider()
-                    .initSearchToolbar(this /* activity */, toolbarTwoPaneVersion,
-                            SettingsEnums.SETTINGS_HOMEPAGE);
-        }
-    }
+        //if (mIsEmbeddingActivityEnabled) {
+            //final Toolbar toolbarTwoPaneVersion = findViewById(R.id.search_action_bar_two_pane);
+          //  FeatureFactory.getFactory(this).getSearchFeatureProvider()
+               //     .initSearchToolbar(this /* activity */, toolbarTwoPaneVersion,
+                    //        SettingsEnums.SETTINGS_HOMEPAGE);
+        //}
+    //}
+    // Homepage redesign end
 
     private void updateHomepageBackground() {
         if (!mIsEmbeddingActivityEnabled) {
@@ -767,9 +757,9 @@ public class SettingsHomepageActivity extends FragmentActivity implements
             }
         }
     }
-
+    
     private Drawable getCircularUserIcon(Context context) {
-    	final UserManager mUserManager = getSystemService(UserManager.class);
+        final UserManager mUserManager = getSystemService(UserManager.class);
         Bitmap bitmapUserIcon = mUserManager.getUserIcon(UserHandle.myUserId());
 
         if (bitmapUserIcon == null) {
@@ -784,11 +774,11 @@ public class SettingsHomepageActivity extends FragmentActivity implements
         return drawableUserIcon;
     }
 
-    @Override
-    public void onResume() {
-        super.onResume();
-        if (avatarView != null) {
-          avatarView.setImageDrawable(getCircularUserIcon(getApplicationContext()));
-        }
+    private String getOwnerName(){
+        final UserManager mUserManager = getSystemService(UserManager.class);
+        final UserInfo userInfo = com.android.settings.Utils.getExistingUser(mUserManager,
+                    UserHandle.of(UserHandle.myUserId()));
+        return userInfo.name != null ? userInfo.name : getString(R.string.default_user);
     }
 }
+
