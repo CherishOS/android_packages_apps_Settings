@@ -140,6 +140,31 @@
     <!-- LiveDisplay -->
     <uses-permission android:name="lineageos.permission.MANAGE_LIVEDISPLAY" />
 
+    <permission android:name="com.google.android.settings.routines.ROUTINES_ACTIONS" android:protectionLevel="privileged|signature"/>
+    <permission android:name="com.google.android.settings.future.logging.RESTRICTED_SEND_FUTURE_LOGS" android:protectionLevel="privileged|signature"/>
+    <permission android:name="com.google.android.settings.setup.dock.RUN_DOCK_SETUP" android:protectionLevel="privileged|signature"/>
+    <permission android:name="com.google.android.settings.fuelgauge.BATTERY_SETTING" android:protectionLevel="system|signature"/>
+    <protected-broadcast android:name="com.google.android.settings.PRE_INDEX_SEARCH"/>
+    <uses-permission android:name="android.permission.MANAGE_GAME_MODE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.google.android.settings.routines.ROUTINES_ACTIONS"/>
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"/>
+    <uses-permission android:name="com.google.android.settings.intelligence.BATTERY_DATA"/>
+    <uses-permission android:name="com.google.android.settings.setup.dock.RUN_DOCK_SETUP"/>
+    <uses-permission android:name="android.permission.MANAGE_ACTIVITY_TASKS"/>
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT"/>
+    <uses-permission android:name="com.google.android.wildlife.permission.VPN_APP_EXCLUSION_LAUNCH"/>
+    <uses-permission android:name="com.google.android.wildlife.permission.ADVANCED_VPN_CONFIG"/>
+    <uses-permission android:name="com.google.android.apps.scone.speedboost.settings.READ_PREFERENCES"/>
+    <uses-permission android:name="android.permission.MANAGE_USERS"/>
+    <permission android:name="com.android.settings.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.android.settings.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <queries>
+        <intent>
+            <action android:name="com.android.setupwizard.action.PARTNER_CUSTOMIZATION"/>
+        </intent>
+    </queries>
+
     <application
             android:name=".SettingsApplication"
             android:label="@string/settings_label"
@@ -1485,6 +1510,27 @@
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                        android:value="com.android.settings.deviceinfo.aboutphone.MyDeviceInfoFragment" />
+            <meta-data android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
+                       android:value="@string/menu_key_about_device"/>
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                       android:value="true" />
+        </activity>
+        
+        <activity android:name=".Settings$FirmwareVersionActivity"
+                  android:label="@string/firmware_version"
+                  android:exported="true"
+                  android:icon="@drawable/ic_homepage_about">
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.DEVICE_INFO_SETTINGS" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter android:priority="71">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                       android:value="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings" />
             <meta-data android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
                        android:value="@string/menu_key_about_device"/>
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
