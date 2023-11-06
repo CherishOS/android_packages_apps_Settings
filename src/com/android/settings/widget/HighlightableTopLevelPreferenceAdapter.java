@@ -90,24 +90,6 @@ public class HighlightableTopLevelPreferenceAdapter extends PreferenceGroupAdapt
     public void onBindViewHolder(PreferenceViewHolder holder, int position) {
         super.onBindViewHolder(holder, position);
         mViewHolders.put(position, holder);
-        updateBackground(holder, position);
-    }
-
-    @VisibleForTesting
-    void updateBackground(PreferenceViewHolder holder, int position) {
-        if (!isHighlightNeeded()) {
-            removeHighlightBackground(holder);
-            return;
-        }
-
-        if (position == mHighlightPosition
-                && mHighlightKey != null
-                && TextUtils.equals(mHighlightKey, getItem(position).getKey())) {
-            // This position should be highlighted.
-            addHighlightBackground(holder);
-        } else {
-            removeHighlightBackground(holder);
-        }
     }
 
     /**
