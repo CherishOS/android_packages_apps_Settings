@@ -4,4 +4,6 @@
 	<!-- Density category -->
     <string name="density_category">Density options</string>
 
+    <!-- Fingerprint -->
+    <bool name="config_is_front_facing_fps" translatable="false">false</bool>
 </resources>
