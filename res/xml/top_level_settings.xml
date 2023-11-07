@@ -43,10 +43,19 @@
         settings:controller="com.android.settings.network.TopLevelNetworkEntryPreferenceController"/>
 
     <com.android.settings.widget.HomepagePreference
+        android:key="top_level_cherish"
+        android:title="@string/cherish_settings_title"
+        android:summary="@string/cherish_settings_summary"
+        android:icon="@drawable/ic_cherish"
+        android:order="-145"
+        android:fragment="com.cherish.settings.CherishSettings"
+		settings:highlightableMenuKey="@string/menu_key_cherish"/>
+
+    <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.communal.CommunalDashboardFragment"
         android:icon="@drawable/ia_settings_communal"
         android:key="top_level_communal"
-        android:order="-145"
+        android:order="-140"
         android:title="@string/communal_settings_title"
         android:summary="@string/communal_settings_summary"
         settings:highlightableMenuKey="@string/menu_key_communal"
@@ -56,7 +65,7 @@
         android:fragment="com.android.settings.connecteddevice.ConnectedDeviceDashboardFragment"
         android:icon="@drawable/ic_devices_other"
         android:key="top_level_connected_devices"
-        android:order="-140"
+        android:order="-135"
         android:title="@string/connected_devices_dashboard_title"
         android:summary="@string/connected_devices_dashboard_default_summary"
         settings:highlightableMenuKey="@string/menu_key_connected_devices"
@@ -70,15 +79,6 @@
         android:title="@string/apps_dashboard_title"
         android:summary="@string/app_and_notification_dashboard_summary"
         settings:highlightableMenuKey="@string/menu_key_apps"/>
-		
-	<com.android.settings.widget.HomepagePreference
-        android:key="top_level_cherish"
-        android:title="@string/cherish_settings_title"
-        android:summary="@string/cherish_settings_summary"
-        android:icon="@drawable/ic_cherish"
-        android:order="-125"
-        android:fragment="com.cherish.settings.CherishSettings"
-		settings:highlightableMenuKey="@string/menu_key_cherish"/>
 
     <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.notification.ConfigureNotificationSettings"
@@ -88,26 +88,6 @@
         android:title="@string/configure_notification_settings"
         android:summary="@string/notification_dashboard_summary"
         settings:highlightableMenuKey="@string/menu_key_notifications"/>
-
-    <com.android.settings.widget.HomepagePreference
-        android:fragment="com.android.settings.fuelgauge.batteryusage.PowerUsageSummary"
-        android:icon="@drawable/ic_settings_battery_white"
-        android:key="top_level_battery"
-        android:order="-110"
-        android:title="@string/power_usage_summary_title"
-        android:summary="@string/summary_placeholder"
-        settings:highlightableMenuKey="@string/menu_key_battery"
-        settings:controller="com.android.settings.fuelgauge.TopLevelBatteryPreferenceController"/>
-
-    <com.android.settings.widget.HomepagePreference
-        android:fragment="com.android.settings.deviceinfo.StorageDashboardFragment"
-        android:icon="@drawable/ic_storage_white"
-        android:key="top_level_storage"
-        android:order="-100"
-        android:title="@string/storage_settings"
-        android:summary="@string/summary_placeholder"
-        settings:highlightableMenuKey="@string/menu_key_storage"
-        settings:controller="com.android.settings.deviceinfo.TopLevelStoragePreferenceController"/>
 
     <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.notification.SoundSettings"

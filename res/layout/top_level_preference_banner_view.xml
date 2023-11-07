@@ -22,7 +22,7 @@
         app:cardElevation="2dp"
         app:cardCornerRadius="32dp">
       
-        <com.android.settings.preferences.ui.WallpaperView
+        <com.android.settings.preferences.ui.WallpaperBlurView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"

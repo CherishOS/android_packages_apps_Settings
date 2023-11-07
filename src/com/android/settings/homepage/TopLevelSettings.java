@@ -238,7 +238,7 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
             systemIcon.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    launchComponent("com.android.settings", "com.android.settings.Settings$SystemDashboardActivity");
+                    launchComponent("com.android.settings", "com.android.settings.Settings$MyDeviceInfoActivity");
                 }
             });
 
@@ -255,7 +255,7 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
             systemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    launchComponent("com.android.settings", "com.android.settings.Settings$SystemDashboardActivity");
+                    launchComponent("com.android.settings", "com.android.settings.Settings$MyDeviceInfoActivity");
                 }
             });
             final View storageView = widgetPreference.findViewById(R.id.storage_widget);
