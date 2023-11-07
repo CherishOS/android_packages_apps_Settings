@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-    android:background="@drawable/custom_preference_background"
+    android:background="@drawable/custom_single_background"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:layout_marginStart="@dimen/card_margin_start_aqua"

@@ -25,7 +25,8 @@
     </style>
     
     <style name="op_control_text_style_h6" parent="@style/op_control_text_style_base">
-        <item name="android:textSize">18.0sp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/system_accent1_400</item>
         <item name="android:fontFamily">@*android:string/config_headlineFontFamilyMedium</item>
     </style>
 </resources>

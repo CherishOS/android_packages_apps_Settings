@@ -45,10 +45,10 @@
 
     <TextView
         android:id="@+id/homepage_title"
-        android:textColor="@color/op_control_text_color_primary"
+        android:textColor="@android:color/system_accent1_400"
         style="@style/op_control_text_style_h6"
         android:layout_marginBottom="9dp"
-        android:textSize="24sp"
+        android:textSize="26sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
