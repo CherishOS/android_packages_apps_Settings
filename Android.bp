@@ -117,6 +117,7 @@ android_library {
         "SystemUIUnfoldLib",
         "SettingsLibMainSwitchPreference",
         "vendor.lineage.trust-V1.0-java",
+        "SettingsGoogle-lib",
     ],
 
     plugins: ["androidx.room_room-compiler-plugin"],

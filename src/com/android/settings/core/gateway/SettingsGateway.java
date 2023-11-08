@@ -200,6 +200,8 @@ import com.cherish.settings.fragments.SmartPixels;
 
 import ink.kscope.settings.wifi.tether.WifiTetherClientManager;
 
+import com.google.android.settings.security.SecurityHubDashboard;
+
 public class SettingsGateway {
 
     /**
@@ -384,6 +386,7 @@ public class SettingsGateway {
             BatteryInfoFragment.class.getName(),
             UserAspectRatioDetails.class.getName(),
             CherishSettings.class.getName(),
+            SecurityHubDashboard.class.getName(),
             SmartPixels.class.getName(),
             WifiTetherClientManager.class.getName()
     };
