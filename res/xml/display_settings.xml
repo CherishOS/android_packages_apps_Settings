@@ -202,8 +202,7 @@
             android:key="proximity_on_wake"
             android:title="@string/proximity_wake_title"
             android:summary="@string/proximity_wake_summary"
-            android:defaultValue="@*android:bool/config_proximityCheckOnWakeEnabledByDefault"
-            settings:requiresConfig="@*android:bool/config_proximityCheckOnWake" />
+            android:defaultValue="@*android:bool/config_proximityCheckOnWakeEnabledByDefault" />
 
         <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="high_touch_polling_rate_enable"
