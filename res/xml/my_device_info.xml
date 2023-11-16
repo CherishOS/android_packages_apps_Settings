@@ -62,46 +62,43 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:key="basic_info_category"
+        android:key="device_detail_category"
         android:selectable="false"
-        android:title="@string/my_device_info_basic_info_category_title">
+        android:title="@string/my_device_info_device_details_category_title">
 
         <!-- Device name -->
         <com.android.settings.widget.ValidatedEditTextPreference
             android:key="device_name"
-            android:order="1"
+            android:order="15"
             android:icon="@drawable/ic_smartphone"
+            settings:position="top"
             android:title="@string/my_device_info_device_name_preference_title"
             android:summary="@string/summary_placeholder"
             settings:controller="com.android.settings.deviceinfo.DeviceNamePreferenceController"
             settings:enableCopying="true"/>
 
+        <!-- Model & hardware -->
+        <com.android.settings.preferences.ui.AdaptivePreference
+            android:key="device_model"
+            android:order="16"
+            android:title="@string/model_info"
+            android:icon="@drawable/ic_smartphone"
+            settings:position="middle"
+            android:summary="@string/summary_placeholder"
+            android:fragment="com.android.settings.deviceinfo.hardwareinfo.HardwareInfoFragment"
+            settings:enableCopying="true"
+            settings:keywords="@string/keywords_model_and_hardware"
+            settings:controller="com.android.settings.deviceinfo.HardwareInfoPreferenceController"/>
+
         <!-- Account name -->
         <Preference
             android:key="branded_account"
-            android:order="2"
+            android:order="17"
             android:icon="@drawable/ic_branded_account"
             android:title="@string/my_device_info_account_preference_title"
             android:summary="@string/summary_placeholder"
             settings:enableCopying="true"
             settings:controller="com.android.settings.deviceinfo.BrandedAccountPreferenceController"/>
-
-        <!-- Phone number
-        <com.android.settings.deviceinfo.PhoneNumberSummaryPreference
-            android:key="phone_number"
-            android:order="3"
-            android:title="@string/status_number"
-            android:icon="@drawable/ic_numbers"
-            android:summary="@string/summary_placeholder"
-            settings:isPreferenceVisible="@bool/config_show_sim_info"
-            settings:controller="com.android.settings.deviceinfo.PhoneNumberPreferenceController"
-            settings:enableCopying="true"/ -->
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:key="device_detail_category"
-        android:selectable="false"
-        android:title="@string/my_device_info_device_details_category_title">
 
         <!-- SIM status -->
         <com.android.settings.preferences.ui.AdaptivePreference
@@ -112,21 +109,7 @@
             settings:keywords="@string/keywords_sim_status"
             android:summary="@string/summary_placeholder"
             settings:isPreferenceVisible="@bool/config_show_sim_info"
-            settings:position="top"
             settings:controller="com.android.settings.deviceinfo.simstatus.SimStatusPreferenceController"/>
-
-        <!-- Model & hardware -->
-        <com.android.settings.preferences.ui.AdaptivePreference
-            android:key="device_model"
-            android:order="30"
-            android:title="@string/model_info"
-            android:icon="@drawable/ic_smartphone"
-            settings:position="middle"
-            android:summary="@string/summary_placeholder"
-            android:fragment="com.android.settings.deviceinfo.hardwareinfo.HardwareInfoFragment"
-            settings:enableCopying="true"
-            settings:keywords="@string/keywords_model_and_hardware"
-            settings:controller="com.android.settings.deviceinfo.HardwareInfoPreferenceController"/>
 
         <!-- EID -->
         <com.android.settings.network.telephony.TelephonyPreferenceDialog
