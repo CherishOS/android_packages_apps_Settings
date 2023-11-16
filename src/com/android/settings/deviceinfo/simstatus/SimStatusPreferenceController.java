@@ -110,10 +110,10 @@ public class SimStatusPreferenceController extends BasePreferenceController {
             multiSimPreference.setIcon(R.drawable.ic_sim_card);
             TelephonyManager mTelephonyManager = mContext.getSystemService(TelephonyManager.class);
             if (mTelephonyManager.getPhoneCount() < 2) {
-                multiSimPreference.setLayoutResource(R.layout.top_level_preference_top_card);
+                multiSimPreference.setLayoutResource(R.layout.top_level_preference_middle_card);
             } else {
                 if (simSlotNumber == 0) {
-                    multiSimPreference.setLayoutResource(R.layout.top_level_preference_top_card);
+                    multiSimPreference.setLayoutResource(R.layout.top_level_preference_middle_card);
                 } else {
                     multiSimPreference.setLayoutResource(R.layout.top_level_preference_middle_card);
                 }
