@@ -67,21 +67,6 @@
                 android:textSize="18sp" />
                 
             <TextView
-                android:id="@+id/device_chipset"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:layout_marginStart="36dp"
-                android:drawableLeft="@drawable/ic_device_info_chipset_wrapper"
-                android:drawablePadding="8dp"
-                android:layout_below="@+id/device_battery_capacity"
-                style="@style/mtx_text_style_h6"
-                android:layout_alignParentStart="true"
-                android:textColor="#FFFFFF"
-                android:text="5000mah"
-                android:textSize="18sp" />
-
-            <TextView
                 android:id="@+id/device_resolution"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -99,20 +84,18 @@
                 android:textSize="18sp" />
                 
             <TextView
-                android:id="@+id/device_storage"
+                android:id="@+id/device_chipset"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:layout_marginEnd="36dp"
-                android:drawableLeft="@drawable/ic_device_info_storage_wrapper"
+                android:layout_marginBottom="36dp"
+                android:drawableLeft="@drawable/ic_device_info_chipset_wrapper"
+                android:drawable="@drawable/ic_device_info_chipset_wrapper"
                 android:drawablePadding="8dp"
-                android:layout_below="@+id/device_resolution"
                 style="@style/mtx_text_style_h6"
-                android:layout_alignParentEnd="true"
-                android:textAlignment="viewStart"
-                android:gravity="start"
+                android:layout_centerHorizontal="true"                
+                android:layout_alignParentBottom="true"                
                 android:textColor="#FFFFFF"
-                android:text="5000mah"
+                android:text="Snapdragon"
                 android:textSize="18sp" />
 
         </RelativeLayout>
