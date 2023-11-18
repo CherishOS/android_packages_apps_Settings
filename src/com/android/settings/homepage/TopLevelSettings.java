@@ -25,18 +25,21 @@ import android.content.Context;
 import android.content.ComponentName;
 import android.content.Intent;
 import android.content.res.Configuration;
+import android.content.pm.UserInfo;
 import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.UserHandle;
 import android.os.UserManager;
+import android.provider.Settings;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.annotation.VisibleForTesting;
 import androidx.core.content.ContextCompat;
@@ -70,6 +73,8 @@ import com.android.settingslib.widget.LayoutPreference;
 import java.util.Set;
 import java.util.HashSet;
 import java.util.Arrays;
+import java.util.Calendar;
+import java.util.Random;
 
 @SearchIndexable(forTarget = MOBILE)
 public class TopLevelSettings extends DashboardFragment implements SplitLayoutListener,
@@ -188,11 +193,16 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
     }
 
     private void initHomepageWidgetsView() {
+        final FragmentActivity activity = getActivity();
         final LayoutPreference bannerPreference =
                         (LayoutPreference) getPreferenceScreen().findPreference("top_level_homepage_banner_view");
         final LayoutPreference widgetPreference =
                         (LayoutPreference) getPreferenceScreen().findPreference("top_level_homepage_widgets");
-        if (bannerPreference != null) {
+        final LayoutPreference searchWidgetPreference =
+                        (LayoutPreference) getPreferenceScreen().findPreference("top_level_search_widget");
+        final boolean enableHomepageWidgets = Settings.System.getIntForUser(getContext().getContentResolver(),
+                "settings_homepage_widgets", 0, UserHandle.USER_CURRENT) != 0;
+        if (bannerPreference != null && enableHomepageWidgets) {
             final ImageView avatarView = bannerPreference.findViewById(R.id.account_avatar);
             avatarView.setImageDrawable(getCircularUserIcon(getActivity()));
             avatarView.bringToFront();
@@ -217,7 +227,7 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
                 }
             });
         }
-        if (widgetPreference != null) {
+        if (widgetPreference != null && enableHomepageWidgets) {
             // widgets elements
             final ImageView searchIcon = widgetPreference.findViewById(R.id.search_widget_icon);
             final ImageView systemIcon = widgetPreference.findViewById(R.id.system_widget_icon);
@@ -253,9 +263,27 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
                     launchComponent("com.android.settings", "com.android.settings.Settings$StorageDashboardActivity");
                 }
             });
-            final FragmentActivity activity = getActivity();
             if (activity != null) {
                 FeatureFactory.getFactory(activity).getSearchFeatureProvider().initSearchToolbar(activity /* activity */, searchView, (View) searchIcon, SettingsEnums.SETTINGS_HOMEPAGE);
+            }
+        } else {
+            if (searchWidgetPreference != null) {
+                final ImageView avatarView = searchWidgetPreference.findViewById(R.id.avatar_widget_icon);
+                avatarView.setImageDrawable(getCircularUserIcon(getActivity()));
+                avatarView.bringToFront();
+                avatarView.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        launchComponent("com.android.settings", "com.android.settings.Settings$UserSettingsActivity");
+                    }
+                });
+                final ImageView searchIcon = searchWidgetPreference.findViewById(R.id.search_widget_icon);
+                final View searchView = searchWidgetPreference.findViewById(R.id.search_widget);
+                final TextView searchTextView = searchWidgetPreference.findViewById(R.id.homepage_search_text);
+                searchIcon.bringToFront();
+                if (activity != null) {
+                    FeatureFactory.getFactory(activity).getSearchFeatureProvider().initSearchToolbar(activity /* activity */, searchView, (View) searchIcon, SettingsEnums.SETTINGS_HOMEPAGE);
+                }
             }
         }
     }
@@ -274,6 +302,13 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
                 (int) context.getResources().getDimension(R.dimen.homepage_user_icon_size));
 
         return drawableUserIcon;
+    }
+
+    private String getOwnerName(){
+        final UserManager mUserManager = getSystemService(UserManager.class);
+        final UserInfo userInfo = com.android.settings.Utils.getExistingUser(mUserManager,
+                    UserHandle.of(UserHandle.myUserId()));
+        return userInfo.name != null ? userInfo.name : getString(R.string.default_user);
     }
 
     private void launchComponent(String packageName, String className) {
@@ -334,6 +369,26 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         super.onCreatePreferences(savedInstanceState, rootKey);
+        final LayoutPreference bannerPreference =
+                        (LayoutPreference) getPreferenceScreen().findPreference("top_level_homepage_banner_view");
+        final LayoutPreference widgetPreference =
+                        (LayoutPreference) getPreferenceScreen().findPreference("top_level_homepage_widgets");
+        final LayoutPreference searchWidgetPreference =
+                        (LayoutPreference) getPreferenceScreen().findPreference("top_level_search_widget");
+        final boolean enableHomepageWidgets = Settings.System.getIntForUser(getContext().getContentResolver(),
+                "settings_homepage_widgets", 0, UserHandle.USER_CURRENT) != 0;
+        if (!enableHomepageWidgets) {
+            if (widgetPreference != null) {
+                getPreferenceScreen().removePreference(widgetPreference);
+            }
+            if (bannerPreference != null) {
+                getPreferenceScreen().removePreference(bannerPreference);
+            }
+        } else {
+            if (searchWidgetPreference != null) {
+                getPreferenceScreen().removePreference(searchWidgetPreference);
+            }
+        }
         int tintColor = Utils.getHomepageIconColor(getContext());
         iteratePreferences(preference -> {
             Drawable icon = preference.getIcon();
@@ -342,7 +397,8 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
             }
             String preferenceKey = preference.getKey();
             if (preferenceKey != null && !("top_level_homepage_widgets".equals(preferenceKey) ||
-                                           "top_level_homepage_banner_view".equals(preferenceKey))) {
+                                           "top_level_homepage_banner_view".equals(preferenceKey)|| 
+                                           "top_level_search_widget".equals(preferenceKey))) {
                 setUpPreferenceLayout(preference);
             }
         });

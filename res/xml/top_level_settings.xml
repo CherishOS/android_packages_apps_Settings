@@ -32,6 +32,12 @@
         android:selectable="false"
         android:order="-170" />
 
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/homepage_search_widget"
+        android:key="top_level_search_widget"
+        android:selectable="false"
+        android:order="-169" />
+
     <com.android.settings.widget.HomepagePreference
         android:key="top_level_cherish"
         android:title="@string/cherish_settings_title"
