@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App details: open play store link if app is user installed -->
-    <string name="app_play_store">Google Play</string>
+    <string name="app_play_store">Obchod Google Play</string>
     <!-- Maintainer -->
     <string name="maintainer">Maintainer</string>
     <!-- About phone screen, Cherish OS version -->
     <string name="cherish_version">Cherish version</string>
-    <string name="cherish_version_default">Unknown</string>
-    <string name="keywords_cherish_version">CherishOS version, cherish version</string>
+    <string name="cherish_version_default">Neznámé</string>
+    <string name="keywords_cherish_version">Verze CherishOS, verze cherish</string>
     <!-- About phone screen, build date -->
-    <string name="about_device_name">Device</string>
-    <string name="build_date">Build date</string>
+    <string name="about_device_name">Zařízení</string>
+    <string name="build_date">Datum sestavení</string>
     <string name="build_date_default">2015-01-01-0000</string>
-    <string name="keywords_build_date">build date, build info</string>
+    <string name="keywords_build_date">datum sestavení, informace o sestavení</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="swipe_to_screenshot_gesture_title">Swipe to screenshot</string>
-    <string name="swipe_to_screenshot_gesture_summary">Swipe three fingers to take screenshot</string>
+    <string name="swipe_to_screenshot_gesture_title">Přejetím pořídit snímek obrazovky</string>
+    <string name="swipe_to_screenshot_gesture_summary">Snímek obrazovky pořídit přejetím tří prstů</string>
     <!-- Charging control settings -->
-    <string name="charging_control_title">Charging control</string>
-    <string name="charging_control_summary">Customize charging schedule and limits for your device</string>
-    <string name="charging_control_enable_title">Enable charging control</string>
-    <string name="charging_control_mode_title">Charging mode</string>
-    <string name="charging_control_mode_auto_title">Automatic schedule</string>
-    <string name="charging_control_mode_auto_summary">Automatically determine when to start charging based on alarms set</string>
-    <string name="charging_control_mode_custom_title">Custom schedule</string>
-    <string name="charging_control_mode_custom_summary">Set a target time to full charge</string>
-    <string name="charging_control_mode_limit_title">Limit charging</string>
-    <string name="charging_control_mode_limit_summary">Limit charging to a certain percentage</string>
-    <string name="charging_control_start_time_title">Start time</string>
-    <string name="charging_control_start_time_summary">Charging control activates when you start charging after %s</string>
-    <string name="charging_control_target_time_title">Target time to full charge</string>
-    <string name="charging_control_target_time_summary">Battery will be fully charged by %s</string>
+    <string name="charging_control_title">Ovládání nabíjení</string>
+    <string name="charging_control_summary">Přizpůsobte si plán nabíjení a limity pro vaše zařízení</string>
+    <string name="charging_control_enable_title">Povolit ovládání nabíjení</string>
+    <string name="charging_control_mode_title">Režim nabíjení</string>
+    <string name="charging_control_mode_auto_title">Automatický plán</string>
+    <string name="charging_control_mode_auto_summary">Automatické určení začátku nabíjení na základě nastavených budíků</string>
+    <string name="charging_control_mode_custom_title">Vlastní plán</string>
+    <string name="charging_control_mode_custom_summary">Nastavit cílový čas do úplného nabití</string>
+    <string name="charging_control_mode_limit_title">Omezit nabíjení</string>
+    <string name="charging_control_mode_limit_summary">Omezit nabíjení na určité procento</string>
+    <string name="charging_control_start_time_title">Čas zahájení</string>
+    <string name="charging_control_start_time_summary">Ovládání nabíjení se aktivuje při zahájení nabíjení po %s</string>
+    <string name="charging_control_target_time_title">Čas do plného nabití</string>
+    <string name="charging_control_target_time_summary">Baterie bude plně nabita do %s</string>
     <string name="charging_control_limit_title">Limit</string>
     <!-- Private DNS -->
     <!-- Alternative: 1dot1dot1dot1.cloudflare-dns.com -->
@@ -43,54 +43,54 @@
     <!-- Quad9 DNS Option -->
     <!-- Quad9 DNS hostname -->
     <!--Cherish Settings-->
-    <string name="cherish_settings_title">Cherish Settings</string>
-    <string name="cherish_settings_summary">Happiness is not available and it comes from your own actions</string>
+    <string name="cherish_settings_title">Nastavení Cherish</string>
+    <string name="cherish_settings_summary">Štěstí není k dispozici a pochází z vašich vlastních činů</string>
     <!-- Increasing ring tone volume -->
-    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
-    <string name="increasing_ring_min_volume_title">Start volume</string>
-    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+    <string name="increasing_ring_volume_option_title">Zvyšující se hlasitost vyzvánění</string>
+    <string name="increasing_ring_min_volume_title">Počáteční hlasitost</string>
+    <string name="increasing_ring_ramp_up_time_title">Doba zesilování</string>
     <!-- Menu option for not validating the EAP server -->
-    <string name="wifi_do_not_validate_eap_server">Do not validate</string>
+    <string name="wifi_do_not_validate_eap_server">Neověřovat</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
-    <string name="wifi_do_not_validate_eap_server_warning">No certificate specified. Your connection will not be private.</string>
+    <string name="wifi_do_not_validate_eap_server_warning">Není určen žádný certifikát. Připojení nebude soukromé.</string>
     <!-- Refresh rate -->
-    <string name="min_refresh_rate_title">Minimum refresh rate</string>
-    <string name="max_refresh_rate_title">Maximum refresh rate</string>
-    <string name="low_power_refresh_rate_title_custom">Low power refresh rate</string>
+    <string name="min_refresh_rate_title">Minimální obnovovací frekvence</string>
+    <string name="max_refresh_rate_title">Maximální obnovovací frekvence</string>
+    <string name="low_power_refresh_rate_title_custom">Úsporná obnovovací frekvence</string>
     <!-- PIN scramble -->
-    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <string name="unlock_scramble_pin_layout_title">Zamíchat rozložení</string>
+    <string name="unlock_scramble_pin_layout_summary">Rozházet rozložení pro zadání PINu při odemykání zařízení</string>
     <!-- Force LTE_CA -->
-    <string name="force_lte_ca">Force LTE CA</string>
-    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <string name="force_lte_ca">Vynutit LTE CA</string>
+    <string name="force_lte_ca_summary">Vynutit práci LTE agregaci operátora</string>
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
-    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status">Stav zabezpečení SELinux</string>
     <!-- These statuses are displayed when a device was built with SE Android supoprt.
     These are displayed by the settings app in the about section. -->
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status_disabled">Deaktivován</string>
+    <string name="selinux_status_permissive">Mírný</string>
+    <string name="selinux_status_enforcing">Vynucený</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the front of your phone.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear">Locate the fingerprint sensor on the back of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Vyhledejte snímač otisků prstů na přední straně telefonu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">Vyhledejte snímač otisků prstů na zadní straně telefonu.</string>
     <string name="fingerprint_enroll_find_sensor_message_side">Locate the fingerprint sensor on the side of your phone.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
-    <string name="fingerprint_enroll_touch_dialog_message_front">Touch the sensor on the front of your phone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear">Touch the sensor on the back of your phone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side">Touch the sensor on the side of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">Dotkněte se senzoru na přední straně telefonu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Dotkněte se senzoru na zadní straně telefonu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Dotkněte se senzoru na boční straně telefonu.</string>
     <!-- Hotspot extras -->
-    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <string name="tethering_allow_vpn_upstreams_title">Umožnit klientům používat VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Povolit klientům hotspotu používat připojení VPN tohoto zařízení pro odchozí připojení</string>
     <!-- Navigation bar hint -->
-    <string name="navbar_category">Navigation bar</string>
-    <string name="hide_navbar_gesture_bar_title">Hide gesture bar</string>
-    <string name="hide_navbar_gesture_bar_summary">Hide the gesture bar at the bottom of the screen</string>
+    <string name="navbar_category">Navigační lišta</string>
+    <string name="hide_navbar_gesture_bar_title">Skrýt lištu gest</string>
+    <string name="hide_navbar_gesture_bar_summary">Skrýt lištu gest v dolní části obrazovky</string>
     <!-- Battery Temperature -->
-    <string name="battery_temp">Battery temperature</string>
+    <string name="battery_temp">Teplota baterie</string>
     <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+    <string name="screenshot_shutter_sound_title">Zvuk při pořizování snímku obrazovky</string>
     <!-- Restrict USB -->
-    <string name="trust_restrict_usb_title">Restrict USB</string>
+    <string name="trust_restrict_usb_title">Omezit USB</string>
     <string name="trust_restrict_usb_summary">Control support for USB peripherals such as input (mice, keyboards, joysticks) and storage devices.</string>
     <string name="trust_restrict_usb_always">Deny USB connections</string>
     <string name="trust_restrict_usb_keyguard">Allow USB connections when unlocked</string>
