@@ -329,39 +329,7 @@
     <!-- Smart 5G -->
     <string name="smart_5g_title">Розумний 5G</string>
     <string name="smart_5g_summary">Автоматичне перемикання між 5G та 4G, щоб забезпечити зменшене споживання заряду акумулятора</string>
-    <!-- Wifi/Bluetooth auto timeout -->
-    <string name="wifi_timeout">Час очікування Wi-Fi</string>
-    <string name="wifi_timeout_summary">Не вимикати WiFi автоматично</string>
-    <string name="wifi_timeout_summary_auto">Wi-Fi вимкнеться, після <xliff:g id="timeout_description">%1$s</xliff:g> якщо мережа не підключена</string>
-    <string name="bluetooth_timeout">Час очікування Bluetooth</string>
-    <string name="bluetooth_timeout_summary">Не вимикати Bluetooth автоматично</string>
-    <string name="bluetooth_timeout_summary_auto">Bluetooth буде вимкнено після <xliff:g id="timeout_description">%1$s</xliff:g> якщо пристрої не під\'єднані</string>
-    <string name="custom_timeout_summary_never">Ніколи</string>
-    <string name="custom_timeout_summary_5secs">5 секунд</string>
-    <string name="custom_timeout_summary_10secs">10 секунд</string>
-    <string name="custom_timeout_summary_15secs">15 секунд</string>
-    <string name="custom_timeout_summary_30secs">30 секунд</string>
-    <string name="custom_timeout_summary_1min">1 хвилина</string>
-    <string name="custom_timeout_summary_2mins">2 хвилини</string>
-    <string name="custom_timeout_summary_5mins">5 хвилин</string>
-    <string name="custom_timeout_summary_10mins">10 хвилин</string>
-    <string name="custom_timeout_summary_20mins">20 хвилин</string>
-    <string name="custom_timeout_summary_30mins">30 хвилин</string>
-    <string name="custom_timeout_summary_1hour">1 година</string>
-    <string name="custom_timeout_summary_2hours">2 години</string>
-    <string name="custom_timeout_summary_4hours">4 години</string>
-    <string name="custom_timeout_summary_8hours">8 годин</string>
-    <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Дозволити доступ до мережі</string>
-    <string name="data_usage_app_restrict_all_summary">Увімкнути використання передачі даних</string>
-    <string name="data_usage_app_restrict_mobile">Мобільні дані</string>
-    <string name="data_usage_app_restrict_mobile_summary">Увімкнути використання мобільних даних</string>
-    <string name="data_usage_app_restrict_vpn">Дані VPN</string>
-    <string name="data_usage_app_restrict_vpn_summary">Увімкнути використання даних VPN</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi данні</string>
-    <string name="data_usage_app_restrict_wifi_summary">Увімкнути використання Wi\u2011Fi даних</string>
-    <!-- Location settings screen, setting check box label if Assisted GPS should be enabled -->
-    <string name="assisted_gps">Використ. A-GPS</string>
-    <!-- Location settings screen, setting summary for Assisted GPS switch -->
-    <string name="assisted_gps_summary">Завантажте дані допомоги супутникам з інтернету, які можуть значно пришвидшити запуск GPS. Для екстрених викликів завжди дозволено використовувати допоміжний GPS.</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Use black theme</string>
+    <string name="system_black_theme_summary">Force black background colors</string>
 </resources>
