@@ -329,39 +329,7 @@
     <!-- Smart 5G -->
     <string name="smart_5g_title">Smart 5G</string>
     <string name="smart_5g_summary">Automatically switch between 5G and 4G to reduce battery consumption</string>
-    <!-- Wifi/Bluetooth auto timeout -->
-    <string name="wifi_timeout">WiFi timeout</string>
-    <string name="wifi_timeout_summary">Do not automatically turn off WiFi</string>
-    <string name="wifi_timeout_summary_auto">WiFi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
-    <string name="bluetooth_timeout">Bluetooth timeout</string>
-    <string name="bluetooth_timeout_summary">Do not automatically turn off Bluetooth</string>
-    <string name="bluetooth_timeout_summary_auto">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
-    <string name="custom_timeout_summary_never">なし</string>
-    <string name="custom_timeout_summary_5secs">5秒</string>
-    <string name="custom_timeout_summary_10secs">10秒</string>
-    <string name="custom_timeout_summary_15secs">15秒</string>
-    <string name="custom_timeout_summary_30secs">30秒</string>
-    <string name="custom_timeout_summary_1min">1分</string>
-    <string name="custom_timeout_summary_2mins">2分</string>
-    <string name="custom_timeout_summary_5mins">5分</string>
-    <string name="custom_timeout_summary_10mins">10分</string>
-    <string name="custom_timeout_summary_20mins">20分</string>
-    <string name="custom_timeout_summary_30mins">30分</string>
-    <string name="custom_timeout_summary_1hour">1時間</string>
-    <string name="custom_timeout_summary_2hours">2時間</string>
-    <string name="custom_timeout_summary_4hours">4時間</string>
-    <string name="custom_timeout_summary_8hours">8時間</string>
-    <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_all">Allow network access</string>
-    <string name="data_usage_app_restrict_all_summary">Enable network usage</string>
-    <string name="data_usage_app_restrict_mobile">Mobile data</string>
-    <string name="data_usage_app_restrict_mobile_summary">Enable usage of mobile data</string>
-    <string name="data_usage_app_restrict_vpn">VPN data</string>
-    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
-    <!-- Location settings screen, setting check box label if Assisted GPS should be enabled -->
-    <string name="assisted_gps">Use assisted GPS</string>
-    <!-- Location settings screen, setting summary for Assisted GPS switch -->
-    <string name="assisted_gps_summary">Download satellite assistance data from the internet which can greatly improve the GPS startup performance. For emergency calls, assisted GPS is always allowed.</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Use black theme</string>
+    <string name="system_black_theme_summary">Force black background colors</string>
 </resources>
