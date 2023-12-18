@@ -17,21 +17,21 @@
     <string name="swipe_to_screenshot_gesture_title">Deslize para capturar a tela</string>
     <string name="swipe_to_screenshot_gesture_summary">Deslize três dedos para a captura da tela</string>
     <!-- Charging control settings -->
-    <string name="charging_control_title">Charging control</string>
-    <string name="charging_control_summary">Customize charging schedule and limits for your device</string>
-    <string name="charging_control_enable_title">Enable charging control</string>
-    <string name="charging_control_mode_title">Charging mode</string>
-    <string name="charging_control_mode_auto_title">Automatic schedule</string>
-    <string name="charging_control_mode_auto_summary">Automatically determine when to start charging based on alarms set</string>
-    <string name="charging_control_mode_custom_title">Custom schedule</string>
-    <string name="charging_control_mode_custom_summary">Set a target time to full charge</string>
-    <string name="charging_control_mode_limit_title">Limit charging</string>
-    <string name="charging_control_mode_limit_summary">Limit charging to a certain percentage</string>
-    <string name="charging_control_start_time_title">Start time</string>
-    <string name="charging_control_start_time_summary">Charging control activates when you start charging after %s</string>
-    <string name="charging_control_target_time_title">Target time to full charge</string>
-    <string name="charging_control_target_time_summary">Battery will be fully charged by %s</string>
-    <string name="charging_control_limit_title">Limit</string>
+    <string name="charging_control_title">Controle de carregamento</string>
+    <string name="charging_control_summary">Personalize o cronograma e os limites de carregamento do seu dispositivo</string>
+    <string name="charging_control_enable_title">Habilitar controle de carregamento</string>
+    <string name="charging_control_mode_title">Modo de carregamento</string>
+    <string name="charging_control_mode_auto_title">Agendamento automático</string>
+    <string name="charging_control_mode_auto_summary">Determinar automaticamente quando iniciar o carregamento com base nos alarmes definidos</string>
+    <string name="charging_control_mode_custom_title">Cronograma personalizado</string>
+    <string name="charging_control_mode_custom_summary">Defina um tempo para iniciar a carga completa</string>
+    <string name="charging_control_mode_limit_title">Limitar o carregamento</string>
+    <string name="charging_control_mode_limit_summary">Pausar a carga ao atingir determinada porcentagem</string>
+    <string name="charging_control_start_time_title">Hora de início</string>
+    <string name="charging_control_start_time_summary">O controle de carga é ativado quando você começa a carregar após %s</string>
+    <string name="charging_control_target_time_title">Defina um alvo de tempo para a carga completa</string>
+    <string name="charging_control_target_time_summary">A bateria estará totalmente carregada em %s</string>
+    <string name="charging_control_limit_title">Limite</string>
     <!-- Private DNS -->
     <!-- Alternative: 1dot1dot1dot1.cloudflare-dns.com -->
     <!-- AdGuard DNS Option -->
@@ -50,7 +50,7 @@
     <string name="increasing_ring_min_volume_title">Volume inicial</string>
     <string name="increasing_ring_ramp_up_time_title">Intervalo de aumento</string>
     <!-- Menu option for not validating the EAP server -->
-    <string name="wifi_do_not_validate_eap_server">Do not validate</string>
+    <string name="wifi_do_not_validate_eap_server">Não validar</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Nenhum certificado especificado. Sua conexão não será particular.</string>
     <!-- Refresh rate -->
@@ -83,18 +83,18 @@
     <string name="tethering_allow_vpn_upstreams_summary">Permitir que os clientes utilizem a conexão deste dispositivo\u2019s para se conectar a VPN</string>
     <!-- Navigation bar hint -->
     <string name="navbar_category">Barra de navegação</string>
-    <string name="hide_navbar_gesture_bar_title">Hide gesture bar</string>
-    <string name="hide_navbar_gesture_bar_summary">Hide the gesture bar at the bottom of the screen</string>
+    <string name="hide_navbar_gesture_bar_title">Ocultar barra de gestos</string>
+    <string name="hide_navbar_gesture_bar_summary">Ocultar a barra de gestos na parte inferior da tela</string>
     <!-- Battery Temperature -->
     <string name="battery_temp">Temperatura da bateria</string>
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Som de captura de tela</string>
     <!-- Restrict USB -->
-    <string name="trust_restrict_usb_title">Restrict USB</string>
-    <string name="trust_restrict_usb_summary">Control support for USB peripherals such as input (mice, keyboards, joysticks) and storage devices.</string>
-    <string name="trust_restrict_usb_always">Deny USB connections</string>
-    <string name="trust_restrict_usb_keyguard">Allow USB connections when unlocked</string>
-    <string name="trust_restrict_usb_disabled">Always allow USB connections</string>
+    <string name="trust_restrict_usb_title">Restringir USB</string>
+    <string name="trust_restrict_usb_summary">Controlar o suporte para periferias USB como entrada (microfone, teclados, joysticks) e dispositivos de armazenamento.</string>
+    <string name="trust_restrict_usb_always">Negar conexões USB</string>
+    <string name="trust_restrict_usb_keyguard">Permitir conexões USB quando desbloqueado</string>
+    <string name="trust_restrict_usb_disabled">Sempre permitir conexões USB</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Tela ambiente durante o carregamento</string>
     <string name="doze_on_charge_summary">Mostrar tela ambiente durante o carregamento</string>
@@ -111,22 +111,22 @@
     <string name="high_touch_polling_rate_title">Alta taxa de sondagem de toque</string>
     <string name="high_touch_polling_rate_summary">Aumentar a taxa de consulta da tela</string>
     <!-- Warning message for the sd card setup -->
-    <string name="storage_warning_internal">Warning: This option may not work properly or lead to data loss and is therefore not recommended!</string>
+    <string name="storage_warning_internal">Aviso: Esta opção pode não funcionar corretamente ou levar à perda de dados, portanto, não é recomendada!</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title" product="default">Long press on fingerprint sensor to unlock phone</string>
+    <string name="ambient_display_screen_off_udfps_title" product="default">Pressione e segure o sensor de impressão digital para desbloquear o telefone</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title" product="tablet">Long press on fingerprint sensor to unlock tablet</string>
+    <string name="ambient_display_screen_off_udfps_title" product="tablet">Pressione e segure o sensor de impressão digital para desbloquear o tablet</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title" product="device">Long press on fingerprint sensor to unlock device</string>
+    <string name="ambient_display_screen_off_udfps_title" product="device">Pressione e segure o sensor de impressão digital para desbloquear o dispositivo</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
-    <string name="ambient_display_screen_off_udfps_summary">To wake up your screen and unlock, long press your under-display fingerprint sensor.</string>
+    <string name="ambient_display_screen_off_udfps_summary">Para ativar sua tela e desbloquear, pressione e segure o sensor de impressão digital sob a tela.</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
-    <string name="sim_card_number_title">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
+    <string name="sim_card_number_title">Cartão SIM <xliff:g id="card_number">%1$d</xliff:g></string>
     <!-- Game space -->
     <string name="game_space_title">Espaço de Jogo</string>
     <string name="game_space_summary">Melhore sua experiência em jogos</string>
     <!-- LiveDisplay -->
-    <string name="advanced">Advanced</string>
+    <string name="advanced">Avançado</string>
     <string name="live_display_summary">Otimiza sua tela com base na hora do dia e nas condições do ambiente para melhorar a legibilidade e reduzir o cansaço visual</string>
     <string name="live_display_mode">Modo de exibição</string>
     <string name="live_display_color_temperature_title">Temperatura da cor</string>
@@ -180,68 +180,68 @@
     <string name="adj_intensity_title">Intensidade</string>
     <string name="adj_contrast_title">Contraste</string>
     <!-- Notification channels -->
-    <string name="channel_light_settings_name">Light settings preview</string>
+    <string name="channel_light_settings_name">Pré-visualização das configurações de luz</string>
     <!-- Notification light dialogs -->
-    <string name="edit_light_settings">Edit light settings</string>
-    <string name="pulse_speed_title">Pulse length and speed</string>
+    <string name="edit_light_settings">Editar configurações de luz</string>
+    <string name="pulse_speed_title">Duração e velocidade do pulso</string>
     <string name="default_time">Normal</string>
-    <string name="custom_time">Custom</string>
-    <string name="dialog_delete_title">Delete</string>
-    <string name="dialog_delete_message">Remove selected item?</string>
-    <string name="brightness">Brightness level</string>
-    <string name="choose_app">Choose app</string>
+    <string name="custom_time">Personalizada</string>
+    <string name="dialog_delete_title">Excluir</string>
+    <string name="dialog_delete_message">Remover ítem selecionado?</string>
+    <string name="brightness">Nível de brilho</string>
+    <string name="choose_app">Escolher aplicativo</string>
     <!-- Values for the notification light pulse spinners -->
-    <string name="pulse_length_always_on">Always on</string>
-    <string name="pulse_length_very_short">Very short</string>
-    <string name="pulse_length_short">Short</string>
+    <string name="pulse_length_always_on">Sempre ligado</string>
+    <string name="pulse_length_very_short">Muito curto</string>
+    <string name="pulse_length_short">Curto</string>
     <string name="pulse_length_normal">Normal</string>
-    <string name="pulse_length_long">Long</string>
-    <string name="pulse_length_very_long">Very long</string>
-    <string name="pulse_speed_very_fast">Very fast</string>
-    <string name="pulse_speed_fast">Fast</string>
+    <string name="pulse_length_long">Longo</string>
+    <string name="pulse_length_very_long">Muito longo</string>
+    <string name="pulse_speed_very_fast">Muito rápido</string>
+    <string name="pulse_speed_fast">Rápido</string>
     <string name="pulse_speed_normal">Normal</string>
-    <string name="pulse_speed_slow">Slow</string>
-    <string name="pulse_speed_very_slow">Very slow</string>
+    <string name="pulse_speed_slow">Lento</string>
+    <string name="pulse_speed_very_slow">Muito lento</string>
     <!-- Common light settings strings -->
-    <string name="light_brightness_title">Brightness levels</string>
+    <string name="light_brightness_title">Níveis de brilho</string>
     <string name="light_brightness_normal">Normal</string>
-    <string name="light_brightness_zen">Do Not Disturb</string>
+    <string name="light_brightness_zen">Não perturbe</string>
     <!-- Battery light settings -->
-    <string name="battery_light_title">Battery light</string>
-    <string name="battery_light_summary">Customize battery charging light behaviour</string>
-    <string name="battery_light_enable_title">Enable battery light</string>
-    <string name="battery_low_pulse_title">Pulse if battery low</string>
-    <string name="battery_light_full_charge_disabled_title">Turn off when fully charged</string>
-    <string name="battery_light_list_title">Colors</string>
-    <string name="battery_light_low_color_title">Battery low</string>
-    <string name="battery_light_medium_color_title">Charging</string>
-    <string name="battery_light_full_color_title">Fully charged</string>
+    <string name="battery_light_title">Luz da Bateria</string>
+    <string name="battery_light_summary">Personalizar comportamento da luz de carregamento da bateria</string>
+    <string name="battery_light_enable_title">Ativar luz da bateria</string>
+    <string name="battery_low_pulse_title">Pulsar se a bateria estiver fraca</string>
+    <string name="battery_light_full_charge_disabled_title">Desativar quando a carga estiver completa</string>
+    <string name="battery_light_list_title">Cores</string>
+    <string name="battery_light_low_color_title">Bateria fraca</string>
+    <string name="battery_light_medium_color_title">Carregando</string>
+    <string name="battery_light_full_color_title">Totalmente carregada</string>
     <!-- Lights settings screen, notification light settings -->
-    <string name="notification_light_title">Notification light</string>
-    <string name="notification_light_summary">Customize Notification light behaviour</string>
-    <string name="notification_light_enable_title">Enable notification light</string>
-    <string name="notification_light_general_title">General</string>
-    <string name="notification_light_advanced_title">Advanced</string>
-    <string name="notification_light_applist_title">Apps</string>
-    <string name="notification_light_phonelist_title">Phone</string>
-    <string name="notification_light_use_custom">Use custom values</string>
-    <string name="notification_light_default_value">Default</string>
-    <string name="notification_light_missed_call_title">Missed call</string>
-    <string name="notification_light_voicemail_title">Voicemail</string>
-    <string name="notification_light_screen_on">Lights with screen on</string>
-    <string name="notification_light_zen_mode">Lights in Do Not Disturb mode</string>
-    <string name="keywords_lights_brightness_level">dim leds brightness</string>
-    <string name="notification_light_automagic">Choose colors automatically</string>
-    <string name="notification_light_automagic_summary">Choosing colors automatically</string>
+    <string name="notification_light_title">Luz da notificação</string>
+    <string name="notification_light_summary">Personalizar comportamento da Luz de Notificação</string>
+    <string name="notification_light_enable_title">Ativar luz de notificação</string>
+    <string name="notification_light_general_title">Geral</string>
+    <string name="notification_light_advanced_title">Avançado</string>
+    <string name="notification_light_applist_title">Aplicativos</string>
+    <string name="notification_light_phonelist_title">Telefone</string>
+    <string name="notification_light_use_custom">Usar valores personalizados</string>
+    <string name="notification_light_default_value">Padrão</string>
+    <string name="notification_light_missed_call_title">Chamada Perdida</string>
+    <string name="notification_light_voicemail_title">Correios de Voz</string>
+    <string name="notification_light_screen_on">Luzes com tela ligada</string>
+    <string name="notification_light_zen_mode">Luzes no modo Não Perturbe</string>
+    <string name="keywords_lights_brightness_level">diminuir o brilho das luzes</string>
+    <string name="notification_light_automagic">Escolha automática das cores</string>
+    <string name="notification_light_automagic_summary">Escolher as cores automaticamente</string>
     <!-- Lights settings, LED notification -->
-    <string name="led_notification_title">Light settings</string>
-    <string name="led_notification_text">LED light enabled by settings</string>
-    <string name="notification_light_add_apps_empty_summary">To add per app control, activate \'%1$s\' and press \'Add\'</string>
+    <string name="led_notification_title">Configurações de luz</string>
+    <string name="led_notification_text">Luz de LED ativada nas configurações</string>
+    <string name="notification_light_add_apps_empty_summary">Para adicionar o controle por aplicativo, ative%1$s\' e pressione \'Adicionar\'</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
-    <string name="duration_less_than_one_minute">Less than 1 Minute</string>
+    <string name="duration_less_than_one_minute">Menos de 1 minuto</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
-    <string name="screen_time_summary_usage_today">%1$s today</string>
-    <string name="about_cherish_device">Cherish Device</string>
+    <string name="screen_time_summary_usage_today">%1$s hoje</string>
+    <string name="about_cherish_device">Dispositivo Cherish</string>
     <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">Espaço IME</string>
     <string name="navigation_bar_ime_space_summary">Espaço sob as opções do teclado</string>
@@ -250,29 +250,29 @@
     <string name="app_volume_title">Controle de volume por aplicativo</string>
     <string name="app_volume_summary">Permite definir diferentes níveis de volume para cada aplicativo</string>
     <!-- Backup Transport selection settings menu and activity title -->
-    <string name="backup_transport_setting_label">Change backup provider</string>
-    <string name="backup_transport_title">Select backup provider</string>
+    <string name="backup_transport_setting_label">Alterar provedor de backup</string>
+    <string name="backup_transport_title">Selecione o provedor de backup</string>
     <!-- Lock screen pattern size -->
-    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
+    <string name="lock_settings_picker_pattern_size_message">Escolha um tamanho para o padrão</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+    <string name="lockpattern_settings_enable_error_path_title">Mostrar erro de padrão</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+    <string name="lockpattern_settings_enable_dots_title">Mostrar pontos do padrão</string>
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">Comprimento da barra de gestos</string>
-    <string name="short_label">Short</string>
+    <string name="short_label">Curto</string>
     <string name="long_label">Longo</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">Completo</string>
     <string name="back_height_high_label">Inferior</string>
-    <string name="back_height_title">Back gesture height</string>
-    <string name="back_height_summary">Screen height valid for back gesture</string>
+    <string name="back_height_title">Área sensível para o gesto voltar</string>
+    <string name="back_height_summary">Altura da área da tela usada como região sensível para o gesto de voltar</string>
     <!-- Back gesture animation -->
-    <string name="back_gesture_arrow_title">Back gesture animation</string>
-    <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture</string>
+    <string name="back_gesture_arrow_title">Animação do gesto de voltar</string>
+    <string name="back_gesture_arrow_summary">Mostrar uma seta animada para o gesto de voltar</string>
     <!-- Back gesture haptic -->
-    <string name="back_gesture_haptic_title">Back gesture haptic</string>
-    <string name="back_gesture_haptic_summary">Vibrate when performing a back gesture</string>
+    <string name="back_gesture_haptic_title">Resposta tátil do gesto voltar</string>
+    <string name="back_gesture_haptic_summary">O dispositivo vai vibrar quando efetuar o gesto de voltar</string>
     <!-- Gesture navbar radius -->
     <string name="gesture_navbar_radius_title">Espessura da barra de gestos</string>
     <string name="thin_label">Fino</string>
@@ -286,8 +286,8 @@
     <string name="search">Pesquisar</string>
     <string name="search_apps">Pesquisar aplicativos</string>
     <!-- General -->
-    <string name="copied_to_clipboard">Copied to clipboard</string>
-    <string name="longpress_to_clipboard">Long-press to copy</string>
+    <string name="copied_to_clipboard">Copiado para área de transferência</string>
+    <string name="longpress_to_clipboard">Pressione e segure para copiar</string>
     <!-- Hotspot -->
     <string name="wifi_hotspot_hidden_ssid_title">Rede oculta</string>
     <string name="wifi_hotspot_hidden_ssid_summary">O nome do seu hotspot móvel não aparecerá na lista de redes Wi-Fi disponíveis.</string>
@@ -303,33 +303,33 @@
     <string name="wifi_hotspot_unblock_client_dialog_text">Este dispositivo \"<xliff:g id="device_name">%1$s</xliff:g>\" será capaz de se conectar neste hotspot</string>
     <string name="wifi_hotspot_client_manager_footer_text">Nenhum cliente disponível no momento. Dispositivos conectados e bloqueados serão listados aqui quando disponíveis.</string>
     <!-- Summary for list to control apps that ignore battery saving restrictions -->
-    <string name="high_power_apps_summary">Battery optimization availability</string>
+    <string name="high_power_apps_summary">Disponibilidade de otimização da bateria</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Toque duplo</string>
-    <string name="doze_double_tap_title">Double tap to check phone</string>
-    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
+    <string name="doze_double_tap_title">Toque duas vezes para verificar o telefone</string>
+    <string name="doze_double_tap_summary">Pulsar notificações ao tocar duas vezes na tela</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Desbloqueio rápido</string>
     <string name="unlock_quick_unlock_control_summary">Desbloquear automaticamente quando o PIN/senha correto for inserido</string>
     <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
-    <string name="peak_refresh_rate_summary_custom">Automatically raises the refresh rate from 60 to %1$d Hz for some content. Increases battery usage.</string>
+    <string name="peak_refresh_rate_summary_custom">Aumenta automaticamente a taxa de atualização de 60 para %1$d Hz para alguns conteúdos. Maior uso da bateria.</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="battery_stats_reset">Resetar estatísticas</string>
+    <string name="battery_stats_message">O histórico e as estatísticas da bateria serão redefinidos</string>
     <!-- Notification sound timeout -->
-    <string name="app_notification_sound_timeout_title">Minimum time between notification sounds</string>
-    <string name="app_notification_sound_timeout_summary_template">Allow sounds or vibration no more than once every <xliff:g id="duration">%1$s</xliff:g></string>
-    <string name="app_notification_sound_timeout_value_none">No restriction</string>
-    <string name="app_notification_sound_timeout_value_10_seconds">10 seconds</string>
-    <string name="app_notification_sound_timeout_value_30_seconds">30 seconds</string>
-    <string name="app_notification_sound_timeout_value_1_minute">1 minute</string>
-    <string name="app_notification_sound_timeout_value_5_minutes">5 minutes</string>
-    <string name="app_notification_sound_timeout_value_15_minutes">10 minutes</string>
-    <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
+    <string name="app_notification_sound_timeout_title">Tempo mínimo entre sons de notificação</string>
+    <string name="app_notification_sound_timeout_summary_template">Permitir sons ou vibrações apenas uma vez a cada <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Sem restrição</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 segundos</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 segundos</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minuto</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minutos</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minutos</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minutos</string>
     <!-- Smart 5G -->
-    <string name="smart_5g_title">Smart 5G</string>
-    <string name="smart_5g_summary">Automatically switch between 5G and 4G to reduce battery consumption</string>
+    <string name="smart_5g_title">5G inteligente</string>
+    <string name="smart_5g_summary">Alternar automaticamente entre 5G e 4G para reduzir o consumo de bateria</string>
     <!-- Black theme -->
-    <string name="system_black_theme_title">Use black theme</string>
-    <string name="system_black_theme_summary">Force black background colors</string>
+    <string name="system_black_theme_title">Usar tema preto</string>
+    <string name="system_black_theme_summary">Forçar tema preto para a cor de fundo</string>
 </resources>
