@@ -330,6 +330,6 @@
     <string name="smart_5g_title">Розумний 5G</string>
     <string name="smart_5g_summary">Автоматичне перемикання між 5G та 4G, щоб забезпечити зменшене споживання заряду акумулятора</string>
     <!-- Black theme -->
-    <string name="system_black_theme_title">Use black theme</string>
-    <string name="system_black_theme_summary">Force black background colors</string>
+    <string name="system_black_theme_title">Використовувати чорну тему</string>
+    <string name="system_black_theme_summary">Примусово використовувати чорні фонові кольори</string>
 </resources>
