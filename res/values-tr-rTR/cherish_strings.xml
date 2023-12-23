@@ -22,16 +22,16 @@
     <string name="charging_control_enable_title">Şarj kontrolünü etkinleştir</string>
     <string name="charging_control_mode_title">Şarj Modu</string>
     <string name="charging_control_mode_auto_title">Otomatik planlama</string>
-    <string name="charging_control_mode_auto_summary">Automatically determine when to start charging based on alarms set</string>
-    <string name="charging_control_mode_custom_title">Custom schedule</string>
-    <string name="charging_control_mode_custom_summary">Set a target time to full charge</string>
-    <string name="charging_control_mode_limit_title">Limit charging</string>
-    <string name="charging_control_mode_limit_summary">Limit charging to a certain percentage</string>
-    <string name="charging_control_start_time_title">Start time</string>
-    <string name="charging_control_start_time_summary">Charging control activates when you start charging after %s</string>
-    <string name="charging_control_target_time_title">Target time to full charge</string>
-    <string name="charging_control_target_time_summary">Battery will be fully charged by %s</string>
-    <string name="charging_control_limit_title">Limit</string>
+    <string name="charging_control_mode_auto_summary">Ayarlanan alarmlara göre şarj işleminin ne zaman başlayacağını otomatik olarak belirle</string>
+    <string name="charging_control_mode_custom_title">Özel planlama</string>
+    <string name="charging_control_mode_custom_summary">Tam şarj için bir hedef zaman belirleyin</string>
+    <string name="charging_control_mode_limit_title">Şarjı Kısıtla</string>
+    <string name="charging_control_mode_limit_summary">Şarjı belirli bir yüzdeye kısıtla</string>
+    <string name="charging_control_start_time_title">Başlangıç zamanı</string>
+    <string name="charging_control_start_time_summary">Şarj kontrolü %s saatinden sonra şarj etmeye başladığında aktive edilir</string>
+    <string name="charging_control_target_time_title">Tam şarj için hedef zaman</string>
+    <string name="charging_control_target_time_summary">Pil %s\'ye kadar tamamen şarj olacaktır</string>
+    <string name="charging_control_limit_title">Sınır</string>
     <!-- Private DNS -->
     <!-- Alternative: 1dot1dot1dot1.cloudflare-dns.com -->
     <!-- AdGuard DNS Option -->
@@ -50,7 +50,7 @@
     <string name="increasing_ring_min_volume_title">Başlangıç ses düzeyi</string>
     <string name="increasing_ring_ramp_up_time_title">Yükseliş süresi</string>
     <!-- Menu option for not validating the EAP server -->
-    <string name="wifi_do_not_validate_eap_server">Do not validate</string>
+    <string name="wifi_do_not_validate_eap_server">Doğrulama yapma</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Sertifika belirtilmedi. Bağlantınız gizli olmayacak.</string>
     <!-- Refresh rate -->
@@ -83,18 +83,18 @@
     <string name="tethering_allow_vpn_upstreams_summary">Hotspot kullanıcılarının bağlantıları sırasında bu cihazın\u2019s VPN bağlantısını kullanmasına izin ver</string>
     <!-- Navigation bar hint -->
     <string name="navbar_category">Gezinme çubuğu</string>
-    <string name="hide_navbar_gesture_bar_title">Hide gesture bar</string>
-    <string name="hide_navbar_gesture_bar_summary">Hide the gesture bar at the bottom of the screen</string>
+    <string name="hide_navbar_gesture_bar_title">Gezinme çubuğunu gizle</string>
+    <string name="hide_navbar_gesture_bar_summary">Ekranın alt kısmındaki gezinme çubuğunu gizle</string>
     <!-- Battery Temperature -->
     <string name="battery_temp">Pil sıcaklığı</string>
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Ekran görüntüsü sesi</string>
     <!-- Restrict USB -->
-    <string name="trust_restrict_usb_title">Restrict USB</string>
-    <string name="trust_restrict_usb_summary">Control support for USB peripherals such as input (mice, keyboards, joysticks) and storage devices.</string>
-    <string name="trust_restrict_usb_always">Deny USB connections</string>
-    <string name="trust_restrict_usb_keyguard">Allow USB connections when unlocked</string>
-    <string name="trust_restrict_usb_disabled">Always allow USB connections</string>
+    <string name="trust_restrict_usb_title">USB\'yi kısıtla</string>
+    <string name="trust_restrict_usb_summary">Giriş (fareler, klavyeler, joystickler) ve depolama aygıtları gibi USB çevre birimleri için kontrol desteği.</string>
+    <string name="trust_restrict_usb_always">USB bağlantılarını reddet</string>
+    <string name="trust_restrict_usb_keyguard">Ekran kilidi açıkken USB bağlantılarına izin ver</string>
+    <string name="trust_restrict_usb_disabled">Her zaman USB bağlantılarına izin ver</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Şarj olurken her zaman açık</string>
     <string name="doze_on_charge_summary">Şarj olurken her zaman uyku ekranını göster</string>
@@ -111,22 +111,22 @@
     <string name="high_touch_polling_rate_title">Yüksek dokunma yoklama oranı</string>
     <string name="high_touch_polling_rate_summary">Dokunma ekranı yoklama oranını artırın</string>
     <!-- Warning message for the sd card setup -->
-    <string name="storage_warning_internal">Warning: This option may not work properly or lead to data loss and is therefore not recommended!</string>
+    <string name="storage_warning_internal">Uyarı: Bu özellik düzgün çalışmayabileceğinden veya veri kaybına neden olabileceğinden önerilmez!</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title" product="default">Long press on fingerprint sensor to unlock phone</string>
+    <string name="ambient_display_screen_off_udfps_title" product="default">Telefonun kilidini açmak için parmak izi sensörüne uzun basın</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title" product="tablet">Long press on fingerprint sensor to unlock tablet</string>
+    <string name="ambient_display_screen_off_udfps_title" product="tablet">Tabletin kilidini açmak için parmak izi sensörüne uzun basın</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title" product="device">Long press on fingerprint sensor to unlock device</string>
+    <string name="ambient_display_screen_off_udfps_title" product="device">Cihazın kilidini açmak için parmak izi sensörüne uzun basın</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
-    <string name="ambient_display_screen_off_udfps_summary">To wake up your screen and unlock, long press your under-display fingerprint sensor.</string>
+    <string name="ambient_display_screen_off_udfps_summary">Ekranınızı uyandırmak ve kilidini açmak için ekranın altındaki parmak izi sensörünüze uzun basın.</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
     <string name="sim_card_number_title">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
     <!-- Game space -->
     <string name="game_space_title">Oyun Alanı</string>
     <string name="game_space_summary">Oyun deneyiminizi geliştirin</string>
     <!-- LiveDisplay -->
-    <string name="advanced">Advanced</string>
+    <string name="advanced">Gelişmiş</string>
     <string name="live_display_summary">Okunabilirliği artırmak ve göz yorgunluğunu azaltmak için ekranınızı günün zamanına ve ortam koşullarına göre optimize edin</string>
     <string name="live_display_mode">Görüntü modu</string>
     <string name="live_display_color_temperature_title">Renk sıcaklığı</string>
@@ -180,30 +180,30 @@
     <string name="adj_intensity_title">Yoğunluk</string>
     <string name="adj_contrast_title">Kontrast</string>
     <!-- Notification channels -->
-    <string name="channel_light_settings_name">Light settings preview</string>
+    <string name="channel_light_settings_name">Işık ayarları ön izlemesi</string>
     <!-- Notification light dialogs -->
-    <string name="edit_light_settings">Edit light settings</string>
-    <string name="pulse_speed_title">Pulse length and speed</string>
+    <string name="edit_light_settings">Işık ayarlarını düzenle</string>
+    <string name="pulse_speed_title">Yanıp sönme uzunluğu ve hızı</string>
     <string name="default_time">Normal</string>
-    <string name="custom_time">Custom</string>
-    <string name="dialog_delete_title">Delete</string>
-    <string name="dialog_delete_message">Remove selected item?</string>
-    <string name="brightness">Brightness level</string>
-    <string name="choose_app">Choose app</string>
+    <string name="custom_time">Özel</string>
+    <string name="dialog_delete_title">Sil</string>
+    <string name="dialog_delete_message">Seçili öğe silinsin mi?</string>
+    <string name="brightness">Parlaklık seviyesi</string>
+    <string name="choose_app">Uygulama seç</string>
     <!-- Values for the notification light pulse spinners -->
-    <string name="pulse_length_always_on">Always on</string>
-    <string name="pulse_length_very_short">Very short</string>
-    <string name="pulse_length_short">Short</string>
+    <string name="pulse_length_always_on">Her zaman açık</string>
+    <string name="pulse_length_very_short">Çok kısa</string>
+    <string name="pulse_length_short">Kısa</string>
     <string name="pulse_length_normal">Normal</string>
-    <string name="pulse_length_long">Long</string>
-    <string name="pulse_length_very_long">Very long</string>
-    <string name="pulse_speed_very_fast">Very fast</string>
-    <string name="pulse_speed_fast">Fast</string>
+    <string name="pulse_length_long">Uzun</string>
+    <string name="pulse_length_very_long">Çok uzun</string>
+    <string name="pulse_speed_very_fast">Çok hızlı</string>
+    <string name="pulse_speed_fast">Hızlı</string>
     <string name="pulse_speed_normal">Normal</string>
-    <string name="pulse_speed_slow">Slow</string>
-    <string name="pulse_speed_very_slow">Very slow</string>
+    <string name="pulse_speed_slow">Yavaş</string>
+    <string name="pulse_speed_very_slow">Çok yavaş</string>
     <!-- Common light settings strings -->
-    <string name="light_brightness_title">Brightness levels</string>
+    <string name="light_brightness_title">Parlaklık seviyeleri</string>
     <string name="light_brightness_normal">Normal</string>
     <string name="light_brightness_zen">Do Not Disturb</string>
     <!-- Battery light settings -->
@@ -314,22 +314,22 @@
     <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
     <string name="peak_refresh_rate_summary_custom">Automatically raises the refresh rate from 60 to %1$d Hz for some content. Increases battery usage.</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="battery_stats_reset">İstatistikleri sıfırla</string>
+    <string name="battery_stats_message">Pil kullanımı istatistikleri sıfırlanacak</string>
     <!-- Notification sound timeout -->
-    <string name="app_notification_sound_timeout_title">Minimum time between notification sounds</string>
-    <string name="app_notification_sound_timeout_summary_template">Allow sounds or vibration no more than once every <xliff:g id="duration">%1$s</xliff:g></string>
-    <string name="app_notification_sound_timeout_value_none">No restriction</string>
-    <string name="app_notification_sound_timeout_value_10_seconds">10 seconds</string>
-    <string name="app_notification_sound_timeout_value_30_seconds">30 seconds</string>
-    <string name="app_notification_sound_timeout_value_1_minute">1 minute</string>
-    <string name="app_notification_sound_timeout_value_5_minutes">5 minutes</string>
-    <string name="app_notification_sound_timeout_value_15_minutes">10 minutes</string>
-    <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
+    <string name="app_notification_sound_timeout_title">Bildirim sesleri arasındaki minimum süre</string>
+    <string name="app_notification_sound_timeout_summary_template">Her <xliff:g id="duration">%1$s</xliff:g>\'de en fazla bir kez ses veya titreşime izin verin</string>
+    <string name="app_notification_sound_timeout_value_none">Kısıtlama yok</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 saniye</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 saniye</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 dakika</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 dakika</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 dakika</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 dakika</string>
     <!-- Smart 5G -->
-    <string name="smart_5g_title">Smart 5G</string>
-    <string name="smart_5g_summary">Automatically switch between 5G and 4G to reduce battery consumption</string>
+    <string name="smart_5g_title">Akıllı 5G</string>
+    <string name="smart_5g_summary">Pil tüketimini azaltmak için 5G ve 4G arasında otomatik olarak geçiş yapın</string>
     <!-- Black theme -->
-    <string name="system_black_theme_title">Use black theme</string>
-    <string name="system_black_theme_summary">Force black background colors</string>
+    <string name="system_black_theme_title">Siyah temayı kullan</string>
+    <string name="system_black_theme_summary">Siyah arka plan renklerine zorla</string>
 </resources>
