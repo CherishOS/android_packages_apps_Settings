@@ -242,9 +242,6 @@
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s hôm nay</string>
     <string name="about_cherish_device">Thiết bị Cherish</string>
-    <!-- IME button space -->
-    <string name="navigation_bar_ime_space_title">Ẩn không gian bàn phím</string>
-    <string name="navigation_bar_ime_space_summary">Ẩn không gian bên dưới bàn phím</string>
     <!-- Per-app volume -->
     <string name="app_volume">Âm thanh ứng dụng</string>
     <string name="app_volume_title">Kiểm soát âm lượng mỗi ứng dụng</string>
@@ -332,4 +329,9 @@
     <!-- Black theme -->
     <string name="system_black_theme_title">Sử dụng chủ đề đen</string>
     <string name="system_black_theme_summary">Buộc màu nền đen</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">IME space</string>
+    <string name="ime_narrow">Narrow</string>
+    <string name="ime_default">Default</string>
+    <string name="ime_hidden">Hidden</string>
 </resources>
