@@ -242,9 +242,6 @@
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s hoje</string>
     <string name="about_cherish_device">Dispositivo Cherish</string>
-    <!-- IME button space -->
-    <string name="navigation_bar_ime_space_title">Espaço IME</string>
-    <string name="navigation_bar_ime_space_summary">Espaço sob as opções do teclado</string>
     <!-- Per-app volume -->
     <string name="app_volume">Volume de aplicativos</string>
     <string name="app_volume_title">Controle de volume por aplicativo</string>
@@ -332,4 +329,9 @@
     <!-- Black theme -->
     <string name="system_black_theme_title">Usar tema preto</string>
     <string name="system_black_theme_summary">Forçar tema preto para a cor de fundo</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">IME space</string>
+    <string name="ime_narrow">Narrow</string>
+    <string name="ime_default">Default</string>
+    <string name="ime_hidden">Hidden</string>
 </resources>
