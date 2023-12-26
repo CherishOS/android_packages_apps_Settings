@@ -17,21 +17,21 @@
     <string name="swipe_to_screenshot_gesture_title">Balayer l\'écran pour prendre une capture d\'écran</string>
     <string name="swipe_to_screenshot_gesture_summary">Balayer l\'écran avec trois doigts pour faire une capture d\'écran</string>
     <!-- Charging control settings -->
-    <string name="charging_control_title">Charging control</string>
-    <string name="charging_control_summary">Customize charging schedule and limits for your device</string>
-    <string name="charging_control_enable_title">Enable charging control</string>
-    <string name="charging_control_mode_title">Charging mode</string>
-    <string name="charging_control_mode_auto_title">Automatic schedule</string>
-    <string name="charging_control_mode_auto_summary">Automatically determine when to start charging based on alarms set</string>
-    <string name="charging_control_mode_custom_title">Custom schedule</string>
-    <string name="charging_control_mode_custom_summary">Set a target time to full charge</string>
-    <string name="charging_control_mode_limit_title">Limit charging</string>
-    <string name="charging_control_mode_limit_summary">Limit charging to a certain percentage</string>
-    <string name="charging_control_start_time_title">Start time</string>
+    <string name="charging_control_title">Contrôle de charge</string>
+    <string name="charging_control_summary">Personnalisez le planning de charge et les limites pour votre appareil</string>
+    <string name="charging_control_enable_title">Activer le contrôle de charge</string>
+    <string name="charging_control_mode_title">Mode de chargement</string>
+    <string name="charging_control_mode_auto_title">Planification automatique</string>
+    <string name="charging_control_mode_auto_summary">Déterminer automatiquement quand démarrer la charge en fonction des alarmes définies</string>
+    <string name="charging_control_mode_custom_title">Planification personnalisée</string>
+    <string name="charging_control_mode_custom_summary">Définir l\'heure de la charge complète</string>
+    <string name="charging_control_mode_limit_title">Limite de chargement</string>
+    <string name="charging_control_mode_limit_summary">Limiter le chargement à un certain pourcentage</string>
+    <string name="charging_control_start_time_title">Heure de début</string>
     <string name="charging_control_start_time_summary">Charging control activates when you start charging after %s</string>
     <string name="charging_control_target_time_title">Target time to full charge</string>
     <string name="charging_control_target_time_summary">Battery will be fully charged by %s</string>
-    <string name="charging_control_limit_title">Limit</string>
+    <string name="charging_control_limit_title">Limite</string>
     <!-- Private DNS -->
     <!-- Alternative: 1dot1dot1dot1.cloudflare-dns.com -->
     <!-- AdGuard DNS Option -->
@@ -90,7 +90,7 @@
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Son de capture d\'écran</string>
     <!-- Restrict USB -->
-    <string name="trust_restrict_usb_title">Restrict USB</string>
+    <string name="trust_restrict_usb_title">Restreindre le port USB</string>
     <string name="trust_restrict_usb_summary">Control support for USB peripherals such as input (mice, keyboards, joysticks) and storage devices.</string>
     <string name="trust_restrict_usb_always">Deny USB connections</string>
     <string name="trust_restrict_usb_keyguard">Allow USB connections when unlocked</string>
@@ -126,7 +126,7 @@
     <string name="game_space_title">Espace de jeu</string>
     <string name="game_space_summary">Améliorez votre expérience de jeu</string>
     <!-- LiveDisplay -->
-    <string name="advanced">Advanced</string>
+    <string name="advanced">Avancé</string>
     <string name="live_display_summary">Optimise votre écran en fonction de l\'heure et des conditions ambiantes pour améliorer la lisibilité et réduire la fatigue oculaire</string>
     <string name="live_display_mode">Plein écran</string>
     <string name="live_display_color_temperature_title">Température des couleurs</string>
