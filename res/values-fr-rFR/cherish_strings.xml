@@ -271,7 +271,7 @@
     <string name="back_gesture_haptic_title">Retour tactile lors d\'un geste de retour</string>
     <string name="back_gesture_haptic_summary">Vibrer lors d\'un geste retour</string>
     <!-- Gesture navbar radius -->
-    <string name="gesture_navbar_radius_title">Pill radius</string>
+    <string name="gesture_navbar_radius_title">Epaisseur de la barre de navigation</string>
     <string name="thin_label">Fin</string>
     <string name="thick_label">Epais</string>
     <!-- Pocket judge -->
