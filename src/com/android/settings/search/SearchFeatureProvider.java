@@ -80,20 +80,28 @@ public interface SearchFeatureProvider {
     /**
      * Initializes the search toolbar.
      */
-    default void initSearchToolbar(FragmentActivity activity, View view, View searchIcon, int pageId) {
-        if (activity == null || view == null) {
+    default void initSearchToolbar(FragmentActivity activity, Toolbar toolbar, int pageId) {
+        if (activity == null || toolbar == null) {
             return;
         }
 
         if (!WizardManagerHelper.isDeviceProvisioned(activity)
                 || !Utils.isPackageEnabled(activity, getSettingsIntelligencePkgName(activity))
                 || WizardManagerHelper.isAnySetupWizard(activity.getIntent())) {
-            if (view != null) {
-                view.setVisibility(View.INVISIBLE);
+            final ViewGroup parent = (ViewGroup) toolbar.getParent();
+            if (parent != null) {
+                parent.setVisibility(View.GONE);
             }
             return;
         }
-        view.setImportantForAccessibility(IMPORTANT_FOR_ACCESSIBILITY_NO);
+        // Please forgive me for what I am about to do.
+        //
+        // Need to make the navigation icon non-clickable so that the entire card is clickable
+        // and goes to the search UI. Also set the background to null so there's no ripple.
+        final View navView = toolbar.getNavigationView();
+        navView.setClickable(false);
+        navView.setImportantForAccessibility(IMPORTANT_FOR_ACCESSIBILITY_NO);
+        navView.setBackground(null);
 
         final Context context = activity.getApplicationContext();
         final Intent intent = buildSearchIntent(context, pageId)
@@ -118,29 +126,11 @@ public interface SearchFeatureProvider {
                 true /* finishSecondaryWithPrimary */,
                 false /* clearTop */);
 
-        // search icon is optional
-        if (searchIcon != null) {
-            searchIcon.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    startSearchActivity(context, activity, pageId, intent);
-                }
-            });
-            searchIcon.setHandwritingDelegatorCallback(
-                    () -> startSearchActivity(context, activity, pageId, intent));
-            searchIcon.setAllowedHandwritingDelegatePackage(intent.getPackage());
-        }
+        toolbar.setOnClickListener(tb -> startSearchActivity(context, activity, pageId, intent));
 
-        view.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startSearchActivity(context, activity, pageId, intent);
-            }
-        });
-
-        view.setHandwritingDelegatorCallback(
+        toolbar.setHandwritingDelegatorCallback(
                 () -> startSearchActivity(context, activity, pageId, intent));
-        view.setAllowedHandwritingDelegatePackage(intent.getPackage());
+        toolbar.setAllowedHandwritingDelegatePackage(intent.getPackage());
     }
 
     /** Start the search activity. */
