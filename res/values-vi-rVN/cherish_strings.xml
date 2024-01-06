@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App details: open play store link if app is user installed -->
-    <string name="app_play_store">Google Play</string>
+    <string name="app_play_store">Cửa hàng Play</string>
     <!-- Maintainer -->
     <string name="maintainer">Người chủ trì</string>
     <!-- About phone screen, Cherish OS version -->
@@ -130,8 +130,8 @@
     <string name="live_display_summary">Tối ưu hóa màn hình dựa trên điều kiện môi trường và thời gian trong ngày để cải thiện khả năng đọc và giảm mỏi mắt</string>
     <string name="live_display_mode">Chế độ Hiển thị</string>
     <string name="live_display_color_temperature_title">Độ đậm màu</string>
-    <string name="live_display_color_temperature_summary">Ngày: <xliff:g id="day_temperature">%1$d </xliff:g> K đêm: <xliff:g id="night_temperature">%2$d </xliff:g> K</string>
-    <string name="live_display_color_temperature_label"><xliff:g id="độ">%1$d </xliff:g> K</string>
+    <string name="live_display_color_temperature_summary">Ngày: <xliff:g id="day_temperature">%1$d</xliff:g>K  Đêm: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="độ">%1$d </xliff:g>K</string>
     <string name="live_display_day">Ngày</string>
     <string name="live_display_night">Đêm</string>
     <string name="live_display_outdoor_mode_title">Tự động điều chỉnh khi ra ngoài trời</string>
@@ -241,10 +241,6 @@
     <string name="duration_less_than_one_minute">Ít hơn 1 phút</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s hôm nay</string>
-    <string name="about_cherish_device">Thiết bị Cherish</string>
-    <!-- IME button space -->
-    <string name="navigation_bar_ime_space_title">Ẩn không gian bàn phím</string>
-    <string name="navigation_bar_ime_space_summary">Ẩn không gian bên dưới bàn phím</string>
     <!-- Per-app volume -->
     <string name="app_volume">Âm thanh ứng dụng</string>
     <string name="app_volume_title">Kiểm soát âm lượng mỗi ứng dụng</string>
@@ -332,4 +328,28 @@
     <!-- Black theme -->
     <string name="system_black_theme_title">Sử dụng chủ đề đen</string>
     <string name="system_black_theme_summary">Buộc màu nền đen</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">Ẩn không gian bàn phím</string>
+    <string name="ime_narrow">Thu hẹp</string>
+    <string name="ime_default">Mặc định</string>
+    <string name="ime_hidden">Ẩn</string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="custom_firmware_version">Phiên bản Cherish</string>
+    <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
+    <string name="about_device_info">Về thiết bị</string>
+    <!-- CherishOS versioning -->
+    <string name="cherish_version_title">Phiên bản Cherish</string>
+    <string name="cherish_device_title">Thiết bị</string>
+    <string name="cherish_release_type_title">Loại phiên bản</string>
+    <string name="cherish_maintainer_title">Người chủ trì</string>
+    <!-- About page -->
+    <string name="battery">Pin</string>
+    <string name="display">Hiển thị</string>
+    <string name="storage">Bộ nhớ</string>
+    <string name="chipset">Bộ xử lý</string>
+    <!-- Settings homepage alternative header -->
+    <string name="top_level_settings_title">Cài đặt</string>
+    <string name="wellbeing_title">Google Wellbeing</string>
+    <string name="usercard_summary">Người dùng đang hoạt động hiện tại, hãy nhấn để biết thêm thông tin</string>
+    <string name="connectivity_category_title">kết nối</string>
 </resources>
