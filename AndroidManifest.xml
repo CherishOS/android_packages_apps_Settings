@@ -144,7 +144,6 @@
     <permission android:name="com.google.android.settings.routines.ROUTINES_ACTIONS" android:protectionLevel="privileged|signature"/>
     <permission android:name="com.google.android.settings.future.logging.RESTRICTED_SEND_FUTURE_LOGS" android:protectionLevel="privileged|signature"/>
     <permission android:name="com.google.android.settings.setup.dock.RUN_DOCK_SETUP" android:protectionLevel="privileged|signature"/>
-    <permission android:name="com.google.android.settings.fuelgauge.BATTERY_SETTING" android:protectionLevel="system|signature"/>
     <protected-broadcast android:name="com.google.android.settings.PRE_INDEX_SEARCH"/>
     <uses-permission android:name="android.permission.MANAGE_GAME_MODE"/>
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
