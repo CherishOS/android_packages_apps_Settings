@@ -120,7 +120,6 @@ android_library {
         "SystemUIUnfoldLib",
         "SettingsLibMainSwitchPreference",
         "vendor.lineage.trust-V1.0-java",
-        "SettingsGoogle-lib",
         "kotlinx_coroutines_android",
         "kotlinx_coroutines",
         "androidx.preference_preference-ktx",
