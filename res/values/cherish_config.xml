@@ -11,6 +11,9 @@
 	<!-- Device specific doze package -->
     <string name="config_customDozePackage" translatable="false"></string>
 
+    <!-- Whether to enable Lineage Fast Charge Preference -->
+    <bool name="config_lineageFastChargeSupported">true</bool>
+
     <!-- Fingerprint -->
     <bool name="config_is_front_facing_fps" translatable="false">false</bool>
 
