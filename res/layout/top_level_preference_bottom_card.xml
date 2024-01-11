@@ -89,7 +89,7 @@
             app:cardElevation="0dp">
 
             <LinearLayout
-                android:id="@id/icon_frame"
+                android:id="@+id/icon_frame"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 android:layout_marginStart="8dp"
