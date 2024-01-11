@@ -22,13 +22,15 @@
     <string name="charging_control_enable_title">Enable charging control</string>
     <string name="charging_control_mode_title">Charging mode</string>
     <string name="charging_control_mode_auto_title">Automatic schedule</string>
-    <string name="charging_control_mode_auto_summary">Automatically determine when to start charging based on alarms set</string>
+    <string name="charging_control_mode_auto_summary">Automatically determine when to start charging
+        based on alarms set</string>
     <string name="charging_control_mode_custom_title">Custom schedule</string>
     <string name="charging_control_mode_custom_summary">Set a target time to full charge</string>
     <string name="charging_control_mode_limit_title">Limit charging</string>
     <string name="charging_control_mode_limit_summary">Limit charging to a certain percentage</string>
     <string name="charging_control_start_time_title">Start time</string>
-    <string name="charging_control_start_time_summary">Charging control activates when you start charging after %s</string>
+    <string name="charging_control_start_time_summary">Charging control activates when you start
+        charging after %s</string>
     <string name="charging_control_target_time_title">Target time to full charge</string>
     <string name="charging_control_target_time_summary">Battery will be fully charged by %s</string>
     <string name="charging_control_limit_title">Limit</string>
@@ -42,9 +44,11 @@
     <!-- Cleanbrowsing DNS hostname -->
     <!-- Quad9 DNS Option -->
     <!-- Quad9 DNS hostname -->
-    <!--Cherish Settings-->
+    <!--Cherish
+    Settings-->
     <string name="cherish_settings_title">Cherish 設定</string>
-    <string name="cherish_settings_summary">幸せは利用不可能であり、あなた自身の行動から訪れます。</string>
+    <string name="cherish_settings_summary">Happiness is not available and it comes from your own
+        actions</string>
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">着信音量の増幅</string>
     <string name="increasing_ring_min_volume_title">開始音量</string>
@@ -52,7 +56,8 @@
     <!-- Menu option for not validating the EAP server -->
     <string name="wifi_do_not_validate_eap_server">Do not validate</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
-    <string name="wifi_do_not_validate_eap_server_warning">証明書が指定されていません。この接続ではプライバシーが保護されません。</string>
+    <string name="wifi_do_not_validate_eap_server_warning">No certificate specified. Your connection
+        will not be private.</string>
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">最小リフレッシュレート</string>
     <string name="max_refresh_rate_title">最大リフレッシュレート</string>
@@ -71,16 +76,24 @@
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front">デバイスの前面にある指紋認証センサーの位置を確認します。</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear">デバイスの背面にある指紋認証センサーの位置を確認します。</string>
-    <string name="fingerprint_enroll_find_sensor_message_side">デバイスの側面にある指紋認証センサーの位置を確認します。</string>
-    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
-    <string name="fingerprint_enroll_touch_dialog_message_front">デバイスの前面にあるセンサーをタッチします。</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear">デバイスの背面にあるセンサーをタッチします。</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side">デバイスの側面にあるセンサーをタッチします。</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the
+        front of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">Locate the fingerprint sensor on the
+        back of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Locate the fingerprint sensor on the
+        side of your device.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint
+    sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front">Touch the sensor on the front of
+        your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">Touch the sensor on the back of your
+        phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">Touch the sensor on the side of your
+        phone.</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">クライアントの VPN 使用の許可</string>
-    <string name="tethering_allow_vpn_upstreams_summary">この端末の VPN 接続をホットスポットのクライアントが送信接続に使うことを許可する</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this
+        device\u2019s VPN connections for upstream connectivity</string>
     <!-- Navigation bar hint -->
     <string name="navbar_category">ナビゲーションバー</string>
     <string name="hide_navbar_gesture_bar_title">Hide gesture bar</string>
@@ -91,7 +104,8 @@
     <string name="screenshot_shutter_sound_title">スクリーンショットの音</string>
     <!-- Restrict USB -->
     <string name="trust_restrict_usb_title">Restrict USB</string>
-    <string name="trust_restrict_usb_summary">Control support for USB peripherals such as input (mice, keyboards, joysticks) and storage devices.</string>
+    <string name="trust_restrict_usb_summary">Control support for USB peripherals such as input
+        (mice, keyboards, joysticks) and storage devices.</string>
     <string name="trust_restrict_usb_always">Deny USB connections</string>
     <string name="trust_restrict_usb_keyguard">Allow USB connections when unlocked</string>
     <string name="trust_restrict_usb_disabled">Always allow USB connections</string>
@@ -100,10 +114,12 @@
     <string name="doze_on_charge_summary">充電時は常に Doze 画面を表示する</string>
     <!-- High touch sensitivity -->
     <string name="high_touch_sensitivity_title">高感度タッチ</string>
-    <string name="high_touch_sensitivity_summary">手袋を着けたまま使用できるようにタッチ画面の感度を向上させる</string>
+    <string name="high_touch_sensitivity_summary">Increase touchscreen sensitivity so it can be used
+        while wearing gloves</string>
     <!-- Touchscreen hovering -->
     <string name="touchscreen_hovering_title">タッチ画面のホバリング</string>
-    <string name="touchscreen_hovering_summary">ウェブブラウザやリモードデスクトップなどでマウスのようにホバリングできるようにする</string>
+    <string name="touchscreen_hovering_summary">Allows you to hover the screen like a mouse in web
+        browsers, remote desktops, etc</string>
     <!-- Proximity wake -->
     <string name="proximity_wake_title">誤起動を防止</string>
     <string name="proximity_wake_summary">スリープ解除する前に接近センサーで確認する</string>
@@ -111,15 +127,23 @@
     <string name="high_touch_polling_rate_title">ポーリング速度の高速化</string>
     <string name="high_touch_polling_rate_summary">タッチ画面のタッチサンプリングレートを向上させる</string>
     <!-- Warning message for the sd card setup -->
-    <string name="storage_warning_internal">Warning: This option may not work properly or lead to data loss and is therefore not recommended!</string>
-    <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title" product="default">Long press on fingerprint sensor to unlock phone</string>
-    <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title" product="tablet">Long press on fingerprint sensor to unlock tablet</string>
-    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title" product="device">Long press on fingerprint sensor to unlock device</string>
+    <string name="storage_warning_internal">Warning: This option may not work properly or lead to
+        data loss and is therefore not recommended!</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR
+    LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="default">Long press on
+        fingerprint sensor to unlock phone</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR
+    LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="tablet">Long press on fingerprint
+        sensor to unlock tablet</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR
+    LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="device">Long press on fingerprint
+        sensor to unlock device</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
-    <string name="ambient_display_screen_off_udfps_summary">To wake up your screen and unlock, long press your under-display fingerprint sensor.</string>
+    <string name="ambient_display_screen_off_udfps_summary">To wake up your screen and unlock, long
+        press your under-display fingerprint sensor.</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
     <string name="sim_card_number_title">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
     <!-- Game space -->
@@ -127,21 +151,28 @@
     <string name="game_space_summary">ゲーム体験を向上させる</string>
     <!-- LiveDisplay -->
     <string name="advanced">Advanced</string>
-    <string name="live_display_summary">画面を見やすく目の疲れを軽減するために時間と周囲の環境に合わせて画面を最適化する</string>
+    <string name="live_display_summary">Optimize your screen based on time of day and ambient
+        conditions to improve readability and reduce eyestrain</string>
     <string name="live_display_mode">ディスプレイモード</string>
     <string name="live_display_color_temperature_title">色温度</string>
-    <string name="live_display_color_temperature_summary">昼: <xliff:g id="day_temperature">%1$d</xliff:g>K  夜: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K
+        Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
     <string name="live_display_day">昼</string>
     <string name="live_display_night">夜</string>
     <string name="live_display_outdoor_mode_title">自動屋外モード</string>
-    <string name="live_display_outdoor_mode_summary">明るい日差しが照射する環境下で明るさと彩度を自動的に向上させる</string>
+    <string name="live_display_outdoor_mode_summary">Increase brightness and saturation
+        automatically under bright sunlight</string>
     <string name="live_display_anti_flicker_title">アンチフリッカー</string>
-    <string name="live_display_anti_flicker_summary">幅広いちらつきを防ぎ、暗い環境での目への負担を軽減します。色の再現度が低下したり、いくつかの項目の表示に影響する可能性があります。</string>
+    <string name="live_display_anti_flicker_summary">Prevent extensive flickering and reduce eye
+        strain in low light conditions. It might degrade color accuracy and affect the way some
+        items are displayed.</string>
     <string name="live_display_low_power_title">消費電力を削減</string>
-    <string name="live_display_low_power_summary">性能を低下させずに画面を最低の消費電力に調整する</string>
+    <string name="live_display_low_power_summary">Adjust display for lowest power consumption
+        without degradation</string>
     <string name="live_display_enhance_color_title">色を拡張</string>
-    <string name="live_display_enhance_color_summary">肌の色・風景・他の画像の色の鮮やかさを補正する</string>
+    <string name="live_display_enhance_color_summary">Improve color vibrance of flesh tones,
+        scenery, and other images</string>
     <string name="live_display_color_profile_title">色のプロファイル</string>
     <string name="live_display_color_profile_standard_title">標準</string>
     <string name="live_display_color_profile_standard_summary">正確な色と明るい白</string>
@@ -154,7 +185,8 @@
     <string name="live_display_color_profile_astronomy_title">夜空</string>
     <string name="live_display_color_profile_astronomy_summary">夜間利用時に目に優しい深い赤</string>
     <string name="live_display_color_profile_photography_title">写真</string>
-    <string name="live_display_color_profile_photography_summary">写真の完全な色再現</string>
+    <string name="live_display_color_profile_photography_summary">Perfect color reproduction for
+        photos</string>
     <string name="live_display_color_profile_basic_title">基本</string>
     <string name="live_display_color_profile_basic_summary">無調整のディスプレイを使用する</string>
     <string name="live_display_color_profile_adaptive_title">自動</string>
@@ -164,7 +196,8 @@
     <string name="live_display_color_profile_srgb_title">sRGB</string>
     <string name="live_display_color_profile_srgb_summary">正確な sRGB 色空間に補正する</string>
     <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
-    <string name="live_display_color_profile_dci_p3_summary">正確な DCI-P3 色空間に補正する</string>
+    <string name="live_display_color_profile_dci_p3_summary">Colors accurate to the DCI-P3 color
+        space</string>
     <string name="live_display_reading_mode_title">読書モード</string>
     <string name="live_display_reading_mode_summary">長期間読書するのに適したグレースケールモードに変更する</string>
     <string name="color_calibration_title">色の調整</string>
@@ -236,11 +269,13 @@
     <!-- Lights settings, LED notification -->
     <string name="led_notification_title">Light settings</string>
     <string name="led_notification_text">LED light enabled by settings</string>
-    <string name="notification_light_add_apps_empty_summary">To add per app control, activate \'%1$s\' and press \'Add\'</string>
+    <string name="notification_light_add_apps_empty_summary">To add per app control, activate
+        \'%1$s\' and press \'Add\'</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Less than 1 Minute</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s today</string>
+    <string name="about_cherish_device">Cherish Device</string>
     <!-- Per-app volume -->
     <string name="app_volume">アプリの音量</string>
     <string name="app_volume_title">アプリごとの音量調節</string>
@@ -250,7 +285,8 @@
     <string name="backup_transport_title">Select backup provider</string>
     <!-- Lock screen pattern size -->
     <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
-    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern
+    incorrectly -->
     <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
     <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
@@ -286,18 +322,23 @@
     <string name="longpress_to_clipboard">Long-press to copy</string>
     <!-- Hotspot -->
     <string name="wifi_hotspot_hidden_ssid_title">非公開ネットワーク</string>
-    <string name="wifi_hotspot_hidden_ssid_summary">お使いのモバイルホットスポット名は利用可能な WLAN ネットワークのリスト内から消えます</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the
+        list of available WLAN networks.</string>
     <string name="wifi_hotspot_client_manager_title">接続済みの端末</string>
-    <string name="wifi_hotspot_client_manager_summary">ホットスポットへ接続済みの端末のリストと管理、クライアント数の上限を設定します。</string>
-    <string name="wifi_hotspot_client_manager_list_only_summary">ホットスポットに接続された端末一覧</string>
+    <string name="wifi_hotspot_client_manager_summary">List and manage devices connected to the
+        hotspot</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">List devices connected to the
+        hotspot</string>
     <string name="wifi_hotspot_client_limit_title">接続する端末の上限数</string>
     <string name="wifi_hotspot_blocked_clients_list_title">ブロック済みの端末</string>
     <string name="wifi_hotspot_connected_clients_list_title">接続された端末</string>
     <string name="wifi_hotspot_block_client_dialog_title">端末をブロック</string>
     <string name="wifi_hotspot_block_client_dialog_text">この操作によりこの端末から \"<xliff:g id="device_name">%1$s</xliff:g>\" を切断しブロックリストに追加します</string>
     <string name="wifi_hotspot_unblock_client_dialog_title">端末をブロック解除</string>
-    <string name="wifi_hotspot_unblock_client_dialog_text">端末 \"<xliff:g id="device_name">%1$s</xliff:g>\" はこのホットスポットへ接続可能になります</string>
-    <string name="wifi_hotspot_client_manager_footer_text">利用可能なクライアントは現在ありません。利用可能になった時に接続済みまたはブロック済みの端末はこのリストに表示されます。</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">The device \"<xliff:g id="device_name">
+        %1$s</xliff:g>\" will be able to connect to this hotspot</string>
+    <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available.
+        Connected and blocked devices will be listed here when available.</string>
     <!-- Summary for list to control apps that ignore battery saving restrictions -->
     <string name="high_power_apps_summary">Battery optimization availability</string>
     <!-- Doze on double tap -->
@@ -306,15 +347,18 @@
     <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">クイックロック解除</string>
-    <string name="unlock_quick_unlock_control_summary">正しいPIN/パスワードが入力されたときはロックを自動的に解除する</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct
+        PIN/password is entered</string>
     <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
-    <string name="peak_refresh_rate_summary_custom">Automatically raises the refresh rate from 60 to %1$d Hz for some content. Increases battery usage.</string>
+    <string name="peak_refresh_rate_summary_custom">Automatically raises the refresh rate from 60 to
+        %1$d Hz for some content. Increases battery usage.</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Reset stats</string>
     <string name="battery_stats_message">Battery history stats are going to be reset</string>
     <!-- Notification sound timeout -->
     <string name="app_notification_sound_timeout_title">Minimum time between notification sounds</string>
-    <string name="app_notification_sound_timeout_summary_template">Allow sounds or vibration no more than once every <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_summary_template">Allow sounds or vibration no more
+        than once every <xliff:g id="duration">%1$s</xliff:g></string>
     <string name="app_notification_sound_timeout_value_none">No restriction</string>
     <string name="app_notification_sound_timeout_value_10_seconds">10 seconds</string>
     <string name="app_notification_sound_timeout_value_30_seconds">30 seconds</string>
@@ -324,7 +368,8 @@
     <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
     <!-- Smart 5G -->
     <string name="smart_5g_title">Smart 5G</string>
-    <string name="smart_5g_summary">Automatically switch between 5G and 4G to reduce battery consumption</string>
+    <string name="smart_5g_summary">Automatically switch between 5G and 4G to reduce battery
+        consumption</string>
     <!-- Black theme -->
     <string name="system_black_theme_title">Use black theme</string>
     <string name="system_black_theme_summary">Force black background colors</string>
@@ -333,43 +378,30 @@
     <string name="ime_narrow">Narrow</string>
     <string name="ime_default">Default</string>
     <string name="ime_hidden">Hidden</string>
-    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
-    <string name="custom_firmware_version">Cherish version</string>
-    <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
-    <string name="about_device_info">About device</string>
-    <!-- CherishOS versioning -->
-    <string name="cherish_version_title">Cherish Version</string>
-    <string name="cherish_device_title">Device</string>
-    <string name="cherish_release_type_title">Release type</string>
-    <string name="cherish_maintainer_title">Maintainer</string>
-    <!-- About page -->
-    <string name="battery">Battery</string>
-    <string name="display">Display</string>
-    <string name="storage">Storage</string>
-    <string name="chipset">Chipset</string>
-    <!-- Settings homepage alternative header -->
-    <string name="top_level_settings_title">Settings</string>
-    <string name="wellbeing_title">Google Wellbeing</string>
-    <string name="usercard_summary">Current active user, tap for more information</string>
-    <string name="connectivity_category_title">connectivity</string>
     <!-- App lock -->
     <string name="app_lock_title">App lock</string>
     <plurals name="app_lock_summary">
-        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g>
+            applications are protected</item>
     </plurals>
     <string name="app_lock_authentication_dialog_title">Unlock</string>
     <string name="enable_debugging">Enable debugging</string>
     <string name="disable_debugging">Disable debugging</string>
     <string name="app_lock_packages_title">Protected apps</string>
-    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
+    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device
+        credentials</string>
     <string name="app_lock_timeout_title">Auto lock timeout</string>
-    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
+    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in
+        background should be locked</string>
     <string name="app_lock_notifications_title">Redact notifications</string>
-    <string name="app_lock_notifications_summary">Notification content will be hidden and collapsed for selected apps when they are locked. Heads up notifications will be automatically disabled.</string>
+    <string name="app_lock_notifications_summary">Notification content will be hidden and collapsed
+        for selected apps when they are locked. Heads up notifications will be automatically
+        disabled.</string>
     <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
     <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
     <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
     <string name="enable_protection">Enable protection</string>
     <string name="hide_from_launcher_title">Hide from launcher</string>
-    <string name="hide_from_launcher_summary">Prevent this application from showing up in any launcher. Requires a launcher restart for changes to take effect.</string>
+    <string name="hide_from_launcher_summary">Prevent this application from showing up in any
+        launcher. Requires a launcher restart for changes to take effect.</string>
 </resources>
