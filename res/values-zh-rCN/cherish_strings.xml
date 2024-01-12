@@ -17,23 +17,21 @@
     <string name="swipe_to_screenshot_gesture_title">滑动截图</string>
     <string name="swipe_to_screenshot_gesture_summary">三指下滑截图</string>
     <!-- Charging control settings -->
-    <string name="charging_control_title">Charging control</string>
-    <string name="charging_control_summary">Customize charging schedule and limits for your device</string>
-    <string name="charging_control_enable_title">Enable charging control</string>
-    <string name="charging_control_mode_title">Charging mode</string>
-    <string name="charging_control_mode_auto_title">Automatic schedule</string>
-    <string name="charging_control_mode_auto_summary">Automatically determine when to start charging
-        based on alarms set</string>
-    <string name="charging_control_mode_custom_title">Custom schedule</string>
-    <string name="charging_control_mode_custom_summary">Set a target time to full charge</string>
-    <string name="charging_control_mode_limit_title">Limit charging</string>
-    <string name="charging_control_mode_limit_summary">Limit charging to a certain percentage</string>
-    <string name="charging_control_start_time_title">Start time</string>
-    <string name="charging_control_start_time_summary">Charging control activates when you start
-        charging after %s</string>
-    <string name="charging_control_target_time_title">Target time to full charge</string>
-    <string name="charging_control_target_time_summary">Battery will be fully charged by %s</string>
-    <string name="charging_control_limit_title">Limit</string>
+    <string name="charging_control_title">充电控制</string>
+    <string name="charging_control_summary">自定义您的设备的充电计划和限制</string>
+    <string name="charging_control_enable_title">启用充电控制</string>
+    <string name="charging_control_mode_title">充电模式</string>
+    <string name="charging_control_mode_auto_title">自动计划</string>
+    <string name="charging_control_mode_auto_summary">根据设定的闹钟自动确定何时开始充电</string>
+    <string name="charging_control_mode_custom_title">自定义计划</string>
+    <string name="charging_control_mode_custom_summary">设定满电的目标时间</string>
+    <string name="charging_control_mode_limit_title">充电限制</string>
+    <string name="charging_control_mode_limit_summary">将充电限制在一定的百分比</string>
+    <string name="charging_control_start_time_title">开始时间</string>
+    <string name="charging_control_start_time_summary">在 %s 后开始充电时激活充电控制</string>
+    <string name="charging_control_target_time_title">满电目标时间</string>
+    <string name="charging_control_target_time_summary">电池将在 %s 前完全充电</string>
+    <string name="charging_control_limit_title">限制</string>
     <!-- Private DNS -->
     <!-- Alternative: 1dot1dot1dot1.cloudflare-dns.com -->
     <!-- AdGuard DNS Option -->
@@ -47,8 +45,7 @@
     <!--Cherish
     Settings-->
     <string name="cherish_settings_title">Cherish 设置</string>
-    <string name="cherish_settings_summary">Happiness is not available and it comes from your own
-        actions</string>
+    <string name="cherish_settings_summary">快乐来自您自己的行动</string>
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">铃声音量渐强</string>
     <string name="increasing_ring_min_volume_title">初始音量</string>
@@ -76,50 +73,40 @@
     <string name="selinux_status_permissive">许可</string>
     <string name="selinux_status_enforcing">强制执行</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the
-        front of your phone.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear">Locate the fingerprint sensor on the
-        back of your phone.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side">Locate the fingerprint sensor on the
-        side of your device.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">找到手机正面的指纹传感器。</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">找到手机背面的指纹传感器。</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">找到设备侧面的指纹传感器。</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint
     sensor -->
-    <string name="fingerprint_enroll_touch_dialog_message_front">Touch the sensor on the front of
-        your phone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear">Touch the sensor on the back of your
-        phone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side">Touch the sensor on the side of your
-        phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front">触摸手机正面的传感器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear">触摸手机背面的传感器。</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side">触摸手机侧面的传感器。</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">允许客户端使用 VPN</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this
-        device\u2019s VPN connections for upstream connectivity</string>
+    <string name="tethering_allow_vpn_upstreams_summary">允许热点客户端使用此设备的 VPN 连接</string>
     <!-- Navigation bar hint -->
     <string name="navbar_category">导航栏</string>
-    <string name="hide_navbar_gesture_bar_title">Hide gesture bar</string>
-    <string name="hide_navbar_gesture_bar_summary">Hide the gesture bar at the bottom of the screen</string>
+    <string name="hide_navbar_gesture_bar_title">隐藏手势栏</string>
+    <string name="hide_navbar_gesture_bar_summary">隐藏屏幕底部的手势栏</string>
     <!-- Battery Temperature -->
     <string name="battery_temp">电池温度</string>
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">截图提示音</string>
     <!-- Restrict USB -->
-    <string name="trust_restrict_usb_title">Restrict USB</string>
-    <string name="trust_restrict_usb_summary">Control support for USB peripherals such as input
-        (mice, keyboards, joysticks) and storage devices.</string>
-    <string name="trust_restrict_usb_always">Deny USB connections</string>
-    <string name="trust_restrict_usb_keyguard">Allow USB connections when unlocked</string>
-    <string name="trust_restrict_usb_disabled">Always allow USB connections</string>
+    <string name="trust_restrict_usb_title">限制 USB</string>
+    <string name="trust_restrict_usb_summary">控制对 USB 外围设备的支持，例如输入 (鼠标、键盘、游戏手柄) 和存储设备。</string>
+    <string name="trust_restrict_usb_always">拒绝 USB 连接</string>
+    <string name="trust_restrict_usb_keyguard">解锁时允许 USB 连接</string>
+    <string name="trust_restrict_usb_disabled">始终允许 USB 连接</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">充电时始终开启</string>
     <string name="doze_on_charge_summary">充电时一直开启息屏显示</string>
     <!-- High touch sensitivity -->
     <string name="high_touch_sensitivity_title">高触摸灵敏度</string>
-    <string name="high_touch_sensitivity_summary">Increase touchscreen sensitivity so it can be used
-        while wearing gloves</string>
+    <string name="high_touch_sensitivity_summary">增加触摸屏的灵敏度，以便在戴手套时使用</string>
     <!-- Touchscreen hovering -->
     <string name="touchscreen_hovering_title">悬浮操作</string>
-    <string name="touchscreen_hovering_summary">Allows you to hover the screen like a mouse in web
-        browsers, remote desktops, etc</string>
+    <string name="touchscreen_hovering_summary">允许您把手指悬停在屏幕上作为浏览器、远程桌面等的鼠标指针</string>
     <!-- Proximity wake -->
     <string name="proximity_wake_title">防止意外唤醒</string>
     <string name="proximity_wake_summary">在唤醒屏幕前检查距离感应器</string>
@@ -127,8 +114,7 @@
     <string name="high_touch_polling_rate_title">高触控采样率</string>
     <string name="high_touch_polling_rate_summary">提高触摸屏采样率</string>
     <!-- Warning message for the sd card setup -->
-    <string name="storage_warning_internal">Warning: This option may not work properly or lead to
-        data loss and is therefore not recommended!</string>
+    <string name="storage_warning_internal">警告：此选项可能无法正常工作或导致数据丢失，因此不推荐使用！</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR
     LIMIT=60]-->
     <string name="ambient_display_screen_off_udfps_title" product="default">Long press on
@@ -142,37 +128,29 @@
     <string name="ambient_display_screen_off_udfps_title" product="device">Long press on fingerprint
         sensor to unlock device</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
-    <string name="ambient_display_screen_off_udfps_summary">To wake up your screen and unlock, long
-        press your under-display fingerprint sensor.</string>
+    <string name="ambient_display_screen_off_udfps_summary">长按屏下指纹传感器以唤醒屏幕并解锁。</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
-    <string name="sim_card_number_title">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
+    <string name="sim_card_number_title">SIM 卡 <xliff:g id="card_number">%1$d</xliff:g></string>
     <!-- Game space -->
     <string name="game_space_title">游戏空间</string>
     <string name="game_space_summary">增强您的游戏体验</string>
     <!-- LiveDisplay -->
-    <string name="advanced">Advanced</string>
-    <string name="live_display_summary">Optimize your screen based on time of day and ambient
-        conditions to improve readability and reduce eyestrain</string>
+    <string name="advanced">高级</string>
+    <string name="live_display_summary">基于时间和环境条件来优化您的屏幕以改善可读性和减少眼睛疲劳</string>
     <string name="live_display_mode">显示模式</string>
     <string name="live_display_color_temperature_title">色温</string>
-    <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K
-        Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_summary">白天: <xliff:g id="day_temperature">%1$d</xliff:g>K 夜晚: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
     <string name="live_display_day">日间模式</string>
     <string name="live_display_night">夜间模式</string>
     <string name="live_display_outdoor_mode_title">自动启用户外模式</string>
-    <string name="live_display_outdoor_mode_summary">Increase brightness and saturation
-        automatically under bright sunlight</string>
+    <string name="live_display_outdoor_mode_summary">在强光下自动增强亮度和饱和度</string>
     <string name="live_display_anti_flicker_title">防闪烁</string>
-    <string name="live_display_anti_flicker_summary">Prevent extensive flickering and reduce eye
-        strain in low light conditions. It might degrade color accuracy and affect the way some
-        items are displayed.</string>
+    <string name="live_display_anti_flicker_summary">在低亮度条件下，可防止闪烁并减少眼睛疲劳。 此模式可能降低色彩精度，并影响部分内容的显示效果。</string>
     <string name="live_display_low_power_title">降低电量消耗</string>
-    <string name="live_display_low_power_summary">Adjust display for lowest power consumption
-        without degradation</string>
+    <string name="live_display_low_power_summary">在不削弱显示效果的情况下调整屏幕使耗电最低</string>
     <string name="live_display_enhance_color_title">增强色彩</string>
-    <string name="live_display_enhance_color_summary">Improve color vibrance of flesh tones,
-        scenery, and other images</string>
+    <string name="live_display_enhance_color_summary">提高人像，风景和其他图像的鲜艳度</string>
     <string name="live_display_color_profile_title">色彩配置</string>
     <string name="live_display_color_profile_standard_title">标准</string>
     <string name="live_display_color_profile_standard_summary">标准的色彩和明亮的白色</string>
@@ -185,8 +163,7 @@
     <string name="live_display_color_profile_astronomy_title">天文</string>
     <string name="live_display_color_profile_astronomy_summary">适合夜间使用的深红色</string>
     <string name="live_display_color_profile_photography_title">图像</string>
-    <string name="live_display_color_profile_photography_summary">Perfect color reproduction for
-        photos</string>
+    <string name="live_display_color_profile_photography_summary">针对照片的完美色彩重现</string>
     <string name="live_display_color_profile_basic_title">基础</string>
     <string name="live_display_color_profile_basic_summary">使用未校准的屏幕</string>
     <string name="live_display_color_profile_adaptive_title">自适应</string>
@@ -196,8 +173,7 @@
     <string name="live_display_color_profile_srgb_title">sRGB</string>
     <string name="live_display_color_profile_srgb_summary">使用 sRGB 色彩空间校准屏幕颜色</string>
     <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
-    <string name="live_display_color_profile_dci_p3_summary">Colors accurate to the DCI-P3 color
-        space</string>
+    <string name="live_display_color_profile_dci_p3_summary">使用 DCI-P3 色彩空间校准屏幕颜色</string>
     <string name="live_display_reading_mode_title">阅读模式</string>
     <string name="live_display_reading_mode_summary">适合长时间阅读的灰度模式</string>
     <string name="color_calibration_title">色彩校准</string>
@@ -276,6 +252,25 @@
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s today</string>
     <string name="about_cherish_device">Cherish Device</string>
+    <string name="homepage_widget_battery_percent">percent</string>
+    <string name="homepage_widget_battery_charge">Charging</string>
+    <string name="homepage_widget_battery_discharge">Discharging</string>
+    <string name="homepage_widget_battery_title">Battery</string>
+    <string name="homepage_widget_storage_title">Storage</string>
+    <string name="default_user">User</string>
+    <string name="top_level_settings_title">Settings</string>
+    <string name="search_button_text_title">Search</string>
+    <string name="firmware_name_text">Cherish0S</string>
+    <string name="firmware_build_type_title">Build type</string>
+    <string name="firmware_build_summary_title">By maintainer</string>
+    <string name="build_is_official_title">#official</string>
+    <string name="build_is_community_title">#community</string>
+    <string name="maintainer_summary">by %s</string>
+    <string name="unknown_maintainer">by someone</string>
+    <string name="device_info_platform_version">14 | fourteen | UpsideDownCake</string>
+    <string name="device_header_info_category_title">Build type</string>
+    <string name="device_info_hw_sw_more">More</string>
+    <string name="device_info_security_patch">Security update</string>
     <!-- Per-app volume -->
     <string name="app_volume">应用独立音量</string>
     <string name="app_volume_title">每个应用的音量单独控制</string>
@@ -322,23 +317,18 @@
     <string name="longpress_to_clipboard">Long-press to copy</string>
     <!-- Hotspot -->
     <string name="wifi_hotspot_hidden_ssid_title">隐藏的网络</string>
-    <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the
-        list of available WLAN networks.</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">您的移动热点名称不会出现在可用的 WLAN 网络列表中。</string>
     <string name="wifi_hotspot_client_manager_title">已连接的设备</string>
-    <string name="wifi_hotspot_client_manager_summary">List and manage devices connected to the
-        hotspot</string>
-    <string name="wifi_hotspot_client_manager_list_only_summary">List devices connected to the
-        hotspot</string>
+    <string name="wifi_hotspot_client_manager_summary">列出并管理连接到热点的设备，并设定客户端数量限制</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">列出连接到热点的设备</string>
     <string name="wifi_hotspot_client_limit_title">已连接设备的限制</string>
     <string name="wifi_hotspot_blocked_clients_list_title">被屏蔽的设备</string>
     <string name="wifi_hotspot_connected_clients_list_title">已连接的设备</string>
     <string name="wifi_hotspot_block_client_dialog_title">屏蔽设备</string>
     <string name="wifi_hotspot_block_client_dialog_text">此操作将断开此设备上的 \"<xliff:g id="device_name">%1$s</xliff:g>\"并将其添加到屏蔽列表</string>
     <string name="wifi_hotspot_unblock_client_dialog_title">不封禁设备</string>
-    <string name="wifi_hotspot_unblock_client_dialog_text">The device \"<xliff:g id="device_name">
-        %1$s</xliff:g>\" will be able to connect to this hotspot</string>
-    <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available.
-        Connected and blocked devices will be listed here when available.</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">此设备 \"<xliff:g id="device_name">%1$s</xliff:g>\" 将能够连接到这个热点</string>
+    <string name="wifi_hotspot_client_manager_footer_text">目前没有可用的客户端。连接和被屏蔽的设备将在可存档时列出。</string>
     <!-- Summary for list to control apps that ignore battery saving restrictions -->
     <string name="high_power_apps_summary">Battery optimization availability</string>
     <!-- Doze on double tap -->
@@ -347,8 +337,7 @@
     <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">快速解锁</string>
-    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct
-        PIN/password is entered</string>
+    <string name="unlock_quick_unlock_control_summary">输入正确的 PIN/密码时自动解锁</string>
     <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
     <string name="peak_refresh_rate_summary_custom">Automatically raises the refresh rate from 60 to
         %1$d Hz for some content. Increases battery usage.</string>
@@ -404,4 +393,7 @@
     <string name="hide_from_launcher_title">Hide from launcher</string>
     <string name="hide_from_launcher_summary">Prevent this application from showing up in any
         launcher. Requires a launcher restart for changes to take effect.</string>
+    <!-- FastCharge feature -->
+    <string name="fast_charging_title">Fast charging</string>
+    <string name="fast_charging_summary">Disable to reduce the heat produced by the device while charging or to extend the lifespan of the battery</string>
 </resources>
