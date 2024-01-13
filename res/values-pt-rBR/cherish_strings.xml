@@ -246,7 +246,7 @@
     <string name="duration_less_than_one_minute">Menos de 1 minuto</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s hoje</string>
-    <string name="about_cherish_device">Cherish Device</string>
+    <string name="about_cherish_device">Dispositivo Cherish</string>
     <string name="homepage_widget_battery_percent">percent</string>
     <string name="homepage_widget_battery_charge">Charging</string>
     <string name="homepage_widget_battery_discharge">Discharging</string>
