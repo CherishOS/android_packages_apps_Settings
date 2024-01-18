@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App details: open play store link if app is user installed -->
-    <string name="app_play_store">Google Play</string>
+    <string name="app_play_store">Гугл плей</string>
     <!-- Maintainer -->
     <string name="maintainer">Сопровождающий</string>
     <!-- About phone screen, Cherish OS version -->
@@ -17,21 +17,21 @@
     <string name="swipe_to_screenshot_gesture_title">Проведите для скриншота</string>
     <string name="swipe_to_screenshot_gesture_summary">Проведите тремя пальцами для создания скриншота</string>
     <!-- Charging control settings -->
-    <string name="charging_control_title">Charging control</string>
-    <string name="charging_control_summary">Customize charging schedule and limits for your device</string>
-    <string name="charging_control_enable_title">Enable charging control</string>
-    <string name="charging_control_mode_title">Charging mode</string>
-    <string name="charging_control_mode_auto_title">Automatic schedule</string>
+    <string name="charging_control_title">Контроль заряда</string>
+    <string name="charging_control_summary">Настройка расписания и лимитов заряда</string>
+    <string name="charging_control_enable_title">Включить управление зарядкой</string>
+    <string name="charging_control_mode_title">Режим зарядки</string>
+    <string name="charging_control_mode_auto_title">Автоматичесеое расписание</string>
     <string name="charging_control_mode_auto_summary">Automatically determine when to start charging based on alarms set</string>
-    <string name="charging_control_mode_custom_title">Custom schedule</string>
-    <string name="charging_control_mode_custom_summary">Set a target time to full charge</string>
-    <string name="charging_control_mode_limit_title">Limit charging</string>
-    <string name="charging_control_mode_limit_summary">Limit charging to a certain percentage</string>
-    <string name="charging_control_start_time_title">Start time</string>
+    <string name="charging_control_mode_custom_title">Пользовательское расписание</string>
+    <string name="charging_control_mode_custom_summary">Задать целевое время полной зарядки</string>
+    <string name="charging_control_mode_limit_title">Лимит зарядки</string>
+    <string name="charging_control_mode_limit_summary">Ограничить зарядку по достижении определённого уровня заряда</string>
+    <string name="charging_control_start_time_title">Время начала</string>
     <string name="charging_control_start_time_summary">Charging control activates when you start charging after %s</string>
-    <string name="charging_control_target_time_title">Target time to full charge</string>
-    <string name="charging_control_target_time_summary">Battery will be fully charged by %s</string>
-    <string name="charging_control_limit_title">Limit</string>
+    <string name="charging_control_target_time_title">Задать целевое время полной зарядки</string>
+    <string name="charging_control_target_time_summary">Батарея будет полностью заряжена в %s</string>
+    <string name="charging_control_limit_title">Максимум</string>
     <!-- Private DNS -->
     <!-- Alternative: 1dot1dot1dot1.cloudflare-dns.com -->
     <!-- AdGuard DNS Option -->
@@ -51,7 +51,7 @@
     <string name="increasing_ring_min_volume_title">Начальная громкость</string>
     <string name="increasing_ring_ramp_up_time_title">Время нарастания</string>
     <!-- Menu option for not validating the EAP server -->
-    <string name="wifi_do_not_validate_eap_server">Do not validate</string>
+    <string name="wifi_do_not_validate_eap_server">Не проверять</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Сертификат не указан. Будет установлено незащищенное соединение.</string>
     <!-- Refresh rate -->
@@ -62,8 +62,8 @@
     <string name="unlock_scramble_pin_layout_title">Перемешать расположение кнопок</string>
     <string name="unlock_scramble_pin_layout_summary">Перемешать схему PIN-кода при разблокировке устройства</string>
     <!-- Force LTE_CA -->
-    <string name="force_lte_ca">Force LTE CA</string>
-    <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+    <string name="force_lte_ca">Принудительное LTE CA</string>
+    <string name="force_lte_ca_summary">Принудительная агрегация частот LTE</string>
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="selinux_status">Режим SELinux</string>
     <!-- These statuses are displayed when a device was built with SE Android supoprt.
@@ -85,8 +85,8 @@
     <string name="tethering_allow_vpn_upstreams_summary">Разрешить пользователям точки доступа использовать VPN-соединения этого устройства для подключения к сети</string>
     <!-- Navigation bar hint -->
     <string name="navbar_category">Панель навигации</string>
-    <string name="hide_navbar_gesture_bar_title">Hide gesture bar</string>
-    <string name="hide_navbar_gesture_bar_summary">Hide the gesture bar at the bottom of the screen</string>
+    <string name="hide_navbar_gesture_bar_title">Скрыть панель жестов</string>
+    <string name="hide_navbar_gesture_bar_summary">Скрыть панель жестов в нижней части экрана</string>
     <!-- Battery Temperature -->
     <string name="battery_temp">Температура батареи</string>
     <!-- Screenshot shutter -->
