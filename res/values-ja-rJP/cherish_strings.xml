@@ -17,17 +17,17 @@
     <string name="swipe_to_screenshot_gesture_title">スワイプでスクリーンショット</string>
     <string name="swipe_to_screenshot_gesture_summary">3本指でスワイプしてスクリーンショットを取得する</string>
     <!-- Charging control settings -->
-    <string name="charging_control_title">Charging control</string>
+    <string name="charging_control_title">充電のコントロール</string>
     <string name="charging_control_summary">Customize charging schedule and limits for your device</string>
     <string name="charging_control_enable_title">Enable charging control</string>
-    <string name="charging_control_mode_title">Charging mode</string>
-    <string name="charging_control_mode_auto_title">Automatic schedule</string>
+    <string name="charging_control_mode_title">充電モード</string>
+    <string name="charging_control_mode_auto_title">自動スケジュール</string>
     <string name="charging_control_mode_auto_summary">Automatically determine when to start charging based on alarms set</string>
-    <string name="charging_control_mode_custom_title">Custom schedule</string>
+    <string name="charging_control_mode_custom_title">カスタムスケジュール</string>
     <string name="charging_control_mode_custom_summary">Set a target time to full charge</string>
     <string name="charging_control_mode_limit_title">Limit charging</string>
     <string name="charging_control_mode_limit_summary">Limit charging to a certain percentage</string>
-    <string name="charging_control_start_time_title">Start time</string>
+    <string name="charging_control_start_time_title">開始時間</string>
     <string name="charging_control_start_time_summary">Charging control activates when you start charging after %s</string>
     <string name="charging_control_target_time_title">Target time to full charge</string>
     <string name="charging_control_target_time_summary">Battery will be fully charged by %s</string>
@@ -85,7 +85,7 @@
     <string name="tethering_allow_vpn_upstreams_summary">この端末の VPN 接続をホットスポットのクライアントが送信接続に使うことを許可する</string>
     <!-- Navigation bar hint -->
     <string name="navbar_category">ナビゲーションバー</string>
-    <string name="hide_navbar_gesture_bar_title">Hide gesture bar</string>
+    <string name="hide_navbar_gesture_bar_title">ジェスチャーバーを隠す</string>
     <string name="hide_navbar_gesture_bar_summary">Hide the gesture bar at the bottom of the screen</string>
     <!-- Battery Temperature -->
     <string name="battery_temp">バッテリー温度</string>
@@ -189,26 +189,26 @@
     <!-- Notification light dialogs -->
     <string name="edit_light_settings">Edit light settings</string>
     <string name="pulse_speed_title">Pulse length and speed</string>
-    <string name="default_time">Normal</string>
-    <string name="custom_time">Custom</string>
-    <string name="dialog_delete_title">Delete</string>
+    <string name="default_time">標準</string>
+    <string name="custom_time">カスタム</string>
+    <string name="dialog_delete_title">削除</string>
     <string name="dialog_delete_message">Remove selected item?</string>
-    <string name="brightness">Brightness level</string>
-    <string name="choose_app">Choose app</string>
+    <string name="brightness">明るさのレベル</string>
+    <string name="choose_app">アプリを選択</string>
     <!-- Values for the notification light pulse spinners -->
     <string name="pulse_length_always_on">Always on</string>
-    <string name="pulse_length_very_short">Very short</string>
-    <string name="pulse_length_short">Short</string>
-    <string name="pulse_length_normal">Normal</string>
-    <string name="pulse_length_long">Long</string>
-    <string name="pulse_length_very_long">Very long</string>
-    <string name="pulse_speed_very_fast">Very fast</string>
-    <string name="pulse_speed_fast">Fast</string>
-    <string name="pulse_speed_normal">Normal</string>
-    <string name="pulse_speed_slow">Slow</string>
-    <string name="pulse_speed_very_slow">Very slow</string>
+    <string name="pulse_length_very_short">非常に短い</string>
+    <string name="pulse_length_short">短い</string>
+    <string name="pulse_length_normal">標準</string>
+    <string name="pulse_length_long">長い</string>
+    <string name="pulse_length_very_long">非常に長い</string>
+    <string name="pulse_speed_very_fast">非常に高速</string>
+    <string name="pulse_speed_fast">高速</string>
+    <string name="pulse_speed_normal">標準</string>
+    <string name="pulse_speed_slow">低速</string>
+    <string name="pulse_speed_very_slow">非常に低速</string>
     <!-- Common light settings strings -->
-    <string name="light_brightness_title">Brightness levels</string>
+    <string name="light_brightness_title">明るさのレベル</string>
     <string name="light_brightness_normal">Normal</string>
     <string name="light_brightness_zen">Do Not Disturb</string>
     <!-- Battery light settings -->
@@ -250,29 +250,29 @@
     <string name="homepage_widget_battery_percent">percent</string>
     <string name="homepage_widget_battery_charge">Charging</string>
     <string name="homepage_widget_battery_discharge">Discharging</string>
-    <string name="homepage_widget_battery_title">Battery</string>
-    <string name="homepage_widget_storage_title">Storage</string>
-    <string name="default_user">User</string>
-    <string name="top_level_settings_title">Settings</string>
-    <string name="search_button_text_title">Search</string>
+    <string name="homepage_widget_battery_title">バッテリー</string>
+    <string name="homepage_widget_storage_title">ストレージ</string>
+    <string name="default_user">ユーザー</string>
+    <string name="top_level_settings_title">設定</string>
+    <string name="search_button_text_title">検索</string>
     <string name="firmware_name_text">Cherish0S</string>
-    <string name="firmware_build_type_title">Build type</string>
+    <string name="firmware_build_type_title">ビルドタイプ</string>
     <string name="firmware_build_summary_title">By maintainer</string>
     <string name="build_is_official_title">#official</string>
     <string name="build_is_community_title">#community</string>
     <string name="maintainer_summary">by %s</string>
     <string name="unknown_maintainer">by someone</string>
     <string name="device_info_platform_version">14 | fourteen | UpsideDownCake</string>
-    <string name="device_header_info_category_title">Build type</string>
-    <string name="device_info_hw_sw_more">More</string>
-    <string name="device_info_security_patch">Security update</string>
+    <string name="device_header_info_category_title">ビルドタイプ</string>
+    <string name="device_info_hw_sw_more">さらに表示</string>
+    <string name="device_info_security_patch">セキュリティアップデート</string>
     <!-- Per-app volume -->
     <string name="app_volume">アプリの音量</string>
     <string name="app_volume_title">アプリごとの音量調節</string>
     <string name="app_volume_summary">アプリごとに異なる音量を設定する</string>
     <!-- Backup Transport selection settings menu and activity title -->
-    <string name="backup_transport_setting_label">Change backup provider</string>
-    <string name="backup_transport_title">Select backup provider</string>
+    <string name="backup_transport_setting_label">バックアッププロバイダの変更</string>
+    <string name="backup_transport_title">バックアッププロバイダの選択</string>
     <!-- Lock screen pattern size -->
     <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern
@@ -343,36 +343,36 @@
     <string name="app_notification_sound_timeout_title">Minimum time between notification sounds</string>
     <string name="app_notification_sound_timeout_summary_template">Allow sounds or vibration no more than once every <xliff:g id="duration">%1$s</xliff:g></string>
     <string name="app_notification_sound_timeout_value_none">No restriction</string>
-    <string name="app_notification_sound_timeout_value_10_seconds">10 seconds</string>
-    <string name="app_notification_sound_timeout_value_30_seconds">30 seconds</string>
-    <string name="app_notification_sound_timeout_value_1_minute">1 minute</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 秒</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 秒</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 分</string>
     <string name="app_notification_sound_timeout_value_5_minutes">5 minutes</string>
     <string name="app_notification_sound_timeout_value_15_minutes">10 minutes</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
     <!-- Smart 5G -->
-    <string name="smart_5g_title">Smart 5G</string>
+    <string name="smart_5g_title">スマート 5G</string>
     <string name="smart_5g_summary">Automatically switch between 5G and 4G to reduce battery consumption</string>
     <!-- Black theme -->
-    <string name="system_black_theme_title">Use black theme</string>
+    <string name="system_black_theme_title">ブラックテーマを使用する</string>
     <string name="system_black_theme_summary">Force black background colors</string>
     <!-- Navigation bar IME space -->
     <string name="navigation_bar_ime_space_title">IME スペース</string>
     <string name="ime_narrow">Narrow</string>
-    <string name="ime_default">Default</string>
-    <string name="ime_hidden">Hidden</string>
+    <string name="ime_default">デフォルト</string>
+    <string name="ime_hidden">非表示</string>
     <!-- App lock -->
-    <string name="app_lock_title">App lock</string>
+    <string name="app_lock_title">アプリロック</string>
     <plurals name="app_lock_summary">
         <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g>
             applications are protected</item>
     </plurals>
-    <string name="app_lock_authentication_dialog_title">Unlock</string>
-    <string name="enable_debugging">Enable debugging</string>
-    <string name="disable_debugging">Disable debugging</string>
-    <string name="app_lock_packages_title">Protected apps</string>
+    <string name="app_lock_authentication_dialog_title">ロック解除</string>
+    <string name="enable_debugging">デバッグを有効化</string>
+    <string name="disable_debugging">デバッグを無効化</string>
+    <string name="app_lock_packages_title">保護されているアプリ</string>
     <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device
         credentials</string>
-    <string name="app_lock_timeout_title">Auto lock timeout</string>
+    <string name="app_lock_timeout_title">自動ロックまでの時間</string>
     <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in
         background should be locked</string>
     <string name="app_lock_notifications_title">Redact notifications</string>
@@ -382,11 +382,11 @@
     <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
     <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
     <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
-    <string name="enable_protection">Enable protection</string>
-    <string name="hide_from_launcher_title">Hide from launcher</string>
+    <string name="enable_protection">保護を有効化</string>
+    <string name="hide_from_launcher_title">ランチャーから隠す</string>
     <string name="hide_from_launcher_summary">Prevent this application from showing up in any
         launcher. Requires a launcher restart for changes to take effect.</string>
     <!-- FastCharge feature -->
-    <string name="fast_charging_title">Fast charging</string>
+    <string name="fast_charging_title">急速充電</string>
     <string name="fast_charging_summary">Disable to reduce the heat produced by the device while charging or to extend the lifespan of the battery</string>
 </resources>
