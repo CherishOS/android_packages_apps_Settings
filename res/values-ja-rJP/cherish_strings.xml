@@ -192,11 +192,11 @@
     <string name="default_time">標準</string>
     <string name="custom_time">カスタム</string>
     <string name="dialog_delete_title">削除</string>
-    <string name="dialog_delete_message">Remove selected item?</string>
+    <string name="dialog_delete_message">選択した項目を削除しますか？</string>
     <string name="brightness">明るさのレベル</string>
     <string name="choose_app">アプリを選択</string>
     <!-- Values for the notification light pulse spinners -->
-    <string name="pulse_length_always_on">Always on</string>
+    <string name="pulse_length_always_on">常に ON</string>
     <string name="pulse_length_very_short">非常に短い</string>
     <string name="pulse_length_short">短い</string>
     <string name="pulse_length_normal">標準</string>
@@ -210,7 +210,7 @@
     <!-- Common light settings strings -->
     <string name="light_brightness_title">明るさのレベル</string>
     <string name="light_brightness_normal">標準</string>
-    <string name="light_brightness_zen">Do Not Disturb</string>
+    <string name="light_brightness_zen">サイレントモード</string>
     <!-- Battery light settings -->
     <string name="battery_light_title">バッテリーライト</string>
     <string name="battery_light_summary">Customize battery charging light behaviour</string>
@@ -380,7 +380,7 @@
         for selected apps when they are locked. Heads up notifications will be automatically
         disabled.</string>
     <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
-    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
+    <string name="app_lock_biometrics_allowed_title">生体認証でのロック解除を有効化する</string>
     <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
     <string name="enable_protection">保護を有効化</string>
     <string name="hide_from_launcher_title">ランチャーから隠す</string>
