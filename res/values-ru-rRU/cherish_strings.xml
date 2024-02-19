@@ -94,9 +94,9 @@
     <!-- Restrict USB -->
     <string name="trust_restrict_usb_title">Ограничивать использование usb</string>
     <string name="trust_restrict_usb_summary">Control support for USB peripherals such as input (mice, keyboards, joysticks) and storage devices.</string>
-    <string name="trust_restrict_usb_always">Deny USB connections</string>
-    <string name="trust_restrict_usb_keyguard">Allow USB connections when unlocked</string>
-    <string name="trust_restrict_usb_disabled">Always allow USB connections</string>
+    <string name="trust_restrict_usb_always">Запретить USB-подключения</string>
+    <string name="trust_restrict_usb_keyguard">Разрешить USB-подключения когда устройство разблокировано</string>
+    <string name="trust_restrict_usb_disabled">Всегда разрешать USB-подключения</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Всегда включен во время зарядки</string>
     <string name="doze_on_charge_summary">Постоянное отображение экрана ожидания во время зарядки</string>
@@ -131,7 +131,7 @@
     <string name="game_space_title">Игровое пространство</string>
     <string name="game_space_summary">Улучшайте свои впечатления от игр</string>
     <!-- LiveDisplay -->
-    <string name="advanced">Advanced</string>
+    <string name="advanced">Дополнительно</string>
     <string name="live_display_summary">Оптимизировать экран в зависимости от времени суток и условий окружающей среды для улучшения читаемости и снижения утомляемости глаз</string>
     <string name="live_display_mode">Режим отображения</string>
     <string name="live_display_color_temperature_title">Цветовая температура</string>
