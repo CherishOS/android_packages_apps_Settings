@@ -93,7 +93,7 @@
     <string name="screenshot_shutter_sound_title">Ekran görüntüsü sesi</string>
     <!-- Restrict USB -->
     <string name="trust_restrict_usb_title">USB\'yi kısıtla</string>
-    <string name="trust_restrict_usb_summary">Control support for USB peripherals such as input (mice, keyboards, joysticks) and storage devices.</string>
+    <string name="trust_restrict_usb_summary">Giriş (fareler, klavyeler, joystickler) ve depolama aygıtları gibi USB çevre birimleri için kontrol desteği.</string>
     <string name="trust_restrict_usb_always">USB bağlantılarını reddet</string>
     <string name="trust_restrict_usb_keyguard">Ekran kilidi açıkken USB bağlantılarına izin ver</string>
     <string name="trust_restrict_usb_disabled">Her zaman USB bağlantılarına izin ver</string>
@@ -113,18 +113,18 @@
     <string name="high_touch_polling_rate_title">Yüksek dokunma yoklama oranı</string>
     <string name="high_touch_polling_rate_summary">Dokunma ekranı yoklama oranını artırın</string>
     <!-- Warning message for the sd card setup -->
-    <string name="storage_warning_internal">Warning: This option may not work properly or lead to data loss and is therefore not recommended!</string>
+    <string name="storage_warning_internal">Uyarı: Bu özellik düzgün çalışmayabilir veya veri kaybına neden olabilir ve bu nedenle önerilmez!</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR
     LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title" product="default">Long press on fingerprint sensor to unlock phone</string>
+    <string name="ambient_display_screen_off_udfps_title" product="default">Telefonun kilidini açmak için parmak izi sensörüne uzun basın</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR
     LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title" product="tablet">Long press on fingerprint sensor to unlock tablet</string>
+    <string name="ambient_display_screen_off_udfps_title" product="tablet">Tabletin kilidini açmak için parmak izi sensörüne uzun basın</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR
     LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title" product="device">Long press on fingerprint sensor to unlock device</string>
+    <string name="ambient_display_screen_off_udfps_title" product="device">Cihazın kilidini açmak için parmak izi sensörüne uzun basın</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
-    <string name="ambient_display_screen_off_udfps_summary">To wake up your screen and unlock, long press your under-display fingerprint sensor.</string>
+    <string name="ambient_display_screen_off_udfps_summary">Ekranınızı uyandırmak ve kilidini açmak için ekranın altındaki parmak izi sensörünüze uzun basın.</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
     <string name="sim_card_number_title">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
     <!-- Game space -->
@@ -241,7 +241,7 @@
     <!-- Lights settings, LED notification -->
     <string name="led_notification_title">Işık ayarları</string>
     <string name="led_notification_text">LED ışığı ayarlardan etkin</string>
-    <string name="notification_light_add_apps_empty_summary">To add per app control, activate \'%1$s\' and press \'Add\'</string>
+    <string name="notification_light_add_apps_empty_summary">Uygulama başına denetim eklemek için \'%1$s\' öğesini etkinleştirin ve \'Ekle\'ye basın</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">1 dakikadan az</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
@@ -334,13 +334,13 @@
     <string name="unlock_quick_unlock_control_title">Hızlı kilit açma</string>
     <string name="unlock_quick_unlock_control_summary">Doğru PIN/Şifre girildiğinde otomatik olarak kilidi aç</string>
     <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
-    <string name="peak_refresh_rate_summary_custom">Automatically raises the refresh rate from 60 to %1$d Hz for some content. Increases battery usage.</string>
+    <string name="peak_refresh_rate_summary_custom">Bazı içerikler için yenileme hızını otomatik olarak 60 Hz\'den %1$d Hz\'e yükseltir. Pil kullanımını artırır.</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">İstatistikleri sıfırla</string>
     <string name="battery_stats_message">Pil kullanım istatistikleri sıfırlanacak</string>
     <!-- Notification sound timeout -->
     <string name="app_notification_sound_timeout_title">Bildirim sesleri arasındaki minimum süre</string>
-    <string name="app_notification_sound_timeout_summary_template">Allow sounds or vibration no more than once every <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_summary_template">Bir defadan fazla olmayacak şekilde her <xliff:g id="duration">%1$s</xliff:g>\'da bir titreme veya sese izin ver</string>
     <string name="app_notification_sound_timeout_value_none">Kısıtlama yok</string>
     <string name="app_notification_sound_timeout_value_10_seconds">10 saniye</string>
     <string name="app_notification_sound_timeout_value_30_seconds">30 saniye</string>
@@ -350,7 +350,7 @@
     <string name="app_notification_sound_timeout_value_30_minutes">30 dakika</string>
     <!-- Smart 5G -->
     <string name="smart_5g_title">Akıllı 5G</string>
-    <string name="smart_5g_summary">Automatically switch between 5G and 4G to reduce battery consumption</string>
+    <string name="smart_5g_summary">Pil tüketimini azaltmak için 5G ve 4G arasında otomatik olarak geçiş yapın</string>
     <!-- Black theme -->
     <string name="system_black_theme_title">Siyah temayı kullan</string>
     <string name="system_black_theme_summary">Siyah arka plan renklerine zorla</string>
@@ -379,13 +379,12 @@
     <string name="app_lock_footer_text">Baloncuklar zaman aşımından sonra otomatik olarak yok sayılacak</string>
     <string name="enable_protection">Korumayı etkinleştir</string>
     <string name="hide_from_launcher_title">Başlatıcıdan gizle</string>
-    <string name="hide_from_launcher_summary">Prevent this application from showing up in any
-        launcher. Requires a launcher restart for changes to take effect.</string>
+    <string name="hide_from_launcher_summary">Bu uygulamanın herhangi bir başlatıcıda görünmesini engelleyin. Değişikliklerin etkili olması için başlatıcının yeniden başlatılmasını gerektirir.</string>
     <!-- FastCharge feature -->
-    <string name="fast_charging_title">Fast charging</string>
-    <string name="fast_charging_summary">Disable to reduce the heat produced by the device while charging or to extend the lifespan of the battery</string>
+    <string name="fast_charging_title">Hızlı şarj</string>
+    <string name="fast_charging_summary">Cihazın şarj ederken ürettiği ısıyı azaltmak veya pilin ömrünü uzatmak için devre dışı bırakın</string>
     <!-- Face Unlock -->
-    <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
-    <string name="face_unlock_method_default">When the screen is turned on</string>
-    <string name="face_unlock_method_swipe">When swiping on lock screen</string>
+    <string name="face_unlock_method_title">Kilit ekranında yüz kilidi açmaya izin ver</string>
+    <string name="face_unlock_method_default">Ekran açıldığında</string>
+    <string name="face_unlock_method_swipe">Kilit ekranında kaydırırken</string>
 </resources>
