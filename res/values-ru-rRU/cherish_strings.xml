@@ -185,44 +185,44 @@
     <string name="adj_intensity_title">Интенсивность</string>
     <string name="adj_contrast_title">Контрастность</string>
     <!-- Notification channels -->
-    <string name="channel_light_settings_name">Light settings preview</string>
+    <string name="channel_light_settings_name">Предпросмотр настроек яркости</string>
     <!-- Notification light dialogs -->
-    <string name="edit_light_settings">Edit light settings</string>
-    <string name="pulse_speed_title">Pulse length and speed</string>
-    <string name="default_time">Normal</string>
-    <string name="custom_time">Custom</string>
-    <string name="dialog_delete_title">Delete</string>
-    <string name="dialog_delete_message">Remove selected item?</string>
-    <string name="brightness">Brightness level</string>
-    <string name="choose_app">Choose app</string>
+    <string name="edit_light_settings">Изменение параметров яркости</string>
+    <string name="pulse_speed_title">Длительность и скорость мигания</string>
+    <string name="default_time">Обычный</string>
+    <string name="custom_time">Пользовательская</string>
+    <string name="dialog_delete_title">Удалить</string>
+    <string name="dialog_delete_message">Удалить выбранный элемент?</string>
+    <string name="brightness">Уровень яркости</string>
+    <string name="choose_app">Выберите приложение</string>
     <!-- Values for the notification light pulse spinners -->
-    <string name="pulse_length_always_on">Always on</string>
-    <string name="pulse_length_very_short">Very short</string>
-    <string name="pulse_length_short">Short</string>
-    <string name="pulse_length_normal">Normal</string>
-    <string name="pulse_length_long">Long</string>
-    <string name="pulse_length_very_long">Very long</string>
-    <string name="pulse_speed_very_fast">Very fast</string>
-    <string name="pulse_speed_fast">Fast</string>
-    <string name="pulse_speed_normal">Normal</string>
-    <string name="pulse_speed_slow">Slow</string>
-    <string name="pulse_speed_very_slow">Very slow</string>
+    <string name="pulse_length_always_on">Всегда включен</string>
+    <string name="pulse_length_very_short">Очень коротко</string>
+    <string name="pulse_length_short">Короткая</string>
+    <string name="pulse_length_normal">Обычный</string>
+    <string name="pulse_length_long">Длинная</string>
+    <string name="pulse_length_very_long">Очень длинный</string>
+    <string name="pulse_speed_very_fast">Очень быстрая</string>
+    <string name="pulse_speed_fast">Быстрый</string>
+    <string name="pulse_speed_normal">Обычный</string>
+    <string name="pulse_speed_slow">Медленно</string>
+    <string name="pulse_speed_very_slow">Очень медленно</string>
     <!-- Common light settings strings -->
-    <string name="light_brightness_title">Brightness levels</string>
-    <string name="light_brightness_normal">Normal</string>
-    <string name="light_brightness_zen">Do Not Disturb</string>
+    <string name="light_brightness_title">Уровень яркости</string>
+    <string name="light_brightness_normal">Обычный</string>
+    <string name="light_brightness_zen">Не беспокоить</string>
     <!-- Battery light settings -->
-    <string name="battery_light_title">Battery light</string>
+    <string name="battery_light_title">Индикатор батареи</string>
     <string name="battery_light_summary">Customize battery charging light behaviour</string>
     <string name="battery_light_enable_title">Enable battery light</string>
     <string name="battery_low_pulse_title">Pulse if battery low</string>
     <string name="battery_light_full_charge_disabled_title">Turn off when fully charged</string>
-    <string name="battery_light_list_title">Colors</string>
-    <string name="battery_light_low_color_title">Battery low</string>
-    <string name="battery_light_medium_color_title">Charging</string>
-    <string name="battery_light_full_color_title">Fully charged</string>
+    <string name="battery_light_list_title">Цвета</string>
+    <string name="battery_light_low_color_title">Низкий заряд батареи</string>
+    <string name="battery_light_medium_color_title">Заряжается</string>
+    <string name="battery_light_full_color_title">Полностью заряжен</string>
     <!-- Lights settings screen, notification light settings -->
-    <string name="notification_light_title">Notification light</string>
+    <string name="notification_light_title">Световой индикатор уведомлений</string>
     <string name="notification_light_summary">Customize Notification light behaviour</string>
     <string name="notification_light_enable_title">Enable notification light</string>
     <string name="notification_light_general_title">General</string>
@@ -250,19 +250,19 @@
     <string name="homepage_widget_battery_percent">percent</string>
     <string name="homepage_widget_battery_charge">Charging</string>
     <string name="homepage_widget_battery_discharge">Discharging</string>
-    <string name="homepage_widget_battery_title">Battery</string>
-    <string name="homepage_widget_storage_title">Storage</string>
-    <string name="default_user">User</string>
-    <string name="top_level_settings_title">Settings</string>
-    <string name="search_button_text_title">Search</string>
+    <string name="homepage_widget_battery_title">Батарея</string>
+    <string name="homepage_widget_storage_title">Хранилище</string>
+    <string name="default_user">Пользователь</string>
+    <string name="top_level_settings_title">Настройки</string>
+    <string name="search_button_text_title">Поиск</string>
     <string name="firmware_name_text">Cherish0S</string>
-    <string name="firmware_build_type_title">Build type</string>
-    <string name="firmware_build_summary_title">By maintainer</string>
-    <string name="build_is_official_title">#official</string>
-    <string name="build_is_community_title">#community</string>
+    <string name="firmware_build_type_title">Тип сборки</string>
+    <string name="firmware_build_summary_title">Создатель</string>
+    <string name="build_is_official_title">#официальная</string>
+    <string name="build_is_community_title">#сообщество</string>
     <string name="maintainer_summary">by %s</string>
     <string name="unknown_maintainer">by someone</string>
-    <string name="device_info_platform_version">14 | fourteen | UpsideDownCake</string>
+    <string name="device_info_platform_version">14 | четырнадцать | UpsideDownCake (Перевёрнутый торт)</string>
     <string name="device_header_info_category_title">Build type</string>
     <string name="device_info_hw_sw_more">More</string>
     <string name="device_info_security_patch">Security update</string>
@@ -343,22 +343,22 @@
     <string name="app_notification_sound_timeout_title">Minimum time between notification sounds</string>
     <string name="app_notification_sound_timeout_summary_template">Allow sounds or vibration no more than once every <xliff:g id="duration">%1$s</xliff:g></string>
     <string name="app_notification_sound_timeout_value_none">No restriction</string>
-    <string name="app_notification_sound_timeout_value_10_seconds">10 seconds</string>
-    <string name="app_notification_sound_timeout_value_30_seconds">30 seconds</string>
-    <string name="app_notification_sound_timeout_value_1_minute">1 minute</string>
-    <string name="app_notification_sound_timeout_value_5_minutes">5 minutes</string>
-    <string name="app_notification_sound_timeout_value_15_minutes">10 minutes</string>
-    <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 секунд</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 секунд</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 минута</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 минут</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 минут</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 минут</string>
     <!-- Smart 5G -->
-    <string name="smart_5g_title">Smart 5G</string>
+    <string name="smart_5g_title">Умный 5G</string>
     <string name="smart_5g_summary">Automatically switch between 5G and 4G to reduce battery consumption</string>
     <!-- Black theme -->
-    <string name="system_black_theme_title">Use black theme</string>
+    <string name="system_black_theme_title">Использовать тёмную тему</string>
     <string name="system_black_theme_summary">Force black background colors</string>
     <!-- Navigation bar IME space -->
     <string name="navigation_bar_ime_space_title">IME space</string>
     <string name="ime_narrow">Narrow</string>
-    <string name="ime_default">Default</string>
+    <string name="ime_default">По умолчанию</string>
     <string name="ime_hidden">Hidden</string>
     <!-- App lock -->
     <string name="app_lock_title">App lock</string>
@@ -373,9 +373,9 @@
             applications are protected</item>
     </plurals>
     <string name="app_lock_authentication_dialog_title">Unlock</string>
-    <string name="enable_debugging">Enable debugging</string>
-    <string name="disable_debugging">Disable debugging</string>
-    <string name="app_lock_packages_title">Protected apps</string>
+    <string name="enable_debugging">Включить отладку</string>
+    <string name="disable_debugging">Отключить отладку</string>
+    <string name="app_lock_packages_title">Защищённые приложения</string>
     <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device
         credentials</string>
     <string name="app_lock_timeout_title">Auto lock timeout</string>
