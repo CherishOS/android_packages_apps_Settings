@@ -329,6 +329,7 @@ public class FingerprintSettings extends SubSettings {
         private PreferenceCategory mFingerprintsEnrolledCategory;
         private PreferenceCategory mFingerprintUnlockCategory;
         private PreferenceCategory mFingerprintUnlockFooter;
+        private boolean mProximityCheckOnFingerprintUnlock;
 
         private FingerprintManager mFingerprintManager;
         private FingerprintUpdater mFingerprintUpdater;
@@ -567,6 +568,8 @@ public class FingerprintSettings extends SubSettings {
             mFingerprintManager = Utils.getFingerprintManagerOrNull(activity);
             mFingerprintUpdater = new FingerprintUpdater(activity, mFingerprintManager);
             mSensorProperties = mFingerprintManager.getSensorPropertiesInternal();
+            mProximityCheckOnFingerprintUnlock = getContext().getResources().getBoolean(
+                    com.android.internal.R.bool.config_proximityCheckOnFpsUnlock);
 
             mToken = getIntent().getByteArrayExtra(
                     ChooseLockSettingsHelper.EXTRA_KEY_CHALLENGE_TOKEN);
@@ -953,6 +956,10 @@ public class FingerprintSettings extends SubSettings {
                         mRequireScreenOnToAuthPreferenceController.setChecked(!isChecked);
                         return true;
                     });
+            if (mProximityCheckOnFingerprintUnlock) {
+                mRequireScreenOnToAuthPreference.setSummary(R.string.
+                        security_settings_require_screen_on_to_auth_with_proximity_description);
+            }
         }
 
         private void setupFingerprintUnlockCategoryPreferencesForScreenOffUnlock() {
