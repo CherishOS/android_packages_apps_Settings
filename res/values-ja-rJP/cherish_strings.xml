@@ -18,7 +18,7 @@
     <string name="swipe_to_screenshot_gesture_summary">3本指でスワイプしてスクリーンショットを取得する</string>
     <!-- Charging control settings -->
     <string name="charging_control_title">充電のコントロール</string>
-    <string name="charging_control_summary">Customize charging schedule and limits for your device</string>
+    <string name="charging_control_summary">デバイスの充電スケジュールと制限をカスタマイズします</string>
     <string name="charging_control_enable_title">充電コントロールを有効化する</string>
     <string name="charging_control_mode_title">充電モード</string>
     <string name="charging_control_mode_auto_title">自動スケジュール</string>
@@ -290,11 +290,11 @@
     <string name="back_height_title">Back gesture height</string>
     <string name="back_height_summary">Screen height valid for back gesture</string>
     <!-- Back gesture animation -->
-    <string name="back_gesture_arrow_title">Back gesture animation</string>
-    <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture</string>
+    <string name="back_gesture_arrow_title">戻る時のジェスチャーアニメーション</string>
+    <string name="back_gesture_arrow_summary">戻る時のジェスチャーアニメーションで矢印を表示します</string>
     <!-- Back gesture haptic -->
-    <string name="back_gesture_haptic_title">Back gesture haptic</string>
-    <string name="back_gesture_haptic_summary">Vibrate when performing a back gesture</string>
+    <string name="back_gesture_haptic_title">戻る時の触覚フィードバック</string>
+    <string name="back_gesture_haptic_summary">戻るのジェスチャー時にバイブレーションをさせます</string>
     <!-- Gesture navbar radius -->
     <string name="gesture_navbar_radius_title">ピルの半径</string>
     <string name="thin_label">Thin</string>
@@ -363,8 +363,7 @@
     <!-- App lock -->
     <string name="app_lock_title">アプリロック</string>
     <plurals name="app_lock_summary">
-        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g>
-            applications are protected</item>
+        <item quantity="other"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> 個のアプリが保護されています</item>
     </plurals>
     <string name="app_lock_authentication_dialog_title">ロック解除</string>
     <string name="enable_debugging">デバッグを有効化</string>
