@@ -114,17 +114,6 @@
     <string name="high_touch_polling_rate_summary">Dokunma ekranı yoklama oranını artırın</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Uyarı: Bu özellik düzgün çalışmayabilir veya veri kaybına neden olabilir ve bu nedenle önerilmez!</string>
-    <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR
-    LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title" product="default">Telefonun kilidini açmak için parmak izi sensörüne uzun basın</string>
-    <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR
-    LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title" product="tablet">Tabletin kilidini açmak için parmak izi sensörüne uzun basın</string>
-    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR
-    LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title" product="device">Cihazın kilidini açmak için parmak izi sensörüne uzun basın</string>
-    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
-    <string name="ambient_display_screen_off_udfps_summary">Ekranınızı uyandırmak ve kilidini açmak için ekranın altındaki parmak izi sensörünüze uzun basın.</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
     <string name="sim_card_number_title">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
     <!-- Game space -->
@@ -387,4 +376,8 @@
     <string name="face_unlock_method_title">Kilit ekranında yüz kilidi açmaya izin ver</string>
     <string name="face_unlock_method_default">Ekran açıldığında</string>
     <string name="face_unlock_method_swipe">Kilit ekranında kaydırırken</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">Always on Fingerprint</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Allows unlocking with the screen off.\nEnabling may cause accidental wake-ups</string>
 </resources>
