@@ -24,13 +24,13 @@
     <string name="charging_control_mode_auto_title">自動スケジュール</string>
     <string name="charging_control_mode_auto_summary">Automatically determine when to start charging based on alarms set</string>
     <string name="charging_control_mode_custom_title">カスタムスケジュール</string>
-    <string name="charging_control_mode_custom_summary">Set a target time to full charge</string>
+    <string name="charging_control_mode_custom_summary">満充電までの目標時間を設定します</string>
     <string name="charging_control_mode_limit_title">充電の制限</string>
-    <string name="charging_control_mode_limit_summary">Limit charging to a certain percentage</string>
+    <string name="charging_control_mode_limit_summary">充電を一定の割合に制限します</string>
     <string name="charging_control_start_time_title">開始時間</string>
     <string name="charging_control_start_time_summary">Charging control activates when you start charging after %s</string>
-    <string name="charging_control_target_time_title">Target time to full charge</string>
-    <string name="charging_control_target_time_summary">Battery will be fully charged by %s</string>
+    <string name="charging_control_target_time_title">満充電までの目標時間</string>
+    <string name="charging_control_target_time_summary">バッテリーは %s までに満充電されます</string>
     <string name="charging_control_limit_title">制限</string>
     <!-- Private DNS -->
     <!-- Alternative: 1dot1dot1dot1.cloudflare-dns.com -->
@@ -51,7 +51,7 @@
     <string name="increasing_ring_min_volume_title">開始音量</string>
     <string name="increasing_ring_ramp_up_time_title">増幅時間</string>
     <!-- Menu option for not validating the EAP server -->
-    <string name="wifi_do_not_validate_eap_server">Do not validate</string>
+    <string name="wifi_do_not_validate_eap_server">検証しない</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">証明書が指定されていません。この接続ではプライバシーが保護されません。</string>
     <!-- Refresh rate -->
@@ -86,13 +86,13 @@
     <!-- Navigation bar hint -->
     <string name="navbar_category">ナビゲーションバー</string>
     <string name="hide_navbar_gesture_bar_title">ジェスチャーバーを隠す</string>
-    <string name="hide_navbar_gesture_bar_summary">Hide the gesture bar at the bottom of the screen</string>
+    <string name="hide_navbar_gesture_bar_summary">画面下部のジェスチャーバーを非表示にします</string>
     <!-- Battery Temperature -->
     <string name="battery_temp">バッテリー温度</string>
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">スクリーンショットの音</string>
     <!-- Restrict USB -->
-    <string name="trust_restrict_usb_title">Restrict USB</string>
+    <string name="trust_restrict_usb_title">USB を制限する</string>
     <string name="trust_restrict_usb_summary">Control support for USB peripherals such as input (mice, keyboards, joysticks) and storage devices.</string>
     <string name="trust_restrict_usb_always">USB 接続を拒否する</string>
     <string name="trust_restrict_usb_keyguard">ロック解除時に USB 接続を許可する</string>
@@ -114,17 +114,6 @@
     <string name="high_touch_polling_rate_summary">タッチ画面のタッチサンプリングレートを向上させる</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Warning: This option may not work properly or lead to data loss and is therefore not recommended!</string>
-    <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR
-    LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title" product="default">Long press on fingerprint sensor to unlock phone</string>
-    <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR
-    LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title" product="tablet">Long press on fingerprint sensor to unlock tablet</string>
-    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR
-    LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title" product="device">Long press on fingerprint sensor to unlock device</string>
-    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
-    <string name="ambient_display_screen_off_udfps_summary">To wake up your screen and unlock, long press your under-display fingerprint sensor.</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
     <string name="sim_card_number_title">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
     <!-- Game space -->
@@ -188,7 +177,7 @@
     <string name="channel_light_settings_name">ライトの設定のプレビュー</string>
     <!-- Notification light dialogs -->
     <string name="edit_light_settings">ライトの設定を編集</string>
-    <string name="pulse_speed_title">Pulse length and speed</string>
+    <string name="pulse_speed_title">点滅の長さと速度</string>
     <string name="default_time">標準</string>
     <string name="custom_time">カスタム</string>
     <string name="dialog_delete_title">削除</string>
@@ -213,17 +202,17 @@
     <string name="light_brightness_zen">サイレントモード</string>
     <!-- Battery light settings -->
     <string name="battery_light_title">バッテリーライト</string>
-    <string name="battery_light_summary">Customize battery charging light behaviour</string>
+    <string name="battery_light_summary">バッテリー充電時のライトの動作をカスタマイズします</string>
     <string name="battery_light_enable_title">バッテリーライトを有効化する</string>
-    <string name="battery_low_pulse_title">Pulse if battery low</string>
-    <string name="battery_light_full_charge_disabled_title">Turn off when fully charged</string>
+    <string name="battery_low_pulse_title">残量低下時に点滅</string>
+    <string name="battery_light_full_charge_disabled_title">満充電時に OFF にする</string>
     <string name="battery_light_list_title">色</string>
     <string name="battery_light_low_color_title">低バッテリー</string>
     <string name="battery_light_medium_color_title">充電中</string>
     <string name="battery_light_full_color_title">満充電</string>
     <!-- Lights settings screen, notification light settings -->
     <string name="notification_light_title">通知ライト</string>
-    <string name="notification_light_summary">Customize Notification light behaviour</string>
+    <string name="notification_light_summary">通知ライトの動作をカスタマイズします</string>
     <string name="notification_light_enable_title">通知ライトを有効化する</string>
     <string name="notification_light_general_title">一般</string>
     <string name="notification_light_advanced_title">高度な設定</string>
@@ -233,19 +222,19 @@
     <string name="notification_light_default_value">デフォルト</string>
     <string name="notification_light_missed_call_title">不在着信</string>
     <string name="notification_light_voicemail_title">ボイスメール</string>
-    <string name="notification_light_screen_on">Lights with screen on</string>
-    <string name="notification_light_zen_mode">Lights in Do Not Disturb mode</string>
-    <string name="keywords_lights_brightness_level">dim leds brightness</string>
-    <string name="notification_light_automagic">Choose colors automatically</string>
-    <string name="notification_light_automagic_summary">Choosing colors automatically</string>
+    <string name="notification_light_screen_on">画面を ON で点灯</string>
+    <string name="notification_light_zen_mode">サイレントモードで点灯</string>
+    <string name="keywords_lights_brightness_level">暗い LED の明るさ</string>
+    <string name="notification_light_automagic">色を自動的に選択</string>
+    <string name="notification_light_automagic_summary">色を自動的に選択します</string>
     <!-- Lights settings, LED notification -->
     <string name="led_notification_title">ライトの設定</string>
-    <string name="led_notification_text">LED light enabled by settings</string>
+    <string name="led_notification_text">LED ライトは設定により有効化されます</string>
     <string name="notification_light_add_apps_empty_summary">To add per app control, activate \'%1$s\' and press \'Add\'</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
-    <string name="duration_less_than_one_minute">Less than 1 Minute</string>
+    <string name="duration_less_than_one_minute">1 分未満</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
-    <string name="screen_time_summary_usage_today">%1$s today</string>
+    <string name="screen_time_summary_usage_today">本日: %1$s</string>
     <string name="about_cherish_device">Cherish デバイス</string>
     <string name="homepage_widget_battery_percent">パーセント</string>
     <string name="homepage_widget_battery_charge">充電中</string>
@@ -287,8 +276,8 @@
     <!-- Back gesture height -->
     <string name="back_height_low_label">全画面</string>
     <string name="back_height_high_label">下部</string>
-    <string name="back_height_title">Back gesture height</string>
-    <string name="back_height_summary">Screen height valid for back gesture</string>
+    <string name="back_height_title">戻るジェスチャーの高さ</string>
+    <string name="back_height_summary">戻るジェスチャー時の有効な画面の高さ</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">戻る時のジェスチャーアニメーション</string>
     <string name="back_gesture_arrow_summary">戻る時のジェスチャーアニメーションで矢印を表示します</string>
@@ -322,11 +311,10 @@
     <string name="wifi_hotspot_block_client_dialog_title">端末をブロック</string>
     <string name="wifi_hotspot_block_client_dialog_text">この操作によりこの端末から \"<xliff:g id="device_name">%1$s</xliff:g>\" を切断しブロックリストに追加します</string>
     <string name="wifi_hotspot_unblock_client_dialog_title">端末をブロック解除</string>
-    <string name="wifi_hotspot_unblock_client_dialog_text">The device \"<xliff:g id="device_name">
-        %1$s</xliff:g>\" will be able to connect to this hotspot</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">「<xliff:g id="device_name">%1$s</xliff:g> 」はこのホットスポットに接続できます</string>
     <string name="wifi_hotspot_client_manager_footer_text">利用可能なクライアントは現在ありません。利用可能になった時に接続済みまたはブロック済みの端末はこのリストに表示されます。</string>
     <!-- Summary for list to control apps that ignore battery saving restrictions -->
-    <string name="high_power_apps_summary">Battery optimization availability</string>
+    <string name="high_power_apps_summary">バッテリー最適化の可用性</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">ダブルタップ</string>
     <string name="doze_double_tap_title">ダブルタップでデバイスを確認する</string>
@@ -338,11 +326,11 @@
     <string name="peak_refresh_rate_summary_custom">Automatically raises the refresh rate from 60 to %1$d Hz for some content. Increases battery usage.</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">統計のリセット</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="battery_stats_message">バッテリーの使用統計はリセットされます</string>
     <!-- Notification sound timeout -->
-    <string name="app_notification_sound_timeout_title">Minimum time between notification sounds</string>
+    <string name="app_notification_sound_timeout_title">通知音の最小間隔</string>
     <string name="app_notification_sound_timeout_summary_template">Allow sounds or vibration no more than once every <xliff:g id="duration">%1$s</xliff:g></string>
-    <string name="app_notification_sound_timeout_value_none">No restriction</string>
+    <string name="app_notification_sound_timeout_value_none">制限しない</string>
     <string name="app_notification_sound_timeout_value_10_seconds">10 秒</string>
     <string name="app_notification_sound_timeout_value_30_seconds">30 秒</string>
     <string name="app_notification_sound_timeout_value_1_minute">1 分</string>
@@ -357,7 +345,7 @@
     <string name="system_black_theme_summary">強制的に黒い背景色を使用します</string>
     <!-- Navigation bar IME space -->
     <string name="navigation_bar_ime_space_title">IME スペース</string>
-    <string name="ime_narrow">Narrow</string>
+    <string name="ime_narrow">狭くする</string>
     <string name="ime_default">デフォルト</string>
     <string name="ime_hidden">非表示</string>
     <!-- App lock -->
@@ -369,27 +357,26 @@
     <string name="enable_debugging">デバッグを有効化</string>
     <string name="disable_debugging">デバッグを無効化</string>
     <string name="app_lock_packages_title">保護されているアプリ</string>
-    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device
-        credentials</string>
+    <string name="app_lock_packages_summary">生体認証または、デバイス認証情報で保護をするアプリを選択します</string>
     <string name="app_lock_timeout_title">自動ロックまでの時間</string>
-    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in
-        background should be locked</string>
-    <string name="app_lock_notifications_title">Redact notifications</string>
-    <string name="app_lock_notifications_summary">Notification content will be hidden and collapsed
-        for selected apps when they are locked. Heads up notifications will be automatically
-        disabled.</string>
-    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
+    <string name="app_lock_timeout_summary">バックグラウンドでロックされていないアプリがロックされるまでの時間</string>
+    <string name="app_lock_notifications_title">通知の再構成</string>
+    <string name="app_lock_notifications_summary">選択したアプリがロックされている場合、通知は非表示になり、折りたたまれます。ヘッドアップ通知は自動的に無効化されます。</string>
+    <string name="app_lock_notifications_disabled_summary">始めに保護をするアプリを選択します</string>
     <string name="app_lock_biometrics_allowed_title">生体認証でのロック解除を有効化する</string>
-    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
+    <string name="app_lock_footer_text">バブルをタイムアウト後に自動で閉じる</string>
     <string name="enable_protection">保護を有効化</string>
     <string name="hide_from_launcher_title">ランチャーから隠す</string>
-    <string name="hide_from_launcher_summary">Prevent this application from showing up in any
-        launcher. Requires a launcher restart for changes to take effect.</string>
+    <string name="hide_from_launcher_summary">このアプリがランチャーに表示されないようにします。変更を有効化するにはランチャーの再起動が必要です。</string>
     <!-- FastCharge feature -->
     <string name="fast_charging_title">急速充電</string>
-    <string name="fast_charging_summary">Disable to reduce the heat produced by the device while charging or to extend the lifespan of the battery</string>
+    <string name="fast_charging_summary">充電中にデバイスから発生する熱を抑制、バッテリーの寿命を延ばしたりするには無効化します</string>
     <!-- Face Unlock -->
-    <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
-    <string name="face_unlock_method_default">When the screen is turned on</string>
-    <string name="face_unlock_method_swipe">When swiping on lock screen</string>
+    <string name="face_unlock_method_title">ロック画面で顔認証のロック解除を許可する</string>
+    <string name="face_unlock_method_default">画面が ON のとき</string>
+    <string name="face_unlock_method_swipe">ロック画面のスワイプ時</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">常に指紋認証を使用する</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">画面が OFF の状態でもロックの解除が可能になります。\n有効化すると偶発的に画面を点灯させる可能性があります。</string>
 </resources>

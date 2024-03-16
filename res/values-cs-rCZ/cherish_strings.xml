@@ -114,17 +114,6 @@
     <string name="high_touch_polling_rate_summary">Increase touchscreen polling rate</string>
     <!-- Warning message for the sd card setup -->
     <string name="storage_warning_internal">Varování: Tato možnost nemusí fungovat správně nebo může vést ke ztrátě dat, proto se nedoporučuje!</string>
-    <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR
-    LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title" product="default">Dlouhým stisknutím snímače otisků prstů odemknete telefon</string>
-    <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR
-    LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title" product="tablet">Dlouhým stisknutím snímače otisků prstů odemknete tablet</string>
-    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR
-    LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title" product="device">Dlouhým stisknutím snímače otisků prstů odemknete zařízení</string>
-    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
-    <string name="ambient_display_screen_off_udfps_summary">Chcete-li vaši obrazovku probudit a odemknout, dlouze stiskněte snímač otisků prstů v displeji.</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
     <string name="sim_card_number_title">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
     <!-- Game space -->
@@ -399,4 +388,8 @@
     <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
     <string name="face_unlock_method_default">When the screen is turned on</string>
     <string name="face_unlock_method_swipe">When swiping on lock screen</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title">Always on Fingerprint</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Allows unlocking with the screen off.\nEnabling may cause accidental wake-ups</string>
 </resources>
