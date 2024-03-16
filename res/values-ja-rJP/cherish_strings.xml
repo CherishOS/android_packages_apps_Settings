@@ -376,7 +376,7 @@
     <string name="face_unlock_method_default">画面が ON のとき</string>
     <string name="face_unlock_method_swipe">ロック画面のスワイプ時</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title">Always on Fingerprint</string>
+    <string name="ambient_display_screen_off_udfps_title">常に指紋認証を使用する</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
-    <string name="ambient_display_screen_off_udfps_summary">Allows unlocking with the screen off.\nEnabling may cause accidental wake-ups</string>
+    <string name="ambient_display_screen_off_udfps_summary">画面が OFF の状態でもロックの解除が可能になります。\n有効化すると偶発的に画面を点灯させる可能性があります。</string>
 </resources>
