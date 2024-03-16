@@ -377,7 +377,7 @@
     <string name="face_unlock_method_default">Khi màn hình được bật</string>
     <string name="face_unlock_method_swipe">Khi vuốt trên màn hình khóa</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title">Luôn ở trên dấu vân tay</string>
+    <string name="ambient_display_screen_off_udfps_title">Luôn bật vân tay khi màn hình tắt</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">Cho phép mở khóa bằng vân tay khi màn hình đang tắt.\nKích hoạt có thể khiến thiết bị bất ngờ bị đánh thức</string>
 </resources>
