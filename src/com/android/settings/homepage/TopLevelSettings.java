@@ -264,7 +264,7 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
                 }
             });
             if (activity != null) {
-                FeatureFactory.getFactory(activity).getSearchFeatureProvider().initSearchToolbar(activity /* activity */, searchView, (View) searchIcon, SettingsEnums.SETTINGS_HOMEPAGE);
+                FeatureFactory.getFeatureFactory().getSearchFeatureProvider().initSearchToolbar(activity /* activity */, searchView, (View) searchIcon, SettingsEnums.SETTINGS_HOMEPAGE);
             }
         } else {
             if (searchWidgetPreference != null) {
@@ -282,7 +282,7 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
                 final TextView searchTextView = searchWidgetPreference.findViewById(R.id.homepage_search_text);
                 searchIcon.bringToFront();
                 if (activity != null) {
-                    FeatureFactory.getFactory(activity).getSearchFeatureProvider().initSearchToolbar(activity /* activity */, searchView, (View) searchIcon, SettingsEnums.SETTINGS_HOMEPAGE);
+                    FeatureFactory.getFeatureFactory().getSearchFeatureProvider().initSearchToolbar(activity /* activity */, searchView, (View) searchIcon, SettingsEnums.SETTINGS_HOMEPAGE);
                 }
             }
         }

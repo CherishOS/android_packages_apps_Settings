@@ -73,7 +73,7 @@ public class DeviceNamePreferenceController extends BasePreferenceController
         mWifiDeviceNameTextValidator = new WifiDeviceNameTextValidator();
         mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
 
-        mAccountFeatureProvider = FeatureFactory.getFactory(mContext).getAccountFeatureProvider();
+        mAccountFeatureProvider = FeatureFactory.getFeatureFactory().getAccountFeatureProvider();
         mAccounts = mAccountFeatureProvider.getAccounts(mContext);
 
         initializeDeviceName();

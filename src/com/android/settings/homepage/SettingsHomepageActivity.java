@@ -233,7 +233,7 @@ public class SettingsHomepageActivity extends FragmentActivity implements
         
         AppBarLayout appBarLayout = findViewById(R.id.app_bar);
         final ExtendedFloatingActionButton fabSearch = findViewById(R.id.fabSearch);
-        FeatureFactory.getFactory(this)
+        FeatureFactory.getFeatureFactory()
                 .getSearchFeatureProvider()
                 .initSearchToolbar(this /* activity */, (View) fabSearch, null, SettingsEnums.SETTINGS_HOMEPAGE);
 

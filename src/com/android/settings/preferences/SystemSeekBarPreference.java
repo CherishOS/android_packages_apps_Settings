@@ -49,7 +49,7 @@ public class SystemSeekBarPreference extends SeekBarPreference {
 
     public SystemSeekBarPreference(Context context, AttributeSet attrs) {
         super(context, attrs, TypedArrayUtils.getAttr(context,
-                R.attr.preferenceStyle,
+                com.android.settingslib.R.attr.preferenceStyle,
                 android.R.attr.preferenceStyle));
         mContext = context;
         mAttrs = attrs;
