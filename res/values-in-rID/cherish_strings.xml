@@ -32,35 +32,13 @@
     <string name="charging_control_target_time_title">Waktu target untuk pengisian penuh</string>
     <string name="charging_control_target_time_summary">Baterai akan terisi penuh pada %s</string>
     <string name="charging_control_limit_title">Batas</string>
-    <!-- Private DNS -->
-    <!-- Alternative: 1dot1dot1dot1.cloudflare-dns.com -->
-    <!-- AdGuard DNS Option -->
-    <!-- AdGuard DNS hostname -->
-    <!-- Open DNS Option -->
-    <!-- Open DNS hostname -->
-    <!-- Cleanbrowsing DNS Option -->
-    <!-- Cleanbrowsing DNS hostname -->
-    <!-- Quad9 DNS Option -->
-    <!-- Quad9 DNS hostname -->
-    <!--Cherish
-    Settings-->
+    <!--Cherish Settings-->
     <string name="cherish_settings_title">Setelan Cherish</string>
     <string name="cherish_settings_summary">Kebahagiaan tidak tersedia dan itu datang dari tindakanmu sendiri</string>
-    <!-- Increasing ring tone volume -->
-    <string name="increasing_ring_volume_option_title">Meningkatkan volume dering</string>
-    <string name="increasing_ring_min_volume_title">Volume awal</string>
-    <string name="increasing_ring_ramp_up_time_title">Waktu penguatan</string>
     <!-- Menu option for not validating the EAP server -->
     <string name="wifi_do_not_validate_eap_server">Jangan validasi</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Tidak ada sertifikat yang ditentukan. Koneksi Anda tidak akan bersifat pribadi.</string>
-    <!-- Refresh rate -->
-    <string name="min_refresh_rate_title">Kecepatan refresh minimum</string>
-    <string name="max_refresh_rate_title">Kecepatan refresh maksimum</string>
-    <string name="low_power_refresh_rate_title_custom">Tingkat kecepatan refresh daya rendah</string>
-    <!-- PIN scramble -->
-    <string name="unlock_scramble_pin_layout_title">Tata letak acak</string>
-    <string name="unlock_scramble_pin_layout_summary">Acak tata letak PIN saat membuka perangkat</string>
     <!-- Force LTE_CA -->
     <string name="force_lte_ca">Paksa LTE CA</string>
     <string name="force_lte_ca_summary">Paksa agregasi operator LTE agar berfungsi</string>
@@ -75,28 +53,41 @@
     <string name="fingerprint_enroll_find_sensor_message_front">Temukan sensor sidik jari di bagian depan ponsel Anda.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Temukan sensor sidik jari di bagian belakang ponsel Anda.</string>
     <string name="fingerprint_enroll_find_sensor_message_side">Temukan sensor sidik jari di bagian samping ponsel Anda.</string>
-    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint
-    sensor -->
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
     <string name="fingerprint_enroll_touch_dialog_message_front">Sentuh sensor di bagian depan ponsel Anda.</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear">Sentuh sensor di bagian belakang ponsel Anda.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">Sentuh sensor di bagian samping ponsel Anda.</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">Pilih ukuran pola</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Izinkan klien untuk menggunakan VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Izinkan klien hotspot untuk menggunakan koneksi VPN perangkat ini untuk konektivitas upstream</string>
+    <string name="about_cherish_device">Perangkat Cherish</string>
+    <string name="homepage_widget_battery_percent">persen</string>
+    <string name="homepage_widget_battery_charge">Mengisi daya</string>
+    <string name="homepage_widget_battery_discharge">Mengosongkan</string>
+    <string name="homepage_widget_battery_title">Baterai</string>
+    <string name="homepage_widget_storage_title">Penyimpanan</string>
+    <string name="default_user">Pengguna</string>
+    <string name="top_level_settings_title">Setelan</string>
+    <string name="search_button_text_title">Cari</string>
+    <string name="firmware_name_text">CherishOS</string>
+    <string name="firmware_build_type_title">Tipe Build</string>
+    <string name="firmware_build_summary_title">Oleh maintainer</string>
+    <string name="build_is_official_title">#resmi</string>
+    <string name="build_is_community_title">#komunitas</string>
+    <string name="maintainer_summary">oleh %s</string>
+    <string name="unknown_maintainer">oleh seseorang</string>
+    <string name="device_info_platform_version">14 | fourteen | UpsideDownCake</string>
+    <string name="device_header_info_category_title">Tipe Build</string>
+    <string name="device_info_hw_sw_more">Lebih lanjut</string>
+    <string name="device_info_security_patch">Pembaruan keamanan</string>
     <!-- Navigation bar hint -->
     <string name="navbar_category">Bilah navigasi</string>
     <string name="hide_navbar_gesture_bar_title">Sembunyikan bilah gestur</string>
     <string name="hide_navbar_gesture_bar_summary">Sembunyikan bilah gestur di bagian bawah layar</string>
-    <!-- Battery Temperature -->
-    <string name="battery_temp">Suhu Baterai</string>
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Suara tangkapan layar</string>
-    <!-- Restrict USB -->
-    <string name="trust_restrict_usb_title">Batasi USB</string>
-    <string name="trust_restrict_usb_summary">Control support for USB peripherals such as input (mice, keyboards, joysticks) and storage devices.</string>
-    <string name="trust_restrict_usb_always">Tolak koneksi USB</string>
-    <string name="trust_restrict_usb_keyguard">Izinkan koneksi USB saat tidak terkunci</string>
-    <string name="trust_restrict_usb_disabled">Selalu izinkan koneksi USB</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Selalu menyala saat mengisi daya</string>
     <string name="doze_on_charge_summary">Tampilkan layar ambien sepanjang waktu saat mengisi daya</string>
@@ -116,9 +107,6 @@
     <string name="storage_warning_internal">Warning: This option may not work properly or lead to data loss and is therefore not recommended!</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
     <string name="sim_card_number_title">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
-    <!-- Game space -->
-    <string name="game_space_title">Ruang Game</string>
-    <string name="game_space_summary">Tingkatkan pengalaman bermain game Anda</string>
     <!-- LiveDisplay -->
     <string name="advanced">Lanjutan</string>
     <string name="live_display_summary">Optimalkan layar Anda berdasarkan waktu dan kondisi sekitar untuk meningkatkan keterbacaan dan mengurangi kelelahan mata</string>
@@ -126,7 +114,7 @@
     <string name="live_display_color_temperature_title">Temperatur warna</string>
     <string name="live_display_color_temperature_summary">Siang: <xliff:g id="day_temperature">%1$d</xliff:g>K;
 Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
-    <string name="live_display_color_temperature_label"><xliff:g id="derajat">%1$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
     <string name="live_display_day">Siang</string>
     <string name="live_display_night">Malam</string>
     <string name="live_display_outdoor_mode_title">Mode luar ruangan otomatis</string>
@@ -232,30 +220,37 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="led_notification_title">Setelan lampu</string>
     <string name="led_notification_text">Lampu LED diaktifkan oleh pengaturan</string>
     <string name="notification_light_add_apps_empty_summary">To add per app control, activate \'%1$s\' and press \'Add\'</string>
-    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
-    <string name="duration_less_than_one_minute">Kurang dari 1 Menit</string>
-    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
-    <string name="screen_time_summary_usage_today">%1$s hari ini</string>
-    <string name="about_cherish_device">Perangkat Cherish</string>
-    <string name="homepage_widget_battery_percent">persen</string>
-    <string name="homepage_widget_battery_charge">Mengisi daya</string>
-    <string name="homepage_widget_battery_discharge">Mengosongkan</string>
-    <string name="homepage_widget_battery_title">Baterai</string>
-    <string name="homepage_widget_storage_title">Penyimpanan</string>
-    <string name="default_user">Pengguna</string>
-    <string name="top_level_settings_title">Setelan</string>
-    <string name="search_button_text_title">Cari</string>
-    <string name="firmware_name_text">CherishOS</string>
-    <string name="firmware_build_type_title">Tipe Build</string>
-    <string name="firmware_build_summary_title">Oleh maintainer</string>
-    <string name="build_is_official_title">#resmi</string>
-    <string name="build_is_community_title">#komunitas</string>
-    <string name="maintainer_summary">oleh %s</string>
-    <string name="unknown_maintainer">oleh seseorang</string>
-    <string name="device_info_platform_version">14 | fourteen | UpsideDownCake</string>
-    <string name="device_header_info_category_title">Tipe Build</string>
-    <string name="device_info_hw_sw_more">Lebih lanjut</string>
-    <string name="device_info_security_patch">Pembaruan keamanan</string>
+    <!-- Battery Info: Technology -->
+    <string name="battery_technology">Technology</string>
+    <!-- Battery Info: Health -->
+    <string name="battery_health">Health</string>
+    <string name="battery_health_good">Good</string>
+    <string name="battery_health_overheat">Overheat</string>
+    <string name="battery_health_dead">Dead</string>
+    <string name="battery_health_over_voltage">Over voltage</string>
+    <string name="battery_health_unspecified_failure">Unspecified failure</string>
+    <string name="battery_health_cold">Cold</string>
+    <string name="battery_health_unknown">Unknown</string>
+    <!-- Battery Info: Temperature -->
+    <string name="battery_temperature">Temperature</string>
+    <!-- Battery Info: Voltage -->
+    <string name="battery_voltage">Voltage</string>
+    <!-- Battery Info: Charge Counter -->
+    <!-- Battery Info: Design Capacity -->
+    <string name="battery_design_capacity">Design capacity</string>
+    <!-- Battery Info: Maximum Capacity -->
+    <string name="battery_maximum_capacity">Maximum capacity</string>
+    <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
+    <string name="refresh_rate_title">Refresh rate</string>
+    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptive)</string>
+    <string name="refresh_rate_vrr_title">Adaptive refresh rate</string>
+    <string name="refresh_rate_vrr_summary">Automatically lower the refresh rate when the display is idle, to save power. May cause flickering or color shift on certain displays</string>
+    <string name="refresh_rate_footer">A higher refresh rate makes the display smoother, but increases power consumption</string>
+    <string name="keywords_refresh_rate">refresh, rate, smooth, peak, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <string name="peak_refresh_rate_summary_custom">Automatically raises the refresh rate from 60 to %1$d Hz for some content. Increases battery usage.</string>
+    <!-- Refresh rate -->
+    <string name="low_power_refresh_rate_title_custom">Tingkat kecepatan refresh daya rendah</string>
     <!-- Per-app volume -->
     <string name="app_volume">Volume aplikasi</string>
     <string name="app_volume_title">Kontrol volume per aplikasi</string>
@@ -263,13 +258,6 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <!-- Backup Transport selection settings menu and activity title -->
     <string name="backup_transport_setting_label">Ubah penyedia cadangan</string>
     <string name="backup_transport_title">Pilih penyedia cadangan</string>
-    <!-- Lock screen pattern size -->
-    <string name="lock_settings_picker_pattern_size_message">Pilih ukuran pola</string>
-    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern
-    incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">Tampilkan kesalahan pola</string>
-    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">Tampilkan titik pola</string>
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">Panjang pil</string>
     <string name="short_label">Singkat</string>
@@ -320,11 +308,6 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="double_tap_title">Ketuk dua kali</string>
     <string name="doze_double_tap_title">Ketuk dua kali untuk memeriksa telepon</string>
     <string name="doze_double_tap_summary">Tampilkan notifikasi dengan ketukan ganda</string>
-    <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Buka kunci cepat</string>
-    <string name="unlock_quick_unlock_control_summary">Buka kunci secara otomatis ketika PIN/kata sandi yang benar dimasukkan</string>
-    <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
-    <string name="peak_refresh_rate_summary_custom">Automatically raises the refresh rate from 60 to %1$d Hz for some content. Increases battery usage.</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Reset statistik</string>
     <string name="battery_stats_message">Statistik penggunaan baterai akan diatur ulang</string>
@@ -344,40 +327,83 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <!-- Black theme -->
     <string name="system_black_theme_title">Gunakan tema gelap</string>
     <string name="system_black_theme_summary">Paksa warna latar belakang hitam</string>
-    <!-- Navigation bar IME space -->
-    <string name="navigation_bar_ime_space_title">Ruang tombol IME</string>
-    <string name="ime_narrow">Sempit</string>
-    <string name="ime_default">Bawaan</string>
-    <string name="ime_hidden">Tersembunyi</string>
-    <!-- App lock -->
-    <string name="app_lock_title">Kunci Aplikasi</string>
-    <plurals name="app_lock_summary">
-        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> aplikasi dilindungi</item>
-    </plurals>
-    <string name="app_lock_authentication_dialog_title">Buka</string>
-    <string name="enable_debugging">Aktifkan debugging</string>
-    <string name="disable_debugging">Nonaktifkan debugging</string>
-    <string name="app_lock_packages_title">Aplikasi dilindungi</string>
-    <string name="app_lock_packages_summary">Pilih aplikasi yang akan di lindung dengan biometric atau krenedesial perangkat</string>
-    <string name="app_lock_timeout_title">Batas waktu penguncian otomatis</string>
-    <string name="app_lock_timeout_summary">Durasi waktu setelah aplikasi tidak terkunci di latar belakang harus dikunci</string>
-    <string name="app_lock_notifications_title">Nonaktifkan notifikasi</string>
-    <string name="app_lock_notifications_summary">Konten notifikasi akan disembunyikan dan diciutkan untuk aplikasi yang dipilih saat aplikasi tersebut terkunci. Notifikasi heads-up akan otomatis dinonaktifkan.</string>
-    <string name="app_lock_notifications_disabled_summary">Lindungi aplikasi terlebih dahulu</string>
-    <string name="app_lock_biometrics_allowed_title">Aktifkan biometrik untuk membuka kunci</string>
-    <string name="app_lock_footer_text">Gelembung akan ditutup secara otomatis setelah waktu habis</string>
-    <string name="enable_protection">Aktifkan perlindungan</string>
-    <string name="hide_from_launcher_title">Sembunyikan dari Launcher</string>
-    <string name="hide_from_launcher_summary">Cegah aplikasi ini muncul di peluncur mana pun. Membutuhkan restart peluncur agar perubahan diterapkan.</string>
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Pengisian Cepat</string>
     <string name="fast_charging_summary">Nonaktifkan untuk mengurangi panas yang dihasilkan perangkat saat mengisi daya atau untuk memperpanjang masa pakai baterai</string>
-    <!-- Face Unlock -->
-    <string name="face_unlock_method_title">Izinkan face unlock di layar kunci</string>
-    <string name="face_unlock_method_default">Saat layar dihidupkan</string>
-    <string name="face_unlock_method_swipe">Saat mengusap layar kunci</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Quick torch</string>
+    <string name="power_button_torch_summary">When the screen is off, long-pressing power button will enable torch</string>
+    <string name="torch_long_press_power_timeout_title">Automatically turn torch off</string>
+    <string name="torch_long_press_power_timeout_never">Never</string>
+    <string name="torch_long_press_power_timeout_1min">1 minute</string>
+    <string name="torch_long_press_power_timeout_2min">2 minutes</string>
+    <string name="torch_long_press_power_timeout_5min">5 minutes</string>
+    <string name="torch_long_press_power_timeout_10min">10 minutes</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">No action</string>
+    <string name="action_menu">Menu</string>
+    <string name="action_app_switch">Recents</string>
+    <string name="action_voice_search">Voice search</string>
+    <string name="action_launch_camera">Camera</string>
+    <string name="action_last_app">Last app</string>
+    <string name="action_splitscreen">Split screen</string>
+    <string name="action_flashlight">Flashlight</string>
+    <string name="action_clear_notifications">Clear notifications</string>
+    <string name="action_volume_panel">Volume panel</string>
+    <string name="action_screen_off">Screen off</string>
+    <string name="action_notifications">Notifications</string>
+    <string name="action_power_menu">Power menu</string>
+    <string name="action_screenshot">Screenshot</string>
+    <string name="action_qs_panel">QS panel</string>
+    <string name="action_app_action">Application</string>
+    <string name="action_ringer_modes">Ringer modes</string>
+    <string name="kill_app">Kill foreground app</string>
+    <string name="recent_app_toggle">Switch recent app</string>
+    <string name="show_powermenu">Show Power menu</string>
+    <string name="action_forward">Go forward</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Advanced gestures options</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Customize gestures and set custom actions</string>
+    <string name="navbar_gesture_tweaks_cat_title">Advanced</string>
+    <string name="swipe_app_select_summary">Select an app to launch with the squeeze action</string>
+    <string name="left_swipe_actions_title">Long left swipe action</string>
+    <string name="left_swipe_app_action_title">Select long left swipe app</string>
+    <string name="right_swipe_actions_title">Long right swipe action</string>
+    <string name="right_swipe_app_action_title">Select long right swipe app</string>
+    <string name="left_vertical_swipe_actions_title">Vertical left L-swipe action</string>
+    <string name="left_vertical_swipe_app_action_title">Select vertical left swipe app</string>
+    <string name="right_vertical_swipe_actions_title">Vertical right L-swipe action</string>
+    <string name="right_vertical_swipe_app_action_title">Select vertical right swipe app</string>
+    <string name="gesture_nav_tweaks_footer_info">To choose a specific app activity for the action, long press on any app in the apps picker.\n\nIf launcher is showing, do the swipe at the very bottom area of the screen to trigger the action.</string>
+    <string name="back_swipe_extended_title">Extended swipe action</string>
+    <string name="back_swipe_extended_summary">Trigger action on wider swipe (more than half of display size), or a L swipe (vertically longer enough)</string>
+    <!-- Auto pin confirm -->
+    <string name="lock_screen_auto_pin_confirm_summary_custom">Unlock automatically if you input a correct PIN. This is slightly less secure than tapping Enter to confirm.</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
     <string name="ambient_display_screen_off_udfps_title">Sidik Jari Selalu Aktif</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">Mengizinkan membuka kunci dengan layar mati.\nMengaktifkan ini dapat menyebabkan hidup tanpa disengaja</string>
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">DC Dimming</string>
+    <string name="dc_dimming_info">Reduces eye strain in low light conditions by minimizing screen flicker. May result in reduced image quality and poor color production, or higher power consumption.</string>
+    <string name="dc_dimming_main_switch_title">Use DC Dimming</string>
+    <string name="keywords_display_dc_dimming">dc dimming, anti, flicker, eye, strain</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Rotation settings</string>
+    <string name="display_rotation_enabled">Auto-rotation is enabled</string>
+    <string name="display_rotation_disabled">Auto-rotation is disabled</string>
+    <string name="display_rotation_unit">degrees</string>
+    <string name="display_rotation_category_title">Rotation modes</string>
+    <string name="display_rotation_0_title">0 degrees</string>
+    <string name="display_rotation_90_title">90 degrees</string>
+    <string name="display_rotation_180_title">180 degrees</string>
+    <string name="display_rotation_270_title">270 degrees</string>
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">Use floating rotate button</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">Ruang tombol IME</string>
+    <string name="navigation_bar_ime_space_summary">Space under keyboard options</string>
+    <string name="ime_narrow">Sempit</string>
+    <string name="ime_default">Bawaan</string>
+    <string name="ime_hidden">Tersembunyi</string>
 </resources>
