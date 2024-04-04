@@ -32,35 +32,13 @@
     <string name="charging_control_target_time_title">満充電までの目標時間</string>
     <string name="charging_control_target_time_summary">バッテリーは %s までに満充電されます</string>
     <string name="charging_control_limit_title">制限</string>
-    <!-- Private DNS -->
-    <!-- Alternative: 1dot1dot1dot1.cloudflare-dns.com -->
-    <!-- AdGuard DNS Option -->
-    <!-- AdGuard DNS hostname -->
-    <!-- Open DNS Option -->
-    <!-- Open DNS hostname -->
-    <!-- Cleanbrowsing DNS Option -->
-    <!-- Cleanbrowsing DNS hostname -->
-    <!-- Quad9 DNS Option -->
-    <!-- Quad9 DNS hostname -->
-    <!--Cherish
-    Settings-->
+    <!--Cherish Settings-->
     <string name="cherish_settings_title">Cherish 設定</string>
     <string name="cherish_settings_summary">幸せは利用不可能であり、あなた自身の行動から訪れます。</string>
-    <!-- Increasing ring tone volume -->
-    <string name="increasing_ring_volume_option_title">着信音量の増幅</string>
-    <string name="increasing_ring_min_volume_title">開始音量</string>
-    <string name="increasing_ring_ramp_up_time_title">増幅時間</string>
     <!-- Menu option for not validating the EAP server -->
     <string name="wifi_do_not_validate_eap_server">検証しない</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">証明書が指定されていません。この接続ではプライバシーが保護されません。</string>
-    <!-- Refresh rate -->
-    <string name="min_refresh_rate_title">最小リフレッシュレート</string>
-    <string name="max_refresh_rate_title">最大リフレッシュレート</string>
-    <string name="low_power_refresh_rate_title_custom">省電力リフレッシュレート</string>
-    <!-- PIN scramble -->
-    <string name="unlock_scramble_pin_layout_title">ランダムなレイアウト</string>
-    <string name="unlock_scramble_pin_layout_summary">端末のロック解除時に PIN レイアウトをランダムにする</string>
     <!-- Force LTE_CA -->
     <string name="force_lte_ca">LTE CA を強制</string>
     <string name="force_lte_ca_summary">LTE キャリアアグリゲーションを強制的に動作させます</string>
@@ -75,28 +53,41 @@
     <string name="fingerprint_enroll_find_sensor_message_front">デバイスの前面にある指紋認証センサーの位置を確認します。</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">デバイスの背面にある指紋認証センサーの位置を確認します。</string>
     <string name="fingerprint_enroll_find_sensor_message_side">デバイスの側面にある指紋認証センサーの位置を確認します。</string>
-    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint
-    sensor -->
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
     <string name="fingerprint_enroll_touch_dialog_message_front">デバイスの前面にあるセンサーをタッチします。</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear">デバイスの背面にあるセンサーをタッチします。</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">デバイスの側面にあるセンサーをタッチします。</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">パターンのサイズを選択</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">クライアントの VPN 使用の許可</string>
     <string name="tethering_allow_vpn_upstreams_summary">この端末の VPN 接続をホットスポットのクライアントが送信接続に使うことを許可する</string>
+    <string name="about_cherish_device">Cherish デバイス</string>
+    <string name="homepage_widget_battery_percent">パーセント</string>
+    <string name="homepage_widget_battery_charge">充電中</string>
+    <string name="homepage_widget_battery_discharge">放電中</string>
+    <string name="homepage_widget_battery_title">バッテリー</string>
+    <string name="homepage_widget_storage_title">ストレージ</string>
+    <string name="default_user">ユーザー</string>
+    <string name="top_level_settings_title">設定</string>
+    <string name="search_button_text_title">検索</string>
+    <string name="firmware_name_text">Cherish0S</string>
+    <string name="firmware_build_type_title">ビルドタイプ</string>
+    <string name="firmware_build_summary_title">By maintainer</string>
+    <string name="build_is_official_title">#official</string>
+    <string name="build_is_community_title">#community</string>
+    <string name="maintainer_summary">by %s</string>
+    <string name="unknown_maintainer">by someone</string>
+    <string name="device_info_platform_version">14 | fourteen | UpsideDownCake</string>
+    <string name="device_header_info_category_title">ビルドタイプ</string>
+    <string name="device_info_hw_sw_more">さらに表示</string>
+    <string name="device_info_security_patch">セキュリティアップデート</string>
     <!-- Navigation bar hint -->
     <string name="navbar_category">ナビゲーションバー</string>
     <string name="hide_navbar_gesture_bar_title">ジェスチャーバーを隠す</string>
     <string name="hide_navbar_gesture_bar_summary">画面下部のジェスチャーバーを非表示にします</string>
-    <!-- Battery Temperature -->
-    <string name="battery_temp">バッテリー温度</string>
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">スクリーンショットの音</string>
-    <!-- Restrict USB -->
-    <string name="trust_restrict_usb_title">USB を制限する</string>
-    <string name="trust_restrict_usb_summary">Control support for USB peripherals such as input (mice, keyboards, joysticks) and storage devices.</string>
-    <string name="trust_restrict_usb_always">USB 接続を拒否する</string>
-    <string name="trust_restrict_usb_keyguard">ロック解除時に USB 接続を許可する</string>
-    <string name="trust_restrict_usb_disabled">常に USB 接続を許可する</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">充電時の Always On Display</string>
     <string name="doze_on_charge_summary">充電時は常に Doze 画面を表示する</string>
@@ -116,9 +107,6 @@
     <string name="storage_warning_internal">Warning: This option may not work properly or lead to data loss and is therefore not recommended!</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
     <string name="sim_card_number_title">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
-    <!-- Game space -->
-    <string name="game_space_title">ゲームスペース</string>
-    <string name="game_space_summary">ゲーム体験を向上させる</string>
     <!-- LiveDisplay -->
     <string name="advanced">高度な設定</string>
     <string name="live_display_summary">画面を見やすく目の疲れを軽減するために時間と周囲の環境に合わせて画面を最適化する</string>
@@ -231,30 +219,37 @@
     <string name="led_notification_title">ライトの設定</string>
     <string name="led_notification_text">LED ライトは設定により有効化されます</string>
     <string name="notification_light_add_apps_empty_summary">To add per app control, activate \'%1$s\' and press \'Add\'</string>
-    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
-    <string name="duration_less_than_one_minute">1 分未満</string>
-    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
-    <string name="screen_time_summary_usage_today">本日: %1$s</string>
-    <string name="about_cherish_device">Cherish デバイス</string>
-    <string name="homepage_widget_battery_percent">パーセント</string>
-    <string name="homepage_widget_battery_charge">充電中</string>
-    <string name="homepage_widget_battery_discharge">放電中</string>
-    <string name="homepage_widget_battery_title">バッテリー</string>
-    <string name="homepage_widget_storage_title">ストレージ</string>
-    <string name="default_user">ユーザー</string>
-    <string name="top_level_settings_title">設定</string>
-    <string name="search_button_text_title">検索</string>
-    <string name="firmware_name_text">Cherish0S</string>
-    <string name="firmware_build_type_title">ビルドタイプ</string>
-    <string name="firmware_build_summary_title">By maintainer</string>
-    <string name="build_is_official_title">#official</string>
-    <string name="build_is_community_title">#community</string>
-    <string name="maintainer_summary">by %s</string>
-    <string name="unknown_maintainer">by someone</string>
-    <string name="device_info_platform_version">14 | fourteen | UpsideDownCake</string>
-    <string name="device_header_info_category_title">ビルドタイプ</string>
-    <string name="device_info_hw_sw_more">さらに表示</string>
-    <string name="device_info_security_patch">セキュリティアップデート</string>
+    <!-- Battery Info: Technology -->
+    <string name="battery_technology">Technology</string>
+    <!-- Battery Info: Health -->
+    <string name="battery_health">Health</string>
+    <string name="battery_health_good">Good</string>
+    <string name="battery_health_overheat">Overheat</string>
+    <string name="battery_health_dead">Dead</string>
+    <string name="battery_health_over_voltage">Over voltage</string>
+    <string name="battery_health_unspecified_failure">Unspecified failure</string>
+    <string name="battery_health_cold">Cold</string>
+    <string name="battery_health_unknown">Unknown</string>
+    <!-- Battery Info: Temperature -->
+    <string name="battery_temperature">Temperature</string>
+    <!-- Battery Info: Voltage -->
+    <string name="battery_voltage">Voltage</string>
+    <!-- Battery Info: Charge Counter -->
+    <!-- Battery Info: Design Capacity -->
+    <string name="battery_design_capacity">Design capacity</string>
+    <!-- Battery Info: Maximum Capacity -->
+    <string name="battery_maximum_capacity">Maximum capacity</string>
+    <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
+    <string name="refresh_rate_title">Refresh rate</string>
+    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptive)</string>
+    <string name="refresh_rate_vrr_title">Adaptive refresh rate</string>
+    <string name="refresh_rate_vrr_summary">Automatically lower the refresh rate when the display is idle, to save power. May cause flickering or color shift on certain displays</string>
+    <string name="refresh_rate_footer">A higher refresh rate makes the display smoother, but increases power consumption</string>
+    <string name="keywords_refresh_rate">refresh, rate, smooth, peak, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <string name="peak_refresh_rate_summary_custom">Automatically raises the refresh rate from 60 to %1$d Hz for some content. Increases battery usage.</string>
+    <!-- Refresh rate -->
+    <string name="low_power_refresh_rate_title_custom">省電力リフレッシュレート</string>
     <!-- Per-app volume -->
     <string name="app_volume">アプリの音量</string>
     <string name="app_volume_title">アプリごとの音量調節</string>
@@ -262,13 +257,6 @@
     <!-- Backup Transport selection settings menu and activity title -->
     <string name="backup_transport_setting_label">バックアッププロバイダの変更</string>
     <string name="backup_transport_title">バックアッププロバイダの選択</string>
-    <!-- Lock screen pattern size -->
-    <string name="lock_settings_picker_pattern_size_message">パターンのサイズを選択</string>
-    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern
-    incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">パターンエラーを表示する</string>
-    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">パターンドットを表示する</string>
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">ピルの長さ</string>
     <string name="short_label">短い</string>
@@ -319,11 +307,6 @@
     <string name="double_tap_title">ダブルタップ</string>
     <string name="doze_double_tap_title">ダブルタップでデバイスを確認する</string>
     <string name="doze_double_tap_summary">ダブルタップで通知を点滅させます</string>
-    <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">クイックロック解除</string>
-    <string name="unlock_quick_unlock_control_summary">正しいPIN/パスワードが入力されたときはロックを自動的に解除する</string>
-    <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
-    <string name="peak_refresh_rate_summary_custom">Automatically raises the refresh rate from 60 to %1$d Hz for some content. Increases battery usage.</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">統計のリセット</string>
     <string name="battery_stats_message">バッテリーの使用統計はリセットされます</string>
@@ -343,40 +326,83 @@
     <!-- Black theme -->
     <string name="system_black_theme_title">ブラックテーマを使用する</string>
     <string name="system_black_theme_summary">強制的に黒い背景色を使用します</string>
-    <!-- Navigation bar IME space -->
-    <string name="navigation_bar_ime_space_title">IME スペース</string>
-    <string name="ime_narrow">狭くする</string>
-    <string name="ime_default">デフォルト</string>
-    <string name="ime_hidden">非表示</string>
-    <!-- App lock -->
-    <string name="app_lock_title">アプリロック</string>
-    <plurals name="app_lock_summary">
-        <item quantity="other"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> 個のアプリが保護されています</item>
-    </plurals>
-    <string name="app_lock_authentication_dialog_title">ロック解除</string>
-    <string name="enable_debugging">デバッグを有効化</string>
-    <string name="disable_debugging">デバッグを無効化</string>
-    <string name="app_lock_packages_title">保護されているアプリ</string>
-    <string name="app_lock_packages_summary">生体認証または、デバイス認証情報で保護をするアプリを選択します</string>
-    <string name="app_lock_timeout_title">自動ロックまでの時間</string>
-    <string name="app_lock_timeout_summary">バックグラウンドでロックされていないアプリがロックされるまでの時間</string>
-    <string name="app_lock_notifications_title">通知の再構成</string>
-    <string name="app_lock_notifications_summary">選択したアプリがロックされている場合、通知は非表示になり、折りたたまれます。ヘッドアップ通知は自動的に無効化されます。</string>
-    <string name="app_lock_notifications_disabled_summary">始めに保護をするアプリを選択します</string>
-    <string name="app_lock_biometrics_allowed_title">生体認証でのロック解除を有効化する</string>
-    <string name="app_lock_footer_text">バブルをタイムアウト後に自動で閉じる</string>
-    <string name="enable_protection">保護を有効化</string>
-    <string name="hide_from_launcher_title">ランチャーから隠す</string>
-    <string name="hide_from_launcher_summary">このアプリがランチャーに表示されないようにします。変更を有効化するにはランチャーの再起動が必要です。</string>
     <!-- FastCharge feature -->
     <string name="fast_charging_title">急速充電</string>
     <string name="fast_charging_summary">充電中にデバイスから発生する熱を抑制、バッテリーの寿命を延ばしたりするには無効化します</string>
-    <!-- Face Unlock -->
-    <string name="face_unlock_method_title">ロック画面で顔認証のロック解除を許可する</string>
-    <string name="face_unlock_method_default">画面が ON のとき</string>
-    <string name="face_unlock_method_swipe">ロック画面のスワイプ時</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Quick torch</string>
+    <string name="power_button_torch_summary">When the screen is off, long-pressing power button will enable torch</string>
+    <string name="torch_long_press_power_timeout_title">Automatically turn torch off</string>
+    <string name="torch_long_press_power_timeout_never">Never</string>
+    <string name="torch_long_press_power_timeout_1min">1 minute</string>
+    <string name="torch_long_press_power_timeout_2min">2 minutes</string>
+    <string name="torch_long_press_power_timeout_5min">5 minutes</string>
+    <string name="torch_long_press_power_timeout_10min">10 minutes</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">No action</string>
+    <string name="action_menu">Menu</string>
+    <string name="action_app_switch">Recents</string>
+    <string name="action_voice_search">Voice search</string>
+    <string name="action_launch_camera">Camera</string>
+    <string name="action_last_app">Last app</string>
+    <string name="action_splitscreen">Split screen</string>
+    <string name="action_flashlight">Flashlight</string>
+    <string name="action_clear_notifications">Clear notifications</string>
+    <string name="action_volume_panel">Volume panel</string>
+    <string name="action_screen_off">Screen off</string>
+    <string name="action_notifications">Notifications</string>
+    <string name="action_power_menu">Power menu</string>
+    <string name="action_screenshot">Screenshot</string>
+    <string name="action_qs_panel">QS panel</string>
+    <string name="action_app_action">Application</string>
+    <string name="action_ringer_modes">Ringer modes</string>
+    <string name="kill_app">Kill foreground app</string>
+    <string name="recent_app_toggle">Switch recent app</string>
+    <string name="show_powermenu">Show Power menu</string>
+    <string name="action_forward">Go forward</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Advanced gestures options</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Customize gestures and set custom actions</string>
+    <string name="navbar_gesture_tweaks_cat_title">Advanced</string>
+    <string name="swipe_app_select_summary">Select an app to launch with the squeeze action</string>
+    <string name="left_swipe_actions_title">Long left swipe action</string>
+    <string name="left_swipe_app_action_title">Select long left swipe app</string>
+    <string name="right_swipe_actions_title">Long right swipe action</string>
+    <string name="right_swipe_app_action_title">Select long right swipe app</string>
+    <string name="left_vertical_swipe_actions_title">Vertical left L-swipe action</string>
+    <string name="left_vertical_swipe_app_action_title">Select vertical left swipe app</string>
+    <string name="right_vertical_swipe_actions_title">Vertical right L-swipe action</string>
+    <string name="right_vertical_swipe_app_action_title">Select vertical right swipe app</string>
+    <string name="gesture_nav_tweaks_footer_info">To choose a specific app activity for the action, long press on any app in the apps picker.\n\nIf launcher is showing, do the swipe at the very bottom area of the screen to trigger the action.</string>
+    <string name="back_swipe_extended_title">Extended swipe action</string>
+    <string name="back_swipe_extended_summary">Trigger action on wider swipe (more than half of display size), or a L swipe (vertically longer enough)</string>
+    <!-- Auto pin confirm -->
+    <string name="lock_screen_auto_pin_confirm_summary_custom">Unlock automatically if you input a correct PIN. This is slightly less secure than tapping Enter to confirm.</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
     <string name="ambient_display_screen_off_udfps_title">常に指紋認証を使用する</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">画面が OFF の状態でもロックの解除が可能になります。\n有効化すると偶発的に画面を点灯させる可能性があります。</string>
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">DC Dimming</string>
+    <string name="dc_dimming_info">Reduces eye strain in low light conditions by minimizing screen flicker. May result in reduced image quality and poor color production, or higher power consumption.</string>
+    <string name="dc_dimming_main_switch_title">Use DC Dimming</string>
+    <string name="keywords_display_dc_dimming">dc dimming, anti, flicker, eye, strain</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Rotation settings</string>
+    <string name="display_rotation_enabled">Auto-rotation is enabled</string>
+    <string name="display_rotation_disabled">Auto-rotation is disabled</string>
+    <string name="display_rotation_unit">degrees</string>
+    <string name="display_rotation_category_title">Rotation modes</string>
+    <string name="display_rotation_0_title">0 degrees</string>
+    <string name="display_rotation_90_title">90 degrees</string>
+    <string name="display_rotation_180_title">180 degrees</string>
+    <string name="display_rotation_270_title">270 degrees</string>
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">Use floating rotate button</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">IME スペース</string>
+    <string name="navigation_bar_ime_space_summary">Space under keyboard options</string>
+    <string name="ime_narrow">狭くする</string>
+    <string name="ime_default">デフォルト</string>
+    <string name="ime_hidden">非表示</string>
 </resources>
