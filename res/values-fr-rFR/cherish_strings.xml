@@ -32,35 +32,13 @@
     <string name="charging_control_target_time_title">Heure cible de charge complète</string>
     <string name="charging_control_target_time_summary">La batterie sera complètement chargée à %s</string>
     <string name="charging_control_limit_title">Limite</string>
-    <!-- Private DNS -->
-    <!-- Alternative: 1dot1dot1dot1.cloudflare-dns.com -->
-    <!-- AdGuard DNS Option -->
-    <!-- AdGuard DNS hostname -->
-    <!-- Open DNS Option -->
-    <!-- Open DNS hostname -->
-    <!-- Cleanbrowsing DNS Option -->
-    <!-- Cleanbrowsing DNS hostname -->
-    <!-- Quad9 DNS Option -->
-    <!-- Quad9 DNS hostname -->
-    <!--Cherish
-    Settings-->
+    <!--Cherish Settings-->
     <string name="cherish_settings_title">Paramètres de Cherish</string>
     <string name="cherish_settings_summary">Le bonheur n\'est pas disponible et provient de vos propres actions</string>
-    <!-- Increasing ring tone volume -->
-    <string name="increasing_ring_volume_option_title">Volume de sonnerie progressive</string>
-    <string name="increasing_ring_min_volume_title">Volume de départ</string>
-    <string name="increasing_ring_ramp_up_time_title">Durée de progression</string>
     <!-- Menu option for not validating the EAP server -->
     <string name="wifi_do_not_validate_eap_server">Ne pas valider</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Aucun certificat spécifié. Votre connexion ne sera pas privée.</string>
-    <!-- Refresh rate -->
-    <string name="min_refresh_rate_title">Taux de rafraîchissement minimum</string>
-    <string name="max_refresh_rate_title">Taux de rafraîchissement maximum</string>
-    <string name="low_power_refresh_rate_title_custom">Taux de rafraîchissement à faible batterie</string>
-    <!-- PIN scramble -->
-    <string name="unlock_scramble_pin_layout_title">Disposition aléatoire</string>
-    <string name="unlock_scramble_pin_layout_summary">Disposer aléatoirement les touches lors du déverrouillage</string>
     <!-- Force LTE_CA -->
     <string name="force_lte_ca">Forcer LTE CA</string>
     <string name="force_lte_ca_summary">Forcer l\'agrégation de l\'opérateur LTE à fonctionner</string>
@@ -75,28 +53,41 @@
     <string name="fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the front of your phone.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Locate the fingerprint sensor on the back of your phone.</string>
     <string name="fingerprint_enroll_find_sensor_message_side">Locate the fingerprint sensor on the side of your phone.</string>
-    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint
-    sensor -->
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
     <string name="fingerprint_enroll_touch_dialog_message_front">Touch the sensor on the front of your phone.</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear">Touch the sensor on the back of your phone.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">Touch the sensor on the side of your phone.</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">Choisir une taille de schéma</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Autoriser les clients à utiliser les connexions VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permettre aux clients de point d\'accès d\'utiliser les connexions VPN de cet appareil\u2019 pour la connectivité en amont</string>
+    <string name="about_cherish_device">À propos de l\'appareil</string>
+    <string name="homepage_widget_battery_percent">pourcentage</string>
+    <string name="homepage_widget_battery_charge">Chargement</string>
+    <string name="homepage_widget_battery_discharge">En décharge</string>
+    <string name="homepage_widget_battery_title">Batterie</string>
+    <string name="homepage_widget_storage_title">Stockage</string>
+    <string name="default_user">Utilisateur</string>
+    <string name="top_level_settings_title">Paramètres</string>
+    <string name="search_button_text_title">Recherche</string>
+    <string name="firmware_name_text">Cherish0S</string>
+    <string name="firmware_build_type_title">Type de compilation</string>
+    <string name="firmware_build_summary_title">Par le mainteneur</string>
+    <string name="build_is_official_title">#official</string>
+    <string name="build_is_community_title">#community</string>
+    <string name="maintainer_summary">par %s</string>
+    <string name="unknown_maintainer">par quelqu\'un</string>
+    <string name="device_info_platform_version">14 | quatorze | UpsideDownCake</string>
+    <string name="device_header_info_category_title">Type de compilation</string>
+    <string name="device_info_hw_sw_more">Plus</string>
+    <string name="device_info_security_patch">Mise à jour de sécurité</string>
     <!-- Navigation bar hint -->
     <string name="navbar_category">Barre de navigation</string>
     <string name="hide_navbar_gesture_bar_title">Masquer la barre de gestes</string>
     <string name="hide_navbar_gesture_bar_summary">Masquer la barre de gestes en bas de l\'écran</string>
-    <!-- Battery Temperature -->
-    <string name="battery_temp">Température de la batterie</string>
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Son de capture d\'écran</string>
-    <!-- Restrict USB -->
-    <string name="trust_restrict_usb_title">Restreindre le port USB</string>
-    <string name="trust_restrict_usb_summary">Control support for USB peripherals such as input (mice, keyboards, joysticks) and storage devices.</string>
-    <string name="trust_restrict_usb_always">Refuser les connexions USB</string>
-    <string name="trust_restrict_usb_keyguard">Autoriser les connexions USB lorsque déverrouillé</string>
-    <string name="trust_restrict_usb_disabled">Toujours autoriser les connexions USB</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Toujours allumé lors de la charge</string>
     <string name="doze_on_charge_summary">Afficher l\'écran de veille tout le temps lors de la charge</string>
@@ -116,9 +107,6 @@
     <string name="storage_warning_internal">Warning: This option may not work properly or lead to data loss and is therefore not recommended!</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
     <string name="sim_card_number_title">Carte SIM <xliff:g id="card_number">%1$d</xliff:g></string>
-    <!-- Game space -->
-    <string name="game_space_title">Espace de jeu</string>
-    <string name="game_space_summary">Améliorez votre expérience de jeu</string>
     <!-- LiveDisplay -->
     <string name="advanced">Avancé</string>
     <string name="live_display_summary">Optimise votre écran en fonction de l\'heure et des conditions ambiantes pour améliorer la lisibilité et réduire la fatigue oculaire</string>
@@ -231,30 +219,37 @@
     <string name="led_notification_title">Paramètres du voyant</string>
     <string name="led_notification_text">Voyant activé par les paramètres</string>
     <string name="notification_light_add_apps_empty_summary">To add per app control, activate \'%1$s\' and press \'Add\'</string>
-    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
-    <string name="duration_less_than_one_minute">Moins d\'une minute</string>
-    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
-    <string name="screen_time_summary_usage_today">%1$s aujourd\'hui</string>
-    <string name="about_cherish_device">À propos de l\'appareil</string>
-    <string name="homepage_widget_battery_percent">pourcentage</string>
-    <string name="homepage_widget_battery_charge">Chargement</string>
-    <string name="homepage_widget_battery_discharge">En décharge</string>
-    <string name="homepage_widget_battery_title">Batterie</string>
-    <string name="homepage_widget_storage_title">Stockage</string>
-    <string name="default_user">Utilisateur</string>
-    <string name="top_level_settings_title">Paramètres</string>
-    <string name="search_button_text_title">Recherche</string>
-    <string name="firmware_name_text">Cherish0S</string>
-    <string name="firmware_build_type_title">Type de compilation</string>
-    <string name="firmware_build_summary_title">Par le mainteneur</string>
-    <string name="build_is_official_title">#official</string>
-    <string name="build_is_community_title">#community</string>
-    <string name="maintainer_summary">par %s</string>
-    <string name="unknown_maintainer">par quelqu\'un</string>
-    <string name="device_info_platform_version">14 | quatorze | UpsideDownCake</string>
-    <string name="device_header_info_category_title">Type de compilation</string>
-    <string name="device_info_hw_sw_more">Plus</string>
-    <string name="device_info_security_patch">Mise à jour de sécurité</string>
+    <!-- Battery Info: Technology -->
+    <string name="battery_technology">Technology</string>
+    <!-- Battery Info: Health -->
+    <string name="battery_health">Health</string>
+    <string name="battery_health_good">Good</string>
+    <string name="battery_health_overheat">Overheat</string>
+    <string name="battery_health_dead">Dead</string>
+    <string name="battery_health_over_voltage">Over voltage</string>
+    <string name="battery_health_unspecified_failure">Unspecified failure</string>
+    <string name="battery_health_cold">Cold</string>
+    <string name="battery_health_unknown">Unknown</string>
+    <!-- Battery Info: Temperature -->
+    <string name="battery_temperature">Temperature</string>
+    <!-- Battery Info: Voltage -->
+    <string name="battery_voltage">Voltage</string>
+    <!-- Battery Info: Charge Counter -->
+    <!-- Battery Info: Design Capacity -->
+    <string name="battery_design_capacity">Design capacity</string>
+    <!-- Battery Info: Maximum Capacity -->
+    <string name="battery_maximum_capacity">Maximum capacity</string>
+    <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
+    <string name="refresh_rate_title">Refresh rate</string>
+    <string name="refresh_rate_summary_vrr_off">%d Hz</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptive)</string>
+    <string name="refresh_rate_vrr_title">Adaptive refresh rate</string>
+    <string name="refresh_rate_vrr_summary">Automatically lower the refresh rate when the display is idle, to save power. May cause flickering or color shift on certain displays</string>
+    <string name="refresh_rate_footer">A higher refresh rate makes the display smoother, but increases power consumption</string>
+    <string name="keywords_refresh_rate">refresh, rate, smooth, peak, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <string name="peak_refresh_rate_summary_custom">Automatically raises the refresh rate from 60 to %1$d Hz for some content. Increases battery usage.</string>
+    <!-- Refresh rate -->
+    <string name="low_power_refresh_rate_title_custom">Taux de rafraîchissement à faible batterie</string>
     <!-- Per-app volume -->
     <string name="app_volume">Volume de l\'application</string>
     <string name="app_volume_title">Contrôle du volume par application</string>
@@ -262,13 +257,6 @@
     <!-- Backup Transport selection settings menu and activity title -->
     <string name="backup_transport_setting_label">Modifier le fournisseur de sauvegarde</string>
     <string name="backup_transport_title">Sélectionnez le fournisseur de sauvegarde</string>
-    <!-- Lock screen pattern size -->
-    <string name="lock_settings_picker_pattern_size_message">Choisir une taille de schéma</string>
-    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern
-    incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">Afficher l\'erreur de schéma</string>
-    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">Afficher les points du schéma</string>
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">Longueur de la barre de navigation</string>
     <string name="short_label">Court</string>
@@ -319,11 +307,6 @@
     <string name="double_tap_title">Tapotez deux fois</string>
     <string name="doze_double_tap_title">Appui double pour vérifier le téléphone</string>
     <string name="doze_double_tap_summary">Faire apparaître les notifications par appui double</string>
-    <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Déverrouillage rapide</string>
-    <string name="unlock_quick_unlock_control_summary">Déverrouiller automatiquement l\'appareil lorsque le bon code PIN/mot de passe est saisi</string>
-    <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
-    <string name="peak_refresh_rate_summary_custom">Automatically raises the refresh rate from 60 to %1$d Hz for some content. Increases battery usage.</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Réinitialiser les statistiques</string>
     <string name="battery_stats_message">Les statistiques d\'utilisation de la batterie vont être réinitialisées</string>
@@ -343,46 +326,83 @@
     <!-- Black theme -->
     <string name="system_black_theme_title">Utiliser le thème sombre</string>
     <string name="system_black_theme_summary">Force les couleurs d\'arrière-plan sombres</string>
-    <!-- Navigation bar IME space -->
-    <string name="navigation_bar_ime_space_title">Espace IME</string>
-    <string name="ime_narrow">Étroit</string>
-    <string name="ime_default">Par défaut</string>
-    <string name="ime_hidden">Masqué</string>
-    <!-- App lock -->
-    <string name="app_lock_title">Verrouillage d\'applications</string>
-    <plurals name="app_lock_summary">
-        <item quantity="one">l\'application <xliff:g example="1" id="Number of applications">%1$d</xliff:g> est protégée</item>
-        <item quantity="other">les applications <xliff:g example="10" id="Number of applications">%1$d</xliff:g> sont protégées</item>
-    </plurals>
-    <string name="app_lock_authentication_dialog_title">Déverrouiller</string>
-    <string name="enable_debugging">Activer le déboggage</string>
-    <string name="disable_debugging">Désactiver le débogage</string>
-    <string name="app_lock_packages_title">Applications protégées</string>
-    <string name="app_lock_packages_summary">Sélectionnez les applications à protéger avec les données biométriques ou les identifiants
-         de l\'appareil</string>
-    <string name="app_lock_timeout_title">Délai avant verrouillage automatique</string>
-    <string name="app_lock_timeout_summary">Durée après laquelle une application déverrouillée en
-        arrière-plan doit être verrouillée</string>
-    <string name="app_lock_notifications_title">Effacer les notifications</string>
-    <string name="app_lock_notifications_summary">Le contenu des notifications sera masqué et réduit
-        pour les applications sélectionnées quand elles seront verrouillées. Les notifications flottantes seront automatiquement
-        désactivées.</string>
-    <string name="app_lock_notifications_disabled_summary">Protéger d\'abord une application</string>
-    <string name="app_lock_biometrics_allowed_title">Activer le déverrouillage biométrique</string>
-    <string name="app_lock_footer_text">Les bulles seront automatiquement rejetées après l\'expiration du délai</string>
-    <string name="enable_protection">Activer la protection</string>
-    <string name="hide_from_launcher_title">Masquer l’icône dans le lanceur d\'applications</string>
-    <string name="hide_from_launcher_summary">Empêcher cette application d\'apparaître dans tous
-        les lanceurs d\'applications. Nécessite un redémarrage du lanceur pour que les changements prennent effet.</string>
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Charge rapide</string>
     <string name="fast_charging_summary">Désactiver pour réduire la chaleur produite par l\'appareil pendant la charge ou pour prolonger la durée de vie de la batterie</string>
-    <!-- Face Unlock -->
-    <string name="face_unlock_method_title">Autoriser la reconnaissance faciale sur l\'écran de verrouillage</string>
-    <string name="face_unlock_method_default">Lorsque l\'écran est allumé</string>
-    <string name="face_unlock_method_swipe">Lors d\'un balayage sur l\'écran de verrouillage</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Quick torch</string>
+    <string name="power_button_torch_summary">When the screen is off, long-pressing power button will enable torch</string>
+    <string name="torch_long_press_power_timeout_title">Automatically turn torch off</string>
+    <string name="torch_long_press_power_timeout_never">Never</string>
+    <string name="torch_long_press_power_timeout_1min">1 minute</string>
+    <string name="torch_long_press_power_timeout_2min">2 minutes</string>
+    <string name="torch_long_press_power_timeout_5min">5 minutes</string>
+    <string name="torch_long_press_power_timeout_10min">10 minutes</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">No action</string>
+    <string name="action_menu">Menu</string>
+    <string name="action_app_switch">Recents</string>
+    <string name="action_voice_search">Voice search</string>
+    <string name="action_launch_camera">Camera</string>
+    <string name="action_last_app">Last app</string>
+    <string name="action_splitscreen">Split screen</string>
+    <string name="action_flashlight">Flashlight</string>
+    <string name="action_clear_notifications">Clear notifications</string>
+    <string name="action_volume_panel">Volume panel</string>
+    <string name="action_screen_off">Screen off</string>
+    <string name="action_notifications">Notifications</string>
+    <string name="action_power_menu">Power menu</string>
+    <string name="action_screenshot">Screenshot</string>
+    <string name="action_qs_panel">QS panel</string>
+    <string name="action_app_action">Application</string>
+    <string name="action_ringer_modes">Ringer modes</string>
+    <string name="kill_app">Kill foreground app</string>
+    <string name="recent_app_toggle">Switch recent app</string>
+    <string name="show_powermenu">Show Power menu</string>
+    <string name="action_forward">Go forward</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Advanced gestures options</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Customize gestures and set custom actions</string>
+    <string name="navbar_gesture_tweaks_cat_title">Advanced</string>
+    <string name="swipe_app_select_summary">Select an app to launch with the squeeze action</string>
+    <string name="left_swipe_actions_title">Long left swipe action</string>
+    <string name="left_swipe_app_action_title">Select long left swipe app</string>
+    <string name="right_swipe_actions_title">Long right swipe action</string>
+    <string name="right_swipe_app_action_title">Select long right swipe app</string>
+    <string name="left_vertical_swipe_actions_title">Vertical left L-swipe action</string>
+    <string name="left_vertical_swipe_app_action_title">Select vertical left swipe app</string>
+    <string name="right_vertical_swipe_actions_title">Vertical right L-swipe action</string>
+    <string name="right_vertical_swipe_app_action_title">Select vertical right swipe app</string>
+    <string name="gesture_nav_tweaks_footer_info">To choose a specific app activity for the action, long press on any app in the apps picker.\n\nIf launcher is showing, do the swipe at the very bottom area of the screen to trigger the action.</string>
+    <string name="back_swipe_extended_title">Extended swipe action</string>
+    <string name="back_swipe_extended_summary">Trigger action on wider swipe (more than half of display size), or a L swipe (vertically longer enough)</string>
+    <!-- Auto pin confirm -->
+    <string name="lock_screen_auto_pin_confirm_summary_custom">Unlock automatically if you input a correct PIN. This is slightly less secure than tapping Enter to confirm.</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
     <string name="ambient_display_screen_off_udfps_title">Always on Fingerprint</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">Allows unlocking with the screen off.\nEnabling may cause accidental wake-ups</string>
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">DC Dimming</string>
+    <string name="dc_dimming_info">Reduces eye strain in low light conditions by minimizing screen flicker. May result in reduced image quality and poor color production, or higher power consumption.</string>
+    <string name="dc_dimming_main_switch_title">Use DC Dimming</string>
+    <string name="keywords_display_dc_dimming">dc dimming, anti, flicker, eye, strain</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Rotation settings</string>
+    <string name="display_rotation_enabled">Auto-rotation is enabled</string>
+    <string name="display_rotation_disabled">Auto-rotation is disabled</string>
+    <string name="display_rotation_unit">degrees</string>
+    <string name="display_rotation_category_title">Rotation modes</string>
+    <string name="display_rotation_0_title">0 degrees</string>
+    <string name="display_rotation_90_title">90 degrees</string>
+    <string name="display_rotation_180_title">180 degrees</string>
+    <string name="display_rotation_270_title">270 degrees</string>
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">Use floating rotate button</string>
+    <!-- Navigation bar IME space -->
+    <string name="navigation_bar_ime_space_title">Espace IME</string>
+    <string name="navigation_bar_ime_space_summary">Space under keyboard options</string>
+    <string name="ime_narrow">Étroit</string>
+    <string name="ime_default">Par défaut</string>
+    <string name="ime_hidden">Masqué</string>
 </resources>
