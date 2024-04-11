@@ -13,6 +13,9 @@
     <string name="build_date">Date de version</string>
     <string name="build_date_default">01-01-2015-0000</string>
     <string name="keywords_build_date">date de compilation, informations de compilation</string>
+    <!-- Heads-up -->
+    <string name="heads_up_notifications_enabled_title">Heads-up</string>
+    <string name="heads_up_notifications_enabled_summary">Display priority notifications in a small floating window</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">Balayer l\'écran pour prendre une capture d\'écran</string>
     <string name="swipe_to_screenshot_gesture_summary">Balayer l\'écran avec trois doigts pour faire une capture d\'écran</string>
@@ -405,4 +408,7 @@
     <string name="ime_narrow">Étroit</string>
     <string name="ime_default">Par défaut</string>
     <string name="ime_hidden">Masqué</string>
+    <!-- Game space -->
+    <string name="game_space_title">Game space</string>
+    <string name="game_space_summary">Enhance your gaming experience</string>
 </resources>
