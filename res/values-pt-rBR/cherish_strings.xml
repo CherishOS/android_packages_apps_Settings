@@ -13,6 +13,9 @@
     <string name="build_date">Data da compilação</string>
     <string name="build_date_default">2015-01-01-0000</string>
     <string name="keywords_build_date">data da compilação, informações da compilação</string>
+    <!-- Heads-up -->
+    <string name="heads_up_notifications_enabled_title">Heads-up</string>
+    <string name="heads_up_notifications_enabled_summary">Display priority notifications in a small floating window</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">Deslize para capturar a tela</string>
     <string name="swipe_to_screenshot_gesture_summary">Deslize três dedos para a captura da tela</string>
@@ -63,25 +66,25 @@
     <string name="tethering_allow_vpn_upstreams_title">Permitir que clientes usem VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permitir que os clientes utilizem a conexão deste dispositivo\u2019s para se conectar a VPN</string>
     <string name="about_cherish_device">Dispositivo Cherish</string>
-    <string name="homepage_widget_battery_percent">percent</string>
-    <string name="homepage_widget_battery_charge">Charging</string>
-    <string name="homepage_widget_battery_discharge">Discharging</string>
-    <string name="homepage_widget_battery_title">Battery</string>
-    <string name="homepage_widget_storage_title">Storage</string>
-    <string name="default_user">User</string>
-    <string name="top_level_settings_title">Settings</string>
-    <string name="search_button_text_title">Search</string>
-    <string name="firmware_name_text">Cherish0S</string>
-    <string name="firmware_build_type_title">Build type</string>
-    <string name="firmware_build_summary_title">By maintainer</string>
-    <string name="build_is_official_title">#official</string>
-    <string name="build_is_community_title">#community</string>
-    <string name="maintainer_summary">by %s</string>
-    <string name="unknown_maintainer">by someone</string>
-    <string name="device_info_platform_version">14 | fourteen | UpsideDownCake</string>
-    <string name="device_header_info_category_title">Build type</string>
-    <string name="device_info_hw_sw_more">More</string>
-    <string name="device_info_security_patch">Security update</string>
+    <string name="homepage_widget_battery_percent">por cento</string>
+    <string name="homepage_widget_battery_charge">Carregando</string>
+    <string name="homepage_widget_battery_discharge">Descarregando</string>
+    <string name="homepage_widget_battery_title">Bateria</string>
+    <string name="homepage_widget_storage_title">Armazenamento</string>
+    <string name="default_user">Usuário</string>
+    <string name="top_level_settings_title">Configurações</string>
+    <string name="search_button_text_title">Pesquisar</string>
+    <string name="firmware_name_text">CherishOS</string>
+    <string name="firmware_build_type_title">Tipo de compilação</string>
+    <string name="firmware_build_summary_title">Pelo mantenedor</string>
+    <string name="build_is_official_title">#oficial</string>
+    <string name="build_is_community_title">#comunidade</string>
+    <string name="maintainer_summary">por %s</string>
+    <string name="unknown_maintainer">por alguém</string>
+    <string name="device_info_platform_version">14 | Quatorze | UpsideDownCake</string>
+    <string name="device_header_info_category_title">Tipo de compilação</string>
+    <string name="device_info_hw_sw_more">Mais</string>
+    <string name="device_info_security_patch">Atualização de segurança</string>
     <!-- Navigation bar hint -->
     <string name="navbar_category">Barra de navegação</string>
     <string name="hide_navbar_gesture_bar_title">Ocultar barra de gestos</string>
@@ -220,33 +223,33 @@
     <string name="led_notification_text">Luz de LED ativada nas configurações</string>
     <string name="notification_light_add_apps_empty_summary">Para adicionar o controle por aplicativo, ative%1$s\' e pressione \'Adicionar\'</string>
     <!-- Battery Info: Technology -->
-    <string name="battery_technology">Technology</string>
+    <string name="battery_technology">Tecnologia</string>
     <!-- Battery Info: Health -->
-    <string name="battery_health">Health</string>
-    <string name="battery_health_good">Good</string>
-    <string name="battery_health_overheat">Overheat</string>
-    <string name="battery_health_dead">Dead</string>
-    <string name="battery_health_over_voltage">Over voltage</string>
-    <string name="battery_health_unspecified_failure">Unspecified failure</string>
-    <string name="battery_health_cold">Cold</string>
-    <string name="battery_health_unknown">Unknown</string>
+    <string name="battery_health">Saúde</string>
+    <string name="battery_health_good">Boa</string>
+    <string name="battery_health_overheat">Superaquecida</string>
+    <string name="battery_health_dead">Morta</string>
+    <string name="battery_health_over_voltage">Tensão elevada</string>
+    <string name="battery_health_unspecified_failure">Falha não especificada</string>
+    <string name="battery_health_cold">Fria</string>
+    <string name="battery_health_unknown">Desconhecida</string>
     <!-- Battery Info: Temperature -->
-    <string name="battery_temperature">Temperature</string>
+    <string name="battery_temperature">Temperatura</string>
     <!-- Battery Info: Voltage -->
-    <string name="battery_voltage">Voltage</string>
+    <string name="battery_voltage">Voltagem</string>
     <!-- Battery Info: Charge Counter -->
     <!-- Battery Info: Design Capacity -->
-    <string name="battery_design_capacity">Design capacity</string>
+    <string name="battery_design_capacity">Capacidade original</string>
     <!-- Battery Info: Maximum Capacity -->
-    <string name="battery_maximum_capacity">Maximum capacity</string>
+    <string name="battery_maximum_capacity">Capacidade máxima</string>
     <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
-    <string name="refresh_rate_title">Refresh rate</string>
+    <string name="refresh_rate_title">Taxa de atualização</string>
     <string name="refresh_rate_summary_vrr_off">%d Hz</string>
-    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptive)</string>
-    <string name="refresh_rate_vrr_title">Adaptive refresh rate</string>
-    <string name="refresh_rate_vrr_summary">Automatically lower the refresh rate when the display is idle, to save power. May cause flickering or color shift on certain displays</string>
-    <string name="refresh_rate_footer">A higher refresh rate makes the display smoother, but increases power consumption</string>
-    <string name="keywords_refresh_rate">refresh, rate, smooth, peak, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptável)</string>
+    <string name="refresh_rate_vrr_title">Taxa de atualização adaptável</string>
+    <string name="refresh_rate_vrr_summary">Reduza automaticamente a taxa de atualização quando a tela estiver ociosa para economizar energia. Pode causar cintilação ou mudança de cor em determinadas telas</string>
+    <string name="refresh_rate_footer">Uma taxa de atualização mais alta torna a tela mais suave, mas aumenta o consumo de energia</string>
+    <string name="keywords_refresh_rate">atualização, taxa, suave, pico, 60hz, 90hz, 120hz, 144hz, 165hz</string>
     <string name="peak_refresh_rate_summary_custom">Aumenta automaticamente a taxa de atualização de 60 para %1$d Hz para alguns conteúdos. Maior uso da bateria.</string>
     <!-- Refresh rate -->
     <string name="low_power_refresh_rate_title_custom">Taxa de atualização para poupar energia</string>
@@ -299,7 +302,7 @@
     <string name="wifi_hotspot_block_client_dialog_title">Bloquear dispositivo</string>
     <string name="wifi_hotspot_block_client_dialog_text">Esta ação desconectará \"<xliff:g id="device_name">%1$s</xliff:g>\" deste dispositivo e o adicionará à lista de bloqueio</string>
     <string name="wifi_hotspot_unblock_client_dialog_title">Desbloquear dispositivo</string>
-    <string name="wifi_hotspot_unblock_client_dialog_text">The device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">O dispositivo \"<xliff:g id="device_name">%1$s</xliff:g>\" será capaz de se conectar neste ponto de acesso</string>
     <string name="wifi_hotspot_client_manager_footer_text">Nenhum cliente disponível no momento. Dispositivos conectados e bloqueados serão listados aqui quando disponíveis.</string>
     <!-- Summary for list to control apps that ignore battery saving restrictions -->
     <string name="high_power_apps_summary">Disponibilidade de otimização da bateria</string>
@@ -327,82 +330,85 @@
     <string name="system_black_theme_title">Usar tema preto</string>
     <string name="system_black_theme_summary">Forçar tema preto para a cor de fundo</string>
     <!-- FastCharge feature -->
-    <string name="fast_charging_title">Fast charging</string>
-    <string name="fast_charging_summary">Disable to reduce the heat produced by the device while charging or to extend the lifespan of the battery</string>
+    <string name="fast_charging_title">Carregamento rápido</string>
+    <string name="fast_charging_summary">Desative para reduzir o calor produzido pelo dispositivo durante o carregamento ou para estender a vida útil da bateria</string>
     <!-- Torch Power button gestures -->
-    <string name="power_button_torch_title">Quick torch</string>
-    <string name="power_button_torch_summary">When the screen is off, long-pressing power button will enable torch</string>
-    <string name="torch_long_press_power_timeout_title">Automatically turn torch off</string>
-    <string name="torch_long_press_power_timeout_never">Never</string>
-    <string name="torch_long_press_power_timeout_1min">1 minute</string>
-    <string name="torch_long_press_power_timeout_2min">2 minutes</string>
-    <string name="torch_long_press_power_timeout_5min">5 minutes</string>
-    <string name="torch_long_press_power_timeout_10min">10 minutes</string>
+    <string name="power_button_torch_title">Lanterna rápida</string>
+    <string name="power_button_torch_summary">Quando a tela estiver desligada, segure o botão liga/desliga para ativar a lanterna</string>
+    <string name="torch_long_press_power_timeout_title">Desligar a lanterna automaticamente</string>
+    <string name="torch_long_press_power_timeout_never">Nunca</string>
+    <string name="torch_long_press_power_timeout_1min">1 minuto</string>
+    <string name="torch_long_press_power_timeout_2min">2 minutos</string>
+    <string name="torch_long_press_power_timeout_5min">5 minutos</string>
+    <string name="torch_long_press_power_timeout_10min">10 minutos</string>
     <!-- Custom actions -->
-    <string name="action_nothing">No action</string>
+    <string name="action_nothing">Nenhuma ação</string>
     <string name="action_menu">Menu</string>
-    <string name="action_app_switch">Recents</string>
-    <string name="action_voice_search">Voice search</string>
-    <string name="action_launch_camera">Camera</string>
-    <string name="action_last_app">Last app</string>
-    <string name="action_splitscreen">Split screen</string>
-    <string name="action_flashlight">Flashlight</string>
-    <string name="action_clear_notifications">Clear notifications</string>
-    <string name="action_volume_panel">Volume panel</string>
-    <string name="action_screen_off">Screen off</string>
-    <string name="action_notifications">Notifications</string>
-    <string name="action_power_menu">Power menu</string>
-    <string name="action_screenshot">Screenshot</string>
-    <string name="action_qs_panel">QS panel</string>
-    <string name="action_app_action">Application</string>
-    <string name="action_ringer_modes">Ringer modes</string>
-    <string name="kill_app">Kill foreground app</string>
-    <string name="recent_app_toggle">Switch recent app</string>
-    <string name="show_powermenu">Show Power menu</string>
-    <string name="action_forward">Go forward</string>
+    <string name="action_app_switch">Recentes</string>
+    <string name="action_voice_search">Pesquisa por voz</string>
+    <string name="action_launch_camera">Câmera</string>
+    <string name="action_last_app">Último app</string>
+    <string name="action_splitscreen">Tela dividida</string>
+    <string name="action_flashlight">Lanterna</string>
+    <string name="action_clear_notifications">Limpar notificações</string>
+    <string name="action_volume_panel">Painel de volume</string>
+    <string name="action_screen_off">Desligar tela</string>
+    <string name="action_notifications">Notificações</string>
+    <string name="action_power_menu">Menu de energia</string>
+    <string name="action_screenshot">Captura de tela</string>
+    <string name="action_qs_panel">Painel de configurações rápidas</string>
+    <string name="action_app_action">Aplicativo</string>
+    <string name="action_ringer_modes">Modos de toque</string>
+    <string name="kill_app">Fechar app em primeiro plano</string>
+    <string name="recent_app_toggle">Alternar app recente</string>
+    <string name="show_powermenu">Mostrar menu de energia</string>
+    <string name="action_forward">Vá em frente</string>
     <!-- Long swipe gestures -->
-    <string name="navbar_gesture_tweaks_pref_title">Advanced gestures options</string>
-    <string name="navbar_gesture_tweaks_pref_summary">Customize gestures and set custom actions</string>
-    <string name="navbar_gesture_tweaks_cat_title">Advanced</string>
-    <string name="swipe_app_select_summary">Select an app to launch with the squeeze action</string>
-    <string name="left_swipe_actions_title">Long left swipe action</string>
-    <string name="left_swipe_app_action_title">Select long left swipe app</string>
-    <string name="right_swipe_actions_title">Long right swipe action</string>
-    <string name="right_swipe_app_action_title">Select long right swipe app</string>
-    <string name="left_vertical_swipe_actions_title">Vertical left L-swipe action</string>
-    <string name="left_vertical_swipe_app_action_title">Select vertical left swipe app</string>
-    <string name="right_vertical_swipe_actions_title">Vertical right L-swipe action</string>
-    <string name="right_vertical_swipe_app_action_title">Select vertical right swipe app</string>
-    <string name="gesture_nav_tweaks_footer_info">To choose a specific app activity for the action, long press on any app in the apps picker.\n\nIf launcher is showing, do the swipe at the very bottom area of the screen to trigger the action.</string>
-    <string name="back_swipe_extended_title">Extended swipe action</string>
-    <string name="back_swipe_extended_summary">Trigger action on wider swipe (more than half of display size), or a L swipe (vertically longer enough)</string>
+    <string name="navbar_gesture_tweaks_pref_title">Opções de gestos avançados</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Personalizar gestos e definir ações personalizadas</string>
+    <string name="navbar_gesture_tweaks_cat_title">Avançado</string>
+    <string name="swipe_app_select_summary">Selecione um app a ser aberto ao realizar a ação</string>
+    <string name="left_swipe_actions_title">Ação ao deslizar longamente para a esquerda</string>
+    <string name="left_swipe_app_action_title">Selecionar app de deslize longo para a esquerda</string>
+    <string name="right_swipe_actions_title">Ação ao deslizar longamente para a direita</string>
+    <string name="right_swipe_app_action_title">Selecionar app de deslize longo para a direita</string>
+    <string name="left_vertical_swipe_actions_title">Ação de deslize em L para a esquerda</string>
+    <string name="left_vertical_swipe_app_action_title">Selecionar app do deslizar verticalmente à esquerda</string>
+    <string name="right_vertical_swipe_actions_title">Ação de deslize em L para a direita</string>
+    <string name="right_vertical_swipe_app_action_title">Selecionar app do deslizar verticalmente à direita</string>
+    <string name="gesture_nav_tweaks_footer_info">Para escolher uma atividade de aplicativo específica para a ação, pressione e segure qualquer aplicativo no seletor de aplicativos. \n\nSe o iniciador estiver sendo exibido, deslize o dedo na área inferior da tela para acionar a ação.</string>
+    <string name="back_swipe_extended_title">Ação de deslizar prolongado</string>
+    <string name="back_swipe_extended_summary">Acione a ação com um deslize mais amplo (mais da metade do tamanho da tela) ou com um deslize em L (verticalmente longo o suficiente)</string>
     <!-- Auto pin confirm -->
-    <string name="lock_screen_auto_pin_confirm_summary_custom">Unlock automatically if you input a correct PIN. This is slightly less secure than tapping Enter to confirm.</string>
+    <string name="lock_screen_auto_pin_confirm_summary_custom">Desbloquear automaticamente se você inserir o PIN correto. Isso é um pouco menos seguro do que tocar em Enter para confirmar.</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title">Always on Fingerprint</string>
+    <string name="ambient_display_screen_off_udfps_title">Impressão digital sempre ativa</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
-    <string name="ambient_display_screen_off_udfps_summary">Allows unlocking with the screen off.\nEnabling may cause accidental wake-ups</string>
+    <string name="ambient_display_screen_off_udfps_summary">Permite desbloquear com a tela desligada.\nManter ativado pode fazer a tela ligar acidentalmente</string>
     <!-- DC Dimming -->
-    <string name="dc_dimming_title">DC Dimming</string>
-    <string name="dc_dimming_info">Reduces eye strain in low light conditions by minimizing screen flicker. May result in reduced image quality and poor color production, or higher power consumption.</string>
-    <string name="dc_dimming_main_switch_title">Use DC Dimming</string>
-    <string name="keywords_display_dc_dimming">dc dimming, anti, flicker, eye, strain</string>
+    <string name="dc_dimming_title">Modo Anti-oscilação</string>
+    <string name="dc_dimming_info">Reduz a fadiga ocular em condições de pouca luz, minimizando a cintilação da tela. Pode resultar em qualidade de imagem reduzida e produção de cores ruim ou maior consumo de energia.</string>
+    <string name="dc_dimming_main_switch_title">Usar modo Anti-oscilação</string>
+    <string name="keywords_display_dc_dimming">anti-oscilação, anti-cintilação, proteção para os olhos</string>
     <!-- Display : Rotation -->
-    <string name="display_rotation_title">Rotation settings</string>
-    <string name="display_rotation_enabled">Auto-rotation is enabled</string>
-    <string name="display_rotation_disabled">Auto-rotation is disabled</string>
-    <string name="display_rotation_unit">degrees</string>
-    <string name="display_rotation_category_title">Rotation modes</string>
-    <string name="display_rotation_0_title">0 degrees</string>
-    <string name="display_rotation_90_title">90 degrees</string>
-    <string name="display_rotation_180_title">180 degrees</string>
-    <string name="display_rotation_270_title">270 degrees</string>
+    <string name="display_rotation_title">Configurações de rotação</string>
+    <string name="display_rotation_enabled">A rotação automática está ativada</string>
+    <string name="display_rotation_disabled">A rotação automática está desativada</string>
+    <string name="display_rotation_unit">graus</string>
+    <string name="display_rotation_category_title">Modos de rotação</string>
+    <string name="display_rotation_0_title">0 graus</string>
+    <string name="display_rotation_90_title">90 graus</string>
+    <string name="display_rotation_180_title">180 graus</string>
+    <string name="display_rotation_270_title">270 graus</string>
     <!-- Floating rotation button -->
-    <string name="enable_floating_rotation_button_title">Use floating rotate button</string>
+    <string name="enable_floating_rotation_button_title">Usar botão de rotação flutuante</string>
     <!-- Navigation bar IME space -->
     <string name="navigation_bar_ime_space_title">Espaço IME</string>
-    <string name="navigation_bar_ime_space_summary">Space under keyboard options</string>
-    <string name="ime_narrow">Narrow</string>
-    <string name="ime_default">Default</string>
-    <string name="ime_hidden">Hidden</string>
+    <string name="navigation_bar_ime_space_summary">Espaço sob as opções do teclado</string>
+    <string name="ime_narrow">Estreito</string>
+    <string name="ime_default">Padrão</string>
+    <string name="ime_hidden">Oculto</string>
+    <!-- Game space -->
+    <string name="game_space_title">Game space</string>
+    <string name="game_space_summary">Enhance your gaming experience</string>
 </resources>

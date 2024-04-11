@@ -13,6 +13,9 @@
     <string name="build_date">构建日期</string>
     <string name="build_date_default">2015-01-01-0000</string>
     <string name="keywords_build_date">编译日期，编译信息</string>
+    <!-- Heads-up -->
+    <string name="heads_up_notifications_enabled_title">Heads-up</string>
+    <string name="heads_up_notifications_enabled_summary">Display priority notifications in a small floating window</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">滑动截图</string>
     <string name="swipe_to_screenshot_gesture_summary">用三指下滑来截图</string>
@@ -218,35 +221,35 @@
     <!-- Lights settings, LED notification -->
     <string name="led_notification_title">指示灯设置</string>
     <string name="led_notification_text">已通过设置启用 LED 指示灯</string>
-    <string name="notification_light_add_apps_empty_summary">To add per app control, activate \'%1$s\' and press \'Add\'</string>
+    <string name="notification_light_add_apps_empty_summary">要添加对每个应用的控制，请先激活 \'%1$s\'，然后按 \'添加\'</string>
     <!-- Battery Info: Technology -->
-    <string name="battery_technology">Technology</string>
+    <string name="battery_technology">技术规格</string>
     <!-- Battery Info: Health -->
-    <string name="battery_health">Health</string>
-    <string name="battery_health_good">Good</string>
-    <string name="battery_health_overheat">Overheat</string>
-    <string name="battery_health_dead">Dead</string>
-    <string name="battery_health_over_voltage">Over voltage</string>
-    <string name="battery_health_unspecified_failure">Unspecified failure</string>
-    <string name="battery_health_cold">Cold</string>
-    <string name="battery_health_unknown">Unknown</string>
+    <string name="battery_health">健康情况</string>
+    <string name="battery_health_good">良好</string>
+    <string name="battery_health_overheat">过热</string>
+    <string name="battery_health_dead">损坏</string>
+    <string name="battery_health_over_voltage">过压</string>
+    <string name="battery_health_unspecified_failure">未知故障</string>
+    <string name="battery_health_cold">过冷</string>
+    <string name="battery_health_unknown">未知</string>
     <!-- Battery Info: Temperature -->
-    <string name="battery_temperature">Temperature</string>
+    <string name="battery_temperature">温度</string>
     <!-- Battery Info: Voltage -->
-    <string name="battery_voltage">Voltage</string>
+    <string name="battery_voltage">电压</string>
     <!-- Battery Info: Charge Counter -->
     <!-- Battery Info: Design Capacity -->
-    <string name="battery_design_capacity">Design capacity</string>
+    <string name="battery_design_capacity">设计容量</string>
     <!-- Battery Info: Maximum Capacity -->
-    <string name="battery_maximum_capacity">Maximum capacity</string>
+    <string name="battery_maximum_capacity">最大容量</string>
     <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
-    <string name="refresh_rate_title">Refresh rate</string>
+    <string name="refresh_rate_title">刷新率</string>
     <string name="refresh_rate_summary_vrr_off">%d Hz</string>
-    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptive)</string>
-    <string name="refresh_rate_vrr_title">Adaptive refresh rate</string>
-    <string name="refresh_rate_vrr_summary">Automatically lower the refresh rate when the display is idle, to save power. May cause flickering or color shift on certain displays</string>
-    <string name="refresh_rate_footer">A higher refresh rate makes the display smoother, but increases power consumption</string>
-    <string name="keywords_refresh_rate">refresh, rate, smooth, peak, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <string name="refresh_rate_summary_vrr_on">%d Hz (自适应)</string>
+    <string name="refresh_rate_vrr_title">自适应刷新率</string>
+    <string name="refresh_rate_vrr_summary">当屏幕空闲时自动降低刷新率以节省电量，可能会导致某些设备的屏幕闪烁或色偏。</string>
+    <string name="refresh_rate_footer">更高的刷新率使显示的内容变化时变得更加流畅，但会增加电量消耗。</string>
+    <string name="keywords_refresh_rate">刷新, 速度, 平滑, 峰值, 60hz, 90hz, 120hz, 144hz, 165hz</string>
     <string name="peak_refresh_rate_summary_custom">对某些内容自动将刷新率从 60 提升至 %1$d Hz。这会增加电池使用量。</string>
     <!-- Refresh rate -->
     <string name="low_power_refresh_rate_title_custom">低功耗刷新率</string>
@@ -330,41 +333,41 @@
     <string name="fast_charging_title">快速充电</string>
     <string name="fast_charging_summary">禁用以减少设备在充电时产生的热量或延长电池的使用寿命</string>
     <!-- Torch Power button gestures -->
-    <string name="power_button_torch_title">Quick torch</string>
-    <string name="power_button_torch_summary">When the screen is off, long-pressing power button will enable torch</string>
-    <string name="torch_long_press_power_timeout_title">Automatically turn torch off</string>
-    <string name="torch_long_press_power_timeout_never">Never</string>
-    <string name="torch_long_press_power_timeout_1min">1 minute</string>
-    <string name="torch_long_press_power_timeout_2min">2 minutes</string>
-    <string name="torch_long_press_power_timeout_5min">5 minutes</string>
-    <string name="torch_long_press_power_timeout_10min">10 minutes</string>
+    <string name="power_button_torch_title">快捷手电筒</string>
+    <string name="power_button_torch_summary">屏幕关闭时，长按电源键将打开手电筒</string>
+    <string name="torch_long_press_power_timeout_title">自动关闭手电筒</string>
+    <string name="torch_long_press_power_timeout_never">从不</string>
+    <string name="torch_long_press_power_timeout_1min">1 分钟</string>
+    <string name="torch_long_press_power_timeout_2min">2 分钟</string>
+    <string name="torch_long_press_power_timeout_5min">5 分钟</string>
+    <string name="torch_long_press_power_timeout_10min">10 分钟</string>
     <!-- Custom actions -->
-    <string name="action_nothing">No action</string>
-    <string name="action_menu">Menu</string>
-    <string name="action_app_switch">Recents</string>
-    <string name="action_voice_search">Voice search</string>
-    <string name="action_launch_camera">Camera</string>
-    <string name="action_last_app">Last app</string>
-    <string name="action_splitscreen">Split screen</string>
-    <string name="action_flashlight">Flashlight</string>
-    <string name="action_clear_notifications">Clear notifications</string>
-    <string name="action_volume_panel">Volume panel</string>
-    <string name="action_screen_off">Screen off</string>
-    <string name="action_notifications">Notifications</string>
-    <string name="action_power_menu">Power menu</string>
-    <string name="action_screenshot">Screenshot</string>
-    <string name="action_qs_panel">QS panel</string>
-    <string name="action_app_action">Application</string>
-    <string name="action_ringer_modes">Ringer modes</string>
-    <string name="kill_app">Kill foreground app</string>
-    <string name="recent_app_toggle">Switch recent app</string>
-    <string name="show_powermenu">Show Power menu</string>
-    <string name="action_forward">Go forward</string>
+    <string name="action_nothing">无动作</string>
+    <string name="action_menu">菜单</string>
+    <string name="action_app_switch">最近使用</string>
+    <string name="action_voice_search">语音搜索</string>
+    <string name="action_launch_camera">相机</string>
+    <string name="action_last_app">最后使用的应用</string>
+    <string name="action_splitscreen">分屏</string>
+    <string name="action_flashlight">闪光灯</string>
+    <string name="action_clear_notifications">清除通知</string>
+    <string name="action_volume_panel">音量面板</string>
+    <string name="action_screen_off">关闭屏幕</string>
+    <string name="action_notifications">通知</string>
+    <string name="action_power_menu">电源菜单</string>
+    <string name="action_screenshot">屏幕截图</string>
+    <string name="action_qs_panel">快速设置面板</string>
+    <string name="action_app_action">应用程序</string>
+    <string name="action_ringer_modes">响铃模式</string>
+    <string name="kill_app">终止前台应用</string>
+    <string name="recent_app_toggle">切换最近的应用</string>
+    <string name="show_powermenu">显示电源菜单</string>
+    <string name="action_forward">前进</string>
     <!-- Long swipe gestures -->
-    <string name="navbar_gesture_tweaks_pref_title">Advanced gestures options</string>
-    <string name="navbar_gesture_tweaks_pref_summary">Customize gestures and set custom actions</string>
-    <string name="navbar_gesture_tweaks_cat_title">Advanced</string>
-    <string name="swipe_app_select_summary">Select an app to launch with the squeeze action</string>
+    <string name="navbar_gesture_tweaks_pref_title">高级手势选项</string>
+    <string name="navbar_gesture_tweaks_pref_summary">自定义手势并设置自定义操作</string>
+    <string name="navbar_gesture_tweaks_cat_title">高级选项</string>
+    <string name="swipe_app_select_summary">选择在按下时启动的应用</string>
     <string name="left_swipe_actions_title">Long left swipe action</string>
     <string name="left_swipe_app_action_title">Select long left swipe app</string>
     <string name="right_swipe_actions_title">Long right swipe action</string>
@@ -379,30 +382,33 @@
     <!-- Auto pin confirm -->
     <string name="lock_screen_auto_pin_confirm_summary_custom">Unlock automatically if you input a correct PIN. This is slightly less secure than tapping Enter to confirm.</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS [CHAR LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title">Always on Fingerprint</string>
+    <string name="ambient_display_screen_off_udfps_title">始终开启指纹识别</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
-    <string name="ambient_display_screen_off_udfps_summary">Allows unlocking with the screen off.\nEnabling may cause accidental wake-ups</string>
+    <string name="ambient_display_screen_off_udfps_summary">允许在屏幕关闭时解锁。\n启用可能会导致意外唤醒。</string>
     <!-- DC Dimming -->
-    <string name="dc_dimming_title">DC Dimming</string>
-    <string name="dc_dimming_info">Reduces eye strain in low light conditions by minimizing screen flicker. May result in reduced image quality and poor color production, or higher power consumption.</string>
-    <string name="dc_dimming_main_switch_title">Use DC Dimming</string>
-    <string name="keywords_display_dc_dimming">dc dimming, anti, flicker, eye, strain</string>
+    <string name="dc_dimming_title">DC 调光</string>
+    <string name="dc_dimming_info">通过最大限度地降低屏幕闪烁次数来减轻弱光条件下的眼部疲劳。 可能会导致图像质量和色彩精确度下降，或功耗增加。</string>
+    <string name="dc_dimming_main_switch_title">使用 DC 调光</string>
+    <string name="keywords_display_dc_dimming">防闪烁, 防止, 闪烁, 眼睛, 疲劳</string>
     <!-- Display : Rotation -->
-    <string name="display_rotation_title">Rotation settings</string>
-    <string name="display_rotation_enabled">Auto-rotation is enabled</string>
-    <string name="display_rotation_disabled">Auto-rotation is disabled</string>
-    <string name="display_rotation_unit">degrees</string>
-    <string name="display_rotation_category_title">Rotation modes</string>
-    <string name="display_rotation_0_title">0 degrees</string>
-    <string name="display_rotation_90_title">90 degrees</string>
-    <string name="display_rotation_180_title">180 degrees</string>
-    <string name="display_rotation_270_title">270 degrees</string>
+    <string name="display_rotation_title">旋转设置</string>
+    <string name="display_rotation_enabled">自动旋转已启用</string>
+    <string name="display_rotation_disabled">自动旋转已禁用</string>
+    <string name="display_rotation_unit">度数</string>
+    <string name="display_rotation_category_title">旋转模式</string>
+    <string name="display_rotation_0_title">0 度</string>
+    <string name="display_rotation_90_title">90 度</string>
+    <string name="display_rotation_180_title">180 度</string>
+    <string name="display_rotation_270_title">270 度</string>
     <!-- Floating rotation button -->
-    <string name="enable_floating_rotation_button_title">Use floating rotate button</string>
+    <string name="enable_floating_rotation_button_title">使用浮动旋转按钮</string>
     <!-- Navigation bar IME space -->
     <string name="navigation_bar_ime_space_title">键盘下的空间</string>
-    <string name="navigation_bar_ime_space_summary">Space under keyboard options</string>
+    <string name="navigation_bar_ime_space_summary">键盘选项下的空间</string>
     <string name="ime_narrow">窄</string>
     <string name="ime_default">默认</string>
     <string name="ime_hidden">隐藏</string>
+    <!-- Game space -->
+    <string name="game_space_title">Game space</string>
+    <string name="game_space_summary">Enhance your gaming experience</string>
 </resources>

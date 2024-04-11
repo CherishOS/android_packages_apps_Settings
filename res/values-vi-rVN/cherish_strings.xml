@@ -13,6 +13,9 @@
     <string name="build_date">Ngày dựng</string>
     <string name="build_date_default">2015-01-01-0000</string>
     <string name="keywords_build_date">ngày dựng, thông tin bản dựng</string>
+    <!-- Heads-up -->
+    <string name="heads_up_notifications_enabled_title">Thông báo nổi</string>
+    <string name="heads_up_notifications_enabled_summary">Hiển thị các thông báo ưu tiên trong một cửa sổ nổi nhỏ</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">Vuốt để chụp ảnh màn hình</string>
     <string name="swipe_to_screenshot_gesture_summary">Vuốt ba ngón tay để chụp màn hình</string>
@@ -405,4 +408,7 @@
     <string name="ime_narrow">Thu hẹp</string>
     <string name="ime_default">Mặc định</string>
     <string name="ime_hidden">Ẩn</string>
+    <!-- Game space -->
+    <string name="game_space_title">Không gian trò chơi</string>
+    <string name="game_space_summary">Cải thiện trải nghiệm chơi game</string>
 </resources>
