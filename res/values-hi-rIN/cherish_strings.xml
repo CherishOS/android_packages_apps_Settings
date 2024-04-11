@@ -13,6 +13,9 @@
     <string name="build_date">निर्माण तिथि</string>
     <string name="build_date_default">2015-01-01-0000</string>
     <string name="keywords_build_date">निर्माण तिथि, निर्माण की जानकारी</string>
+    <!-- Heads-up -->
+    <string name="heads_up_notifications_enabled_title">Heads-up</string>
+    <string name="heads_up_notifications_enabled_summary">Display priority notifications in a small floating window</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">स्क्रीनशॉट के लिए स्वाइप करे</string>
     <string name="swipe_to_screenshot_gesture_summary">स्क्रीनशॉट के लिए तीन अंगुलियां स्वाइप करे</string>
@@ -405,4 +408,7 @@
     <string name="ime_narrow">Narrow</string>
     <string name="ime_default">Default</string>
     <string name="ime_hidden">Hidden</string>
+    <!-- Game space -->
+    <string name="game_space_title">Game space</string>
+    <string name="game_space_summary">Enhance your gaming experience</string>
 </resources>
