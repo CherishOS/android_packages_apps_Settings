@@ -38,6 +38,10 @@
     <!--Cherish Settings-->
     <string name="cherish_settings_title">Cherish 설정</string>
     <string name="cherish_settings_summary">행복은 이미 완성된 것이 아니라 당신의 행동으로부터 오는 것이다</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
+    <string name="increasing_ring_min_volume_title">Start volume</string>
+    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
     <!-- Menu option for not validating the EAP server -->
     <string name="wifi_do_not_validate_eap_server">Do not validate</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
