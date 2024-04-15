@@ -38,6 +38,10 @@
     <!--Cherish Settings-->
     <string name="cherish_settings_title">Paramètres de Cherish</string>
     <string name="cherish_settings_summary">Le bonheur n\'est pas disponible et provient de vos propres actions</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
+    <string name="increasing_ring_min_volume_title">Start volume</string>
+    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
     <!-- Menu option for not validating the EAP server -->
     <string name="wifi_do_not_validate_eap_server">Ne pas valider</string>
     <!-- Warning message displayed if user choses not to validate the EAP server -->
