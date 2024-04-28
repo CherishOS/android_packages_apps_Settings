@@ -66,11 +66,15 @@
     <string name="fingerprint_enroll_touch_dialog_message_side">Touch the sensor on the side of your phone.</string>
     <!-- Lock screen pattern size -->
     <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Разрешить клиентам использовать VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Разрешить пользователям точки доступа использовать VPN-соединения этого устройства для подключения к сети</string>
     <string name="about_cherish_device">Cherish Device</string>
-    <string name="homepage_widget_battery_percent">percent</string>
+    <string name="homepage_widget_battery_percent">процент</string>
     <string name="homepage_widget_battery_charge">Charging</string>
     <string name="homepage_widget_battery_discharge">Discharging</string>
     <string name="homepage_widget_battery_title">Батарея</string>
@@ -87,8 +91,8 @@
     <string name="unknown_maintainer">by someone</string>
     <string name="device_info_platform_version">14 | четырнадцать | UpsideDownCake (Перевёрнутый торт)</string>
     <string name="device_header_info_category_title">Build type</string>
-    <string name="device_info_hw_sw_more">More</string>
-    <string name="device_info_security_patch">Security update</string>
+    <string name="device_info_hw_sw_more">Ещё</string>
+    <string name="device_info_security_patch">Обновление безопасности</string>
     <!-- Navigation bar hint -->
     <string name="navbar_category">Панель навигации</string>
     <string name="hide_navbar_gesture_bar_title">Скрыть панель жестов</string>
@@ -111,7 +115,7 @@
     <string name="high_touch_polling_rate_title">Высокий уровень опроса касательно</string>
     <string name="high_touch_polling_rate_summary">Увеличить частоту опросов сенсорного экрана</string>
     <!-- Warning message for the sd card setup -->
-    <string name="storage_warning_internal">Warning: This option may not work properly or lead to data loss and is therefore not recommended!</string>
+    <string name="storage_warning_internal">Внимание: Эта опция может работать неправильно или привести к потере данных и потому не рекомендуется!</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
     <string name="sim_card_number_title">SIM <xliff:g id="card_number">%1$d</xliff:g></string>
     <!-- LiveDisplay -->
@@ -212,7 +216,7 @@
     <string name="notification_light_general_title">General</string>
     <string name="notification_light_advanced_title">Advanced</string>
     <string name="notification_light_applist_title">Apps</string>
-    <string name="notification_light_phonelist_title">Phone</string>
+    <string name="notification_light_phonelist_title">Телефон</string>
     <string name="notification_light_use_custom">Use custom values</string>
     <string name="notification_light_default_value">Default</string>
     <string name="notification_light_missed_call_title">Missed call</string>
@@ -220,7 +224,7 @@
     <string name="notification_light_screen_on">Lights with screen on</string>
     <string name="notification_light_zen_mode">Lights in Do Not Disturb mode</string>
     <string name="keywords_lights_brightness_level">dim leds brightness</string>
-    <string name="notification_light_automagic">Choose colors automatically</string>
+    <string name="notification_light_automagic">Выбирать цвета автоматически</string>
     <string name="notification_light_automagic_summary">Choosing colors automatically</string>
     <!-- Lights settings, LED notification -->
     <string name="led_notification_title">Light settings</string>
@@ -256,6 +260,8 @@
     <string name="keywords_refresh_rate">refresh, rate, smooth, peak, 60hz, 90hz, 120hz, 144hz, 165hz</string>
     <string name="peak_refresh_rate_summary_custom">Automatically raises the refresh rate from 60 to %1$d Hz for some content. Increases battery usage.</string>
     <!-- Refresh rate -->
+    <string name="max_refresh_rate_title">Peak refresh rate</string>
+    <string name="min_refresh_rate_title">Minimum refresh rate</string>
     <string name="low_power_refresh_rate_title_custom">Частота обновления при низком заряде батареи</string>
     <!-- Per-app volume -->
     <string name="app_volume">Громкость приложения</string>
@@ -340,11 +346,11 @@
     <string name="power_button_torch_title">Quick torch</string>
     <string name="power_button_torch_summary">When the screen is off, long-pressing power button will enable torch</string>
     <string name="torch_long_press_power_timeout_title">Automatically turn torch off</string>
-    <string name="torch_long_press_power_timeout_never">Never</string>
+    <string name="torch_long_press_power_timeout_never">Никогда</string>
     <string name="torch_long_press_power_timeout_1min">1 minute</string>
-    <string name="torch_long_press_power_timeout_2min">2 minutes</string>
-    <string name="torch_long_press_power_timeout_5min">5 minutes</string>
-    <string name="torch_long_press_power_timeout_10min">10 minutes</string>
+    <string name="torch_long_press_power_timeout_2min">2 минуты</string>
+    <string name="torch_long_press_power_timeout_5min">5 минут</string>
+    <string name="torch_long_press_power_timeout_10min">10 минут</string>
     <!-- Custom actions -->
     <string name="action_nothing">No action</string>
     <string name="action_menu">Menu</string>
@@ -359,9 +365,9 @@
     <string name="action_screen_off">Screen off</string>
     <string name="action_notifications">Notifications</string>
     <string name="action_power_menu">Power menu</string>
-    <string name="action_screenshot">Screenshot</string>
+    <string name="action_screenshot">Снимок экрана</string>
     <string name="action_qs_panel">QS panel</string>
-    <string name="action_app_action">Application</string>
+    <string name="action_app_action">Приложение</string>
     <string name="action_ringer_modes">Ringer modes</string>
     <string name="kill_app">Kill foreground app</string>
     <string name="recent_app_toggle">Switch recent app</string>
@@ -426,4 +432,34 @@
     <string name="always_on_display_schedule_sunrise">Sunrise</string>
     <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
     <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
+    <!-- App lock -->
+    <string name="app_lock_title">App lock</string>
+    <plurals name="app_lock_summary">
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> application is protected</item>
+        <item quantity="few"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+        <item quantity="many"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+    </plurals>
+    <string name="app_lock_authentication_dialog_title">Unlock</string>
+    <string name="enable_debugging">Enable debugging</string>
+    <string name="disable_debugging">Disable debugging</string>
+    <string name="app_lock_packages_title">Protected apps</string>
+    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
+    <string name="app_lock_timeout_title">Auto lock timeout</string>
+    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
+    <string name="app_lock_notifications_title">Redact notifications</string>
+    <string name="app_lock_notifications_summary">Notification content will be hidden and collapsed for selected apps when they are locked. Heads up notifications will be automatically disabled.</string>
+    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
+    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
+    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
+    <string name="enable_protection">Enable protection</string>
+    <string name="hide_from_launcher_title">Hide from launcher</string>
+    <string name="hide_from_launcher_summary">Prevent this application from showing up in any launcher. Requires a launcher restart for changes to take effect.</string>
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">Volume Steps</string>
+    <string name="volume_steps_summary">Control the granularity of each stream</string>
+    <string name="max_music_volume_title">Media</string>
+    <string name="max_call_volume_title">Calls</string>
+    <string name="max_alarm_volume_title">Alarms</string>
+    <string name="steps_unit">steps</string>
 </resources>
