@@ -210,7 +210,7 @@
         android:order="-40"/>
 
     <!-- Charging vibro -->
-    <SwitchPreference
+    <SwitchPreferenceCompat
         android:key="charging_vibro"
         android:title="@string/charging_vibro_title"
         android:order="-39"/>
