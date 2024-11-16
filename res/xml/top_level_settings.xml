@@ -21,6 +21,16 @@
     android:key="top_level_settings">
 
     <com.android.settings.widget.HomepagePreference
+        android:fragment="com.cherish.settings.settings.CherishSettings"
+        android:icon="@drawable/ic_settings_cherish"
+        android:key="top_level_cherish"
+        android:order="-160"
+        android:title="@string/cherish_dashboard_title"
+        android:summary="@string/cherish_dashboard_summary"
+        settings:highlightableMenuKey="@string/menu_key_cherish"
+        settings:controller="com.cherish.settings.TopLevelCherishSettingsPreferenceController"/>
+
+    <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.network.NetworkDashboardFragment"
         android:icon="@drawable/ic_settings_wireless"
         android:key="top_level_network"

@@ -21,6 +21,21 @@
     android:key="top_level_settings">
 
     <PreferenceCategory
+        android:order="-140"
+        android:key="top_level_evolution_category"
+        android:layout="@layout/settingslib_expressive_untitled_preference_category">
+        <com.android.settings.widget.HomepagePreference
+            android:fragment="com.cherish.settings.CherishSettings"
+            android:icon="@drawable/ic_homepage_cherish"
+            android:key="top_level_cherish"
+            android:order="-160"
+            android:title="@string/cherish_dashboard_title"
+            android:summary="@string/cherish_dashboard_summary"
+            settings:highlightableMenuKey="@string/menu_key_cherish"
+            settings:controller="com.cherish.settings.TopLevelCherishSettingsPreferenceController"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:order="-130"
         android:key="top_level_connectivity_category"
         android:layout="@layout/settingslib_expressive_untitled_preference_category">
