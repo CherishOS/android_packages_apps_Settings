@@ -23,7 +23,7 @@
         app:lottie_rawRes="@raw/gesture_ambient_tap_custom"
         app:preview="@drawable/gesture_ambient_tap" />
 
-    <SwitchPreference
+    <SwitchPreferenceCompat
         android:key="doze_trigger_doubletap"
         android:title="@string/doze_double_tap_title"
         android:summary="@string/doze_double_tap_summary"
