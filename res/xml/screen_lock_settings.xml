@@ -27,11 +27,11 @@
         android:key="visiblepattern"
         android:title="@string/lockpattern_settings_enable_visible_pattern_title" />
 
-    <SwitchPreference
+    <SwitchPreferenceCompat
         android:key="visible_error_pattern"
         android:title="@string/lockpattern_settings_enable_error_path_title" />
 
-    <SwitchPreference
+    <SwitchPreferenceCompat
         android:key="visibledots"
         android:title="@string/lockpattern_settings_enable_dots_title" />
 
@@ -60,7 +60,7 @@
         android:title="@string/lockpattern_settings_enable_power_button_instantly_locks" />
 
     <!-- Lineage additions, available in pin/pattern/password/slide -->
-    <SwitchPreference
+    <SwitchPreferenceCompat
         android:key="lockscreen_scramble_pin_layout"
         android:title="@string/unlock_scramble_pin_layout_title"
         android:summary="@string/unlock_scramble_pin_layout_summary" />

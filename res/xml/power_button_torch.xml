@@ -25,7 +25,7 @@
         android:key="gesture_power_button_torch_video"
         settings:lottie_rawRes="@raw/lottie_power_button_torch" />
 
-    <SwitchPreference
+    <SwitchPreferenceCompat
         android:key="power_button_torch_toggle"
         android:title="@string/use_power_button_torch_title"
         android:summary="@string/use_power_button_torch_summary"
