@@ -27,6 +27,8 @@ import android.os.UserHandle;
 import android.provider.Settings;
 import android.view.WindowManager;
 
+import com.android.internal.util.cherish.CherishUtils;
+
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
@@ -34,6 +36,8 @@ import com.android.settings.widget.LabeledSeekBarPreference;
 import com.android.settings.widget.SeekBarPreference;
 import com.android.settingslib.search.SearchIndexable;
 import com.android.settingslib.widget.ButtonPreference;
+
+import com.cherish.settings.preferences.SystemSettingSwitchPreference;
 
 /**
  * A fragment to include all the settings related to Gesture Navigation mode.
@@ -47,6 +51,7 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
             "com.android.settings.GESTURE_NAVIGATION_SETTINGS";
     static final String ACTION_GESTURE_SANDBOX = "com.android.quickstep.action.GESTURE_SANDBOX";
 
+    private static final String GESTURE_HINT_KEY = "navigation_bar_hint";
     private static final String LEFT_EDGE_SEEKBAR_KEY = "gesture_left_back_sensitivity";
     private static final String RIGHT_EDGE_SEEKBAR_KEY = "gesture_right_back_sensitivity";
     private static final String GESTURE_TUTORIAL_KEY = "assistant_gesture_navigation_tutorial";
@@ -56,6 +61,9 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
 
     private static final String GESTURE_NAVBAR_LENGTH_KEY = "gesture_navbar_length_preference";
     private static final String GESTURE_BACK_HEIGHT_KEY = "gesture_back_height";
+
+    private static final String NEXUSLAUNCHER_PACKAGE_NAME = "com.google.android.apps.nexuslauncher";
+    private static final String NOGESTUREHINT_OVERLAY = "com.google.android.apps.nexuslauncher.overlay.nogesturehint";
 
     private WindowManager mWindowManager;
     private BackGestureIndicatorView mIndicatorView;
@@ -99,6 +107,18 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
         initSeekBarPreference(GESTURE_BACK_HEIGHT_KEY);
 
         initGestureNavbarLengthPreference();
+
+        SystemSettingSwitchPreference gestureHintPref =
+                getPreferenceScreen().findPreference(GESTURE_HINT_KEY);
+
+        gestureHintPref.setOnPreferenceChangeListener((preference, newValue) -> {
+            if (CherishUtils.isPackageInstalled(getContext(), NEXUSLAUNCHER_PACKAGE_NAME)) {
+                CherishUtils.toggleOverlay(getContext(), NOGESTUREHINT_OVERLAY, !(Boolean) newValue);
+                CherishUtils.restartApp(NEXUSLAUNCHER_PACKAGE_NAME, getContext());
+            }
+
+            return true;
+        });
     }
 
     @Override
