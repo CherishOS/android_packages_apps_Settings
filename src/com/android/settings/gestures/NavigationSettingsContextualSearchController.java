@@ -16,9 +16,15 @@
 
 package com.android.settings.gestures;
 
+import static android.app.contextualsearch.ContextualSearchManager.ACTION_LAUNCH_CONTEXTUAL_SEARCH;
 import static android.app.contextualsearch.ContextualSearchManager.FEATURE_CONTEXTUAL_SEARCH;
+import static android.content.pm.PackageManager.MATCH_DIRECT_BOOT_AWARE;
+import static android.content.pm.PackageManager.MATCH_DIRECT_BOOT_UNAWARE;
 
 import android.content.Context;
+import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.content.pm.ResolveInfo;
 import android.provider.Settings;
 
 import androidx.annotation.NonNull;
@@ -26,7 +32,7 @@ import androidx.annotation.NonNull;
 import com.android.settings.core.TogglePreferenceController;
 
 /**
- * Configures behaviour of Contextual Search setting.
+ * Configures behavior of Contextual Search setting.
  */
 public class NavigationSettingsContextualSearchController extends TogglePreferenceController {
 
@@ -52,10 +58,34 @@ public class NavigationSettingsContextualSearchController extends TogglePreferen
 
     @Override
     public int getAvailabilityStatus() {
-        if (mContext.getPackageManager().hasSystemFeature(FEATURE_CONTEXTUAL_SEARCH)) {
-            return AVAILABLE;
+        PackageManager pm = mContext.getPackageManager();
+        if (pm == null) {
+            return UNSUPPORTED_ON_DEVICE;
         }
-        return UNSUPPORTED_ON_DEVICE;
+        if (!pm.hasSystemFeature(FEATURE_CONTEXTUAL_SEARCH)) {
+            return UNSUPPORTED_ON_DEVICE;
+        }
+        final String pkg = mContext.getResources().getString(
+                com.android.internal.R.string.config_defaultContextualSearchPackageName);
+        if (pkg == null || pkg.isEmpty()) {
+            return UNSUPPORTED_ON_DEVICE;
+        }
+        try {
+            if (!pm.getApplicationInfo(pkg, 0).enabled) {
+                return UNSUPPORTED_ON_DEVICE;
+            }
+        } catch (PackageManager.NameNotFoundException e) {
+            return UNSUPPORTED_ON_DEVICE;
+        }
+        // telling real GSA apart from the google stub
+        Intent intent = new Intent(ACTION_LAUNCH_CONTEXTUAL_SEARCH);
+        intent.setPackage(pkg);
+        ResolveInfo ri = pm.resolveActivity(intent,
+                MATCH_DIRECT_BOOT_AWARE | MATCH_DIRECT_BOOT_UNAWARE);
+        if (ri == null || ri.getComponentInfo().getComponentName() == null) {
+            return UNSUPPORTED_ON_DEVICE;
+        }
+        return AVAILABLE;
     }
 
     @Override
