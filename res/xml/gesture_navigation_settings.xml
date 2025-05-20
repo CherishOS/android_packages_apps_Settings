@@ -23,6 +23,24 @@
     android:title="@string/gesture_settings_activity_title"
     settings:keywords="@string/keywords_gesture_navigation_settings">
 
+    <PreferenceCategory
+        android:persistent="false">
+
+        <com.android.settingslib.widget.ButtonPreference
+            android:key="assistant_gesture_navigation_tutorial"
+            android:title="@string/gesture_navigation_tutorial_title"
+            android:icon="@drawable/tile_icon_show_taps"
+            settings:buttonPreferenceSize="normal"
+            settings:buttonPreferenceType="filled" />
+    </PreferenceCategory>
+
+    <!-- Show IME Space -->
+    <com.cherish.settings.preferences.SecureSettingSwitchPreference
+        android:key="sysui_show_nav_bar_ime"
+        android:title="@string/show_ime_space_title"
+        android:summary="@string/show_ime_space_summary"
+        android:defaultValue="true" />
+
     <com.android.settings.widget.LabeledSeekBarPreference
         android:key="gesture_navbar_length_preference"
         android:title="@string/gesture_navbar_length_title"
@@ -46,17 +64,6 @@
         android:title="@string/back_gesture_arrow_title"
         android:summary="@string/back_gesture_arrow_summary"
         android:defaultValue="true" />
-
-    <PreferenceCategory
-        android:persistent="false">
-
-        <com.android.settingslib.widget.ButtonPreference
-            android:key="assistant_gesture_navigation_tutorial"
-            android:title="@string/gesture_navigation_tutorial_title"
-            android:icon="@drawable/tile_icon_show_taps"
-            settings:buttonPreferenceSize="normal"
-            settings:buttonPreferenceType="filled" />
-    </PreferenceCategory>
 
     <PreferenceCategory
         android:key="assistant_gesture_category"
