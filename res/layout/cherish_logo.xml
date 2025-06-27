@@ -16,10 +16,12 @@
      android:gravity="center"
      android:selectable="false">
 
-     <ImageView
-          android:src="@drawable/ic_cherish_logo"
-          android:adjustViewBounds="true"
-          android:layout_height="match_parent"
-          android:layout_width="match_parent"
-          android:scaleType="centerInside" />
+    <ImageView 
+        android:src="@drawable/ic_cherish_logo"
+        android:scaleType="centerInside"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+	android:layout_marginBottom="20dp"
+        android:adjustViewBounds="true" />
 </LinearLayout>
