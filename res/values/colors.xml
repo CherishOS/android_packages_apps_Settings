@@ -52,6 +52,8 @@
     <color name="shortcut_background">#fff5f5f5</color>
 
     <!-- Dashboard/homepage icon colors -->
+    <color name="homepage_cherish_foreground">@color/homepage_pink_fg</color>
+    <color name="homepage_cherish_background">@color/homepage_pink_bg</color>
     <color name="homepage_network_foreground">@color/homepage_blue_variant_fg</color>
     <color name="homepage_network_background">@color/homepage_blue_variant_bg</color>
     <color name="homepage_connected_device_foreground">@color/homepage_blue_variant_fg</color>
