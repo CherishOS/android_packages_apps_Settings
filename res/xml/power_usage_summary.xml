@@ -81,6 +81,14 @@
         android:fragment="com.android.settings.cherish.notificationlight.BatteryLightSettings"
         settings:controller="com.android.settings.cherish.notificationlight.BatteryLightPreferenceController" />
 
+    <!-- Charging control -->
+    <Preference
+        android:key="charging_control"
+        android:title="@string/charging_control_title"
+        android:summary="@string/charging_control_summary"
+        android:fragment="com.android.settings.health.ChargingControlSettings"
+        settings:controller="com.android.settings.health.ChargingControlPreferenceController" />
+
     <SwitchPreferenceCompat
         android:key="status_bar_show_battery_percent"
         android:title="@string/battery_percentage"
