@@ -364,4 +364,10 @@ When the screen is off, the torch can be enabled with one of the following key c
     <string name="gesture_power_button_torch_double_tap_title">Quickly pressing the power menu button twice</string>
     <string name="gesture_double_tap_power_summary_disabled">Disabled by flashlight gesture</string>
     <string name="double_tap_power_for_torch_summary_disabled">Disabled by open camera gesture</string>
+
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Double tap</string>
+    <string name="doze_double_tap_title">Double tap to check phone</string>
+    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
+
 </resources>
