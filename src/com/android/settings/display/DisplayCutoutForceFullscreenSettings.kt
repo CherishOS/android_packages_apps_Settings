@@ -152,7 +152,9 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
 
             override fun onQueryTextChange(newText: String): Boolean {
                 searchText = newText
-                refreshList()
+                if (isAdded && context != null) {
+                        refreshList()
+                }
                 return true
             }
         })
@@ -214,6 +216,7 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
     }
 
     private fun refreshList() {
+        if (!isAdded || context == null) return
         var list = packageList.filter {
             if (!showSystem) {
                 !it.applicationInfo!!.isSystemApp()
@@ -314,6 +317,13 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
             
             override fun areContentsTheSame(oldInfo: AppInfo, newInfo: AppInfo) =
                 oldInfo == newInfo
+        }
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        optionsMenu?.findItem(R.id.search)?.actionView?.let {
+            (it as? SearchView)?.setOnQueryTextListener(null)
         }
     }
 }
