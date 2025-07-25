@@ -62,6 +62,7 @@ import com.android.internal.cherish.hardware.LiveDisplayConfig;
 import com.android.internal.cherish.hardware.LiveDisplayManager;
 import com.android.internal.cherish.preference.SettingsHelper;
 import com.android.settings.cherish.preference.CustomDialogPreference;
+import com.cherish.settings.preferences.SystemSettingSwitchPreference;
 
 import static com.android.internal.cherish.hardware.LiveDisplayManager.FEATURE_ANTI_FLICKER;
 import static com.android.internal.cherish.hardware.LiveDisplayManager.FEATURE_CABC;
@@ -117,11 +118,11 @@ public class LiveDisplaySettings extends SettingsPreferenceFragment implements
 
     private ListPreference mLiveDisplay;
 
-    private SwitchPreference mAntiFlicker;
-    private SwitchPreference mColorEnhancement;
-    private SwitchPreference mLowPower;
-    private SwitchPreference mOutdoorMode;
-    private SwitchPreference mReadingMode;
+    private SystemSettingSwitchPreference mAntiFlicker;
+    private SystemSettingSwitchPreference mColorEnhancement;
+    private SystemSettingSwitchPreference mLowPower;
+    private SystemSettingSwitchPreference mOutdoorMode;
+    private SystemSettingSwitchPreference mReadingMode;
 
     private PictureAdjustment mPictureAdjustment;
     private DisplayTemperature mDisplayTemperature;
