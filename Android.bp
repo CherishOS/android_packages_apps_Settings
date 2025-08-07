@@ -57,6 +57,7 @@ android_library {
         "src/**/*.kt",
         "src/**/*.aidl",
         "CherishSettings/src/**/*.java",
+        "CherishSettings/src/**/*.kt",
     ],
 
     aaptflags: ["--extra-packages com.cherish.settings"],
