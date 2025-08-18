@@ -384,10 +384,6 @@ When the screen is off, the torch can be enabled with one of the following key c
     <string name="copied_to_clipboard">Copied to clipboard</string>
     <string name="longpress_to_clipboard">Long-press to copy</string>
 
-     <!-- App data usage Datura Firewall link -->
-    <string name="data_usage_app_datura_firewall">Datura Firewall</string>
-    <string name="data_usage_app_datura_firewall_summary">Firewall settings have been moved to the new Firewall app. Tap to open.</string>
-
     <!-- Other Fragment -->
     <string name="other_settings">Other options</string>
     <string name="quick_settings">Quick Settings</string>
