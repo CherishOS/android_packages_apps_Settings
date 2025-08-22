@@ -487,4 +487,19 @@ When the screen is off, the torch can be enabled with one of the following key c
     <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
     <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+
+    <!-- Data Usage Cycle -->
+    <string name="billing_cycle_type_title">Mobile data usage cycle type</string>
+    <string name="billing_cycle_type_monthly">Monthly</string>
+    <string name="billing_cycle_type_weekly">Weekly</string>
+    <string name="billing_cycle_type_daily">Daily</string>
+    <string name="billing_cycle_less_than_one_hour_left">Less than 1 hour left</string>
+    <string name="billing_cycle_hours_left">{count, plural,
+        =1      {# hour left}
+        other   {# hours left}
+        }</string>
+    <string name="cycle_type_weekly_title">Usage cycle reset day</string>
+    <string name="cycle_type_weekly_sub">Day of each week:\n1 = Monday</string>
+    <string name="cycle_type_daily_title">Usage cycle reset hour</string>
+    <string name="cycle_type_daily_sub">Hour of each day:</string>
 </resources>
