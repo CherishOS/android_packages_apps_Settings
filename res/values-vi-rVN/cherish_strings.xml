@@ -459,4 +459,50 @@
     <string name="max_call_volume_title">Cuộc gọi</string>
     <string name="max_alarm_volume_title">Báo thức</string>
     <string name="steps_unit">bước</string>
+
+    <!-- Charging vibration -->
+    <string name="charging_sounds_custom_title">Âm thanh sạc</string>
+    <string name="charging_vibro_title">Rung khi sạc</string>
+
+    <!-- Enforce DNS for VPN -->
+    <string name="vpn_enforce_dns_title">Tắt khi dùng VPN</string>
+    <string name="vpn_enforce_dns_summary">Tắt DNS riêng tư khi kết nối VPN\nSẽ tự khôi phục sau khi ngắt kết nối</string>
+
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">Xáo trộn bàn phím</string>
+    <string name="unlock_scramble_pin_layout_summary">Xáo trộn vị trí phím PIN khi mở khóa thiết bị</string>
+
+    <!-- Other Fragment -->
+    <string name="other_settings">Tùy chọn khác</string>
+    <string name="quick_settings">Cài đặt nhanh</string>
+
+    <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">Đen tuyền</string>
+    <string name="berry_black_theme_summary">Nền đen tuyền cho chế độ tối</string>
+
+    <!-- IME button space -->
+    <string name="show_ime_space_title">Hiển thị khu vực nút IME</string>
+    <string name="show_ime_space_summary">Bật tính năng chuyển đổi nhanh phương thức nhập để chuyển đổi phương thức nhập hoặc ẩn bàn phím trên màn hình từ thanh tính năng ở cuối màn hình khi đang gõ</string>
+
+    <!-- Idle manager -->
+    <string name="idle_manager_title">Quản lý chế độ chờ</string>
+    <string name="idle_manager_summary">Dừng tất cả các tiến trình nền không cần thiết khi thiết bị ở chế độ chờ</string>
+
+    <!-- Wifi/Bluetooth auto timeout -->
+    <string name="wifi_timeout">Thời gian chờ WiFi</string>
+    <string name="wifi_timeout_summary">Không tự động tắt WiFi</string>
+    <string name="wifi_timeout_summary_auto">WiFi sẽ tắt sau <xliff:g id="timeout_description">%1$s</xliff:g> nếu không có mạng nào kết nối</string>
+    <string name="bluetooth_timeout">Thời gian chờ Bluetooth</string>
+    <string name="bluetooth_timeout_summary">Không tự động tắt Bluetooth</string>
+    <string name="bluetooth_timeout_summary_auto">Bluetooth sẽ tắt sau <xliff:g id="timeout_description">%1$s</xliff:g> nếu không có thiết bị nào kết nối</string>
+
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Cho phép truy cập mạng</string>
+    <string name="data_usage_app_restrict_all_summary">Bật sử dụng mạng</string>
+    <string name="data_usage_app_restrict_mobile">Dữ liệu di động</string>
+    <string name="data_usage_app_restrict_mobile_summary">Bật sử dụng dữ liệu di động</string>
+    <string name="data_usage_app_restrict_vpn">Dữ liệu VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Bật sử dụng dữ liệu VPN</string>
+    <string name="data_usage_app_restrict_wifi">Dữ liệu Wi-Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Bật sử dụng dữ liệu WiF-</string>
 </resources>
