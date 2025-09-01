@@ -402,4 +402,15 @@
     <string name="cycle_type_weekly_sub">Ngày trong tuần:\n1 = Thứ hai</string>
     <string name="cycle_type_daily_title">Giờ đặt lại chu kỳ sử dụng</string>
     <string name="cycle_type_daily_sub">Giờ trong ngày:</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
+    <string name="increasing_ring_min_volume_title">Start volume</string>
+    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">Volume Steps</string>
+    <string name="volume_steps_summary">Control the granularity of each stream</string>
+    <string name="max_music_volume_title">Media</string>
+    <string name="max_call_volume_title">Calls</string>
+    <string name="max_alarm_volume_title">Alarms</string>
+    <string name="steps_unit">steps</string>
 </resources>
