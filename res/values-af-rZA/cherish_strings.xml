@@ -19,7 +19,7 @@
     <!-- Maintainer -->
     <string name="maintainer">Maintainer</string>
     <!-- About phone screen, Cherish OS version -->
-    <string name="cherish_version">Cherish version</string>
+    <string name="cherish_version">CherishOS version</string>
     <string name="cherish_version_default">Unknown</string>
     <string name="keywords_cherish_version">CherishOS version, cherish version</string>
     <!-- About phone screen, build date -->
@@ -225,7 +225,7 @@
     <!-- Per-app volume -->
     <string name="app_volume">App volume</string>
     <string name="app_volume_title">Per-app volume control</string>
-    <string name="app_volume_summary">Allow to set different volume levels for each app</string>
+    <string name="app_volume_summary">Show per-app volume button into volume dialog</string>
     <!-- Navigation bar hint -->
     <string name="navbar_category">Navigation bar</string>
     <string name="hide_navbar_gesture_bar_title">Hide gesture bar</string>
@@ -273,7 +273,7 @@
     <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
     <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
     <!-- Torch Power button gestures -->
-    <string name="power_button_torch_title">Quick torch</string>
+    <string name="power_button_torch_title">Quickly enable torch</string>
     <string name="use_power_button_torch_title">Use screen-off quick torch</string>
     <string name="use_power_button_torch_summary">When the screen is off, the torch can be enabled with one of the following key combinations</string>
     <string name="gesture_power_button_torch_category_title">When the screen is off, the torch is enabled by</string>
@@ -307,7 +307,7 @@
     <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
     <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>
     <string name="wifi_hotspot_client_manager_title">Connected devices</string>
-    <string name="wifi_hotspot_client_manager_summary">List and manage devices connected to the hotspot, and set the limit of the number of clients</string>
+    <string name="wifi_hotspot_client_manager_summary">List and manage devices connected to the hotspot</string>
     <string name="wifi_hotspot_client_manager_list_only_summary">List devices connected to the hotspot</string>
     <string name="wifi_hotspot_client_limit_title">Limit of connected devices</string>
     <string name="wifi_hotspot_blocked_clients_list_title">Blocked Devices</string>
@@ -316,16 +316,12 @@
     <string name="wifi_hotspot_block_client_dialog_text">This action will disconnect \"<xliff:g id="device_name">%1$s</xliff:g>\" from this device and add it to blocklist</string>
     <string name="wifi_hotspot_unblock_client_dialog_title">Unblock device</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">The device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
-    <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when avaialable.</string>
+    <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when available.</string>
     <string name="wifi_band_24ghz_and_5ghz">2.4 GHz &amp; 5 GHz</string>
     <string name="wifi_band_24ghz_and_6ghz">2.4 GHz &amp; 6 GHz</string>
     <plurals name="wifi_hotspot_client_limit_summary">
-        <item quantity="zero">Up to <xliff:g id="device_num">%1$d</xliff:g> devices can connect to this hotspot</item>
         <item quantity="other">Up to <xliff:g id="device_num">%1$d</xliff:g> devices can connect to this hotspot</item>
         <item quantity="one">Up to <xliff:g id="device_num">%1$d</xliff:g> device can connect to this hotspot</item>
-        <item quantity="two">Up to <xliff:g id="device_num">%1$d</xliff:g> devices can connect to this hotspot</item>
-        <item quantity="few">Up to <xliff:g id="device_num">%1$d</xliff:g> devices can connect to this hotspot</item>
-        <item quantity="many">Up to <xliff:g id="device_num">%1$d</xliff:g> devices can connect to this hotspot</item>
     </plurals>
     <string name="custom_timeout_summary_never">Never</string>
     <string name="custom_timeout_summary_5secs">5 seconds</string>
@@ -353,11 +349,7 @@
     <!-- App lock -->
     <string name="app_lock_title">App lock</string>
     <plurals name="app_lock_summary">
-        <item quantity="zero"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
         <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> application is protected</item>
-        <item quantity="two"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
-        <item quantity="few"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
-        <item quantity="many"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
         <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
     </plurals>
     <string name="app_lock_authentication_dialog_title">Unlock</string>
