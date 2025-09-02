@@ -5,15 +5,15 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Backup Transport selection settings menu and activity title -->
-    <string name="backup_transport_setting_label">Change backup provider</string>
-    <string name="backup_transport_title">Select backup provider</string>
+    <string name="backup_transport_setting_label">Сменить поставщика резервного копирования</string>
+    <string name="backup_transport_title">Выбрать поставщика резервного копирования</string>
     <!-- SELinux Status -->
     <string name="selinux_status">Режим SELinux</string>
     <string name="selinux_status_disabled">Отключён</string>
     <string name="selinux_status_permissive">Разрешающий</string>
     <string name="selinux_status_enforcing">Принудительный</string>
     <!-- Density category -->
-    <string name="density_category">Density options</string>
+    <string name="density_category">Параметры плотности</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Гугл плей</string>
     <!-- Maintainer -->
@@ -27,61 +27,61 @@
     <string name="build_date_default">2015-01-01-0000</string>
     <string name="keywords_build_date">дата сборки, информация о сборке</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Locate the fingerprint sensor on the back of your tablet.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Locate the fingerprint sensor on the back of your device.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Locate the fingerprint sensor on the back of your phone.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Locate the fingerprint sensor on the side of your tablet.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Locate the fingerprint sensor on the side of your device.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Locate the fingerprint sensor on the side of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Найдите отпечаток пальца на лицевой панели вашего планшета.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Найдите отпечаток пальца на лицевой панели вашего устройства.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Найдите отпечаток пальца на лицевой панели вашего телефона.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Найдите отпечаток пальца на задней панели вашего планшета.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Найдите отпечаток пальца на задней панели вашего устройства.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Найдите отпечаток пальца на задней панели вашего телефона.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Найдите отпечаток пальца на боковой панели вашего планшета.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Найдите отпечаток пальца на боковой панели вашего устройства.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Найдите отпечаток пальца на боковой панели вашего телефона.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Touch the sensor on the front of your tablet.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Touch the sensor on the front of your device.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Touch the sensor on the front of your phone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Touch the sensor on the back of your tablet.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Touch the sensor on the back of your device.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Touch the sensor on the back of your phone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Touch the sensor on the side of your tablet.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Touch the sensor on the side of your device.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Touch the sensor on the side of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Коснитесь сенсора на лицевой панели вашего планшета.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Коснитесь сенсора на лицевой панели вашего устройства.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Коснитесь сенсора на лицевой панели вашего телефона.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Коснитесь сенсора на задней панели вашего планшета.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Коснитесь сенсора на задней панели вашего устройства.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Коснитесь сенсора на задней панели вашего телефона.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Коснитесь сенсора на боковой панели вашего планшета.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Коснитесь сенсора на боковой панели вашего устройства.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Коснитесь сенсора на боковой панели вашего телефона.</string>
     <!-- Description for require screen on to auth toggle shown in fingerprint enrollment dialog once enrollment is completed.
          Only for devices that support checking proximity prior to allowing fingerprint unlock. -->
-    <string name="security_settings_require_screen_on_to_auth_with_proximity_description">Touch the sensor to unlock, even when the screen is off. Proximity sensor prevents accidental unlocking.</string>
+    <string name="security_settings_require_screen_on_to_auth_with_proximity_description">Коснитесь сенсора чтобы разблокировать, даже когда экран выключен. Датчик приближения предотвращает случайную разблокировку.</string>
     <!-- Battery Info: Technology -->
-    <string name="battery_technology">Technology</string>
+    <string name="battery_technology">Технология</string>
     <!-- Battery Info: Health -->
-    <string name="battery_health">Health</string>
-    <string name="battery_health_good">Good</string>
-    <string name="battery_health_overheat">Overheat</string>
-    <string name="battery_health_dead">Dead</string>
-    <string name="battery_health_over_voltage">Over voltage</string>
-    <string name="battery_health_unspecified_failure">Unspecified failure</string>
-    <string name="battery_health_cold">Cold</string>
-    <string name="battery_health_unknown">Unknown</string>
+    <string name="battery_health">Здоровье</string>
+    <string name="battery_health_good">Хорошее</string>
+    <string name="battery_health_overheat">Перегретое</string>
+    <string name="battery_health_dead">Умирающие</string>
+    <string name="battery_health_over_voltage">Высокое напряжение</string>
+    <string name="battery_health_unspecified_failure">Неизвестная ошибка</string>
+    <string name="battery_health_cold">Холодное</string>
+    <string name="battery_health_unknown">Неизвестное</string>
     <!-- Battery Info: Temperature -->
-    <string name="battery_temperature">Temperature</string>
+    <string name="battery_temperature">Температура</string>
     <!-- Battery Info: Voltage -->
-    <string name="battery_voltage">Voltage</string>
+    <string name="battery_voltage">Напряжение</string>
     <!-- Battery Info: Charge Counter -->
-    <string name="battery_charge_counter_summary">%1$d mAh</string>
+    <string name="battery_charge_counter_summary">%1$d мАч</string>
     <!-- Battery Info: Design Capacity -->
-    <string name="battery_design_capacity">Design capacity</string>
-    <string name="battery_design_capacity_summary">%1$d mAh</string>
+    <string name="battery_design_capacity">Расчетная ёмкость</string>
+    <string name="battery_design_capacity_summary">%1$d мАч</string>
     <!-- Battery Info: Maximum Capacity -->
-    <string name="battery_maximum_capacity">Maximum capacity</string>
-    <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>
+    <string name="battery_maximum_capacity">Максимальная ёмкость</string>
+    <string name="battery_maximum_capacity_summary">%1$d мАч (%2$d%%)</string>
     <!-- Wi-Fi MAC address randomization -->
-    <string name="wifi_per_connection_random_mac_addr">Use per-connection randomized MAC (default)</string>
-    <string name="wifi_per_network_random_mac_addr">Use per-network randomized MAC</string>
-    <string name="wifi_device_mac_addr">Use device MAC</string>
+    <string name="wifi_per_connection_random_mac_addr">Случайный MAC адрес (по умолчанию)</string>
+    <string name="wifi_per_network_random_mac_addr">Случайный MAC адрес для каждой сети</string>
+    <string name="wifi_device_mac_addr">Использовать MAC адрес устройства</string>
     <!-- Hardware info -->
-    <string name="soc_model">SoC Model</string>
-    <string name="total_ram">Total RAM</string>
+    <string name="soc_model">Модель SoC</string>
+    <string name="total_ram">Всего ОЗУ</string>
     <!-- Charging vibration -->
-    <string name="charging_sounds_custom_title">Charging sound</string>
-    <string name="charging_vibro_title">Charging vibration</string>
+    <string name="charging_sounds_custom_title">Звук при зарядке</string>
+    <string name="charging_vibro_title">Вибрация при зарядке</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">Проведите для скриншота</string>
     <string name="swipe_to_screenshot_gesture_summary">Проведите тремя пальцами для создания скриншота</string>
@@ -89,13 +89,13 @@
     <string name="cherish_settings_title">Настройки CherishOS</string>
     <string name="cherish_settings_summary">Чтобы стать счастливым - нужно действовать</string>
     <!-- Lock screen pattern size -->
-    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
+    <string name="lock_settings_picker_pattern_size_message"></string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+    <string name="lockpattern_settings_enable_error_path_title">Показать ошибку шаблона</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+    <string name="lockpattern_settings_enable_dots_title">Отобразить точки узора</string>
     <!-- Auto pin confirm -->
-    <string name="lock_screen_auto_pin_confirm_summary_custom">Unlock automatically if you input a correct PIN. This is slightly less secure than tapping Enter to confirm.</string>
+    <string name="lock_screen_auto_pin_confirm_summary_custom">Автоматическая разблокировка при вводе правильного PIN. Это немного менее безопасно, чем подтверждение нажатием клавиши Enter.</string>
     <!-- High touch sensitivity -->
     <string name="high_touch_sensitivity_title">Высокая чувствительность касаний</string>
     <string name="high_touch_sensitivity_summary">Увеличивает чувствительность экрана для возможности работы в перчатках</string>
@@ -115,8 +115,8 @@
     <string name="live_display_summary">Оптимизировать экран в зависимости от времени суток и условий окружающей среды для улучшения читаемости и снижения утомляемости глаз</string>
     <string name="live_display_mode">Режим отображения</string>
     <string name="live_display_color_temperature_title">Цветовая температура</string>
-    <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
-    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_summary">Днём: <xliff:g id="day_temperature">%1$d</xliff:g>K Ночью: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g> K</string>
     <string name="live_display_day">День</string>
     <string name="live_display_night">Ночь</string>
     <string name="live_display_outdoor_mode_title">Автоматический режим для улицы</string>
