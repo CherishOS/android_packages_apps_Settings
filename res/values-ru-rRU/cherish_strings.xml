@@ -13,9 +13,9 @@
     <string name="selinux_status_permissive">Разрешающий</string>
     <string name="selinux_status_enforcing">Принудительный</string>
     <!-- Density category -->
-    <string name="density_category">Параметры плотности</string>
+    <string name="density_category">Настройки плотности</string>
     <!-- App details: open play store link if app is user installed -->
-    <string name="app_play_store">Гугл плей</string>
+    <string name="app_play_store">Google Play</string>
     <!-- Maintainer -->
     <string name="maintainer">Сопровождающий</string>
     <!-- About phone screen, Cherish OS version -->
@@ -193,35 +193,35 @@
     <string name="light_brightness_zen">Не беспокоить</string>
     <!-- Battery light settings -->
     <string name="battery_light_title">Индикатор батареи</string>
-    <string name="battery_light_summary">Customize battery charging light behaviour</string>
-    <string name="battery_light_enable_title">Enable battery light</string>
-    <string name="battery_low_pulse_title">Pulse if battery low</string>
-    <string name="battery_light_full_charge_disabled_title">Turn off when fully charged</string>
+    <string name="battery_light_summary">Настройка индикатора зарядки батареи</string>
+    <string name="battery_light_enable_title">Включить индикацию батареи</string>
+    <string name="battery_low_pulse_title">Мигать при разряженной батареи</string>
+    <string name="battery_light_full_charge_disabled_title">Выключать при полном заряде</string>
     <string name="battery_light_list_title">Цвета</string>
     <string name="battery_light_low_color_title">Низкий заряд батареи</string>
     <string name="battery_light_medium_color_title">Заряжается</string>
     <string name="battery_light_full_color_title">Полностью заряжен</string>
     <!-- Lights settings screen, notification light settings -->
     <string name="notification_light_title">Световой индикатор уведомлений</string>
-    <string name="notification_light_summary">Customize Notification light behaviour</string>
-    <string name="notification_light_enable_title">Enable notification light</string>
-    <string name="notification_light_general_title">General</string>
-    <string name="notification_light_advanced_title">Advanced</string>
-    <string name="notification_light_applist_title">Apps</string>
+    <string name="notification_light_summary">Настройка индикатора событий</string>
+    <string name="notification_light_enable_title">Включить индикатор событий</string>
+    <string name="notification_light_general_title">Основные</string>
+    <string name="notification_light_advanced_title">Дополнительно</string>
+    <string name="notification_light_applist_title">Приложения</string>
     <string name="notification_light_phonelist_title">Телефон</string>
-    <string name="notification_light_use_custom">Use custom values</string>
-    <string name="notification_light_default_value">Default</string>
-    <string name="notification_light_missed_call_title">Missed call</string>
-    <string name="notification_light_voicemail_title">Voicemail</string>
-    <string name="notification_light_screen_on">Lights with screen on</string>
-    <string name="notification_light_zen_mode">Lights in Do Not Disturb mode</string>
-    <string name="keywords_lights_brightness_level">dim leds brightness</string>
+    <string name="notification_light_use_custom">Использовать кастомные значения</string>
+    <string name="notification_light_default_value">По умолчанию</string>
+    <string name="notification_light_missed_call_title">Пропущенный вызов</string>
+    <string name="notification_light_voicemail_title">Голосовое сообщение</string>
+    <string name="notification_light_screen_on">Индикация при включенном экране</string>
+    <string name="notification_light_zen_mode">Индикация в режиме Не беспокоить</string>
+    <string name="keywords_lights_brightness_level">Яркость индикатора событий</string>
     <string name="notification_light_automagic">Выбирать цвета автоматически</string>
-    <string name="notification_light_automagic_summary">Choosing colors automatically</string>
+    <string name="notification_light_automagic_summary">Автоматический выбор цветов</string>
     <!-- Lights settings, LED notification -->
-    <string name="led_notification_title">Light settings</string>
-    <string name="led_notification_text">LED light enabled by settings</string>
-    <string name="notification_light_add_apps_empty_summary">To add per app control, activate \'%1$s\' and press \'Add\'</string>
+    <string name="led_notification_title">Настройки индикатора событий</string>
+    <string name="led_notification_text">Индикатор событий включен в настройках</string>
+    <string name="notification_light_add_apps_empty_summary">Чтобы добавить управление приложениями, активируйте \'%1$s\' и нажмите \'Добавить\'</string>
     <!-- Per-app volume -->
     <string name="app_volume">Громкость приложения</string>
     <string name="app_volume_title">Громкость для каждого приложения</string>
@@ -232,12 +232,12 @@
     <string name="hide_navbar_gesture_bar_summary">Скрыть панель жестов в нижней части экрана</string>
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">Длина навигационной панели жестов</string>
-    <string name="short_label">Short</string>
+    <string name="short_label">Короче</string>
     <string name="long_label">Длинная</string>
     <!-- Back gesture height -->
     <string name="back_height_low_label">Полный</string>
     <string name="back_height_high_label">Нижний</string>
-    <string name="back_height_title">Back gesture height</string>
+    <string name="back_height_title">Высота жеста назад</string>
     <string name="back_height_summary">Screen height valid for back gesture</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Back gesture animation</string>
@@ -326,19 +326,19 @@
         <item quantity="many">Up to <xliff:g id="device_num">%1$d</xliff:g> devices can connect to this hotspot</item>
     </plurals>
     <string name="custom_timeout_summary_never">Never</string>
-    <string name="custom_timeout_summary_5secs">5 seconds</string>
-    <string name="custom_timeout_summary_10secs">10 seconds</string>
-    <string name="custom_timeout_summary_15secs">15 seconds</string>
-    <string name="custom_timeout_summary_30secs">30 seconds</string>
-    <string name="custom_timeout_summary_1min">1 minute</string>
-    <string name="custom_timeout_summary_2mins">2 minutes</string>
-    <string name="custom_timeout_summary_5mins">5 minutes</string>
-    <string name="custom_timeout_summary_10mins">10 minutes</string>
-    <string name="custom_timeout_summary_30mins">30 minutes</string>
-    <string name="custom_timeout_summary_1hour">1 hour</string>
-    <string name="custom_timeout_summary_2hours">2 hours</string>
-    <string name="custom_timeout_summary_4hours">4 hours</string>
-    <string name="custom_timeout_summary_8hours">8 hours</string>
+    <string name="custom_timeout_summary_5secs">5 секунд</string>
+    <string name="custom_timeout_summary_10secs">10 секунд</string>
+    <string name="custom_timeout_summary_15secs">15 секунд</string>
+    <string name="custom_timeout_summary_30secs">30 секунд</string>
+    <string name="custom_timeout_summary_1min">1 минута</string>
+    <string name="custom_timeout_summary_2mins">2 минуты</string>
+    <string name="custom_timeout_summary_5mins">5 минут</string>
+    <string name="custom_timeout_summary_10mins">10 минут</string>
+    <string name="custom_timeout_summary_30mins">30 минут</string>
+    <string name="custom_timeout_summary_1hour">1 час</string>
+    <string name="custom_timeout_summary_2hours">2 часа</string>
+    <string name="custom_timeout_summary_4hours">4 часа</string>
+    <string name="custom_timeout_summary_8hours">8 часов</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Show Ambient</string>
     <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
@@ -413,10 +413,10 @@
     <string name="increasing_ring_min_volume_title">Start volume</string>
     <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
     <!-- Volume Steps -->
-    <string name="volume_steps_title">Volume Steps</string>
-    <string name="volume_steps_summary">Control the granularity of each stream</string>
-    <string name="max_music_volume_title">Media</string>
-    <string name="max_call_volume_title">Calls</string>
-    <string name="max_alarm_volume_title">Alarms</string>
-    <string name="steps_unit">steps</string>
+    <string name="volume_steps_title">Уровни громкости</string>
+    <string name="volume_steps_summary">Контролируйте детализацию каждого потока</string>
+    <string name="max_music_volume_title">Медиа</string>
+    <string name="max_call_volume_title">Звонки</string>
+    <string name="max_alarm_volume_title">Будильник</string>
+    <string name="steps_unit">этапы</string>
 </resources>
