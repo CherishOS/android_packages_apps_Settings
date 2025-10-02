@@ -422,4 +422,6 @@
     <string name="refresh_rate_footer">Tốc độ làm mới cao hơn giúp màn hình hiển thị mượt mà hơn nhưng lại tăng mức tiêu thụ điện năng</string>
     <string name="keywords_refresh_rate">làm mới, tốc độ, mượt mà, cao điểm, 60hz, 90hz, 120hz, 144hz, 165hz</string>
     <string name="peak_refresh_rate_summary_custom">Tự động tăng tốc độ làm mới từ 60 lên %1$d Hz đối với một số nội dung. Làm tăng mức sử dụng pin.</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">Thông tin sóng điện thoại</string>
 </resources>
