@@ -77,7 +77,7 @@
     <string name="wifi_per_network_random_mac_addr">Sử dụng MAC ngẫu nhiên theo mạng</string>
     <string name="wifi_device_mac_addr">Sử dụng MAC của thiết bị</string>
     <!-- Hardware info -->
-    <string name="device_market_name">Market Name</string>
+    <string name="device_market_name">Tên thương mại</string>
     <string name="soc_model">Mẫu SoC</string>
     <string name="total_ram">Tổng dung lượng RAM</string>
     <!-- Charging vibration -->
