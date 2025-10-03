@@ -77,6 +77,7 @@
     <string name="wifi_per_network_random_mac_addr">Use per-network randomized MAC</string>
     <string name="wifi_device_mac_addr">Use device MAC</string>
     <!-- Hardware info -->
+    <string name="device_market_name">Market Name</string>
     <string name="soc_model">SoC Model</string>
     <string name="total_ram">Total RAM</string>
     <!-- Charging vibration -->
