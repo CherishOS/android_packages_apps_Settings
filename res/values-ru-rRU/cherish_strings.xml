@@ -77,6 +77,7 @@
     <string name="wifi_per_network_random_mac_addr">Случайный MAC адрес для каждой сети</string>
     <string name="wifi_device_mac_addr">Использовать MAC адрес устройства</string>
     <!-- Hardware info -->
+    <string name="device_market_name">Market Name</string>
     <string name="soc_model">Модель SoC</string>
     <string name="total_ram">Всего ОЗУ</string>
     <!-- Charging vibration -->
