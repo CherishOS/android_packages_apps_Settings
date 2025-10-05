@@ -340,6 +340,10 @@
     <string name="custom_timeout_summary_2hours">2 часа</string>
     <string name="custom_timeout_summary_4hours">4 часа</string>
     <string name="custom_timeout_summary_8hours">8 часов</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Less than 1 Minute</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s today</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">Show Ambient</string>
     <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
@@ -431,4 +435,25 @@
     <string name="peak_refresh_rate_summary_custom">Automatically raises the refresh rate from 60 to %1$d Hz for some content. Increases battery usage.</string>
     <!-- Radio Info -->
     <string name="radio_info_title">Radio info</string>
+    <!-- HDR Display -->
+    <string name="hdr_display_title">Enhanced HDR brightness</string>
+    <string name="hdr_display_summary">Brighten and expand the color range and clarity in High Dynamic Range (HDR) images and videos. HDR content will appear brighter. This will increase battery usage</string>
+    <!-- Battery Saver -->
+    <string name="adaptive_battery_switch_title">Use Adaptive Battery</string>
+    <string name="basic_battery_saver_title">Standard Battery Saver</string>
+    <string name="basic_battery_saver_summary">Limits visual effects and background activity. Turns on Dark theme, if not already on.</string>
+    <string name="battery_saver_reminder_category">Reminders</string>
+    <string name="battery_saver_reminder_switch_title">Battery Saver reminders</string>
+    <string name="battery_saver_reminder_switch_summary">Get reminders when battery is low</string>
+    <string name="battery_saver_schedule_category">Schedule</string>
+    <string name="battery_saver_schedule_switch_title">Turn on based on battery level</string>
+    <string name="battery_saver_schedule_switch_summary">Battery Saver turns on when battery falls to a level you set</string>
+    <string name="battery_schedule_title">Schedule and reminders</string>
+    <string name="battery_schedule_summary">Manage when Battery Saver turns on</string>
+    <string name="extreme_battery_saver_title">Extreme Battery Saver</string>
+    <string name="extreme_battery_saver_summary">Includes all changes listed above. Also pauses non-essential apps and their notifications.</string>
+    <string name="smart_battery_a11y_expand_label">Expand, Adaptive Battery</string>
+    <string name="smart_battery_a11y_collapse_label">Collapse, Adaptive Battery</string>
+    <string name="smart_battery_title">Adaptive Battery</string>
+    <string name="unified_battery_saver_page_intro">Save power to help your phone battery last longer between charges</string>
 </resources>
