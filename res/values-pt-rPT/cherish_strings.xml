@@ -452,4 +452,7 @@
     <string name="smart_battery_a11y_collapse_label">Collapse, Adaptive Battery</string>
     <string name="smart_battery_title">Adaptive Battery</string>
     <string name="unified_battery_saver_page_intro">Save power to help your phone battery last longer between charges</string>
+    <!-- Pulse on music track change -->
+    <string name="pulse_on_new_tracks_title">Music ticker</string>
+    <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played</string>
 </resources>
