@@ -78,10 +78,10 @@
     <string name="wifi_device_mac_addr">使用设备 MAC 地址</string>
     <!-- Hardware info -->
     <string name="device_market_name">Market Name</string>
-    <string name="soc_model">SoC Model</string>
+    <string name="soc_model">SoC 型号</string>
     <string name="total_ram">Total RAM</string>
     <!-- Charging vibration -->
-    <string name="charging_sounds_custom_title">Charging sound</string>
+    <string name="charging_sounds_custom_title">充电音效</string>
     <string name="charging_vibro_title">Charging vibration</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">滑动截图</string>
@@ -323,22 +323,22 @@
     <plurals name="wifi_hotspot_client_limit_summary">
         <item quantity="other">Up to <xliff:g id="device_num">%1$d</xliff:g> devices can connect to this hotspot</item>
     </plurals>
-    <string name="custom_timeout_summary_never">Never</string>
-    <string name="custom_timeout_summary_5secs">5 seconds</string>
-    <string name="custom_timeout_summary_10secs">10 seconds</string>
-    <string name="custom_timeout_summary_15secs">15 seconds</string>
-    <string name="custom_timeout_summary_30secs">30 seconds</string>
-    <string name="custom_timeout_summary_1min">1 minute</string>
-    <string name="custom_timeout_summary_2mins">2 minutes</string>
-    <string name="custom_timeout_summary_5mins">5 minutes</string>
-    <string name="custom_timeout_summary_10mins">10 minutes</string>
-    <string name="custom_timeout_summary_30mins">30 minutes</string>
-    <string name="custom_timeout_summary_1hour">1 hour</string>
-    <string name="custom_timeout_summary_2hours">2 hours</string>
-    <string name="custom_timeout_summary_4hours">4 hours</string>
-    <string name="custom_timeout_summary_8hours">8 hours</string>
+    <string name="custom_timeout_summary_never">永不</string>
+    <string name="custom_timeout_summary_5secs">5秒</string>
+    <string name="custom_timeout_summary_10secs">10秒</string>
+    <string name="custom_timeout_summary_15secs">15秒</string>
+    <string name="custom_timeout_summary_30secs">30秒</string>
+    <string name="custom_timeout_summary_1min">1分钟</string>
+    <string name="custom_timeout_summary_2mins">2分钟</string>
+    <string name="custom_timeout_summary_5mins">5分钟</string>
+    <string name="custom_timeout_summary_10mins">10分钟</string>
+    <string name="custom_timeout_summary_30mins">30分钟</string>
+    <string name="custom_timeout_summary_1hour">1小时</string>
+    <string name="custom_timeout_summary_2hours">2小时</string>
+    <string name="custom_timeout_summary_4hours">4小时</string>
+    <string name="custom_timeout_summary_8hours">8小时</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
-    <string name="duration_less_than_one_minute">Less than 1 Minute</string>
+    <string name="duration_less_than_one_minute">少于一分钟</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s today</string>
     <!-- Ambient wake toggles -->
@@ -355,10 +355,10 @@
     <plurals name="app_lock_summary">
         <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
     </plurals>
-    <string name="app_lock_authentication_dialog_title">Unlock</string>
-    <string name="enable_debugging">Enable debugging</string>
-    <string name="disable_debugging">Disable debugging</string>
-    <string name="app_lock_packages_title">Protected apps</string>
+    <string name="app_lock_authentication_dialog_title">解锁</string>
+    <string name="enable_debugging">启用Debug</string>
+    <string name="disable_debugging">禁用Debug</string>
+    <string name="app_lock_packages_title">受保护的app</string>
     <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
     <string name="app_lock_timeout_title">Auto lock timeout</string>
     <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
@@ -367,7 +367,7 @@
     <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
     <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
     <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
-    <string name="enable_protection">Enable protection</string>
+    <string name="enable_protection">启用保护</string>
     <string name="hide_from_launcher_title">Hide from launcher</string>
     <string name="hide_from_launcher_summary">Prevent this application from showing up in any launcher. Requires a launcher restart for changes to take effect.</string>
     <!-- Max refresh rate -->
@@ -379,10 +379,10 @@
     <string name="idle_manager_summary">Stop all non-essential background processes when the device is idle</string>
     <!-- Wifi/Bluetooth auto timeout -->
     <string name="wifi_timeout">WiFi timeout</string>
-    <string name="wifi_timeout_summary">Do not automatically turn off WiFi</string>
+    <string name="wifi_timeout_summary">禁止自动关闭WiFi</string>
     <string name="wifi_timeout_summary_auto">WiFi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
     <string name="bluetooth_timeout">Bluetooth timeout</string>
-    <string name="bluetooth_timeout_summary">Do not automatically turn off Bluetooth</string>
+    <string name="bluetooth_timeout_summary">禁止自动关闭蓝牙</string>
     <string name="bluetooth_timeout_summary_auto">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_all">Allow network access</string>
